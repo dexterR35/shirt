@@ -1,0 +1,78 @@
+{
+  "task_id": "research_b5291cd8caf6c4ca6dfc",
+  "team_id": "team_6b5cdb77dc2cf718a74b",
+  "team_name": "Cambridge United",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "source_id": "S03",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 57,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Cambridge_United_F.C.",
+      "source_id": "C032",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 57,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 23,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c11665a05b726a6afc3d.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cambridge_United_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f428417ea2d4b860905b.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Cambridge United\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:53.230Z",
+    "response_path": "data/research/discovery/batch-026.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

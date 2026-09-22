@@ -1,0 +1,78 @@
+{
+  "task_id": "research_68259e3b0adfe7877653",
+  "team_id": "team_7a58e9a852058b54ab08",
+  "team_name": "La Roche Vendée Football",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "source_id": "S14",
+      "publisher": "French Football Federation (FFF)",
+      "evidence_type": "Official",
+      "notes": "Ligue 3 is the current 2026/27 name of the third tier, formerly Championnat National.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 357,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Vend%C3%A9e_Foot_Club_La_Roche-sur-Yon",
+      "source_id": "C135",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Source uses the newer name Vendee FC La Roche-sur-Yon; original workbook name retained.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 357,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 331,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/76156a26b769a24d2ae8.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Vend%C3%A9e_Foot_Club_La_Roche-sur-Yon",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/10f7d388db584e8fd893.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"La Roche Vendée Football\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:59.571Z",
+    "response_path": "data/research/discovery/batch-176.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

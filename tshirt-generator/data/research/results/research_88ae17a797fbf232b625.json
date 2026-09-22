@@ -1,0 +1,78 @@
+{
+  "task_id": "research_88ae17a797fbf232b625",
+  "team_id": "team_9cb16d5eb5877f846ea6",
+  "team_name": "Eldense",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "source_id": "S05",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 104,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://es.wikipedia.org/wiki/Club_Deportivo_Eldense",
+      "source_id": "C073",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 104,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 104,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9963c008a47b02cb5ac1.json"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Club_Deportivo_Eldense",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dd175ad15843b703b15c.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Eldense\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:45.572Z",
+    "response_path": "data/research/discovery/batch-049.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

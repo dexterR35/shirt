@@ -1,0 +1,35 @@
+{
+  "name": "tshirt-generator-codex",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local football shirt SVG studio with source-preserving kit research.",
+  "scripts": {
+    "data:prepare": "node scripts/prepare-data.mjs",
+    "data:verify": "node scripts/verify-data.mjs",
+    "starter:generate": "node scripts/generate-starter.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run catalog:build && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "catalog:build": "node scripts/build-catalog.mjs",
+    "base:analyze": "node scripts/analyze-base.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test",
+    "research:links": "node scripts/check-seed-links.mjs",
+    "research:checkpoint": "node scripts/checkpoint-research.mjs"
+  },
+  "dependencies": {
+    "fflate": "0.8.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "sharp": "0.35.4",
+    "vite": "8.3.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

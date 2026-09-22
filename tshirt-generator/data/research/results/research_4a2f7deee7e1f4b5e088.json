@@ -1,0 +1,78 @@
+{
+  "task_id": "research_4a2f7deee7e1f4b5e088",
+  "team_id": "team_8c0c7a84f5239464e1ed",
+  "team_name": "Porto",
+  "country_name": "Portugal",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 700,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "source_id": "C199",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2001. Traditional home palette; source dated 2001.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 700,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 702,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e0d252cfd7d494140ffe.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Porto\" Portugal 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:33.629Z",
+    "response_path": "data/research/discovery/batch-339.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

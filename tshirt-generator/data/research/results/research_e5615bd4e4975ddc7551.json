@@ -1,0 +1,78 @@
+{
+  "task_id": "research_e5615bd4e4975ddc7551",
+  "team_id": "team_9c3546c932842f201734",
+  "team_name": "UD Ibiza",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "source_id": "S06",
+      "publisher": "Royal Spanish Football Federation",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 153,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Ibiza",
+      "source_id": "C238",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Traditional kit reference",
+      "notes": "The reference describes the traditional home shirt and shorts, not an official secondary brand colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 153,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 147,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "status": 403,
+      "error": null,
+      "record_path": "data/research/link-checks/0d749107bede7ac8561d.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Ibiza",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f57e8160d229bf28c80d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"UD Ibiza\" Spain 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:30:34.152Z",
+    "response_path": "data/research/discovery/batch-074.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_0aae75d40c964bf5da1d",
+  "team_id": "team_86a2cffbb127319fef26",
+  "team_name": "Ostiamare",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 225,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Associazione_Sportiva_Ostia_Mare_Lido_Calcio",
+      "source_id": "C163",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 225,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 219,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Associazione_Sportiva_Ostia_Mare_Lido_Calcio",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/106796ce7f67be006b80.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Ostiamare\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:31:46.035Z",
+    "response_path": "data/research/discovery/batch-110.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

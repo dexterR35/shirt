@@ -1,0 +1,78 @@
+{
+  "task_id": "research_44d01011c46cf87b3ee2",
+  "team_id": "team_98fac2d0056268d040a4",
+  "team_name": "Lincoln City",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/news/2026/august/22/sky-bet-championship-results--table---stats/",
+      "source_id": "S02",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": "Current league table embedded in the EFL article; checked on 11 September 2026.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 35,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 35,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 39,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/news/2026/august/22/sky-bet-championship-results--table---stats/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/78f62d1595f0db2cd758.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Lincoln City\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:31.853Z",
+    "response_path": "data/research/discovery/batch-015.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_3cc4d6dd3c055cb69421",
+  "team_id": "team_5f679250a08cba530618",
+  "team_name": "Reading",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "source_id": "S03",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 69,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 69,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 58,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c11665a05b726a6afc3d.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Reading\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:06.424Z",
+    "response_path": "data/research/discovery/batch-032.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

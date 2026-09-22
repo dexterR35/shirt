@@ -1,0 +1,78 @@
+{
+  "task_id": "research_d5b41b9e2de77fb1ea34",
+  "team_id": "team_2dc90023188ec81295e8",
+  "team_name": "Bromley",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "source_id": "S03",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 55,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://teamcolorcodes.com/bromley-f-c-color-codes/",
+      "source_id": "C030",
+      "publisher": "See source",
+      "evidence_type": "Third-party palette reference",
+      "notes": "Traditional white/black pair selected from the published logo palette, which also includes tan and red; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 55,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 20,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c11665a05b726a6afc3d.json"
+    },
+    {
+      "url": "https://teamcolorcodes.com/bromley-f-c-color-codes/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a6472f5570847ca5a179.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Bromley\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:51.300Z",
+    "response_path": "data/research/discovery/batch-025.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

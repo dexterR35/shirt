@@ -1,0 +1,50 @@
+{
+  "task_id": "research_1c2cc63f9de7fc6261be",
+  "team_id": "team_6f4ff7751d9410a65ac7",
+  "team_name": "Volos",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.slgr.gr/en/teams/",
+      "source_id": "S21",
+      "publisher": "Super League Greece",
+      "evidence_type": "Official",
+      "notes": "Season selector 2026-2027; full field cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 514,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.slgr.gr/en/teams/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5751a92d9e4df6d255f2.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Volos\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:36:38.262Z",
+    "response_path": "data/research/discovery/batch-254.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

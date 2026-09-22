@@ -1,0 +1,78 @@
+{
+  "task_id": "research_acc997e31323a8ab18fa",
+  "team_id": "team_d1f4aa0d170a17e604ce",
+  "team_name": "Miltiadis Pyrgos Trifylia",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2072/matches",
+      "source_id": "S25",
+      "publisher": "Hellenic Football Federation (EPO)",
+      "evidence_type": "Official",
+      "notes": "Official group fixtures; English transliterations cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 602,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2005. Traditional club-colour reference dated 2005; current-season kit not verified.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 602,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 585,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2072/matches",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5f4dde640bdc3562145a.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Miltiadis Pyrgos Trifylia\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:38:14.621Z",
+    "response_path": "data/research/discovery/batch-298.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

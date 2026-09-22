@@ -1,0 +1,78 @@
+{
+  "task_id": "research_ca33e9b9e96e842226c5",
+  "team_id": "team_eb713b0eb0b20d3bf768",
+  "team_name": "Extremadura",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "source_id": "S06",
+      "publisher": "Royal Spanish Football Federation",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 124,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://es.wikipedia.org/wiki/Club_Deportivo_Extremadura",
+      "source_id": "C076",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Traditional kit reference",
+      "notes": "Traditional home palette of the current CD Extremadura, not the defunct Extremadura UD.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 124,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 106,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "status": 403,
+      "error": null,
+      "record_path": "data/research/link-checks/0d749107bede7ac8561d.json"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Club_Deportivo_Extremadura",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/17aadb8e274e72b85a87.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Extremadura\" Spain 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:30:05.302Z",
+    "response_path": "data/research/discovery/batch-059.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

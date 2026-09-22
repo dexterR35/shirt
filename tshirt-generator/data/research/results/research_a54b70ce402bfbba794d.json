@@ -1,0 +1,78 @@
+{
+  "task_id": "research_a54b70ce402bfbba794d",
+  "team_id": "team_7b7a5f3e54596cbe892b",
+  "team_name": "FC Jazz",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "source_id": "S30",
+      "publisher": "Football Association of Finland",
+      "evidence_type": "Official",
+      "notes": "All 12 regular-season entrants, combining the two six-team continuation groups without duplication.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 667,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/FC_Jazz_Pori",
+      "source_id": "C087",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 667,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 649,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f4893fc50fec8961d3c3.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/FC_Jazz_Pori",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f83eb7b1d803d392d1be.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Jazz\" Finland 2026 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:18.382Z",
+    "response_path": "data/research/discovery/batch-331.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

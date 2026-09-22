@@ -1,0 +1,78 @@
+{
+  "task_id": "research_0a41724caa62e94401ce",
+  "team_id": "team_b3b5e87f02cc11bd8040",
+  "team_name": "CSM Reșița",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "source_id": "S17",
+      "publisher": "Romanian Football Federation (FRF)",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 22 entrants.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 392,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba",
+      "source_id": "C061",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 392,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 407,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6c195c705e33c6f902a5.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/01adc832840550ce982f.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"CSM Reșița\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:35.545Z",
+    "response_path": "data/research/discovery/batch-193.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

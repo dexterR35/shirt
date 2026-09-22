@@ -1,0 +1,78 @@
+{
+  "task_id": "research_e6f95dbe3dae5007d3c3",
+  "team_id": "team_d69ea4d18dfb6ed32de7",
+  "team_name": "Corvinul Hunedoara",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 368,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/CS_Corvinul_Hunedoara",
+      "source_id": "C051",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 368,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 389,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CS_Corvinul_Hunedoara",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ad9d82bfe449f903d215.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Corvinul Hunedoara\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:09.100Z",
+    "response_path": "data/research/discovery/batch-181.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

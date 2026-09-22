@@ -1,0 +1,78 @@
+{
+  "task_id": "research_e01dee1201e4f9a923b1",
+  "team_id": "team_f5a63daa5cf98db2c301",
+  "team_name": "FC Argeș",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 372,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://ro.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti",
+      "source_id": "C079",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 372,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 422,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/FC_Arge%C8%99_Pite%C8%99ti",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/7634a534dc32cf0eedcd.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Argeș\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:12.853Z",
+    "response_path": "data/research/discovery/batch-183.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

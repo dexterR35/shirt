@@ -1,0 +1,78 @@
+{
+  "task_id": "research_f0ca039251463ff934f7",
+  "team_id": "team_b5d1238095a73b75086a",
+  "team_name": "Atlético Madrileño",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "source_id": "S06",
+      "publisher": "Royal Spanish Football Federation",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 140,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "source_id": "C200",
+      "publisher": "Pablo Aro Geraldes / RSSSF; thanks to George Chilvers",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of Atlético de Madrid; reserve-specific palette not independently confirmed. Parent source is a historical reference dated 2008.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 140,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 85,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "status": 403,
+      "error": null,
+      "record_path": "data/research/link-checks/0d749107bede7ac8561d.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fff2388d539d72c90529.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Atlético Madrileño\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:30:21.392Z",
+    "response_path": "data/research/discovery/batch-067.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

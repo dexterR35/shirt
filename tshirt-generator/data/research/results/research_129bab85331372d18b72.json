@@ -1,0 +1,78 @@
+{
+  "task_id": "research_129bab85331372d18b72",
+  "team_id": "team_63b2e8fefe34d8297a4a",
+  "team_name": "Burton Albion",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "source_id": "S03",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 56,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Burton_Albion_F.C.",
+      "source_id": "C031",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 56,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 22,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c11665a05b726a6afc3d.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Burton_Albion_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dd7b5abf39f78e314e72.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Burton Albion\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:51.300Z",
+    "response_path": "data/research/discovery/batch-025.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

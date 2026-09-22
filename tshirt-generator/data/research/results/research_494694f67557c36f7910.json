@@ -1,0 +1,121 @@
+{
+  "task_id": "research_494694f67557c36f7910",
+  "team_id": "team_1e3e32f4af2a1cfa28e2",
+  "team_name": "Liverpool",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "status": "ready",
+  "reason": "Source-reviewed SVG revision available.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 20,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "source_id": "C144",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "White is a historical secondary/accent colour; the usual home strip is all red.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 20,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 695,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 40,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 695,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/01804ae409c4af1af9fe.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Liverpool\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:15.977Z",
+    "response_path": "data/research/discovery/batch-007.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [],
+  "revision_path": "data/kits/team_1e3e32f4af2a1cfa28e2-away-r001.json",
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/liverpool-fc-26-27-away-jersey/KA6860.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/b9a5c63878f74b1bbfe844a1e97a6813_9366/Liverpool_FC_26-27_Away_Jersey_White_KA6860_01_laydown.jpg",
+      "local_path": "data/research/references/liverpool-away-adidas-3.jpg",
+      "checked_at": "2026-09-22T21:16:13.793Z",
+      "source_type": "official",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "updated_at": "2026-09-22T21:16:53.302Z",
+  "research_log": [
+    {
+      "date": "2026-09-22T21:16:53.302Z",
+      "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
+      "notes": "Compared manufacturer flat front and collar detail: white fabric, two red neckline bands, paired red cuff bands and red shoulder tapes. This complete short-sleeve view resolves the earlier obstructed-reference gap."
+    }
+  ]
+}

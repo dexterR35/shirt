@@ -1,0 +1,78 @@
+{
+  "task_id": "research_999f29c481c0933bf638",
+  "team_id": "team_8b9f68e120b81da17750",
+  "team_name": "Oțelul Galați II",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "source_id": "S18",
+      "publisher": "Flashscore Romania",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 1-4 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 446,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+      "source_id": "C164",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of Oțelul Galați; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 446,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 456,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/74749f7ee13bb6d7a704.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d102a2f76b234daf4229.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Oțelul Galați II\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:35:31.117Z",
+    "response_path": "data/research/discovery/batch-220.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

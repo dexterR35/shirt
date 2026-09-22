@@ -1,0 +1,78 @@
+{
+  "task_id": "research_82e3ec7bd0d20700f605",
+  "team_id": "team_8137ac0214b8abf9b8d5",
+  "team_name": "Clermont",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "source_id": "S13",
+      "publisher": "Wikipedia; Ligue 2 source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 333,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Clermont_Foot_63",
+      "source_id": "C048",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 333,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 324,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/931f8928e1a2fadd31c6.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Clermont_Foot_63",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/923864905f14be8c3d32.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Clermont\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:36.429Z",
+    "response_path": "data/research/discovery/batch-164.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

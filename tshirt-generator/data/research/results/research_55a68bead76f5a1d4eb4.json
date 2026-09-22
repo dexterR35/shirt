@@ -1,0 +1,78 @@
+{
+  "task_id": "research_55a68bead76f5a1d4eb4",
+  "team_id": "team_2c8f28526dd9ab3bd33e",
+  "team_name": "1. FC Heidenheim",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "source_id": "S10",
+      "publisher": "Bundesliga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 275,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/1._FC_Heidenheim",
+      "source_id": "C001",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "White is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 275,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 257,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a971b631ad83da251fe8.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/1._FC_Heidenheim",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a69ac1b125d7fc7f399c.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"1. FC Heidenheim\" Germany 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:32:35.254Z",
+    "response_path": "data/research/discovery/batch-135.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

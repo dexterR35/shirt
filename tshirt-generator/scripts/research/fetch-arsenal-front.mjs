@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';
+const refs=[['arsenal-home','https://assets.adidas.com/images/w_500,f_auto,q_auto/e6528a9d23f348579a16aa05dba72d2b_9366/Arsenal_FC_26-27_Home_Jersey_Red_JZ3168_21_model.jpg'],['arsenal-away','https://assets.adidas.com/images/w_500,f_auto,q_auto/33cdefe899654c798f7e339c0156c5f7_9366/Arsenal_FC_26-27_Away_Jersey_Blue_JZ3160_25_model.jpg']];
+for(const [name,url]of refs){const r=await fetch(url);if(!r.ok)throw Error(r.status);await fs.writeFile(`data/research/references/${name}-model.jpg`,Buffer.from(await r.arrayBuffer()));}await fs.writeFile('artifacts/arsenal-model-sources.json',JSON.stringify(refs,null,2));

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_cc3be88fc6fe8d1ead02",
+  "team_id": "team_d6db1a0ad6d6f9b4df40",
+  "team_name": "FC Voluntari II",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "source_id": "S19",
+      "publisher": "ProSport / Liga2.ro",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 5-8 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 458,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.the-sports.org/football-soccer-fc-voluntari-results-identity-equ44644.html",
+      "source_id": "C257",
+      "publisher": "The-Sports.org",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of FC Voluntari; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 458,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 430,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/8351f6a80f0454d08e43.json"
+    },
+    {
+      "url": "https://www.the-sports.org/football-soccer-fc-voluntari-results-identity-equ44644.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/4fc9bce34de8be6890be.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Voluntari II\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:35:42.149Z",
+    "response_path": "data/research/discovery/batch-226.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

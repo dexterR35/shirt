@@ -1,0 +1,78 @@
+{
+  "task_id": "research_027cae1921fdd1ca7c4e",
+  "team_id": "team_dccc7de9c2a0fafd097d",
+  "team_name": "FC Midtjylland",
+  "country_name": "Denmark",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "source_id": "S34",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; club names standardised to match domestic entries.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 761,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/FC_Midtjylland",
+      "source_id": "C088",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 761,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 728,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2affc3a5cd8f2045070c.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/FC_Midtjylland",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6f63132f1950ca22a0ef.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Midtjylland\" Denmark 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:40:12.671Z",
+    "response_path": "data/research/discovery/batch-359.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_aca196a17298d67944bd",
+  "team_id": "team_c5d711cb3114c6593b20",
+  "team_name": "Borussia Mönchengladbach",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "source_id": "S09",
+      "publisher": "Wikipedia; Bundesliga source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 261,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+      "source_id": "C025",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Green is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 261,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 268,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/93a85ab5668f3f09ad01.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/33f14b50d8fdcaf344f4.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Borussia Mönchengladbach\" Germany 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:32:20.580Z",
+    "response_path": "data/research/discovery/batch-128.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

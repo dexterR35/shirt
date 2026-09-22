@@ -1,0 +1,50 @@
+{
+  "task_id": "research_dac60cf66337dacf6df6",
+  "team_id": "team_ce3e0e034764393e3bbb",
+  "team_name": "Progresul Pecica",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "source_id": "S19",
+      "publisher": "ProSport / Liga2.ro",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 5-8 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 484,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/8351f6a80f0454d08e43.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Progresul Pecica\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:36:10.455Z",
+    "response_path": "data/research/discovery/batch-239.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "research_a7c95b6f8def25ee9820",
+  "team_id": "team_9729fba9a77388f456d5",
+  "team_name": "Brentford",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026–2028",
+  "status": "ready",
+  "reason": "Source-reviewed SVG revision available.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 10,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+      "source_id": "C029",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Black is an additional traditional kit colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 10,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 17,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e77f66682382473cbc12.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Brentford\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:02.606Z",
+    "response_path": "data/research/discovery/batch-002.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [],
+  "revision_path": "data/kits/team_9729fba9a77388f456d5-home-r001.json",
+  "references": [
+    {
+      "publisher": "Brentford official store",
+      "page_url": "https://shop.brentfordfc.com/kit/2628-home-kit/adult/5834_brentford-2628-adult-authentic-home-shirt.html",
+      "image_url": "https://shop.brentfordfc.com/siteimg/prodhires/5834-511.jpg",
+      "local_path": "data/research/references/brentford-home-2026-28.jpg",
+      "checked_at": "2026-09-22T21:16:12.933Z",
+      "source_type": "official",
+      "variant": "home",
+      "kit_season": "2026–2028"
+    }
+  ],
+  "updated_at": "2026-09-22T21:16:53.302Z",
+  "research_log": [
+    {
+      "date": "2026-09-22T21:16:53.302Z",
+      "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
+      "notes": "Compared full front: white central/outer columns, red sleeves, subtle tonal waves, yellow side piping and black/yellow neckline and cuffs. Multi-season label retained."
+    }
+  ]
+}

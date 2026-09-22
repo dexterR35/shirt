@@ -1,0 +1,78 @@
+{
+  "task_id": "research_558f6025a9925888688f",
+  "team_id": "team_23f479c85d1ad703df78",
+  "team_name": "Arenas Club",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "source_id": "S06",
+      "publisher": "Royal Spanish Football Federation",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 117,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Arenas_Club_de_Getxo",
+      "source_id": "C015",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 117,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 81,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "status": 403,
+      "error": null,
+      "record_path": "data/research/link-checks/0d749107bede7ac8561d.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Arenas_Club_de_Getxo",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/eb30e657cd59cf59b945.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Arenas Club\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:59.829Z",
+    "response_path": "data/research/discovery/batch-056.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

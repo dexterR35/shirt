@@ -1,0 +1,78 @@
+{
+  "task_id": "research_dbaaa91c00b1578dc3dc",
+  "team_id": "team_c1e8971b48f06cfa7459",
+  "team_name": "Torreense",
+  "country_name": "Portugal",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 746,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "source_id": "C199",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2001. Traditional home palette; source dated 2001.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 746,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 704,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e0d252cfd7d494140ffe.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Torreense\" Portugal 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:40:00.469Z",
+    "response_path": "data/research/discovery/batch-353.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

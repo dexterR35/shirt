@@ -1,0 +1,78 @@
+{
+  "task_id": "research_95d000873dbe8ae96400",
+  "team_id": "team_8ea3f622756cea5e9243",
+  "team_name": "Nice",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released",
+      "source_id": "S12",
+      "publisher": "Ligue de Football Professionnel",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 18 clubs.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 324,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.ogcnice.com/fr/article/126970/par-amour-de-lart.html",
+      "source_id": "C156",
+      "publisher": "OGC Nice",
+      "evidence_type": "Official club reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 324,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 346,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released",
+      "status": 500,
+      "error": null,
+      "record_path": "data/research/link-checks/07ae47baaaf4a86c07f2.json"
+    },
+    {
+      "url": "https://www.ogcnice.com/fr/article/126970/par-amour-de-lart.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/479e5a5f656dc6217660.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Nice\" France 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:33:26.774Z",
+    "response_path": "data/research/discovery/batch-159.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

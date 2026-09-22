@@ -1,0 +1,78 @@
+{
+  "task_id": "research_e1b28507567bef00ebfe",
+  "team_id": "team_da4e4e1865d8e1bfe82a",
+  "team_name": "AD Ceuta",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "source_id": "S05",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 95,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rtvce.es/articulo/deportes/tradicion-innovacion-nuevas-equipaciones-ad-ceuta/20260727200148101725.html",
+      "source_id": "C005",
+      "publisher": "Radio Television Ceuta / Macron statement",
+      "evidence_type": "Club colours reference",
+      "notes": "Red is an additional accent; the quoted manufacturer statement identifies the black/white club palette.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 95,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 75,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9963c008a47b02cb5ac1.json"
+    },
+    {
+      "url": "https://www.rtvce.es/articulo/deportes/tradicion-innovacion-nuevas-equipaciones-ad-ceuta/20260727200148101725.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/752b48dc3197f6cd5a31.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"AD Ceuta\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:30.803Z",
+    "response_path": "data/research/discovery/batch-045.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

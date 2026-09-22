@@ -1,0 +1,78 @@
+{
+  "task_id": "research_5da8a7acc45811f95283",
+  "team_id": "team_b1839e8e6b227b336e5e",
+  "team_name": "Mainz 05",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "source_id": "S09",
+      "publisher": "Wikipedia; Bundesliga source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 265,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/1._FSV_Mainz_05",
+      "source_id": "C149",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 265,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 287,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/93a85ab5668f3f09ad01.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/1._FSV_Mainz_05",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/89f6c7a0da24af007b9b.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Mainz 05\" Germany 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:32:25.499Z",
+    "response_path": "data/research/discovery/batch-130.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

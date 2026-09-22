@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_19b5d8f45d2237763967",
+  "team_name": "Aston Villa",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "status": "ready",
+  "surface_version": "original-png-smooth-2",
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/aston-villa-26-27-home-authentic-jersey/JZ4727.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/2c3fc98be0564b30ac5d6e64f3541c5d_9366/Aston_Villa_26-27_Home_Authentic_Jersey_Burgundy_JZ4727_21_model.jpg",
+      "local_path": "data/research/references/adidas-batch2-model-0.jpg",
+      "checked_at": "2026-09-22T21:28:08.354Z",
+      "source_type": "official",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved official front photograph; not published official HEX or textile color specifications.",
+    "official_hex": false,
+    "values": {
+      "body": "#5B1730",
+      "leftSleeve": "#5B1730",
+      "rightSleeve": "#5B1730",
+      "collar": "#A9CBE6",
+      "leftCuff": "#A9CBE6",
+      "rightCuff": "#A9CBE6"
+    }
+  },
+  "observations": "Claret body and sleeves. Pale blue fold-over polo collar, short pale blue placket, shoulder tapes and cuffs. Two thin claret lines follow the collar flap edges. Fine fabric weave omitted at the shared illustration scale. The front model reference partially obscures lower left torso; visible fabric is solid claret.",
+  "omitted": "Club emblems, sponsors, manufacturer logo symbols, lettering, badges and tiny textile weave. Observed garment trim is retained.",
+  "research_log": [
+    {
+      "date": "2026-09-22T21:28:08.354Z",
+      "action": "Reviewed correct-season official product page and front photographs; traced observed panel layout on the mandatory reference-front-2 master."
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "reference-front-2",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#5B1730",
+      "leftSleeve": "#5B1730",
+      "rightSleeve": "#5B1730",
+      "collar": "#A9CBE6",
+      "leftCuff": "#A9CBE6",
+      "rightCuff": "#A9CBE6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "type": "path",
+          "d": "M82 2L100 12L118 2L123 20L109 26L100 16L91 26L77 20Z",
+          "fill": "#A9CBE6",
+          "clip": "all",
+          "opacity": 1
+        },
+        {
+          "type": "path",
+          "d": "M83 2L79 19L92 24L92.6 23L80.4 18.4L84.4 2.5Z",
+          "fill": "#5B1730",
+          "clip": "all",
+          "opacity": 1
+        },
+        {
+          "type": "path",
+          "d": "M86 3L82.7 17.6L93.8 22.1L94.4 21L84.1 17L87.4 3.5Z",
+          "fill": "#5B1730",
+          "clip": "all",
+          "opacity": 1
+        },
+        {
+          "type": "path",
+          "d": "M117 2L121 19L108 24L107.4 23L119.6 18.4L115.6 2.5Z",
+          "fill": "#5B1730",
+          "clip": "all",
+          "opacity": 1
+        },
+        {
+          "type": "path",
+          "d": "M114 3L117.3 17.6L106.2 22.1L105.6 21L115.9 17L112.6 3.5Z",
+          "fill": "#5B1730",
+          "clip": "all",
+          "opacity": 1
+        },
+        {
+          "type": "rect",
+          "x": 97.5,
+          "y": 15,
+          "width": 5,
+          "height": 19,
+          "fill": "#A9CBE6",
+          "clip": "all",
+          "opacity": 1
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M80 3Q68 12 46 21Q35 26 29 48L30.2 48.5Q36 27.5 46.5 22.5Q68.5 13.5 81 4Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M120 3Q132 12 154 21Q165 26 171 48L169.8 48.5Q164 27.5 153.5 22.5Q131.5 13.5 119 4Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M80 6.8Q68 15.8 46 24.8Q35 29.8 29 51.8L30.2 52.3Q36 31.3 46.5 26.3Q68.5 17.3 81 7.8Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M120 6.8Q132 15.8 154 24.8Q165 29.8 171 51.8L169.8 52.3Q164 31.3 153.5 26.3Q131.5 17.3 119 7.8Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M80 10.6Q68 19.6 46 28.6Q35 33.6 29 55.6L30.2 56.1Q36 35.1 46.5 30.1Q68.5 21.1 81 11.6Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M120 10.6Q132 19.6 154 28.6Q165 33.6 171 55.6L169.8 56.1Q164 35.1 153.5 30.1Q131.5 21.1 119 11.6Z",
+        "fill": "#A9CBE6",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-22T21:28:35.784Z",
+    "outcome": "source-reviewed",
+    "notes": "Compared rendered trim with official model front: claret sleeves and body, sky-blue polo collar/placket/cuffs, two claret collar-edge lines. Lower left fabric is partially obscured by a ball in the reference; visible material is uniform. Textile weave not reproduced. Original smooth reference-front-2 outline and interpolated original lighting retained. Colors and graphic placement are photo estimates, not official HEX values or pixel-identical reproduction.",
+    "render_path": "artifacts/continuation-2026-09-23-b/villa-home.png",
+    "human_approved": false
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_778ab4653222c290cb18",
+  "team_id": "team_2c71f0a2a811872fd4f5",
+  "team_name": "Sporting Gijón",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "source_id": "S05",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 115,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "source_id": "C200",
+      "publisher": "Pablo Aro Geraldes / RSSSF; thanks to George Chilvers",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2008. Traditional palette from a 2008 home-kit reference; not a current-season kit check. Blue is an additional colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 115,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 144,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9963c008a47b02cb5ac1.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fff2388d539d72c90529.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Sporting Gijón\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:57.014Z",
+    "response_path": "data/research/discovery/batch-055.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

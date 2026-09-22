@@ -1,0 +1,78 @@
+{
+  "task_id": "research_7621e7972957b76e55d6",
+  "team_id": "team_b82039600691a5b8bfe2",
+  "team_name": "Sepsi OSK II",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "source_id": "S18",
+      "publisher": "Flashscore Romania",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 1-4 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 426,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe",
+      "source_id": "C211",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of Sepsi OSK; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 426,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 474,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/74749f7ee13bb6d7a704.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sepsi_OSK_Sf%C3%A2ntu_Gheorghe",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/395d362e8e7a119c7735.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Sepsi OSK II\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:35:11.816Z",
+    "response_path": "data/research/discovery/batch-210.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

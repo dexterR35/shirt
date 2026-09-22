@@ -1,0 +1,78 @@
+{
+  "task_id": "research_f12fe3b6f4c714c28c45",
+  "team_id": "team_829a8be572b445d1ea76",
+  "team_name": "Farul Constanța",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 371,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/FCV_Farul_Constan%C8%9Ba",
+      "source_id": "C077",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 371,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 421,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FCV_Farul_Constan%C8%9Ba",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/b52c66c9bd942bb96320.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Farul Constanța\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:34:12.853Z",
+    "response_path": "data/research/discovery/batch-183.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

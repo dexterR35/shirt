@@ -1,0 +1,78 @@
+{
+  "task_id": "research_67de1669443c069142ca",
+  "team_id": "team_30d142b5ba5aa667cd73",
+  "team_name": "Stockport County",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "source_id": "S03",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 72,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 72,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 63,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/competitions/efl-league-one/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c11665a05b726a6afc3d.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Stockport County\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:08.243Z",
+    "response_path": "data/research/discovery/batch-033.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

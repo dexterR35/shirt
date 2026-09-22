@@ -1,0 +1,50 @@
+{
+  "task_id": "research_15dc60128c94cb1b3be1",
+  "team_id": "team_9ebb1ab4a9761e0e114a",
+  "team_name": "Juventud de Torremolinos",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "source_id": "S06",
+      "publisher": "Royal Spanish Football Federation",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 146,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "status": 403,
+      "error": null,
+      "record_path": "data/research/link-checks/0d749107bede7ac8561d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Juventud de Torremolinos\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:30:26.778Z",
+    "response_path": "data/research/discovery/batch-070.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

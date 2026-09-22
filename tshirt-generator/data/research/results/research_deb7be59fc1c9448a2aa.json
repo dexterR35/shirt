@@ -1,0 +1,146 @@
+{
+  "task_id": "research_deb7be59fc1c9448a2aa",
+  "team_id": "team_19b5d8f45d2237763967",
+  "team_name": "Aston Villa",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "status": "draft",
+  "reason": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 8,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 8,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 680,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 9,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 680,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Aston Villa\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:00.860Z",
+    "response_path": "data/research/discovery/batch-001.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Trace connected gaslamp jacquard and density from saved flat front",
+    "Review revised rendering"
+  ],
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/aston-villa-26-27-away-authentic-jersey/JZ4728.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/019103a0123b44c0b187d562c0a39342_9366/Aston_Villa_26-27_Away_Authentic_Jersey_Black_JZ4728_01_laydown.jpg",
+      "local_path": "data/research/references/villa-away-front-adidas.jpg",
+      "checked_at": "2026-09-22T21:28:08.660Z",
+      "source_type": "official",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "kit_revision_path": "data/kits/team_19b5d8f45d2237763967-away-r001.json",
+  "color_evidence": {
+    "basis": "Estimated visually from the saved official front photograph; not published official HEX or textile color specifications.",
+    "official_hex": false,
+    "values": {
+      "body": "#242427",
+      "leftSleeve": "#242427",
+      "rightSleeve": "#242427",
+      "collar": "#E9C779",
+      "leftCuff": "#AED0E6",
+      "rightCuff": "#AED0E6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-22T21:28:35.787Z",
+    "outcome": "needs-refinement",
+    "notes": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled. Original smooth reference-front-2 outline and interpolated original lighting retained. Colors and graphic placement are photo estimates, not official HEX values or pixel-identical reproduction.",
+    "render_path": "artifacts/continuation-2026-09-23-b/villa-away.png",
+    "human_approved": false
+  },
+  "research_log": [
+    {
+      "date": "2026-09-22T21:28:08.660Z",
+      "action": "Reviewed correct-season official product page and front photographs; traced observed panel layout on the mandatory reference-front-2 master."
+    },
+    {
+      "date": "2026-09-22T21:28:35.791Z",
+      "action": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled."
+    }
+  ]
+}

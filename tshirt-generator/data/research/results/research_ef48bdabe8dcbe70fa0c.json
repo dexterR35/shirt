@@ -1,0 +1,78 @@
+{
+  "task_id": "research_ef48bdabe8dcbe70fa0c",
+  "team_id": "team_66624bdffd10c12945a8",
+  "team_name": "KPV",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "source_id": "S30",
+      "publisher": "Football Association of Finland",
+      "evidence_type": "Official",
+      "notes": "All 12 regular-season entrants, combining the two six-team continuation groups without duplication.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 669,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Kokkolan_Palloveikot",
+      "source_id": "C131",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 669,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 660,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f4893fc50fec8961d3c3.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Kokkolan_Palloveikot",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/4a67202706a0ad3f8dd1.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"KPV\" Finland 2026 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:20.168Z",
+    "response_path": "data/research/discovery/batch-332.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_891edd6d7bd802fab82a",
+  "team_id": "team_12d7a3c2f1b225b34acb",
+  "team_name": "Lorient",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released",
+      "source_id": "S12",
+      "publisher": "Ligue de Football Professionnel",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 18 clubs.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 320,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Football_Club_Lorient",
+      "source_id": "C145",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 320,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 338,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://ligue1.com/en/articles/l1_article_5292-the-2026-27-ligue-1-mc-donald-s-calendar-is-released",
+      "status": 500,
+      "error": null,
+      "record_path": "data/research/link-checks/07ae47baaaf4a86c07f2.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Football_Club_Lorient",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e0fc876ab82511cfcc3f.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Lorient\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:23.103Z",
+    "response_path": "data/research/discovery/batch-157.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "starter/shirt-svg/png/base thsirt shape and shadows and paint color.png",
+  "sha256": "f34b3ea5e8ddc215e3639f497bb09554a515abb0dc6f7f24ba111f4a2d8c346c",
+  "copies": [
+    {
+      "path": "references/reference-highlight.png",
+      "sha256": "f34b3ea5e8ddc215e3639f497bb09554a515abb0dc6f7f24ba111f4a2d8c346c"
+    },
+    {
+      "path": "starter/shirt-svg/shirt-master.png",
+      "sha256": "f34b3ea5e8ddc215e3639f497bb09554a515abb0dc6f7f24ba111f4a2d8c346c"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "visible_pixels": 20358,
+  "alpha_min": 1,
+  "alpha_max": 69,
+  "alpha_levels": 68,
+  "all_visible_rgb_white": true,
+  "lighting_native_alpha_max_error": 0,
+  "lighting_native_alpha_mismatches": 0,
+  "support_method": "Source row extents, split into sleeves/body at the underarms. Zero-alpha interior lighting creases are filled as fabric; the original lighting paths remain unchanged.",
+  "lighting_method": "Lossless horizontal runs grouped by original alpha. Pixel-faithful at 200 × 200. Finite source resolution remains visible at high zoom.",
+  "coordinate_transform": "translate(32 32) scale(2.24)",
+  "note": "All three supplied PNGs are identical highlight overlays, not a painted neutral master. reference-front-2 panel geometry is retained; source support and lighting replace its approximate outer mask and simplified lighting."
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_4d0ffcc1066439bb2739",
+  "team_id": "team_3fb1c52c538f935cdd5d",
+  "team_name": "FC Inter Turku II",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "source_id": "S30",
+      "publisher": "Football Association of Finland",
+      "evidence_type": "Official",
+      "notes": "All 12 regular-season entrants, combining the two six-team continuation groups without duplication.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 666,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fi.wikipedia.org/wiki/FC_Inter_Turku",
+      "source_id": "C086",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of FC Inter Turku; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 666,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 648,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.palloliitto.fi/ajankohtaista/ykkosen-jatkosarjojen-ohjelma-kaudelle-2026-julkaistu",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f4893fc50fec8961d3c3.json"
+    },
+    {
+      "url": "https://fi.wikipedia.org/wiki/FC_Inter_Turku",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/93f53ab8193909facc90.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Inter Turku II\" Finland 2026 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:16.295Z",
+    "response_path": "data/research/discovery/batch-330.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

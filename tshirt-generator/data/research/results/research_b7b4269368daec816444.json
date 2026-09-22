@@ -1,0 +1,78 @@
+{
+  "task_id": "research_b7b4269368daec816444",
+  "team_id": "team_01574f84fc27a53ae442",
+  "team_name": "Pro Vercelli",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 212,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Football_Club_Pro_Vercelli_1892",
+      "source_id": "C179",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colour plus documented accent",
+      "notes": "White is the defining colour; black is the traditional shorts/socks accent.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 212,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 231,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Football_Club_Pro_Vercelli_1892",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e60f105d7a853be6b34a.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Pro Vercelli\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:31:32.136Z",
+    "response_path": "data/research/discovery/batch-103.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

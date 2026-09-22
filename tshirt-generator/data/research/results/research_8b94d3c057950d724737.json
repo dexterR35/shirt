@@ -1,0 +1,78 @@
+{
+  "task_id": "research_8b94d3c057950d724737",
+  "team_id": "team_e81502918bac333d6b0a",
+  "team_name": "Albacete",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "source_id": "S05",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 96,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Albacete_Balompi%C3%A9",
+      "source_id": "C010",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Black is a third colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 96,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 76,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9963c008a47b02cb5ac1.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Albacete_Balompi%C3%A9",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/091c605233a8552d1b07.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Albacete\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:30.803Z",
+    "response_path": "data/research/discovery/batch-045.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

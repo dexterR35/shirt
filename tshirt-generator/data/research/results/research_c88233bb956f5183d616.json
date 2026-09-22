@@ -1,0 +1,78 @@
+{
+  "task_id": "research_c88233bb956f5183d616",
+  "team_id": "team_2cf45485dee69ac5148e",
+  "team_name": "SJK Akatemia",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "source_id": "S29",
+      "publisher": "Transfermarkt",
+      "evidence_type": "Secondary",
+      "notes": "2026 field. Reserve aliases standardised to SJK Akatemia and HJK Klubi 04.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 665,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fi.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho",
+      "source_id": "C213",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of SJK; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 665,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 672,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2a5ef8d3812a9c989d14.json"
+    },
+    {
+      "url": "https://fi.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/0e8e29b016576121dc5b.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"SJK Akatemia\" Finland 2026 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:16.295Z",
+    "response_path": "data/research/discovery/batch-330.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

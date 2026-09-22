@@ -1,0 +1,78 @@
+{
+  "task_id": "research_29bfe1b3e9c97cb0f23d",
+  "team_id": "team_f3001abd0d1e79aaf466",
+  "team_name": "Trento",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 214,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Trento_1921",
+      "source_id": "C235",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 214,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 248,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Associazione_Calcio_Trento_1921",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/123782a1f193eb2d76f1.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Trento\" Italy 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:31:34.174Z",
+    "response_path": "data/research/discovery/batch-104.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Playwright / test output
+.playwright/
+playwright-report/
+test-results/
+
+# Environment and local noise
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+
+# Keep PNG assets and review screenshots tracked
+!*.png
+!**/*.png

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_9bde35c28f4ea821d1d4",
+  "team_id": "team_d7e19653a15b01fc421b",
+  "team_name": "KTP",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "source_id": "S29",
+      "publisher": "Transfermarkt",
+      "evidence_type": "Secondary",
+      "notes": "2026 field. Reserve aliases standardised to SJK Akatemia and HJK Klubi 04.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 661,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.the-sports.org/football-soccer-ktp-kotka-results-identity-equ10274.html",
+      "source_id": "C133",
+      "publisher": "The-Sports.org / Info Media Conseil",
+      "evidence_type": "Third-party palette reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 661,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 661,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2a5ef8d3812a9c989d14.json"
+    },
+    {
+      "url": "https://www.the-sports.org/football-soccer-ktp-kotka-results-identity-equ10274.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/4b5e1cb11340e7b382cb.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"KTP\" Finland 2026 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:12.620Z",
+    "response_path": "data/research/discovery/batch-328.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

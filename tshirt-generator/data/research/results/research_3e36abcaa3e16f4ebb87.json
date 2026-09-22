@@ -1,0 +1,78 @@
+{
+  "task_id": "research_3e36abcaa3e16f4ebb87",
+  "team_id": "team_56653dd68005ec7f1206",
+  "team_name": "FC Botoșani",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 373,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://ro.wikipedia.org/wiki/FC_Boto%C8%99ani",
+      "source_id": "C082",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Blue is an additional club colour, reflected in the tricolour nickname.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 373,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 426,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/FC_Boto%C8%99ani",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9a858b9e908ef48b38b6.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Botoșani\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:34:14.752Z",
+    "response_path": "data/research/discovery/batch-184.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

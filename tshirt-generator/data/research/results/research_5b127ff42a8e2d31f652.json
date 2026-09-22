@@ -1,0 +1,78 @@
+{
+  "task_id": "research_5b127ff42a8e2d31f652",
+  "team_id": "team_2aa08cfd59b58585577a",
+  "team_name": "Chindia Târgoviște",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "source_id": "S17",
+      "publisher": "Romanian Football Federation (FRF)",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 22 entrants.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 385,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te",
+      "source_id": "C046",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 385,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 385,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6c195c705e33c6f902a5.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/51e4d463d3127058c014.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Chindia Târgoviște\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:29.991Z",
+    "response_path": "data/research/discovery/batch-190.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

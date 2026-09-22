@@ -1,0 +1,78 @@
+{
+  "task_id": "research_aaa3950204332f4af710",
+  "team_id": "team_52212ae282b4681d24c7",
+  "team_name": "VfB Stuttgart II",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "source_id": "S11",
+      "publisher": "German Football Association (DFB)",
+      "evidence_type": "Official",
+      "notes": "Final licensed field includes TSV Havelse in place of TSV 1860 Munich.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 309,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/germany.html",
+      "source_id": "C194",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of VfB Stuttgart; reserve-specific palette not independently confirmed. Parent source is a historical reference dated 2004.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 309,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 305,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dc78755e6974e890d66c.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/germany.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/b0477ad933037683a249.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"VfB Stuttgart II\" Germany 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:33:11.780Z",
+    "response_path": "data/research/discovery/batch-152.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

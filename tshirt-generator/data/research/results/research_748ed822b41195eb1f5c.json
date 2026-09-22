@@ -1,0 +1,78 @@
+{
+  "task_id": "research_748ed822b41195eb1f5c",
+  "team_id": "team_fd7459ef19d96f07b6ed",
+  "team_name": "Guingamp",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "source_id": "S13",
+      "publisher": "Wikipedia; Ligue 2 source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 337,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/france.html",
+      "source_id": "C193",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 1995. Traditional palette from a 1995 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 337,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 330,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/931f8928e1a2fadd31c6.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/france.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/269710b0122dd2bbd4b7.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Guingamp\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:40.045Z",
+    "response_path": "data/research/discovery/batch-166.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

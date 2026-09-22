@@ -1,0 +1,78 @@
+{
+  "task_id": "research_323ba9bd482730b45cbb",
+  "team_id": "team_05b36ddb2c054459e372",
+  "team_name": "Ilves",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.veikkausliiga.com/tilastot/joukkueet/",
+      "source_id": "S28",
+      "publisher": "Veikkausliiga",
+      "evidence_type": "Official",
+      "notes": "2026 regular-season field; subsequent championship/relegation groups are not duplicated.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 651,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://ilvesfutisliiga.fi/ukk/",
+      "source_id": "C115",
+      "publisher": "Ilves",
+      "evidence_type": "Official club reference",
+      "notes": "Club policy states yellow and green for all teams, including the men's first team.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 651,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 656,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.veikkausliiga.com/tilastot/joukkueet/",
+      "status": null,
+      "error": "fetch failed",
+      "record_path": "data/research/link-checks/8e6218ee017faa8643ed.json"
+    },
+    {
+      "url": "https://ilvesfutisliiga.fi/ukk/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c1055e63417ca96aac85.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Ilves\" Finland 2026 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:02.571Z",
+    "response_path": "data/research/discovery/batch-323.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

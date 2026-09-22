@@ -1,0 +1,78 @@
+{
+  "task_id": "research_f310342a4ea1b9339f25",
+  "team_id": "team_23d9b5769b975f8ad816",
+  "team_name": "Red Star",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "source_id": "S13",
+      "publisher": "Wikipedia; Ligue 2 source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 344,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/france.html",
+      "source_id": "C193",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 1995. Traditional palette from a 1995 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 344,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 353,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/931f8928e1a2fadd31c6.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/france.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/269710b0122dd2bbd4b7.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Red Star\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:46.205Z",
+    "response_path": "data/research/discovery/batch-169.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

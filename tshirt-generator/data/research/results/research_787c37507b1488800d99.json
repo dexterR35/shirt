@@ -1,0 +1,78 @@
+{
+  "task_id": "research_787c37507b1488800d99",
+  "team_id": "team_b1dac337eb19d7e8af5d",
+  "team_name": "Energie Cottbus",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "source_id": "S10",
+      "publisher": "Bundesliga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 283,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/Energie_Cottbus",
+      "source_id": "C075",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 283,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 273,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a971b631ad83da251fe8.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Energie_Cottbus",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/978a89b96118a3b11c71.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Energie Cottbus\" Germany 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:32:45.299Z",
+    "response_path": "data/research/discovery/batch-139.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

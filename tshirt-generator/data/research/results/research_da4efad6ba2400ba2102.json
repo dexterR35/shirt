@@ -1,0 +1,78 @@
+{
+  "task_id": "research_da4efad6ba2400ba2102",
+  "team_id": "team_16a2d5c4d8beaa16db38",
+  "team_name": "Anderlecht",
+  "country_name": "Belgium",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 714,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/belgium.html",
+      "source_id": "C191",
+      "publisher": "George Chilvers / RSSSF; Belgian FA",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2001. Traditional club palette; source dated 2001.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 714,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 682,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/belgium.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/01220ac65a8b625207b4.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Anderlecht\" Belgium 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:41.007Z",
+    "response_path": "data/research/discovery/batch-343.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

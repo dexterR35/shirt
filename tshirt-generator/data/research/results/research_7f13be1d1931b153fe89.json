@@ -1,0 +1,78 @@
+{
+  "task_id": "research_7f13be1d1931b153fe89",
+  "team_id": "team_9d486ac4fc7d63ff1dd3",
+  "team_name": "Sorrento",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 255,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Sorrento_Calcio_1945",
+      "source_id": "C217",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 255,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 242,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Sorrento_Calcio_1945",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/24b3a4a2bd08cdbaebef.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Sorrento\" Italy 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:32:15.116Z",
+    "response_path": "data/research/discovery/batch-125.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

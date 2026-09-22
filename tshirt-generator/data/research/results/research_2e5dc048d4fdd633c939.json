@@ -1,0 +1,106 @@
+{
+  "task_id": "research_2e5dc048d4fdd633c939",
+  "team_id": "team_2aaa03833839b803ddaf",
+  "team_name": "Panathinaikos",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.slgr.gr/en/teams/",
+      "source_id": "S21",
+      "publisher": "Super League Greece",
+      "evidence_type": "Official",
+      "notes": "Season selector 2026-2027; full field cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 511,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2005. Traditional club-colour reference dated 2005; current-season kit not verified.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 511,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 779,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 604,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "source_id": "S34",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; club names standardised to match domestic entries.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 779,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.slgr.gr/en/teams/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5751a92d9e4df6d255f2.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2affc3a5cd8f2045070c.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Panathinaikos\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:36:36.572Z",
+    "response_path": "data/research/discovery/batch-253.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

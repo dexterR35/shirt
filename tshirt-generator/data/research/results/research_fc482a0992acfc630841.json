@@ -1,0 +1,78 @@
+{
+  "task_id": "research_fc482a0992acfc630841",
+  "team_id": "team_a7144ea1e41675fc3bf7",
+  "team_name": "FC Bihor Oradea",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "source_id": "S17",
+      "publisher": "Romanian Football Federation (FRF)",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 22 entrants.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 395,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)",
+      "source_id": "C081",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 395,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 425,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6c195c705e33c6f902a5.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e79ba768c11a95f30341.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Bihor Oradea\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:40.650Z",
+    "response_path": "data/research/discovery/batch-195.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

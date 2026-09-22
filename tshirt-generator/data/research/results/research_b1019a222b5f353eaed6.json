@@ -1,0 +1,78 @@
+{
+  "task_id": "research_b1019a222b5f353eaed6",
+  "team_id": "team_f4a93689d5050be2510d",
+  "team_name": "Cavese",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 243,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Cavese_1919",
+      "source_id": "C040",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 243,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 178,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Cavese_1919",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9fbb1de5d3f0a7409554.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Cavese\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:32:04.635Z",
+    "response_path": "data/research/discovery/batch-119.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

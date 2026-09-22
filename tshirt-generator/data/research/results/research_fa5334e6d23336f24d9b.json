@@ -1,0 +1,78 @@
+{
+  "task_id": "research_fa5334e6d23336f24d9b",
+  "team_id": "team_e8cbb22e5d8a4cedd7fc",
+  "team_name": "CSC 1599 Șelimbăr",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "source_id": "S17",
+      "publisher": "Romanian Football Federation (FRF)",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 22 entrants.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 389,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r",
+      "source_id": "C057",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": "Red is supported by the documented colour nickname; secondary identity colour not established.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 389,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 399,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6c195c705e33c6f902a5.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a8a090be45c98c92bcb5.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"CSC 1599 Șelimbăr\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:33.577Z",
+    "response_path": "data/research/discovery/batch-192.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

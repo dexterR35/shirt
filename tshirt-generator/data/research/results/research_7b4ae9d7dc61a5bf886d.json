@@ -1,0 +1,78 @@
+{
+  "task_id": "research_7b4ae9d7dc61a5bf886d",
+  "team_id": "team_6e81df359cdf64c36c30",
+  "team_name": "Concordia Chiajna",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "source_id": "S17",
+      "publisher": "Romanian Football Federation (FRF)",
+      "evidence_type": "Official",
+      "notes": "Opening-round fixture list identifies all 22 entrants.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 386,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna",
+      "source_id": "C050",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": "Green is supported by the documented colour nickname; secondary identity colour not established.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 386,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 387,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.frf.ro/competitii/competitii-masculin/liga-2-casa-pariurilor/au-fost-stabilite-meciurile-sezonului-regular-2026-2027-din-liga-2-casa-pariurilor/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/6c195c705e33c6f902a5.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5e6fb60f8d51a599ebd9.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Concordia Chiajna\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:29.991Z",
+    "response_path": "data/research/discovery/batch-190.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_43b925ec3a32cb581e46",
+  "team_id": "team_722764c508be1759b291",
+  "team_name": "MP",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "source_id": "S29",
+      "publisher": "Transfermarkt",
+      "evidence_type": "Secondary",
+      "notes": "2026 field. Reserve aliases standardised to SJK Akatemia and HJK Klubi 04.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 663,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://mikkelinpalloilijat.fi/yhteystiedot/historia/",
+      "source_id": "C154",
+      "publisher": "Mikkelin Palloilijat",
+      "evidence_type": "Official club reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 663,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 665,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.transfermarkt.co.uk/ykkonen/startseite/wettbewerb/FI2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2a5ef8d3812a9c989d14.json"
+    },
+    {
+      "url": "https://mikkelinpalloilijat.fi/yhteystiedot/historia/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f7e9e9e701cf6849828d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"MP\" Finland 2026 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:14.389Z",
+    "response_path": "data/research/discovery/batch-329.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

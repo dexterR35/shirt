@@ -1,0 +1,78 @@
+{
+  "task_id": "research_eafa61535804f3c0425e",
+  "team_id": "team_910b39186ce9bf6f3656",
+  "team_name": "Oțelul Galați",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 376,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+      "source_id": "C164",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": "Blue is a third club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 376,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 455,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ASC_O%C8%9Belul_Gala%C8%9Bi",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d102a2f76b234daf4229.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Oțelul Galați\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:16.488Z",
+    "response_path": "data/research/discovery/batch-185.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

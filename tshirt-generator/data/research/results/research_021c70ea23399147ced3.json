@@ -1,0 +1,78 @@
+{
+  "task_id": "research_021c70ea23399147ced3",
+  "team_id": "team_47fd66be85c2cc3ebc09",
+  "team_name": "Anagennisi Arta",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "source_id": "S23",
+      "publisher": "Wikipedia; Hellenic Football Federation links",
+      "evidence_type": "Secondary",
+      "notes": "Published 2026/27 entrants. Season has not started as at 11 September 2026. English name spellings retained.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 552,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2005. Traditional club-colour reference dated 2005; current-season kit not verified.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 552,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 512,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/cb1a4813af9cdc85f8db.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Anagennisi Arta\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:37:20.386Z",
+    "response_path": "data/research/discovery/batch-273.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_03b9f0a1275625433fd1",
+  "team_id": "team_dda99486bb364c1b5815",
+  "team_name": "Würzburger Kickers",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "source_id": "S11",
+      "publisher": "German Football Association (DFB)",
+      "evidence_type": "Official",
+      "notes": "Final licensed field includes TSV Havelse in place of TSV 1860 Munich.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 312,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/W%C3%BCrzburger_Kickers",
+      "source_id": "C261",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 312,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 312,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dc78755e6974e890d66c.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/W%C3%BCrzburger_Kickers",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/54e8d42e64761263e6f4.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Würzburger Kickers\" Germany 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:13.435Z",
+    "response_path": "data/research/discovery/batch-153.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

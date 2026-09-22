@@ -1,0 +1,50 @@
+{
+  "task_id": "research_cdf06e3405ab661e3925",
+  "team_id": "team_7fb22254b0eac5525e9d",
+  "team_name": "Doxa Vyronas",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.soccerway.com/greece/gamma-ethniki-group-8/",
+      "source_id": "S24",
+      "publisher": "Soccerway",
+      "evidence_type": "Secondary",
+      "notes": "Opening fixtures confirm the 12 entrants, including Ialysos.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 614,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.soccerway.com/greece/gamma-ethniki-group-8/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/3dd86d647f7d09f91568.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Doxa Vyronas\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:38:25.711Z",
+    "response_path": "data/research/discovery/batch-304.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

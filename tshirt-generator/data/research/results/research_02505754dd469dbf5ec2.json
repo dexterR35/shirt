@@ -1,0 +1,78 @@
+{
+  "task_id": "research_02505754dd469dbf5ec2",
+  "team_id": "team_2dfd83621eddd7c02175",
+  "team_name": "Paris 13 Atletico",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "source_id": "S14",
+      "publisher": "French Football Federation (FFF)",
+      "evidence_type": "Official",
+      "notes": "Ligue 3 is the current 2026/27 name of the third tier, formerly Championnat National.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 360,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Paris_13_Atletico",
+      "source_id": "C167",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 360,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 348,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/76156a26b769a24d2ae8.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Paris_13_Atletico",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2c7dda0ebcc2c5efed53.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Paris 13 Atletico\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:01.397Z",
+    "response_path": "data/research/discovery/batch-177.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

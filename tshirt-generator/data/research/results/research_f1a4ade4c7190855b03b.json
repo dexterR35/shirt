@@ -1,0 +1,78 @@
+{
+  "task_id": "research_f1a4ade4c7190855b03b",
+  "team_id": "team_8f145343e36191213599",
+  "team_name": "Sparta Prague",
+  "country_name": "Czechia",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 743,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/AC_Sparta_Prague",
+      "source_id": "C218",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Traditional kit reference",
+      "notes": "The traditional shirt palette is shown; the club emblem instead uses blue, yellow and red.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 743,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 709,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/AC_Sparta_Prague",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a3c8c2fdd28636ad19e0.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Sparta Prague\" Czechia 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:58.646Z",
+    "response_path": "data/research/discovery/batch-352.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

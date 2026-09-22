@@ -1,0 +1,78 @@
+{
+  "task_id": "research_3b97ba13a122a7a1a792",
+  "team_id": "team_6fa8ff37ee9490d09d4a",
+  "team_name": "Le Puy",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "source_id": "S14",
+      "publisher": "French Football Federation (FFF)",
+      "evidence_type": "Official",
+      "notes": "Ligue 3 is the current 2026/27 name of the third tier, formerly Championnat National.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 358,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Le_Puy_Foot_43_Auvergne",
+      "source_id": "C139",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 358,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 335,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/76156a26b769a24d2ae8.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Le_Puy_Foot_43_Auvergne",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/3f75d3f133d0a4160bc3.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Le Puy\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:59.571Z",
+    "response_path": "data/research/discovery/batch-176.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "task_id": "research_13bad288dc6ec7b80ebd",
+  "team_id": "team_8de8bdc8ff2954d5f251",
+  "team_name": "Real Madrid",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+      "source_id": "S04",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 90,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "source_id": "C200",
+      "publisher": "Pablo Aro Geraldes / RSSSF; thanks to George Chilvers",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2008. Traditional palette from a 2008 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 90,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 704,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 133,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 704,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c8e5e8430bf0b2488506.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/spain.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fff2388d539d72c90529.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Real Madrid\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:25.014Z",
+    "response_path": "data/research/discovery/batch-042.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

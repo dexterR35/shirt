@@ -1,0 +1,78 @@
+{
+  "task_id": "research_82541559172bf6942ddf",
+  "team_id": "team_eb20dca77371769cbb2b",
+  "team_name": "West Bromwich Albion",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.efl.com/news/2026/august/22/sky-bet-championship-results--table---stats/",
+      "source_id": "S02",
+      "publisher": "English Football League",
+      "evidence_type": "Official",
+      "notes": "Current league table embedded in the EFL article; checked on 11 September 2026.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 47,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.",
+      "source_id": "C259",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 47,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 69,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.efl.com/news/2026/august/22/sky-bet-championship-results--table---stats/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/78f62d1595f0db2cd758.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/0ef51dde9ab866e570aa.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"West Bromwich Albion\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:42.524Z",
+    "response_path": "data/research/discovery/batch-021.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

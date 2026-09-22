@@ -1,0 +1,101 @@
+{
+  "task_id": "research_00c03984fe6d9d77be01",
+  "team_id": "team_e5d01d1e2dafaef8522d",
+  "team_name": "Ipswich Town",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "status": "ready",
+  "reason": "Source-reviewed SVG revision available.",
+  "revision_path": "data/kits/team_e5d01d1e2dafaef8522d-home-r003.json",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 18,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 18,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 35,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "publisher": "Ipswich Town official store",
+      "page_url": "https://shop.itfc.co.uk/products/2627-daizen-38-home-shirt-ss-home-shirt-adult-blue",
+      "image_url": "https://cdn.shopify.com/s/files/1/0746/4380/0355/files/Home_Shirt_SS_8841cb84-d98b-4fd0-aecf-912fd3616941.jpg?v=1787046239",
+      "local_path": "data/research/references/ipswich-home-front-2026-27.jpg",
+      "checked_at": "2026-09-22T21:16:13.642Z",
+      "source_type": "official",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-22T20:40:18.862Z",
+    "outcome": "needs-refinement",
+    "notes": "Reference season and front view confirmed. Fan/diamond spacing needs a closer trace before this kit can be marked ready.",
+    "quality_reviewed_at": "2026-09-22T20:47:09.473Z",
+    "quality_review": "Smooth contour and retained source folds inspected at 2048 × 2048; no source bitmap or source kit color/pattern changes."
+  },
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Ipswich Town\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:14.229Z",
+    "response_path": "data/research/discovery/batch-006.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [],
+  "updated_at": "2026-09-22T21:16:53.302Z",
+  "research_log": [
+    {
+      "date": "2026-09-22T21:16:53.302Z",
+      "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
+      "notes": "Compared official flat front: elongated nested fan diamonds, about four across torso; navy/white crew collar and cuffs. Removed unsupported white side panels from earlier draft. Pattern coordinates are visual estimates."
+    }
+  ]
+}

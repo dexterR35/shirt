@@ -1,0 +1,143 @@
+{
+  "task_id": "research_579f11763a085d6e82cf",
+  "team_id": "team_1e3e32f4af2a1cfa28e2",
+  "team_name": "Liverpool",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "status": "ready",
+  "reason": "Compared with complete official flat-front photograph at enlarged size: manually recorded triangle vertices and fine diagonal line endpoints follow observed positions. Refined white neck piping to a fine inner edge. Fine fabric texture and graphics hidden under sponsor marks are not inferred.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 20,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "source_id": "C144",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "White is a historical secondary/accent colour; the usual home strip is all red.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 20,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 695,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 40,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 695,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/01804ae409c4af1af9fe.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Liverpool\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:15.977Z",
+    "response_path": "data/research/discovery/batch-007.json",
+    "search_succeeded": true,
+    "visually_verified": true
+  },
+  "remaining": [],
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/liverpool-fc-26-27-home-jersey/KA6852.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/13c65547ddff43e58e48984abbe4d455_9366/Liverpool_FC_26-27_Home_Jersey_Burgundy_KA6852_01_laydown.jpg",
+      "local_path": "data/research/references/liverpool-home-adidas-3.jpg",
+      "checked_at": "2026-09-22T21:28:08.520Z",
+      "source_type": "official",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "kit_revision_path": "data/kits/team_1e3e32f4af2a1cfa28e2-home-r001.json",
+  "color_evidence": {
+    "basis": "Estimated visually from the saved official front photograph; not published official HEX or textile color specifications.",
+    "official_hex": false,
+    "values": {
+      "body": "#B91F3B",
+      "leftSleeve": "#B91F3B",
+      "rightSleeve": "#B91F3B",
+      "collar": "#B91F3B",
+      "leftCuff": "#B91F3B",
+      "rightCuff": "#B91F3B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-22T21:28:35.786Z",
+    "outcome": "source-reviewed",
+    "notes": "Compared with complete official flat-front photograph at enlarged size: manually recorded triangle vertices and fine diagonal line endpoints follow observed positions. Refined white neck piping to a fine inner edge. Fine fabric texture and graphics hidden under sponsor marks are not inferred. Original smooth reference-front-2 outline and interpolated original lighting retained. Colors and graphic placement are photo estimates, not official HEX values or pixel-identical reproduction.",
+    "render_path": "artifacts/continuation-2026-09-23-b/liverpool-home.png",
+    "human_approved": false
+  },
+  "research_log": [
+    {
+      "date": "2026-09-22T21:28:08.520Z",
+      "action": "Reviewed correct-season official product page and front photographs; traced observed panel layout on the mandatory reference-front-2 master."
+    },
+    {
+      "date": "2026-09-22T21:28:35.787Z",
+      "action": "Compared with complete official flat-front photograph at enlarged size: manually recorded triangle vertices and fine diagonal line endpoints follow observed positions. Refined white neck piping to a fine inner edge. Fine fabric texture and graphics hidden under sponsor marks are not inferred."
+    }
+  ]
+}

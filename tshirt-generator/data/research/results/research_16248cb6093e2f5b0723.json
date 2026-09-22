@@ -1,0 +1,78 @@
+{
+  "task_id": "research_16248cb6093e2f5b0723",
+  "team_id": "team_44d27fdeaf28c100657f",
+  "team_name": "Nestos Chrysoupoli",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece_2",
+      "source_id": "S22",
+      "publisher": "Wikipedia; Super League 2 cited on page",
+      "evidence_type": "Secondary",
+      "notes": "2026/27 has one unified 16-team division.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 522,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2005. Traditional club-colour reference dated 2005; current-season kit not verified. Red is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 522,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 591,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ff6c11670eddf56c3b79.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Nestos Chrysoupoli\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:36:48.687Z",
+    "response_path": "data/research/discovery/batch-258.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

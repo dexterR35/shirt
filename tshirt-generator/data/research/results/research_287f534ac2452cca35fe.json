@@ -1,0 +1,78 @@
+{
+  "task_id": "research_287f534ac2452cca35fe",
+  "team_id": "team_4735c4df167426564160",
+  "team_name": "Dinamo București II",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "source_id": "S19",
+      "publisher": "ProSport / Liga2.ro",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 5-8 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 456,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://ro.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti",
+      "source_id": "C067",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of Dinamo București; reserve-specific palette not independently confirmed.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 456,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 418,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://liga2.prosport.ro/liga-3/componenta-seriilor-noului-sezon-de-liga-3-editia-2026-2027-19397075",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/8351f6a80f0454d08e43.json"
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91937dbc22b249accf17.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Dinamo București II\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:35:40.380Z",
+    "response_path": "data/research/discovery/batch-225.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

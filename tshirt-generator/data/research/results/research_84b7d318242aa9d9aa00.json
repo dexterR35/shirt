@@ -1,0 +1,78 @@
+{
+  "task_id": "research_84b7d318242aa9d9aa00",
+  "team_id": "team_77bd881fdd9039f86f8d",
+  "team_name": "FC Voluntari",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://lpf.ro/liga-1",
+      "source_id": "S16",
+      "publisher": "Romanian Professional Football League (LPF)",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 374,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.the-sports.org/football-soccer-fc-voluntari-results-identity-equ44644.html",
+      "source_id": "C257",
+      "publisher": "The-Sports.org",
+      "evidence_type": "Colour nickname reference",
+      "notes": "Burgundy is documented in the translated club nickname; the same directory also uses the broader term red.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 374,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 429,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://lpf.ro/liga-1",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c5e273714a0a603bdae4.json"
+    },
+    {
+      "url": "https://www.the-sports.org/football-soccer-fc-voluntari-results-identity-equ44644.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/4fc9bce34de8be6890be.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Voluntari\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:14.752Z",
+    "response_path": "data/research/discovery/batch-184.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

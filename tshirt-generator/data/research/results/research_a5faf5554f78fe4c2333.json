@@ -1,0 +1,78 @@
+{
+  "task_id": "research_a5faf5554f78fe4c2333",
+  "team_id": "team_458aaafc7469a13ae856",
+  "team_name": "Aerostar Bacău",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "source_id": "S18",
+      "publisher": "Flashscore Romania",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 1-4 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 406,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/CS_Aerostar_Bac%C4%83u",
+      "source_id": "C006",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 406,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 373,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/74749f7ee13bb6d7a704.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CS_Aerostar_Bac%C4%83u",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/780cc6e5fe672131bdba.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Aerostar Bacău\" Romania 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:34:50.519Z",
+    "response_path": "data/research/discovery/batch-200.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

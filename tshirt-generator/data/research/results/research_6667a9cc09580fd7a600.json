@@ -1,0 +1,50 @@
+{
+  "task_id": "research_6667a9cc09580fd7a600",
+  "team_id": "team_b8443ccc803e7fa4bfbf",
+  "team_name": "Giouchtas",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2075/matches",
+      "source_id": "S26",
+      "publisher": "Hellenic Football Federation (EPO)",
+      "evidence_type": "Official",
+      "notes": "Official group fixtures; English transliterations cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 638,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2075/matches",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/999674f6396f752ea8ef.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Giouchtas\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:38:50.151Z",
+    "response_path": "data/research/discovery/batch-316.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

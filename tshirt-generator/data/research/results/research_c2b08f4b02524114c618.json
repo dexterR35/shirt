@@ -1,0 +1,78 @@
+{
+  "task_id": "research_c2b08f4b02524114c618",
+  "team_id": "team_870576d5ed0d115f2cf7",
+  "team_name": "Bourg-en-Bresse Péronnas",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "source_id": "S14",
+      "publisher": "French Football Federation (FFF)",
+      "evidence_type": "Official",
+      "notes": "Ligue 3 is the current 2026/27 name of the third tier, formerly Championnat National.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 352,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Football_Bourg-en-Bresse_P%C3%A9ronnas_01",
+      "source_id": "C027",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 352,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 320,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/76156a26b769a24d2ae8.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Football_Bourg-en-Bresse_P%C3%A9ronnas_01",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fadb0f9b47f301ea3931.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Bourg-en-Bresse Péronnas\" France 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:54.057Z",
+    "response_path": "data/research/discovery/batch-173.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_b522d3d955b504152686",
+  "team_id": "team_9003829242f519665e92",
+  "team_name": "Ararat-Armenia",
+  "country_name": "Armenia",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 715,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/FC_Ararat-Armenia",
+      "source_id": "C014",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 715,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 712,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/FC_Ararat-Armenia",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/804cb4a598112becece0.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Ararat-Armenia\" Armenia 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:42.719Z",
+    "response_path": "data/research/discovery/batch-344.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

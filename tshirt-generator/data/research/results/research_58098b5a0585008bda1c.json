@@ -1,0 +1,78 @@
+{
+  "task_id": "research_58098b5a0585008bda1c",
+  "team_id": "team_2dae539bf69fbbaac63b",
+  "team_name": "Monza",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "source_id": "S07",
+      "publisher": "Virgilio Sport",
+      "evidence_type": "Secondary",
+      "notes": "Season-specific 2026/2027 team directory; Serie C groups cross-checked against the July 29 group announcement.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 169,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/italy.html",
+      "source_id": "C196",
+      "publisher": "George Chilvers / RSSSF; thanks to Alberto Novello",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2000. Traditional palette from a 2000 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 169,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 215,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a651246ca93390aaeab8.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/italy.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f27ef6fd00edfb0d70f4.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Monza\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:30:50.458Z",
+    "response_path": "data/research/discovery/batch-082.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_ad39bc956bc915adbf60",
+  "team_id": "team_6e92539c089ec8a114fb",
+  "team_name": "Desenzano",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "source_id": "S08",
+      "publisher": "Blasting News Italia",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 202,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.calciodesenzano.it/2026/08/18/desenzano-f-c-presentata-la-nuova-maglia-away-2026-2027/",
+      "source_id": "C065",
+      "publisher": "Desenzano FC",
+      "evidence_type": "Official club reference",
+      "notes": "Club describes its blue/white identity in the 2026/27 kit announcement; lighter blue shades also occur.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 202,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 185,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://it.blastingnews.com/calcio/2026/07/ultimora-serie-c-svelati-i-gironi-ufficiali-2026-27-004083523.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/91af66b74c73888eed12.json"
+    },
+    {
+      "url": "https://www.calciodesenzano.it/2026/08/18/desenzano-f-c-presentata-la-nuova-maglia-away-2026-2027/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a8b1af0c91a0aeca4fa8.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Desenzano\" Italy 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:31:23.142Z",
+    "response_path": "data/research/discovery/batch-098.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

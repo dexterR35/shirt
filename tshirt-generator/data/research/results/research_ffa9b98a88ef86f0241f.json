@@ -1,0 +1,50 @@
+{
+  "task_id": "research_ffa9b98a88ef86f0241f",
+  "team_id": "team_041f29afa396d202dcbb",
+  "team_name": "Thyella Rafina",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "source_id": "S23",
+      "publisher": "Wikipedia; Hellenic Football Federation links",
+      "evidence_type": "Secondary",
+      "notes": "Published 2026/27 entrants. Season has not started as at 11 September 2026. English name spellings retained.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 631,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/cb1a4813af9cdc85f8db.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Thyella Rafina\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:38:43.828Z",
+    "response_path": "data/research/discovery/batch-313.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

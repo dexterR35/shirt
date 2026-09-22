@@ -1,0 +1,78 @@
+{
+  "task_id": "research_fef3094d032ad5ffa29b",
+  "team_id": "team_83695c8ada6c3a11d232",
+  "team_name": "FC Ingolstadt",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "source_id": "S11",
+      "publisher": "German Football Association (DFB)",
+      "evidence_type": "Official",
+      "notes": "Final licensed field includes TSV Havelse in place of TSV 1860 Munich.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 295,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/FC_Ingolstadt_04",
+      "source_id": "C085",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "White is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 295,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 275,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dc78755e6974e890d66c.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/FC_Ingolstadt_04",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9c805ea9a065832c9989.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Ingolstadt\" Germany 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:32:58.129Z",
+    "response_path": "data/research/discovery/batch-145.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

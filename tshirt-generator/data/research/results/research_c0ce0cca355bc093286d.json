@@ -1,0 +1,78 @@
+{
+  "task_id": "research_c0ce0cca355bc093286d",
+  "team_id": "team_04ea3fddbb493b702dbf",
+  "team_name": "Omonia",
+  "country_name": "Cyprus",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 739,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Om%C3%B3nia_Nicosie",
+      "source_id": "C160",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 739,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 724,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Om%C3%B3nia_Nicosie",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/47257d385f6a46e77c26.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Omonia\" Cyprus 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:39:56.027Z",
+    "response_path": "data/research/discovery/batch-351.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_be64674f3ac3486881a6",
+  "team_id": "team_e9c919284ba7dc0181cf",
+  "team_name": "Eintracht Braunschweig",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "source_id": "S10",
+      "publisher": "Bundesliga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 282,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/germany.html",
+      "source_id": "C194",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2004. Traditional palette from a 2004 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 282,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 271,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.bundesliga.com/de/2bundesliga/tabelle?view=full",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a971b631ad83da251fe8.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/germany.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/b0477ad933037683a249.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Eintracht Braunschweig\" Germany 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:32:41.474Z",
+    "response_path": "data/research/discovery/batch-138.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "task_id": "research_04e0a0817e96360713f3",
+  "team_id": "team_3430bfadf30c6a49f568",
+  "team_name": "CSM Adjud",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "source_id": "S18",
+      "publisher": "Flashscore Romania",
+      "evidence_type": "Secondary",
+      "notes": "Reports the FRF group allocation; Groups 1-4 used in the team list.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 411,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.flashscore.ro/stiri/fotbal-liga-3-2026-2027-serii-echipe-program/Qkhurfcc/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/74749f7ee13bb6d7a704.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"CSM Adjud\" Romania 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:34:56.722Z",
+    "response_path": "data/research/discovery/batch-203.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

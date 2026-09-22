@@ -1,0 +1,78 @@
+{
+  "task_id": "research_992aa4e14273426b3d3f",
+  "team_id": "team_7e1d7a59b6974646d3c5",
+  "team_name": "Osasuna",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+      "source_id": "S04",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 86,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Club_Atl%C3%A9tico_Osasuna",
+      "source_id": "C161",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 86,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 123,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-easports/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/c8e5e8430bf0b2488506.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Club_Atl%C3%A9tico_Osasuna",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/0d54df2f8ae9c0e2dba0.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Osasuna\" Spain 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:29:21.623Z",
+    "response_path": "data/research/discovery/batch-040.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

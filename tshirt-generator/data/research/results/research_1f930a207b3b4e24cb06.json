@@ -1,0 +1,143 @@
+{
+  "task_id": "research_1f930a207b3b4e24cb06",
+  "team_id": "team_6c3ac1a8babfe2f2338b",
+  "team_name": "Arsenal",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "status": "ready",
+  "reason": "Compared official model front: white sleeves and shoulder inserts, red torso, shallow V-neck, red cuffs and shoulder tapes. No sponsor or emblem shapes were carried into the SVG.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 7,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 7,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 679,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 8,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "source_id": "S32",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; qualifying-only clubs excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 679,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20d57cfcd03e-407c22a7f465-1000--2026-27-champions-league-teams-dates-draws-format-final/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/fc05580a92bff2f0ef1d.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Arsenal\" England 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:28:00.860Z",
+    "response_path": "data/research/discovery/batch-001.json",
+    "search_succeeded": true,
+    "visually_verified": true
+  },
+  "remaining": [],
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/arsenal-fc-26-27-home-jersey/JZ3168.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/e6528a9d23f348579a16aa05dba72d2b_9366/Arsenal_FC_26-27_Home_Jersey_Red_JZ3168_21_model.jpg",
+      "local_path": "data/research/references/arsenal-home-model.jpg",
+      "checked_at": "2026-09-22T21:28:08.437Z",
+      "source_type": "official",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "kit_revision_path": "data/kits/team_6c3ac1a8babfe2f2338b-home-r001.json",
+  "color_evidence": {
+    "basis": "Estimated visually from the saved official front photograph; not published official HEX or textile color specifications.",
+    "official_hex": false,
+    "values": {
+      "body": "#CE0D2D",
+      "leftSleeve": "#EFF0F0",
+      "rightSleeve": "#EFF0F0",
+      "collar": "#B61430",
+      "leftCuff": "#B61430",
+      "rightCuff": "#B61430"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-22T21:28:35.785Z",
+    "outcome": "source-reviewed",
+    "notes": "Compared official model front: white sleeves and shoulder inserts, red torso, shallow V-neck, red cuffs and shoulder tapes. No sponsor or emblem shapes were carried into the SVG. Original smooth reference-front-2 outline and interpolated original lighting retained. Colors and graphic placement are photo estimates, not official HEX values or pixel-identical reproduction.",
+    "render_path": "artifacts/continuation-2026-09-23-b/arsenal-home.png",
+    "human_approved": false
+  },
+  "research_log": [
+    {
+      "date": "2026-09-22T21:28:08.437Z",
+      "action": "Reviewed correct-season official product page and front photographs; traced observed panel layout on the mandatory reference-front-2 master."
+    },
+    {
+      "date": "2026-09-22T21:28:35.786Z",
+      "action": "Compared official model front: white sleeves and shoulder inserts, red torso, shallow V-neck, red cuffs and shoulder tapes. No sponsor or emblem shapes were carried into the SVG."
+    }
+  ]
+}

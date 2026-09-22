@@ -1,0 +1,78 @@
+{
+  "task_id": "research_2b89b6f681a82acc2537",
+  "team_id": "team_1356bc5a9a3468251af8",
+  "team_name": "Pau",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "source_id": "S13",
+      "publisher": "Wikipedia; Ligue 2 source cited on page",
+      "evidence_type": "Secondary",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 343,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Pau_Football_Club",
+      "source_id": "C169",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 343,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 351,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/931f8928e1a2fadd31c6.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Pau_Football_Club",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/46c95b311fc507dbfa47.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Pau\" France 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:33:46.205Z",
+    "response_path": "data/research/discovery/batch-169.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

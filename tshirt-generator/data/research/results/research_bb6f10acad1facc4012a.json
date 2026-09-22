@@ -1,0 +1,78 @@
+{
+  "task_id": "research_bb6f10acad1facc4012a",
+  "team_id": "team_85c0a98831c7a6a22b33",
+  "team_name": "Empoli",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "source_id": "S07",
+      "publisher": "Virgilio Sport",
+      "evidence_type": "Secondary",
+      "notes": "Season-specific 2026/2027 team directory; Serie C groups cross-checked against the July 29 group announcement.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 185,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Empoli_Football_Club",
+      "source_id": "C074",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colour plus documented accent",
+      "notes": "Blue is the defining colour; white is a documented badge/lettering accent.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 185,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 187,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a651246ca93390aaeab8.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Empoli_Football_Club",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/8273ae03068eceb909c7.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Empoli\" Italy 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:31:06.122Z",
+    "response_path": "data/research/discovery/batch-090.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_49c96dff06073c42083a",
+  "team_id": "team_e5ce79a40e54a442d5f0",
+  "team_name": "NEC Nijmegen",
+  "country_name": "Netherlands",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 736,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/NEC_Nim%C3%A8gue",
+      "source_id": "C155",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Black is an equally important third club colour; primary/secondary are display order, not an official ranking.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 736,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 695,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/NEC_Nim%C3%A8gue",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/456aebac585208ca0d00.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"NEC Nijmegen\" Netherlands 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:39:54.244Z",
+    "response_path": "data/research/discovery/batch-350.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

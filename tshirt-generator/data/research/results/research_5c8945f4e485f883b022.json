@@ -1,0 +1,106 @@
+{
+  "task_id": "research_5c8945f4e485f883b022",
+  "team_id": "team_31cc64e36fbdf87509fc",
+  "team_name": "Juventus",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "source_id": "S07",
+      "publisher": "Virgilio Sport",
+      "evidence_type": "Secondary",
+      "notes": "Season-specific 2026/2027 team directory; Serie C groups cross-checked against the July 29 group announcement.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 165,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/italy.html",
+      "source_id": "C196",
+      "publisher": "George Chilvers / RSSSF; thanks to Alberto Novello",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2000. Traditional palette from a 2000 home-kit reference; not a current-season kit check.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 165,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "All Teams",
+          "row": 729,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 203,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    },
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "source_id": "S33",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "Only clubs under the League phase heading; earlier qualifying rounds excluded.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 729,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a651246ca93390aaeab8.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/italy.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/f27ef6fd00edfb0d70f4.json"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/clubs/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ed02831ba4b20b7fb000.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Juventus\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:30:45.242Z",
+    "response_path": "data/research/discovery/batch-080.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

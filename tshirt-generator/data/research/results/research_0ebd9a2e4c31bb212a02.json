@@ -1,0 +1,78 @@
+{
+  "task_id": "research_0ebd9a2e4c31bb212a02",
+  "team_id": "team_39c57c818c990ce46806",
+  "team_name": "Preußen Münster",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "source_id": "S11",
+      "publisher": "German Football Association (DFB)",
+      "evidence_type": "Official",
+      "notes": "Final licensed field includes TSV Havelse in place of TSV 1860 Munich.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 301,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/Preu%C3%9Fen_M%C3%BCnster",
+      "source_id": "C178",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Green is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 301,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 289,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dc78755e6974e890d66c.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Preu%C3%9Fen_M%C3%BCnster",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/87648976b7179e70a11f.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Preußen Münster\" Germany 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:33:04.092Z",
+    "response_path": "data/research/discovery/batch-148.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

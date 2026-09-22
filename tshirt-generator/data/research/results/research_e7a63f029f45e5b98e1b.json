@@ -1,0 +1,78 @@
+{
+  "task_id": "research_e7a63f029f45e5b98e1b",
+  "team_id": "team_6ad512d4b31375ef7264",
+  "team_name": "FC Andorra",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "source_id": "S05",
+      "publisher": "LaLiga",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 105,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://es.wikipedia.org/wiki/Futbol_Club_Andorra",
+      "source_id": "C078",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Red is a third defining club colour; the club is known as the tricolours.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 105,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 107,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.laliga.com/en-GB/laliga-hypermotion/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/9963c008a47b02cb5ac1.json"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Futbol_Club_Andorra",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/b726430e091d6aa483eb.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Andorra\" Spain 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:29:47.797Z",
+    "response_path": "data/research/discovery/batch-050.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_98b13605388784227c3f",
+  "team_id": "team_e89ad6763f24c71b42b8",
+  "team_name": "Braga",
+  "country_name": "Portugal",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "source_id": "S34",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; club names standardised to match domestic entries.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 754,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "source_id": "C199",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2001. Traditional home palette; source dated 2001.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 754,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 701,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2affc3a5cd8f2045070c.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/portugal.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e0d252cfd7d494140ffe.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Braga\" Portugal 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:40:06.697Z",
+    "response_path": "data/research/discovery/batch-356.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

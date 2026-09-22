@@ -1,0 +1,78 @@
+{
+  "task_id": "research_a5a74e2c5466bb2b8e53",
+  "team_id": "team_7ae2c4046193822968dc",
+  "team_name": "FC Nordsjælland",
+  "country_name": "Denmark",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "source_id": "S34",
+      "publisher": "UEFA",
+      "evidence_type": "Official",
+      "notes": "36 league-phase entrants; club names standardised to match domestic entries.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 762,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.the-sports.org/football-soccer-fc-nordsjaelland-results-identity-equ843.html",
+      "source_id": "C157",
+      "publisher": "The-Sports.org",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 762,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 729,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-21737138dae7-37bfb18d9aa7-1000--2026-27-conference-league-who-has-qualified-for-the-league-/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2affc3a5cd8f2045070c.json"
+    },
+    {
+      "url": "https://www.the-sports.org/football-soccer-fc-nordsjaelland-results-identity-equ843.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ea41982a4d56e776b86c.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"FC Nordsjælland\" Denmark 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:40:12.671Z",
+    "response_path": "data/research/discovery/batch-359.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

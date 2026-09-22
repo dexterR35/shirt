@@ -1,0 +1,50 @@
+{
+  "task_id": "research_ebcaf314248cc5fe8042",
+  "team_id": "team_0db14e2f0e39a66190bf",
+  "team_name": "Telos Agras Gargalianoi",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2072/matches",
+      "source_id": "S25",
+      "publisher": "Hellenic Football Federation (EPO)",
+      "evidence_type": "Official",
+      "notes": "Official group fixtures; English transliterations cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 608,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.epo.gr/el/competition/3/stage/1407/group/2072/matches",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5f4dde640bdc3562145a.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Telos Agras Gargalianoi\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:38:19.813Z",
+    "response_path": "data/research/discovery/batch-301.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

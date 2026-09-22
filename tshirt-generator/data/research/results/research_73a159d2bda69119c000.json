@@ -1,0 +1,78 @@
+{
+  "task_id": "research_73a159d2bda69119c000",
+  "team_id": "team_280fe3556b5fd1befb03",
+  "team_name": "Concarneau",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "source_id": "S14",
+      "publisher": "French Football Federation (FFF)",
+      "evidence_type": "Official",
+      "notes": "Ligue 3 is the current 2026/27 name of the third tier, formerly Championnat National.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 355,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://fr.wikipedia.org/wiki/Union_sportive_concarnoise",
+      "source_id": "C049",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Red is an additional club colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 355,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 325,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.fff.fr/article/17022-le-calendrier-2026-2027-est-servi.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/76156a26b769a24d2ae8.json"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Union_sportive_concarnoise",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/2ff2038f0b13902a73e2.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Concarneau\" France 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:33:57.625Z",
+    "response_path": "data/research/discovery/batch-175.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

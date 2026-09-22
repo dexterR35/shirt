@@ -1,0 +1,78 @@
+{
+  "task_id": "research_015072e9038761ca8379",
+  "team_id": "team_d8b2fef2ef13a4ff226b",
+  "team_name": "PAOK B",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece_2",
+      "source_id": "S22",
+      "publisher": "Wikipedia; Super League 2 cited on page",
+      "evidence_type": "Secondary",
+      "notes": "2026/27 has one unified 16-team division.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 528,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Parent-club palette (inferred)",
+      "notes": "Uses the parent-club identity colours of PAOK; reserve-specific palette not independently confirmed. Parent source is a historical reference dated 2005.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 528,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 617,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Super_League_Greece_2",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/ff6c11670eddf56c3b79.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"PAOK B\" Greece 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:36:54.465Z",
+    "response_path": "data/research/discovery/batch-261.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

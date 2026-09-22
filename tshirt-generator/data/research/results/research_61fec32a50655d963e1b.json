@@ -1,0 +1,78 @@
+{
+  "task_id": "research_61fec32a50655d963e1b",
+  "team_id": "team_722feead18d6ee8824b7",
+  "team_name": "SV Wehen Wiesbaden",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "source_id": "S11",
+      "publisher": "German Football Association (DFB)",
+      "evidence_type": "Official",
+      "notes": "Final licensed field includes TSV Havelse in place of TSV 1860 Munich.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 306,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://de.wikipedia.org/wiki/SV_Wehen_Wiesbaden",
+      "source_id": "C225",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 306,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 299,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.dfb.de/news/teilnehmerfeld-der-3-liga-steht-fest-havelse-rueckt-fuer-1860-nach",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/dc78755e6974e890d66c.json"
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/SV_Wehen_Wiesbaden",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/72257d0bcc6fefadcd37.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"SV Wehen Wiesbaden\" Germany 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:33:07.581Z",
+    "response_path": "data/research/discovery/batch-150.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

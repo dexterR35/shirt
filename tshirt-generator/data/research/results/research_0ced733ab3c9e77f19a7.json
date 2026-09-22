@@ -1,0 +1,78 @@
+{
+  "task_id": "research_0ced733ab3c9e77f19a7",
+  "team_id": "team_7c5069f5baa0d33fd3d0",
+  "team_name": "Kifisia",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.slgr.gr/en/teams/",
+      "source_id": "S21",
+      "publisher": "Super League Greece",
+      "evidence_type": "Official",
+      "notes": "Season selector 2026-2027; full field cross-checked with the season overview.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 507,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C.",
+      "source_id": "C129",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Colour nickname reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 507,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 573,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.slgr.gr/en/teams/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/5751a92d9e4df6d255f2.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/567608901a9a735e829b.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Kifisia\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:36:33.016Z",
+    "response_path": "data/research/discovery/batch-251.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

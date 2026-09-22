@@ -1,0 +1,94 @@
+{
+  "task_id": "research_744a9f1232331797ea37",
+  "team_id": "team_8eeab14d44ff8cd2c539",
+  "team_name": "Leeds United",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "status": "researching",
+  "reason": "Official yellow/charcoal model front saved. Trace tonal fragmented yellow print before creating a reviewed SVG.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 19,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/england.html",
+      "source_id": "C192",
+      "publisher": "George Chilvers / RSSSF",
+      "evidence_type": "Historical kit reference",
+      "notes": "Historical reference dated 2006. Traditional home-kit reference; not a 2026/27 kit check. Yellow is an additional colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 19,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 36,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/england.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e02f7c4b5db831f41835.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Leeds United\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:15.977Z",
+    "response_path": "data/research/discovery/batch-007.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect complete front and pattern details",
+    "Trace native vector artwork",
+    "Render and visually compare"
+  ],
+  "references": [
+    {
+      "publisher": "adidas official manufacturer store",
+      "page_url": "https://www.adidas.co.uk/leeds-united-26-27-away-jersey/KF1997.html",
+      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/b2168c5d7a724bcf95a9984459ebbe41_9366/Leeds_United_26-27_Away_Jersey_Yellow_KF1997_21_model.jpg",
+      "local_path": "data/research/references/adidas-batch2-model-2.jpg",
+      "checked_at": "2026-09-22T21:28:35.792Z",
+      "source_type": "official",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-22T21:28:35.792Z",
+      "action": "Official yellow/charcoal model front saved. Trace tonal fragmented yellow print before creating a reviewed SVG."
+    }
+  ]
+}

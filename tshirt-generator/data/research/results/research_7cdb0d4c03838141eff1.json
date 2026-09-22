@@ -1,0 +1,78 @@
+{
+  "task_id": "research_7cdb0d4c03838141eff1",
+  "team_id": "team_1b0bc31c3cb3feefcea6",
+  "team_name": "Makedonikos",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "source_id": "S23",
+      "publisher": "Wikipedia; Hellenic Football Federation links",
+      "evidence_type": "Secondary",
+      "notes": "Published 2026/27 entrants. Season has not started as at 11 September 2026. English name spellings retained.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 547,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "source_id": "C195",
+      "publisher": "Alexander Mastrogiannopoulos / RSSSF (copying permitted with acknowledgement)",
+      "evidence_type": "Historical club-colours reference",
+      "notes": "Historical reference dated 2005. Traditional club-colour reference dated 2005; current-season kit not verified.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 547,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 580,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Gamma_Ethniki",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/cb1a4813af9cdc85f8db.json"
+    },
+    {
+      "url": "https://www.rsssf.org/colours/greece.html",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d6e54f4898e6f2803017.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Makedonikos\" Greece 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:37:15.997Z",
+    "response_path": "data/research/discovery/batch-271.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "task_id": "research_f906aad189c1e75ec553",
+  "team_id": "team_91460b30bb26e0e560e9",
+  "team_name": "Sassuolo",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": null,
+  "status": "researching",
+  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "source_id": "S07",
+      "publisher": "Virgilio Sport",
+      "evidence_type": "Secondary",
+      "notes": "Season-specific 2026/2027 team directory; Serie C groups cross-checked against the July 29 group announcement.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 173,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Sassuolo_Calcio",
+      "source_id": "C206",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 173,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 239,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://sport.virgilio.it/calcio/squadre/",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/a651246ca93390aaeab8.json"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Unione_Sportiva_Sassuolo_Calcio",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/39e634af30f1df355ed7.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Sassuolo\" Italy 2026/27 official home football shirt kit",
+    "checked_at": "2026-09-22T20:30:53.900Z",
+    "response_path": "data/research/discovery/batch-084.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [
+    "Inspect official club/federation/manufacturer source",
+    "Save the correct season and variant front photograph",
+    "Estimate and document garment colors",
+    "Map observed shapes onto the original master",
+    "Render and visually review"
+  ]
+}

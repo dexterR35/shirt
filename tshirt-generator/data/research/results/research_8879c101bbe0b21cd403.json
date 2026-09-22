@@ -1,0 +1,93 @@
+{
+  "task_id": "research_8879c101bbe0b21cd403",
+  "team_id": "team_9729fba9a77388f456d5",
+  "team_name": "Brentford",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "status": "ready",
+  "reason": "Source-reviewed SVG revision available.",
+  "seed_references": [
+    {
+      "purpose": "competition_membership",
+      "url": "https://www.premierleague.com/en/clubs",
+      "source_id": "S01",
+      "publisher": "Premier League",
+      "evidence_type": "Official",
+      "notes": null,
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 10,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "K"
+        }
+      ]
+    },
+    {
+      "purpose": "palette_reference",
+      "url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+      "source_id": "C029",
+      "publisher": "Wikipedia contributors",
+      "evidence_type": "Club colours reference",
+      "notes": "Black is an additional traditional kit colour.",
+      "provenance": [
+        {
+          "sheet": "All Teams",
+          "row": 10,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "P"
+        },
+        {
+          "sheet": "Club Colours",
+          "row": 17,
+          "workbook_sha256": "c8c257d844e769ad3e6d1338a7f1533f631691e35bebc20bbdd5fbaab8cbc4ce",
+          "column": "J"
+        }
+      ]
+    }
+  ],
+  "seed_checks": [
+    {
+      "url": "https://www.premierleague.com/en/clubs",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/d46e797ffbe31b1d8cf1.json"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+      "status": 200,
+      "error": null,
+      "record_path": "data/research/link-checks/e77f66682382473cbc12.json"
+    }
+  ],
+  "discovery": {
+    "query": "\"Brentford\" England 2026/27 official away football shirt kit",
+    "checked_at": "2026-09-22T20:28:02.606Z",
+    "response_path": "data/research/discovery/batch-002.json",
+    "search_succeeded": true,
+    "visually_verified": false
+  },
+  "remaining": [],
+  "revision_path": "data/kits/team_9729fba9a77388f456d5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Brentford official store",
+      "page_url": "https://shop.brentfordfc.com/kit/2627-away-kit/adult/5835_brentford-2627-adult-authentic-away-shirt.html",
+      "image_url": "https://shop.brentfordfc.com/siteimg/prodhires/5835-515.jpg",
+      "local_path": "data/research/references/brentford-away-2026-27.jpg",
+      "checked_at": "2026-09-22T21:16:12.819Z",
+      "source_type": "official",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "updated_at": "2026-09-22T21:16:53.302Z",
+  "research_log": [
+    {
+      "date": "2026-09-22T21:16:53.302Z",
+      "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
+      "notes": "Compared full front: fine cream body pinstripes, diagonal sleeve pinstripes, wide cream crew neck and cuffs. Source foreground has no additional large panels."
+    }
+  ]
+}
