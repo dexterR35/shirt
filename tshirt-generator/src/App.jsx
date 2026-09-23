@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import PngShirtPreview from "./PngShirtPreview.jsx";
+import Icon from "./Icon.jsx";
 import Modal from "./Modal.jsx";
 import PartHighlight from "./PartHighlight.jsx";
+import {loadReviews, saveReview, reviewKey, emptyReview, teamReviewSummary} from "./lib/reviews.js";
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
 import {partAt, visiblePartIds} from "./lib/png-preview.js";
 import {useZoom, ZOOM_MIN, ZOOM_MAX} from "./lib/use-zoom.js";
@@ -13,60 +15,18 @@ import {
   filterTeams,
   addToSelection,
   revisionKey,
+  downloadBlob,
 } from "./lib/catalog.js";
+import {EXPORT_SIZES, renderPng, exportFilename, zipFiles} from "./lib/export.js";
 
-function Icon({ name, size = 20, ...props }) {
-  const paths = {
-    shirt: "M8 3 3 5 1 10l4 2 2-3v12h10V9l2 3 4-2-2-5-5-2c0 4-8 4-8 0Z",
-    search: "m21 21-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0",
-    arrow: "M5 12h14m-6-6 6 6-6 6",
-    download: "M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5",
-    plus: "M12 5v14M5 12h14",
-    minus: "M5 12h14",
-    fit: "M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5m8-5v2m-1-1h2",
-    edit: "M4 20h4L19 9l-4-4L4 16v4Zm9-13 4 4",
-    left: "m15 5-7 7 7 7",
-    right: "m9 5 7 7-7 7",
-    check: "m5 12 4 4L19 6",
-    close: "m6 6 12 12M6 18 18 6",
-    globe:
-      "M21 12H3m9-9c5 5 5 13 0 18-5-5-5-13 0-18ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
-    layers: "m12 3 10 6-10 6L2 9l10-6Zm-10 11 10 6 10-6",
-    link: "m10 13 4-4m-6 7-2 2a4 4 0 0 1-6-6l4-4m12-1 2-2a4 4 0 0 1 6 6l-4 4",
-    info: "M12 11v6m0-10v1M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
-  };
+/** Team review badge in the list: ✓ both shirts approved, ! a shirt denied, plus average stars. */
+function TeamBadge({ summary }) {
+  if (!summary) return null;
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      {...props}
-    >
-      <path d={paths[name] || paths.shirt} />
-    </svg>
-  );
-}
-const statusLabel = (status) =>
-  status === "ready"
-    ? "Ready"
-    : status === "blocked"
-      ? "Reference needed"
-      : status === "draft" || status === "drafted" || status === "reviewed"
-        ? "In review"
-        : "In research";
-function Status({ status }) {
-  return (
-    <span
-      className={`status ${status === "ready" ? "ready" : status === "blocked" ? "blocked" : ""}`}
-    >
-      <span />
-      {statusLabel(status)}
+    <span className={`team-badge ${summary.status}`} title={summary.label} aria-label={summary.label}>
+      {summary.status === "approved" && <span className="team-badge-mark">✓</span>}
+      {summary.status === "denied" && <span className="team-badge-mark">!</span>}
+      {summary.rating !== null && <span>★ {summary.rating}</span>}
     </span>
   );
 }
@@ -107,6 +67,12 @@ export default function App() {
     [selectedPart, setSelectedPart] = useState(""),
     [visibleIds, setVisibleIds] = useState(null),
     [hoverPart, setHoverPart] = useState(null),
+    [reviews, setReviews] = useState({}),
+    [denyOpen, setDenyOpen] = useState(false),
+    [denyNote, setDenyNote] = useState(""),
+    [queueOpen, setQueueOpen] = useState(false),
+    [exportSize, setExportSize] = useState(2048),
+    [exporting, setExporting] = useState(""),
     [, setSavedVersion] = useState(0),
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
@@ -119,6 +85,9 @@ export default function App() {
     // Saved color edits per kit: kept in memory until the page is refreshed.
     savedEdits = useRef(new Map());
   const zoom = useZoom();
+  useEffect(() => {
+    loadReviews().then(setReviews, () => {});
+  }, []);
   useEffect(() => {
     let alive = true;
     json("/catalog/manifest.json")
@@ -160,6 +129,23 @@ export default function App() {
   const previewConfig = useMemo(() => edited ? applyEdits(editBase, edits) : appliedConfig,
     [appliedConfig, editBase, edited, JSON.stringify(edits)]);
   const part = parts.find((p) => p.id === selectedPart);
+  const review = active ? reviews[reviewKey(active)] || emptyReview(active) : null;
+  function updateReview(change) {
+    try {
+      setReviews((all) => saveReview(all, reviewKey(active), {...review, ...change}));
+      return true;
+    } catch (e) {
+      setNotice(e.message);
+      return false;
+    }
+  }
+  function openDeny() {
+    setDenyNote(review?.status === "denied" ? review.notes : "");
+    setDenyOpen(true);
+  }
+  function deny() {
+    if (updateReview({status: "denied", notes: denyNote.trim()})) setDenyOpen(false);
+  }
   const missing = !active && candidate && slot?.status !== "ready";
   const selectedIndex = active
     ? selection.findIndex((s) => revisionKey(s) === revisionKey(active))
@@ -194,6 +180,7 @@ export default function App() {
         setAppliedConfig(saved.config);
         setEquipment(saved.equipment);
         setEditing(false);
+        setDenyOpen(false);
       }
     } catch (e) {
       if (e.name !== "AbortError" && request.current === sequence)
@@ -207,9 +194,49 @@ export default function App() {
     const item = kitItem(candidate, variant);
     try {
       setSelection(addToSelection(selection, item));
+      setQueueOpen(true);
       setNotice(candidate.name + " " + variant + " added to your collection.");
     } catch (e) {
       setNotice(e.message);
+    }
+  }
+  /** The config a queued kit downloads with: its saved layout plus any saved color edits. */
+  async function exportConfig(item) {
+    const key = `${revisionKey(item)}:${item.png_layout_revision || "original"}`;
+    let saved = cache.current.get(key);
+    if (!saved) {
+      const details = await json(item.details_path);
+      saved = {config: kitPreviewConfig(details, item), equipment: equipmentForKit(details.equipment, item)};
+      cache.current.set(key, saved);
+    }
+    const edits = savedEdits.current.get(key);
+    return {config: edits ? applyEdits(saved.config, edits) : saved.config, custom: !!edits};
+  }
+  /** Render every queued kit at the chosen size; download them one by one or as one ZIP. */
+  async function downloadQueue(asZip) {
+    if (!selection.length || exporting) return;
+    const files = [];
+    try {
+      for (const [i, item] of selection.entries()) {
+        setExporting(`Preparing ${i + 1} / ${selection.length}…`);
+        const {config, custom} = await exportConfig(item);
+        files.push({name: exportFilename(item, exportSize, custom), blob: await renderPng(config, exportSize)});
+      }
+      if (asZip) {
+        setExporting("Zipping…");
+        downloadBlob(await zipFiles(files), `tshirt-kits-${files.length}-${exportSize}px.zip`);
+      } else {
+        // Space the downloads out so the browser accepts each file.
+        for (const f of files) {
+          downloadBlob(f.blob, f.name);
+          await new Promise((r) => setTimeout(r, 250));
+        }
+      }
+      setNotice(`${files.length} kit${files.length > 1 ? "s" : ""} downloaded at ${exportSize} px.`);
+    } catch (e) {
+      setNotice(e.message || "The download could not be prepared.");
+    } finally {
+      setExporting("");
     }
   }
   function remove(index) {
@@ -225,6 +252,7 @@ export default function App() {
     setAppliedConfig(null);
     setEquipment(null);
     setEditing(false);
+    setDenyOpen(false);
     setBusy(false);
   }
   function startEdit() {
@@ -391,7 +419,6 @@ export default function App() {
           <div className="workspace">
             <aside className="sidebar">
               <div className="section-title">
-                <span className="step">01</span>
                 <h2>Find your team</h2>
               </div>
               <label className="field-label" htmlFor="country">
@@ -459,6 +486,7 @@ export default function App() {
                         {t.reserve ? " · Reserves" : ""}
                       </small>
                     </span>
+                    <TeamBadge summary={teamReviewSummary(t, reviews)} />
                     {Object.values(t.kits).some((k) => k.status === "ready") ? (
                       <span className="ready-dot" title="A kit is ready" />
                     ) : null}
@@ -481,12 +509,8 @@ export default function App() {
             <section className="preview-panel" aria-label="Shirt preview">
               <div className="preview-toolbar">
                 <div className="candidate-heading">
-                  <small>SELECTED TEAM</small>
+                  <small className="eyebrow">SELECTED TEAM</small>
                   <h3>{candidate?.name || "Choose a team"}</h3>
-                  <div className="candidate-status">
-                    <Status status={slot?.status} />
-                    <span>{slot?.kit_season || "Season unverified"}</span>
-                  </div>
                 </div>
                 <div className="variant-switch" aria-label="Kit variant">
                   {["home", "away"].map((v) => (
@@ -648,6 +672,24 @@ export default function App() {
                 </Modal>
               )}
               <div className="preview-actions">
+                <div className="review-approve">
+                  <label className={`approve-check ${review?.status === "approved" ? "approved" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={review?.status === "approved"}
+                      disabled={!review || review.status === "approved"}
+                      onChange={() => updateReview({status: "approved"})}
+                    />
+                    {review?.status === "approved" ? `Approved${review.sample ? " (sample)" : ""}` : "Approve"}
+                  </label>
+                  <button
+                    className={`secondary deny-button ${review?.status === "denied" ? "denied" : ""}`}
+                    disabled={!review}
+                    onClick={openDeny}
+                  >
+                    {review?.status === "denied" ? "Denied" : "Deny"}
+                  </button>
+                </div>
                 <div className="pager">
                   <button
                     aria-label="Previous kit"
@@ -681,11 +723,46 @@ export default function App() {
                     <Icon name="right" size={17} />
                   </button>
                 </div>
-                <button className="download primary" disabled title="Download sizes and formats will be added later">
-                  <Icon name="download" size={18} />
-                  Download later
-                </button>
+                <div className="stars" role="radiogroup" aria-label="Rating">
+                  {[1, 2, 3, 4, 5].map((n) => (
+                    <button
+                      key={n}
+                      role="radio"
+                      aria-checked={review?.rating === n}
+                      aria-label={`${n} star${n > 1 ? "s" : ""}`}
+                      className={n <= (review?.rating || 0) ? "on" : ""}
+                      disabled={!review}
+                      onClick={() => updateReview({rating: n})}
+                    >
+                      ★
+                    </button>
+                  ))}
+                </div>
               </div>
+              {denyOpen && review && (
+                <div className="deny-form">
+                  <label>
+                    What needs to change on this shirt?
+                    <textarea
+                      value={denyNote}
+                      maxLength={2000}
+                      rows={3}
+                      placeholder="e.g. shoulder stripes too thin, collar should be navy…"
+                      onChange={(e) => setDenyNote(e.target.value)}
+                      autoFocus
+                    />
+                  </label>
+                  <div className="deny-actions">
+                    <button className="secondary" onClick={() => setDenyOpen(false)}>Cancel</button>
+                    <button className="primary" disabled={!denyNote.trim()} onClick={deny}>Save denial</button>
+                  </div>
+                </div>
+              )}
+              {!denyOpen && review?.status === "denied" && (
+                <p className="deny-note">
+                  <strong>Needs changes{review.sample ? " (sample)" : ""}:</strong> {review.notes}
+                </p>
+              )}
               <div className="preview-notes">
                 <span>
                   <Icon name="check" size={14} />
@@ -701,60 +778,7 @@ export default function App() {
                 </span>
               </div>
             </section>
-            <aside className="collection-panel">
-              <div className="section-title">
-                <Icon name="layers" size={18} />
-                <h2>Your collection</h2>
-                <span className="count-pill">{selection.length}/10</span>
-              </div>
-              {selection.length ? (
-                <div className="collection-list">
-                  {selection.map((item, i) => (
-                    <div
-                      className={`collection-item ${selectedIndex === i ? "current" : ""}`}
-                      key={revisionKey(item)}
-                    >
-                      <button onClick={() => activate(item)} disabled={busy}>
-                        <Icon name="shirt" size={26} />
-                        <span>
-                          <strong>{item.team_name}</strong>
-                          <small>
-                            {item.variant} · {item.kit_season}
-                          </small>
-                        </span>
-                      </button>
-                      <button
-                        className="remove"
-                        aria-label={`Remove ${item.team_name} ${item.variant}`}
-                        onClick={() => remove(i)}
-                      >
-                        <Icon name="close" size={14} />
-                      </button>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="collection-empty">
-                  <span className="empty-icon">
-                    <Icon name="shirt" size={33} />
-                    <span>+</span>
-                  </span>
-                  <h3>A squad of your own</h3>
-                  <div className="empty-slots">
-                    {[1, 2, 3, 4, 5].map((n) => (
-                      <span key={n} />
-                    ))}
-                  </div>
-                </div>
-              )}
-              <button
-                className="secondary zip-button"
-                disabled
-                title="Export sizes and formats will be added later"
-              >
-                <Icon name="download" size={17} />
-                Collection export later
-              </button>
+            <aside className="details-panel">
               <EquipmentCard active={active} equipment={equipment} custom={edited}/>
             </aside>
           </div>
@@ -777,6 +801,67 @@ export default function App() {
             </>
           )}
         </div>
+        <section className={`queue ${queueOpen ? "open" : ""}`} aria-label="Collection">
+          <button className="queue-head" aria-expanded={queueOpen} onClick={() => setQueueOpen((o) => !o)}>
+            <Icon name="layers" size={16} />
+            <span>Collection</span>
+            <span className="count-pill">{selection.length}/10</span>
+            <Icon name={queueOpen ? "down" : "up"} size={15} />
+          </button>
+          {queueOpen && (
+            <div className="queue-body">
+              {selection.length ? (
+                <div className="collection-list">
+                  {selection.map((item, i) => (
+                    <div
+                      className={`collection-item ${selectedIndex === i ? "current" : ""}`}
+                      key={revisionKey(item)}
+                    >
+                      <button onClick={() => activate(item)} disabled={busy}>
+                        <Icon name="shirt" size={22} />
+                        <span>
+                          <strong>{item.team_name}</strong>
+                          <small>
+                            {item.variant} · {item.kit_season}
+                          </small>
+                        </span>
+                      </button>
+                      <button
+                        className="remove"
+                        aria-label={`Remove ${item.team_name} ${item.variant}`}
+                        onClick={() => remove(i)}
+                      >
+                        <Icon name="close" size={14} />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="queue-empty">Use “Add to collection” to queue up to 10 kits for download.</p>
+              )}
+              <div className="queue-actions">
+                <select
+                  aria-label="Download size"
+                  value={exportSize}
+                  onChange={(e) => setExportSize(Number(e.target.value))}
+                  disabled={!!exporting}
+                >
+                  {EXPORT_SIZES.map((size) => (
+                    <option key={size} value={size}>{size} px · PNG</option>
+                  ))}
+                </select>
+                <button className="secondary" disabled={!selection.length || !!exporting} onClick={() => downloadQueue(false)}>
+                  <Icon name="download" size={15} />
+                  Download
+                </button>
+                <button className="primary" disabled={!selection.length || !!exporting} onClick={() => downloadQueue(true)}>
+                  ZIP
+                </button>
+              </div>
+              {exporting && <p className="queue-progress" aria-live="polite">{exporting}</p>}
+            </div>
+          )}
+        </section>
       </main>
     </div>
   );

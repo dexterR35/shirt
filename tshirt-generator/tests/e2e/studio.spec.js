@@ -45,7 +45,7 @@ async function setup(page) {
     page.getByRole("heading", { name: "Your team. Its true colors." }),
   ).toBeVisible();
 }
-test("all 735 real teams, accent search, unavailable exports and responsive layout", async ({
+test("all 735 real teams, accent search and responsive layout", async ({
   page,
 }) => {
   await page.goto("/");
@@ -57,9 +57,6 @@ test("all 735 real teams, accent search, unavailable exports and responsive layo
   await page.getByLabel("Team", { exact: true }).fill("zzzz-no-result");
   await expect(page.getByText("No teams found")).toBeVisible();
   await page.getByRole("button", { name: "Reset filters" }).click();
-  await expect(
-    page.getByRole("button", { name: "Download later", exact: true }),
-  ).toBeDisabled();
   await page.setViewportSize({ width: 390, height: 844 });
   expect(
     await page.evaluate(
@@ -87,7 +84,6 @@ test("the studio opens on the plain base; choosing a team or variant paints it a
   await page.getByRole("button", { name: "Home", exact: true }).click();
   await expect(shirt).toHaveAttribute("data-render-state","ready");
   expect(await shirt.evaluate(canvas=>canvas.toDataURL())).toBe(home);
-  await expect(page.getByRole("button",{name:"Download later",exact:true})).toBeDisabled();
   await page.getByRole("button", { name: /Test Team 2 Romania/ }).click();
   await expect(
     page.getByRole("button", { name: "Home", exact: true }),
@@ -122,7 +118,7 @@ test("ten selections, no truncation, independent Home/Away and synchronized navi
     "aria-label",
     "Știința Test home shirt",
   );
-  await expect(page.getByRole("button",{name:"Collection export later"})).toBeDisabled();
+  await expect(page.getByRole("button",{name:"ZIP",exact:true})).toBeEnabled();
   await page
     .getByRole("button", { name: "Remove Știința Test home", exact: true })
     .click();
@@ -497,4 +493,88 @@ test('edit mode fixes the view, selects parts by clicking the shirt, and keeps s
   await expect(canvas).toHaveAttribute('aria-label','Arsenal home shirt');
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   expect(await canvas.evaluate(c=>c.toDataURL())).toBe(original);
+});
+
+test('each shirt has its own 1-5 star rating, one-time approval and denial notes, kept across reloads',async({page})=>{
+  await page.goto('/');
+  const approve=page.getByRole('checkbox'),stars=page.getByRole('radiogroup',{name:'Rating'});
+  // Without a kit there is nothing to review.
+  await expect(approve).toBeDisabled();
+  // Sample JSON: Arsenal Home approved with 5 stars, Leeds Home denied with a note.
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await page.getByRole('button',{name:/Arsenal England/}).click();
+  await expect(approve).toBeChecked();
+  await expect(approve).toBeDisabled();
+  await expect(page.getByText('Approved (sample)')).toBeVisible();
+  await expect(stars.getByRole('radio',{name:'5 stars'})).toHaveAttribute('aria-checked','true');
+  await page.getByLabel('Team',{exact:true}).fill('Leeds United');
+  await page.getByRole('button',{name:/Leeds United England/}).click();
+  await expect(page.locator('.deny-note')).toContainText('shoulder tapes look too thin');
+  // Team badges in the list come from the shirt reviews.
+  await expect(page.locator('.team-row',{hasText:'Leeds United'}).locator('.team-badge.denied')).toContainText('★ 3');
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await expect(page.locator('.team-row',{hasText:'Arsenal'}).locator('.team-badge')).toHaveAttribute('aria-label','1 of 2 shirts approved');
+  // A kit nobody reviewed: rate it, try to deny without a note, then approve once.
+  await page.getByLabel('Team',{exact:true}).fill('Chelsea');
+  await page.getByRole('button',{name:/Chelsea England/}).click();
+  await expect(approve).not.toBeChecked();
+  await stars.getByRole('radio',{name:'4 stars'}).click();
+  await expect(stars.locator('button.on')).toHaveCount(4);
+  await page.getByRole('button',{name:'Deny',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Save denial'})).toBeDisabled();
+  await page.getByRole('button',{name:'Cancel',exact:true}).click();
+  await approve.check();
+  await expect(approve).toBeDisabled();
+  // Away is a separate shirt with its own review.
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(approve).not.toBeChecked();
+  await expect(stars.locator('button.on')).toHaveCount(0);
+  await page.getByRole('button',{name:'Deny',exact:true}).click();
+  await page.getByPlaceholder(/shoulder stripes/).fill('Collar should be navy');
+  await page.getByRole('button',{name:'Save denial'}).click();
+  await expect(page.locator('.deny-note')).toContainText('Collar should be navy');
+  await expect(page.getByRole('button',{name:'Denied',exact:true})).toBeVisible();
+  await expect(page.locator('.team-row',{hasText:'Chelsea'}).locator('.team-badge.denied')).toContainText('★ 4');
+  // Saved in this browser: still there after a reload.
+  await page.reload();
+  await expect(page.locator('.deny-note')).toContainText('Collar should be navy');
+  await page.getByRole('button',{name:'Home',exact:true}).click();
+  await expect(approve).toBeChecked();
+  await expect(stars.locator('button.on')).toHaveCount(4);
+});
+
+test('the collection tray downloads queued kits as sized PNGs or one ZIP',async({page})=>{
+  await page.goto('/');
+  const tray=page.getByRole('region',{name:'Collection'});
+  // Docked bottom-right, collapsed until something is added.
+  await expect(tray.getByRole('button',{name:'ZIP'})).toHaveCount(0);
+  for(const team of ['Arsenal','Chelsea']){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} England`)}).click();
+    await page.getByRole('button',{name:'Add to collection',exact:true}).click();
+  }
+  await expect(tray.locator('.collection-item')).toHaveCount(2);
+  const box=await tray.boundingBox(),vp=page.viewportSize();
+  expect(Math.round(box.x+box.width)).toBe(vp.width-20);
+  expect(Math.round(box.y+box.height)).toBe(vp.height-20);
+  await tray.getByLabel('Download size').selectOption('512');
+  const fs=await import('node:fs/promises');
+  // One PNG per kit, at the chosen size.
+  const pngs=[];
+  page.on('download',d=>pngs.push(d));
+  await tray.getByRole('button',{name:'Download'}).click();
+  await expect.poll(()=>pngs.length).toBe(2);
+  for(const d of pngs){
+    expect(d.suggestedFilename()).toMatch(/-(home)-r\d{3}-512px\.png$/);
+    const png=await fs.readFile(await d.path());
+    expect(png.subarray(1,4).toString()).toBe('PNG');
+    expect([png.readUInt32BE(16),png.readUInt32BE(20)]).toEqual([512,512]);
+  }
+  // Or both in one ZIP.
+  const [zip]=await Promise.all([page.waitForEvent('download'),tray.getByRole('button',{name:'ZIP'}).click()]);
+  expect(zip.suggestedFilename()).toBe('tshirt-kits-2-512px.zip');
+  const bytes=await fs.readFile(await zip.path());
+  expect(bytes.subarray(0,2).toString()).toBe('PK');
+  expect(bytes.toString('latin1')).toContain('arsenal');
+  expect(bytes.toString('latin1')).toContain('chelsea');
 });
