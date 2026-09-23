@@ -41,34 +41,8 @@ export function slug(value) {
       .replace(/^-|-$/g, "") || "team"
   );
 }
-export function assetFilename(item) {
-  return `${slug(item.country_name)}-${slug(item.team_name)}-${item.team_id}-${slug(item.kit_season)}-${item.variant}-${item.revision}.svg`;
-}
-export async function loadSvg(item, signal) {
-  const response = await fetch(item.svg_path, { signal });
-  if (!response.ok)
-    throw new Error(
-      `The saved SVG could not be loaded (${response.status}). Choose another kit or retry.`,
-    );
-  const text = await response.text();
-  if (
-    !text.startsWith("<svg") ||
-    /<(?:script|image|foreignObject)\b/i.test(text) ||
-    /\bon\w+\s*=|(?:href|src)\s*=/i.test(text)
-  )
-    throw new Error("The saved asset is not a supported standalone SVG.");
-  if (item.sha256) {
-    const hash = Array.from(
-      new Uint8Array(
-        await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)),
-      ),
-    )
-      .map((v) => v.toString(16).padStart(2, "0"))
-      .join("");
-    if (hash !== item.sha256)
-      throw new Error("The saved SVG does not match its revision.");
-  }
-  return text;
+export function assetFilename(item, extension = "png") {
+  return `${slug(item.country_name)}-${slug(item.team_name)}-${item.team_id}-${slug(item.kit_season)}-${item.variant}-${item.revision}.${extension}`;
 }
 export function downloadBlob(blob, filename) {
   const url = URL.createObjectURL(blob);

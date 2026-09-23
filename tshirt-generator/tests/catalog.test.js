@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import crypto from "node:crypto";
 import {
   filterTeams,
   addToSelection,
@@ -61,5 +62,14 @@ test("export filenames include original identity, season, variant and revision w
     variant: "away",
     revision: "r001",
   });
-  assert.equal(name, "romania-stiinta-team_123-2026-27-away-r001.svg");
+  assert.equal(name, "romania-stiinta-team_123-2026-27-away-r001.png");
+});
+test("every ready kit revision keeps its locked paint configuration", async () => {
+  const lock = JSON.parse(await fs.readFile("data/kit-config-lock.json", "utf8"));
+  for (const file of (await fs.readdir("data/kits")).filter((f) => f.endsWith(".json"))) {
+    const revision = JSON.parse(await fs.readFile(`data/kits/${file}`, "utf8"));
+    if (revision.status !== "ready") continue;
+    const hash = crypto.createHash("sha256").update(JSON.stringify(revision.config)).digest("hex");
+    assert.equal(hash, lock[file], `${file} changed; create a new revision instead`);
+  }
 });

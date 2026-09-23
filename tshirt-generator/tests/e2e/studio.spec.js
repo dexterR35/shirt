@@ -16,7 +16,6 @@ async function setup(page) {
               status: "ready",
               kit_season: "2026/27",
               revision: "r001",
-              svg_path: `/fixture/${i}-${variant}.svg`,
               details_path: `/fixture/${i}-${variant}.json`,
             },
       ]),

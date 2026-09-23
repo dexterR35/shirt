@@ -13,7 +13,7 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 - Use React + Vite + JavaScript (.jsx/.js), CSS and a shared JavaScript SVG renderer. Add JSDoc and runtime validation. Preserve the user's familiar stack.
 - Keep the interface simple and dark navy: country filter, team search, Home/Away switch, Apply, one central shirt and SVG download.
 - Country and team are the navigation axes. Source competition metadata is retained for provenance, outside product navigation.
-- Keep candidate selection separate from the applied kit. Apply loads the selected saved revision. Preview and download use the same SVG bytes.
+- Keep candidate selection separate from the applied kit. Apply loads the selected saved revision. Preview and download use the same PNG composite.
 - Support up to 10 selected kit revisions with previous/next arrows. Home and Away occupy separate slots. Do not silently truncate a selection or limit the visible catalog to ten teams.
 - The local JSON/SVG catalog is the required baseline. Rendering and downloading must work without an AI API or cloud account. Optional shared storage must not block this version.
 
@@ -36,7 +36,8 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## SVG
 
-- The user rejected the replacement SVG's softened detail and chose the original PNG. Use `original-png-composite-1` from src/lib/png-shirt.js for current previews. Preserve base.png at 8000 × 5000; read docs/BASE_ANALYSIS.md. Retain the vector renderers only for archived revision reproduction and paint geometry.
+- The user rejected the replacement SVG's softened detail and chose the original PNG. Use `original-png-composite-1` from src/lib/png-shirt.js for current previews. Preserve base.png at 8000 × 5000; read docs/BASE_ANALYSIS.md. Retain the vector renderers only for paint geometry and on-demand reproduction of old revisions.
+- The user removed the generated per-kit SVG archive (`public/assets/shirts/`) on 23 September 2026. Do not regenerate or deploy it. Ready revisions stay immutable through `data/kit-config-lock.json` (config hashes written by `npm run catalog:build`); change a ready kit only by creating a new revision.
 - Style: flat 2D, subtle soft shading, transparent background.
 - Reproduce the kit's observed color layout and graphic forms on the common silhouette. Remove team emblems, manufacturer logos, sponsors and lettering.
 - Extend the renderer with validated rect/polygon/path layers and body/sleeve/all clips. The current six pattern families alone are insufficient.

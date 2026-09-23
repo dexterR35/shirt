@@ -97,7 +97,7 @@ KuPS apare în sursă cu 2026 și 2026/27. Ambele etichete sunt păstrate, dar a
 | data/research/references/ | De creat: referințele Home/Away pentru verificare locală |
 | data/kits/ | De creat: configurațiile vectoriale și istoricul reviziilor |
 | public/catalog/ | De creat: manifestul compact folosit de aplicație |
-| public/assets/shirts/ | De creat: stocul SVG generat și verificat |
+| public/assets/shirts/ | Eliminat la 23 septembrie 2026 (vezi docs/STATUS.md); previzualizarea folosește PNG-ul original |
 
 Nu încărca în bundle workbookul, auditul complet sau fotografiile originale. Construiește un manifest mic pentru căutare, status și căile către asseturi. Încarcă SVG-ul/configurația numai pentru selecția activă și lotul utilizatorului.
 
@@ -179,7 +179,7 @@ const kitConfig = {
 };
 ~~~
 
-Separat de config se păstrează: team_id, variant, kit_season, revision, status, references, color_evidence, research_log, visual_review, config_path, svg_path și hash-ul SVG. O revizie aprobată nu se suprascrie; modificarea creează una nouă.
+Separat de config se păstrează: team_id, variant, kit_season, revision, status, references, color_evidence, research_log, visual_review, config_path și hash-ul configurației (data/kit-config-lock.json). O revizie aprobată nu se suprascrie; modificarea creează una nouă.
 
 Statusurile interne: unresearched → researching → drafted → reviewed → ready. blocked poate apărea când lipsesc dovezi. Marchează ready doar după verificarea sezonului/variantei, completarea surselor și comparația vizuală. Înregistrează dacă review-ul a fost făcut de Codex sau de utilizator; nu inventa o aprobare umană.
 

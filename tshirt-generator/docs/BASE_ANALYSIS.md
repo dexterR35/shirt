@@ -30,7 +30,7 @@ The user replaced the previous base with `base.png`. This request supersedes the
 - The alpha contour is simplified into quadratic paths. Grayscale shading is traced in 2/255 luminance steps into 112 black vector contour layers, with a 0.45-unit vector blur to soften transitions. Source textile microtexture is intentionally omitted. Sleeve/body/cuff seams are measured separately for recoloring and clipped artwork.
 - Measured silhouette intersection-over-union: **99.72%** at 600 × 600. A separate test independently normalizes the original PNG and checks overlap >99% and mean interior red-channel shading error <7/255. This is a vector approximation, not a lossless photo conversion.
 
-Run `npm run base:analyze` then `npm run catalog:build`. The deliverable is `starter/shirt-svg/base.svg`; the app loads identical bytes from `public/assets/shirts/original-master.svg`. Source comparison and analysis are in `artifacts/new-base/`. No `<image>`, raster payload or external resources are embedded.
+Run `npm run base:analyze` then `npm run catalog:build`. The deliverable is `starter/shirt-svg/base.svg`. The per-kit SVG archive, including `original-master.svg`, was removed on 23 September 2026; the app uses the original PNG. Source comparison and analysis are in `artifacts/new-base/`. No `<image>`, raster payload or external resources are embedded.
 
 The new renderer surface is `replacement-base-vector-3`, with template `replacement-front-3`. Historical `reference-front-2` configurations and surfaces remain supported so every saved kit revision reproduces its existing bytes. This base change does not migrate approved team revisions or claim additional researched kits.
 
@@ -73,4 +73,4 @@ Paint, clipped graphic layers and collar/cuff details are composed first. A sing
 - The zero-error measurement is for the original lighting layer, not for garment color estimates, team pattern placement, or a pixel comparison between the final shirt and an official photograph.
 - Reference-front-2 remains the panel template; `original-png-vector-1` identifies this application surface revision.
 
-Reproduce with `npm run base:analyze` and `npm test`. Machine-readable measurements are in `artifacts/base-analysis.json`. The standalone lighting is `artifacts/original-highlight-vector.svg`. The painted neutral master is `public/assets/shirts/original-master.svg`.
+Reproduce with `npm run base:analyze` and `npm test`. Machine-readable measurements are in `artifacts/base-analysis.json`. The standalone lighting is `artifacts/original-highlight-vector.svg`. The painted neutral master is `starter/shirt-svg/base.svg`.

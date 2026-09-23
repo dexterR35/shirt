@@ -31,7 +31,7 @@ npm run research:checkpoint # Materialize saved search batches into per-slot pro
 npm run research:fka:import # Import archive captures and save public front references
 npm run research:fka:scrape # Collect observed kit pages; checkpoint HTTP/access failures
 npm run research:fka:review # Render source/adaptation comparison sheets
-npm run catalog:build      # Prepare PNG, catalog, evidence and archived SVG stock
+npm run catalog:build      # Prepare PNG, catalog, evidence and the ready-kit config lock
 npm test                   # Renderer, transparency, search, selection and validation tests
 npm run test:e2e            # PNG preview, custom colors, selection and recovery
 npm run build

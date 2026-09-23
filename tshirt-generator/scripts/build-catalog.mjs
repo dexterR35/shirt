@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import { renderShirt, neutralConfig } from "../src/lib/shirt-renderer.js";
-import { assetFilename } from "../src/lib/catalog.js";
 import { validatePngLayout } from "../src/lib/png-layout.js";
 import { buildTeamEquipment } from "./research/build-team-equipment.mjs";
 import { equipmentForKit } from "../src/lib/equipment.js";
@@ -11,13 +10,15 @@ const teams = await read("data/normalized/teams.json"),
   countries = await read("data/normalized/countries.json"),
   queue = await read("data/research/kit-research-queue.json");
 await fs.mkdir("public/catalog", { recursive: true });
-await fs.mkdir("public/assets/shirts", { recursive: true });
 await fs.mkdir("public/catalog/kits", { recursive: true });
 await fs.mkdir("public/catalog/teams", { recursive: true });
 for (const [id, data] of equipmentTeams) {
   await fs.writeFile(`public/catalog/teams/${id}.json`, JSON.stringify(data));
 }
 const files = await fs.readdir("data/kits");
+const configLockPath = "data/kit-config-lock.json";
+let configLock = {};
+try { configLock = await read(configLockPath); } catch (e) { if (e.code !== "ENOENT") throw e; }
 const revisions = [];
 const layouts = [];
 for (const file of (await fs.readdir('data/kits/png-layouts')).filter(f => f.endsWith('.json'))) {
@@ -51,29 +52,14 @@ for (const file of files.filter((f) => f.endsWith(".json"))) {
       !revision.color_evidence)
   )
     throw Error(`Missing evidence for ${file}`);
-  const svg = renderShirt(
-      revision.config,
-      `${revision.team_name} · ${revision.kit_season} · ${revision.variant}`,
-      revision.surface_version ?? "original-png-vector-1",
-    ),
-    filename = assetFilename(revision);
-  const svgPath = `public/assets/shirts/${filename}`;
-  try {
-    const existing = await fs.readFile(svgPath, "utf8");
-    if (existing !== svg && revision.status === "ready")
-      throw Error(
-        `Immutable revision changed: ${filename}. Create a new revision.`,
-      );
-    if (existing !== svg) await fs.writeFile(svgPath, svg);
-  } catch (e) {
-    if (e.code !== "ENOENT") throw e;
-    await fs.writeFile(svgPath, svg);
+  // Ready revisions are immutable: their paint configuration is locked by hash.
+  const configHash = crypto.createHash("sha256").update(JSON.stringify(revision.config)).digest("hex");
+  if (revision.status === "ready") {
+    if (configLock[file] && configLock[file] !== configHash)
+      throw Error(`Immutable revision changed: ${file}. Create a new revision.`);
+    configLock[file] = configHash;
   }
-  const saved = {
-    ...revision,
-    svg_path: `/assets/shirts/${filename}`,
-    sha256: crypto.createHash("sha256").update(svg).digest("hex"),
-  };
+  const saved = { ...revision };
   const equipment = equipmentTeams.get(revision.team_id)?.kits[revision.variant];
   // Never attach another season's metadata to an applied historical revision.
   if (equipment?.season === revision.kit_season) saved.equipment = equipmentForKit(equipment,revision);
@@ -133,8 +119,6 @@ const manifestTeams = teams.map((t) => ({
               revision: r.revision,
               ...(r.png_layout_revision ? {png_layout_revision: r.png_layout_revision} : {}),
               details_path: `/catalog/kits/${t.id}-${variant}-${r.revision}.json`,
-              svg_path: r.svg_path,
-              sha256: r.sha256,
             }
           : {
               status:
@@ -183,10 +167,7 @@ const manifest = {
   teams: manifestTeams,
 };
 await fs.writeFile("public/catalog/manifest.json", JSON.stringify(manifest));
-await fs.writeFile(
-  "public/assets/shirts/original-master.svg",
-  renderShirt(neutralConfig()),
-);
+await fs.writeFile(configLockPath, JSON.stringify(Object.fromEntries(Object.entries(configLock).sort()), null, 2) + "\n");
 await fs.writeFile("starter/shirt-svg/base.svg", renderShirt(neutralConfig()));
 await fs.writeFile(
   "data/research/progress.json",

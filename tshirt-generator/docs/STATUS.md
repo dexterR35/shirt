@@ -18,7 +18,9 @@ React 19.3.0, React DOM 19.3.0, Vite 8.3.0, JavaScript/JSX and CSS, with a locke
 
 All 735 original identities, 39 countries/associations, 708 first teams, 27 reserve teams, 779 memberships, 16 workbook tabs, notes, links and hidden rows are preserved. Country names represent the supplied club catalog, not a newly researched set of national teams. No database, AI account or cloud service is required. The user's original base PNG loads once; kit configurations load on demand. Team reference photos and workbook audits are not shipped in the browser catalog. Font assets are local.
 
-The shared renderer supports validated rectangles, polygons, cubic/quadratic/arc paths, linear color gradients, body/sleeve/all clipping, independent sleeve/cuff colors, custom collar geometry and detail layers. Source markup cannot be inserted. Ready revisions cannot be overwritten with changed SVG bytes.
+The shared renderer supports validated rectangles, polygons, cubic/quadratic/arc paths, linear color gradients, body/sleeve/all clipping, independent sleeve/cuff colors, custom collar geometry and detail layers. Source markup cannot be inserted. Ready revisions cannot be overwritten: `data/kit-config-lock.json` stores each ready configuration hash and the build and tests reject changes.
+
+The generated per-kit SVG archive (`public/assets/shirts/`, 356 files, 317 MB) was removed at the user's request on 23 September 2026. The app never displayed it, it predated the PNG layout corrections, and it would otherwise have been deployed. Catalog entries no longer carry `svg_path` or an SVG hash. The files remain in git history; the vector renderer can still reproduce any revision from `data/kits`.
 
 ## Current replacement base — 23 September 2026
 
