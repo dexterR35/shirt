@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6f4ff7751d9410a65ac7",
+  "team_name": "Volos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White/light-gray shirt from the saved player photograph, plain body, white neck and opposing blue/red sleeve edges. Small source limits very fine fabric detail.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6f4ff7751d9410a65ac7-away-512591.jpg",
+      "page_url": "https://www.footballkitarchive.com/volos-fc-2026-27-away-kit-512591/",
+      "sha256": "421e205d5a740c363d72a4f2dff20af98ce48f71174b238b24b27f4bfba67b91"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDEDE9",
+      "leftSleeve": "#EDEDE9",
+      "rightSleeve": "#EDEDE9",
+      "collar": "#E8E8E5",
+      "leftCuff": "#155380",
+      "rightCuff": "#A82C35"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E8E8E5",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDEDE9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#155380",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#155380",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

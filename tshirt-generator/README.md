@@ -1,6 +1,8 @@
 # T-shirt Generator
 
-A local React 19.3 + Vite 8.3 JavaScript studio for the supplied 735-team catalog. Current previews combine the original high-resolution PNG with editable team colors and patterns. Download formats and sizes are deferred. The visual kit catalog is **not complete**: 165 ready PNG adaptations, 30 drafts and 1,275 slots still in research. Football Kit Archive is the user-designated source of truth for new research; 150 adaptations use its references.
+A local React 19.3 + Vite 8.3 JavaScript studio for the supplied 735-team catalog. Current previews combine the original high-resolution PNG with editable team colors and patterns. Download formats and sizes are deferred. The visual kit catalog is **not complete**: 183 ready PNG adaptations, 32 drafts and 1,255 slots still in research. Football Kit Archive is the user-designated source of truth; 169 adaptations use its references.
+
+The new workbook's **138 mandatory teams** are prioritized without removing any other teams. They have 276 Home/Away slots, **165 ready layouts** and **249 exact 2026/27 references**. The user's strict season requirement excludes calendar-year 2026 substitutions. See [mandatory coverage and remaining work](docs/MANDATORY_TEAMS_2026-27.md).
 
 ```sh
 npm ci
@@ -9,9 +11,9 @@ npm run dev
 
 Open the local URL printed by Vite. Node 20.19+ or 22.12+ is required by the installed Vite version; development was verified with Node 26.5.0. The project lives in this `tshirt-generator` directory, one level below the workspace folder.
 
-Select a country and team, select Home or Away, then Apply. Candidate changes leave the current preview intact. The initial preview is the neutral original master. The initial candidate is the first available Home kit in source order (currently Arsenal). Teams with a ready variant are placed first; all 735 source teams remain searchable.
+Select a country and team, select Home or Away, then Apply. Candidate changes leave the current preview and equipment details intact. The initial preview is the neutral original master. The initial candidate is the first available Home kit in source order (currently Arsenal). Mandatory teams appear first, then readiness and workbook order; all 735 source teams remain searchable.
 
-The PNG and color configurations are local; no AI API, online research or cloud account is needed at display time. Fonts are self-hosted. Each collection holds up to ten revisions; Home and Away are separate items. Try your own colors opens body, sleeve, collar and cuff controls. The collection and custom edits are session-only; saved kit files are not changed. Export controls are deferred until sizing requirements are chosen.
+The PNG, colors and equipment facts are local; no AI API, live archive request or cloud account is needed at display time. `data/teams/<canonical-team-id>.json` stores Home/Away facts with independent season, design, colors, brand, sponsor, competitions, release date and provenance. Missing facts remain null. Catalog builds materialize those local files for the app. The right panel displays the applied kit's facts, replacing the original-master promotional text. Fonts are self-hosted. Each collection holds up to ten revisions; Home and Away are separate items. Custom edits are session-only; saved facts retain their original colors and are labeled accordingly. Export controls remain deferred.
 
 ## Original artwork
 
@@ -42,6 +44,6 @@ On a fresh machine, run `npx playwright install chromium` before browser tests. 
 
 [STATUS](docs/STATUS.md) records actual coverage. Every Home/Away slot now has a separate checkpoint in `data/research/results`, including its original seed references, link-check records, search query and discovery-batch path. The 368 search batches preserve responses for 1,470 separately named variant queries. These are discovery leads, not verified kits.
 
-Continue from the [Football Kit Archive worklist and workflow](docs/FOOTBALL_KIT_ARCHIVE.md), confirm the team/season/Home or Away identity, inspect and save the front photograph, and create validated editable paint geometry. Archive-specific searches cover all 735 teams; 264 front references are saved. Record source URLs, season/variant, color estimates and visual review on the PNG preview before marking an adaptation ready. Saved `data/kits` revisions are immutable. The fifteen earlier ready kits retain their historical official references and require archive reconciliation. Their recorded vector surface versions remain for archival reproducibility.
+Continue from the [Football Kit Archive worklist and workflow](docs/FOOTBALL_KIT_ARCHIVE.md), with `data/research/priority-worklist.json` placing all mandatory slots first. Archive-specific searches cover all 735 teams; 317 front references are saved, including 24 calendar-year Finnish observations retained only as context. Record source URLs, exact season/variant, color estimates and visual comparison before marking an adaptation ready. Saved `data/kits` revisions are immutable. Fourteen current ready kits retain their earlier official artwork references; Brentford Home now also has an archive-backed 2026/27 revision while its official 2026–2028 revision remains unchanged.
 
 The supplied workbook contains clubs and reserve teams grouped by country/association. It does not contain a separate national-team kit inventory. Source competition metadata remains archived outside the product filters.

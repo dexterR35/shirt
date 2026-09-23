@@ -4,8 +4,8 @@
   "team_name": "Kalamata",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_795c8d5f368fa37e4d16-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kalamata-fc-2026-27-home-kit-493267/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/05/7l4vGuu8stDRA8z/kalamata-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_795c8d5f368fa37e4d16-home-493267.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F1EF",
+      "leftSleeve": "#1B1C1C",
+      "rightSleeve": "#1B1C1C",
+      "collar": "#1C1D1C",
+      "leftCuff": "#F0F0EC",
+      "rightCuff": "#F0F0EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White torso with a central black column outlined gold, black sleeves/neck, white cuffs with fine gold edge.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_795c8d5f368fa37e4d16-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_63a3ad102c201cd966b4.json",
+    "source_kit_id": "493267"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-greece-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

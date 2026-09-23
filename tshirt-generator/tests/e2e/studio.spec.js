@@ -242,7 +242,7 @@ test('new archive-sourced Manchester City kit applies with visible provenance',a
   await expect(canvas).toHaveAttribute('aria-label','Manchester City home shirt');
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   await page.getByText('Sources & verification',{exact:true}).click();
-  await expect(page.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/manchester-city-2026-27-home-kit-441641/');
+  await expect(page.locator('.evidence').getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/manchester-city-2026-27-home-kit-441641/');
   await page.screenshot({path:'artifacts/footballkitarchive/studio-manchester-city.png',fullPage:true});
 });
 
@@ -262,10 +262,54 @@ test('expanded country catalog applies independent Romanian Home/Away and keeps 
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   expect(await canvas.evaluate(c=>c.toDataURL())).not.toBe(home);
   await page.getByText('Sources & verification',{exact:true}).click();
-  await expect(page.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/fcsb-2026-27-away-kit-496188/');
+  await expect(page.locator('.evidence').getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/fcsb-2026-27-away-kit-496188/');
   await page.screenshot({path:'artifacts/footballkitarchive/studio-fcsb-away.png',fullPage:true});
   await page.getByLabel('Team',{exact:true}).fill('Chindia');
   await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
   await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
   await expect(canvas).toHaveAttribute('aria-label','FCSB away shirt');
+});
+
+test('equipment details use local JSON and follow Apply, collection navigation and custom colors',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const card=page.getByRole('region',{name:'Applied kit details'});
+  await expect(card).toContainText('Apply a team kit');
+  await expect(page.getByText('BUILT FROM THE ORIGINAL',{exact:true})).toHaveCount(0);
+  await expect(page.getByRole('button',{name:'View original master'})).toHaveCount(0);
+  await page.getByLabel('Team',{exact:true}).fill('Manchester United');
+  await page.getByRole('button',{name:/Manchester United England/}).click();
+  await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+  for(const value of ['Manchester United','26-27','Plain','Red / White / Black','adidas','Snapdragon','Premier League · Champions League','May 14, 2026'])await expect(card).toContainText(value);
+  await page.getByRole('button',{name:'Add to collection',exact:true}).click();
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(card).toContainText('May 14, 2026');
+  await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+  await expect(card).toContainText('July 22, 2026');
+  await expect(card).toContainText('Blue / White / Red');
+  await page.getByRole('button',{name:'Add to collection',exact:true}).click();
+  await page.getByRole('button',{name:'Previous kit',exact:true}).click();
+  await expect(card).toContainText('May 14, 2026');
+  await page.getByText('Try your own colors',{exact:true}).click();
+  await page.getByLabel('Body color',{exact:true}).fill('#00ff00');
+  await expect(card).toContainText('Custom colors preview');
+  await expect(card).toContainText('Red / White / Black');
+  await page.screenshot({path:'artifacts/footballkitarchive/studio-equipment-details.png',fullPage:true});
+  await page.getByRole('button',{name:'Blank shirt',exact:true}).click();
+  await expect(card).toContainText('Apply a team kit');
+  await expect(card).not.toContainText('Snapdragon');
+  expect(external).toEqual([]);
+});
+
+test('mandatory calendar-year teams stay visible without substituting 2026 for 2026/27',async({page})=>{
+  await page.goto('/');
+  await page.getByLabel('Team',{exact:true}).fill('AC Oulu');
+  await page.getByRole('button',{name:/AC Oulu Finland/}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await expect(page.getByText(/Archive labels the observed kit 2026/)).toBeVisible();
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await page.setViewportSize({width:390,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });

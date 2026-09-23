@@ -33,6 +33,7 @@ test('archive carry-over seasons are explicit while unknown labels are not guess
   assert.equal(canonicalSeason('26-27 (Carry-over)'),'2026/27');
   assert.equal(canonicalSeason('26-27'),'2026/27');
   assert.equal(canonicalSeason('2026'),'2026');
+  assert.equal(canonicalSeason('2026 (Carry-over)'),'2026');
   assert.equal(canonicalSeason('26-27 (Rumour)'),'26-27 (Rumour)');
 });
 

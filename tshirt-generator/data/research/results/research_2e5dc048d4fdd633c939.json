@@ -4,8 +4,8 @@
   "team_name": "Panathinaikos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2aaa03833839b803ddaf-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/panathinaikos-fc-2026-27-home-kit-495731/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/14/AmMyZ2mV2MuGzrK/panathinaikos-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2aaa03833839b803ddaf-home-495731.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "White"
+    ],
+    "values": {
+      "body": "#075547",
+      "leftSleeve": "#075547",
+      "rightSleeve": "#075547",
+      "collar": "#F2F1ED",
+      "leftCuff": "#F3F2EB",
+      "rightCuff": "#F3F2EB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green shirt with subtle torso pinlines, white shoulder tapes, white neck and white/green/white cuff bands.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_2aaa03833839b803ddaf-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2e5dc048d4fdd633c939.json",
+    "source_kit_id": "495731"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-greece-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

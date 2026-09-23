@@ -1,6 +1,14 @@
 # Validation — 23 September 2026
 
-## Current PNG compositor
+## Mandatory team workbook and local equipment JSON
+
+Current checks: `data:verify`, **29 Node tests** and **12 Edge browser tests** pass. The 138 workbook rows map uniquely to canonical IDs; the workbook hash matches its preserved copy. All 735 local per-team JSON files match their deployed copies. Both mandatory variants remain in the 1,470-slot worklist and all 276 mandatory slots lead it. Missing metadata stays null; 2026 observations do not populate requested 2026/27 facts or become applicable kits. The mandatory drawing pipeline rejects source-season mismatches before writing artwork.
+
+Browser checks verify Manchester United Home/Away details against the saved local JSON, candidate/Apply separation, collection navigation, custom-color labeling and blank-shirt reset. The app makes zero external HTTP requests during these interactions. Removed promotional copy is absent. Elche Away retains the source's `Friendly` metadata without exclusion from team scope. Existing source links, collar paint, ten-item collection, PNG fidelity and responsive checks remain passing. All 183 ready layouts render; source/render comparison grids cover the 20 Greek drawings (18 ready, two draft) and Brentford's archive-season reconciliation.
+
+Final production build: **PASS**, after the final 29 Node / 12 Edge test run. Vite built 29 modules successfully; deployed source PNG remains byte-identical. Current manifest: 183 ready globally, 165 mandatory ready, 249 mandatory exact-season references. `git diff --check` is clean for tracked changes.
+
+## Previous PNG compositor checkpoint
 
 Football Kit Archive continuation: all 25 Node tests and all 10 Edge browser tests pass. Checks cover country-scoped aliases, reserve-team separation, ambiguity, all 264 distinct source capture slots and image hashes, literal carry-over labels, the full 1,470-task worklist, and rejection of challenge pages and goalkeeper kits. All 165 ready PNG layout bindings render successfully. Real Manchester City Home and FCSB Home/Away Apply checks verify source links, completed PNG rendering and draft rejection. Source/render comparisons cover the 166 new drawings; 138 passed visual review, 28 remain drafts. Search checkpoints cover all 735 teams; search coverage is not visual verification.
 

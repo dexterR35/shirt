@@ -1,6 +1,16 @@
 # Project status
 
-23 September 2026. Application implemented; full visual kit stock remains incomplete.
+23 September 2026. Application implemented; full visual kit stock remains incomplete. Latest update: mandatory workbook teams and local equipment JSON.
+
+## Mandatory workbook and equipment information
+
+All 138 rows in `teams_tier-1_by-tier (2).xlsx` map uniquely to existing canonical IDs across eight countries. The copied source workbook and SHA-256 audit are preserved separately; its color names/HEX values remain unverified context. All 735 teams stay available; mandatory teams lead app ordering and the resumable research worklist. No competition filter was added.
+
+The user clarified **strict 2026/2027 from Football Kit Archive**. Mandatory coverage is **165 ready / 276 slots**, **24 drafts**, **87 researching** and **249 independently saved exact-season references**. There are 111 unfinished mandatory layouts: 84 have references but need artwork/refinement, and 27 lack a matching reference. The 27 gaps are both Real Sociedad pages (404), Petrolul Away (not found), and 24 Finnish slots (archive labels observed kits 2026, not 2026/27). Calendar-year observations are retained separately, never relabeled or applied. No 2026 draft was published.
+
+`data/teams/<team_id>.json` now stores local Home/Away equipment facts for every canonical team. Each verified source entry includes season, design, color names, brand, sponsor, competitions, release date, source URL and checked date. Unresearched/missing values are null. The app's right panel replaces the original-master promotional text with applied-kit details. Data travels with the local applied revision, so candidate changes, failed loads and custom colors cannot silently change the facts. No live archive call occurs in the app. See [mandatory coverage](MANDATORY_TEAMS_2026-27.md).
+
+Eighteen Greek 2026/27 variants passed source/render comparison; Aris Home and OFI Crete Away remain drafts. Brentford Home has a new archive-backed r002/p002 carrying the actual 26-27 archive label, preserving r001's official 2026–2028 provenance and bytes. Global current coverage is **183 ready**, **32 drafts**, **1,255 researching**, **317 saved archive references** (293 exact 2026/27 plus 24 separate 2026 observations) and **169 archive-reviewed adaptations**. The earlier continuation below records the preceding checkpoint.
 
 ## Application
 
@@ -24,7 +34,7 @@ The user identified a duplicated collar in Ipswich Away: p001 painted a V over t
 
 ## Research coverage
 
-### Football Kit Archive continuation
+### Earlier Football Kit Archive continuation checkpoint
 
 The user designated Football Kit Archive as the source of truth for new research. All 735 canonical workbook teams have archive-specific search checkpoints in 184 batches. Exact-name discovery finds candidates for 317 teams; these remain leads. There are now **264 independently saved archive references** for 134 workbook teams, with source metadata and image hashes.
 
@@ -62,6 +72,6 @@ Four seed URL checks failed: the Ligue 1 and Ligue 2 calendar articles returned 
 
 ## Validation
 
-`data:verify`, 25 Node tests, ten Playwright browser tests and the production build pass for the PNG compositor. Browser tests used installed Microsoft Edge (`PLAYWRIGHT_CHANNEL=msedge`). Checks include byte-identical full-resolution PNG deployment, exact white-paint reproduction, preserved alpha, safe editable paint for all saved configurations, unchanged historical SVG bytes, Apply/filter separation, custom colors/reset, ten-item collection and missing-configuration recovery. New checks verify all 165 ready layout bindings, reject missing or mismatched layouts, count the rendered Leeds shoulder tapes, and confirm collar/cuff edging survives compositing and color editing. Collar regression checks ensure the eight corrections retain all other artwork and oversized collar paint cannot reach the chest. Real Barcelona, Leeds and Ipswich Away browser previews confirm corrected Apply behavior. See [VALIDATION](VALIDATION.md).
+`data:verify`, 29 Node tests, twelve Playwright browser tests and the production build pass for the current changes. Browser tests used installed Microsoft Edge (`PLAYWRIGHT_CHANNEL=msedge`). Checks cover all 735 local team JSON files, 138 priority identities, 276 mandatory slots, strict seasons, source links, Apply/collection synchronization, no external display requests, all 183 ready layout bindings, the original PNG and unchanged historical SVG bytes. The drawing pipeline rejects mandatory source-season mismatches before writing artwork. Existing color, collar, collection and recovery checks also pass. See [VALIDATION](VALIDATION.md).
 
 The app is functional. The complete 1,470-kit visual stock is not finished. No background research service or scheduled continuation has been created.

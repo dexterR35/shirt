@@ -864,6 +864,15 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 10px;
   padding: 13px 0 2px;
 }
+.equipment-card h3 { font-size: 19px; margin: 9px 0 15px; }
+.equipment-card dl { margin: 0; font-size: 11px; line-height: 1.55; }
+.equipment-card dl > div { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 9px; padding: 7px 0; border-bottom: 1px solid #243448; }
+.equipment-card dt { color: #91a8bc; }
+.equipment-card dd { margin: 0; color: #dfebf5; overflow-wrap: anywhere; }
+.equipment-card dd.not-listed { color: #8395a8; }
+.equipment-source a { color: #a7d7d3; text-underline-offset: 3px; }
+.equipment-custom { color: #c7b584 !important; }
+.priority-summary { color: #a7bbc9; font-size: 12px; margin: 20px 0; }
 .evidence {
   font-size: 10px;
   margin-top: auto;

@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import PngShirtPreview from "./PngShirtPreview.jsx";
+import EquipmentCard from "./EquipmentCard.jsx";
+import {equipmentForKit} from "./lib/equipment.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
 import {kitPreviewConfig} from "./lib/png-layout.js";
 import {
@@ -74,6 +76,7 @@ export default function App() {
     [variant, setVariant] = useState("home"),
     [active, setActive] = useState(null),
     [appliedConfig, setAppliedConfig] = useState(null),
+    [equipment, setEquipment] = useState(null),
     [customColors, setCustomColors] = useState(null),
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
@@ -105,8 +108,10 @@ export default function App() {
     () =>
       filterTeams(catalog?.teams || [], country, query).sort(
         (a, b) =>
+          Number(!!b.mandatory) - Number(!!a.mandatory) ||
           Number(Object.values(b.kits).some((k) => k.status === "ready")) -
-          Number(Object.values(a.kits).some((k) => k.status === "ready")),
+          Number(Object.values(a.kits).some((k) => k.status === "ready")) ||
+          (a.priority_order ?? 9999) - (b.priority_order ?? 9999),
       ),
     [catalog, country, query],
   );
@@ -131,15 +136,16 @@ export default function App() {
     setNotice("");
     try {
       const key = `${revisionKey(item)}:${item.png_layout_revision || 'original'}`;
-      let config = cache.current.get(key);
-      if (!config) {
+      let saved = cache.current.get(key);
+      if (!saved) {
         const details = await json(item.details_path, controller.current.signal);
-        config = kitPreviewConfig(details, item);
-        cache.current.set(key, config);
+        saved = {config:kitPreviewConfig(details, item), equipment:equipmentForKit(details.equipment,item)};
+        cache.current.set(key, saved);
       }
       if (request.current === sequence) {
         setActive(item);
-        setAppliedConfig(config);
+        setAppliedConfig(saved.config);
+        setEquipment(saved.equipment);
         setCustomColors(null);
       }
     } catch (e) {
@@ -186,6 +192,7 @@ export default function App() {
     controller.current?.abort();
     setActive(null);
     setAppliedConfig(null);
+    setEquipment(null);
     setCustomColors(null);
     setBusy(false);
   };
@@ -290,6 +297,7 @@ export default function App() {
                 <p>Football Kit Archive · image collection</p>
               </article>
             </div>
+            {!!catalog.counts.mandatory_teams && <p className="priority-summary">Excel priority: {catalog.counts.mandatory_teams} teams · {catalog.counts.mandatory_ready}/{catalog.counts.mandatory_slots} layouts ready · {catalog.counts.mandatory_references}/{catalog.counts.mandatory_slots} archive references saved.</p>}
             <div className="country-grid">
               {catalog.countries.map((c) => (
                 <button
@@ -637,22 +645,7 @@ export default function App() {
                 <Icon name="download" size={17} />
                 Collection export later
               </button>
-              <div className="source-card">
-                <span className="eyebrow">BUILT FROM THE ORIGINAL</span>
-                <h3>
-                  One shape.
-                  <br />
-                  Every team's identity.
-                </h3>
-                <p>
-                  Your supplied shirt is the foundation. Kit colors and patterns
-                  are researched independently, Home and Away.
-                </p>
-                <button onClick={master}>
-                  View original master
-                  <Icon name="arrow" size={15} />
-                </button>
-              </div>
+              <EquipmentCard active={active} equipment={equipment} custom={!!customColors}/>
               <details className="evidence">
                 <summary>
                   <Icon name="info" size={16} />

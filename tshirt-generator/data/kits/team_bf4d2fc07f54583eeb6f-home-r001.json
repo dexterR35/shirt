@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_bf4d2fc07f54583eeb6f",
+  "team_name": "OFI Crete",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ofi-crete-2026-27-home-kit-509998/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/18/8Ar53Ysp90BBSkZ/ofi-crete-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_bf4d2fc07f54583eeb6f-home-509998.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#1C1C1E",
+      "leftSleeve": "#1C1C1E",
+      "rightSleeve": "#1C1C1E",
+      "collar": "#161718",
+      "leftCuff": "#1C1C1E",
+      "rightCuff": "#1C1C1E"
+    }
+  },
+  "observations": "Black shirt with one broad white chest chevron outlined light gray, plain black sleeves and black neck ring.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with one broad white chest chevron outlined light gray, plain black sleeves and black neck ring.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_bf4d2fc07f54583eeb6f-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1C1C1E",
+      "leftSleeve": "#1C1C1E",
+      "rightSleeve": "#1C1C1E",
+      "collar": "#161718",
+      "leftCuff": "#1C1C1E",
+      "rightCuff": "#1C1C1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#161718",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1C1C1E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            27
+          ],
+          [
+            100,
+            52
+          ],
+          [
+            165,
+            27
+          ],
+          [
+            157,
+            52
+          ],
+          [
+            100,
+            78
+          ],
+          [
+            43,
+            52
+          ]
+        ],
+        "fill": "#AEB0B2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            28
+          ],
+          [
+            100,
+            53
+          ],
+          [
+            164,
+            28
+          ],
+          [
+            157,
+            50
+          ],
+          [
+            100,
+            76
+          ],
+          [
+            43,
+            50
+          ]
+        ],
+        "fill": "#EEEEEE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

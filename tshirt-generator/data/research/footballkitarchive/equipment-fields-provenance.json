@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "checked_at": "2026-09-23",
+  "source": "Football Kit Archive",
+  "capture_path": "data/research/footballkitarchive/equipment-fields.tsv",
+  "method": "Read-only browser inspection of the public metadata table on each kit detail page. English pages were revisited; other fields were preserved from the same browser DOM captures used for the saved country references.",
+  "join": "Exact numeric archive kit ID; page URL, team, season and variant are retained in the independent source records.",
+  "empty_cells": "Field not listed in the inspected table; an empty sponsor is not proof of an unsponsored shirt.",
+  "notes": "These are equipment facts as listed by the user-designated source. They do not certify rendered artwork or official color hex values. Competition names are kit metadata, never catalog navigation or workbook inclusion filters. Two additional Romanian rows outside the canonical workbook are retained as source context only."
+}

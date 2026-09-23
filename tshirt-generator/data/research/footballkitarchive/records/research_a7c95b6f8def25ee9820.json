@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/premier-league-kits-2026-27-l224/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/premier-league-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "The saved archive independently identifies this red/white striped shirt as 26-27. Its broad white center/side columns, subtle tonal waves, black/yellow neck and cuffs match the existing source-specific PNG paint. This new revision binds that paint to the archive season; the earlier official 2026–2028 revision is preserved unchanged.",
+    "render_path": "artifacts/footballkitarchive/brentford-season-2026-09-23/team_9729fba9a77388f456d5-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_9729fba9a77388f456d5-home-496164.jpg",
-  "image_sha256": "fb0b54eafe3cd10cec4f80d661ef6d0596e701c06089da4bf12dab21be700116"
+  "image_sha256": "fb0b54eafe3cd10cec4f80d661ef6d0596e701c06089da4bf12dab21be700116",
+  "artwork_revision_path": "data/kits/team_9729fba9a77388f456d5-home-r002.json"
 }

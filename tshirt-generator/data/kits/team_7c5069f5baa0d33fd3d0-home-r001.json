@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7c5069f5baa0d33fd3d0",
+  "team_name": "Kifisia",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kifisia-fc-2026-27-home-kit-515392/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/05/QmlDsLM6YiZPe2G/kifisia-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7c5069f5baa0d33fd3d0-home-515392.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#232B3A",
+      "leftSleeve": "#232B3A",
+      "rightSleeve": "#232B3A",
+      "collar": "#F2F2EE",
+      "leftCuff": "#EBEEEC",
+      "rightCuff": "#EBEEEC"
+    }
+  },
+  "observations": "Navy shirt with evenly spaced thin white stripes continuing onto sleeves, white neck ring and fine white cuff edge.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy shirt with evenly spaced thin white stripes continuing onto sleeves, white neck ring and fine white cuff edge.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_7c5069f5baa0d33fd3d0-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#232B3A",
+      "leftSleeve": "#232B3A",
+      "rightSleeve": "#232B3A",
+      "collar": "#F2F2EE",
+      "leftCuff": "#EBEEEC",
+      "rightCuff": "#EBEEEC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#232B3A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 7,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 17,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 27,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 37,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 47,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 77,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 107,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 117,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 147,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 157,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 167,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 177,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 187,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#D9DDE0",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#EBEEEC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#EBEEEC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

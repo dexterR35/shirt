@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_10de023434562a29136e",
+  "team_name": "Aris",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aris-fc-2026-27-home-kit-497936/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/25/GdnX3mNwolwsYTB/aris-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_10de023434562a29136e-home-497936.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#E6CD22",
+      "leftSleeve": "#E6CD22",
+      "rightSleeve": "#E6CD22",
+      "collar": "#D3BD22",
+      "leftCuff": "#E6CD22",
+      "rightCuff": "#E6CD22"
+    }
+  },
+  "observations": "Yellow body with five thick black horizontal bands cut by yellow diagonal slashes, plain yellow sleeves and yellow neck.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E6CD22",
+      "leftSleeve": "#E6CD22",
+      "rightSleeve": "#E6CD22",
+      "collar": "#D3BD22",
+      "leftCuff": "#E6CD22",
+      "rightCuff": "#E6CD22"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D3BD22",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E6CD22",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 31,
+        "width": 104,
+        "height": 19,
+        "fill": "#1C1E1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 33Q78 38 100 43L105 46Q74 40 48 37ZM107 31Q138 34 152 43V46Q125 37 107 31Z",
+        "fill": "#E6CD22",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 67,
+        "width": 104,
+        "height": 19,
+        "fill": "#1C1E1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 69Q78 74 100 79L105 82Q74 76 48 73ZM107 67Q138 70 152 79V82Q125 73 107 67Z",
+        "fill": "#E6CD22",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 103,
+        "width": 104,
+        "height": 19,
+        "fill": "#1C1E1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 105Q78 110 100 115L105 118Q74 112 48 109ZM107 103Q138 106 152 115V118Q125 109 107 103Z",
+        "fill": "#E6CD22",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 139,
+        "width": 104,
+        "height": 19,
+        "fill": "#1C1E1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 141Q78 146 100 151L105 154Q74 148 48 145ZM107 139Q138 142 152 151V154Q125 145 107 139Z",
+        "fill": "#E6CD22",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 175,
+        "width": 104,
+        "height": 19,
+        "fill": "#1C1E1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 177Q78 182 100 187L105 190Q74 184 48 181ZM107 175Q138 178 152 187V190Q125 181 107 175Z",
+        "fill": "#E6CD22",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,12 +4,15 @@ const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const save=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
 /** Save only source-specific drawings; ready promotion requires explicit visual review. */
 export async function saveProfiles(profiles,batch,{reviewed=[]}={}){
+  const priority=await read('data/research/priority-teams.json');
   const root='data/research/footballkitarchive',records=[];
   for(const f of await fs.readdir(`${root}/records`))records.push(await read(`${root}/records/${f}`));
   const output=[];
   for(const p of profiles){
     const r=records.find(x=>x.team_name===p.name&&x.variant===p.variant&&x.country_name===p.country);
     if(!r?.local_reference_path)throw Error(`Missing reference ${p.name} ${p.variant}`);
+    if(priority.teams.some(t=>t.team_id===r.team_id)&&r.kit_season!==priority.requested_season)
+      throw Error(`Mandatory kit requires ${priority.requested_season}; ${p.name} reference is ${r.kit_season}`);
     const config=p.make();validateConfig(config);
     const key=`${r.team_id}-${r.variant}`,files=(await fs.readdir('data/kits')).filter(f=>f.startsWith(`${key}-r`)&&f.endsWith('.json'));
     let own=null,max=0;

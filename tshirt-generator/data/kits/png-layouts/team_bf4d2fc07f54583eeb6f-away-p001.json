@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_bf4d2fc07f54583eeb6f",
+  "team_name": "OFI Crete",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Off-white shirt with four tapered black claw-like strokes on each mid-torso side, black neck ring/cuffs.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_bf4d2fc07f54583eeb6f-away-508199.jpg",
+      "page_url": "https://www.footballkitarchive.com/ofi-crete-2026-27-away-kit-508199/",
+      "sha256": "bf8d1c9c84a5f7c911d05fce37e852fd30df5a5bfe13dd0a34c3d4711874fdb8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F0EF",
+      "leftSleeve": "#F2F0EF",
+      "rightSleeve": "#F2F0EF",
+      "collar": "#1A1B1B",
+      "leftCuff": "#1B1C1C",
+      "rightCuff": "#1B1C1C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1A1B1B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            96
+          ],
+          [
+            76,
+            88
+          ],
+          [
+            67,
+            93
+          ],
+          [
+            73,
+            93
+          ],
+          [
+            59,
+            99
+          ],
+          [
+            48,
+            102
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            107
+          ],
+          [
+            74,
+            99
+          ],
+          [
+            66,
+            104
+          ],
+          [
+            71,
+            104
+          ],
+          [
+            59,
+            110
+          ],
+          [
+            48,
+            113
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            118
+          ],
+          [
+            72,
+            110
+          ],
+          [
+            65,
+            115
+          ],
+          [
+            69,
+            115
+          ],
+          [
+            59,
+            121
+          ],
+          [
+            48,
+            124
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            129
+          ],
+          [
+            70,
+            121
+          ],
+          [
+            64,
+            126
+          ],
+          [
+            67,
+            126
+          ],
+          [
+            59,
+            132
+          ],
+          [
+            48,
+            135
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            96
+          ],
+          [
+            124,
+            88
+          ],
+          [
+            133,
+            93
+          ],
+          [
+            127,
+            93
+          ],
+          [
+            141,
+            99
+          ],
+          [
+            152,
+            102
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            107
+          ],
+          [
+            126,
+            99
+          ],
+          [
+            134,
+            104
+          ],
+          [
+            129,
+            104
+          ],
+          [
+            141,
+            110
+          ],
+          [
+            152,
+            113
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            118
+          ],
+          [
+            128,
+            110
+          ],
+          [
+            135,
+            115
+          ],
+          [
+            131,
+            115
+          ],
+          [
+            141,
+            121
+          ],
+          [
+            152,
+            124
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            129
+          ],
+          [
+            130,
+            121
+          ],
+          [
+            136,
+            126
+          ],
+          [
+            133,
+            126
+          ],
+          [
+            141,
+            132
+          ],
+          [
+            152,
+            135
+          ]
+        ],
+        "fill": "#1B1C1D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#1B1C1C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#1B1C1C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

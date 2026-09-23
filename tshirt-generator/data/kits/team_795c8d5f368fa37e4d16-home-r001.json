@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_795c8d5f368fa37e4d16",
+  "team_name": "Kalamata",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-greece-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kalamata-fc-2026-27-home-kit-493267/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/05/7l4vGuu8stDRA8z/kalamata-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_795c8d5f368fa37e4d16-home-493267.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F1EF",
+      "leftSleeve": "#1B1C1C",
+      "rightSleeve": "#1B1C1C",
+      "collar": "#1C1D1C",
+      "leftCuff": "#F0F0EC",
+      "rightCuff": "#F0F0EC"
+    }
+  },
+  "observations": "White torso with a central black column outlined gold, black sleeves/neck, white cuffs with fine gold edge.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White torso with a central black column outlined gold, black sleeves/neck, white cuffs with fine gold edge.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_795c8d5f368fa37e4d16-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F1EF",
+      "leftSleeve": "#1B1C1C",
+      "rightSleeve": "#1B1C1C",
+      "collar": "#1C1D1C",
+      "leftCuff": "#F0F0EC",
+      "rightCuff": "#F0F0EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1D1C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F1EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 28,
+        "height": 200,
+        "fill": "#1D1E1C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#C3A65D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#C3A65D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F0F0EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#C5AA64",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F0F0EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#C5AA64",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

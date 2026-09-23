@@ -4,7 +4,7 @@
   "team_name": "Brentford",
   "country_name": "England",
   "variant": "home",
-  "kit_season": "2026–2028",
+  "kit_season": "2026/27",
   "status": "ready",
   "reason": "Source-reviewed SVG revision available.",
   "seed_references": [
@@ -72,14 +72,14 @@
   "revision_path": "data/kits/team_9729fba9a77388f456d5-home-r001.json",
   "references": [
     {
-      "publisher": "Brentford official store",
-      "page_url": "https://shop.brentfordfc.com/kit/2628-home-kit/adult/5834_brentford-2628-adult-authentic-home-shirt.html",
-      "image_url": "https://shop.brentfordfc.com/siteimg/prodhires/5834-511.jpg",
-      "local_path": "data/research/references/brentford-home-2026-28.jpg",
-      "checked_at": "2026-09-22T21:16:12.933Z",
-      "source_type": "official",
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/brentford-fc-2026-27-home-kit-496164/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/28/60zFO00oOAgpgLW/brentford-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9729fba9a77388f456d5-home-496164.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
       "variant": "home",
-      "kit_season": "2026–2028"
+      "kit_season": "2026/27"
     }
   ],
   "updated_at": "2026-09-22T21:16:53.302Z",
@@ -88,6 +88,41 @@
       "date": "2026-09-22T21:16:53.302Z",
       "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
       "notes": "Compared full front: white central/outer columns, red sleeves, subtle tonal waves, yellow side piping and black/yellow neckline and cuffs. Multi-season label retained."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "brentford-season-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_9729fba9a77388f456d5-home-r002.json",
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#D50930",
+      "leftSleeve": "#D50930",
+      "rightSleeve": "#D50930",
+      "collar": "#19161A",
+      "leftCuff": "#19161A",
+      "rightCuff": "#19161A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "The saved archive independently identifies this red/white striped shirt as 26-27. Its broad white center/side columns, subtle tonal waves, black/yellow neck and cuffs match the existing source-specific PNG paint. This new revision binds that paint to the archive season; the earlier official 2026–2028 revision is preserved unchanged.",
+    "render_path": "artifacts/footballkitarchive/brentford-season-2026-09-23/team_9729fba9a77388f456d5-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a7c95b6f8def25ee9820.json",
+    "source_kit_id": "496164"
+  }
 }

@@ -4,8 +4,8 @@
   "team_name": "Kifisia",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7c5069f5baa0d33fd3d0-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kifisia-fc-2026-27-home-kit-515392/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/05/QmlDsLM6YiZPe2G/kifisia-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7c5069f5baa0d33fd3d0-home-515392.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#232B3A",
+      "leftSleeve": "#232B3A",
+      "rightSleeve": "#232B3A",
+      "collar": "#F2F2EE",
+      "leftCuff": "#EBEEEC",
+      "rightCuff": "#EBEEEC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy shirt with evenly spaced thin white stripes continuing onto sleeves, white neck ring and fine white cuff edge.",
+    "render_path": "artifacts/footballkitarchive/mandatory-greece-2026-09-23/team_7c5069f5baa0d33fd3d0-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0ced733ab3c9e77f19a7.json",
+    "source_kit_id": "515392"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-greece-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }
