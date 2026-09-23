@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/serie-a-kits-2026-27-l258/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/serie-a-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow shirt with three broad blue torso hoops, navy collar/cuffs and small square tiles following concentric arcs. The earlier straight/wavy tile grid is replaced by curved radial rows matching the source mosaic structure.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_ebc7656eccd129aca680-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_ebc7656eccd129aca680-away-496571.jpg",
-  "image_sha256": "52a686a3c6804f77cabe1f615dc2317fb5bfd96bd637827c0e27335cd074f886"
+  "image_sha256": "52a686a3c6804f77cabe1f615dc2317fb5bfd96bd637827c0e27335cd074f886",
+  "artwork_revision_path": "data/kits/team_ebc7656eccd129aca680-away-r002.json"
 }

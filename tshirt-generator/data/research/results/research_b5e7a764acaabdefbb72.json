@@ -4,8 +4,8 @@
   "team_name": "Schalke 04",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e4a756bcf46785342721-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/schalke-04-2026-27-home-kit-473027/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/IfG3ZHkFEfhoo9n/schalke-04-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e4a756bcf46785342721-home-473027.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#173E7B",
+      "leftSleeve": "#173E7B",
+      "rightSleeve": "#173E7B",
+      "collar": "#244984",
+      "leftCuff": "#2A4D90",
+      "rightCuff": "#2A4D90"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue shirt with tall triangular tonal panels above the chest, alternating shaded rectangular blocks below, and pointed side ends. Two light blue shoulder tapes follow the PNG shoulder seam; tonal block gradients preserve the source layout without copying fabric lighting.",
+    "render_path": "artifacts/footballkitarchive/mandatory-germany-next-2026-09-23/team_e4a756bcf46785342721-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b5e7a764acaabdefbb72.json",
+    "source_kit_id": "473027"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-germany-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

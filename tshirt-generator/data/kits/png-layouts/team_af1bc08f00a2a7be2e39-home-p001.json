@@ -1,0 +1,1670 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_af1bc08f00a2a7be2e39",
+  "team_name": "Coventry City",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-71-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with narrow sky-blue columns and navy separator pinlines continuing onto sleeves, navy collar, blue mottled print within each blue column.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_af1bc08f00a2a7be2e39-home-490990.jpg",
+      "page_url": "https://www.footballkitarchive.com/coventry-city-2026-27-home-kit-490990/",
+      "sha256": "39d180144d4017eac9d390aae20535db08ef26300769f998cfc77443cf8c4e97"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFF0F0",
+      "leftSleeve": "#EFF0F0",
+      "rightSleeve": "#EFF0F0",
+      "collar": "#18283D",
+      "leftCuff": "#EFF0F0",
+      "rightCuff": "#EFF0F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#18283D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFF0F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 16,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 30.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 42,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 56.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 69,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 96,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 110.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 164.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 177,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#3197CF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 191.4,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#173D6A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M18 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M18 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M71 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M98 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M125 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M152 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 1l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 8l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 15l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 22l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 29l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 36l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 43l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 50l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 57l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 64l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 71l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 78l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 85l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 92l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 99l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 106l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 113l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 120l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 127l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 134l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 141l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 148l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 155l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 162l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 169l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 176l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 183l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 190l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 197l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M179 204l2 1 1-2 3 2 3-1-1 3 2 2-4 1-2-2-3 1Z",
+        "fill": "#137AAF",
+        "clip": "all",
+        "opacity": 0.55
+      }
+    ],
+    "detailLayers": []
+  }
+}

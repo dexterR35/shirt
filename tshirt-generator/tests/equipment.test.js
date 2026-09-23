@@ -70,3 +70,68 @@ test('equipment cannot leak from another variant, season or unsafe source and da
 test('mandatory drawing pipeline refuses a calendar-year source before writing artwork',async()=>{
   await assert.rejects(saveProfiles([{country:'Finland',name:'AC Oulu',variant:'home',make:()=>{throw Error('Should never draw a mismatched season');}}],'test-do-not-write'),/Mandatory kit requires 2026\/27/);
 });
+
+for(const size of [71,42])test(`all ${size} scoped Tier 1 variants retain independent evidence and explicit revision review gates`,async()=>{
+  const batch=`tier1-${size}-2026-09-23`;
+  const scope=await read(`artifacts/footballkitarchive/tier1-remaining-${size}.json`);
+  const revisions=await read(`artifacts/footballkitarchive/${batch}/manifest.json`);
+  const decisions=await read(`data/research/${batch}-review.json`);
+  const manifest=await read('public/catalog/manifest.json');
+  assert.equal(scope.length,size);assert.equal(decisions.length,size);
+  assert.equal(new Set(decisions.map(d=>d.key)).size,size);
+  for(const row of scope){
+    const decision=decisions.find(d=>d.key===`${row.team}:${row.variant}`);
+    assert.ok(decision);await fs.access(decision.comparison_path);
+    const result=await read(`data/research/results/${row.task}.json`);
+    const source=await read(`data/research/footballkitarchive/records/${row.task}.json`);
+    const archived=revisions.find(r=>r.name===row.team&&r.variant===row.variant);
+    assert.ok(archived);
+    const saved=await read(archived.kit);
+    const team=manifest.teams.find(t=>t.id===source.team_id),slot=team.kits[row.variant];
+    assert.equal(team.mandatory,true);assert.equal(team.name,row.team);
+    assert.equal(saved.research_batch,batch);assert.equal(saved.kit_season,'2026/27');
+    assert.equal(saved.references[0].local_path,row.ref);
+    assert.equal(saved.references[0].page_url,source.page_url);
+    assert.equal(saved.status,decision.status);
+    if(archived.kit!==result.kit_revision_path){
+      assert.equal(size,71,'The latest batch must be the applied research revision');
+      assert.equal(saved.status,'draft','A reviewed historical revision must not be replaced by this continuation');
+      const successor=await read(result.kit_revision_path);
+      assert.equal(successor.research_batch,'tier1-42-2026-09-23');
+      assert.ok(successor.revision>saved.revision);
+      continue;
+    }
+    assert.equal(slot.status,decision.status);
+    assert.equal(slot.revision,saved.revision);
+    const deployed=await read('public'+slot.details_path);
+    if(decision.status==='ready'){
+      assert.equal(deployed.png_layout.status,'reviewed');
+      assert.equal(deployed.png_layout.research_batch,batch);
+      assert.equal(deployed.visual_review.human_approved,false);
+      assert.equal(deployed.equipment.source.url,source.page_url);
+      assert.deepEqual(result.remaining,[]);
+    }else{
+      assert.equal(deployed.visual_review,null);
+      assert.ok(!slot.png_layout_revision);
+      assert.deepEqual(result.remaining,[decision.remaining]);
+    }
+  }
+});
+
+test('the 42-variant continuation preserves its predecessor and auditable local ink sources',async()=>{
+  const batch='tier1-42-2026-09-23',scope=await read('artifacts/footballkitarchive/tier1-remaining-42.json');
+  for(const row of scope){
+    const predecessor=await read(row.previous_kit),layout=await read(row.previous_layout);
+    assert.equal(predecessor.status,'draft');assert.equal(predecessor.research_batch,'tier1-71-2026-09-23');
+    assert.equal(layout.status,'draft');assert.equal(layout.source_revision,predecessor.revision);
+  }
+  const {traces}=await read(`data/research/${batch}-traces.json`);
+  for(const trace of traces){
+    const row=scope.find(r=>r.team===trace.team&&r.variant===trace.variant);
+    assert.equal(trace.reference,row.ref);
+    assert.equal(crypto.createHash('sha256').update(await fs.readFile(trace.reference)).digest('hex'),trace.source_sha256);
+    await fs.access(trace.preview);
+    assert.equal(trace.box.length,4);assert.ok(trace.box.every(Number.isInteger));
+    assert.ok(trace.ink_pixels>0);
+  }
+});

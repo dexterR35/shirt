@@ -4,8 +4,8 @@
   "team_name": "RB Leipzig",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -97,10 +97,53 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "The lower branching figure is traced, but the chest network is only a repeated clean fragment and does not reconnect into the complete illustration."
+  ],
+  "kit_revision_path": "data/kits/team_fe786175653b0053bdcf-away-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rb-leipzig-2026-27-away-kit-485366/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/09/36KA873f0LbYhaN/rb-leipzig-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fe786175653b0053bdcf-away-485366.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#DF2024",
+      "leftSleeve": "#DF2024",
+      "rightSleeve": "#DF2024",
+      "collar": "#EDC745",
+      "leftCuff": "#E3C047",
+      "rightCuff": "#E3C047"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2a1649afad387e41102d.json",
+    "source_kit_id": "485366"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Torino",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f74c402506ce2550af06-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/torino-fc-2026-27-home-kit-492540/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/S7cfKIwu771OuWi/torino-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f74c402506ce2550af06-home-492540.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#651329",
+      "leftSleeve": "#651329",
+      "rightSleeve": "#651329",
+      "collar": "#631A2B",
+      "leftCuff": "#6A1A2D",
+      "rightCuff": "#6A1A2D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Burgundy shirt with a fine stitched geometric lattice across torso and sleeves, burgundy collar/cuffs and short pale shoulder seam inserts. The octagonal field is rebuilt from small square elements; all club/manufacturer/sponsor marks are removed.",
+    "render_path": "artifacts/footballkitarchive/mandatory-italy-next-2026-09-23/team_f74c402506ce2550af06-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4ad469f39c3748e61843.json",
+    "source_kit_id": "492540"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-italy-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

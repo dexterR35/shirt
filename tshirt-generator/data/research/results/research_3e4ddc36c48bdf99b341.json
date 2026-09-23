@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Match the density transition and individual streak endpoints to the source before ready status."
-  ],
-  "kit_revision_path": "data/kits/team_8aee0c4f0c83a587071a-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8aee0c4f0c83a587071a-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Orange"
     ],
     "values": {
-      "body": "#111F36",
-      "leftSleeve": "#182B43",
-      "rightSleeve": "#182B43",
-      "collar": "#111F36",
-      "leftCuff": "#101E35",
-      "rightCuff": "#101E35"
+      "body": "#101E34",
+      "leftSleeve": "#101E34",
+      "rightSleeve": "#101E34",
+      "collar": "#101E34",
+      "leftCuff": "#101E34",
+      "rightCuff": "#101E34"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy shirt with individually tapered orange, red, cream, gold and blue diagonal streaks, sparse above the chest and dense over the lower torso. Sleeves and original collar remain plain navy.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_8aee0c4f0c83a587071a-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_3e4ddc36c48bdf99b341.json",
     "source_kit_id": "469492"
@@ -111,6 +116,11 @@
       "date": "2026-09-23",
       "batch": "england-next-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

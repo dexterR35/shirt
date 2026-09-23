@@ -4,8 +4,8 @@
   "team_name": "Werder Bremen",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a7e9c0907001092be24c-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/werder-bremen-2026-27-away-kit-494873/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/E2xli7KFeMIVSev/werder-bremen-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a7e9c0907001092be24c-away-494873.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Orange",
+      "White"
+    ],
+    "values": {
+      "body": "#103B30",
+      "leftSleeve": "#103B30",
+      "rightSleeve": "#103B30",
+      "collar": "#123F32",
+      "leftCuff": "#123F32",
+      "rightCuff": "#123F32"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green shirt with fine tonal vertical ribs and orange/cream opposing triangle trim at sleeve ends and neckline. The triangular trim follows the original PNG seams, with the source V-neck shape and manufacturer shoulder chevrons omitted.",
+    "render_path": "artifacts/footballkitarchive/mandatory-germany-next-2026-09-23/team_a7e9c0907001092be24c-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1d25a713c67f60c73f1d.json",
+    "source_kit_id": "494873"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-germany-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

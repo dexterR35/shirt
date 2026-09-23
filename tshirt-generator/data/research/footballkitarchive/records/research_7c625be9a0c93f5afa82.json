@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/premier-league-kits-2026-27-l224/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/premier-league-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White/sky-blue columns with navy separator lines and dark blue photographic crowd texture traced from the central source column; this replaces the earlier invented floral description. Original navy ring retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_af1bc08f00a2a7be2e39-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_af1bc08f00a2a7be2e39-home-490990.jpg",
-  "image_sha256": "39d180144d4017eac9d390aae20535db08ef26300769f998cfc77443cf8c4e97"
+  "image_sha256": "39d180144d4017eac9d390aae20535db08ef26300769f998cfc77443cf8c4e97",
+  "artwork_revision_path": "data/kits/team_af1bc08f00a2a7be2e39-home-r002.json"
 }

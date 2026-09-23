@@ -19,9 +19,10 @@ The requested season is **strictly 2026/27**, as identified by Football Kit Arch
 ## Current coverage
 
 - 249 / 276 matching archive references saved locally, with equipment facts.
-- 165 / 276 ready PNG adaptations; 24 drafts; 87 researching.
-- 111 unfinished layouts: 84 have an exact-season reference but need drawing/refinement; 27 lack a matching reference.
-- 18 new Greek variants are ready. Aris Home and OFI Crete Away need more precise graphic tracing.
+- 229 / 276 ready PNG adaptations; 20 drafts; 27 researching.
+- 47 unfinished layouts: 20 have an exact-season reference but need drawing/refinement; 27 lack a matching reference.
+- Latest continuation: all 42 remaining source-backed variants revised and compared, with 22 promoted and 20 retained as drafts. See [the exact inventory and remaining differences](TIER1_42_REVIEW_2026-09-23.md).
+- 25 Greek variants are ready. Kifisia Away now has a reviewed revision; Asteras Home and both Panetolikos variants remain drafts.
 - Brentford Home r002/p002 independently binds the existing reviewed paint to the archive's 26-27 season; the historical official 2026–2028 revision is unchanged.
 
 Real Sociedad Home and Away are listed but both detail pages return 404, including a fresh follow-up. Petrolul Away was not found in targeted searches or current archive kit listings. Elche Away was found independently of the league page: the source lists `Friendly`, which is retained without excluding the kit.
@@ -42,4 +43,4 @@ Read `data/research/priority-worklist.json`: all 276 mandatory tasks are first, 
 
 Re-import the priority workbook using `scripts/import-priority-workbook.py` with the workbook path and a Python runtime with openpyxl. `scripts/research/build-team-equipment.mjs` reproduces local equipment JSON without network access. Extended public table captures and their provenance are in `data/research/footballkitarchive/equipment-fields.tsv` and `equipment-fields-provenance.json`.
 
-Validation: 29 Node tests, 12 Edge browser tests, original data verification and the final production build pass, recorded in `docs/VALIDATION.md`. The complete visual catalog is still unfinished.
+Validation: 33 Node tests, 15 Edge browser tests, original data verification and the final production build pass, recorded in `docs/VALIDATION.md`. The complete visual catalog is still unfinished.

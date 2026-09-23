@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_10de023434562a29136e",
+  "team_name": "Aris",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r002",
+  "research_batch": "tier1-71-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aris-fc-2026-27-home-kit-497936/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/25/GdnX3mNwolwsYTB/aris-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_10de023434562a29136e-home-497936.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#F0D414",
+      "leftSleeve": "#F0D414",
+      "rightSleeve": "#F0D414",
+      "collar": "#F0D414",
+      "leftCuff": "#F0D414",
+      "rightCuff": "#F0D414"
+    }
+  },
+  "observations": "Yellow shirt with five black torso hoops, each split by slender curved yellow slashes, plain yellow sleeves and matching original collar. Hoop spacing and the paired sweeping cuts are redrawn from the source.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow shirt with five black torso hoops, each split by slender curved yellow slashes, plain yellow sleeves and matching original collar. Hoop spacing and the paired sweeping cuts are redrawn from the source.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_10de023434562a29136e-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0D414",
+      "leftSleeve": "#F0D414",
+      "rightSleeve": "#F0D414",
+      "collar": "#F0D414",
+      "leftCuff": "#F0D414",
+      "rightCuff": "#F0D414"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0D414",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0D414",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M47 27Q100 23 153 26V44Q100 48 47 45Z",
+        "fill": "#1C201B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 28Q71 32 106 45L119 46Q85 32 47 26Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103 24Q128 30 153 42V38Q139 29 120 24Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 68Q100 64 153 67V85Q100 89 47 86Z",
+        "fill": "#1C201B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 69Q71 73 106 86L119 87Q85 73 47 67Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103 65Q128 71 153 83V79Q139 70 120 65Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 110Q100 106 153 109V127Q100 131 47 128Z",
+        "fill": "#1C201B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 111Q71 115 106 128L119 129Q85 115 47 109Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103 107Q128 113 153 125V121Q139 112 120 107Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 152Q100 148 153 151V169Q100 173 47 170Z",
+        "fill": "#1C201B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 153Q71 157 106 170L119 171Q85 157 47 151Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103 149Q128 155 153 167V163Q139 154 120 149Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 187Q100 183 153 186V204Q100 208 47 205Z",
+        "fill": "#1C201B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47 188Q71 192 106 205L119 206Q85 192 47 186Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103 184Q128 190 153 202V198Q139 189 120 184Z",
+        "fill": "#F0D414",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

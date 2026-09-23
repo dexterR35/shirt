@@ -4,8 +4,8 @@
   "team_name": "SC Paderborn",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_97c5a80b499514a30748-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-paderborn-2026-27-home-kit-490967/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/guHpOsIlzXHRWlF/sc-paderborn-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_97c5a80b499514a30748-home-490967.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray",
+      "Blue"
+    ],
+    "values": {
+      "body": "#151718",
+      "leftSleeve": "#151718",
+      "rightSleeve": "#151718",
+      "collar": "#2978B5",
+      "leftCuff": "#297BB9",
+      "rightCuff": "#297BB9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with blue collar color, thin blue raglan piping and blue sleeve edging. The tonal repeating field is made from club shields, club initials and year numerals; those emblems/lettering are intentionally omitted along with the chest and shoulder branding.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_97c5a80b499514a30748-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f1b07a3ce97e075dfae9.json",
+    "source_kit_id": "490967"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

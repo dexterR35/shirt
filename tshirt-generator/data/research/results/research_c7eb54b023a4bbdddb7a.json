@@ -4,8 +4,8 @@
   "team_name": "Atromitos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8efc07d07bb1ad4e29fa-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atromitos-athinon-2026-27-home-kit-508186/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/14/5tCe4Ol3YByQ20J/atromitos-athinon-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8efc07d07bb1ad4e29fa-home-508186.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Gray"
+    ],
+    "values": {
+      "body": "#E9ECEE",
+      "leftSleeve": "#E9ECEE",
+      "rightSleeve": "#E9ECEE",
+      "collar": "#173856",
+      "leftCuff": "#EAEEF0",
+      "rightCuff": "#EAEEF0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White front with navy and gray vertical columns made of fine diagonal hatch lines, plain white sleeves and a navy collar with a narrow white border. Manufacturer shoulder blocks are omitted.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_8efc07d07bb1ad4e29fa-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c7eb54b023a4bbdddb7a.json",
+    "source_kit_id": "508186"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_bcbae1cb0b28797c652c",
+  "team_name": "VfB Stuttgart",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-71-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Red shirt with a pale horizontal chest band, fine pale collar/cuff edging and a darker organic all-over field.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_bcbae1cb0b28797c652c-away-507206.jpg",
+      "page_url": "https://www.footballkitarchive.com/vfb-stuttgart-2026-27-away-kit-507206/",
+      "sha256": "37d179d86010114a8c903485dbed22cca374e2409ecb3747ca805bbb3c5e6307"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#C9162B",
+      "leftSleeve": "#C9162B",
+      "rightSleeve": "#C9162B",
+      "collar": "#EDEBE6",
+      "leftCuff": "#EEE8E3",
+      "rightCuff": "#EEE8E3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDEBE6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.324 4.432L77 2Q100 7 123 2L128.676 4.432C131.054 30.486 68.946 30.486 71.324 4.432Z",
+          "fill": "#C91A2B",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M76.054 2.405L77 2Q100 7 123 2L123.946 2.405C127.676 25.081 72.324 25.081 76.054 2.405Z",
+          "fill": "#EDEBE6",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#C9162B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M9 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 0q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 18q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M9 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 36q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 54q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M9 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 72q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 90q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M9 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 108q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 126q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M9 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 144q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 162q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M9 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M30 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M51 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M72 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M93 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M114 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M135 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M156 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M177 180q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M15 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M36 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M57 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M78 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M99 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M120 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M141 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M162 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "path",
+        "d": "M183 198q9-9 14-3l-5 5 3 7-5 5-8-1 6-5-3-3 5-4Z",
+        "fill": "#AA1929",
+        "clip": "all",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 61,
+        "width": 200,
+        "height": 26,
+        "fill": "#F0EEEC",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#EEE8E3",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#EEE8E3",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

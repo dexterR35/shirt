@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/serie-a-kits-2026-27-l258/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/serie-a-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Gray dot waves now follow the actual observed curved dot tracks and blank valleys from the lower-front Away image; the source burgundy collar color stays on the original round ring.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_2dae539bf69fbbaac63b-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_2dae539bf69fbbaac63b-away-519841.jpg",
-  "image_sha256": "a470b25b10a2b4a83495e46b5f98ca819e780d1d0ddd13dd565bdb31c358a852"
+  "image_sha256": "a470b25b10a2b4a83495e46b5f98ca819e780d1d0ddd13dd565bdb31c358a852",
+  "artwork_revision_path": "data/kits/team_2dae539bf69fbbaac63b-away-r003.json"
 }

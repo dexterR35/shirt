@@ -1,0 +1,4063 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_04e5c7dc0c549b660cd2",
+  "team_name": "Sepsi OSK",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-romania-next-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sepsi-osk-2026-27-away-kit-522757/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/chWu7FhY0iGqUO3/sepsi-osk-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_04e5c7dc0c549b660cd2-away-522757.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray",
+      "Black"
+    ],
+    "values": {
+      "body": "#EFF1EF",
+      "leftSleeve": "#EFF1EF",
+      "rightSleeve": "#EFF1EF",
+      "collar": "#EFF1EF",
+      "leftCuff": "#E4E8E5",
+      "rightCuff": "#E4E8E5"
+    }
+  },
+  "observations": "White shirt with pale scattered triangular shards of different sizes, several grouped narrow slashes and pale shoulder tapes. Visible fragments are placed individually across body and sleeves; all sponsor, city and club emblems are omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with pale scattered triangular shards of different sizes, several grouped narrow slashes and pale shoulder tapes. Visible fragments are placed individually across body and sleeves; all sponsor, city and club emblems are omitted.",
+    "render_path": "artifacts/footballkitarchive/mandatory-romania-next-2026-09-23/team_04e5c7dc0c549b660cd2-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFF1EF",
+      "leftSleeve": "#EFF1EF",
+      "rightSleeve": "#EFF1EF",
+      "collar": "#EFF1EF",
+      "leftCuff": "#E4E8E5",
+      "rightCuff": "#E4E8E5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EFF1EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFF1EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            54,
+            10
+          ],
+          [
+            58,
+            32
+          ],
+          [
+            65,
+            18
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            66,
+            9
+          ],
+          [
+            68,
+            24
+          ],
+          [
+            74,
+            17
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            42,
+            25
+          ],
+          [
+            46,
+            38
+          ],
+          [
+            52,
+            31
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            27
+          ],
+          [
+            66,
+            42
+          ],
+          [
+            80,
+            38
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            82,
+            21
+          ],
+          [
+            85,
+            39
+          ],
+          [
+            88,
+            33
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            95,
+            26
+          ],
+          [
+            100,
+            37
+          ],
+          [
+            90,
+            35
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            10
+          ],
+          [
+            116,
+            30
+          ],
+          [
+            128,
+            23
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            131,
+            17
+          ],
+          [
+            126,
+            40
+          ],
+          [
+            136,
+            30
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            143,
+            22
+          ],
+          [
+            149,
+            43
+          ],
+          [
+            155,
+            34
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            41
+          ],
+          [
+            55,
+            60
+          ],
+          [
+            66,
+            51
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            47
+          ],
+          [
+            82,
+            57
+          ],
+          [
+            79,
+            44
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            88,
+            45
+          ],
+          [
+            91,
+            65
+          ],
+          [
+            94,
+            62
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            102,
+            45
+          ],
+          [
+            107,
+            57
+          ],
+          [
+            114,
+            54
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            132,
+            44
+          ],
+          [
+            127,
+            60
+          ],
+          [
+            139,
+            52
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            50
+          ],
+          [
+            141,
+            70
+          ],
+          [
+            150,
+            67
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            52,
+            73
+          ],
+          [
+            60,
+            89
+          ],
+          [
+            67,
+            75
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            74
+          ],
+          [
+            77,
+            90
+          ],
+          [
+            81,
+            85
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            84,
+            79
+          ],
+          [
+            96,
+            92
+          ],
+          [
+            93,
+            78
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            114,
+            74
+          ],
+          [
+            115,
+            92
+          ],
+          [
+            121,
+            84
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            73
+          ],
+          [
+            134,
+            91
+          ],
+          [
+            141,
+            87
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            144,
+            89
+          ],
+          [
+            153,
+            99
+          ],
+          [
+            145,
+            103
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            98
+          ],
+          [
+            52,
+            116
+          ],
+          [
+            65,
+            110
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            71,
+            101
+          ],
+          [
+            67,
+            120
+          ],
+          [
+            77,
+            114
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            88,
+            96
+          ],
+          [
+            91,
+            114
+          ],
+          [
+            97,
+            108
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            107,
+            105
+          ],
+          [
+            105,
+            121
+          ],
+          [
+            114,
+            117
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            106
+          ],
+          [
+            122,
+            124
+          ],
+          [
+            133,
+            118
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            139,
+            112
+          ],
+          [
+            148,
+            125
+          ],
+          [
+            151,
+            109
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            52,
+            130
+          ],
+          [
+            64,
+            139
+          ],
+          [
+            58,
+            148
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            67,
+            133
+          ],
+          [
+            77,
+            142
+          ],
+          [
+            80,
+            131
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            85,
+            125
+          ],
+          [
+            82,
+            146
+          ],
+          [
+            93,
+            139
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            105,
+            137
+          ],
+          [
+            101,
+            154
+          ],
+          [
+            115,
+            148
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            131
+          ],
+          [
+            129,
+            151
+          ],
+          [
+            136,
+            141
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            132
+          ],
+          [
+            137,
+            151
+          ],
+          [
+            151,
+            145
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            58,
+            153
+          ],
+          [
+            65,
+            168
+          ],
+          [
+            68,
+            156
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            78,
+            153
+          ],
+          [
+            71,
+            170
+          ],
+          [
+            81,
+            162
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            88,
+            164
+          ],
+          [
+            95,
+            177
+          ],
+          [
+            95,
+            163
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            155
+          ],
+          [
+            116,
+            177
+          ],
+          [
+            119,
+            161
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            160
+          ],
+          [
+            123,
+            179
+          ],
+          [
+            135,
+            170
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            157
+          ],
+          [
+            144,
+            176
+          ],
+          [
+            153,
+            166
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            181
+          ],
+          [
+            59,
+            197
+          ],
+          [
+            68,
+            185
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            180
+          ],
+          [
+            70,
+            199
+          ],
+          [
+            85,
+            190
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            95,
+            181
+          ],
+          [
+            90,
+            198
+          ],
+          [
+            102,
+            194
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            115,
+            184
+          ],
+          [
+            125,
+            196
+          ],
+          [
+            126,
+            179
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            137,
+            180
+          ],
+          [
+            132,
+            196
+          ],
+          [
+            147,
+            193
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            26,
+            32
+          ],
+          [
+            31,
+            47
+          ],
+          [
+            36,
+            38
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            32,
+            45
+          ],
+          [
+            39,
+            57
+          ],
+          [
+            37,
+            43
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            16,
+            59
+          ],
+          [
+            29,
+            64
+          ],
+          [
+            21,
+            70
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            29,
+            66
+          ],
+          [
+            35,
+            80
+          ],
+          [
+            38,
+            70
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            63
+          ],
+          [
+            40,
+            76
+          ],
+          [
+            47,
+            72
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            169,
+            31
+          ],
+          [
+            165,
+            48
+          ],
+          [
+            175,
+            41
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            160,
+            42
+          ],
+          [
+            155,
+            59
+          ],
+          [
+            168,
+            53
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            181,
+            54
+          ],
+          [
+            176,
+            68
+          ],
+          [
+            186,
+            65
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            63
+          ],
+          [
+            170,
+            81
+          ],
+          [
+            173,
+            70
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            18
+          ],
+          [
+            53,
+            28
+          ],
+          [
+            56,
+            16
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            59,
+            29
+          ],
+          [
+            63,
+            37
+          ],
+          [
+            67,
+            33
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            78,
+            12
+          ],
+          [
+            81,
+            24
+          ],
+          [
+            85,
+            16
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            103,
+            25
+          ],
+          [
+            106,
+            35
+          ],
+          [
+            110,
+            30
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            136,
+            10
+          ],
+          [
+            141,
+            19
+          ],
+          [
+            145,
+            14
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            47
+          ],
+          [
+            51,
+            59
+          ],
+          [
+            54,
+            53
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            54
+          ],
+          [
+            65,
+            64
+          ],
+          [
+            69,
+            57
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            60
+          ],
+          [
+            78,
+            69
+          ],
+          [
+            82,
+            62
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            59
+          ],
+          [
+            102,
+            69
+          ],
+          [
+            106,
+            64
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            116,
+            60
+          ],
+          [
+            121,
+            70
+          ],
+          [
+            124,
+            63
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            136,
+            59
+          ],
+          [
+            139,
+            68
+          ],
+          [
+            142,
+            61
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            59,
+            66
+          ],
+          [
+            60,
+            76
+          ],
+          [
+            65,
+            70
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            79,
+            71
+          ],
+          [
+            82,
+            77
+          ],
+          [
+            85,
+            68
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            76
+          ],
+          [
+            105,
+            84
+          ],
+          [
+            102,
+            72
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            83
+          ],
+          [
+            128,
+            95
+          ],
+          [
+            129,
+            84
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            75
+          ],
+          [
+            150,
+            83
+          ],
+          [
+            153,
+            76
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            53,
+            91
+          ],
+          [
+            55,
+            100
+          ],
+          [
+            59,
+            94
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            78,
+            94
+          ],
+          [
+            83,
+            101
+          ],
+          [
+            85,
+            93
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            97,
+            117
+          ],
+          [
+            102,
+            127
+          ],
+          [
+            102,
+            116
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            98
+          ],
+          [
+            142,
+            105
+          ],
+          [
+            142,
+            97
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            144,
+            125
+          ],
+          [
+            150,
+            131
+          ],
+          [
+            150,
+            123
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            53,
+            120
+          ],
+          [
+            61,
+            128
+          ],
+          [
+            63,
+            118
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            121
+          ],
+          [
+            78,
+            131
+          ],
+          [
+            84,
+            127
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            92,
+            131
+          ],
+          [
+            97,
+            140
+          ],
+          [
+            99,
+            128
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            117,
+            123
+          ],
+          [
+            120,
+            133
+          ],
+          [
+            123,
+            126
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            144
+          ],
+          [
+            70,
+            152
+          ],
+          [
+            73,
+            143
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            84,
+            150
+          ],
+          [
+            89,
+            157
+          ],
+          [
+            94,
+            151
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            102,
+            158
+          ],
+          [
+            104,
+            169
+          ],
+          [
+            107,
+            162
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            148
+          ],
+          [
+            140,
+            157
+          ],
+          [
+            145,
+            150
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            53,
+            167
+          ],
+          [
+            59,
+            174
+          ],
+          [
+            62,
+            164
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            80,
+            169
+          ],
+          [
+            85,
+            180
+          ],
+          [
+            87,
+            170
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            113,
+            175
+          ],
+          [
+            118,
+            184
+          ],
+          [
+            121,
+            176
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            136,
+            173
+          ],
+          [
+            141,
+            180
+          ],
+          [
+            144,
+            172
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            28,
+            25
+          ],
+          [
+            31,
+            33
+          ],
+          [
+            35,
+            27
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            37,
+            35
+          ],
+          [
+            39,
+            43
+          ],
+          [
+            43,
+            38
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            22,
+            45
+          ],
+          [
+            25,
+            55
+          ],
+          [
+            29,
+            49
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            18,
+            71
+          ],
+          [
+            22,
+            79
+          ],
+          [
+            25,
+            74
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            28
+          ],
+          [
+            162,
+            35
+          ],
+          [
+            163,
+            27
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            172,
+            45
+          ],
+          [
+            176,
+            51
+          ],
+          [
+            178,
+            43
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            154,
+            63
+          ],
+          [
+            157,
+            73
+          ],
+          [
+            162,
+            67
+          ]
+        ],
+        "fill": "#DFE3E1",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            178,
+            73
+          ],
+          [
+            181,
+            80
+          ],
+          [
+            185,
+            72
+          ]
+        ],
+        "fill": "#CED4D4",
+        "clip": "all",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            67,
+            60
+          ],
+          [
+            74,
+            50
+          ],
+          [
+            73,
+            55
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            69,
+            60
+          ],
+          [
+            76,
+            50
+          ],
+          [
+            75,
+            55
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            71,
+            60
+          ],
+          [
+            78,
+            50
+          ],
+          [
+            77,
+            55
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            95
+          ],
+          [
+            129,
+            85
+          ],
+          [
+            128,
+            90
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            95
+          ],
+          [
+            131,
+            85
+          ],
+          [
+            130,
+            90
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            95
+          ],
+          [
+            133,
+            85
+          ],
+          [
+            132,
+            90
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            95,
+            143
+          ],
+          [
+            102,
+            133
+          ],
+          [
+            101,
+            138
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            97,
+            143
+          ],
+          [
+            104,
+            133
+          ],
+          [
+            103,
+            138
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            143
+          ],
+          [
+            106,
+            133
+          ],
+          [
+            105,
+            138
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            103,
+            181
+          ],
+          [
+            110,
+            171
+          ],
+          [
+            109,
+            176
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            105,
+            181
+          ],
+          [
+            112,
+            171
+          ],
+          [
+            111,
+            176
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            107,
+            181
+          ],
+          [
+            114,
+            171
+          ],
+          [
+            113,
+            176
+          ]
+        ],
+        "fill": "#D0D6D4",
+        "clip": "body",
+        "opacity": 0.75
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76.296,
+            6.135
+          ],
+          [
+            73.742,
+            7.242
+          ],
+          [
+            71.261,
+            8.277
+          ],
+          [
+            68.863,
+            9.241
+          ],
+          [
+            66.547,
+            10.139
+          ],
+          [
+            64.312,
+            10.975
+          ],
+          [
+            62.157,
+            11.756
+          ],
+          [
+            60.08,
+            12.487
+          ],
+          [
+            58.081,
+            13.173
+          ],
+          [
+            56.157,
+            13.82
+          ],
+          [
+            54.309,
+            14.434
+          ],
+          [
+            52.535,
+            15.018
+          ],
+          [
+            50.834,
+            15.58
+          ],
+          [
+            49.204,
+            16.123
+          ],
+          [
+            47.646,
+            16.654
+          ],
+          [
+            46.157,
+            17.177
+          ],
+          [
+            44.737,
+            17.698
+          ],
+          [
+            43.385,
+            18.221
+          ],
+          [
+            42.099,
+            18.751
+          ],
+          [
+            40.878,
+            19.293
+          ],
+          [
+            39.721,
+            19.851
+          ],
+          [
+            38.625,
+            20.431
+          ],
+          [
+            37.588,
+            21.035
+          ],
+          [
+            36.606,
+            21.67
+          ],
+          [
+            35.677,
+            22.341
+          ],
+          [
+            34.797,
+            23.053
+          ],
+          [
+            33.962,
+            23.811
+          ],
+          [
+            33.167,
+            24.624
+          ],
+          [
+            32.41,
+            25.499
+          ],
+          [
+            31.686,
+            26.442
+          ],
+          [
+            30.994,
+            27.462
+          ],
+          [
+            30.33,
+            28.566
+          ],
+          [
+            29.695,
+            29.762
+          ],
+          [
+            29.086,
+            31.056
+          ],
+          [
+            28.503,
+            32.455
+          ],
+          [
+            27.945,
+            33.965
+          ],
+          [
+            27.4,
+            35.624
+          ],
+          [
+            28.35,
+            35.936
+          ],
+          [
+            28.889,
+            34.294
+          ],
+          [
+            29.434,
+            32.82
+          ],
+          [
+            30,
+            31.461
+          ],
+          [
+            30.589,
+            30.209
+          ],
+          [
+            31.201,
+            29.058
+          ],
+          [
+            31.837,
+            28
+          ],
+          [
+            32.497,
+            27.027
+          ],
+          [
+            33.185,
+            26.13
+          ],
+          [
+            33.903,
+            25.301
+          ],
+          [
+            34.656,
+            24.531
+          ],
+          [
+            35.448,
+            23.812
+          ],
+          [
+            36.285,
+            23.135
+          ],
+          [
+            37.171,
+            22.496
+          ],
+          [
+            38.111,
+            21.887
+          ],
+          [
+            39.11,
+            21.305
+          ],
+          [
+            40.172,
+            20.744
+          ],
+          [
+            41.298,
+            20.201
+          ],
+          [
+            42.492,
+            19.671
+          ],
+          [
+            43.756,
+            19.15
+          ],
+          [
+            45.089,
+            18.634
+          ],
+          [
+            46.495,
+            18.119
+          ],
+          [
+            47.973,
+            17.599
+          ],
+          [
+            49.524,
+            17.071
+          ],
+          [
+            51.148,
+            16.529
+          ],
+          [
+            52.848,
+            15.968
+          ],
+          [
+            54.623,
+            15.383
+          ],
+          [
+            56.474,
+            14.769
+          ],
+          [
+            58.402,
+            14.12
+          ],
+          [
+            60.408,
+            13.432
+          ],
+          [
+            62.493,
+            12.698
+          ],
+          [
+            64.658,
+            11.913
+          ],
+          [
+            66.903,
+            11.073
+          ],
+          [
+            69.23,
+            10.171
+          ],
+          [
+            71.64,
+            9.203
+          ],
+          [
+            74.134,
+            8.162
+          ],
+          [
+            76.693,
+            7.052
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77.012,
+            7.786
+          ],
+          [
+            74.447,
+            8.898
+          ],
+          [
+            71.943,
+            9.943
+          ],
+          [
+            69.524,
+            10.915
+          ],
+          [
+            67.188,
+            11.821
+          ],
+          [
+            64.934,
+            12.664
+          ],
+          [
+            62.762,
+            13.451
+          ],
+          [
+            60.671,
+            14.187
+          ],
+          [
+            58.66,
+            14.878
+          ],
+          [
+            56.728,
+            15.528
+          ],
+          [
+            54.874,
+            16.143
+          ],
+          [
+            53.099,
+            16.728
+          ],
+          [
+            51.4,
+            17.288
+          ],
+          [
+            49.779,
+            17.829
+          ],
+          [
+            48.234,
+            18.355
+          ],
+          [
+            46.765,
+            18.872
+          ],
+          [
+            45.371,
+            19.383
+          ],
+          [
+            44.052,
+            19.893
+          ],
+          [
+            42.807,
+            20.406
+          ],
+          [
+            41.634,
+            20.927
+          ],
+          [
+            40.532,
+            21.458
+          ],
+          [
+            39.499,
+            22.004
+          ],
+          [
+            38.53,
+            22.569
+          ],
+          [
+            37.622,
+            23.156
+          ],
+          [
+            36.77,
+            23.771
+          ],
+          [
+            35.969,
+            24.419
+          ],
+          [
+            35.211,
+            25.107
+          ],
+          [
+            34.492,
+            25.843
+          ],
+          [
+            33.805,
+            26.636
+          ],
+          [
+            33.146,
+            27.495
+          ],
+          [
+            32.511,
+            28.43
+          ],
+          [
+            31.898,
+            29.451
+          ],
+          [
+            31.305,
+            30.567
+          ],
+          [
+            30.732,
+            31.785
+          ],
+          [
+            30.178,
+            33.113
+          ],
+          [
+            29.644,
+            34.557
+          ],
+          [
+            29.11,
+            36.185
+          ],
+          [
+            30.061,
+            36.497
+          ],
+          [
+            30.589,
+            34.886
+          ],
+          [
+            31.109,
+            33.478
+          ],
+          [
+            31.646,
+            32.19
+          ],
+          [
+            32.199,
+            31.014
+          ],
+          [
+            32.768,
+            29.943
+          ],
+          [
+            33.354,
+            28.968
+          ],
+          [
+            33.957,
+            28.08
+          ],
+          [
+            34.58,
+            27.268
+          ],
+          [
+            35.228,
+            26.52
+          ],
+          [
+            35.906,
+            25.827
+          ],
+          [
+            36.62,
+            25.178
+          ],
+          [
+            37.378,
+            24.566
+          ],
+          [
+            38.187,
+            23.982
+          ],
+          [
+            39.053,
+            23.421
+          ],
+          [
+            39.984,
+            22.879
+          ],
+          [
+            40.983,
+            22.351
+          ],
+          [
+            42.054,
+            21.834
+          ],
+          [
+            43.2,
+            21.326
+          ],
+          [
+            44.423,
+            20.822
+          ],
+          [
+            45.724,
+            20.319
+          ],
+          [
+            47.103,
+            19.813
+          ],
+          [
+            48.561,
+            19.3
+          ],
+          [
+            50.098,
+            18.777
+          ],
+          [
+            51.715,
+            18.237
+          ],
+          [
+            53.412,
+            17.677
+          ],
+          [
+            55.188,
+            17.092
+          ],
+          [
+            57.045,
+            16.476
+          ],
+          [
+            58.982,
+            15.824
+          ],
+          [
+            60.999,
+            15.132
+          ],
+          [
+            63.099,
+            14.393
+          ],
+          [
+            65.28,
+            13.602
+          ],
+          [
+            67.544,
+            12.755
+          ],
+          [
+            69.891,
+            11.846
+          ],
+          [
+            72.322,
+            10.868
+          ],
+          [
+            74.839,
+            9.818
+          ],
+          [
+            77.409,
+            8.704
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77.728,
+            9.438
+          ],
+          [
+            75.152,
+            10.554
+          ],
+          [
+            72.626,
+            11.609
+          ],
+          [
+            70.185,
+            12.59
+          ],
+          [
+            67.829,
+            13.503
+          ],
+          [
+            65.556,
+            14.353
+          ],
+          [
+            63.368,
+            15.146
+          ],
+          [
+            61.262,
+            15.887
+          ],
+          [
+            59.239,
+            16.582
+          ],
+          [
+            57.298,
+            17.235
+          ],
+          [
+            55.439,
+            17.851
+          ],
+          [
+            53.662,
+            18.437
+          ],
+          [
+            51.967,
+            18.997
+          ],
+          [
+            50.354,
+            19.535
+          ],
+          [
+            48.823,
+            20.056
+          ],
+          [
+            47.373,
+            20.566
+          ],
+          [
+            46.006,
+            21.067
+          ],
+          [
+            44.72,
+            21.564
+          ],
+          [
+            43.515,
+            22.061
+          ],
+          [
+            42.39,
+            22.56
+          ],
+          [
+            41.344,
+            23.065
+          ],
+          [
+            40.372,
+            23.578
+          ],
+          [
+            39.472,
+            24.103
+          ],
+          [
+            38.638,
+            24.642
+          ],
+          [
+            37.863,
+            25.201
+          ],
+          [
+            37.14,
+            25.786
+          ],
+          [
+            36.461,
+            26.403
+          ],
+          [
+            35.817,
+            27.062
+          ],
+          [
+            35.2,
+            27.773
+          ],
+          [
+            34.606,
+            28.548
+          ],
+          [
+            34.028,
+            29.399
+          ],
+          [
+            33.465,
+            30.337
+          ],
+          [
+            32.915,
+            31.372
+          ],
+          [
+            32.378,
+            32.513
+          ],
+          [
+            31.854,
+            33.77
+          ],
+          [
+            31.344,
+            35.149
+          ],
+          [
+            30.821,
+            36.747
+          ],
+          [
+            31.771,
+            37.059
+          ],
+          [
+            32.289,
+            35.478
+          ],
+          [
+            32.785,
+            34.136
+          ],
+          [
+            33.292,
+            32.918
+          ],
+          [
+            33.809,
+            31.819
+          ],
+          [
+            34.336,
+            30.828
+          ],
+          [
+            34.871,
+            29.937
+          ],
+          [
+            35.417,
+            29.133
+          ],
+          [
+            35.975,
+            28.405
+          ],
+          [
+            36.553,
+            27.739
+          ],
+          [
+            37.155,
+            27.122
+          ],
+          [
+            37.791,
+            26.545
+          ],
+          [
+            38.471,
+            25.996
+          ],
+          [
+            39.203,
+            25.468
+          ],
+          [
+            39.996,
+            24.955
+          ],
+          [
+            40.858,
+            24.452
+          ],
+          [
+            41.794,
+            23.958
+          ],
+          [
+            42.81,
+            23.468
+          ],
+          [
+            43.908,
+            22.981
+          ],
+          [
+            45.091,
+            22.493
+          ],
+          [
+            46.358,
+            22.003
+          ],
+          [
+            47.711,
+            21.507
+          ],
+          [
+            49.15,
+            21.001
+          ],
+          [
+            50.673,
+            20.482
+          ],
+          [
+            52.282,
+            19.946
+          ],
+          [
+            53.976,
+            19.387
+          ],
+          [
+            55.753,
+            18.801
+          ],
+          [
+            57.615,
+            18.183
+          ],
+          [
+            59.561,
+            17.529
+          ],
+          [
+            61.591,
+            16.832
+          ],
+          [
+            63.704,
+            16.088
+          ],
+          [
+            65.902,
+            15.291
+          ],
+          [
+            68.185,
+            14.437
+          ],
+          [
+            70.552,
+            13.52
+          ],
+          [
+            73.005,
+            12.534
+          ],
+          [
+            75.544,
+            11.475
+          ],
+          [
+            78.125,
+            10.355
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123.704,
+            6.135
+          ],
+          [
+            126.258,
+            7.242
+          ],
+          [
+            128.739,
+            8.277
+          ],
+          [
+            131.137,
+            9.241
+          ],
+          [
+            133.453,
+            10.139
+          ],
+          [
+            135.688,
+            10.975
+          ],
+          [
+            137.843,
+            11.756
+          ],
+          [
+            139.92,
+            12.487
+          ],
+          [
+            141.919,
+            13.173
+          ],
+          [
+            143.843,
+            13.82
+          ],
+          [
+            145.691,
+            14.434
+          ],
+          [
+            147.465,
+            15.018
+          ],
+          [
+            149.166,
+            15.58
+          ],
+          [
+            150.796,
+            16.123
+          ],
+          [
+            152.354,
+            16.654
+          ],
+          [
+            153.843,
+            17.177
+          ],
+          [
+            155.263,
+            17.698
+          ],
+          [
+            156.615,
+            18.221
+          ],
+          [
+            157.901,
+            18.751
+          ],
+          [
+            159.122,
+            19.293
+          ],
+          [
+            160.279,
+            19.851
+          ],
+          [
+            161.375,
+            20.431
+          ],
+          [
+            162.412,
+            21.035
+          ],
+          [
+            163.394,
+            21.67
+          ],
+          [
+            164.323,
+            22.341
+          ],
+          [
+            165.203,
+            23.053
+          ],
+          [
+            166.038,
+            23.811
+          ],
+          [
+            166.833,
+            24.624
+          ],
+          [
+            167.59,
+            25.499
+          ],
+          [
+            168.314,
+            26.442
+          ],
+          [
+            169.006,
+            27.462
+          ],
+          [
+            169.67,
+            28.566
+          ],
+          [
+            170.305,
+            29.762
+          ],
+          [
+            170.914,
+            31.056
+          ],
+          [
+            171.497,
+            32.455
+          ],
+          [
+            172.055,
+            33.965
+          ],
+          [
+            172.6,
+            35.624
+          ],
+          [
+            171.65,
+            35.936
+          ],
+          [
+            171.111,
+            34.294
+          ],
+          [
+            170.566,
+            32.82
+          ],
+          [
+            170,
+            31.461
+          ],
+          [
+            169.411,
+            30.209
+          ],
+          [
+            168.799,
+            29.058
+          ],
+          [
+            168.163,
+            28
+          ],
+          [
+            167.503,
+            27.027
+          ],
+          [
+            166.815,
+            26.13
+          ],
+          [
+            166.097,
+            25.301
+          ],
+          [
+            165.344,
+            24.531
+          ],
+          [
+            164.552,
+            23.812
+          ],
+          [
+            163.715,
+            23.135
+          ],
+          [
+            162.829,
+            22.496
+          ],
+          [
+            161.889,
+            21.887
+          ],
+          [
+            160.89,
+            21.305
+          ],
+          [
+            159.828,
+            20.744
+          ],
+          [
+            158.702,
+            20.201
+          ],
+          [
+            157.508,
+            19.671
+          ],
+          [
+            156.244,
+            19.15
+          ],
+          [
+            154.911,
+            18.634
+          ],
+          [
+            153.505,
+            18.119
+          ],
+          [
+            152.027,
+            17.599
+          ],
+          [
+            150.476,
+            17.071
+          ],
+          [
+            148.852,
+            16.529
+          ],
+          [
+            147.152,
+            15.968
+          ],
+          [
+            145.377,
+            15.383
+          ],
+          [
+            143.526,
+            14.769
+          ],
+          [
+            141.598,
+            14.12
+          ],
+          [
+            139.592,
+            13.432
+          ],
+          [
+            137.507,
+            12.698
+          ],
+          [
+            135.342,
+            11.913
+          ],
+          [
+            133.097,
+            11.073
+          ],
+          [
+            130.77,
+            10.171
+          ],
+          [
+            128.36,
+            9.203
+          ],
+          [
+            125.866,
+            8.162
+          ],
+          [
+            123.307,
+            7.052
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.988,
+            7.786
+          ],
+          [
+            125.553,
+            8.898
+          ],
+          [
+            128.057,
+            9.943
+          ],
+          [
+            130.476,
+            10.915
+          ],
+          [
+            132.812,
+            11.821
+          ],
+          [
+            135.066,
+            12.664
+          ],
+          [
+            137.238,
+            13.451
+          ],
+          [
+            139.329,
+            14.187
+          ],
+          [
+            141.34,
+            14.878
+          ],
+          [
+            143.272,
+            15.528
+          ],
+          [
+            145.126,
+            16.143
+          ],
+          [
+            146.901,
+            16.728
+          ],
+          [
+            148.6,
+            17.288
+          ],
+          [
+            150.221,
+            17.829
+          ],
+          [
+            151.766,
+            18.355
+          ],
+          [
+            153.235,
+            18.872
+          ],
+          [
+            154.629,
+            19.383
+          ],
+          [
+            155.948,
+            19.893
+          ],
+          [
+            157.193,
+            20.406
+          ],
+          [
+            158.366,
+            20.927
+          ],
+          [
+            159.468,
+            21.458
+          ],
+          [
+            160.501,
+            22.004
+          ],
+          [
+            161.47,
+            22.569
+          ],
+          [
+            162.378,
+            23.156
+          ],
+          [
+            163.23,
+            23.771
+          ],
+          [
+            164.031,
+            24.419
+          ],
+          [
+            164.789,
+            25.107
+          ],
+          [
+            165.508,
+            25.843
+          ],
+          [
+            166.195,
+            26.636
+          ],
+          [
+            166.854,
+            27.495
+          ],
+          [
+            167.489,
+            28.43
+          ],
+          [
+            168.102,
+            29.451
+          ],
+          [
+            168.695,
+            30.567
+          ],
+          [
+            169.268,
+            31.785
+          ],
+          [
+            169.822,
+            33.113
+          ],
+          [
+            170.356,
+            34.557
+          ],
+          [
+            170.89,
+            36.185
+          ],
+          [
+            169.939,
+            36.497
+          ],
+          [
+            169.411,
+            34.886
+          ],
+          [
+            168.891,
+            33.478
+          ],
+          [
+            168.354,
+            32.19
+          ],
+          [
+            167.801,
+            31.014
+          ],
+          [
+            167.232,
+            29.943
+          ],
+          [
+            166.646,
+            28.968
+          ],
+          [
+            166.043,
+            28.08
+          ],
+          [
+            165.42,
+            27.268
+          ],
+          [
+            164.772,
+            26.52
+          ],
+          [
+            164.094,
+            25.827
+          ],
+          [
+            163.38,
+            25.178
+          ],
+          [
+            162.622,
+            24.566
+          ],
+          [
+            161.813,
+            23.982
+          ],
+          [
+            160.947,
+            23.421
+          ],
+          [
+            160.016,
+            22.879
+          ],
+          [
+            159.017,
+            22.351
+          ],
+          [
+            157.946,
+            21.834
+          ],
+          [
+            156.8,
+            21.326
+          ],
+          [
+            155.577,
+            20.822
+          ],
+          [
+            154.276,
+            20.319
+          ],
+          [
+            152.897,
+            19.813
+          ],
+          [
+            151.439,
+            19.3
+          ],
+          [
+            149.902,
+            18.777
+          ],
+          [
+            148.285,
+            18.237
+          ],
+          [
+            146.588,
+            17.677
+          ],
+          [
+            144.812,
+            17.092
+          ],
+          [
+            142.955,
+            16.476
+          ],
+          [
+            141.018,
+            15.824
+          ],
+          [
+            139.001,
+            15.132
+          ],
+          [
+            136.901,
+            14.393
+          ],
+          [
+            134.72,
+            13.602
+          ],
+          [
+            132.456,
+            12.755
+          ],
+          [
+            130.109,
+            11.846
+          ],
+          [
+            127.678,
+            10.868
+          ],
+          [
+            125.161,
+            9.818
+          ],
+          [
+            122.591,
+            8.704
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.272,
+            9.438
+          ],
+          [
+            124.848,
+            10.554
+          ],
+          [
+            127.374,
+            11.609
+          ],
+          [
+            129.815,
+            12.59
+          ],
+          [
+            132.171,
+            13.503
+          ],
+          [
+            134.444,
+            14.353
+          ],
+          [
+            136.632,
+            15.146
+          ],
+          [
+            138.738,
+            15.887
+          ],
+          [
+            140.761,
+            16.582
+          ],
+          [
+            142.702,
+            17.235
+          ],
+          [
+            144.561,
+            17.851
+          ],
+          [
+            146.338,
+            18.437
+          ],
+          [
+            148.033,
+            18.997
+          ],
+          [
+            149.646,
+            19.535
+          ],
+          [
+            151.177,
+            20.056
+          ],
+          [
+            152.627,
+            20.566
+          ],
+          [
+            153.994,
+            21.067
+          ],
+          [
+            155.28,
+            21.564
+          ],
+          [
+            156.485,
+            22.061
+          ],
+          [
+            157.61,
+            22.56
+          ],
+          [
+            158.656,
+            23.065
+          ],
+          [
+            159.628,
+            23.578
+          ],
+          [
+            160.528,
+            24.103
+          ],
+          [
+            161.362,
+            24.642
+          ],
+          [
+            162.137,
+            25.201
+          ],
+          [
+            162.86,
+            25.786
+          ],
+          [
+            163.539,
+            26.403
+          ],
+          [
+            164.183,
+            27.062
+          ],
+          [
+            164.8,
+            27.773
+          ],
+          [
+            165.394,
+            28.548
+          ],
+          [
+            165.972,
+            29.399
+          ],
+          [
+            166.535,
+            30.337
+          ],
+          [
+            167.085,
+            31.372
+          ],
+          [
+            167.622,
+            32.513
+          ],
+          [
+            168.146,
+            33.77
+          ],
+          [
+            168.656,
+            35.149
+          ],
+          [
+            169.179,
+            36.747
+          ],
+          [
+            168.229,
+            37.059
+          ],
+          [
+            167.711,
+            35.478
+          ],
+          [
+            167.215,
+            34.136
+          ],
+          [
+            166.708,
+            32.918
+          ],
+          [
+            166.191,
+            31.819
+          ],
+          [
+            165.664,
+            30.828
+          ],
+          [
+            165.129,
+            29.937
+          ],
+          [
+            164.583,
+            29.133
+          ],
+          [
+            164.025,
+            28.405
+          ],
+          [
+            163.447,
+            27.739
+          ],
+          [
+            162.845,
+            27.122
+          ],
+          [
+            162.209,
+            26.545
+          ],
+          [
+            161.529,
+            25.996
+          ],
+          [
+            160.797,
+            25.468
+          ],
+          [
+            160.004,
+            24.955
+          ],
+          [
+            159.142,
+            24.452
+          ],
+          [
+            158.206,
+            23.958
+          ],
+          [
+            157.19,
+            23.468
+          ],
+          [
+            156.092,
+            22.981
+          ],
+          [
+            154.909,
+            22.493
+          ],
+          [
+            153.642,
+            22.003
+          ],
+          [
+            152.289,
+            21.507
+          ],
+          [
+            150.85,
+            21.001
+          ],
+          [
+            149.327,
+            20.482
+          ],
+          [
+            147.718,
+            19.946
+          ],
+          [
+            146.024,
+            19.387
+          ],
+          [
+            144.247,
+            18.801
+          ],
+          [
+            142.385,
+            18.183
+          ],
+          [
+            140.439,
+            17.529
+          ],
+          [
+            138.409,
+            16.832
+          ],
+          [
+            136.296,
+            16.088
+          ],
+          [
+            134.098,
+            15.291
+          ],
+          [
+            131.815,
+            14.437
+          ],
+          [
+            129.448,
+            13.52
+          ],
+          [
+            126.995,
+            12.534
+          ],
+          [
+            124.456,
+            11.475
+          ],
+          [
+            121.875,
+            10.355
+          ]
+        ],
+        "fill": "#E0E4E3",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#E4E8E5",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.69999999999999C24 79.3 36 84.6 44.5 83.69999999999999Q48 83.8 49.2 75.6L52 106H5Z",
+        "fill": "#EFF1EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#E4E8E5",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.69999999999999C176 79.3 164 84.6 155.5 83.69999999999999Q152 83.8 150.8 75.6L148 106H195Z",
+        "fill": "#EFF1EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

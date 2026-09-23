@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,10 +96,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_ff846446deb90c0a9502-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ff846446deb90c0a9502-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -121,15 +119,22 @@
       "Yellow"
     ],
     "values": {
-      "body": "#292728",
-      "leftSleeve": "#292728",
-      "rightSleeve": "#292728",
-      "collar": "#ECEBE6",
-      "leftCuff": "#E7E6E1",
-      "rightCuff": "#E7E6E1"
+      "body": "#252426",
+      "leftSleeve": "#252426",
+      "rightSleeve": "#252426",
+      "collar": "#E7E8E3",
+      "leftCuff": "#E7E8E3",
+      "rightCuff": "#E7E8E3"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal torso with separately traced unequal diagonal lightning fields, corrected discontinuous sawtooth edges and plain black sleeves. White cuff stripes and black/white color on the sewn neckline; no polo flaps or placket.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_ff846446deb90c0a9502-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_423a55fa32ff41638d97.json",
     "source_kit_id": "485374"
@@ -139,6 +144,16 @@
       "date": "2026-09-23",
       "batch": "germany-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-germany-next-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

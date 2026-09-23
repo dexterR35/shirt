@@ -4,7 +4,7 @@ The user designated https://www.footballkitarchive.com/ as the source of truth o
 
 ## Current records
 
-All 735 teams have been searched in 184 saved batches. Exact-name parsing identifies candidates for 317 teams. Current app coverage is 183 ready, 32 draft and 1,255 researching variants. The new workbook prioritizes 138 existing teams and requires **exact 2026/27 archive evidence**: 165 / 276 mandatory variants ready, 249 / 276 references. See [mandatory coverage and gaps](MANDATORY_TEAMS_2026-27.md). Country/team remain the only navigation axes.
+All 735 teams have been searched in 184 saved batches. Exact-name parsing identifies candidates for 317 teams. Current app coverage is 225 ready, 50 draft and 1,195 researching variants. The new workbook prioritizes 138 existing teams and requires **exact 2026/27 archive evidence**: 207 / 276 mandatory variants ready, 249 / 276 references. See [mandatory coverage and gaps](MANDATORY_TEAMS_2026-27.md). Country/team remain the only navigation axes.
 
 `data/research/footballkitarchive/progress.json` contains actual counts. `worklist.json` includes every original task ID, team, association, candidate season, search checkpoint, candidate links and metadata status. Searches do not verify kit identity or artwork. A team without an exact search match still requires browser/source resolution; it is not declared absent from the archive.
 
@@ -12,7 +12,7 @@ Eleven browser captures cover 317 independent Home/Away pages for 160 canonical 
 
 Equipment facts are persisted in `data/teams/<team_id>.json`, separately for Home/Away, then materialized into the local browser catalog. Extended table fields include sponsor, competitions and release date, with capture provenance. Missing values remain null. `catalog:build` performs no network fetch; the app reads local JSON and only opens an archive page if the user explicitly follows its citation link.
 
-The first twelve archive adaptations and the preceding 138-variant continuation remain preserved. The latest update adds 18 ready Greek variants, two Greek drafts and a new independent 2026/27 archive binding for Brentford Home. There are 169 current archive-reviewed adaptations; fourteen other current ready variants retain earlier official artwork references. Existing reviewed revisions are immutable.
+The latest drawing continuation adds 29 ready variants after comparing all 71 remaining source-backed Tier 1 drawings with their saved images. Forty-two remain drafts; their specific gaps are saved locally. There are 211 current archive-reviewed adaptations; fourteen other current ready variants retain earlier official artwork references. Earlier Greek variants and Brentford's independent 2026/27 binding remain preserved. Existing reviewed revisions are immutable. See [all 71 review outcomes](TIER1_71_REVIEW_2026-09-23.md).
 
 ## Reproducible commands
 
@@ -35,4 +35,4 @@ Use the worklist's observed source candidates and previous capture checkpoints, 
 
 Color names are source facts; HEX values remain photo estimates. Do not infer an Away kit by swapping Home colors. Do not turn a Graphic design into a generic preset. Retain the original PNG fabric, transparency and sewn round collar. Source emblems, manufacturer symbols, sponsors and lettering are omitted. Downloads remain deferred.
 
-Review artifacts are in `artifacts/footballkitarchive`: per-country source sheets, per-batch source/render comparisons, individual PNG adaptations and browser proofs. `fka-source-sheets.mjs <country> [capture-name]` generates source sheets; `fka-batch-review.mjs <batch-name>` renders a saved batch. The country drawing scripts and `fka-save-profiles.mjs` preserve immutable reviewed revisions. All 25 Node tests and 10 Edge tests pass, including all 264 source hashes/identities and real independent FCSB Home/Away Apply with draft rejection.
+Review artifacts are in `artifacts/footballkitarchive`: per-country source sheets, per-batch source/render comparisons, individual PNG adaptations and browser proofs. `fka-source-sheets.mjs <country> [capture-name]` generates source sheets; `fka-batch-review.mjs <batch-name>` renders a saved batch. The country drawing scripts and `fka-save-profiles.mjs` preserve immutable reviewed revisions. All 29 Node tests and 13 Edge tests pass, covering all 317 source hashes/identities, independent Home/Away evidence, strict mandatory seasons, local equipment facts and draft rejection. The final production build passes.

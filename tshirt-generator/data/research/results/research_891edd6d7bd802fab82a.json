@@ -4,8 +4,8 @@
   "team_name": "Lorient",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,53 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "The golden angular motifs still differ in outline and stagger from the source; replace the self-crossing bow-tie study with the observed shapes."
+  ],
+  "kit_revision_path": "data/kits/team_12d7a3c2f1b225b34acb-home-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-lorient-2026-27-home-kit-496991/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/kZBp3kN0efZUyUf/fc-lorient-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_12d7a3c2f1b225b34acb-home-496991.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F2531F",
+      "leftSleeve": "#F2531F",
+      "rightSleeve": "#F2531F",
+      "collar": "#F0EFEB",
+      "leftCuff": "#F1EFE9",
+      "rightCuff": "#F1EFE9"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_891edd6d7bd802fab82a.json",
+    "source_kit_id": "496991"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

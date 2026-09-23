@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad93f6c09b5a8960a02f",
+  "team_name": "Toulouse",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-71-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Very pale pink shirt with fine pink vertical pinlines and sweeping purple/magenta printed passages rising from the lower sides.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad93f6c09b5a8960a02f-away-508724.jpg",
+      "page_url": "https://www.footballkitarchive.com/toulouse-fc-2026-27-away-kit-508724/",
+      "sha256": "f0d924f65982cb6a7d7bee1c72e6c4dfa1e6bfb3414d1b450ffd1f38d6f46f59"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1E7E9",
+      "leftSleeve": "#F1E7E9",
+      "rightSleeve": "#F1E7E9",
+      "collar": "#EEE0E2",
+      "leftCuff": "#EBDFE3",
+      "rightCuff": "#EBDFE3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EEE0E2",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1E7E9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 65,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 134,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M47 109Q92 134 106 200H94Q82 143 47 127Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#C2A5C7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      },
+      {
+        "type": "path",
+        "d": "M47 124Q79 148 93 200H75Q67 159 47 146Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#8E58A4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      },
+      {
+        "type": "path",
+        "d": "M47 149Q67 166 75 200H57Q53 182 47 171Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#AC488C"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      },
+      {
+        "type": "path",
+        "d": "M153 77Q104 129 91 200H102Q115 139 153 100Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#CCB7D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      },
+      {
+        "type": "path",
+        "d": "M153 101Q117 150 109 200H128Q131 158 153 131Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#9258A2"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      },
+      {
+        "type": "path",
+        "d": "M153 132Q135 169 135 200H149Q143 176 153 159Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EBC0D5"
+            },
+            {
+              "offset": 1,
+              "color": "#AA448C"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.82
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -5,7 +5,7 @@
   "country_name": "Spain",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,10 +96,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_e7bcd589b2e24bfac258-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e7bcd589b2e24bfac258-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -121,15 +119,22 @@
       "Blue"
     ],
     "values": {
-      "body": "#F4F0E9",
-      "leftSleeve": "#F4F0E9",
-      "rightSleeve": "#F4F0E9",
-      "collar": "#112D61",
-      "leftCuff": "#142B60",
-      "rightCuff": "#142B60"
+      "body": "#F2EEE6",
+      "leftSleeve": "#F2EEE6",
+      "rightSleeve": "#F2EEE6",
+      "collar": "#172F62",
+      "leftCuff": "#162D60",
+      "rightCuff": "#162D60"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/ivory columns continuing on sleeves, narrow red border pinlines and fine elongated fork motifs within red stripes. Source stripe/motif spacing revised; navy collar and cuffs remain on the PNG seams.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_e7bcd589b2e24bfac258-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_51e49e9f5314b5e55b2f.json",
     "source_kit_id": "490215"
@@ -139,6 +144,11 @@
       "date": "2026-09-23",
       "batch": "spain-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

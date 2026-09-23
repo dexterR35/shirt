@@ -4,8 +4,8 @@
   "team_name": "Kifisia",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,59 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7c5069f5baa0d33fd3d0-away-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kifisia-fc-2026-27-away-kit-515391/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/05/yiySeD3PADhxlSe/kifisia-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7c5069f5baa0d33fd3d0-away-515391.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Gold"
+    ],
+    "values": {
+      "body": "#EFF0ED",
+      "leftSleeve": "#EFF0ED",
+      "rightSleeve": "#EFF0ED",
+      "collar": "#CBB562",
+      "leftCuff": "#25394F",
+      "rightCuff": "#25394F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Fine branching mineral contours from the actual upper-chest image replace the sparse hand-drawn vein skeleton. The gray field fades into plain white, with navy/gold seam trim.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_7c5069f5baa0d33fd3d0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4a24fea643a1b9b46eb1.json",
+    "source_kit_id": "515391"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

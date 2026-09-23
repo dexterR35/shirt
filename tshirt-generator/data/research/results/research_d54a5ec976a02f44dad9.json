@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Official blue/yellow/red model view saved. Hands obscure part of the torso; acquire complete front and trace the tonal graphic.",
   "seed_references": [
     {
@@ -96,9 +96,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Refine the ribbed triangle positions and the red/gold collar band widths."
-  ],
+  "remaining": [],
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -120,9 +118,19 @@
       "date": "2026-09-23",
       "batch": "england-next-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ],
-  "kit_revision_path": "data/kits/team_6c3ac1a8babfe2f2338b-away-r001.json",
+  "kit_revision_path": "data/kits/team_6c3ac1a8babfe2f2338b-away-r003.json",
   "color_evidence": {
     "basis": "Estimated from the independently saved archive front image; not official HEX.",
     "official_hex": false,
@@ -132,15 +140,22 @@
       "Red"
     ],
     "values": {
-      "body": "#152C4C",
-      "leftSleeve": "#152C4C",
-      "rightSleeve": "#152C4C",
-      "collar": "#E4C942",
-      "leftCuff": "#D4B835",
-      "rightCuff": "#D4B835"
+      "body": "#132942",
+      "leftSleeve": "#132942",
+      "rightSleeve": "#132942",
+      "collar": "#E6C93D",
+      "leftCuff": "#D8B93D",
+      "rightCuff": "#D8B93D"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Connected navy/blue chevrons and ribbed triangular fields replace disconnected generic triangles. Gold shoulder tapes and red/gold trims remain on the original PNG seams.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_6c3ac1a8babfe2f2338b-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_d54a5ec976a02f44dad9.json",
     "source_kit_id": "441204"

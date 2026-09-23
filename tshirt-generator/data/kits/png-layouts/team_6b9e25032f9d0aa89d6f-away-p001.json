@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6b9e25032f9d0aa89d6f",
+  "team_name": "Monaco",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-71-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Claret body, sleeves and original collar, with thin off-white and muted-gold cuff edges. The tonal all-over pattern consists of repeated intertwined A/S/M club initials; all lettering and club monograms are intentionally omitted, along with the chest branding.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6b9e25032f9d0aa89d6f-away-495691.jpg",
+      "page_url": "https://www.footballkitarchive.com/as-monaco-2026-27-away-kit-495691/",
+      "sha256": "422eca8dd0f6451674e4bce334533758d2479c94c1ac049d05bc07fee6916082"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#753941",
+      "leftSleeve": "#753941",
+      "rightSleeve": "#753941",
+      "collar": "#70353E",
+      "leftCuff": "#753941",
+      "rightCuff": "#753941"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#70353E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#753941",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.39999999999999C24 77 36 82.3 44.5 81.39999999999999Q48 81.5 49.2 73.3L52 106H5Z",
+        "fill": "#753941",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#E8E2D7",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#BAA66C",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.39999999999999C176 77 164 82.3 155.5 81.39999999999999Q152 81.5 150.8 73.3L148 106H195Z",
+        "fill": "#753941",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#E8E2D7",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#BAA66C",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

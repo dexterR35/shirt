@@ -4,8 +4,8 @@
   "team_name": "PAOK",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2a3301a0b00eb0483c7b-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/paok-fc-2026-27-away-kit-501590/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/G1EupDIOX04nroV/paok-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2a3301a0b00eb0483c7b-away-501590.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#EEF0F0",
+      "leftSleeve": "#EEF0F0",
+      "rightSleeve": "#EEF0F0",
+      "collar": "#222625",
+      "leftCuff": "#242724",
+      "rightCuff": "#242724"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with very pale triangular facets between paired gray vertical pinlines, narrow dark raglan piping and black/white original collar and cuff bands.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_2a3301a0b00eb0483c7b-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7217d3a44baeabe7802f.json",
+    "source_kit_id": "501590"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

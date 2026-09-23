@@ -4,8 +4,8 @@
   "team_name": "Atalanta",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d2bb9c0482103af91c4e-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atalanta-bc-2026-27-away-kit-498248/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/Lae9ZYZk7h5I2G8/atalanta-bc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d2bb9c0482103af91c4e-away-498248.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F0F1EF",
+      "leftSleeve": "#F0F1EF",
+      "rightSleeve": "#F0F1EF",
+      "collar": "#F0F1EF",
+      "leftCuff": "#F0F1EF",
+      "rightCuff": "#F0F1EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with an asymmetric interlocking navy/blue ribbon across the upper chest and sleeves, broken by white square cutouts. Each visible ribbon segment is mapped separately; the lower body, collar and cuffs remain white.",
+    "render_path": "artifacts/footballkitarchive/mandatory-italy-next-2026-09-23/team_d2bb9c0482103af91c4e-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2f02b779b1f420b7beae.json",
+    "source_kit_id": "498248"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-italy-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

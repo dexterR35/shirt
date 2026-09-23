@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_97c5a80b499514a30748",
+  "team_name": "SC Paderborn",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier1-71-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-paderborn-2026-27-home-kit-490967/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/guHpOsIlzXHRWlF/sc-paderborn-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_97c5a80b499514a30748-home-490967.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray",
+      "Blue"
+    ],
+    "values": {
+      "body": "#151718",
+      "leftSleeve": "#151718",
+      "rightSleeve": "#151718",
+      "collar": "#2978B5",
+      "leftCuff": "#297BB9",
+      "rightCuff": "#297BB9"
+    }
+  },
+  "observations": "Black shirt with blue collar color, thin blue raglan piping and blue sleeve edging. The tonal repeating field is made from club shields, club initials and year numerals; those emblems/lettering are intentionally omitted along with the chest and shoulder branding.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with blue collar color, thin blue raglan piping and blue sleeve edging. The tonal repeating field is made from club shields, club initials and year numerals; those emblems/lettering are intentionally omitted along with the chest and shoulder branding.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_97c5a80b499514a30748-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#151718",
+      "leftSleeve": "#151718",
+      "rightSleeve": "#151718",
+      "collar": "#2978B5",
+      "leftCuff": "#297BB9",
+      "rightCuff": "#297BB9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2978B5",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.879 2.909L77 2Q100 7 123 2L125.121 2.909C128.515 26.424 71.485 26.424 74.879 2.909Z",
+          "fill": "#171C22",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#151718",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M76.074 9.175L57.074 17.175L56.926 16.825L75.926 8.825ZM57.058 17.181L35.058 24.181L34.942 23.819L56.942 16.819Z",
+        "fill": "#2875B1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.074 8.825L143.074 16.825L142.926 17.175L123.926 9.175ZM143.058 16.819L165.058 23.819L164.942 24.181L142.942 17.181Z",
+        "fill": "#2875B1",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#297BB9",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#297BB9",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

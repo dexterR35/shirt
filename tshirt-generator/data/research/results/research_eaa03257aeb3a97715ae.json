@@ -4,8 +4,8 @@
   "team_name": "Parma",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,58 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ebc7656eccd129aca680-away-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/parma-calcio-2026-27-away-kit-496571/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/mMszkzuIavH50Ev/parma-calcio-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ebc7656eccd129aca680-away-496571.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F7D641",
+      "leftSleeve": "#F7D641",
+      "rightSleeve": "#F7D641",
+      "collar": "#103E79",
+      "leftCuff": "#103E79",
+      "rightCuff": "#103E79"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow shirt with three broad blue torso hoops, navy collar/cuffs and small square tiles following concentric arcs. The earlier straight/wavy tile grid is replaced by curved radial rows matching the source mosaic structure.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_ebc7656eccd129aca680-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_eaa03257aeb3a97715ae.json",
+    "source_kit_id": "496571"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-italy-next-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

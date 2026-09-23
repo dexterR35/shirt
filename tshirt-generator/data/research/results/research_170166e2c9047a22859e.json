@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Refine the stepped yellow/black collar tape instead of replacing it with plain bands."
-  ],
-  "kit_revision_path": "data/kits/team_55160df40e5fda36d0ea-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_55160df40e5fda36d0ea-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -95,12 +93,19 @@
       "body": "#191A1B",
       "leftSleeve": "#191A1B",
       "rightSleeve": "#191A1B",
-      "collar": "#191A1B",
-      "leftCuff": "#DBC731",
-      "rightCuff": "#DBC731"
+      "collar": "#171A19",
+      "leftCuff": "#DCC735",
+      "rightCuff": "#DCC735"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black pinstriped field and yellow piping retained. Parallel stepped black ornament now follows the actual PNG cuff Bézier and collar ring, so the detail stays inside the existing yellow trim.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_55160df40e5fda36d0ea-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_170166e2c9047a22859e.json",
     "source_kit_id": "514557"
@@ -110,6 +115,16 @@
       "date": "2026-09-23",
       "batch": "england-next-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

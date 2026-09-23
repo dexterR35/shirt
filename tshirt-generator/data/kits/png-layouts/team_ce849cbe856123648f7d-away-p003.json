@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ce849cbe856123648f7d",
+  "team_name": "Milan",
+  "variant": "away",
+  "source_revision": "r003",
+  "layout_revision": "p003",
+  "research_batch": "tier1-42-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with additional overlapping pale feather lobes on the upper chest and lower front, soft gray print gradients and red/black seam trim.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ce849cbe856123648f7d-away-444078.jpg",
+      "page_url": "https://www.footballkitarchive.com/ac-milan-2026-27-away-kit-444078/",
+      "sha256": "6df32117f2ab2f68dcf91268d10295e863fa2d756722a3d94068ddc6ebb322fa"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFF0EF",
+      "leftSleeve": "#EFF0EF",
+      "rightSleeve": "#EFF0EF",
+      "collar": "#CC1731",
+      "leftCuff": "#CC1731",
+      "rightCuff": "#CC1731"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CC1731",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.313 4.438L77 2Q100 7 123 2L128.688 4.438C131.063 30.5 68.938 30.5 71.313 4.438Z",
+          "fill": "#202426",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.688 2.563L77 2Q100 7 123 2L124.313 2.563C127.938 25.5 72.063 25.5 75.688 2.563Z",
+          "fill": "#CC1731",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFF0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M23 20Q55 35 78 2Q70 36 43 43Q31 46 21 43Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M30 47Q69 39 95 3Q86 43 56 53Q40 61 28 58Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M39 66Q75 54 104 21Q98 63 65 71Q48 74 39 70Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M46 97Q81 96 106 82Q129 96 160 86Q157 101 138 103Q115 108 106 94Q93 111 73 109Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M44 126Q65 112 88 110Q72 135 45 141Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M57 140Q91 144 109 128Q126 135 155 125Q146 146 112 139Q94 154 72 150Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M93 151Q120 151 128 133Q135 146 156 148L158 156Q143 158 130 146Q124 161 103 165Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M45 166Q58 175 78 163Q95 180 133 167Q115 190 82 176Q70 191 47 178Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M110 172Q133 167 157 166L157 182Q138 189 119 180Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M46 186Q62 200 85 184Q99 197 115 191Q109 206 84 195L46 202Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M151 28Q176 30 185 37L185 43Q169 39 153 37Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M150 49Q164 57 188 50L190 58Q164 64 152 59Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M14 63Q28 76 44 67L47 73Q31 81 11 73Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 30,
+          "x2": 160,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EEF0EF"
+            },
+            {
+              "offset": 1,
+              "color": "#CAD1D4"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M48 85Q66 94 89 72Q82 95 67 98Q58 98 48 92Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 180,
+          "y2": 210,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F0F1F0"
+            },
+            {
+              "offset": 1,
+              "color": "#CBD1D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "path",
+        "d": "M80 119Q108 111 134 110Q125 120 99 127Q92 129 80 119Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 180,
+          "y2": 210,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F0F1F0"
+            },
+            {
+              "offset": 1,
+              "color": "#CBD1D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "path",
+        "d": "M105 141Q129 139 150 136L150 143Q129 153 117 145Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 180,
+          "y2": 210,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F0F1F0"
+            },
+            {
+              "offset": 1,
+              "color": "#CBD1D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "path",
+        "d": "M58 159Q74 155 86 145Q75 168 58 168L48 161Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 180,
+          "y2": 210,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F0F1F0"
+            },
+            {
+              "offset": 1,
+              "color": "#CBD1D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "path",
+        "d": "M81 179Q105 195 132 180Q119 195 100 195Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 180,
+          "y2": 210,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F0F1F0"
+            },
+            {
+              "offset": 1,
+              "color": "#CBD1D4"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "path",
+        "d": "M49 37Q73 44 89 21Q83 48 58 58L49 52Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 140,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F1F2F1"
+            },
+            {
+              "offset": 1,
+              "color": "#CDD4D7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M94 40Q122 41 140 20Q127 51 105 61Q101 55 94 40Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 140,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F1F2F1"
+            },
+            {
+              "offset": 1,
+              "color": "#CDD4D7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M48 117Q66 121 95 104Q77 128 52 137Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 140,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F1F2F1"
+            },
+            {
+              "offset": 1,
+              "color": "#CDD4D7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M77 149Q106 154 143 124Q127 154 107 163Q88 166 77 149Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 140,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F1F2F1"
+            },
+            {
+              "offset": 1,
+              "color": "#CDD4D7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.55
+      },
+      {
+        "type": "path",
+        "d": "M101 167Q134 178 152 166L152 176Q127 190 110 178Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 140,
+          "y2": 195,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F1F2F1"
+            },
+            {
+              "offset": 1,
+              "color": "#CDD4D7"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.55
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.3C24 76.9 36 82.2 44.5 81.3Q48 81.4 49.2 73.2L52 106H5Z",
+        "fill": "#CC1731",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.3C24 77.9 36 83.2 44.5 82.3Q48 82.4 49.2 74.2L52 106H5Z",
+        "fill": "#202426",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.85C24 80.45 36 85.75 44.5 84.85Q48 84.95 49.2 76.75L52 106H5Z",
+        "fill": "#CC1731",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.3C176 76.9 164 82.2 155.5 81.3Q152 81.4 150.8 73.2L148 106H195Z",
+        "fill": "#CC1731",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.3C176 77.9 164 83.2 155.5 82.3Q152 82.4 150.8 74.2L148 106H195Z",
+        "fill": "#202426",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.85C176 80.45 164 85.75 155.5 84.85Q152 84.95 150.8 76.75L148 106H195Z",
+        "fill": "#CC1731",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled.",
   "seed_references": [
     {
@@ -96,42 +96,44 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Trace connected gaslamp jacquard and density from saved flat front",
-    "Review revised rendering"
-  ],
+  "remaining": [],
   "references": [
     {
-      "publisher": "adidas official manufacturer store",
-      "page_url": "https://www.adidas.co.uk/aston-villa-26-27-away-authentic-jersey/JZ4728.html",
-      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/019103a0123b44c0b187d562c0a39342_9366/Aston_Villa_26-27_Away_Authentic_Jersey_Black_JZ4728_01_laydown.jpg",
-      "local_path": "data/research/references/villa-away-front-adidas.jpg",
-      "checked_at": "2026-09-22T21:28:08.660Z",
-      "source_type": "official",
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aston-villa-2026-27-away-kit-441199/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/23/zSwVqlWpyEWp1Ek/aston-villa-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_19b5d8f45d2237763967-away-441199.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
       "variant": "away",
       "kit_season": "2026/27"
     }
   ],
-  "kit_revision_path": "data/kits/team_19b5d8f45d2237763967-away-r001.json",
+  "kit_revision_path": "data/kits/team_19b5d8f45d2237763967-away-r003.json",
   "color_evidence": {
-    "basis": "Estimated visually from the saved official front photograph; not published official HEX or textile color specifications.",
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
     "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold",
+      "Claret"
+    ],
     "values": {
-      "body": "#242427",
-      "leftSleeve": "#242427",
-      "rightSleeve": "#242427",
-      "collar": "#E9C779",
-      "leftCuff": "#AED0E6",
-      "rightCuff": "#AED0E6"
+      "body": "#292B2D",
+      "leftSleeve": "#292B2D",
+      "rightSleeve": "#292B2D",
+      "collar": "#D7BD6C",
+      "leftCuff": "#D4B76C",
+      "rightCuff": "#D4B76C"
     }
   },
   "visual_review": {
     "reviewed_by": "Codex",
-    "reviewed_at": "2026-09-22T21:28:35.787Z",
-    "outcome": "needs-refinement",
-    "notes": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled. Original smooth reference-front-2 outline and interpolated original lighting retained. Colors and graphic placement are photo estimates, not official HEX values or pixel-identical reproduction.",
-    "render_path": "artifacts/continuation-2026-09-23-b/villa-away.png",
-    "human_approved": false
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal field with fine hatched diamonds and broad zigzag rows, traced from the independently saved Away print. Gold/claret/pale-blue trim retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_19b5d8f45d2237763967-away.png"
   },
   "research_log": [
     {
@@ -141,6 +143,20 @@
     {
       "date": "2026-09-22T21:28:35.791Z",
       "action": "Draft only. Gold/claret/blue wrap neckline and cuff bands are established. Current isolated teardrops do not yet reproduce the reference linked gaslamp/diamond texture, so download remains disabled."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_deb7be59fc1c9448a2aa.json",
+    "source_kit_id": "441199"
+  }
 }

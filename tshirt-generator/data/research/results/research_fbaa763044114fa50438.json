@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,10 +96,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Trace the observed irregular triangle/hatching tile boundaries; current measured draft is too regular."
-  ],
-  "kit_revision_path": "data/kits/team_97d2888e1463055beeb9-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_97d2888e1463055beeb9-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -120,15 +118,22 @@
       "White"
     ],
     "values": {
-      "body": "#9C9CCB",
-      "leftSleeve": "#9C9CCB",
-      "rightSleeve": "#9C9CCB",
-      "collar": "#514276",
-      "leftCuff": "#9C9CCB",
-      "rightCuff": "#9C9CCB"
+      "body": "#AAAADE",
+      "leftSleeve": "#AAAADE",
+      "rightSleeve": "#AAAADE",
+      "collar": "#524382",
+      "leftCuff": "#AAAADE",
+      "rightCuff": "#AAAADE"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Lavender geometric print with continuous diagonal hatch, angular gaps and solid purple cores; contours follow a clean lower-front reference fragment.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_97d2888e1463055beeb9-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_fbaa763044114fa50438.json",
     "source_kit_id": "501048"
@@ -138,6 +143,16 @@
       "date": "2026-09-23",
       "batch": "england-next-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

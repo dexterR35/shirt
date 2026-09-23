@@ -4,8 +4,8 @@
   "team_name": "Getafe",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_adf617a728ec5308ca0f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/getafe-cf-2026-27-away-kit-489558/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/23/j3k9n0oxUbktGGR/getafe-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_adf617a728ec5308ca0f-away-489558.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#752334",
+      "leftSleeve": "#752334",
+      "rightSleeve": "#752334",
+      "collar": "#752334",
+      "leftCuff": "#ECECEF",
+      "rightCuff": "#ECECEF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret independent reference with fine skewed triangular tessellation and subtle oblique tonal bands across front/sleeves. White cuff edges; collar colors mapped onto the existing round neck.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_adf617a728ec5308ca0f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9f1cde5c61c6e364fa9e.json",
+    "source_kit_id": "489558"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

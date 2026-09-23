@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0d16520a127c19b08568",
+  "team_name": "Le Havre",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r002",
+  "research_batch": "tier1-71-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/le-havre-ac-2026-27-home-kit-496333/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/kceetegMXUoKQhu/le-havre-ac-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0d16520a127c19b08568-home-496333.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Sky blue",
+      "Gold"
+    ],
+    "values": {
+      "body": "#243A54",
+      "leftSleeve": "#243A54",
+      "rightSleeve": "#243A54",
+      "collar": "#172D44",
+      "leftCuff": "#223A56",
+      "rightCuff": "#223A56"
+    }
+  },
+  "observations": "Opposing sky-blue/navy vertical gradients divided at the center, fine tonal vertical ribs, plain navy raglan shoulders and sleeves, navy collar with a fine muted-gold inner edge. Source polo shape is adapted onto the original round ring.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Opposing sky-blue/navy vertical gradients divided at the center, fine tonal vertical ribs, plain navy raglan shoulders and sleeves, navy collar with a fine muted-gold inner edge. Source polo shape is adapted onto the original round ring.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_0d16520a127c19b08568-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#243A54",
+      "leftSleeve": "#243A54",
+      "rightSleeve": "#243A54",
+      "collar": "#172D44",
+      "leftCuff": "#223A56",
+      "rightCuff": "#223A56"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#172D44",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.276 2.31L77 2Q100 7 123 2L123.724 2.31C127.517 24.828 72.483 24.828 76.276 2.31Z",
+          "fill": "#AD9E60",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#243A54",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 0,
+        "width": 52,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 20,
+          "x2": 0,
+          "y2": 175,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#9ED9F0"
+            },
+            {
+              "offset": 1,
+              "color": "#142A46"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 53,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 25,
+          "x2": 0,
+          "y2": 175,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#1B304C"
+            },
+            {
+              "offset": 1,
+              "color": "#93D2EC"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 64,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 69,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 74,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 79,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 109,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 119,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 124,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 134,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 1.2,
+        "height": 200,
+        "fill": "#ABDDF0",
+        "clip": "body",
+        "opacity": 0.16
+      },
+      {
+        "type": "path",
+        "d": "M25 20L75 4 70 22 50 42 38 70 17 64Z",
+        "fill": "#253B54",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M175 20L125 4 130 22 150 42 162 70 183 64Z",
+        "fill": "#253B54",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

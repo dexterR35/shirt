@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b1839e8e6b227b336e5e",
+  "team_name": "Mainz 05",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "mandatory-germany-next-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fsv-mainz-05-2026-27-home-kit-491130/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/qGCXbj34y2HL4Gl/1-fsv-mainz-05-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b1839e8e6b227b336e5e-home-491130.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#E42222",
+      "leftSleeve": "#E42222",
+      "rightSleeve": "#E42222",
+      "collar": "#DD2523",
+      "leftCuff": "#F0EFEB",
+      "rightCuff": "#F0EFEB"
+    }
+  },
+  "observations": "Red shirt with a fine tonal diamond lattice and broad white sleeve ends. Repeated club initials, numbers and badge motifs inside the diamonds, plus manufacturer shoulder marks, are intentionally omitted as lettering/emblems.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with a fine tonal diamond lattice and broad white sleeve ends. Repeated club initials, numbers and badge motifs inside the diamonds, plus manufacturer shoulder marks, are intentionally omitted as lettering/emblems.",
+    "render_path": "artifacts/footballkitarchive/mandatory-germany-next-2026-09-23/team_b1839e8e6b227b336e5e-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E42222",
+      "leftSleeve": "#E42222",
+      "rightSleeve": "#E42222",
+      "collar": "#DD2523",
+      "leftCuff": "#F0EFEB",
+      "rightCuff": "#F0EFEB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DD2523",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E42222",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M48 5l6.5 14-6.5 14-6.5-14Z M48 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 33l6.5 14-6.5 14-6.5-14Z M48 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 61l6.5 14-6.5 14-6.5-14Z M48 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 89l6.5 14-6.5 14-6.5-14Z M48 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 117l6.5 14-6.5 14-6.5-14Z M48 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 145l6.5 14-6.5 14-6.5-14Z M48 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 173l6.5 14-6.5 14-6.5-14Z M48 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM48 201l6.5 14-6.5 14-6.5-14Z M48 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 5l6.5 14-6.5 14-6.5-14Z M61 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 33l6.5 14-6.5 14-6.5-14Z M61 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 61l6.5 14-6.5 14-6.5-14Z M61 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 89l6.5 14-6.5 14-6.5-14Z M61 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 117l6.5 14-6.5 14-6.5-14Z M61 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 145l6.5 14-6.5 14-6.5-14Z M61 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 173l6.5 14-6.5 14-6.5-14Z M61 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM61 201l6.5 14-6.5 14-6.5-14Z M61 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 5l6.5 14-6.5 14-6.5-14Z M74 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 33l6.5 14-6.5 14-6.5-14Z M74 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 61l6.5 14-6.5 14-6.5-14Z M74 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 89l6.5 14-6.5 14-6.5-14Z M74 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 117l6.5 14-6.5 14-6.5-14Z M74 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 145l6.5 14-6.5 14-6.5-14Z M74 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 173l6.5 14-6.5 14-6.5-14Z M74 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM74 201l6.5 14-6.5 14-6.5-14Z M74 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 5l6.5 14-6.5 14-6.5-14Z M87 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 33l6.5 14-6.5 14-6.5-14Z M87 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 61l6.5 14-6.5 14-6.5-14Z M87 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 89l6.5 14-6.5 14-6.5-14Z M87 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 117l6.5 14-6.5 14-6.5-14Z M87 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 145l6.5 14-6.5 14-6.5-14Z M87 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 173l6.5 14-6.5 14-6.5-14Z M87 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM87 201l6.5 14-6.5 14-6.5-14Z M87 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 5l6.5 14-6.5 14-6.5-14Z M100 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 33l6.5 14-6.5 14-6.5-14Z M100 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 61l6.5 14-6.5 14-6.5-14Z M100 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 89l6.5 14-6.5 14-6.5-14Z M100 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 117l6.5 14-6.5 14-6.5-14Z M100 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 145l6.5 14-6.5 14-6.5-14Z M100 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 173l6.5 14-6.5 14-6.5-14Z M100 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM100 201l6.5 14-6.5 14-6.5-14Z M100 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 5l6.5 14-6.5 14-6.5-14Z M113 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 33l6.5 14-6.5 14-6.5-14Z M113 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 61l6.5 14-6.5 14-6.5-14Z M113 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 89l6.5 14-6.5 14-6.5-14Z M113 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 117l6.5 14-6.5 14-6.5-14Z M113 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 145l6.5 14-6.5 14-6.5-14Z M113 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 173l6.5 14-6.5 14-6.5-14Z M113 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM113 201l6.5 14-6.5 14-6.5-14Z M113 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 5l6.5 14-6.5 14-6.5-14Z M126 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 33l6.5 14-6.5 14-6.5-14Z M126 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 61l6.5 14-6.5 14-6.5-14Z M126 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 89l6.5 14-6.5 14-6.5-14Z M126 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 117l6.5 14-6.5 14-6.5-14Z M126 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 145l6.5 14-6.5 14-6.5-14Z M126 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 173l6.5 14-6.5 14-6.5-14Z M126 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM126 201l6.5 14-6.5 14-6.5-14Z M126 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 5l6.5 14-6.5 14-6.5-14Z M139 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 33l6.5 14-6.5 14-6.5-14Z M139 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 61l6.5 14-6.5 14-6.5-14Z M139 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 89l6.5 14-6.5 14-6.5-14Z M139 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 117l6.5 14-6.5 14-6.5-14Z M139 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 145l6.5 14-6.5 14-6.5-14Z M139 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 173l6.5 14-6.5 14-6.5-14Z M139 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM139 201l6.5 14-6.5 14-6.5-14Z M139 201.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 5l6.5 14-6.5 14-6.5-14Z M152 5.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 33l6.5 14-6.5 14-6.5-14Z M152 33.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 61l6.5 14-6.5 14-6.5-14Z M152 61.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 89l6.5 14-6.5 14-6.5-14Z M152 89.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 117l6.5 14-6.5 14-6.5-14Z M152 117.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 145l6.5 14-6.5 14-6.5-14Z M152 145.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 173l6.5 14-6.5 14-6.5-14Z M152 173.8l-6.1 13.2 6.1 13.2 6.1-13.2ZM152 201l6.5 14-6.5 14-6.5-14Z M152 201.8l-6.1 13.2 6.1 13.2 6.1-13.2Z",
+        "fill": "#F45A49",
+        "clip": "body",
+        "opacity": 0.28
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#F0EFEB",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#F0EFEB",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Getafe",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_adf617a728ec5308ca0f-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/getafe-cf-2026-27-home-kit-489561/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/23/830Ji8aVIK0O2sn/getafe-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_adf617a728ec5308ca0f-home-489561.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#0755AB",
+      "leftSleeve": "#0755AB",
+      "rightSleeve": "#0755AB",
+      "collar": "#0755AB",
+      "leftCuff": "#233B4F",
+      "rightCuff": "#233B4F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue independent reference with fine skewed triangular tessellation and subtle oblique tonal bands across front/sleeves. Dark navy cuff edges; collar colors mapped onto the existing round neck.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_adf617a728ec5308ca0f-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_902d176e9ccd3691b539.json",
+    "source_kit_id": "489561"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

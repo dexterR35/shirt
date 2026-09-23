@@ -4,8 +4,8 @@
   "team_name": "Bayer Leverkusen",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -97,10 +97,53 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "The mineral shoulder/sleeve field needs multi-tone cell fills and a larger, continuous source-based layout; the current two-tone crop is incomplete."
+  ],
+  "kit_revision_path": "data/kits/team_e60eedf6f63f01185c31-away-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bayer-04-leverkusen-2026-27-away-kit-488940/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/8eOTMU2xcCO6b1K/bayer-04-leverkusen-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#CDDFE1",
+      "leftSleeve": "#6E9CB6",
+      "rightSleeve": "#6E9CB6",
+      "collar": "#536E7C",
+      "leftCuff": "#C7DBDA",
+      "rightCuff": "#C7DBDA"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0acf3e3d4b46a3ee2e14.json",
+    "source_kit_id": "488940"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Coventry City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,59 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_af1bc08f00a2a7be2e39-home-r002.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/coventry-city-2026-27-home-kit-490990/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/tjbu3ZMk2PHH9tL/coventry-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_af1bc08f00a2a7be2e39-home-490990.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#EFF0F0",
+      "leftSleeve": "#EFF0F0",
+      "rightSleeve": "#EFF0F0",
+      "collar": "#18283D",
+      "leftCuff": "#EFF0F0",
+      "rightCuff": "#EFF0F0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White/sky-blue columns with navy separator lines and dark blue photographic crowd texture traced from the central source column; this replaces the earlier invented floral description. Original navy ring retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_af1bc08f00a2a7be2e39-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7c625be9a0c93f5afa82.json",
+    "source_kit_id": "490990"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

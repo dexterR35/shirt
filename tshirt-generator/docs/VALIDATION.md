@@ -1,8 +1,34 @@
 # Validation — 23 September 2026
 
+## Latest: review of the remaining 42 Tier 1 variants
+
+`npm run data:verify`: **PASS**. All **33 Node tests** and **15 Edge browser tests** pass. Final `npm run build`: **PASS**, after both suites; Vite built 29 modules. Current coverage: **247 ready globally; 229 / 276 mandatory ready**. Mandatory outstanding work is 20 drafts plus 27 slots without exact-season evidence; global outstanding work is 28 drafts and 1,195 researching slots.
+
+All 42 source-backed variants have new revisions and eleven inspected source/render sheets: 22 passed and 20 remain drafts with individual gaps. Tests cover both historical 71-variant and current 42-variant decisions, preserved predecessor drafts, independent 2026/27 references, all 35 source-crop hashes, publication gates, original PNG bytes/alpha and every ready layout. A contour test verifies that holes and ink continuity survive splitting large vector paths into bands.
+
+The new Edge check applies Arsenal, Chelsea, Osasuna, Sassuolo, Monza and Kifisia Away from local JSON, verifies season and the independent source URL, and rejects Toulouse Away without changing the applied pixels or facts. All six screenshots were visually inspected. Existing draft checks now use Milan and Crystal Palace because Monza and Arsenal are ready. The first browser run exposed overly anchored test selectors (the accessible button name includes team initials); those selectors were corrected, and the complete 15-test rerun passed. No external HTTP request occurred during the new interaction flow.
+
+The 8000 × 5000 original PNG remains SHA-256 `4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042`. Existing reviewed SVG bytes are unchanged. `git diff --check` passes. See [the exact 42 outcomes and remaining differences](TIER1_42_REVIEW_2026-09-23.md).
+
+## Previous: 71 remaining source-backed Tier 1 variants
+
+`npm run data:verify`: **PASS**. All **30 Node tests** and **14 Edge browser tests** pass. Final `npm run build`: **PASS**, after both test suites. The catalog contains **225 ready globally; 207 / 276 mandatory ready**. Mandatory remaining work is 42 drafts and 27 slots without exact-season evidence. Global remaining work is 50 drafts and 1,195 researching slots.
+
+All 71 new revisions have inspected source/render comparisons in 18 sheets; 29 passed and 42 remain drafts with explicit per-variant tracing gaps. A new integration check covers every scoped variant, its original team identity, independent 2026/27 evidence, saved revision, review decision and published readiness. No draft receives a reviewed PNG binding. Existing renderer checks validate every saved configuration, all 225 ready PNG bindings, historical SVG bytes, original PNG hash and alpha preservation.
+
+The added Edge check applies Cagliari Home, Manchester City Away, Monaco Away and OFI Crete Away using local JSON, checks each independent source citation and season, then selects Arsenal Away and verifies that the draft cannot replace the applied artwork or facts. All four browser screenshots were inspected. No external HTTP requests occurred. Existing collection, responsive, collar, custom-color and failed-load checks remain passing. Vite built 29 modules successfully; `git diff --check` passes. See [all 71 review outcomes and remaining work](TIER1_71_REVIEW_2026-09-23.md).
+
+## Previous Tier 1 drawing continuation
+
+`npm run data:verify`: **PASS**. All **29 Node tests** and **13 Edge browser tests** pass. All 196 ready PNG layouts resolve and render; historical SVG bytes, full-resolution PNG hash and alpha preservation remain unchanged. All 20 new drawing revisions have inspected source/render comparison sheets. Thirteen are ready and seven remain drafts with concrete refinement notes.
+
+The added browser check applies Werder Bremen Away and Udinese Away, confirms independent 26-27 equipment facts and exact source citations, and rejects Monza Away's draft while preserving the applied Udinese preview/data. Both browser screenshots were inspected. No external HTTP requests occurred. An initial test failure came from selecting Monza's default Home slot; explicitly selecting Away fixed the test, and the complete 13-test rerun passed.
+
+Final `npm run build`: **PASS**, after tests. Vite built all 29 modules. Current manifest: **196 ready globally; 178 / 276 mandatory ready; 249 exact-season mandatory references**. The remaining mandatory slots are 25 drafts and 73 researching. `git diff --check` passes. Batch inventory and visual limits: [Tier 1 continuation](TIER1_CONTINUATION_2026-09-23.md).
+
 ## Mandatory team workbook and local equipment JSON
 
-Current checks: `data:verify`, **29 Node tests** and **12 Edge browser tests** pass. The 138 workbook rows map uniquely to canonical IDs; the workbook hash matches its preserved copy. All 735 local per-team JSON files match their deployed copies. Both mandatory variants remain in the 1,470-slot worklist and all 276 mandatory slots lead it. Missing metadata stays null; 2026 observations do not populate requested 2026/27 facts or become applicable kits. The mandatory drawing pipeline rejects source-season mismatches before writing artwork.
+Previous checkpoint: `data:verify`, **29 Node tests** and **12 Edge browser tests** pass. The 138 workbook rows map uniquely to canonical IDs; the workbook hash matches its preserved copy. All 735 local per-team JSON files match their deployed copies. Both mandatory variants remain in the 1,470-slot worklist and all 276 mandatory slots lead it. Missing metadata stays null; 2026 observations do not populate requested 2026/27 facts or become applicable kits. The mandatory drawing pipeline rejects source-season mismatches before writing artwork.
 
 Browser checks verify Manchester United Home/Away details against the saved local JSON, candidate/Apply separation, collection navigation, custom-color labeling and blank-shirt reset. The app makes zero external HTTP requests during these interactions. Removed promotional copy is absent. Elche Away retains the source's `Friendly` metadata without exclusion from team scope. Existing source links, collar paint, ten-item collection, PNG fidelity and responsive checks remain passing. All 183 ready layouts render; source/render comparison grids cover the 20 Greek drawings (18 ready, two draft) and Brentford's archive-season reconciliation.
 

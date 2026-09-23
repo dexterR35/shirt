@@ -5,7 +5,7 @@
   "country_name": "Spain",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_3c8b62d57863a4ddb0a8-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3c8b62d57863a4ddb0a8-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Black"
     ],
     "values": {
-      "body": "#EEEFEB",
-      "leftSleeve": "#171B1C",
-      "rightSleeve": "#171B1C",
-      "collar": "#D42328",
-      "leftCuff": "#CCAA40",
-      "rightCuff": "#CCAA40"
+      "body": "#F0F0E9",
+      "leftSleeve": "#1A1D1F",
+      "rightSleeve": "#1A1D1F",
+      "collar": "#D62327",
+      "leftCuff": "#D5B13C",
+      "rightCuff": "#D5B13C"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White/red/gold lightning sash with three large notches rather than repeated sawteeth, black sleeves, curved contrasting shoulder inserts and cuff/hem borders. The large tonal club crest is deliberately omitted.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_3c8b62d57863a4ddb0a8-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_d003692d4b473e4f1795.json",
     "source_kit_id": "505132"
@@ -111,6 +116,11 @@
       "date": "2026-09-23",
       "batch": "spain-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad93f6c09b5a8960a02f",
+  "team_name": "Toulouse",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier1-42-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Pale pink pinstriped shirt with corrected broad purple lower-left field and narrower right-side wave, using several pink/magenta/violet gradient transitions. Plain pale sleeves and base ring retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad93f6c09b5a8960a02f-away-508724.jpg",
+      "page_url": "https://www.footballkitarchive.com/toulouse-fc-2026-27-away-kit-508724/",
+      "sha256": "f0d924f65982cb6a7d7bee1c72e6c4dfa1e6bfb3414d1b450ffd1f38d6f46f59"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1E7E9",
+      "leftSleeve": "#F1E7E9",
+      "rightSleeve": "#F1E7E9",
+      "collar": "#EEE0E2",
+      "leftCuff": "#EBDFE3",
+      "rightCuff": "#EBDFE3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EEE0E2",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1E7E9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 65,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "rect",
+        "x": 134,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#DFB9C4",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M47 110C65 125 86 101 104 140C120 163 129 165 145 199H47Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 47,
+          "y1": 113,
+          "x2": 107,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F3B7D0"
+            },
+            {
+              "offset": 0.07,
+              "color": "#F96391"
+            },
+            {
+              "offset": 0.15,
+              "color": "#DB255E"
+            },
+            {
+              "offset": 0.23,
+              "color": "#A14380"
+            },
+            {
+              "offset": 0.38,
+              "color": "#612D78"
+            },
+            {
+              "offset": 0.56,
+              "color": "#4F296E"
+            },
+            {
+              "offset": 0.7,
+              "color": "#AD548F"
+            },
+            {
+              "offset": 0.8,
+              "color": "#F15388"
+            },
+            {
+              "offset": 0.9,
+              "color": "#714080"
+            },
+            {
+              "offset": 1,
+              "color": "#47235F"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154 89C128 93 139 128 123 150C112 171 147 176 153 199Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 150,
+          "y1": 93,
+          "x2": 125,
+          "y2": 180,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F3B7D0"
+            },
+            {
+              "offset": 0.07,
+              "color": "#F96391"
+            },
+            {
+              "offset": 0.15,
+              "color": "#DB255E"
+            },
+            {
+              "offset": 0.23,
+              "color": "#A14380"
+            },
+            {
+              "offset": 0.38,
+              "color": "#612D78"
+            },
+            {
+              "offset": 0.56,
+              "color": "#4F296E"
+            },
+            {
+              "offset": 0.7,
+              "color": "#AD548F"
+            },
+            {
+              "offset": 0.8,
+              "color": "#F15388"
+            },
+            {
+              "offset": 0.9,
+              "color": "#714080"
+            },
+            {
+              "offset": 1,
+              "color": "#47235F"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

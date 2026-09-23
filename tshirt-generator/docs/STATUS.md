@@ -1,16 +1,16 @@
 # Project status
 
-23 September 2026. Application implemented; full visual kit stock remains incomplete. Latest update: mandatory workbook teams and local equipment JSON.
+23 September 2026. Application implemented; full visual kit stock remains incomplete. Latest update: the 42 remaining source-backed Tier 1 variants received new revisions and visual reviews; 22 additional 2026/27 PNG adaptations are ready and 20 remain drafts.
 
 ## Mandatory workbook and equipment information
 
 All 138 rows in `teams_tier-1_by-tier (2).xlsx` map uniquely to existing canonical IDs across eight countries. The copied source workbook and SHA-256 audit are preserved separately; its color names/HEX values remain unverified context. All 735 teams stay available; mandatory teams lead app ordering and the resumable research worklist. No competition filter was added.
 
-The user clarified **strict 2026/2027 from Football Kit Archive**. Mandatory coverage is **165 ready / 276 slots**, **24 drafts**, **87 researching** and **249 independently saved exact-season references**. There are 111 unfinished mandatory layouts: 84 have references but need artwork/refinement, and 27 lack a matching reference. The 27 gaps are both Real Sociedad pages (404), Petrolul Away (not found), and 24 Finnish slots (archive labels observed kits 2026, not 2026/27). Calendar-year observations are retained separately, never relabeled or applied. No 2026 draft was published.
+The user clarified **strict 2026/2027 from Football Kit Archive**. Mandatory coverage is **229 ready / 276 slots**, **20 drafts**, **27 researching** and **249 independently saved exact-season references**. There are 47 unfinished mandatory layouts: 20 have references but need artwork/refinement, and 27 lack a matching reference. The 27 gaps are both Real Sociedad pages (404), Petrolul Away (not found), and 24 Finnish slots (archive labels observed kits 2026, not 2026/27). Calendar-year observations are retained separately, never relabeled or applied. No 2026 draft was published.
 
 `data/teams/<team_id>.json` now stores local Home/Away equipment facts for every canonical team. Each verified source entry includes season, design, color names, brand, sponsor, competitions, release date, source URL and checked date. Unresearched/missing values are null. The app's right panel replaces the original-master promotional text with applied-kit details. Data travels with the local applied revision, so candidate changes, failed loads and custom colors cannot silently change the facts. No live archive call occurs in the app. See [mandatory coverage](MANDATORY_TEAMS_2026-27.md).
 
-Eighteen Greek 2026/27 variants passed source/render comparison; Aris Home and OFI Crete Away remain drafts. Brentford Home has a new archive-backed r002/p002 carrying the actual 26-27 archive label, preserving r001's official 2026–2028 provenance and bytes. Global current coverage is **183 ready**, **32 drafts**, **1,255 researching**, **317 saved archive references** (293 exact 2026/27 plus 24 separate 2026 observations) and **169 archive-reviewed adaptations**. The earlier continuation below records the preceding checkpoint.
+The latest continuation compares all 42 remaining source-backed variants: 22 new revisions are ready and 20 remain drafts with concrete drawing gaps. Global coverage is **247 ready**, **28 drafts**, **1,195 researching**, **317 saved archive references** (293 exact 2026/27 plus 24 separate 2026 observations) and **233 archive-reviewed adaptations**. See [all 42 outcomes](TIER1_42_REVIEW_2026-09-23.md). Original PNG bytes, earlier reviewed revisions and local equipment facts are retained. Current revisions use manual geometry and audited source ink contours; they are adaptations to the common base, not pixel-identical copies of source garments. The earlier [71-variant review](TIER1_71_REVIEW_2026-09-23.md) records its historical checkpoint.
 
 ## Application
 

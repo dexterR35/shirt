@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "researching",
+  "status": "draft",
   "reason": "Official full-front reference saved and inspected. Irregular red mist/marbled graphic needs tracing; no generic substitute produced.",
   "seed_references": [
     {
@@ -69,21 +69,53 @@
     "visually_verified": false
   },
   "remaining": [
-    "Trace irregular tonal red marbling from official full-front photograph",
-    "Record estimated colors and vector configuration",
-    "Render and visually review"
+    "The blurred reference does not reliably separate broad upper camouflage from lighting; the current lower-fragment repeat is too sparse."
   ],
   "references": [
     {
-      "publisher": "Nottingham Forest official store",
-      "source_type": "official",
-      "page_url": "https://shop.nottinghamforest.co.uk/products/nffc-26-27-home-shirt",
-      "image_url": "https://cdn.shopify.com/s/files/1/0113/6839/8948/files/nffc-2627-home-shirt-nottingham-forest-fc-5502366.jpg?v=1785934830",
-      "local_path": "data/research/references/forest-home-2026-27-2.webp",
-      "checked_at": "2026-09-22T21:16:53.302Z",
-      "kit_season": "2026/27",
-      "variant": "home"
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/nottingham-forest-2026-27-home-kit-510152/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/IUmX60TBCB6VmfP/nottingham-forest-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_924c51422bf5bbeeee39-home-510152.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
     }
   ],
-  "updated_at": "2026-09-22T21:16:53.302Z"
+  "updated_at": "2026-09-22T21:16:53.302Z",
+  "kit_revision_path": "data/kits/team_924c51422bf5bbeeee39-home-r002.json",
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#C9252F",
+      "leftSleeve": "#C9252F",
+      "rightSleeve": "#C9252F",
+      "collar": "#D12B32",
+      "leftCuff": "#C9252F",
+      "rightCuff": "#C9252F"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a85af62a4bc89c7e159c.json",
+    "source_kit_id": "510152"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-42-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
+  ]
 }

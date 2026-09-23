@@ -313,3 +313,100 @@ test('mandatory calendar-year teams stay visible without substituting 2026 for 2
   await page.setViewportSize({width:390,height:844});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+
+test('new Tier 1 detailed layouts apply locally while unfinished revisions stay unavailable',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const canvas=page.locator('.shirt-image');
+  const card=page.getByRole('region',{name:'Applied kit details'});
+  for(const [team,country,source] of [
+    ['Werder Bremen','Germany','https://www.footballkitarchive.com/werder-bremen-2026-27-away-kit-494873/'],
+    ['Udinese','Italy','https://www.footballkitarchive.com/udinese-calcio-2026-27-away-kit-504723/'],
+  ]){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} ${country}`)}).click();
+    await page.getByRole('button',{name:'Away',exact:true}).click();
+    await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+    await expect(canvas).toHaveAttribute('aria-label',`${team} away shirt`);
+    await expect(canvas).toHaveAttribute('data-render-state','ready');
+    await expect(card).toContainText(team);
+    await expect(card).toContainText('26-27');
+    await expect(card.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href',source);
+    await page.screenshot({path:`artifacts/footballkitarchive/studio-tier1-${team.toLowerCase().replaceAll(' ','-')}.png`,fullPage:true});
+  }
+  // A newly researched draft must not replace either the artwork or its saved facts.
+  await page.getByLabel('Team',{exact:true}).fill('Milan');
+  await page.getByRole('button',{name:/Milan Italy/}).click();
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await expect(canvas).toHaveAttribute('aria-label','Udinese away shirt');
+  await expect(card).toContainText('Udinese');
+  expect(external).toEqual([]);
+});
+
+test('remaining-71 batch applies newly reviewed patterns and preserves the last kit when a draft is selected',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const canvas=page.locator('.shirt-image'),card=page.getByRole('region',{name:'Applied kit details'});
+  for(const [team,country,variant,source] of [
+    ['Cagliari','Italy','Home','https://www.footballkitarchive.com/cagliari-calcio-2026-27-home-kit-499635/'],
+    ['Manchester City','England','Away','https://www.footballkitarchive.com/manchester-city-2026-27-away-kit-486529/'],
+    ['Monaco','France','Away','https://www.footballkitarchive.com/as-monaco-2026-27-away-kit-495691/'],
+    ['OFI Crete','Greece','Away','https://www.footballkitarchive.com/ofi-crete-2026-27-away-kit-508199/'],
+  ]){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} ${country}`)}).click();
+    await page.getByRole('button',{name:variant,exact:true}).click();
+    await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+    await expect(canvas).toHaveAttribute('aria-label',`${team} ${variant.toLowerCase()} shirt`);
+    await expect(canvas).toHaveAttribute('data-render-state','ready');
+    await expect(card).toContainText('26-27');
+    await expect(card.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href',source);
+    await page.screenshot({path:`artifacts/footballkitarchive/tier1-71-2026-09-23/studio-${team.toLowerCase().replaceAll(' ','-')}.png`,fullPage:true});
+  }
+  const applied=await canvas.evaluate(c=>c.toDataURL());
+  await page.getByLabel('Team',{exact:true}).fill('Crystal Palace');
+  await page.getByRole('button',{name:/Crystal Palace England/}).click();
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await expect(canvas).toHaveAttribute('aria-label','OFI Crete away shirt');
+  await expect(card).toContainText('OFI Crete');
+  expect(await canvas.evaluate(c=>c.toDataURL())).toBe(applied);
+  expect(external).toEqual([]);
+});
+
+test('remaining-42 revisions render with local equipment facts and keep drafts unapplied',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const canvas=page.locator('.shirt-image'),card=page.getByRole('region',{name:'Applied kit details'});
+  for(const [team,country,source] of [
+    ['Arsenal','England','arsenal-fc-2026-27-away-kit-441204'],
+    ['Chelsea','England','chelsea-fc-2026-27-away-kit-514557'],
+    ['Osasuna','Spain','ca-osasuna-2026-27-away-kit-496421'],
+    ['Sassuolo','Italy','us-sassuolo-calcio-2026-27-away-kit-501416'],
+    ['Monza','Italy','ac-monza-2026-27-away-kit-519841'],
+    ['Kifisia','Greece','kifisia-fc-2026-27-away-kit-515391'],
+  ]){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} ${country}`)}).click();
+    await page.getByRole('button',{name:'Away',exact:true}).click();
+    await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+    await expect(canvas).toHaveAttribute('aria-label',`${team} away shirt`);
+    await expect(canvas).toHaveAttribute('data-render-state','ready');
+    await expect(card).toContainText('26-27');
+    await expect(card.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href',`https://www.footballkitarchive.com/${source}/`);
+    await page.screenshot({path:`artifacts/footballkitarchive/tier1-42-2026-09-23/studio-${team.toLowerCase()}.png`,fullPage:true});
+  }
+  const pixels=await canvas.evaluate(c=>c.toDataURL());
+  await page.getByLabel('Team',{exact:true}).fill('Toulouse');
+  await page.getByRole('button',{name:/Toulouse France/}).click();
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await expect(canvas).toHaveAttribute('aria-label','Kifisia away shirt');
+  await expect(card).toContainText('Kifisia');
+  expect(await canvas.evaluate(c=>c.toDataURL())).toBe(pixels);
+  expect(external).toEqual([]);
+});

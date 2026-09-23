@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-kits-2026-27-l150/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue columns now contain actual angular crowd/fragment contours from the independent Home photograph. White torso gaps, plain blue sleeves, white cuff bands and blue round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_d84f946a3fe88c2c1859-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_d84f946a3fe88c2c1859-home-491731.jpg",
-  "image_sha256": "aa10c68ffdc496c80618286df85966c5ca7937368313e08235b1998aadb03c3f"
+  "image_sha256": "aa10c68ffdc496c80618286df85966c5ca7937368313e08235b1998aadb03c3f",
+  "artwork_revision_path": "data/kits/team_d84f946a3fe88c2c1859-home-r002.json"
 }

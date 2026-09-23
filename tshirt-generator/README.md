@@ -1,8 +1,8 @@
 # T-shirt Generator
 
-A local React 19.3 + Vite 8.3 JavaScript studio for the supplied 735-team catalog. Current previews combine the original high-resolution PNG with editable team colors and patterns. Download formats and sizes are deferred. The visual kit catalog is **not complete**: 183 ready PNG adaptations, 32 drafts and 1,255 slots still in research. Football Kit Archive is the user-designated source of truth; 169 adaptations use its references.
+A local React 19.3 + Vite 8.3 JavaScript studio for the supplied 735-team catalog. Current previews combine the original high-resolution PNG with editable team colors and patterns. Download formats and sizes are deferred. The visual kit catalog is **not complete**: 225 ready PNG adaptations, 50 drafts and 1,195 slots still in research. Football Kit Archive is the user-designated source of truth; 211 adaptations use its references.
 
-The new workbook's **138 mandatory teams** are prioritized without removing any other teams. They have 276 Home/Away slots, **165 ready layouts** and **249 exact 2026/27 references**. The user's strict season requirement excludes calendar-year 2026 substitutions. See [mandatory coverage and remaining work](docs/MANDATORY_TEAMS_2026-27.md).
+The new workbook's **138 mandatory teams** are prioritized without removing any other teams. They have 276 Home/Away slots, **207 ready layouts** and **249 exact 2026/27 references**. The user's strict season requirement excludes calendar-year 2026 substitutions. See [mandatory coverage and remaining work](docs/MANDATORY_TEAMS_2026-27.md).
 
 ```sh
 npm ci

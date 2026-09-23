@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-kits-2026-27-l150/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Actual fine topographic contour lines replace overlapping invented closed rings. Pink trim and charcoal base retained; line color estimated from the 26-27 Away image.",
+    "render_path": "artifacts/footballkitarchive/tier1-42-2026-09-23/team_d84f946a3fe88c2c1859-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_d84f946a3fe88c2c1859-away-492205.jpg",
-  "image_sha256": "f02d35c2641d9f4fb8e0ebaec38d5a8d07ab35363ba0c4870c2a4fdac8774495"
+  "image_sha256": "f02d35c2641d9f4fb8e0ebaec38d5a8d07ab35363ba0c4870c2a4fdac8774495",
+  "artwork_revision_path": "data/kits/team_d84f946a3fe88c2c1859-away-r002.json"
 }

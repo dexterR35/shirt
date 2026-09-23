@@ -5,7 +5,7 @@
   "country_name": "France",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_0d16520a127c19b08568-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0d16520a127c19b08568-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Gold"
     ],
     "values": {
-      "body": "#203E5B",
-      "leftSleeve": "#223952",
-      "rightSleeve": "#223952",
-      "collar": "#243247",
-      "leftCuff": "#5EADCF",
-      "rightCuff": "#5EADCF"
+      "body": "#243A54",
+      "leftSleeve": "#243A54",
+      "rightSleeve": "#243A54",
+      "collar": "#172D44",
+      "leftCuff": "#223A56",
+      "rightCuff": "#223A56"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Opposing sky-blue/navy vertical gradients divided at the center, fine tonal vertical ribs, plain navy raglan shoulders and sleeves, navy collar with a fine muted-gold inner edge. Source polo shape is adapted onto the original round ring.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_0d16520a127c19b08568-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_5d27fa02d645a2f42ee2.json",
     "source_kit_id": "496333"
@@ -111,6 +116,11 @@
       "date": "2026-09-23",
       "batch": "france-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

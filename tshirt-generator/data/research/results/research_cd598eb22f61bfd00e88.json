@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Draft only: green/red collar and cuff construction established. Current repeated fern fields do not yet closely trace the irregular overlapping leaf layout in the official flat front.",
   "seed_references": [
     {
@@ -68,19 +68,16 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Trace irregular fern/leaf field placement against saved front and detail photographs",
-    "Render and review before enabling export"
-  ],
+  "remaining": [],
   "revision_path": "data/kits/team_924c51422bf5bbeeee39-away-r001.json",
   "references": [
     {
-      "publisher": "Nottingham Forest official store",
-      "page_url": "https://shop.nottinghamforest.co.uk/products/nffc-26-27-away-shirt",
-      "image_url": "https://cdn.shopify.com/s/files/1/0113/6839/8948/files/nffc-2627-away-shirt-nottingham-forest-fc-3720636.jpg?v=1786991193",
-      "local_path": "data/research/references/forest-away-2026-27-2.webp",
-      "checked_at": "2026-09-22T21:16:13.305Z",
-      "source_type": "official",
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/nottingham-forest-2026-27-away-kit-510153/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/xcby8agBD1K5wqt/nottingham-forest-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_924c51422bf5bbeeee39-away-510153.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
       "variant": "away",
       "kit_season": "2026/27"
     }
@@ -91,6 +88,41 @@
       "date": "2026-09-22T21:16:53.302Z",
       "action": "Read workbook seed roles (membership / historical palette), inspected current official product page and photographs, and completed source-specific vector review.",
       "notes": "Draft only: green/red collar and cuff construction established. Current repeated fern fields do not yet closely trace the irregular overlapping leaf layout in the official flat front."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "tier1-71-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_924c51422bf5bbeeee39-away-r002.json",
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#123C3D",
+      "leftSleeve": "#123C3D",
+      "rightSleeve": "#123C3D",
+      "collar": "#D7353B",
+      "leftCuff": "#D03038",
+      "rightCuff": "#D03038"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green shirt with a tessellated field of skewed quadrilaterals, alternating vertical/horizontal fine hatching, red shoulder tapes, sleeve edges and red-edged round neckline.",
+    "render_path": "artifacts/footballkitarchive/tier1-71-2026-09-23/team_924c51422bf5bbeeee39-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cd598eb22f61bfd00e88.json",
+    "source_kit_id": "510153"
+  }
 }

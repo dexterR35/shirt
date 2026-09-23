@@ -5,7 +5,7 @@
   "country_name": "Italy",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_6de51026c43dc6e07116-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6de51026c43dc6e07116-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Navy"
     ],
     "values": {
-      "body": "#F0F1ED",
-      "leftSleeve": "#F0F1ED",
-      "rightSleeve": "#F0F1ED",
-      "collar": "#1B3450",
-      "leftCuff": "#183851",
-      "rightCuff": "#183851"
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#F0F1EE",
+      "leftCuff": "#1B2B45",
+      "rightCuff": "#1B2B45"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body with fine downward-sloping blue, gray and navy lines of unequal length. Plain white sleeves, navy/pale-blue cuff edges and matching colors on the original round collar. Source photo fold-induced waviness is supplied by the PNG rather than drawn as extra folds.",
+    "render_path": "artifacts/footballkitarchive/mandatory-italy-next-2026-09-23/team_6de51026c43dc6e07116-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_eb04a23ab7806a4f1024.json",
     "source_kit_id": "495862"
@@ -111,6 +116,11 @@
       "date": "2026-09-23",
       "batch": "italy-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "mandatory-italy-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }
