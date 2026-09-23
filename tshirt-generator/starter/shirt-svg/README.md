@@ -1,4 +1,11 @@
-> Current file audit: the supplied `shirt-master.png` is actually the same 200 × 200 translucent highlight as the base PNG, not the older 1024 × 1024 neutral render described below. Original PNGs remain unchanged. The application renderer and native lighting measurements are documented in `../../docs/BASE_ANALYSIS.md`. These legacy examples remain generic.
+# Current base (23 September 2026)
+
+The user subsequently chose to retain the original high-resolution PNG. Current app previews use `base.png` with editable vector paint, prepared by `npm run base:prepare`. The traced `base.svg` below is archived; its simplified fabric detail is not used in current previews. Download sizes and formats are deferred.
+
+`base.png` is the user's replacement. `base.svg` is its transparent vector reconstruction, also used by the app's neutral master. Regenerate with `npm run base:analyze` and `npm run catalog:build` from the project root. See `docs/BASE_ANALYSIS.md` for source hashes, tracing method and measured fidelity. The original starter engine and generic examples described below remain historical references; `starter:generate` does not rebuild the new master.
+
+
+## Historical starter documentation
 
 # Tricouri SVG — master corectat după referință
 

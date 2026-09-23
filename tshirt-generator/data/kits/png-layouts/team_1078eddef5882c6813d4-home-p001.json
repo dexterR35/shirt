@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1078eddef5882c6813d4",
+  "team_name": "Barcelona",
+  "variant": "home",
+  "source_revision": "r002",
+  "layout_revision": "p001",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "review_scope": "Shoulder geometry, collar and cuff paint adapted against local source photographs. This is not a new kit-season verification or a claim of identical garment construction.",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "references": [
+    {
+      "local_path": "data/research/references/barcelona-home-full-2026-27.jpg",
+      "page_url": "https://store.fcbarcelona.com/products/fc-barcelona-home-fullshirt-26-27-ucl",
+      "sha256": "b456df19389158b52f1b953271d0e29adb58625cdcbfbb439bb513967b2cfa41"
+    },
+    {
+      "local_path": "data/research/references/barcelona-home-front-2026-27.jpg",
+      "page_url": "https://store.fcbarcelona.com/pages/home-26-27",
+      "sha256": "8c7907cbecbb7a58887d3c3b82f6414aebc33fff12723580ea7d9b0eb8a2fc4b"
+    }
+  ],
+  "changes": "Dark shallow neck trim and cuff placement mapped to the new base; previously researched color bands retained.",
+  "limitations": "Original PNG silhouette, round-neck fabric folds and seams are retained. Painted V/polo trims cannot alter physical construction. Other previously approximated fabric patterns are not certified by this trim review.",
+  "shoulder_band_count": 0,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#901B3D",
+      "leftSleeve": "#9E173C",
+      "rightSleeve": "#1551A3",
+      "collar": "#10182D",
+      "leftCuff": "#10182D",
+      "rightCuff": "#10182D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "neck-facing",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#901B3D",
+          "clip": "all",
+          "colorRole": "body"
+        },
+        {
+          "id": "v-neck-band-0",
+          "type": "path",
+          "d": "M70 4L77 2Q100 7 123 2L130 4Q126 20 100 31Q74 20 70 4Z",
+          "fill": "#10182D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "neck-opening",
+          "type": "path",
+          "d": "M73.8 4L78.064 2Q100 7 121.936 2L126.2 4Q123.91 18.29 100 27.58Q76.09 18.29 73.8 4Z",
+          "fill": "#901B3D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "id": "color-band-0",
+        "type": "rect",
+        "clip": "body",
+        "x": 50,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#C12349",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-1",
+        "type": "rect",
+        "clip": "body",
+        "x": 59,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#A41D43",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-2",
+        "type": "rect",
+        "clip": "body",
+        "x": 68,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#851B3C",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-3",
+        "type": "rect",
+        "clip": "body",
+        "x": 77,
+        "y": 0,
+        "width": 8,
+        "height": 200,
+        "fill": "#09294F",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-4",
+        "type": "rect",
+        "clip": "body",
+        "x": 85,
+        "y": 0,
+        "width": 8,
+        "height": 200,
+        "fill": "#194486",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-5",
+        "type": "rect",
+        "clip": "body",
+        "x": 93,
+        "y": 0,
+        "width": 8,
+        "height": 200,
+        "fill": "#0864BA",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-6",
+        "type": "rect",
+        "clip": "body",
+        "x": 101,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#C12349",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-7",
+        "type": "rect",
+        "clip": "body",
+        "x": 110,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#A41D43",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-8",
+        "type": "rect",
+        "clip": "body",
+        "x": 119,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#851B3C",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-9",
+        "type": "rect",
+        "clip": "body",
+        "x": 128,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#09294F",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-10",
+        "type": "rect",
+        "clip": "body",
+        "x": 137,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#194486",
+        "opacity": 1
+      },
+      {
+        "id": "color-band-11",
+        "type": "rect",
+        "clip": "body",
+        "x": 146,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0864BA",
+        "opacity": 1
+      },
+      {
+        "id": "left-inner-panel",
+        "type": "polygon",
+        "clip": "leftSleeve",
+        "points": [
+          [
+            55,
+            25
+          ],
+          [
+            43,
+            53
+          ],
+          [
+            50,
+            78
+          ],
+          [
+            52,
+            91
+          ],
+          [
+            66,
+            91
+          ]
+        ],
+        "fill": "#09294F",
+        "opacity": 1
+      },
+      {
+        "id": "right-inner-panel",
+        "type": "polygon",
+        "clip": "rightSleeve",
+        "points": [
+          [
+            145,
+            27
+          ],
+          [
+            152,
+            62
+          ],
+          [
+            158,
+            81
+          ],
+          [
+            153,
+            91
+          ],
+          [
+            139,
+            90
+          ]
+        ],
+        "fill": "#901B3D",
+        "opacity": 1
+      },
+      {
+        "id": "left-sleeve-tone",
+        "type": "polygon",
+        "clip": "leftSleeve",
+        "points": [
+          [
+            18,
+            28
+          ],
+          [
+            34,
+            23
+          ],
+          [
+            41,
+            84
+          ],
+          [
+            25,
+            89
+          ]
+        ],
+        "fill": "#B71D47",
+        "opacity": 1
+      },
+      {
+        "id": "right-sleeve-tone",
+        "type": "polygon",
+        "clip": "rightSleeve",
+        "points": [
+          [
+            164,
+            28
+          ],
+          [
+            178,
+            26
+          ],
+          [
+            184,
+            83
+          ],
+          [
+            169,
+            88
+          ]
+        ],
+        "fill": "#0765BB",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "id": "left-cuff-band-0",
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#10182D",
+        "clip": "leftSleeve",
+        "colorRole": "leftCuff"
+      },
+      {
+        "id": "right-cuff-band-0",
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#10182D",
+        "clip": "rightSleeve",
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

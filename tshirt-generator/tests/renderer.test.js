@@ -143,7 +143,7 @@ test("untrusted display text is XML escaped", () => {
 
 test('display surface uses smooth curves and interpolated light at large export sizes', async () => {
   const {GEOMETRY}=await import('../starter/shirt-svg/shirt-engine-reference.mjs');
-  const svg=renderShirt(neutralConfig());
+  const svg=renderShirt({...neutralConfig(),templateVersion:'reference-front-2'}, 'Historical master', 'original-png-smooth-2');
   assert.doesNotMatch(svg,/crispEdges/);
   assert.match(svg,/original-light-interpolation/);
   const reference=`<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path transform="${GEOMETRY.canvasTransform}" d="${GEOMETRY.outline}" fill="#FFFFFF"/></svg>`;
@@ -152,12 +152,11 @@ test('display surface uses smooth curves and interpolated light at large export 
   let differences=0;for(let i=3;i<actual.length;i+=4)if(actual[i]!==expected[i])differences++;
   assert.equal(differences,0,'Export alpha follows the continuous Bezier silhouette at 1024 pixels');
 });
-test('historical r001 kit SVG bytes remain reproducible after the quality correction',async()=>{
+test('every historical kit SVG remains byte-identical after replacement of the default base',async()=>{
   const {assetFilename}=await import('../src/lib/catalog.js');
-  for(const file of (await fs.readdir('data/kits')).filter(f=>f.endsWith('-r001.json'))){
+  for(const file of (await fs.readdir('data/kits')).filter(f=>f.endsWith('.json'))){
     const revision=JSON.parse(await fs.readFile('data/kits/'+file,'utf8'));
-    if (revision.surface_version && revision.surface_version !== 'original-png-vector-1') continue;
     const title=`${revision.team_name} · ${revision.kit_season} · ${revision.variant}`;
-    assert.equal(renderShirt(revision.config,title,'original-png-vector-1'),await fs.readFile('public/assets/shirts/'+assetFilename(revision),'utf8'));
+    assert.equal(renderShirt(revision.config,title,revision.surface_version ?? 'original-png-vector-1'),await fs.readFile('public/assets/shirts/'+assetFilename(revision),'utf8'));
   }
 });

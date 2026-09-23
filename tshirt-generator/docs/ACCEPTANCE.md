@@ -1,5 +1,7 @@
 # Criterii de acceptare — T-shirt Generator
 
+> Actualizare cerută de utilizator, 23 septembrie 2026: preview-ul folosește PNG-ul original 8000 × 5000, cu forme SVG editabile doar pentru culori și modele. Detaliile țesăturii și transparența vin din PNG, fără trasare sau blur suplimentar. Dimensiunile și formatele de descărcare se vor implementa ulterior. Criteriile istorice SVG-only/download de mai jos sunt amânate unde contrazic această cerință. Configurațiile de echipe adaptate pe noua bază necesită review separat.
+
 ## Catalog și cercetare
 
 - Identitățile nume + țară coincid exact cu cele 735 de echipe din workbook.
@@ -27,7 +29,9 @@
 
 ## Geometrie și fidelitate
 
-- Se folosește silueta reference-front-2, fără schimbarea proporțiilor și poziționării.
+- Gulerul fizic există deja în PNG. Stratul SVG colorează exclusiv acel guler rotund; nu adaugă alt contur în V, clapete polo sau fentă peste el. Culorile pot varia între echipe, dar forma și cusăturile gulerului vin din baza PNG.
+
+- Pentru masterul curent se folosește noul `base.png`, furnizat de utilizator pe 23 septembrie: `replacement-front-3`, cu proporțiile păstrate. Reviziile istorice rămân pe `reference-front-2`, fără suprascriere.
 - Se verifică vizual kituri cu dungi, panou triunghiular și forme curbate, după sursele corespunzătoare.
 - Corpul, mânecile, gulerul și manșetele pot avea culori și detalii independente.
 - Straturile custom sunt decupate corect pe corp sau mâneci și nu depășesc silueta.

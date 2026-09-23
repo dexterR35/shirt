@@ -1,6 +1,6 @@
 # T-shirt Generator — arhitectură pentru Codex desktop
 
-> Implementation update, 22 September 2026: the app now exists. This document records the original specification/handoff. Read `docs/STATUS.md` for current progress and `docs/BASE_ANALYSIS.md` for the actual supplied PNG measurements and required source-lighting preservation.
+> Implementation update, 23 September 2026: the user chose the original 8000 × 5000 `base.png` instead of its softened SVG trace. Current previews use `original-png-composite-1`: editable vector paint combined with original PNG RGB/alpha. Export sizes and formats are deferred. Saved kit revisions remain immutable; their PNG adaptations need separate layout review. This document records the older specification/handoff. Read `docs/STATUS.md` and `docs/BASE_ANALYSIS.md` for the current implementation.
 
 22 septembrie 2026 · React + Vite + JavaScript
 

@@ -1,4 +1,22 @@
-# Validation — 22 September 2026
+# Validation — 23 September 2026
+
+## Current PNG compositor
+
+`npm run data:verify`, all twenty Node tests, eight Edge Playwright tests and the production build pass. The source PNG in `public/assets/base/source.png` is byte-identical to the original 8000 × 5000 file. White-paint composition reproduces source pixels exactly, colored paint retains every alpha value, and all saved kit configurations render as validated paint without embedded texture or lighting. Historical SVGs still reproduce their original bytes.
+
+Follow-up collar regression: eight V/polo layouts were corrected to p002 after the user identified the duplicated collar. All eight closeups were inspected in `artifacts/collar-correction/collars.png`. Tests check unchanged body/shoulder/cuff configurations, absence of collar paint below the original neck, clipping of an oversized custom collar, and real Ipswich Away Apply in the browser. Comparison and browser proof: `artifacts/collar-correction/ipswich-comparison.png` and `studio-ipswich.png`.
+
+Browser checks cover catalog/search/mobile layout, candidate/applied separation, ten Home/Away collection slots, failed configuration recovery, color editing/reset, and real Barcelona rendering with one base-image fetch. The previous SVG/ZIP download checks are superseded while export sizing is deferred. Use `$env:PLAYWRIGHT_CHANNEL='msedge'` before `npm run test:e2e` on this machine.
+
+PNG trim correction: all 15 separate p001 layouts were inspected against saved reference photos in `artifacts/layout-correction/after-1.png` through `after-4.png`. Leeds also uses the user's flat-front photo; `leeds-comparison.png` shows reference/before/corrected. Automated checks resolve every layout against its parent without altering archival configuration, reject missing/wrong/unreviewed layouts, count two rendered shoulder bands on each Leeds shoulder and check visible yellow collar/cuff paint. A real Leeds Apply browser check verifies yellow regions in the composited canvas; the initial single-pixel assertion hit an antialiased boundary, so the final check samples bounded trim regions. Six browser checks passed in the full run, and the corrected Leeds check passed on rerun. `studio-leeds.png` records the result. Review scope is shoulders and trim; original collar construction and previously approximate fabric patterns remain limitations.
+
+## Historical vector reconstruction
+
+The replacement base passes `npm run data:verify`, all twelve Node tests and `npm run build`. All four browser tests passed using installed Edge: in PowerShell set `$env:PLAYWRIGHT_CHANNEL='msedge'` before `npm run test:e2e` (the bundled Chromium executable is absent on this machine). The final sleeve-contour refinement was followed by another successful twelve-test run and production build.
+
+New checks verify the three replacement PNG hashes, >99% alpha silhouette overlap (measured 99.72%), mean interior shading error <7/255, bitmap-free SVG, invariant transparent clipping across configurations, and unchanged SVG bytes for every saved historical kit revision. The neutral app asset and `starter/shirt-svg/base.svg` use identical SVG bytes. Source and vector visual review is in `artifacts/new-base/comparison.png`.
+
+The checks below record the historical implementation.
 
 ## Source preservation
 

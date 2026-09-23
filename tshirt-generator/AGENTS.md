@@ -6,6 +6,10 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## Product
 
+- Latest user direction (23 September 2026): keep the original high-resolution `base.png` as the fabric/shape source. Use validated editable SVG color/pattern shapes composited with its RGB and original alpha. Do not trace or simplify its fabric shading. Download sizes and formats are deferred; older SVG-only/export requirements below are historical where they conflict with this direction.
+- PNG corrections live as separate immutable revisions in `data/kits/png-layouts`. Check shoulder band count, width, placement and trim against each variant's reference; do not transplant the legacy generic shoulder paths. Reviewed p001 files cover the 15 available kits' shoulders/collars/cuffs only. Preserve their references and stated construction/pattern limitations; future corrections need a new layout revision.
+- Collar correction requested by the user: the PNG already contains the physical collar. SVG may recolor that existing round fabric ring only; never draw a second V-neck, polo flap or placket over it. Eight p002 layouts supersede the incorrect p001 V/polo paint. Use `src/lib/png-collar.js` for color bands; `png-shirt.js` confines all collar paint to the existing neckline.
+
 - Use React + Vite + JavaScript (.jsx/.js), CSS and a shared JavaScript SVG renderer. Add JSDoc and runtime validation. Preserve the user's familiar stack.
 - Keep the interface simple and dark navy: country filter, team search, Home/Away switch, Apply, one central shirt and SVG download.
 - Country and team are the navigation axes. Source competition metadata is retained for provenance, outside product navigation.
@@ -30,12 +34,12 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## SVG
 
-- Use reference-front-2 from starter/shirt-svg/shirt-engine-reference.mjs and references/reference-highlight.png. Preserve its silhouette, proportions and position.
+- The user rejected the replacement SVG's softened detail and chose the original PNG. Use `original-png-composite-1` from src/lib/png-shirt.js for current previews. Preserve base.png at 8000 × 5000; read docs/BASE_ANALYSIS.md. Retain the vector renderers only for archived revision reproduction and paint geometry.
 - Style: flat 2D, subtle soft shading, transparent background.
 - Reproduce the kit's observed color layout and graphic forms on the common silhouette. Remove team emblems, manufacturer logos, sponsors and lettering.
 - Extend the renderer with validated rect/polygon/path layers and body/sleeve/all clips. The current six pattern families alone are insufficient.
 - Support independent sleeve/cuff colors and referenced collar details. New graphics use 200 × 200 internal coordinates and the existing transform exactly once.
-- Do not embed reference photographs or raster highlights in SVG. Do not inject raw markup from a source.
+- Never inject raw markup from a source. The original user-supplied PNG is explicitly authorized as the current fabric surface; kit reference photos remain research evidence, not embedded artwork. Color artwork remains validated vector geometry.
 - Keep source evidence, kit identity and revisions separate from reusable geometry. Never overwrite an approved revision.
 
 ## Working commands

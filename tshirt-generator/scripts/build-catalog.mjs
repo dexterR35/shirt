@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import { renderShirt, neutralConfig } from "../src/lib/shirt-renderer.js";
 import { assetFilename } from "../src/lib/catalog.js";
+import { validatePngLayout } from "../src/lib/png-layout.js";
 const read = async (f) => JSON.parse(await fs.readFile(f, "utf8"));
 const teams = await read("data/normalized/teams.json"),
   countries = await read("data/normalized/countries.json"),
@@ -11,6 +12,20 @@ await fs.mkdir("public/assets/shirts", { recursive: true });
 await fs.mkdir("public/catalog/kits", { recursive: true });
 const files = await fs.readdir("data/kits");
 const revisions = [];
+const layouts = [];
+for (const file of (await fs.readdir('data/kits/png-layouts')).filter(f => f.endsWith('.json'))) {
+  const layout = await read(`data/kits/png-layouts/${file}`);
+  if (layout.status !== 'reviewed') continue;
+  const parent = await read(`data/kits/${layout.team_id}-${layout.variant}-${layout.source_revision}.json`);
+  validatePngLayout(layout, parent);
+  for (const ref of layout.references) {
+    const hash = crypto.createHash('sha256').update(await fs.readFile(ref.local_path)).digest('hex');
+    if (hash !== ref.sha256) throw Error(`PNG layout reference changed: ${file}`);
+  }
+  if (layouts.some(l => l.team_id === layout.team_id && l.variant === layout.variant && l.source_revision === layout.source_revision && l.layout_revision === layout.layout_revision))
+    throw Error(`Duplicate PNG layout: ${file}`);
+  layouts.push(layout);
+}
 for (const file of files.filter((f) => f.endsWith(".json"))) {
   const revision = await read(`data/kits/${file}`);
   if (
@@ -52,6 +67,12 @@ for (const file of files.filter((f) => f.endsWith(".json"))) {
     svg_path: `/assets/shirts/${filename}`,
     sha256: crypto.createHash("sha256").update(svg).digest("hex"),
   };
+  const layout = layouts.filter(l => l.team_id === revision.team_id && l.variant === revision.variant && l.source_revision === revision.revision)
+    .sort((a,b) => b.layout_revision.localeCompare(a.layout_revision))[0];
+  if (layout) {
+    saved.png_layout = layout;
+    saved.png_layout_revision = layout.layout_revision;
+  }
   await fs.writeFile(
     `public/catalog/kits/${revision.team_id}-${revision.variant}-${revision.revision}.json`,
     JSON.stringify(saved),
@@ -96,6 +117,7 @@ const manifestTeams = teams.map((t) => ({
               status: r.status,
               kit_season: r.kit_season,
               revision: r.revision,
+              ...(r.png_layout_revision ? {png_layout_revision: r.png_layout_revision} : {}),
               details_path: `/catalog/kits/${t.id}-${variant}-${r.revision}.json`,
               svg_path: r.svg_path,
               sha256: r.sha256,
@@ -141,6 +163,7 @@ await fs.writeFile(
   "public/assets/shirts/original-master.svg",
   renderShirt(neutralConfig()),
 );
+await fs.writeFile("starter/shirt-svg/base.svg", renderShirt(neutralConfig()));
 await fs.writeFile(
   "data/research/progress.json",
   JSON.stringify(

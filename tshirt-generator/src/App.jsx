@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { zipSync, strToU8 } from "fflate";
+import PngShirtPreview from "./PngShirtPreview.jsx";
+import {neutralConfig} from "./lib/shirt-renderer.js";
+import {kitPreviewConfig} from "./lib/png-layout.js";
 import {
   filterTeams,
   addToSelection,
   revisionKey,
-  assetFilename,
-  loadSvg,
-  downloadBlob,
 } from "./lib/catalog.js";
 
 function Icon({ name, size = 20, ...props }) {
@@ -61,23 +60,8 @@ function Status({ status }) {
     </span>
   );
 }
-function useObjectUrl(text) {
-  const [url, setUrl] = useState("");
-  useEffect(() => {
-    if (!text) {
-      setUrl("");
-      return;
-    }
-    const next = URL.createObjectURL(
-      new Blob([text], { type: "image/svg+xml" }),
-    );
-    setUrl(next);
-    return () => URL.revokeObjectURL(next);
-  }, [text]);
-  return url;
-}
-const json = async (url) => {
-  const r = await fetch(url);
+const json = async (url, signal) => {
+  const r = await fetch(url, {signal});
   if (!r.ok) throw Error(`Could not load the local catalog (${r.status}).`);
   return r.json();
 };
@@ -89,7 +73,8 @@ export default function App() {
     [candidateId, setCandidateId] = useState(""),
     [variant, setVariant] = useState("home"),
     [active, setActive] = useState(null),
-    [svg, setSvg] = useState(""),
+    [appliedConfig, setAppliedConfig] = useState(null),
+    [customColors, setCustomColors] = useState(null),
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState(""),
@@ -100,20 +85,14 @@ export default function App() {
     cache = useRef(new Map());
   useEffect(() => {
     let alive = true;
-    Promise.all([
-      json("/catalog/manifest.json"),
-      loadSvg({ svg_path: "/assets/shirts/original-master.svg" }),
-    ])
-      .then(([data, master]) => {
+    json("/catalog/manifest.json")
+      .then((data) => {
         if (alive) {
           setCatalog(data);
-          setSvg(master);
           setCandidateId(
             data.teams.find((t) => t.kits.home.status === "ready")?.id ||
-              data.teams[0]?.id ||
-              "",
+              data.teams[0]?.id || "",
           );
-          cache.current.set("master", master);
         }
       })
       .catch((e) => alive && setLoadError(e.message));
@@ -132,8 +111,10 @@ export default function App() {
     [catalog, country, query],
   );
   const candidate = catalog?.teams.find((t) => t.id === candidateId),
-    slot = candidate?.kits[variant],
-    url = useObjectUrl(svg);
+    slot = candidate?.kits[variant];
+  const previewConfig = useMemo(() => customColors
+    ? {...(appliedConfig || neutralConfig()), colors: customColors}
+    : appliedConfig, [appliedConfig, customColors]);
   const selectedIndex = active
     ? selection.findIndex((s) => revisionKey(s) === revisionKey(active))
     : -1;
@@ -149,15 +130,17 @@ export default function App() {
     setBusy(true);
     setNotice("");
     try {
-      const key = revisionKey(item);
-      let bytes = cache.current.get(key);
-      if (!bytes) {
-        bytes = await loadSvg(item, controller.current.signal);
-        cache.current.set(key, bytes);
+      const key = `${revisionKey(item)}:${item.png_layout_revision || 'original'}`;
+      let config = cache.current.get(key);
+      if (!config) {
+        const details = await json(item.details_path, controller.current.signal);
+        config = kitPreviewConfig(details, item);
+        cache.current.set(key, config);
       }
       if (request.current === sequence) {
         setActive(item);
-        setSvg(bytes);
+        setAppliedConfig(config);
+        setCustomColors(null);
       }
     } catch (e) {
       if (e.name !== "AbortError" && request.current === sequence)
@@ -198,37 +181,12 @@ export default function App() {
     if (index === selectedIndex && next.length)
       void activate(next[Math.min(index, next.length - 1)]);
   }
-  async function exportZip() {
-    if (!selection.length || busy) return;
-    setBusy(true);
-    setNotice("");
-    try {
-      const files = {},
-        manifest = [];
-      for (const item of selection) {
-        const key = revisionKey(item),
-          bytes = cache.current.get(key) || (await loadSvg(item));
-        cache.current.set(key, bytes);
-        files[assetFilename(item)] = strToU8(bytes);
-        manifest.push({ ...item, filename: assetFilename(item) });
-      }
-      files["manifest.json"] = strToU8(JSON.stringify(manifest, null, 2));
-      downloadBlob(
-        new Blob([zipSync(files)], { type: "application/zip" }),
-        "shirt-collection.zip",
-      );
-      setNotice(`Downloaded ${selection.length} kits and their manifest.`);
-    } catch (e) {
-      setNotice(e.message);
-    } finally {
-      setBusy(false);
-    }
-  }
   const master = () => {
     request.current++;
     controller.current?.abort();
     setActive(null);
-    setSvg(cache.current.get("master"));
+    setAppliedConfig(null);
+    setCustomColors(null);
     setBusy(false);
   };
   if (loadError)
@@ -297,7 +255,7 @@ export default function App() {
             </h1>
             <p>
               {tab === "studio"
-                ? "Find a team, choose a kit, and make it yours in SVG."
+                ? "Choose a team. Keep the fabric. Make the colors yours."
                 : "A complete source catalog, with honest progress for every kit."}
             </p>
           </div>
@@ -319,7 +277,7 @@ export default function App() {
                 <p>Including 27 reserve teams</p>
               </article>
               <article>
-                <small>Ready to download</small>
+                <small>Researched layouts</small>
                 <strong>
                   {catalog.counts.ready}
                   <span> / {catalog.counts.slots}</span>
@@ -499,7 +457,7 @@ export default function App() {
                   <h2>Kit preview</h2>
                 </div>
                 <span className="format-badge">
-                  SVG
+                  PNG BASE
                   <span />
                   TRANSPARENT
                 </span>
@@ -508,7 +466,7 @@ export default function App() {
                 <div className="canvas-topline">
                   <span>
                     <span className="live-dot" />
-                    {active ? "SAVED KIT" : "ORIGINAL MASTER"}
+                    {customColors ? "CUSTOM COLORS" : active ? "TEAM COLOR PREVIEW" : "ORIGINAL PNG"}
                   </span>
                   <div
                     className="background-controls"
@@ -526,17 +484,7 @@ export default function App() {
                   </div>
                 </div>
                 <div className="shirt-stage" aria-busy={busy}>
-                  {url && (
-                    <img
-                      className="shirt-image"
-                      src={url}
-                      alt={
-                        active
-                          ? `${active.team_name} ${active.variant} shirt`
-                          : "Original neutral master — no team kit applied"
-                      }
-                    />
-                  )}
+                  <PngShirtPreview config={previewConfig} label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}/>
                 </div>
                 <div className="canvas-caption">
                   <span className="caption-kicker">
@@ -551,16 +499,16 @@ export default function App() {
                   </h2>
                   <p>
                     {active
-                      ? `${active.variant === "home" ? "Home" : "Away"} kit · ${active.revision} · Source reviewed`
+                      ? `${active.variant === "home" ? "Home" : "Away"} · ${customColors ? "Custom colors" : "Adapted to your PNG base"}`
                       : "Original highlights, fabric folds, and transparent edges."}
                   </p>
                   {!active && (
                     <span className="neutral-note">
-                      Neutral master · not a team kit
+                      {customColors ? "Custom design · not a verified team kit" : "Original PNG · no team colors applied"}
                     </span>
                   )}
                 </div>
-                <span className="dimension-label">512 × 512 · VECTOR</span>
+                <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
               </div>
               <div className="preview-actions">
                 <div className="pager">
@@ -596,24 +544,24 @@ export default function App() {
                     <Icon name="right" size={17} />
                   </button>
                 </div>
-                <button
-                  className="download primary"
-                  disabled={!active || busy}
-                  onClick={() =>
-                    downloadBlob(
-                      new Blob([svg], { type: "image/svg+xml" }),
-                      assetFilename(active),
-                    )
-                  }
-                >
+                <button className="download primary" disabled title="Download sizes and formats will be added later">
                   <Icon name="download" size={18} />
-                  Download SVG
+                  Download later
                 </button>
               </div>
+              <details className="color-studio">
+                <summary>Try your own colors</summary>
+                <p>Body color sits beneath any team pattern. Choose a blank shirt to start a new design.</p>
+                <div className="color-fields">
+                  {Object.entries({body:"Body",leftSleeve:"Left sleeve",rightSleeve:"Right sleeve",collar:"Collar",leftCuff:"Left cuff",rightCuff:"Right cuff"}).map(([key,label])=><label key={key}>{label}<input type="color" aria-label={`${label} color`} value={(customColors || appliedConfig?.colors || neutralConfig().colors)[key]} onChange={e=>setCustomColors({...((customColors || appliedConfig?.colors) || neutralConfig().colors),[key]:e.target.value})}/></label>)}
+                </div>
+                <button className="secondary" onClick={master}>Blank shirt</button>
+                <button className="secondary" onClick={()=>setCustomColors(null)} disabled={!customColors}>Reset colors</button>
+              </details>
               <div className="preview-notes">
                 <span>
                   <Icon name="check" size={14} />
-                  Original base preserved
+                  Original PNG texture
                 </span>
                 <span>
                   <Icon name="check" size={14} />
@@ -621,7 +569,7 @@ export default function App() {
                 </span>
                 <span>
                   <Icon name="check" size={14} />
-                  Transparent export
+                  Transparent edges
                 </span>
               </div>
             </section>
@@ -634,7 +582,7 @@ export default function App() {
               <p className="collection-intro">
                 Keep your favorite kits together.
                 <br />
-                Export one, or take the whole set.
+                Compare Home and Away designs.
               </p>
               {selection.length ? (
                 <div className="collection-list">
@@ -683,11 +631,11 @@ export default function App() {
               )}
               <button
                 className="secondary zip-button"
-                onClick={exportZip}
-                disabled={!selection.length || busy}
+                disabled
+                title="Export sizes and formats will be added later"
               >
                 <Icon name="download" size={17} />
-                Download collection<span>.ZIP</span>
+                Collection export later
               </button>
               <div className="source-card">
                 <span className="eyebrow">BUILT FROM THE ORIGINAL</span>
@@ -712,21 +660,16 @@ export default function App() {
                 </summary>
                 <p>
                   {active
-                    ? "Colors are estimated from the cited kit photograph unless explicitly published by the source."
-                    : "The neutral master uses your original 200 × 200 lighting. Unverified kits remain in the catalog while research continues."}
+                    ? active.png_layout_revision
+                      ? "Shoulder bands, collar and cuff colors have been checked against the saved references. Your PNG keeps its original round neckline and fabric folds. Other fabric patterns may still be approximate."
+                      : "Colors and patterns come from the cited kit research. This preview adapts them to your PNG base and keeps its round collar; the adapted layout still needs review."
+                    : "Your original 8000 × 5000 PNG supplies the fabric, stitching, shading and transparency. Colors and patterns are editable shapes combined with those original pixels."}
                 </p>
                 {active && <Evidence path={active.details_path} />}
                 <p>
-                  {catalog.counts.ready} of {catalog.counts.slots} kits ready.
+                  {catalog.counts.ready} of {catalog.counts.slots} kit layouts researched.
                 </p>
-                <p>
-                  <a
-                    href="/assets/shirts/original-master.svg"
-                    download="original-shirt-master.svg"
-                  >
-                    Download original master SVG ↗
-                  </a>
-                </p>
+                <p>Download sizes and formats will be added later.</p>
                 <button onClick={() => setTab("coverage")}>
                   Explore coverage →
                 </button>
@@ -758,7 +701,7 @@ export default function App() {
           <span className="footer-mark">✳</span> Made for the colors we follow.
         </span>
         <span>
-          {catalog.counts.ready} verified kits
+          {catalog.counts.ready} researched layouts
           <span className="footer-dot">·</span>735 teams in the source catalog
         </span>
       </footer>
@@ -784,7 +727,7 @@ function Evidence({ path }) {
   ) : data ? (
     <>
       <ul>
-        {data.references.map((r, i) => (
+        {(Array.isArray(data.references) ? data.references : []).map((r, i) => (
           <li key={i}>
             <a href={r.page_url} target="_blank" rel="noreferrer">
               {r.publisher} · {data.variant} ↗

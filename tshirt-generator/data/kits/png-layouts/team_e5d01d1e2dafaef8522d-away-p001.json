@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e5d01d1e2dafaef8522d",
+  "team_name": "Ipswich Town",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p001",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "review_scope": "Shoulder geometry, collar and cuff paint adapted against local source photographs. This is not a new kit-season verification or a claim of identical garment construction.",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "references": [
+    {
+      "local_path": "data/research/references/ipswich-away-2026-27.jpg",
+      "page_url": "https://shop.itfc.co.uk/products/2627-adult-away-shirt-ss-n-a",
+      "sha256": "5039819aaa2aebcb56971da5005ad7d088bbe290940fa60ab460e459d092b41a"
+    }
+  ],
+  "changes": "Black/red neck and cuff edging restored; horizontal lines remain confined to the torso.",
+  "limitations": "Original PNG silhouette, round-neck fabric folds and seams are retained. Painted V/polo trims cannot alter physical construction. Other previously approximated fabric patterns are not certified by this trim review.",
+  "shoulder_band_count": 0,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DFD4B2",
+      "leftSleeve": "#DFD4B2",
+      "rightSleeve": "#DFD4B2",
+      "collar": "#141719",
+      "leftCuff": "#141719",
+      "rightCuff": "#141719"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "neck-facing",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DFD4B2",
+          "clip": "all",
+          "colorRole": "body"
+        },
+        {
+          "id": "v-neck-band-0",
+          "type": "path",
+          "d": "M70 4L77 2Q100 7 123 2L130 4Q126 20 100 31Q74 20 70 4Z",
+          "fill": "#111419",
+          "clip": "all"
+        },
+        {
+          "id": "v-neck-band-1",
+          "type": "path",
+          "d": "M73.5 4L77.98 2Q100 7 122.02 2L126.5 4Q124.075 18.425 100 27.85Q75.925 18.425 73.5 4Z",
+          "fill": "#CA203A",
+          "clip": "all"
+        },
+        {
+          "id": "neck-opening",
+          "type": "path",
+          "d": "M74.35 4L78.218 2Q100 7 121.782 2L125.65 4Q123.608 18.043 100 27.085Q76.392 18.043 74.35 4Z",
+          "fill": "#DFD4B2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "id": "pinstripe-0",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 9,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-1",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 23.3,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-2",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 37.6,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-3",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 51.900000000000006,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-4",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 66.2,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-5",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 80.5,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-6",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 94.80000000000001,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-7",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 109.10000000000001,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-8",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 123.4,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-9",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 137.70000000000002,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-10",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 152,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-11",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 166.3,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-12",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 180.60000000000002,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#B82A23",
+        "opacity": 1
+      },
+      {
+        "id": "pinstripe-13",
+        "type": "rect",
+        "clip": "body",
+        "x": 0,
+        "y": 194.9,
+        "width": 200,
+        "height": 0.8,
+        "fill": "#111617",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "id": "left-cuff-band-0",
+        "type": "path",
+        "d": "M12 70.8C24 75.4 36 80.7 44.5 79.8Q48 79.9 49.2 71.7L52 106H5Z",
+        "fill": "#111419",
+        "clip": "leftSleeve",
+        "colorRole": "leftCuff"
+      },
+      {
+        "id": "left-cuff-band-1",
+        "type": "path",
+        "d": "M12 75.45C24 80.05 36 85.35 44.5 84.45Q48 84.55 49.2 76.35L52 106H5Z",
+        "fill": "#CA203A",
+        "clip": "leftSleeve"
+      },
+      {
+        "id": "right-cuff-band-0",
+        "type": "path",
+        "d": "M188 70.8C176 75.4 164 80.7 155.5 79.8Q152 79.9 150.8 71.7L148 106H195Z",
+        "fill": "#111419",
+        "clip": "rightSleeve",
+        "colorRole": "rightCuff"
+      },
+      {
+        "id": "right-cuff-band-1",
+        "type": "path",
+        "d": "M188 75.45C176 80.05 164 85.35 155.5 84.45Q152 84.55 150.8 76.35L148 106H195Z",
+        "fill": "#CA203A",
+        "clip": "rightSleeve"
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import crypto from "node:crypto";
 import sharp from "sharp";
 const source =
-  "starter/shirt-svg/png/base thsirt shape and shadows and paint color.png";
+  "references/reference-highlight.png";
 const input = await fs.readFile(source);
 const { data, info } = await sharp(input)
   .ensureAlpha()
@@ -63,7 +63,6 @@ for (let i = 3; i < data.length; i += 4) {
 const copies = await Promise.all(
   [
     "references/reference-highlight.png",
-    "starter/shirt-svg/shirt-master.png",
   ].map(async (path) => ({
     path,
     sha256: crypto

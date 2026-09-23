@@ -9,7 +9,10 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
 const manifest=read('data/source/source-manifest.json');
 assert.equal(sha('data/source/teams-source.xlsx'),manifest.sha256);
-assert.equal(sha('data/audit/workbook-audit.json'),manifest.audit_sha256);
+// Git on Windows can expand LF to CRLF. Verify the original JSON bytes after
+// line-ending normalization; every other content byte must still match.
+const auditBytes=fs.readFileSync(path.join(root,'data/audit/workbook-audit.json'),'utf8').replace(/\r\n/g,'\n');
+assert.equal(crypto.createHash('sha256').update(auditBytes).digest('hex'),manifest.audit_sha256);
 const wb=read('data/audit/workbook-audit.json');
 const rows=name=>{
   const result={};
