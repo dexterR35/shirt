@@ -386,7 +386,7 @@ test('remaining-42 revisions render with local equipment facts and show drafts a
   expect(external).toEqual([]);
 });
 
-test('the preview zooms within limits, pans by dragging and recenters without repainting',async({page})=>{
+test('the preview zooms with the buttons and Ctrl+scroll only, cannot be dragged, and never repaints',async({page})=>{
   await setup(page);
   await page.getByRole('button',{name:/Știința Test Romania/}).click();
   const canvas=page.locator('.shirt-image'),level=page.locator('.zoom-controls span');
@@ -394,29 +394,35 @@ test('the preview zooms within limits, pans by dragging and recenters without re
   const pixels=await canvas.evaluate(c=>c.toDataURL());
   await expect(level).toHaveText('100%');
   await expect(page.getByRole('button',{name:'Center shirt'})).toBeDisabled();
-  const stage=await page.locator('.shirt-stage').boundingBox();
-  await page.mouse.move(stage.x+stage.width/2,stage.y+stage.height/2);
+  const stage=await page.locator('.shirt-stage').boundingBox(),cx=stage.x+stage.width/2,cy=stage.y+stage.height/2;
+  // Plain scrolling does not zoom; Ctrl + scroll zooms toward the pointer.
+  await page.mouse.move(cx+80,cy);
   await page.mouse.wheel(0,-400);
   await expect(level).toHaveText('100%');
   await page.keyboard.down('Control');
   await page.mouse.wheel(0,-400);
   await page.keyboard.up('Control');
   await expect(level).not.toHaveText('100%');
-  await page.getByRole('button',{name:'Center shirt'}).click();
+  const zoomed=await canvas.evaluate(c=>c.style.transform);
+  expect(zoomed).not.toContain('translate(0px, 0px)');
+  // Dragging does nothing.
+  await page.mouse.move(cx,cy);
+  await page.mouse.down();
+  await page.mouse.move(cx+120,cy+60,{steps:6});
+  await page.mouse.up();
+  expect(await canvas.evaluate(c=>c.style.transform)).toBe(zoomed);
+  // Buttons, limits and centering.
   for(let i=0;i<12&&await page.getByRole('button',{name:'Zoom in'}).isEnabled();i++)await page.getByRole('button',{name:'Zoom in'}).click();
   await expect(level).toHaveText('400%');
   await expect(page.getByRole('button',{name:'Zoom in'})).toBeDisabled();
-  const box=await page.locator('.shirt-stage').boundingBox();
-  await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
-  await page.mouse.down();
-  await page.mouse.move(box.x+box.width/2+60,box.y+box.height/2+30,{steps:5});
-  await page.mouse.up();
-  expect(await canvas.evaluate(c=>c.style.transform)).toContain('translate(60px, 30px)');
   await page.getByRole('button',{name:'Center shirt'}).click();
   await expect(level).toHaveText('100%');
+  expect(await canvas.evaluate(c=>c.style.transform)).toBe('translate(0px, 0px) scale(1)');
   for(let i=0;i<12&&await page.getByRole('button',{name:'Zoom out'}).isEnabled();i++)await page.getByRole('button',{name:'Zoom out'}).click();
   await expect(level).toHaveText('50%');
   await expect(page.getByRole('button',{name:'Zoom out'})).toBeDisabled();
+  // At 100% or less the shirt is always centered.
+  expect(await canvas.evaluate(c=>c.style.transform)).toContain('translate(0px, 0px)');
   expect(await canvas.evaluate(c=>c.toDataURL())).toBe(pixels);
 });
 
@@ -453,7 +459,9 @@ test('edit mode fixes the view, selects parts by clicking the shirt, and keeps s
   await expect(page.locator('.zoom-controls')).toHaveCount(0);
   expect(await canvas.evaluate(c=>c.style.transform)).toContain('scale(1)');
   // Click the chest (200-unit point 100,110) and a sleeve (35,60): each selects its own part.
-  const pointAt=async(u,v)=>{const b=await canvas.boundingBox();return [b.x+b.width*(1/16+u/200*7/8),b.y+b.height*(1/16+v/200*7/8)];};
+  // The canvas is drawn with object-fit: contain, so find the square shirt area inside its box.
+  const pointAt=async(u,v)=>{const b=await canvas.boundingBox(),side=Math.min(b.width,b.height),x=b.x+(b.width-side)/2,y=b.y+(b.height-side)/2;
+    return [x+side*(1/16+u/200*7/8),y+side*(1/16+v/200*7/8)];};
   await page.mouse.click(...await pointAt(100,110));
   await expect(modal.getByRole('button',{name:/^Body/})).toHaveAttribute('aria-pressed','true');
   // Hovering a part shows a hand cursor and the outline overlay; outside the shirt it does not.
@@ -577,4 +585,101 @@ test('the collection tray downloads queued kits as sized PNGs or one ZIP',async(
   expect(bytes.subarray(0,2).toString()).toBe('PK');
   expect(bytes.toString('latin1')).toContain('arsenal');
   expect(bytes.toString('latin1')).toContain('chelsea');
+});
+
+test('catalog tabs show competitions in a sortable, searchable table; selected shirts go to the collection',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('link',{name:/Catalog/}).click();
+  const table=page.getByRole('table',{name:'Premier League'});
+  await expect(table.locator('tbody tr')).toHaveCount(40);
+  // Shirt pictures render as rows come into view.
+  await expect(table.locator('.kit-thumb[data-state="ready"]').first()).toBeVisible();
+  // Search across team, brand, colors.
+  await page.getByLabel('Search Premier League').fill('Bournemouth');
+  await expect(table.locator('tbody tr')).toHaveCount(2);
+  await page.getByLabel('Search Premier League').fill('Hummel');
+  const hummel=table.locator('tbody tr');
+  expect(await hummel.count()).toBeGreaterThan(0);
+  for(const text of await hummel.allInnerTexts())expect(text).toContain('Hummel');
+  await page.getByLabel('Search Premier League').fill('');
+  // Sorting by team, descending.
+  await table.getByRole('button',{name:'Team'}).click();
+  await table.getByRole('button',{name:'Team'}).click();
+  await expect(table.locator('th[aria-sort="descending"]')).toHaveCount(1);
+  const names=await table.locator('.cell-team strong').allInnerTexts();
+  expect(names).toEqual([...names].sort((a,b)=>b.localeCompare(a)));
+  // Switching tabs changes the competition and clears the selection.
+  await page.getByRole('tab',{name:'Romania'}).click();
+  const liga=page.getByRole('table',{name:'SuperLiga'});
+  await expect(liga.locator('tbody tr')).toHaveCount(32);
+  // Shirts that are not ready cannot be selected.
+  await expect(liga.locator('tr.unavailable input[type="checkbox"]').first()).toBeDisabled();
+  // Selecting more than the free slots is refused, never truncated.
+  await liga.getByRole('checkbox',{name:'Select all'}).check();
+  await expect(page.getByRole('button',{name:/^Add \d+ to collection$/})).toBeDisabled();
+  await liga.getByRole('checkbox',{name:'Select all'}).uncheck();
+  const rows=liga.locator('tbody tr:not(.unavailable)');
+  for(let i=0;i<3;i++)await rows.nth(i).getByRole('checkbox').check();
+  await expect(page.getByText('3 selected · 10 of 10 collection slots free')).toBeVisible();
+  await page.getByRole('button',{name:'Add 3 to collection'}).click();
+  const tray=page.getByRole('region',{name:'Collection'});
+  await expect(tray.locator('.collection-item')).toHaveCount(3);
+  await expect(page.getByRole('status')).toContainText('3 shirts added');
+  await expect(liga.locator('tr.selected')).toHaveCount(0);
+  await expect(page.getByText('0 selected · 7 of 10 collection slots free')).toBeVisible();
+});
+
+test('routes: pages are children of the layout, the URL follows the kit and competition, breadcrumbs match',async({page})=>{
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/studio$/);
+  await expect(page.locator('.breadcrumb')).toHaveText('Studio');
+  // Choosing a team and variant updates the URL and breadcrumb.
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await page.getByRole('button',{name:/Arsenal England/}).click();
+  await expect(page).toHaveURL(/\/studio\/team_6c3ac1a8babfe2f2338b\/home$/);
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(page).toHaveURL(/\/away$/);
+  await expect(page.locator('.breadcrumb li')).toHaveText(['Studio','England','Arsenal','Away']);
+  await expect(page.locator('.breadcrumb [aria-current="page"]')).toHaveText('Away');
+  // Catalog routes, breadcrumb links and browser history.
+  await page.getByRole('link',{name:/Catalog/}).click();
+  await expect(page).toHaveURL(/\/catalog\/england\/premier-league$/);
+  await expect(page.locator('.breadcrumb li')).toHaveText(['Catalog','England','Premier League']);
+  await page.getByRole('tab',{name:/EFL Championship/}).click();
+  await expect(page).toHaveURL(/\/catalog\/england\/efl-championship$/);
+  await page.goBack();
+  await expect(page).toHaveURL(/\/premier-league$/);
+  await page.goBack();
+  await expect(page).toHaveURL(/\/away$/);
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Arsenal away shirt');
+  // Deep links open directly; unknown ones fall back to a valid page.
+  await page.goto('/catalog/romania/liga-ii');
+  await expect(page.getByRole('table',{name:'Liga II'})).toBeVisible();
+  await page.goto('/catalog/nowhere');
+  await expect(page).toHaveURL(/\/catalog\/england\/premier-league$/);
+  await page.goto('/studio/team_6c3ac1a8babfe2f2338b/away');
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Arsenal away shirt');
+  await page.goto('/studio/team_missing/home');
+  await expect(page).toHaveURL(/\/studio$/);
+  await page.goto('/anything-else');
+  await expect(page).toHaveURL(/\/studio$/);
+});
+
+test('the sidebar is fixed at the left edge, collapses to icons (remembered) and shows the demo account',async({page})=>{
+  await page.goto('/studio');
+  const rail=page.locator('.rail');
+  let box=await rail.boundingBox();
+  expect([box.x,box.y,box.width]).toEqual([0,0,280]);
+  await expect(page.getByRole('button',{name:'Account: Demo reviewer'})).toBeVisible();
+  await page.getByRole('button',{name:'Collapse sidebar'}).click();
+  await expect.poll(async()=>(await rail.boundingBox()).width).toBe(72);
+  await expect(page.locator('.rail .rail-text').first()).toBeHidden();
+  await expect(page.getByRole('link',{name:'Catalog'})).toBeVisible();
+  await page.reload();
+  await expect.poll(async()=>(await rail.boundingBox()).width).toBe(72);
+  // The account stays pinned to the bottom of the rail.
+  const account=await page.getByRole('button',{name:'Account: Demo reviewer'}).boundingBox();
+  expect(account.y+account.height).toBeGreaterThan(page.viewportSize().height-40);
+  await page.getByRole('button',{name:'Expand sidebar'}).click();
+  await expect.poll(async()=>(await rail.boundingBox()).width).toBe(280);
 });

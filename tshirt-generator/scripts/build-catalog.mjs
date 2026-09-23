@@ -167,6 +167,32 @@ const manifest = {
   teams: manifestTeams,
 };
 await fs.writeFile("public/catalog/manifest.json", JSON.stringify(manifest));
+// Catalog tabs: competitions grouped by country (plus UEFA), with each kit's display facts.
+const competitions = await read("data/normalized/competitions.json"),
+  memberships = await read("data/normalized/memberships.json");
+const groups = [];
+for (const c of competitions) {
+  const groupName = c.scope === "UEFA" ? "UEFA" : c.country_or_system;
+  let group = groups.find((g) => g.name === groupName);
+  if (!group) groups.push((group = { id: groupName.toLowerCase().replace(/[^a-z0-9]+/g, "-"), name: groupName, competitions: [] }));
+  const slug = c.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  if (group.competitions.some((x) => x.slug === slug)) throw Error(`Duplicate competition slug in ${groupName}: ${slug}`);
+  group.competitions.push({
+    id: c.id,
+    slug,
+    name: c.name,
+    season: c.season,
+    tier: c.tier,
+    team_ids: memberships.filter((m) => m.competition_id === c.id).map((m) => m.team_id),
+  });
+}
+for (const g of groups) g.competitions.sort((a, b) => (a.tier ?? 0) - (b.tier ?? 0));
+const kitFacts = (k) => k ? { season: k.season ?? null, brand: k.brand ?? null, colors: k.colors ?? [], design: k.design ?? null } : null;
+const facts = Object.fromEntries([...new Set(memberships.map((m) => m.team_id))].map((id) => {
+  const kits = equipmentTeams.get(id)?.kits;
+  return [id, { home: kitFacts(kits?.home), away: kitFacts(kits?.away) }];
+}));
+await fs.writeFile("public/catalog/competitions.json", JSON.stringify({ schemaVersion: 1, groups, facts }));
 await fs.writeFile(configLockPath, JSON.stringify(Object.fromEntries(Object.entries(configLock).sort()), null, 2) + "\n");
 await fs.writeFile("starter/shirt-svg/base.svg", renderShirt(neutralConfig()));
 await fs.writeFile(
