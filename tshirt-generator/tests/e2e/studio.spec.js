@@ -503,51 +503,50 @@ test('edit mode fixes the view, selects parts by clicking the shirt, and keeps s
   expect(await canvas.evaluate(c=>c.toDataURL())).toBe(original);
 });
 
-test('each shirt has its own 1-5 star rating, one-time approval and denial notes, kept across reloads',async({page})=>{
+test('stars review each shirt: 4-5 is perfect, 1-3 opens feedback; badges and reloads follow',async({page})=>{
   await page.goto('/');
-  const approve=page.getByRole('checkbox'),stars=page.getByRole('radiogroup',{name:'Rating'});
+  const stars=page.getByRole('radiogroup',{name:'Rating'}),status=page.locator('.review-status'),feedback=page.locator('.feedback-form');
   // Without a kit there is nothing to review.
-  await expect(approve).toBeDisabled();
-  // Sample JSON: Arsenal Home approved with 5 stars, Leeds Home denied with a note.
+  await expect(stars.getByRole('radio').first()).toBeDisabled();
+  // Sample JSON: Arsenal Home 5 stars (perfect), Leeds Home 3 stars with feedback.
   await page.getByLabel('Team',{exact:true}).fill('Arsenal');
   await page.getByRole('button',{name:/Arsenal England/}).click();
-  await expect(approve).toBeChecked();
-  await expect(approve).toBeDisabled();
-  await expect(page.getByText('Approved (sample)')).toBeVisible();
+  await expect(status).toHaveText('✓ Perfect (sample)');
   await expect(stars.getByRole('radio',{name:'5 stars'})).toHaveAttribute('aria-checked','true');
+  await expect(feedback).toHaveCount(0);
+  await expect(page.locator('.team-row',{hasText:'Arsenal'}).locator('.team-badge')).toHaveAttribute('aria-label','1 of 2 shirts rated perfect');
   await page.getByLabel('Team',{exact:true}).fill('Leeds United');
   await page.getByRole('button',{name:/Leeds United England/}).click();
-  await expect(page.locator('.deny-note')).toContainText('shoulder tapes look too thin');
-  // Team badges in the list come from the shirt reviews.
-  await expect(page.locator('.team-row',{hasText:'Leeds United'}).locator('.team-badge.denied')).toContainText('★ 3');
-  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
-  await expect(page.locator('.team-row',{hasText:'Arsenal'}).locator('.team-badge')).toHaveAttribute('aria-label','1 of 2 shirts approved');
-  // A kit nobody reviewed: rate it, try to deny without a note, then approve once.
+  await expect(status).toHaveText('Needs changes (sample)');
+  await expect(feedback.locator('textarea')).toHaveValue(/shoulder tapes look too thin/);
+  await expect(page.locator('.team-row',{hasText:'Leeds United'}).locator('.team-badge.needs-changes')).toContainText('★ 3');
+  // An unreviewed shirt: 2 stars opens the feedback box; saving keeps the note.
   await page.getByLabel('Team',{exact:true}).fill('Chelsea');
   await page.getByRole('button',{name:/Chelsea England/}).click();
-  await expect(approve).not.toBeChecked();
+  await expect(status).toHaveText('Not rated yet');
+  await stars.getByRole('radio',{name:'2 stars'}).click();
+  await expect(status).toHaveText('Needs changes');
+  await expect(page.getByRole('button',{name:'Save feedback'})).toBeDisabled();
+  await feedback.locator('textarea').fill('Collar should be navy');
+  await page.getByRole('button',{name:'Save feedback'}).click();
+  await expect(feedback).toContainText('Feedback saved');
+  await expect(page.locator('.team-row',{hasText:'Chelsea'}).locator('.team-badge.needs-changes')).toBeVisible();
+  // Raising it to 4 stars makes it perfect and hides the feedback box.
   await stars.getByRole('radio',{name:'4 stars'}).click();
-  await expect(stars.locator('button.on')).toHaveCount(4);
-  await page.getByRole('button',{name:'Deny',exact:true}).click();
-  await expect(page.getByRole('button',{name:'Save denial'})).toBeDisabled();
-  await page.getByRole('button',{name:'Cancel',exact:true}).click();
-  await approve.check();
-  await expect(approve).toBeDisabled();
-  // Away is a separate shirt with its own review.
+  await expect(status).toHaveText('✓ Perfect');
+  await expect(feedback).toHaveCount(0);
+  // Away is a separate shirt with its own rating.
   await page.getByRole('button',{name:'Away',exact:true}).click();
-  await expect(approve).not.toBeChecked();
-  await expect(stars.locator('button.on')).toHaveCount(0);
-  await page.getByRole('button',{name:'Deny',exact:true}).click();
-  await page.getByPlaceholder(/shoulder stripes/).fill('Collar should be navy');
-  await page.getByRole('button',{name:'Save denial'}).click();
-  await expect(page.locator('.deny-note')).toContainText('Collar should be navy');
-  await expect(page.getByRole('button',{name:'Denied',exact:true})).toBeVisible();
-  await expect(page.locator('.team-row',{hasText:'Chelsea'}).locator('.team-badge.denied')).toContainText('★ 4');
+  await expect(status).toHaveText('Not rated yet');
+  await stars.getByRole('radio',{name:'1 star'}).click();
+  await feedback.locator('textarea').fill('Wrong sleeve color');
+  await page.getByRole('button',{name:'Save feedback'}).click();
   // Saved in this browser: still there after a reload.
   await page.reload();
-  await expect(page.locator('.deny-note')).toContainText('Collar should be navy');
+  await expect(status).toHaveText('Needs changes');
+  await expect(feedback.locator('textarea')).toHaveValue('Wrong sleeve color');
   await page.getByRole('button',{name:'Home',exact:true}).click();
-  await expect(approve).toBeChecked();
+  await expect(status).toHaveText('✓ Perfect');
   await expect(stars.locator('button.on')).toHaveCount(4);
 });
 
@@ -629,16 +628,15 @@ test('catalog tabs show competitions in a sortable, searchable table; selected s
   await expect(page.getByText('0 selected · 7 of 10 collection slots free')).toBeVisible();
 });
 
-test('routes: pages are children of the layout, the URL follows the kit and competition, breadcrumbs match',async({page})=>{
+test('routes: Studio is one page, catalog tabs have paths, breadcrumbs follow what is shown',async({page})=>{
   await page.goto('/');
   await expect(page).toHaveURL(/\/studio$/);
   await expect(page.locator('.breadcrumb')).toHaveText('Studio');
-  // Choosing a team and variant updates the URL and breadcrumb.
+  // Choosing a team or variant changes the breadcrumb, not the URL (no history entry per click).
   await page.getByLabel('Team',{exact:true}).fill('Arsenal');
   await page.getByRole('button',{name:/Arsenal England/}).click();
-  await expect(page).toHaveURL(/\/studio\/team_6c3ac1a8babfe2f2338b\/home$/);
   await page.getByRole('button',{name:'Away',exact:true}).click();
-  await expect(page).toHaveURL(/\/away$/);
+  await expect(page).toHaveURL(/\/studio$/);
   await expect(page.locator('.breadcrumb li')).toHaveText(['Studio','England','Arsenal','Away']);
   await expect(page.locator('.breadcrumb [aria-current="page"]')).toHaveText('Away');
   // Catalog routes, breadcrumb links and browser history.
@@ -650,27 +648,44 @@ test('routes: pages are children of the layout, the URL follows the kit and comp
   await page.goBack();
   await expect(page).toHaveURL(/\/premier-league$/);
   await page.goBack();
-  await expect(page).toHaveURL(/\/away$/);
+  await expect(page).toHaveURL(/\/studio$/);
   await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Arsenal away shirt');
-  // Deep links open directly; unknown ones fall back to a valid page.
+  // A refresh reopens the same kit.
+  await page.reload();
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Arsenal away shirt');
+  // Deep catalog links open directly; unknown paths fall back to a valid page.
   await page.goto('/catalog/romania/liga-ii');
   await expect(page.getByRole('table',{name:'Liga II'})).toBeVisible();
   await page.goto('/catalog/nowhere');
   await expect(page).toHaveURL(/\/catalog\/england\/premier-league$/);
-  await page.goto('/studio/team_6c3ac1a8babfe2f2338b/away');
-  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Arsenal away shirt');
-  await page.goto('/studio/team_missing/home');
-  await expect(page).toHaveURL(/\/studio$/);
-  await page.goto('/anything-else');
+  await page.goto('/studio/some/old/link');
   await expect(page).toHaveURL(/\/studio$/);
 });
 
-test('the sidebar is fixed at the left edge, collapses to icons (remembered) and shows the demo account',async({page})=>{
+test('switching teams does not flicker the buttons',async({page})=>{
+  await page.goto('/studio');
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await page.getByRole('button',{name:/Arsenal England/}).click();
+  await expect(page.locator('.shirt-image')).toHaveAttribute('data-render-state','ready');
+  // Record any moment the Add / Edit buttons become disabled while switching kits.
+  await page.evaluate(()=>{
+    window.__flicker=0;
+    const watch=el=>new MutationObserver(()=>{if(el.disabled)window.__flicker++;}).observe(el,{attributes:true,attributeFilter:['disabled']});
+    watch(document.querySelector('.add-button'));watch(document.querySelector('.edit-toggle'));
+  });
+  for(const v of ['Away','Home','Away'])await page.getByRole('button',{name:v,exact:true}).click();
+  await page.getByLabel('Team',{exact:true}).fill('Chelsea');
+  await page.getByRole('button',{name:/Chelsea England/}).click();
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','Chelsea home shirt');
+  expect(await page.evaluate(()=>window.__flicker)).toBe(0);
+});
+
+test('the sidebar is fixed at the left edge, collapses to icons (remembered) and shows the design team account',async({page})=>{
   await page.goto('/studio');
   const rail=page.locator('.rail');
   let box=await rail.boundingBox();
-  expect([box.x,box.y,box.width]).toEqual([0,0,280]);
-  await expect(page.getByRole('button',{name:'Account: Demo reviewer'})).toBeVisible();
+  expect([box.x,box.y,box.width]).toEqual([0,0,220]);
+  await expect(page.getByRole('button',{name:'Account: Design team'})).toBeVisible();
   await page.getByRole('button',{name:'Collapse sidebar'}).click();
   await expect.poll(async()=>(await rail.boundingBox()).width).toBe(72);
   await expect(page.locator('.rail .rail-text').first()).toBeHidden();
@@ -678,8 +693,41 @@ test('the sidebar is fixed at the left edge, collapses to icons (remembered) and
   await page.reload();
   await expect.poll(async()=>(await rail.boundingBox()).width).toBe(72);
   // The account stays pinned to the bottom of the rail.
-  const account=await page.getByRole('button',{name:'Account: Demo reviewer'}).boundingBox();
+  const account=await page.getByRole('button',{name:'Account: Design team'}).boundingBox();
   expect(account.y+account.height).toBeGreaterThan(page.viewportSize().height-40);
   await page.getByRole('button',{name:'Expand sidebar'}).click();
-  await expect.poll(async()=>(await rail.boundingBox()).width).toBe(280);
+  await expect.poll(async()=>(await rail.boundingBox()).width).toBe(220);
+});
+
+test('the view bar shows a live front thumbnail and marks side and ¾ views as coming soon',async({page})=>{
+  await page.goto('/studio');
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await page.getByRole('button',{name:/Arsenal England/}).click();
+  await expect(page.locator('.shirt-image')).toHaveAttribute('data-render-state','ready');
+  const views=page.getByRole('group',{name:'Shirt view'});
+  await expect(views.getByRole('button')).toHaveCount(3);
+  await expect(views.getByRole('button',{name:/Front/})).toHaveAttribute('aria-pressed','true');
+  await expect(views.getByRole('button',{name:/Side/})).toBeDisabled();
+  await expect(views.getByRole('button',{name:/¾/})).toBeDisabled();
+  // The front thumbnail copies the rendered shirt (red Arsenal body in its middle).
+  await expect.poll(()=>views.locator('.view-thumb').evaluate(c=>{const d=c.getContext('2d').getImageData(64,70,1,1).data;return d[0]>150&&d[1]<80;})).toBe(true);
+});
+
+test('canvas background: transparent shows a checkerboard, white is white, custom uses the picked color',async({page})=>{
+  await page.goto('/studio');
+  const canvas=page.locator('.canvas'),bg=()=>canvas.evaluate(e=>getComputedStyle(e).backgroundColor);
+  await expect(page.getByRole('button',{name:'Transparent background'})).toHaveAttribute('aria-pressed','true');
+  const checker=()=>canvas.evaluate(e=>getComputedStyle(e).backgroundImage);
+  expect(await checker()).toContain('linear-gradient');
+  await page.getByRole('button',{name:'White background'}).click();
+  expect(await bg()).toBe('rgb(255, 255, 255)');
+  expect(await checker()).toBe('none');
+  await expect(canvas).toHaveClass(/on-light/);
+  await page.getByLabel('Custom background color').fill('#3b1f57');
+  expect(await bg()).toBe('rgb(59, 31, 87)');
+  await expect(canvas).not.toHaveClass(/on-light/);
+  await page.getByLabel('Custom background color').fill('#f2c94c');
+  await expect(canvas).toHaveClass(/on-light/);
+  await page.getByRole('button',{name:'Transparent background'}).click();
+  expect(await checker()).toContain('linear-gradient');
 });

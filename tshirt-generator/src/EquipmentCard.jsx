@@ -8,8 +8,10 @@ export default function EquipmentCard({active,equipment,custom}) {
     ['Competitions',equipment?.competitions?.join(' · ')],['Release date',equipment?.release_date],
   ];
   return <section className="source-card equipment-card" aria-label="Applied kit details">
-    <span className="eyebrow">EQUIPMENT DETAILS</span>
-    <h3>{active ? `${active.variant==='home'?'Home':'Away'} kit` : 'Your kit details'}</h3>
+    <div className="candidate-heading">
+      <small className="eyebrow">EQUIPMENT DETAILS</small>
+      <h3>{active ? `${active.variant==='home'?'Home':'Away'} kit` : 'Your kit details'}</h3>
+    </div>
     {active ? <>
       {custom && <p className="equipment-custom">Custom colors preview · facts below describe the saved team kit.</p>}
       <dl>{fields.map(([label,value])=><div key={label}><dt>{label}</dt><dd className={value?'':'not-listed'}>{value || (equipment?.source && (equipment.extended_fields_checked || !['Sponsor','Competitions','Release date'].includes(label))?'Not listed':'Not researched')}</dd></div>)}</dl>

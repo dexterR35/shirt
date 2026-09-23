@@ -9,8 +9,7 @@ import "./styles.css";
 
 /**
  * App is the layout (fixed sidebar, collection tray, shared state); pages are its children.
- *   /studio                          plain base shirt
- *   /studio/:teamId/:variant         a team's Home or Away kit
+ *   /studio                          the studio (the chosen kit lives in app state)
  *   /catalog/:groupId/:competition   competition table (defaults filled in by the page)
  */
 const router = createBrowserRouter([
@@ -19,7 +18,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Navigate to="/studio" replace /> },
-      { path: "studio/:teamId?/:variant?", element: <StudioPage /> },
+      { path: "studio", element: <StudioPage /> },
       { path: "catalog/:groupId?/:competitionSlug?", element: <CatalogPage /> },
       { path: "*", element: <Navigate to="/studio" replace /> },
     ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "note": "Sample review data until Supabase. One record per exact kit version: <team_id>:<variant>:<revision>:<png_layout_revision>. status is pending, approved (one-time) or denied (notes say what to fix). rating is 1-5 or null. Records marked sample are placeholders, not real human reviews.",
+  "note": "Sample review data until Supabase. One record per exact kit version: <team_id>:<variant>:<revision>:<png_layout_revision>. rating is 1-5 or null: 4-5 stars = perfect, 1-3 stars = needs changes (notes say what to fix). Records marked sample are placeholders, not real human reviews.",
   "reviews": {
     "team_6c3ac1a8babfe2f2338b:home:r001:p002": {
       "team_id": "team_6c3ac1a8babfe2f2338b",
@@ -8,7 +8,6 @@
       "variant": "home",
       "revision": "r001",
       "layout_revision": "p002",
-      "status": "approved",
       "rating": 5,
       "notes": "",
       "reviewed_by": "sample-data",
@@ -21,7 +20,6 @@
       "variant": "home",
       "revision": "r001",
       "layout_revision": "p001",
-      "status": "denied",
       "rating": 3,
       "notes": "Sample note: shoulder tapes look too thin compared with the reference photo.",
       "reviewed_by": "sample-data",

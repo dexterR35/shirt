@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router";
 import Icon from "./Icon.jsx";
-import {loadReviews, saveReview, reviewKey, emptyReview} from "./lib/reviews.js";
+import {loadReviews, saveReview, reviewKey, emptyReview, reviewStatus} from "./lib/reviews.js";
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
 import {partAt, visiblePartIds} from "./lib/png-preview.js";
 import {useZoom} from "./lib/use-zoom.js";
@@ -15,6 +15,14 @@ import {
 } from "./lib/catalog.js";
 import {EXPORT_SIZES, renderPng, exportFilename, zipFiles} from "./lib/export.js";
 
+const VIEW_KEY = "tshirt-studio:view";
+/** Remember the shown team/variant for this browser tab, so a refresh reopens it. */
+function readView() {
+  try { return JSON.parse(sessionStorage.getItem(VIEW_KEY)); } catch { return null; }
+}
+function saveView(view) {
+  try { sessionStorage.setItem(VIEW_KEY, JSON.stringify(view)); } catch { /* optional */ }
+}
 const RAIL_KEY = "tshirt-studio:rail-collapsed";
 function readRailCollapsed() {
   try { return localStorage.getItem(RAIL_KEY) === "1"; } catch { return false; }
@@ -49,8 +57,7 @@ export default function App() {
     [visibleIds, setVisibleIds] = useState(null),
     [hoverPart, setHoverPart] = useState(null),
     [reviews, setReviews] = useState({}),
-    [denyOpen, setDenyOpen] = useState(false),
-    [denyNote, setDenyNote] = useState(""),
+    [feedback, setFeedback] = useState(""),
     [queueOpen, setQueueOpen] = useState(false),
     [exportSize, setExportSize] = useState(2048),
     [exporting, setExporting] = useState(""),
@@ -58,7 +65,8 @@ export default function App() {
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState(""),
-    [background, setBackground] = useState("grid"),
+    [background, setBackground] = useState("transparent"),
+    [customBg, setCustomBg] = useState("#1f3b57"),
     [railCollapsed, setRailCollapsed] = useState(readRailCollapsed);
   const location = useLocation(),
     navigate = useNavigate(),
@@ -68,6 +76,12 @@ export default function App() {
     // Saved color edits per kit: kept in memory until the page is refreshed.
     savedEdits = useRef(new Map());
   const zoom = useZoom();
+  // Messages close by themselves after a few seconds.
+  useEffect(() => {
+    if (!notice) return;
+    const timer = setTimeout(() => setNotice(""), 5000);
+    return () => clearTimeout(timer);
+  }, [notice]);
   useEffect(() => {
     loadReviews().then(setReviews, () => {});
   }, []);
@@ -75,7 +89,13 @@ export default function App() {
     let alive = true;
     json("/catalog/manifest.json")
       .then((data) => {
-        if (alive) setCatalog(data);
+        if (alive) {
+          setCatalog(data);
+          // Reopen the kit this tab was showing before a refresh.
+          const view = readView(),
+            team = data.teams.find((t) => t.id === view?.team_id);
+          if (team && ["home", "away"].includes(view.variant)) show(team, view.variant);
+        }
       })
       .catch((e) => alive && setLoadError(e.message));
     return () => {
@@ -116,12 +136,13 @@ export default function App() {
       return false;
     }
   }
-  function openDeny() {
-    setDenyNote(review?.status === "denied" ? review.notes : "");
-    setDenyOpen(true);
-  }
-  function deny() {
-    if (updateReview({status: "denied", notes: denyNote.trim()})) setDenyOpen(false);
+  // The feedback box always starts from the saved notes of the shirt on screen.
+  const savedNotes = review?.notes ?? "";
+  useEffect(() => {
+    setFeedback(savedNotes);
+  }, [active && reviewKey(active), savedNotes]); // eslint-disable-line react-hooks/exhaustive-deps
+  function saveFeedback() {
+    updateReview({notes: feedback.trim()});
   }
   const missing = !active && candidate && slot?.status !== "ready";
   const selectedIndex = active
@@ -132,6 +153,7 @@ export default function App() {
     setCandidateId(team.id);
     setVariant(v);
     setNotice("");
+    saveView({team_id: team.id, variant: v});
     if (team.kits[v].status === "ready") void activate(kitItem(team, v), {syncUrl: false});
     else master();
   }
@@ -139,8 +161,9 @@ export default function App() {
     const sequence = ++request.current;
     setCandidateId(item.team_id);
     setVariant(item.variant);
-    // Kits opened from the collection also move the URL (and Catalog → Studio).
-    if (syncUrl) navigate(`/studio/${item.team_id}/${item.variant}`);
+    // A kit opened from the collection while on another page switches to the Studio.
+    if (syncUrl && !window.location.pathname.startsWith("/studio")) navigate("/studio");
+    saveView({team_id: item.team_id, variant: item.variant});
     controller.current?.abort();
     controller.current = new AbortController();
     setBusy(true);
@@ -152,7 +175,6 @@ export default function App() {
         setAppliedConfig(saved.config);
         setEquipment(saved.equipment);
         setEditing(false);
-        setDenyOpen(false);
       }
     } catch (e) {
       if (e.name !== "AbortError" && request.current === sequence)
@@ -225,29 +247,9 @@ export default function App() {
     if (index === selectedIndex && next.length)
       void activate(next[Math.min(index, next.length - 1)]);
   }
-  /** A click in the Studio: select immediately, then record it in the URL. */
+  /** A click in the Studio (team row or Home/Away). */
   function select(team, v) {
     show(team, v);
-    navigate(`/studio/${team.id}/${v}`);
-  }
-  /** Open what the Studio URL names: /studio (plain base) or /studio/:teamId/:variant. */
-  function openRoute(teamId, v) {
-    if (!catalog) return;
-    if (!teamId) {
-      if (candidateId) {
-        setCandidateId("");
-        setVariant("home");
-        master();
-      }
-      return;
-    }
-    const team = catalog.teams.find((t) => t.id === teamId);
-    if (!team || !["home", "away"].includes(v)) {
-      setNotice("That team or kit is not in the catalog.");
-      navigate("/studio", {replace: true});
-      return;
-    }
-    if (team.id !== candidateId || v !== variant) show(team, v);
   }
   function toggleRail() {
     setRailCollapsed((c) => {
@@ -262,10 +264,10 @@ export default function App() {
     setAppliedConfig(null);
     setEquipment(null);
     setEditing(false);
-    setDenyOpen(false);
     setBusy(false);
   }
   function startEdit() {
+    if (busy) return;
     zoom.center();
     setDraft({...(savedEdits.current.get(editKey) || {})});
     setSelectedPart(allParts[0]?.id || "");
@@ -305,10 +307,10 @@ export default function App() {
   }
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
-    catalog, openRoute, select, addMany, activate, active, add, background, busy, cancelEdit, candidate, candidateId,
-    country, deny, denyNote, denyOpen, draft, editBase, edited, editing, equipment, filtered, hoverOver,
-    hoverPart, missing, openDeny, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,
-    selectedIndex, selectedPart, selection, setBackground, setCountry, setDenyNote, setDenyOpen, setDraft,
+    catalog, select, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
+    country, feedback, setFeedback, saveFeedback, reviewStatus, draft, editBase, edited, editing, equipment, filtered, hoverOver,
+    hoverPart, missing, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,
+    selectedIndex, selectedPart, selection, setBackground, setCountry, setDraft,
     setHoverPart, setQuery, setSelectedPart, slot, startEdit, updateReview, variant, zoom,
   };
   if (loadError)
@@ -333,7 +335,7 @@ export default function App() {
     <div className={`app ${section === "studio" ? "fit" : ""} ${railCollapsed ? "rail-collapsed" : ""}`}>
       <header className="header rail">
         <div className="rail-top">
-          <Link to={candidateId ? `/studio/${candidateId}/${variant}` : "/studio"} className="brand" title="T-shirt Generator">
+          <Link to="/studio" className="brand" title="T-shirt Generator">
             <span className="brand-mark">
               <Icon name="shirt" size={25} />
             </span>
@@ -341,18 +343,10 @@ export default function App() {
               T-shirt Generator<small>FOOTBALL KIT STUDIO</small>
             </span>
           </Link>
-          <button
-            className="rail-toggle"
-            aria-label={railCollapsed ? "Expand sidebar" : "Collapse sidebar"}
-            aria-expanded={!railCollapsed}
-            onClick={toggleRail}
-          >
-            <Icon name={railCollapsed ? "right" : "left"} size={16} />
-          </button>
         </div>
         <nav aria-label="Workspace">
           <Link
-            to={candidateId ? `/studio/${candidateId}/${variant}` : "/studio"}
+            to="/studio"
             className={section === "studio" ? "nav-active" : ""}
             aria-current={section === "studio" ? "page" : undefined}
             title="Studio"
@@ -375,11 +369,20 @@ export default function App() {
           <span className="live-dot" />
           2026 / 27 COLLECTION
         </div>
-        <button className="account" title="Demo account (sign-in comes later)" aria-label="Account: Demo reviewer">
-          <span className="account-avatar">DR</span>
+        <button
+          className="rail-toggle"
+          aria-label={railCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+          aria-expanded={!railCollapsed}
+          onClick={toggleRail}
+        >
+          <Icon name={railCollapsed ? "right" : "left"} size={15} />
+          <span className="rail-text">Collapse</span>
+        </button>
+        <button className="account" title="Design team · local session (sign-in comes later)" aria-label="Account: Design team">
+          <span className="account-avatar">DT</span>
           <span className="account-text rail-text">
-            <strong>Demo reviewer</strong>
-            <small>Local session · not signed in</small>
+            <strong>Design team</strong>
+            <small>Local session · not logged in</small>
           </span>
         </button>
       </header>
@@ -419,7 +422,7 @@ export default function App() {
                       className={`collection-item ${selectedIndex === i ? "current" : ""}`}
                       key={revisionKey(item)}
                     >
-                      <button onClick={() => activate(item)} disabled={busy}>
+                      <button onClick={() => activate(item)}>
                         <Icon name="shirt" size={22} />
                         <span>
                           <strong>{item.team_name}</strong>

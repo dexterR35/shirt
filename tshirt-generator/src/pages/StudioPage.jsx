@@ -1,5 +1,6 @@
-import { useEffect } from "react";
-import { useOutletContext, useParams } from "react-router";
+import { useState } from "react";
+import { useOutletContext } from "react-router";
+import ShirtViews from "../ShirtViews.jsx";
 import PngShirtPreview from "../PngShirtPreview.jsx";
 import Icon from "../Icon.jsx";
 import Modal from "../Modal.jsx";
@@ -9,28 +10,25 @@ import PageHeader from "../PageHeader.jsx";
 import { teamReviewSummary } from "../lib/reviews.js";
 import { ZOOM_MIN, ZOOM_MAX } from "../lib/use-zoom.js";
 
-/** Team review badge in the list: ✓ both shirts approved, ! a shirt denied, plus average stars. */
+/** Relative luminance (0–1) of a #rrggbb color, to keep caption text readable. */
+function luminance(hex) {
+  const [r, g, b] = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/** Team review badge in the list: the average stars of its rated Home and Away shirts; the status is in the tooltip. */
 function TeamBadge({ summary }) {
   if (!summary) return null;
   return (
     <span className={`team-badge ${summary.status}`} title={summary.label} aria-label={summary.label}>
-      {summary.status === "approved" && <span className="team-badge-mark">✓</span>}
-      {summary.status === "denied" && <span className="team-badge-mark">!</span>}
-      {summary.rating !== null && <span>★ {summary.rating}</span>}
+      ★ {summary.rating}
     </span>
   );
 }
 
-/**
- * Studio page (/studio, /studio/:teamId/:variant). The URL is the source of truth
- * for the shown kit; the layout (App) owns the state shared with other pages.
- */
+/** Studio page (/studio). The layout (App) owns the selected kit and all shared state. */
 export default function StudioPage() {
   const ctx = useOutletContext();
-  const { teamId, variant: routeVariant } = useParams();
-  useEffect(() => {
-    ctx.openRoute(teamId, routeVariant);
-  }, [teamId, routeVariant, ctx.catalog]); // eslint-disable-line react-hooks/exhaustive-deps
   const {
     activate,
     active,
@@ -42,10 +40,11 @@ export default function StudioPage() {
     candidateId,
     catalog,
     country,
-    deny,
-    denyNote,
-    denyOpen,
     draft,
+    feedback,
+    setFeedback,
+    saveFeedback,
+    reviewStatus,
     editBase,
     edited,
     editing,
@@ -54,7 +53,6 @@ export default function StudioPage() {
     hoverOver,
     hoverPart,
     missing,
-    openDeny,
     part,
     parts,
     pickPart,
@@ -67,9 +65,9 @@ export default function StudioPage() {
     selectedPart,
     selection,
     setBackground,
+    customBg,
+    setCustomBg,
     setCountry,
-    setDenyNote,
-    setDenyOpen,
     setDraft,
     setHoverPart,
     setQuery,
@@ -80,11 +78,12 @@ export default function StudioPage() {
     variant,
     zoom,
   } = ctx;
+  const [view, setView] = useState("front");
   const crumbs = [{ label: "Studio", to: "/studio" }];
   if (candidate)
     crumbs.push(
       { label: candidate.country_name },
-      { label: candidate.name, to: `/studio/${candidate.id}/home` },
+      { label: candidate.name },
       { label: variant === "home" ? "Home" : "Away" },
     );
   return (
@@ -205,37 +204,57 @@ export default function StudioPage() {
             <button
               className="secondary add-button"
               onClick={add}
-              disabled={slot?.status !== "ready" || busy}
+              disabled={slot?.status !== "ready"}
             >
               <Icon name="plus" size={14} />
               Add to collection
             </button>
           </div>
-          <div className={`canvas ${background}`}>
+          <div
+            className={`canvas ${background} ${background === "white" || (background === "custom" && luminance(customBg) > 0.55) ? "on-light" : ""}`}
+            style={background === "custom" ? { backgroundColor: customBg } : undefined}
+          >
             <div className="canvas-topline">
               <button
                 className={`edit-toggle ${editing ? "active" : ""} ${edited && !editing ? "edited" : ""}`}
                 aria-pressed={editing}
                 title={edited ? "Colors edited · not the saved team kit" : "Edit colors"}
                 onClick={editing ? cancelEdit : startEdit}
-                disabled={busy}
               >
                 <Icon name="edit" size={13} />
                 Edit
               </button>
-              <div
-                className="background-controls"
-                aria-label="Preview background"
-              >
-                {["grid", "light", "dark"].map((b) => (
-                  <button
-                    key={b}
-                    className={`${b} ${background === b ? "active" : ""}`}
-                    aria-label={`${b} background`}
-                    aria-pressed={background === b}
-                    onClick={() => setBackground(b)}
+              <div className="background-controls" role="group" aria-label="Preview background">
+                <button
+                  className={`transparent ${background === "transparent" ? "active" : ""}`}
+                  aria-label="Transparent background"
+                  title="Transparent"
+                  aria-pressed={background === "transparent"}
+                  onClick={() => setBackground("transparent")}
+                />
+                <button
+                  className={`white ${background === "white" ? "active" : ""}`}
+                  aria-label="White background"
+                  title="White"
+                  aria-pressed={background === "white"}
+                  onClick={() => setBackground("white")}
+                />
+                <label
+                  className={`custom ${background === "custom" ? "active" : ""}`}
+                  title="Custom color"
+                  style={{ background: customBg }}
+                >
+                  <input
+                    type="color"
+                    aria-label="Custom background color"
+                    value={customBg}
+                    onClick={() => setBackground("custom")}
+                    onChange={(e) => {
+                      setCustomBg(e.target.value);
+                      setBackground("custom");
+                    }}
                   />
-                ))}
+                </label>
               </div>
             </div>
             <div
@@ -279,6 +298,7 @@ export default function StudioPage() {
                 </span>
               )}
             </div>
+            <ShirtViews view={view} onSelect={setView} />
             <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
             {!editing && <div className="zoom-controls" aria-label="Zoom">
               <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
@@ -345,28 +365,36 @@ export default function StudioPage() {
             </Modal>
           )}
           <div className="preview-actions">
-            <div className="review-approve">
-              <label className={`approve-check ${review?.status === "approved" ? "approved" : ""}`}>
-                <input
-                  type="checkbox"
-                  checked={review?.status === "approved"}
-                  disabled={!review || review.status === "approved"}
-                  onChange={() => updateReview({status: "approved"})}
-                />
-                {review?.status === "approved" ? `Approved${review.sample ? " (sample)" : ""}` : "Approve"}
-              </label>
-              <button
-                className={`secondary deny-button ${review?.status === "denied" ? "denied" : ""}`}
-                disabled={!review}
-                onClick={openDeny}
-              >
-                {review?.status === "denied" ? "Denied" : "Deny"}
-              </button>
+            <div className="review-rating">
+              <div className="stars" role="radiogroup" aria-label="Rating">
+                {[1, 2, 3, 4, 5].map((n) => (
+                  <button
+                    key={n}
+                    role="radio"
+                    aria-checked={review?.rating === n}
+                    aria-label={`${n} star${n > 1 ? "s" : ""}`}
+                    className={n <= (review?.rating || 0) ? "on" : ""}
+                    disabled={!review}
+                    onClick={() => updateReview({rating: n})}
+                  >
+                    ★
+                  </button>
+                ))}
+              </div>
+              <div className={`review-status ${reviewStatus(review)}`} aria-live="polite">
+                {!review
+                  ? ""
+                  : reviewStatus(review) === "perfect"
+                    ? `✓ Perfect${review.sample ? " (sample)" : ""}`
+                    : reviewStatus(review) === "needs-changes"
+                      ? `Needs changes${review.sample ? " (sample)" : ""}`
+                      : "Not rated yet"}
+              </div>
             </div>
             <div className="pager">
               <button
                 aria-label="Previous kit"
-                disabled={selection.length < 2 || busy}
+                disabled={selection.length < 2}
                 onClick={() =>
                   activate(
                     selection[
@@ -386,7 +414,7 @@ export default function StudioPage() {
               </span>
               <button
                 aria-label="Next kit"
-                disabled={!selection.length || busy}
+                disabled={!selection.length}
                 onClick={() =>
                   activate(
                     selection[(selectedIndex + 1) % selection.length],
@@ -396,60 +424,28 @@ export default function StudioPage() {
                 <Icon name="right" size={17} />
               </button>
             </div>
-            <div className="stars" role="radiogroup" aria-label="Rating">
-              {[1, 2, 3, 4, 5].map((n) => (
-                <button
-                  key={n}
-                  role="radio"
-                  aria-checked={review?.rating === n}
-                  aria-label={`${n} star${n > 1 ? "s" : ""}`}
-                  className={n <= (review?.rating || 0) ? "on" : ""}
-                  disabled={!review}
-                  onClick={() => updateReview({rating: n})}
-                >
-                  ★
-                </button>
-              ))}
-            </div>
+            <span aria-hidden="true" />
           </div>
-          {denyOpen && review && (
-            <div className="deny-form">
+          {reviewStatus(review) === "needs-changes" && (
+            <div className="feedback-form">
               <label>
                 What needs to change on this shirt?
                 <textarea
-                  value={denyNote}
+                  value={feedback}
                   maxLength={2000}
                   rows={3}
                   placeholder="e.g. shoulder stripes too thin, collar should be navy…"
-                  onChange={(e) => setDenyNote(e.target.value)}
-                  autoFocus
+                  onChange={(e) => setFeedback(e.target.value)}
                 />
               </label>
-              <div className="deny-actions">
-                <button className="secondary" onClick={() => setDenyOpen(false)}>Cancel</button>
-                <button className="primary" disabled={!denyNote.trim()} onClick={deny}>Save denial</button>
+              <div className="feedback-actions">
+                <span>{feedback.trim() === (review.notes || "") ? (review.notes ? "Feedback saved" : "") : "Not saved yet"}</span>
+                <button className="primary" disabled={feedback.trim() === (review.notes || "")} onClick={saveFeedback}>
+                  Save feedback
+                </button>
               </div>
             </div>
           )}
-          {!denyOpen && review?.status === "denied" && (
-            <p className="deny-note">
-              <strong>Needs changes{review.sample ? " (sample)" : ""}:</strong> {review.notes}
-            </p>
-          )}
-          <div className="preview-notes">
-            <span>
-              <Icon name="check" size={14} />
-              Original PNG texture
-            </span>
-            <span>
-              <Icon name="check" size={14} />
-              No emblems or sponsors
-            </span>
-            <span>
-              <Icon name="check" size={14} />
-              Transparent edges
-            </span>
-          </div>
         </section>
         <aside className="details-panel">
           <EquipmentCard active={active} equipment={equipment} custom={edited}/>

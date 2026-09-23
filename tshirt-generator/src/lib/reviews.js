@@ -1,7 +1,8 @@
 /**
- * Kit reviews: 1–5 stars plus a one-time approval, or a denial with notes saying
- * what to fix. One record per exact kit version, so a corrected kit (new revision or
- * layout) needs a new review.
+ * Kit reviews are stars only: 4–5 ★ means the shirt is perfect; 1–3 ★ means it needs
+ * changes, described in the feedback notes; no stars means not reviewed yet.
+ * One record per exact kit version, so a corrected kit (new revision or layout)
+ * needs a new review.
  *
  * Storage today: sample JSON (public/reviews/kit-reviews.json) overlaid with this
  * browser's own changes in localStorage. Later, replace loadReviews/saveReview with
@@ -10,11 +11,16 @@
 
 const SEED_URL = "/reviews/kit-reviews.json";
 const STORAGE_KEY = "tshirt-studio:reviews";
-export const REVIEW_STATUSES = ["pending", "approved", "denied"];
+export const PERFECT_FROM = 4;
+
+/** Status derived from the stars: "pending" (none), "perfect" (4–5) or "needs-changes" (1–3). */
+export function reviewStatus(review) {
+  if (!review || review.rating === null || review.rating === undefined) return "pending";
+  return review.rating >= PERFECT_FROM ? "perfect" : "needs-changes";
+}
 
 /** @typedef {{team_id:string, team_name:string, variant:string, revision:string, layout_revision:string,
- *   status:"pending"|"approved"|"denied", rating:number|null, notes:string, reviewed_by:string,
- *   reviewed_at:string|null, sample?:boolean}} KitReview */
+ *   rating:number|null, notes:string, reviewed_by:string, reviewed_at:string|null, sample?:boolean}} KitReview */
 
 /** Key of the exact kit version shown: team, variant, revision and PNG layout. */
 export const reviewKey = (item) =>
@@ -23,12 +29,12 @@ export const reviewKey = (item) =>
 /** Runtime validation: reject anything that is not a well-formed review. */
 export function validateReview(r) {
   if (!r || typeof r !== "object") throw Error("Invalid review.");
-  if (!REVIEW_STATUSES.includes(r.status)) throw Error("Invalid review status.");
   if (r.rating !== null && !(Number.isInteger(r.rating) && r.rating >= 1 && r.rating <= 5))
     throw Error("Rating must be 1–5 stars.");
-  if (typeof r.notes !== "string" || r.notes.length > 2000) throw Error("Notes must be text up to 2000 characters.");
-  if (r.status === "denied" && !r.notes.trim()) throw Error("Say what needs to change before denying a kit.");
-  return r;
+  if (typeof r.notes !== "string" || r.notes.length > 2000) throw Error("Feedback must be text up to 2000 characters.");
+  // Older records carried a status; it is now derived from the stars.
+  const { status, ...review } = r; // eslint-disable-line no-unused-vars
+  return review;
 }
 
 /** A blank review for a kit that nobody has reviewed yet. */
@@ -39,7 +45,6 @@ export function emptyReview(item) {
     variant: item.variant,
     revision: item.revision,
     layout_revision: item.png_layout_revision || "original",
-    status: "pending",
     rating: null,
     notes: "",
     reviewed_by: "local",
@@ -88,23 +93,21 @@ export function saveReview(all, key, review) {
 }
 
 /**
- * A team's badge, derived from its current Home and Away shirt reviews (nothing extra
- * is stored). "approved" needs both shirts ready and approved; any denial wins.
- * @returns {{status:"approved"|"denied"|"reviewing", rating:number|null, label:string}|null}
+ * A team's badge, derived from its current Home and Away shirt ratings (nothing extra
+ * is stored). "perfect" needs both shirts ready and rated 4–5 ★; any 1–3 ★ wins.
+ * @returns {{status:"perfect"|"needs-changes"|"reviewing", rating:number|null, label:string}|null}
  */
 export function teamReviewSummary(team, reviews) {
   const shirts = ["home", "away"].map((variant) => {
     const slot = team.kits[variant];
     return slot?.status === "ready" ? reviews[reviewKey({ ...slot, team_id: team.id, variant })] || null : null;
   });
-  const reviewed = shirts.filter((r) => r && (r.status !== "pending" || r.rating !== null));
-  if (!reviewed.length) return null;
-  const ratings = reviewed.map((r) => r.rating).filter((n) => n !== null);
-  const rating = ratings.length ? Math.round((ratings.reduce((a, b) => a + b, 0) / ratings.length) * 10) / 10 : null;
-  if (reviewed.some((r) => r.status === "denied"))
-    return { status: "denied", rating, label: "A shirt needs changes" };
-  if (shirts.every((r) => r?.status === "approved"))
-    return { status: "approved", rating, label: "Home and Away approved" };
-  const approved = shirts.filter((r) => r?.status === "approved").length;
-  return { status: "reviewing", rating, label: `${approved} of 2 shirts approved` };
+  const rated = shirts.filter((r) => reviewStatus(r) !== "pending");
+  if (!rated.length) return null;
+  const rating = Math.round((rated.reduce((a, r) => a + r.rating, 0) / rated.length) * 10) / 10;
+  if (rated.some((r) => reviewStatus(r) === "needs-changes"))
+    return { status: "needs-changes", rating, label: "A shirt needs changes" };
+  if (shirts.every((r) => reviewStatus(r) === "perfect"))
+    return { status: "perfect", rating, label: "Home and Away rated perfect" };
+  return { status: "reviewing", rating, label: `${rated.length} of 2 shirts rated perfect` };
 }
