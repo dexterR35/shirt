@@ -14,7 +14,7 @@ The latest continuation compares all 42 remaining source-backed variants: 22 new
 
 ## Application
 
-React 19.3.0, React DOM 19.3.0, Vite 8.3.0, JavaScript/JSX and CSS, with a locked dependency tree. Dark navy responsive UI, country filter, accent-insensitive team search, separate candidate/applied state, Home/Away, Apply, one central PNG-based shirt, three preview backgrounds, ten-revision collection, previous/next and removal. Home/Away occupy separate collection slots. Missing configurations fail recoverably. Source details and research coverage are available in the UI. Download and ZIP controls are deferred pending the user's later sizing/export requirements.
+React 19.3.0, React DOM 19.3.0, Vite 8.3.0, JavaScript/JSX and CSS, with a locked dependency tree. Dark navy responsive UI, country filter, accent-insensitive team search, instant team/Home/Away display without an Apply step (missing variants show the plain base and a "not available yet" message; renders cached in memory, last view restored from sessionStorage), one central PNG-based shirt, three preview backgrounds, ten-revision collection, previous/next and removal. Home/Away occupy separate collection slots. Missing configurations fail recoverably. Research coverage is available in the Catalog tab. Download and ZIP controls are deferred pending the user's later sizing/export requirements.
 
 All 735 original identities, 39 countries/associations, 708 first teams, 27 reserve teams, 779 memberships, 16 workbook tabs, notes, links and hidden rows are preserved. Country names represent the supplied club catalog, not a newly researched set of national teams. No database, AI account or cloud service is required. The user's original base PNG loads once; kit configurations load on demand. Team reference photos and workbook audits are not shipped in the browser catalog. Font assets are local.
 
@@ -23,6 +23,8 @@ The shared renderer supports validated rectangles, polygons, cubic/quadratic/arc
 The generated per-kit SVG archive (`public/assets/shirts/`, 356 files, 317 MB) was removed at the user's request on 23 September 2026. The app never displayed it, it predated the PNG layout corrections, and it would otherwise have been deployed. Catalog entries no longer carry `svg_path` or an SVG hash. The files remain in git history; the vector renderer can still reproduce any revision from `data/kits`.
 
 ## Current replacement base — 23 September 2026
+
+Display loading (24 September 2026): the screen loads a lossless **2048 × 2048 WebP** crop of the shirt square (1.56 MB) instead of the 6.8 MB master. It is generated deterministically at build time, preloaded from `index.html`, decoded asynchronously, and cached as immutable on Vercel (`vercel.json`) together with the content-named 8K master, which the preview never downloads. A test verifies the copy's outline matches the master within 2 pixels.
 
 The current preview uses the **original high-resolution PNG**, not the softened vector reconstruction. `original-png-composite-1` keeps the 8000 × 5000 file byte-identical, overlays validated editable color/pattern geometry, multiplies source RGB by paint RGB, and retains original alpha. The original folds, stitching, round collar and texture remain. See [BASE_ANALYSIS](BASE_ANALYSIS.md).
 

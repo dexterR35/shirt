@@ -2,17 +2,40 @@ import { validateConfig } from './shirt-renderer.js';
 import { NEW_BASE_GEOMETRY } from './new-base-geometry.js';
 import { PNG_NECK_AREA, baseCollarPaint } from './png-collar.js';
 
+const SHA256 = '4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042';
+// 3779 source pixels cover y=2..198. Center x is 4000 source pixels.
+const SCALE = 3779 / 196, X = 4000 - 100 * SCALE, Y = 611 - 2 * SCALE;
+
 /** Source pixels are retained; this mapping only places editable 200-unit paint. */
 export const PNG_BASE = Object.freeze({
   version: 'original-png-composite-1',
-  path: '/assets/base/source.png',
+  // Content-named so a replaced master never reuses a cached URL.
+  path: `/assets/base/source-${SHA256.slice(0, 12)}.png`,
   width: 8000,
   height: 5000,
-  sha256: '4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042',
-  // 3779 source pixels cover y=2..198. Center x is 4000 source pixels.
-  scale: 3779 / 196,
-  x: 4000 - 100 * (3779 / 196),
-  y: 611 - 2 * (3779 / 196),
+  sha256: SHA256,
+  scale: SCALE,
+  x: X,
+  y: Y,
+});
+
+// Whole-pixel master region that contains the 200-unit square (and the whole shirt).
+const CROP_LEFT = Math.floor(X), CROP_TOP = Math.floor(Y),
+  CROP_SIDE = Math.max(Math.ceil(X + 200 * SCALE) - CROP_LEFT, Math.ceil(Y + 200 * SCALE) - CROP_TOP),
+  PREVIEW_SIZE = 2048, F = PREVIEW_SIZE / CROP_SIDE;
+
+/**
+ * Screen copy built from the master at build time: the square crop, resized to 2048.
+ * Display sizes never exceed 2048, so it looks identical while loading far less.
+ * x/y/span locate the 200-unit square inside the preview, in preview pixels.
+ */
+export const PNG_PREVIEW = Object.freeze({
+  path: `/assets/base/preview-${PREVIEW_SIZE}-${SHA256.slice(0, 12)}-v1.webp`,
+  size: PREVIEW_SIZE,
+  crop: Object.freeze({ left: CROP_LEFT, top: CROP_TOP, side: CROP_SIDE }),
+  x: (X - CROP_LEFT) * F,
+  y: (Y - CROP_TOP) * F,
+  span: 200 * SCALE * F,
 });
 
 /** SVG contains paint only. Exact garment edges and fabric come from the PNG. */

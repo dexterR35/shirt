@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import PngShirtPreview from "./PngShirtPreview.jsx";
+import {useZoom, ZOOM_MIN, ZOOM_MAX} from "./lib/use-zoom.js";
 import EquipmentCard from "./EquipmentCard.jsx";
 import {equipmentForKit} from "./lib/equipment.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
@@ -17,6 +18,8 @@ function Icon({ name, size = 20, ...props }) {
     arrow: "M5 12h14m-6-6 6 6-6 6",
     download: "M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5",
     plus: "M12 5v14M5 12h14",
+    minus: "M5 12h14",
+    fit: "M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5m8-5v2m-1-1h2",
     left: "m15 5-7 7 7 7",
     right: "m9 5 7 7-7 7",
     check: "m5 12 4 4L19 6",
@@ -62,6 +65,23 @@ function Status({ status }) {
     </span>
   );
 }
+const VIEW_KEY = "tshirt-studio:view";
+/** Remember the shown team/variant for this browser tab; storage may be unavailable. */
+function readView() {
+  try { return JSON.parse(sessionStorage.getItem(VIEW_KEY)); } catch { return null; }
+}
+function saveView(view) {
+  try { sessionStorage.setItem(VIEW_KEY, JSON.stringify(view)); } catch { /* optional */ }
+}
+function kitItem(team, variant) {
+  return {
+    ...team.kits[variant],
+    team_id: team.id,
+    team_name: team.name,
+    country_name: team.country_name,
+    variant,
+  };
+}
 const json = async (url, signal) => {
   const r = await fetch(url, {signal});
   if (!r.ok) throw Error(`Could not load the local catalog (${r.status}).`);
@@ -86,16 +106,17 @@ export default function App() {
   const request = useRef(0),
     controller = useRef(null),
     cache = useRef(new Map());
+  const zoom = useZoom();
   useEffect(() => {
     let alive = true;
     json("/catalog/manifest.json")
       .then((data) => {
         if (alive) {
           setCatalog(data);
-          setCandidateId(
-            data.teams.find((t) => t.kits.home.status === "ready")?.id ||
-              data.teams[0]?.id || "",
-          );
+          // Start on the plain base unless this tab already showed a kit.
+          const view = readView(),
+            team = data.teams.find((t) => t.id === view?.team_id);
+          if (team && ["home", "away"].includes(view.variant)) show(team, view.variant);
         }
       })
       .catch((e) => alive && setLoadError(e.message));
@@ -120,16 +141,23 @@ export default function App() {
   const previewConfig = useMemo(() => customColors
     ? {...(appliedConfig || neutralConfig()), colors: customColors}
     : appliedConfig, [appliedConfig, customColors]);
+  const missing = !active && candidate && slot?.status !== "ready";
   const selectedIndex = active
     ? selection.findIndex((s) => revisionKey(s) === revisionKey(active))
     : -1;
-  function choose(team) {
+  /** Selecting a team or variant shows it at once; a missing kit shows the plain base. */
+  function show(team, v) {
     setCandidateId(team.id);
-    setVariant("home");
+    setVariant(v);
     setNotice("");
+    saveView({ team_id: team.id, variant: v });
+    if (team.kits[v].status === "ready") void activate(kitItem(team, v));
+    else master();
   }
   async function activate(item) {
     const sequence = ++request.current;
+    setCandidateId(item.team_id);
+    setVariant(item.variant);
     controller.current?.abort();
     controller.current = new AbortController();
     setBusy(true);
@@ -155,25 +183,9 @@ export default function App() {
       if (request.current === sequence) setBusy(false);
     }
   }
-  async function apply() {
-    if (!candidate || slot?.status !== "ready") return;
-    await activate({
-      ...slot,
-      team_id: candidate.id,
-      team_name: candidate.name,
-      country_name: candidate.country_name,
-      variant,
-    });
-  }
   function add() {
     if (!candidate || slot?.status !== "ready") return;
-    const item = {
-      ...slot,
-      team_id: candidate.id,
-      team_name: candidate.name,
-      country_name: candidate.country_name,
-      variant,
-    };
+    const item = kitItem(candidate, variant);
     try {
       setSelection(addToSelection(selection, item));
       setNotice(candidate.name + " " + variant + " added to your collection.");
@@ -187,7 +199,7 @@ export default function App() {
     if (index === selectedIndex && next.length)
       void activate(next[Math.min(index, next.length - 1)]);
   }
-  const master = () => {
+  function master() {
     request.current++;
     controller.current?.abort();
     setActive(null);
@@ -195,7 +207,7 @@ export default function App() {
     setEquipment(null);
     setCustomColors(null);
     setBusy(false);
-  };
+  }
   if (loadError)
     return (
       <main className="load-state">
@@ -374,7 +386,7 @@ export default function App() {
                   <button
                     key={t.id}
                     className={`team-row ${candidateId === t.id ? "selected" : ""}`}
-                    onClick={() => choose(t)}
+                    onClick={() => show(t, "home")}
                     aria-pressed={candidateId === t.id}
                   >
                     <span className="team-monogram">
@@ -408,20 +420,24 @@ export default function App() {
                   </div>
                 )}
               </div>
-              <div className="candidate-panel">
+            </aside>
+            <section className="preview-panel" aria-label="Shirt preview">
+              <div className="preview-toolbar">
                 <div className="candidate-heading">
-                  <div>
-                    <small>SELECTED TEAM</small>
-                    <h3>{candidate?.name || "Choose a team"}</h3>
+                  <small>SELECTED TEAM</small>
+                  <h3>{candidate?.name || "Choose a team"}</h3>
+                  <div className="candidate-status">
+                    <Status status={slot?.status} />
+                    <span>{slot?.kit_season || "Season unverified"}</span>
                   </div>
-                  <Icon name="shirt" size={22} />
                 </div>
                 <div className="variant-switch" aria-label="Kit variant">
                   {["home", "away"].map((v) => (
                     <button
                       key={v}
                       aria-pressed={variant === v}
-                      onClick={() => setVariant(v)}
+                      disabled={!candidate}
+                      onClick={() => show(candidate, v)}
                       className={variant === v ? "active" : ""}
                     >
                       {v === "home" ? "Home" : "Away"}
@@ -431,50 +447,20 @@ export default function App() {
                     </button>
                   ))}
                 </div>
-                <div className="candidate-status">
-                  <Status status={slot?.status} />
-                  <span>{slot?.kit_season || "Season unverified"}</span>
-                </div>
-                {slot?.status !== "ready" && (
-                  <p className="availability">
-                    {slot?.reason || "The kit artwork is under review."}
-                  </p>
-                )}
-                <button
-                  className="primary apply"
-                  onClick={apply}
-                  disabled={busy || slot?.status !== "ready"}
-                >
-                  Apply kit
-                  <Icon name="arrow" size={18} />
-                </button>
                 <button
                   className="secondary add-button"
                   onClick={add}
                   disabled={slot?.status !== "ready" || busy}
                 >
-                  <Icon name="plus" size={17} />
+                  <Icon name="plus" size={14} />
                   Add to collection
                 </button>
-              </div>
-            </aside>
-            <section className="preview-panel" aria-label="Shirt preview">
-              <div className="preview-toolbar">
-                <div>
-                  <span className="step">02</span>
-                  <h2>Kit preview</h2>
-                </div>
-                <span className="format-badge">
-                  PNG BASE
-                  <span />
-                  TRANSPARENT
-                </span>
               </div>
               <div className={`canvas ${background}`}>
                 <div className="canvas-topline">
                   <span>
                     <span className="live-dot" />
-                    {customColors ? "CUSTOM COLORS" : active ? "TEAM COLOR PREVIEW" : "ORIGINAL PNG"}
+                    {customColors ? "CUSTOM COLORS" : active ? "TEAM COLOR PREVIEW" : missing ? "KIT MISSING" : "ORIGINAL PNG"}
                   </span>
                   <div
                     className="background-controls"
@@ -491,32 +477,60 @@ export default function App() {
                     ))}
                   </div>
                 </div>
-                <div className="shirt-stage" aria-busy={busy}>
-                  <PngShirtPreview config={previewConfig} label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}/>
+                <div
+                  className={`shirt-stage ${zoom.dragging ? "dragging" : ""}`}
+                  aria-busy={busy}
+                  style={{touchAction: zoom.view.scale === 1 ? "pan-y" : "none"}}
+                  {...zoom.stageProps}
+                >
+                  <PngShirtPreview
+                    config={previewConfig}
+                    cache={!customColors}
+                    style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
+                    label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
+                  />
                 </div>
                 <div className="canvas-caption">
                   <span className="caption-kicker">
                     {active
                       ? `${active.country_name} / ${active.kit_season}`
-                      : "THE ORIGINAL SILHOUETTE"}
+                      : missing
+                        ? candidate.country_name
+                        : "THE ORIGINAL SILHOUETTE"}
                   </span>
                   <h2>
                     {active
                       ? active.team_name
-                      : "A familiar shape. A fresh canvas."}
+                      : missing
+                        ? candidate.name
+                        : "A familiar shape. A fresh canvas."}
                   </h2>
                   <p>
                     {active
-                      ? `${active.variant === "home" ? "Home" : "Away"} · ${customColors ? "Custom colors" : "Adapted to your PNG base"}`
-                      : "Original highlights, fabric folds, and transparent edges."}
+                      ? active.variant === "home" ? "Home" : "Away"
+                      : missing
+                        ? `${variant === "home" ? "Home" : "Away"} kit not available yet`
+                        : "Original highlights, fabric folds, and transparent edges."}
                   </p>
-                  {!active && (
+                  {!active && !missing && (
                     <span className="neutral-note">
                       {customColors ? "Custom design · not a verified team kit" : "Original PNG · no team colors applied"}
                     </span>
                   )}
                 </div>
                 <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
+                <div className="zoom-controls" aria-label="Zoom">
+                  <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
+                    <Icon name="minus" size={14} />
+                  </button>
+                  <span aria-live="polite">{Math.round(zoom.view.scale * 100)}%</span>
+                  <button aria-label="Zoom in" onClick={zoom.zoomIn} disabled={zoom.view.scale >= ZOOM_MAX}>
+                    <Icon name="plus" size={14} />
+                  </button>
+                  <button aria-label="Center shirt" onClick={zoom.center} disabled={zoom.view.scale === 1 && !zoom.view.x && !zoom.view.y}>
+                    <Icon name="fit" size={14} />
+                  </button>
+                </div>
               </div>
               <div className="preview-actions">
                 <div className="pager">
@@ -587,11 +601,6 @@ export default function App() {
                 <h2>Your collection</h2>
                 <span className="count-pill">{selection.length}/10</span>
               </div>
-              <p className="collection-intro">
-                Keep your favorite kits together.
-                <br />
-                Compare Home and Away designs.
-              </p>
               {selection.length ? (
                 <div className="collection-list">
                   {selection.map((item, i) => (
@@ -625,11 +634,6 @@ export default function App() {
                     <span>+</span>
                   </span>
                   <h3>A squad of your own</h3>
-                  <p>
-                    Add a ready Home or Away kit
-                    <br />
-                    to start your collection.
-                  </p>
                   <div className="empty-slots">
                     {[1, 2, 3, 4, 5].map((n) => (
                       <span key={n} />
@@ -646,27 +650,6 @@ export default function App() {
                 Collection export later
               </button>
               <EquipmentCard active={active} equipment={equipment} custom={!!customColors}/>
-              <details className="evidence">
-                <summary>
-                  <Icon name="info" size={16} />
-                  Sources & verification
-                </summary>
-                <p>
-                  {active
-                    ? active.png_layout_revision
-                      ? "Shoulder bands, collar and cuff colors have been checked against the saved references. Your PNG keeps its original round neckline and fabric folds. Other fabric patterns may still be approximate."
-                      : "Colors and patterns come from the cited kit research. This preview adapts them to your PNG base and keeps its round collar; the adapted layout still needs review."
-                    : "Your original 8000 × 5000 PNG supplies the fabric, stitching, shading and transparency. Colors and patterns are editable shapes combined with those original pixels."}
-                </p>
-                {active && <Evidence path={active.details_path} />}
-                <p>
-                  {catalog.counts.ready} of {catalog.counts.slots} kit layouts researched.
-                </p>
-                <p>Download sizes and formats will be added later.</p>
-                <button onClick={() => setTab("coverage")}>
-                  Explore coverage →
-                </button>
-              </details>
             </aside>
           </div>
         )}
@@ -689,51 +672,6 @@ export default function App() {
           )}
         </div>
       </main>
-      <footer>
-        <span>
-          <span className="footer-mark">✳</span> Made for the colors we follow.
-        </span>
-        <span>
-          {catalog.counts.ready} researched layouts
-          <span className="footer-dot">·</span>735 teams in the source catalog
-        </span>
-      </footer>
     </div>
-  );
-}
-function Evidence({ path }) {
-  const [data, setData] = useState(null),
-    [error, setError] = useState("");
-  useEffect(() => {
-    let alive = true;
-    setData(null);
-    setError("");
-    json(path)
-      .then((v) => alive && setData(v))
-      .catch((e) => alive && setError(e.message));
-    return () => {
-      alive = false;
-    };
-  }, [path]);
-  return error ? (
-    <p>{error}</p>
-  ) : data ? (
-    <>
-      <ul>
-        {(Array.isArray(data.references) ? data.references : []).map((r, i) => (
-          <li key={i}>
-            <a href={r.page_url} target="_blank" rel="noreferrer">
-              {r.publisher} · {data.variant} ↗
-            </a>
-          </li>
-        ))}
-      </ul>
-      <p>
-        Reviewed by {data.visual_review?.reviewed_by} ·{" "}
-        {data.visual_review?.reviewed_at?.slice(0, 10)}
-      </p>
-    </>
-  ) : (
-    <p>Loading source details…</p>
   );
 }

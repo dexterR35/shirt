@@ -11,9 +11,9 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 - Collar correction requested by the user: the PNG already contains the physical collar. SVG may recolor that existing round fabric ring only; never draw a second V-neck, polo flap or placket over it. Eight p002 layouts supersede the incorrect p001 V/polo paint. Use `src/lib/png-collar.js` for color bands; `png-shirt.js` confines all collar paint to the existing neckline.
 
 - Use React + Vite + JavaScript (.jsx/.js), CSS and a shared JavaScript SVG renderer. Add JSDoc and runtime validation. Preserve the user's familiar stack.
-- Keep the interface simple and dark navy: country filter, team search, Home/Away switch, Apply, one central shirt and SVG download.
+- Keep the interface simple and dark navy: country filter, team search, Home/Away switch, one central shirt and PNG/WebP download.
 - Country and team are the navigation axes. Source competition metadata is retained for provenance, outside product navigation.
-- Keep candidate selection separate from the applied kit. Apply loads the selected saved revision. Preview and download use the same PNG composite.
+- User decision (23 September 2026): there is no Apply button. The app opens on the plain base. Choosing a team immediately shows its Home kit; the Home/Away switch shows that variant immediately. A variant that is not ready shows the plain base with "<Variant> kit not available yet"; never substitute another kit. Finished renders stay cached in memory until reload, and the shown team/variant is restored from sessionStorage. Preview and download use the same PNG composite.
 - Support up to 10 selected kit revisions with previous/next arrows. Home and Away occupy separate slots. Do not silently truncate a selection or limit the visible catalog to ten teams.
 - The local JSON/SVG catalog is the required baseline. Rendering and downloading must work without an AI API or cloud account. Optional shared storage must not block this version.
 
@@ -36,7 +36,7 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## SVG
 
-- The user rejected the replacement SVG's softened detail and chose the original PNG. Use `original-png-composite-1` from src/lib/png-shirt.js for current previews. Preserve base.png at 8000 × 5000; read docs/BASE_ANALYSIS.md. Retain the vector renderers only for paint geometry and on-demand reproduction of old revisions.
+- The user rejected the replacement SVG's softened detail and chose the original PNG. Use `original-png-composite-1` from src/lib/png-shirt.js for current previews. Preserve base.png at 8000 × 5000; read docs/BASE_ANALYSIS.md. The screen uses a build-time lossless 2048 WebP crop of it (`PNG_PREVIEW` in png-shirt.js, made by `npm run base:prepare`); the 8K master is deployed under a content-hashed name and loaded only for renders above 2048. Keep both names content-hashed so `vercel.json` can cache them as immutable. Retain the vector renderers only for paint geometry and on-demand reproduction of old revisions.
 - The user removed the generated per-kit SVG archive (`public/assets/shirts/`) on 23 September 2026. Do not regenerate or deploy it. Ready revisions stay immutable through `data/kit-config-lock.json` (config hashes written by `npm run catalog:build`); change a ready kit only by creating a new revision.
 - Style: flat 2D, subtle soft shading, transparent background.
 - Reproduce the kit's observed color layout and graphic forms on the common silhouette. Remove team emblems, manufacturer logos, sponsors and lettering.

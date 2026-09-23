@@ -13,7 +13,6 @@ export default function EquipmentCard({active,equipment,custom}) {
     {active ? <>
       {custom && <p className="equipment-custom">Custom colors preview · facts below describe the saved team kit.</p>}
       <dl>{fields.map(([label,value])=><div key={label}><dt>{label}</dt><dd className={value?'':'not-listed'}>{value || (equipment?.source && (equipment.extended_fields_checked || !['Sponsor','Competitions','Release date'].includes(label))?'Not listed':'Not researched')}</dd></div>)}</dl>
-      {equipment?.source && <p className="equipment-source"><a href={equipment.source.url} target="_blank" rel="noreferrer">Football Kit Archive ↗</a><br/>Saved locally · checked {equipment.source.extended_fields_checked_at || equipment.source.checked_at}</p>}
-    </> : <p>Apply a team kit to see its season, design, colors, brand, sponsor and release date.</p>}
+    </> : <p>Choose a team to see its season, design, colors, brand, sponsor and release date.</p>}
   </section>;
 }
