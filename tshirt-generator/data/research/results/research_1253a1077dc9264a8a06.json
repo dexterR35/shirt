@@ -4,8 +4,8 @@
   "team_name": "Sunderland",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3052eba76efcca9adff6-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sunderland-afc-2026-27-home-kit-492704/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/Ltpgrsmujq7TBrw/sunderland-afc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3052eba76efcca9adff6-home-492704.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved Football Kit Archive front image. Archive color names retained separately; no official HEX values claimed.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#ECEDE9",
+      "leftSleeve": "#ECEDE9",
+      "rightSleeve": "#ECEDE9",
+      "collar": "#EEEDE8",
+      "leftCuff": "#ECEDE9",
+      "rightCuff": "#ECEDE9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "outcome": "source-reviewed PNG adaptation",
+    "human_approved": false,
+    "notes": "Four red vertical bands on a white front, red/white sleeve continuation and pale sleeve ends. Tonal historical emblem/lettering graphics are omitted. Physical polo flap is not duplicated over the PNG.",
+    "render_path": "artifacts/footballkitarchive/team_3052eba76efcca9adff6-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1253a1077dc9264a8a06.json",
+    "source_kit_id": "492704"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "action": "Compared Football Kit Archive front image against PNG paint adaptation."
+    }
   ]
 }

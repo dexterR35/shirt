@@ -4,8 +4,8 @@
   "team_name": "Sevilla",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_01242b3697facd8db475-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sevilla-fc-2026-27-away-kit-474514/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/4sXmwXITA1xMXgk/sevilla-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_01242b3697facd8db475-away-474514.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F02730",
+      "leftSleeve": "#F02730",
+      "rightSleeve": "#F02730",
+      "collar": "#171C1E",
+      "leftCuff": "#171C1E",
+      "rightCuff": "#171C1E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright red body and sleeves, black neck and cuffs, thin white paired shoulder tapes.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_01242b3697facd8db475-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_18cd7abf9f095c41c1ee.json",
+    "source_kit_id": "474514"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Atlético de Madrid",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e7bcd589b2e24bfac258-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atletico-madrid-2026-27-away-kit-470453/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/18/xhLrOEast1vBMcQ/atletico-madrid-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e7bcd589b2e24bfac258-away-470453.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Green"
+    ],
+    "values": {
+      "body": "#222628",
+      "leftSleeve": "#222628",
+      "rightSleeve": "#222628",
+      "collar": "#232829",
+      "leftCuff": "#D0F72D",
+      "rightCuff": "#D0F72D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal front and sleeves, neon yellow-green cuff bands and small tapering side inserts. Tonal club symbols are omitted along with other emblems.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_e7bcd589b2e24bfac258-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3f17be628c8294380810.json",
+    "source_kit_id": "470453"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

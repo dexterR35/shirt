@@ -1,0 +1,1075 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3052eba76efcca9adff6",
+  "team_name": "Sunderland",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "england-next-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Pink shirt with interlocking four-petal circular textile motifs across body and sleeves, large near-black upper yoke, pink collar. Letters within the textile repeat are omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3052eba76efcca9adff6-away-490451.jpg",
+      "page_url": "https://www.footballkitarchive.com/sunderland-afc-2026-27-away-kit-490451/",
+      "sha256": "b08f4279b6cac7b31cce89415aa4fa2317ea4905997210522acf6d332fd1067d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DE8FA8",
+      "leftSleeve": "#DE8FA8",
+      "rightSleeve": "#DE8FA8",
+      "collar": "#E8A4B8",
+      "leftCuff": "#DE8FA8",
+      "rightCuff": "#DE8FA8"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E8A4B8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DE8FA8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M15 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 30q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 46q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 62q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 78q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 94q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 110q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 126q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 142q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 158q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 174q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 190q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M15 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M31 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M47 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M63 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M79 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M95 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M111 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M127 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M143 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M159 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M175 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M191 206q8 0 8 8q-8 0-8-8Zm0 0q-8 0-8 8q8 0 8-8Zm0 0q0-8 8-8q0 8-8 8Zm0 0q0-8-8-8q0 8 8 8Z",
+        "fill": "#F0A4B8",
+        "clip": "all",
+        "opacity": 0.38
+      },
+      {
+        "type": "path",
+        "d": "M33 0H167L161 44Q100 36 39 44Z",
+        "fill": "#242024",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

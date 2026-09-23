@@ -4,8 +4,8 @@
   "team_name": "Fulham",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e18919aeed6bfee2a10b-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fulham-fc-2026-27-home-kit-498502/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/23/8u92cQPqBoYFaQV/fulham-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e18919aeed6bfee2a10b-home-498502.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved Football Kit Archive front image. Archive color names retained separately; no official HEX values claimed.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F0F4",
+      "leftSleeve": "#F0F0F4",
+      "rightSleeve": "#F0F0F4",
+      "collar": "#14151A",
+      "leftCuff": "#14151A",
+      "rightCuff": "#14151A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "outcome": "source-reviewed PNG adaptation",
+    "human_approved": false,
+    "notes": "White body and sleeves with two dark shoulder bands, dark collar/cuffs and red inner/hem edges. Fine white tonal weave is left to the original PNG fabric.",
+    "render_path": "artifacts/footballkitarchive/team_e18919aeed6bfee2a10b-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_695a2d35d88cdcc6132b.json",
+    "source_kit_id": "498502"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "action": "Compared Football Kit Archive front image against PNG paint adaptation."
+    }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_89fb7c1dcd2412aa37ef",
+  "team_name": "FCSB",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Pale gray-white shirt with black collar and broad black cuffs; reference color is visibly cool gray rather than pure white.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_89fb7c1dcd2412aa37ef-away-496188.jpg",
+      "page_url": "https://www.footballkitarchive.com/fcsb-2026-27-away-kit-496188/",
+      "sha256": "adf35f3f3eb11bfe62717d2b7540a7f1f0696c70af8d88f3063feb117653c80c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CAD2D4",
+      "leftSleeve": "#CAD2D4",
+      "rightSleeve": "#CAD2D4",
+      "collar": "#272C2B",
+      "leftCuff": "#282D2C",
+      "rightCuff": "#282D2C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#272C2B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CAD2D4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.39999999999999C24 76 36 81.3 44.5 80.39999999999999Q48 80.5 49.2 72.3L52 106H5Z",
+        "fill": "#282D2C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.39999999999999C176 76 164 81.3 155.5 80.39999999999999Q152 80.5 150.8 72.3L148 106H195Z",
+        "fill": "#282D2C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

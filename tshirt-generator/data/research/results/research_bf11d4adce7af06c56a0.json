@@ -4,8 +4,8 @@
   "team_name": "SV Elversberg",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_19ce5ebc76b0b560374f-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sv-elversberg-2026-27-home-kit-492461/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/LgF5Zdw2QnGly0R/sv-elversberg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_19ce5ebc76b0b560374f-home-492461.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F1EC",
+      "leftSleeve": "#1B1B1F",
+      "rightSleeve": "#F1F1EC",
+      "collar": "#F1F1EC",
+      "leftCuff": "#F0F0EA",
+      "rightCuff": "#F0F0EA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Quartered white/black front: black upper viewer-left and lower viewer-right, black left sleeve and white right sleeve; white collar/cuffs with narrow gold side seams.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_19ce5ebc76b0b560374f-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_bf11d4adce7af06c56a0.json",
+    "source_kit_id": "492461"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

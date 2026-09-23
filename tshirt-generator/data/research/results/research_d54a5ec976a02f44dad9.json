@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "researching",
+  "status": "draft",
   "reason": "Official blue/yellow/red model view saved. Hands obscure part of the torso; acquire complete front and trace the tonal graphic.",
   "seed_references": [
     {
@@ -97,18 +97,16 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect complete front and pattern details",
-    "Trace native vector artwork",
-    "Render and visually compare"
+    "Refine the ribbed triangle positions and the red/gold collar band widths."
   ],
   "references": [
     {
-      "publisher": "adidas official manufacturer store",
-      "page_url": "https://www.adidas.co.uk/arsenal-fc-26-27-away-jersey/JZ3160.html",
-      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/33cdefe899654c798f7e339c0156c5f7_9366/Arsenal_FC_26-27_Away_Jersey_Blue_JZ3160_25_model.jpg",
-      "local_path": "data/research/references/arsenal-away-model.jpg",
-      "checked_at": "2026-09-22T21:28:35.792Z",
-      "source_type": "official",
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/arsenal-fc-2026-27-away-kit-441204/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/27/etWT8L8dncqECVy/arsenal-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6c3ac1a8babfe2f2338b-away-441204.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
       "variant": "away",
       "kit_season": "2026/27"
     }
@@ -117,6 +115,34 @@
     {
       "date": "2026-09-22T21:28:35.792Z",
       "action": "Official blue/yellow/red model view saved. Hands obscure part of the torso; acquire complete front and trace the tonal graphic."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "england-next-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_6c3ac1a8babfe2f2338b-away-r001.json",
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow",
+      "Red"
+    ],
+    "values": {
+      "body": "#152C4C",
+      "leftSleeve": "#152C4C",
+      "rightSleeve": "#152C4C",
+      "collar": "#E4C942",
+      "leftCuff": "#D4B835",
+      "rightCuff": "#D4B835"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d54a5ec976a02f44dad9.json",
+    "source_kit_id": "441204"
+  }
 }

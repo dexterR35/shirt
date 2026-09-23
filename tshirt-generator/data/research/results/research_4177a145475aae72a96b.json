@@ -4,8 +4,8 @@
   "team_name": "Union Berlin",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fbcd98c460c852b100c0-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/union-berlin-2026-27-away-kit-500423/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/FNrE4vdFw8aJnIw/union-berlin-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fbcd98c460c852b100c0-away-500423.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#35393A",
+      "leftSleeve": "#35393A",
+      "rightSleeve": "#35393A",
+      "collar": "#262D30",
+      "leftCuff": "#20282C",
+      "rightCuff": "#20282C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal shirt with dense dark pinstripes across body/sleeves, red shoulder tapes and red-edged charcoal neck/cuffs.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_fbcd98c460c852b100c0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4177a145475aae72a96b.json",
+    "source_kit_id": "500423"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

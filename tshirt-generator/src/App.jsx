@@ -285,9 +285,9 @@ export default function App() {
                 <p>Home and Away verified separately</p>
               </article>
               <article>
-                <small>Discovery searches</small>
-                <strong>{catalog.counts.discovery_searched}</strong>
-                <p>Searches still require visual review</p>
+                <small>Archive references saved</small>
+                <strong>{catalog.counts.fka_references_saved || 0}<span> / {catalog.counts.slots}</span></strong>
+                <p>Football Kit Archive · image collection</p>
               </article>
             </div>
             <div className="country-grid">

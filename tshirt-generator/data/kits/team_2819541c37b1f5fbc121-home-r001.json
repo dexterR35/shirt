@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2819541c37b1f5fbc121",
+  "team_name": "Metalul Buzău",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/metalul-buzau-2026-27-home-kit-511519/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/21/tlP7GVKSKQ9jGPX/metalul-buzau-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2819541c37b1f5fbc121-home-511519.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1262A5",
+      "leftSleeve": "#1262A5",
+      "rightSleeve": "#1262A5",
+      "collar": "#E2E8E9",
+      "leftCuff": "#E4E9E5",
+      "rightCuff": "#E4E9E5"
+    }
+  },
+  "observations": "Royal-blue shirt with pale neckline and stacked pale/blue/pale cuff bands; source manufacturer shoulder marks omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue shirt with pale neckline and stacked pale/blue/pale cuff bands; source manufacturer shoulder marks omitted.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_2819541c37b1f5fbc121-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1262A5",
+      "leftSleeve": "#1262A5",
+      "rightSleeve": "#1262A5",
+      "collar": "#E2E8E9",
+      "leftCuff": "#E4E9E5",
+      "rightCuff": "#E4E9E5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E2E8E9",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1262A5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.5C24 76.10000000000001 36 81.4 44.5 80.5Q48 80.60000000000001 49.2 72.4L52 106H5Z",
+        "fill": "#E4E9E5",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.89999999999999C24 78.5 36 83.8 44.5 82.89999999999999Q48 83 49.2 74.8L52 106H5Z",
+        "fill": "#557EBC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#E2E9E4",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.5C176 76.10000000000001 164 81.4 155.5 80.5Q152 80.60000000000001 150.8 72.4L148 106H195Z",
+        "fill": "#E4E9E5",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.89999999999999C176 78.5 164 83.8 155.5 82.89999999999999Q152 83 150.8 74.8L148 106H195Z",
+        "fill": "#557EBC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#E2E9E4",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

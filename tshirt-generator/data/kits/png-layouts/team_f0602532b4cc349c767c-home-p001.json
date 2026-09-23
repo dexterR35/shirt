@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f0602532b4cc349c767c",
+  "team_name": "Sporting CP",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "portugal-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Alternating broad dark-green/white horizontal hoops across body and sleeves, white neck/cuffs and narrow dark-green hem edge.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f0602532b4cc349c767c-home-495724.jpg",
+      "page_url": "https://www.footballkitarchive.com/sporting-cp-2026-27-home-kit-495724/",
+      "sha256": "df8fb4a2077ef7299f4a7aa04f999d37b92f6a805f4d71b39fa6fbb0542640c5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#ECEEE8",
+      "leftSleeve": "#ECEEE8",
+      "rightSleeve": "#ECEEE8",
+      "collar": "#ECEEE8",
+      "leftCuff": "#EEF0E9",
+      "rightCuff": "#EEF0E9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#ECEEE8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#ECEEE8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 33,
+        "fill": "#194A37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 50,
+        "width": 200,
+        "height": 20,
+        "fill": "#194A37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 90,
+        "width": 200,
+        "height": 20,
+        "fill": "#194A37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 130,
+        "width": 200,
+        "height": 20,
+        "fill": "#194A37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 170,
+        "width": 200,
+        "height": 20,
+        "fill": "#194A37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 195,
+        "width": 200,
+        "height": 2,
+        "fill": "#2B503A",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71C24 75.60000000000001 36 80.9 44.5 80Q48 80.10000000000001 49.2 71.9L52 106H5Z",
+        "fill": "#EEF0E9",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71C176 75.60000000000001 164 80.9 155.5 80Q152 80.10000000000001 150.8 71.9L148 106H195Z",
+        "fill": "#EEF0E9",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

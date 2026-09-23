@@ -4,8 +4,8 @@
   "team_name": "Juventus",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_31cc64e36fbdf87509fc-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/juventus-fc-2026-27-away-kit-441207/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/8xmng5edkMJ93BI/juventus-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_31cc64e36fbdf87509fc-away-441207.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#F0B4C5",
+      "leftSleeve": "#F0B4C5",
+      "rightSleeve": "#F0B4C5",
+      "collar": "#222724",
+      "leftCuff": "#272B29",
+      "rightCuff": "#272B29"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pink shirt, black shoulder stripes and black/cream collar and cuff bands. Tonal Juventus lettering and zebra identity marks are omitted.",
+    "render_path": "artifacts/footballkitarchive/italy-2026-09-23/team_31cc64e36fbdf87509fc-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fc830421502da515f343.json",
+    "source_kit_id": "441207"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "italy-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

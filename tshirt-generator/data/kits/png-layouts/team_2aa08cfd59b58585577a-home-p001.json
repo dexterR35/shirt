@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2aa08cfd59b58585577a",
+  "team_name": "Chindia Târgoviște",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Source shows a plain body and a broad shallow contrasting shoulder-to-upper-chest chevron. Arms obscure the central front; retain as a draft until a clear front is found.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2aa08cfd59b58585577a-home-503335.jpg",
+      "page_url": "https://www.footballkitarchive.com/chindia-targoviste-2026-27-home-kit-503335/",
+      "sha256": "2c33c797998c92e3f5f6c7841758a7f0b224ef70af45363bb194a121806fd634"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1377B7",
+      "leftSleeve": "#1377B7",
+      "rightSleeve": "#1377B7",
+      "collar": "#1377B7",
+      "leftCuff": "#1377B7",
+      "rightCuff": "#1377B7"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1377B7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1377B7",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            29,
+            17
+          ],
+          [
+            63,
+            14
+          ],
+          [
+            100,
+            29
+          ],
+          [
+            137,
+            14
+          ],
+          [
+            171,
+            17
+          ],
+          [
+            100,
+            42
+          ]
+        ],
+        "fill": "#E82D36",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

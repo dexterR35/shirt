@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e8cbb22e5d8a4cedd7fc",
+  "team_name": "CSC 1599 Șelimbăr",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with navy curved raglan inserts and red tapered side inserts below the underarms, original white collar and cuffs retained. Lower center is partially occluded in the source.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e8cbb22e5d8a4cedd7fc-away-507577.jpg",
+      "page_url": "https://www.footballkitarchive.com/1599-selimbar-2026-27-away-kit-507577/",
+      "sha256": "29fd7dee01e86c5c960035edfc591d243bde80362dbe07a53233f43c3109477c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2ED",
+      "leftSleeve": "#F1F2ED",
+      "rightSleeve": "#F1F2ED",
+      "collar": "#F1F2ED",
+      "leftCuff": "#F1F2ED",
+      "rightCuff": "#F1F2ED"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2ED",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2ED",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M75 8Q50 14 43 30L47 70Q47 31 57 25L76 15Z",
+        "fill": "#344E75",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            91
+          ],
+          [
+            54,
+            107
+          ],
+          [
+            50,
+            153
+          ],
+          [
+            45,
+            112
+          ]
+        ],
+        "fill": "#C62B32",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125 8Q150 14 157 30L153 70Q153 31 143 25L124 15Z",
+        "fill": "#344E75",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            91
+          ],
+          [
+            146,
+            107
+          ],
+          [
+            150,
+            153
+          ],
+          [
+            155,
+            112
+          ]
+        ],
+        "fill": "#C62B32",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

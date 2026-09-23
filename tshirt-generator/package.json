@@ -18,7 +18,10 @@
     "test": "node --test tests/*.test.js",
     "test:e2e": "playwright test",
     "research:links": "node scripts/check-seed-links.mjs",
-    "research:checkpoint": "node scripts/checkpoint-research.mjs"
+    "research:checkpoint": "node scripts/checkpoint-research.mjs",
+    "research:fka:import": "node scripts/research/fka-import.mjs --download",
+    "research:fka:scrape": "node scripts/research/fka-scrape.mjs",
+    "research:fka:review": "node scripts/research/fka-review.mjs"
   },
   "dependencies": {
     "fflate": "0.8.3",

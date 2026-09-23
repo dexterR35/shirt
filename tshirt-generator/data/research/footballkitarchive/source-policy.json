@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "requested_at": "2026-09-23",
+  "source_of_truth": "https://www.footballkitarchive.com/",
+  "scope": "All 735 canonical workbook teams, with separate Home and Away slots. Preserve workbook associations, reserve identities, seasons and IDs.",
+  "selection": "Use the candidate season only after it matches the source page. Never substitute Third, GK, Training, Women's, youth or a first team for a reserve slot. Previous-season kits require explicit research review rather than silent substitution.",
+  "colors": "Save the archive's color names verbatim. HEX values are estimates from visually reviewed reference images unless the source explicitly publishes values.",
+  "artwork": "Recreate observed graphics as validated paint on the original PNG. Remove sponsors, emblems and lettering. Recolor only the existing round collar. A scraped record is not a ready kit.",
+  "access": "Use public pages and public front images. Normal browser verification may complete on its own. Direct HTTP challenge or rate-limit responses stop the HTTP transport. No bypass, hidden APIs or Plus-only imagery.",
+  "history": "Preserve existing approved kit/layout revisions and earlier official-source evidence. New or changed designs use new revisions. Archive reconciliation is separate from historical readiness."
+}

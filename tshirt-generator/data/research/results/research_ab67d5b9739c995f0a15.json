@@ -4,8 +4,8 @@
   "team_name": "Werder Bremen",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_a7e9c0907001092be24c-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/werder-bremen-2026-27-home-kit-494872/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/tIt7oTCL3HIISms/werder-bremen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a7e9c0907001092be24c-home-494872.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#EBEFEB",
+      "leftSleeve": "#087D54",
+      "rightSleeve": "#087D54",
+      "collar": "#096F46",
+      "leftCuff": "#137C53",
+      "rightCuff": "#137C53"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ab67d5b9739c995f0a15.json",
+    "source_kit_id": "494872"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Csikszereda Miercurea Ciuc",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_67edbab022da1cbbb07a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csikszereda-miercurea-ciuc-2026-27-home-kit-522756/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/NhFI2XOhpPuelXQ/csikszereda-miercurea-ciuc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_67edbab022da1cbbb07a-home-522756.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#D92329",
+      "leftSleeve": "#D92329",
+      "rightSleeve": "#D92329",
+      "collar": "#252629",
+      "leftCuff": "#D92329",
+      "rightCuff": "#D92329"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with three black vertical front columns interrupted across the torso, short stacked black chevrons at the ends, black collar and plain red sleeves. Archive explicitly labels this season carry-over.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_67edbab022da1cbbb07a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e2ebb80fa2c76980f056.json",
+    "source_kit_id": "522756"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

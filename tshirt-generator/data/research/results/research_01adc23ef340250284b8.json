@@ -4,8 +4,8 @@
   "team_name": "Tottenham Hotspur",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8aee0c4f0c83a587071a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tottenham-hotspur-2026-27-home-kit-470195/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/19/sCIQYag1v4bja98/tottenham-hotspur-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8aee0c4f0c83a587071a-home-470195.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved Football Kit Archive front image. Archive color names retained separately; no official HEX values claimed.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#18243E",
+      "rightCuff": "#18243E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "outcome": "source-reviewed PNG adaptation",
+    "human_approved": false,
+    "notes": "White shirt with subtle diagonal tonal weave, narrow navy cuff edges and small navy side inserts; collar stays white. Club badge, Nike symbol, sponsor and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/team_8aee0c4f0c83a587071a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_01adc23ef340250284b8.json",
+    "source_kit_id": "470195"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "action": "Compared Football Kit Archive front image against PNG paint adaptation."
+    }
   ]
 }

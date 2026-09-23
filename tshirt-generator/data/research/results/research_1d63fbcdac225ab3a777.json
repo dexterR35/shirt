@@ -4,8 +4,8 @@
   "team_name": "Málaga",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0f3fc20c8a6a87ae1fb1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/malaga-cf-2026-27-home-kit-485098/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/ZhzXJ5GoIGUh1CL/malaga-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0f3fc20c8a6a87ae1fb1-home-485098.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#EFF0F1",
+      "leftSleeve": "#EFF0F1",
+      "rightSleeve": "#EFF0F1",
+      "collar": "#12345D",
+      "leftCuff": "#EEF0EB",
+      "rightCuff": "#EEF0EB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White sleeves with broad pale-blue front stripes bracketed by narrow navy pinlines; navy collar and tiny green/purple sleeve-end edging.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_0f3fc20c8a6a87ae1fb1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1d63fbcdac225ab3a777.json",
+    "source_kit_id": "485098"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

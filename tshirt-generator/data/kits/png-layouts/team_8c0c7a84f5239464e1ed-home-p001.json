@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8c0c7a84f5239464e1ed",
+  "team_name": "Porto",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "portugal-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with two broad royal-blue torso columns and blue sleeve centers surrounded by white shoulder/inner-sleeve margins, white neck and cuffs.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8c0c7a84f5239464e1ed-home-483381.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-porto-2026-27-home-kit-483381/",
+      "sha256": "74918bbd5e2e7308ea740de5fc0c2aed19e4508f75d0ffabd8d679340f25bba4"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#F1F2EF",
+      "rightSleeve": "#F1F2EF",
+      "collar": "#F1F2EF",
+      "leftCuff": "#EDEFEA",
+      "rightCuff": "#EDEFEA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 63,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#0955A2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#0955A2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            28,
+            27
+          ],
+          [
+            39,
+            33
+          ],
+          [
+            44,
+            76
+          ],
+          [
+            18,
+            79
+          ],
+          [
+            12,
+            73
+          ]
+        ],
+        "fill": "#0C4EA2",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            172,
+            27
+          ],
+          [
+            161,
+            33
+          ],
+          [
+            156,
+            76
+          ],
+          [
+            182,
+            79
+          ],
+          [
+            188,
+            73
+          ]
+        ],
+        "fill": "#0C4EA2",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.19999999999999C24 77.8 36 83.1 44.5 82.19999999999999Q48 82.3 49.2 74.1L52 106H5Z",
+        "fill": "#EDEFEA",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.19999999999999C176 77.8 164 83.1 155.5 82.19999999999999Q152 82.3 150.8 74.1L148 106H195Z",
+        "fill": "#EDEFEA",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

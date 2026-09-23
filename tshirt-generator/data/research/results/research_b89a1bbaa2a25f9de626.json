@@ -4,8 +4,8 @@
   "team_name": "Cetatea 1932 Suceava",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_75ce8c9686924f3e5f03-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cetatea-suceava-2026-27-away-kit-502846/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/Q9Y1godbWAAf1jD/cetatea-suceava-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_75ce8c9686924f3e5f03-away-502846.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "White",
+      "Silver"
+    ],
+    "values": {
+      "body": "#172C4A",
+      "leftSleeve": "#ECEDE9",
+      "rightSleeve": "#ECEDE9",
+      "collar": "#162A45",
+      "leftCuff": "#182B43",
+      "rightCuff": "#182B43"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy torso with five fine pale pinstripes, white raglan sleeves, navy collar and sleeve-end bands.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_75ce8c9686924f3e5f03-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b89a1bbaa2a25f9de626.json",
+    "source_kit_id": "502846"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

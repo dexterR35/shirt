@@ -4,8 +4,8 @@
   "team_name": "FC Voluntari",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_77bd881fdd9039f86f8d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-voluntari-2026-27-home-kit-497239/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/ldNzbIfHzGg5SNi/fc-voluntari-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_77bd881fdd9039f86f8d-home-497239.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#139FD2",
+      "leftSleeve": "#139FD2",
+      "rightSleeve": "#139FD2",
+      "collar": "#168EBC",
+      "leftCuff": "#139FD2",
+      "rightCuff": "#139FD2"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain bright cyan-blue body, sleeves and neck, with fabric folds supplied by the original PNG; all lettering/logos omitted.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_77bd881fdd9039f86f8d-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_84b7d318242aa9d9aa00.json",
+    "source_kit_id": "497239"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

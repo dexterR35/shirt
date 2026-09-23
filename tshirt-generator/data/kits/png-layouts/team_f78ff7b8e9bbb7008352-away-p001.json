@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f78ff7b8e9bbb7008352",
+  "team_name": "Fiorentina",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "italy-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White body/sleeves, purple collar and broad purple cuffs with fine purple shoulder and side piping.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f78ff7b8e9bbb7008352-away-493381.jpg",
+      "page_url": "https://www.footballkitarchive.com/acf-fiorentina-2026-27-away-kit-493381/",
+      "sha256": "f5cd94df863b25890cd01d9fda69c2e9364bfcbfb6efbb8e21bc510df54e85f3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEFEF",
+      "leftSleeve": "#EEEFEF",
+      "rightSleeve": "#EEEFEF",
+      "collar": "#4D2781",
+      "leftCuff": "#4F2981",
+      "rightCuff": "#4F2981"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#4D2781",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEFEF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.7Q53.7 133 49.7 77Z",
+        "fill": "#4C297E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.3Q146.3 133 150.3 77Z",
+        "fill": "#4C297E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            8
+          ],
+          [
+            57,
+            12
+          ],
+          [
+            36,
+            25
+          ],
+          [
+            36,
+            25.5
+          ],
+          [
+            57,
+            12.5
+          ],
+          [
+            75,
+            8.5
+          ]
+        ],
+        "fill": "#4D2A7C",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            8
+          ],
+          [
+            143,
+            12
+          ],
+          [
+            164,
+            25
+          ],
+          [
+            164,
+            25.5
+          ],
+          [
+            143,
+            12.5
+          ],
+          [
+            125,
+            8.5
+          ]
+        ],
+        "fill": "#4D2A7C",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#4F2981",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#4F2981",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

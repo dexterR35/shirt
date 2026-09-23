@@ -2,7 +2,9 @@
 
 ## Current PNG compositor
 
-`npm run data:verify`, all twenty Node tests, eight Edge Playwright tests and the production build pass. The source PNG in `public/assets/base/source.png` is byte-identical to the original 8000 × 5000 file. White-paint composition reproduces source pixels exactly, colored paint retains every alpha value, and all saved kit configurations render as validated paint without embedded texture or lighting. Historical SVGs still reproduce their original bytes.
+Football Kit Archive continuation: all 25 Node tests and all 10 Edge browser tests pass. Checks cover country-scoped aliases, reserve-team separation, ambiguity, all 264 distinct source capture slots and image hashes, literal carry-over labels, the full 1,470-task worklist, and rejection of challenge pages and goalkeeper kits. All 165 ready PNG layout bindings render successfully. Real Manchester City Home and FCSB Home/Away Apply checks verify source links, completed PNG rendering and draft rejection. Source/render comparisons cover the 166 new drawings; 138 passed visual review, 28 remain drafts. Search checkpoints cover all 735 teams; search coverage is not visual verification.
+
+`npm run data:verify`, all 25 Node tests, ten Edge Playwright tests and the production build pass. The source PNG in `public/assets/base/source.png` is byte-identical to the original 8000 × 5000 file. White-paint composition reproduces source pixels exactly, colored paint retains every alpha value, and all saved kit configurations render as validated paint without embedded texture or lighting. Historical SVGs still reproduce their original bytes.
 
 Follow-up collar regression: eight V/polo layouts were corrected to p002 after the user identified the duplicated collar. All eight closeups were inspected in `artifacts/collar-correction/collars.png`. Tests check unchanged body/shoulder/cuff configurations, absence of collar paint below the original neck, clipping of an oversized custom collar, and real Ipswich Away Apply in the browser. Comparison and browser proof: `artifacts/collar-correction/ipswich-comparison.png` and `studio-ipswich.png`.
 
@@ -50,7 +52,7 @@ Ten Node tests and four Playwright browser tests passed. Browser batch/error tes
 
 ## Coverage limits
 
-There are fifteen source-reviewed downloadable kit adaptations, two unapproved drafts and 1,453 researching slots. All 1,470 queries and 297 URL checks have saved checkpoints; these are not equivalent to 1,470 visual reviews. Colors are photo estimates. The exact lighting test does not certify pixel-identical garment artwork. See [STATUS](STATUS.md) and [BASE_ANALYSIS](BASE_ANALYSIS.md).
+There are 165 source-reviewed PNG adaptations, 30 drafts and 1,275 researching slots. Downloads remain deferred. All 1,470 original queries, 735 archive-specific team queries and 297 seed URL checks have saved checkpoints; these are not equivalent to 1,470 visual reviews. 264 archive front references are saved, and 150 adaptations have archive-based visual reviews. The fifteen earlier kits still require archive reconciliation. Colors are photo estimates. The exact lighting test does not certify pixel-identical garment artwork. See [STATUS](STATUS.md) and [BASE_ANALYSIS](BASE_ANALYSIS.md).
 
 
 Quality correction: r002 exports use the original smooth reference-front-2 outline and interpolated source lighting. The additional checks verify 1024-pixel export alpha against the Bézier outline and byte-identical reproduction of all historical r001 SVGs. The raw native lighting test remains an archival-data check; it does not imply the interpolated display is pixel-identical to the original PNG. Before/after crops are under `artifacts/quality-fix`.

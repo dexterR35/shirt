@@ -4,8 +4,8 @@
   "team_name": "CSC 1599 Șelimbăr",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_e8cbb22e5d8a4cedd7fc-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1599-selimbar-2026-27-away-kit-507577/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/PdpjUKQd1FaYX3N/1599-selimbar-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e8cbb22e5d8a4cedd7fc-away-507577.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1F2ED",
+      "leftSleeve": "#F1F2ED",
+      "rightSleeve": "#F1F2ED",
+      "collar": "#F1F2ED",
+      "leftCuff": "#F1F2ED",
+      "rightCuff": "#F1F2ED"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_dcbf52a089039cbab2f7.json",
+    "source_kit_id": "507577"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

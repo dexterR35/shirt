@@ -4,8 +4,8 @@
   "team_name": "Universitatea Craiova",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e00dd8e10666f48fc433-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/universitatea-craiova-2026-27-away-kit-493898/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/15/DDLzfXfPcv3BnvT/universitatea-craiova-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e00dd8e10666f48fc433-away-493898.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#0867AF",
+      "leftSleeve": "#0867AF",
+      "rightSleeve": "#0867AF",
+      "collar": "#DDEDE9",
+      "leftCuff": "#DBEAE8",
+      "rightCuff": "#DBEAE8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue shirt with a pale-blue top torso fading into deeper blue, thin white pinstripes, blue sleeves and white/blue trim.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_e00dd8e10666f48fc433-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e2eaaa6fb5675706b044.json",
+    "source_kit_id": "493898"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

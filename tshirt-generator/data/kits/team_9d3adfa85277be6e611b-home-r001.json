@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9d3adfa85277be6e611b",
+  "team_name": "Brest",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "france-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/stade-brestois-2026-27-home-kit-492820/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/SU7tDUwDqC3m5e6/stade-brestois-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9d3adfa85277be6e611b-home-492820.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#CF0915",
+      "leftSleeve": "#CF0915",
+      "rightSleeve": "#CF0915",
+      "collar": "#F0EAE8",
+      "leftCuff": "#CF0915",
+      "rightCuff": "#CF0915"
+    }
+  },
+  "observations": "Red shirt with subtle thin red torso pinstripes, white collar and two small white hem-edge tabs.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with subtle thin red torso pinstripes, white collar and two small white hem-edge tabs.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_9d3adfa85277be6e611b-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CF0915",
+      "leftSleeve": "#CF0915",
+      "rightSleeve": "#CF0915",
+      "collar": "#F0EAE8",
+      "leftCuff": "#CF0915",
+      "rightCuff": "#CF0915"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0EAE8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CF0915",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 74,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 95,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 102,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 109,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#DB3742",
+        "clip": "body",
+        "opacity": 0.48
+      },
+      {
+        "type": "rect",
+        "x": 46,
+        "y": 194,
+        "width": 14,
+        "height": 3,
+        "fill": "#E7E7DF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 194,
+        "width": 14,
+        "height": 3,
+        "fill": "#E7E7DF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

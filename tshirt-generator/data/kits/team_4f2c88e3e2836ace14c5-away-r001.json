@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4f2c88e3e2836ace14c5",
+  "team_name": "SC Freiburg",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "germany-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-freiburg-2026-27-away-kit-495276/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/12/FjCzazEmkhfYtCC/sc-freiburg-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f2c88e3e2836ace14c5-away-495276.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F3F2F0",
+      "leftSleeve": "#F3F2F0",
+      "rightSleeve": "#F3F2F0",
+      "collar": "#F3F2F0",
+      "leftCuff": "#F3F2F0",
+      "rightCuff": "#F3F2F0"
+    }
+  },
+  "observations": "White shirt with four widely spaced red body pinstripes; sleeves, sleeve ends and original collar remain white.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with four widely spaced red body pinstripes; sleeves, sleeve ends and original collar remain white.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_4f2c88e3e2836ace14c5-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2F0",
+      "leftSleeve": "#F3F2F0",
+      "rightSleeve": "#F3F2F0",
+      "collar": "#F3F2F0",
+      "leftCuff": "#F3F2F0",
+      "rightCuff": "#F3F2F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 58,
+        "y": 0,
+        "width": 1.8,
+        "height": 200,
+        "fill": "#BA4047",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 1.8,
+        "height": 200,
+        "fill": "#BA4047",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 110,
+        "y": 0,
+        "width": 1.8,
+        "height": 200,
+        "fill": "#BA4047",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 136,
+        "y": 0,
+        "width": 1.8,
+        "height": 200,
+        "fill": "#BA4047",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

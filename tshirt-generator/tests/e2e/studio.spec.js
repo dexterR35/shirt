@@ -232,3 +232,40 @@ test('Ipswich Away keeps one round PNG collar without a painted V on the chest',
   expect(chest[1]).toBeGreaterThan(140);
   await page.screenshot({path:'artifacts/collar-correction/studio-ipswich.png',fullPage:true});
 });
+
+test('new archive-sourced Manchester City kit applies with visible provenance',async({page})=>{
+  await page.goto('/');
+  await page.getByLabel('Team',{exact:true}).fill('Manchester City');
+  await page.getByRole('button',{name:/Manchester City England/}).click();
+  await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+  const canvas=page.locator('.shirt-image');
+  await expect(canvas).toHaveAttribute('aria-label','Manchester City home shirt');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  await page.getByText('Sources & verification',{exact:true}).click();
+  await expect(page.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/manchester-city-2026-27-home-kit-441641/');
+  await page.screenshot({path:'artifacts/footballkitarchive/studio-manchester-city.png',fullPage:true});
+});
+
+test('expanded country catalog applies independent Romanian Home/Away and keeps drafts unavailable',async({page})=>{
+  await page.goto('/');
+  await page.getByLabel('Team',{exact:true}).fill('FCSB');
+  await page.getByRole('button',{name:/FCSB Romania/}).click();
+  const canvas=page.locator('.shirt-image');
+  await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+  await expect(canvas).toHaveAttribute('aria-label','FCSB home shirt');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  const home=await canvas.evaluate(c=>c.toDataURL());
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(canvas).toHaveAttribute('aria-label','FCSB home shirt');
+  await page.getByRole('button',{name:'Apply kit',exact:true}).click();
+  await expect(canvas).toHaveAttribute('aria-label','FCSB away shirt');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  expect(await canvas.evaluate(c=>c.toDataURL())).not.toBe(home);
+  await page.getByText('Sources & verification',{exact:true}).click();
+  await expect(page.getByRole('link',{name:/Football Kit Archive/})).toHaveAttribute('href','https://www.footballkitarchive.com/fcsb-2026-27-away-kit-496188/');
+  await page.screenshot({path:'artifacts/footballkitarchive/studio-fcsb-away.png',fullPage:true});
+  await page.getByLabel('Team',{exact:true}).fill('Chindia');
+  await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
+  await expect(page.getByRole('button',{name:'Apply kit',exact:true})).toBeDisabled();
+  await expect(canvas).toHaveAttribute('aria-label','FCSB away shirt');
+});

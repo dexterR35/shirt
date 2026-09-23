@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e89ad6763f24c71b42b8",
+  "team_name": "Braga",
+  "country_name": "Portugal",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "portugal-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-braga-2026-27-home-kit-491264/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/06/KIsVJ2HOO1VEZB4/sc-braga-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e89ad6763f24c71b42b8-home-491264.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D72D36",
+      "leftSleeve": "#EEEEEC",
+      "rightSleeve": "#EEEEEC",
+      "collar": "#CE3037",
+      "leftCuff": "#CF2D35",
+      "rightCuff": "#CF2D35"
+    }
+  },
+  "observations": "Red body/neckline, plain white sleeves and narrow red sleeve-end bands. Manufacturer shoulder marks omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body/neckline, plain white sleeves and narrow red sleeve-end bands. Manufacturer shoulder marks omitted.",
+    "render_path": "artifacts/footballkitarchive/portugal-2026-09-23/team_e89ad6763f24c71b42b8-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D72D36",
+      "leftSleeve": "#EEEEEC",
+      "rightSleeve": "#EEEEEC",
+      "collar": "#CE3037",
+      "leftCuff": "#CF2D35",
+      "rightCuff": "#CF2D35"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CE3037",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D72D36",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.19999999999999C24 77.8 36 83.1 44.5 82.19999999999999Q48 82.3 49.2 74.1L52 106H5Z",
+        "fill": "#CF2D35",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.19999999999999C176 77.8 164 83.1 155.5 82.19999999999999Q152 82.3 150.8 74.1L148 106H195Z",
+        "fill": "#CF2D35",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

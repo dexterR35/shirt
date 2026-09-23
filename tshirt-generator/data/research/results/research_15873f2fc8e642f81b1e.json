@@ -4,8 +4,8 @@
   "team_name": "Marseille",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1ed60394865c25472158-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/olympique-marseille-2026-27-home-kit-472734/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/29/odUPQx6vFYcF7hn/olympique-marseille-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1ed60394865c25472158-home-472734.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#278ED0",
+      "leftCuff": "#1F90D0",
+      "rightCuff": "#1F90D0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with fine blue/gold/blue neck and cuff bands; manufacturer shoulder logos omitted.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_1ed60394865c25472158-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_15873f2fc8e642f81b1e.json",
+    "source_kit_id": "472734"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "france-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

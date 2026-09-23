@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_77bd881fdd9039f86f8d",
+  "team_name": "FC Voluntari",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Plain bright cyan-blue body, sleeves and neck, with fabric folds supplied by the original PNG; all lettering/logos omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_77bd881fdd9039f86f8d-home-497239.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-voluntari-2026-27-home-kit-497239/",
+      "sha256": "30085a4e55a55ef70748a463c23159fbdf3e7b7f24d5e8eae1e956eb437e99f7"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#139FD2",
+      "leftSleeve": "#139FD2",
+      "rightSleeve": "#139FD2",
+      "collar": "#168EBC",
+      "leftCuff": "#139FD2",
+      "rightCuff": "#139FD2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#168EBC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#139FD2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Atlético de Madrid",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -97,10 +97,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_e7bcd589b2e24bfac258-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atletico-madrid-2026-27-home-kit-490215/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/29/UHCfO1gqmGB0QqI/atletico-madrid-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e7bcd589b2e24bfac258-home-490215.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F4F0E9",
+      "leftSleeve": "#F4F0E9",
+      "rightSleeve": "#F4F0E9",
+      "collar": "#112D61",
+      "leftCuff": "#142B60",
+      "rightCuff": "#142B60"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_51e49e9f5314b5e55b2f.json",
+    "source_kit_id": "490215"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

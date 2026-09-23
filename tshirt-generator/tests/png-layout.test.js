@@ -18,15 +18,22 @@ test('every available kit resolves its separate reviewed PNG layout while retain
     assert.deepEqual(details.config,parent.config);
     const config=kitPreviewConfig(details,item);
     assert.equal(config.templateVersion,'png-front-1');
-    assert.notDeepEqual(config,details.config);
+    if(details.config.templateVersion!=='png-front-1')assert.notDeepEqual(config,details.config);
+    else assert.deepEqual(config,details.config,'New PNG-native configurations use their reviewed paint unchanged');
     await sharp(Buffer.from(renderColorArtwork(config))).png().toBuffer();
     count++;
   }
-  assert.equal(count,15);
+  assert.equal(count,manifest.counts.ready);
+  assert.ok(count>=15,'Previously available kits are retained');
 });
 
 test('all eight V/polo corrections retain the kit artwork and recolor only the base neckline',async()=>{
-  const files=(await fs.readdir('data/kits/png-layouts')).filter(f=>f.endsWith('-p002.json'));
+  const candidates=(await fs.readdir('data/kits/png-layouts')).filter(f=>f.endsWith('-p002.json'));
+  const files=[];
+  for(const file of candidates){
+    const layout=await read('data/kits/png-layouts/'+file);
+    if(layout.review_scope?.startsWith('Collar colors follow only the sewn round neckline'))files.push(file);
+  }
   assert.equal(files.length,8);
   for(const file of files){
     const current=await read('data/kits/png-layouts/'+file);

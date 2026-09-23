@@ -4,8 +4,8 @@
   "team_name": "CSL Ștefăneștii de Jos",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ecbbc7374cd425093326-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csl-stefanesti-2026-27-away-kit-511520/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/21/Nk0a22JJB8TotuW/csl-stefanesti-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ecbbc7374cd425093326-away-511520.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1767BA",
+      "leftSleeve": "#1767BA",
+      "rightSleeve": "#1767BA",
+      "collar": "#1767BA",
+      "leftCuff": "#1767BA",
+      "rightCuff": "#1767BA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain royal-blue shirt with matching collar and sleeves in the independently labeled Away match photograph.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_ecbbc7374cd425093326-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d194803ec5c1a86d86b7.json",
+    "source_kit_id": "511520"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

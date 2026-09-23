@@ -4,8 +4,8 @@
   "team_name": "Universitatea Cluj",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2584c9baca8aa75aae6c-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/universitatea-cluj-2026-27-home-kit-493379/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/05/nP5RX6uE6IRJeN8/universitatea-cluj-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2584c9baca8aa75aae6c-home-493379.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#EDEEE9",
+      "leftSleeve": "#EDEEE9",
+      "rightSleeve": "#EDEEE9",
+      "collar": "#EDEEE9",
+      "leftCuff": "#EDEEE9",
+      "rightCuff": "#EDEEE9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with closely spaced black torso columns, plain white sleeves/neck and three black shoulder stripes.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_2584c9baca8aa75aae6c-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4eed192bb3e6e316198e.json",
+    "source_kit_id": "493379"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

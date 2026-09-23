@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d6010558938653205a8d",
+  "team_name": "Troyes",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "france-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Cream shirt with curving pale vertical ribbon groups near the sides, dark thin collar/cuff borders; original PNG neckline retained without a polo placket.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d6010558938653205a8d-away-499234.jpg",
+      "page_url": "https://www.footballkitarchive.com/es-troyes-ac-2026-27-away-kit-499234/",
+      "sha256": "cfcd3358b982bbb3f213032c608ce32a61fae9f53a78298861732cdcbc810ec1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEE1C9",
+      "leftSleeve": "#EEE1C9",
+      "rightSleeve": "#EEE1C9",
+      "collar": "#EEE3CA",
+      "leftCuff": "#3D4035",
+      "rightCuff": "#3D4035"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EEE3CA",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.515 2.636L77 2Q100 7 123 2L124.485 2.636C128.061 25.697 71.939 25.697 75.515 2.636Z",
+          "fill": "#3B3E35",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEE1C9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M73 0Q75 40 82 85T82 150L80 200H78Q79 150 80 85T71 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M69 0Q71 40 78 85T78 150L76 200H74Q75 150 76 85T67 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M65 0Q67 40 74 85T74 150L72 200H70Q71 150 72 85T63 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M61 0Q63 40 70 85T70 150L68 200H66Q67 150 68 85T59 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M57 0Q59 40 66 85T66 150L64 200H62Q63 150 64 85T55 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M127 0Q125 40 118 85T118 150L120 200H122Q121 150 120 85T129 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M131 0Q129 40 122 85T122 150L124 200H126Q125 150 124 85T133 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M135 0Q133 40 126 85T126 150L128 200H130Q129 150 128 85T137 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M139 0Q137 40 130 85T130 150L132 200H134Q133 150 132 85T141 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      },
+      {
+        "type": "path",
+        "d": "M143 0Q141 40 134 85T134 150L136 200H138Q137 150 136 85T145 0Z",
+        "fill": "#F5EEDC",
+        "clip": "body",
+        "opacity": 0.75
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#3D4035",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#3D4035",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

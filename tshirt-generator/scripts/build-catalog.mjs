@@ -148,6 +148,12 @@ const counts = {
   discovery_searched: searched.size,
   blocked: [...results.values()].filter((r) => r.status === "blocked").length,
 };
+try {
+  const archive = await read('data/research/footballkitarchive/progress.json');
+  counts.fka_teams_searched = archive.teams_searched;
+  counts.fka_references_saved = archive.references_saved;
+  counts.fka_artwork_reviewed = archive.artwork_reviewed;
+} catch (e) { if(e.code !== 'ENOENT') throw e; }
 const manifest = {
   schemaVersion: 1,
   generated_at: new Date().toISOString(),

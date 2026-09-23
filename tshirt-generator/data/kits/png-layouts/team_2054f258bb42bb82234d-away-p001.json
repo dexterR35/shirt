@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2054f258bb42bb82234d",
+  "team_name": "Rapid București",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Claret upper body and sleeves, fading vertically through gray to white at the lower torso; pale fine neckline edge.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2054f258bb42bb82234d-away-493272.jpg",
+      "page_url": "https://www.footballkitarchive.com/rapid-bucuresti-2026-27-away-kit-493272/",
+      "sha256": "c3e51748d242a24d850c2fba956974f839e086f76833586b5755a0be557ebb2c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#491F2B",
+      "leftSleeve": "#491F2B",
+      "rightSleeve": "#491F2B",
+      "collar": "#481F29",
+      "leftCuff": "#491F2B",
+      "rightCuff": "#491F2B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#481F29",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.939 2.455L77 2Q100 7 123 2L124.061 2.455C127.758 25.212 72.242 25.212 75.939 2.455Z",
+          "fill": "#D5D6D0",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#491F2B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#481D28"
+            },
+            {
+              "offset": 0.42,
+              "color": "#481D28"
+            },
+            {
+              "offset": 1,
+              "color": "#EEEEEA"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 193,
+        "width": 200,
+        "height": 3,
+        "fill": "#DFE0DD",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Hull City",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f3408b285778610003e5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hull-city-afc-2026-27-away-kit-498641/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/QdoZmnKNSeJBhdY/hull-city-afc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f3408b285778610003e5-away-498641.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved Football Kit Archive front image. Archive color names retained separately; no official HEX values claimed.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Orange",
+      "Black"
+    ],
+    "values": {
+      "body": "#ECEFED",
+      "leftSleeve": "#ECEFED",
+      "rightSleeve": "#ECEFED",
+      "collar": "#1B1C1D",
+      "leftCuff": "#191C20",
+      "rightCuff": "#191C20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "outcome": "source-reviewed PNG adaptation",
+    "human_approved": false,
+    "notes": "White shirt with black upper shoulder panels and amber curved inserts beneath; black/amber cuff bands. Concentric neck colors remain confined to the existing round ring.",
+    "render_path": "artifacts/footballkitarchive/team_f3408b285778610003e5-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_024fa5d1380c7cccbe17.json",
+    "source_kit_id": "498641"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "action": "Compared Football Kit Archive front image against PNG paint adaptation."
+    }
   ]
 }

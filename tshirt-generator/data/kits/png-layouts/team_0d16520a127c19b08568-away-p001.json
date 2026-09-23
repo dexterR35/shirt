@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0d16520a127c19b08568",
+  "team_name": "Le Havre",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "france-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Pale ivory-green shirt with tapering navy side panels, navy/ivory striped neck and double dark cuff bands. Hummel marks omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_0d16520a127c19b08568-away-507309.jpg",
+      "page_url": "https://www.footballkitarchive.com/le-havre-ac-2026-27-away-kit-507309/",
+      "sha256": "c62d74d661e592461c20d68c5bfc0a7555b4f9dd8973e30dec68e3a9f5dd0792"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E9ECE1",
+      "leftSleeve": "#E9ECE1",
+      "rightSleeve": "#E9ECE1",
+      "collar": "#273044",
+      "leftCuff": "#243244",
+      "rightCuff": "#243244"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#273044",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.333 4L77 2Q100 7 123 2L127.667 4C130.333 29.333 69.667 29.333 72.333 4Z",
+          "fill": "#E1E6D9",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.967 3.3L77 2Q100 7 123 2L126.033 3.3C129.167 27.467 70.833 27.467 73.967 3.3Z",
+          "fill": "#273044",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E9ECE1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 78L54 88L51 161L47 128Z",
+        "fill": "#26374B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 78L146 88L149 161L153 128Z",
+        "fill": "#26374B",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.3C24 77.9 36 83.2 44.5 82.3Q48 82.4 49.2 74.2L52 106H5Z",
+        "fill": "#243244",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.5C24 79.10000000000001 36 84.4 44.5 83.5Q48 83.60000000000001 49.2 75.4L52 106H5Z",
+        "fill": "#E1E4D7",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#243244",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.3C176 77.9 164 83.2 155.5 82.3Q152 82.4 150.8 74.2L148 106H195Z",
+        "fill": "#243244",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.5C176 79.10000000000001 164 84.4 155.5 83.5Q152 83.60000000000001 150.8 75.4L148 106H195Z",
+        "fill": "#E1E4D7",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#243244",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

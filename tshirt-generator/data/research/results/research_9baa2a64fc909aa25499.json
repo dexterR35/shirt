@@ -4,8 +4,8 @@
   "team_name": "FC Bacău",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_219a8535e73f63dba1e1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-bacau-2026-27-home-kit-502695/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/8Ojuzpu0vAExnUq/fc-bacau-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_219a8535e73f63dba1e1-home-502695.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#C7212D",
+      "leftSleeve": "#C7212D",
+      "rightSleeve": "#C7212D",
+      "collar": "#C7212D",
+      "leftCuff": "#C7212D",
+      "rightCuff": "#C7212D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain red shirt with matching round neck and sleeves in the full match photograph.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_219a8535e73f63dba1e1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9baa2a64fc909aa25499.json",
+    "source_kit_id": "502695"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

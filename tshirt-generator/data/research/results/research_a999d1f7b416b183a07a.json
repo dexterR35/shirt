@@ -4,8 +4,8 @@
   "team_name": "Lyon",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -97,10 +97,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_d81dac9279b7e5636f70-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/olympique-lyonnais-2026-27-home-kit-478919/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/09/9pbX8mVRFAt8Sjx/olympique-lyonnais-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d81dac9279b7e5636f70-home-478919.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#EFF0EC",
+      "leftSleeve": "#2C458E",
+      "rightSleeve": "#2C458E",
+      "collar": "#284585",
+      "leftCuff": "#BEA475",
+      "rightCuff": "#BEA475"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a999d1f7b416b183a07a.json",
+    "source_kit_id": "478919"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "france-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

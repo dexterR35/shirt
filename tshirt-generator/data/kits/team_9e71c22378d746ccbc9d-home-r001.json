@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9e71c22378d746ccbc9d",
+  "team_name": "Valencia",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "spain-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/valencia-cf-2026-27-home-kit-481603/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/18/XdzmYnoRUpsBG3U/valencia-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9e71c22378d746ccbc9d-home-481603.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret"
+    ],
+    "values": {
+      "body": "#ECEFEE",
+      "leftSleeve": "#ECEFEE",
+      "rightSleeve": "#ECEFEE",
+      "collar": "#7E172A",
+      "leftCuff": "#741428",
+      "rightCuff": "#741428"
+    }
+  },
+  "observations": "White shirt with narrow claret neck and cuff stripes; the V-neck colors are mapped onto the PNG collar only.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with narrow claret neck and cuff stripes; the V-neck colors are mapped onto the PNG collar only.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_9e71c22378d746ccbc9d-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#ECEFEE",
+      "leftSleeve": "#ECEFEE",
+      "rightSleeve": "#ECEFEE",
+      "collar": "#7E172A",
+      "leftCuff": "#741428",
+      "rightCuff": "#741428"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#7E172A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.968 2.871L77 2Q100 7 123 2L125.032 2.871C128.452 26.323 71.548 26.323 74.968 2.871Z",
+          "fill": "#F0F0EB",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#ECEFEE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.19999999999999C24 78.8 36 84.1 44.5 83.19999999999999Q48 83.3 49.2 75.1L52 106H5Z",
+        "fill": "#741428",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#EDEFEA",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.19999999999999C176 78.8 164 84.1 155.5 83.19999999999999Q152 83.3 150.8 75.1L148 106H195Z",
+        "fill": "#741428",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#EDEFEA",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

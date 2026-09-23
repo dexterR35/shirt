@@ -4,8 +4,8 @@
   "team_name": "Manchester City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_17e86699cc503cafbeae-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/manchester-city-2026-27-home-kit-441641/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/20/aZesqwjJvRIgBkC/manchester-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_17e86699cc503cafbeae-home-441641.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated visually from the saved Football Kit Archive front image. Archive color names retained separately; no official HEX values claimed.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#9BD0EE",
+      "leftSleeve": "#9BD0EE",
+      "rightSleeve": "#9BD0EE",
+      "collar": "#E8F2F4",
+      "leftCuff": "#DBE7EC",
+      "rightCuff": "#DBE7EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "outcome": "source-reviewed PNG adaptation",
+    "human_approved": false,
+    "notes": "Sky-blue upper shirt fading continuously to pale blue at the hem, pale blue collar/cuffs and pale underarm inserts. Gradient follows the archive front photograph, with the original PNG shading retained.",
+    "render_path": "artifacts/footballkitarchive/team_17e86699cc503cafbeae-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_28173b5d5247135b421d.json",
+    "source_kit_id": "441641"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "action": "Compared Football Kit Archive front image against PNG paint adaptation."
+    }
   ]
 }

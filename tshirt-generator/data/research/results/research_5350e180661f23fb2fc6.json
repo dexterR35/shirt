@@ -4,8 +4,8 @@
   "team_name": "CS Dinamo București",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6b2d27488c5a778dbc87-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-dinamo-bucuresti-2026-27-home-kit-507573/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/0lV76QhB7Lx5yRQ/cs-dinamo-bucuresti-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6b2d27488c5a778dbc87-home-507573.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#BD2532",
+      "leftSleeve": "#BD2532",
+      "rightSleeve": "#BD2532",
+      "collar": "#242425",
+      "leftCuff": "#BD2532",
+      "rightCuff": "#BD2532"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with a broad black upper-chest/shoulder yoke and dark neckline; red sleeves. Sponsor and shoulder lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_6b2d27488c5a778dbc87-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5350e180661f23fb2fc6.json",
+    "source_kit_id": "507573"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

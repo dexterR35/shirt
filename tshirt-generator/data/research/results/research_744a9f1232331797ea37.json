@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "researching",
+  "status": "ready",
   "reason": "Official yellow/charcoal model front saved. Trace tonal fragmented yellow print before creating a reviewed SVG.",
   "seed_references": [
     {
@@ -68,19 +68,15 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect complete front and pattern details",
-    "Trace native vector artwork",
-    "Render and visually compare"
-  ],
+  "remaining": [],
   "references": [
     {
-      "publisher": "adidas official manufacturer store",
-      "page_url": "https://www.adidas.co.uk/leeds-united-26-27-away-jersey/KF1997.html",
-      "image_url": "https://assets.adidas.com/images/w_500,f_auto,q_auto/b2168c5d7a724bcf95a9984459ebbe41_9366/Leeds_United_26-27_Away_Jersey_Yellow_KF1997_21_model.jpg",
-      "local_path": "data/research/references/adidas-batch2-model-2.jpg",
-      "checked_at": "2026-09-22T21:28:35.792Z",
-      "source_type": "official",
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/leeds-united-2026-27-away-kit-441202/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/04/2LSblUsuK1i4qLZ/leeds-united-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8eeab14d44ff8cd2c539-away-441202.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
       "variant": "away",
       "kit_season": "2026/27"
     }
@@ -89,6 +85,41 @@
     {
       "date": "2026-09-22T21:28:35.792Z",
       "action": "Official yellow/charcoal model front saved. Trace tonal fragmented yellow print before creating a reviewed SVG."
+    },
+    {
+      "date": "2026-09-23",
+      "batch": "england-next-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_8eeab14d44ff8cd2c539-away-r001.json",
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#F0E907",
+      "leftSleeve": "#F0E907",
+      "rightSleeve": "#F0E907",
+      "collar": "#F4F2E8",
+      "leftCuff": "#242C34",
+      "rightCuff": "#242C34"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright yellow with dark double shoulder tape, black and cream cuffs and neckline. Repeating Yorkshire-rose emblem field is omitted under the no-emblems instruction, along with team/manufacturer/sponsor marks.",
+    "render_path": "artifacts/footballkitarchive/england-next-2026-09-23/team_8eeab14d44ff8cd2c539-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_744a9f1232331797ea37.json",
+    "source_kit_id": "441202"
+  }
 }

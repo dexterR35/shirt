@@ -4,8 +4,8 @@
   "team_name": "FC Bihor Oradea",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a7144ea1e41675fc3bf7-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-bihor-oradea-2026-27-home-kit-502735/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/53ZPjN2KcK2fAm9/fc-bihor-oradea-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a7144ea1e41675fc3bf7-home-502735.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#114E99",
+      "leftSleeve": "#114E99",
+      "rightSleeve": "#114E99",
+      "collar": "#F0F0E5",
+      "leftCuff": "#ECEDE0",
+      "rightCuff": "#ECEDE0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue shirt with fine dark body pinstripes, white collar/cuffs and fine white curved shoulder/side piping. Fluorescent captain armband omitted.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_a7144ea1e41675fc3bf7-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fc482a0992acfc630841.json",
+    "source_kit_id": "502735"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

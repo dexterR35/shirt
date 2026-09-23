@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7f1a26fa9a9e335447ff",
+  "team_name": "Auxerre",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "france-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aj-auxerre-2026-27-home-kit-494248/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/E0Ey4mrnwFHTHeu/aj-auxerre-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7f1a26fa9a9e335447ff-home-494248.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F0F0F0",
+      "leftSleeve": "#F0F0F0",
+      "rightSleeve": "#F0F0F0",
+      "collar": "#1B283A",
+      "leftCuff": "#172239",
+      "rightCuff": "#172239"
+    }
+  },
+  "observations": "White body and shoulders with royal-blue lower sleeve panels, white angular sleeve inserts, navy cuffs edged white and narrow blue body side seams.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body and shoulders with royal-blue lower sleeve panels, white angular sleeve inserts, navy cuffs edged white and narrow blue body side seams.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_7f1a26fa9a9e335447ff-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0F0",
+      "leftSleeve": "#F0F0F0",
+      "rightSleeve": "#F0F0F0",
+      "collar": "#1B283A",
+      "leftCuff": "#172239",
+      "rightCuff": "#172239"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1B283A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.645 2.581L77 2Q100 7 123 2L124.355 2.581C127.968 25.548 72.032 25.548 75.645 2.581Z",
+          "fill": "#375CA6",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            25,
+            36
+          ],
+          [
+            46,
+            30
+          ],
+          [
+            48,
+            73
+          ],
+          [
+            37,
+            87
+          ],
+          [
+            10,
+            76
+          ]
+        ],
+        "fill": "#144AAB",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            47
+          ],
+          [
+            34,
+            51
+          ],
+          [
+            42,
+            64
+          ],
+          [
+            37,
+            53
+          ],
+          [
+            41,
+            48
+          ]
+        ],
+        "fill": "#F0F0ED",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            175,
+            36
+          ],
+          [
+            154,
+            30
+          ],
+          [
+            152,
+            73
+          ],
+          [
+            163,
+            87
+          ],
+          [
+            190,
+            76
+          ]
+        ],
+        "fill": "#144AAB",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            47
+          ],
+          [
+            166,
+            51
+          ],
+          [
+            158,
+            64
+          ],
+          [
+            163,
+            53
+          ],
+          [
+            159,
+            48
+          ]
+        ],
+        "fill": "#F0F0ED",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H50.2Q54.2 133 50.2 77Z",
+        "fill": "#224795",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149.8Q145.8 133 149.8 77Z",
+        "fill": "#224795",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.39999999999999C24 77 36 82.3 44.5 81.39999999999999Q48 81.5 49.2 73.3L52 106H5Z",
+        "fill": "#172239",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#F1F0E8",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.39999999999999C176 77 164 82.3 155.5 81.39999999999999Q152 81.5 150.8 73.3L148 106H195Z",
+        "fill": "#172239",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#F1F0E8",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

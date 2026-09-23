@@ -4,8 +4,8 @@
   "team_name": "Villarreal",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_37e82607d6a39774c381-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/villarreal-cf-2026-27-away-kit-496469/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/10/0LHYw3AUhMHFKXY/villarreal-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_37e82607d6a39774c381-away-496469.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#CED2D3",
+      "leftSleeve": "#2866A6",
+      "rightSleeve": "#2866A6",
+      "collar": "#2762A1",
+      "leftCuff": "#C5CBCF",
+      "rightCuff": "#C5CBCF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale gray body, blue raglan sleeves and neck ring, fine yellow seam piping and pale gray cuff bands.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_37e82607d6a39774c381-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c3fd273e00d2149e9a4b.json",
+    "source_kit_id": "496469"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

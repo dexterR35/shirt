@@ -4,8 +4,8 @@
   "team_name": "FC Argeș",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f5a63daa5cf98db2c301-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-arges-pitesti-2026-27-away-kit-495214/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/13/xK6T6VvrtsuKgb6/fc-arges-pitesti-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f5a63daa5cf98db2c301-away-495214.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Purple",
+      "White"
+    ],
+    "values": {
+      "body": "#57366F",
+      "leftSleeve": "#57366F",
+      "rightSleeve": "#57366F",
+      "collar": "#E7E5E3",
+      "leftCuff": "#E7E4E3",
+      "rightCuff": "#E7E4E3"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Purple shirt, white neck and cuffs, very fine pale vertical side piping.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_f5a63daa5cf98db2c301-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7fb3efcf5036c808e765.json",
+    "source_kit_id": "495214"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

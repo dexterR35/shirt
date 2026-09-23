@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ce969b48f19971c00e39",
+  "team_name": "Angers",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "france-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/angers-sco-2026-27-home-kit-496861/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/jNuHImBOXeETk6f/angers-sco-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ce969b48f19971c00e39-home-496861.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#202123",
+      "leftSleeve": "#202123",
+      "rightSleeve": "#202123",
+      "collar": "#F1F1ED",
+      "leftCuff": "#EAEBE7",
+      "rightCuff": "#EAEBE7"
+    }
+  },
+  "observations": "Black shirt with four broad white body stripes, plain black sleeves, white collar/cuffs and gold underarm inserts.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with four broad white body stripes, plain black sleeves, white collar/cuffs and gold underarm inserts.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_ce969b48f19971c00e39-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#202123",
+      "leftSleeve": "#202123",
+      "rightSleeve": "#202123",
+      "collar": "#F1F1ED",
+      "leftCuff": "#EAEBE7",
+      "rightCuff": "#EAEBE7"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F1ED",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#202123",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#ECEEEB",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#ECEEEB",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#ECEEEB",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 141,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#ECEEEB",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M44 65L51 78L48 94L39 80Z",
+        "fill": "#B19760",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M156 65L149 78L152 94L161 80Z",
+        "fill": "#B19760",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#EAEBE7",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#EAEBE7",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

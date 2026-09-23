@@ -4,8 +4,8 @@
   "team_name": "Celta Vigo",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_189a6c1c2323d31f4031-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rc-celta-de-vigo-2026-27-home-kit-491716/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/01/C4dbWiWXc9qovYi/rc-celta-de-vigo-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_189a6c1c2323d31f4031-home-491716.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Off-white",
+      "Red"
+    ],
+    "values": {
+      "body": "#9BCCE9",
+      "leftSleeve": "#9BCCE9",
+      "rightSleeve": "#9BCCE9",
+      "collar": "#EAE5D0",
+      "leftCuff": "#D3283D",
+      "rightCuff": "#D3283D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale sky blue body and sleeves; cream neck/cuff rings with fine red edging and cream paired shoulder chevrons.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_189a6c1c2323d31f4031-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7189cc18fe9b235caff8.json",
+    "source_kit_id": "491716"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

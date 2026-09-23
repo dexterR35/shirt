@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6b2d27488c5a778dbc87",
+  "team_name": "CS Dinamo București",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with a red upper-chest/shoulder yoke and white neckline/sleeves, independently photographed as the Away variant.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6b2d27488c5a778dbc87-away-502683.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-dinamo-bucuresti-2026-27-away-kit-502683/",
+      "sha256": "69c101aa0566626ebe56f516a4f2f5c8eb71df6a9342df10aa7380a8c89e1ca9"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F0EB",
+      "leftSleeve": "#F1F0EB",
+      "rightSleeve": "#F1F0EB",
+      "collar": "#ECEEE7",
+      "leftCuff": "#F1F0EB",
+      "rightCuff": "#F1F0EB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#ECEEE7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F0EB",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 34,
+        "fill": "#C92D39",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

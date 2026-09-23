@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4f2c88e3e2836ace14c5",
+  "team_name": "SC Freiburg",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "germany-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-freiburg-2026-27-home-kit-492459/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/vLMgORas4gBroTC/sc-freiburg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f2c88e3e2836ace14c5-home-492459.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#CF1930",
+      "rightSleeve": "#CF1930",
+      "collar": "#C32537",
+      "leftCuff": "#CF1930",
+      "rightCuff": "#CF1930"
+    }
+  },
+  "observations": "White front with narrow red top stripes widening gently towards the hem, plain red sleeves and red neckline.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White front with narrow red top stripes widening gently towards the hem, plain red sleeves and red neckline.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_4f2c88e3e2836ace14c5-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#CF1930",
+      "rightSleeve": "#CF1930",
+      "collar": "#C32537",
+      "leftCuff": "#CF1930",
+      "rightCuff": "#CF1930"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C32537",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            0
+          ],
+          [
+            51.4,
+            0
+          ],
+          [
+            55,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            0
+          ],
+          [
+            63.4,
+            0
+          ],
+          [
+            67,
+            200
+          ],
+          [
+            61,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            0
+          ],
+          [
+            75.4,
+            0
+          ],
+          [
+            79,
+            200
+          ],
+          [
+            73,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            0
+          ],
+          [
+            87.4,
+            0
+          ],
+          [
+            91,
+            200
+          ],
+          [
+            85,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            0
+          ],
+          [
+            99.4,
+            0
+          ],
+          [
+            103,
+            200
+          ],
+          [
+            97,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            0
+          ],
+          [
+            111.4,
+            0
+          ],
+          [
+            115,
+            200
+          ],
+          [
+            109,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            0
+          ],
+          [
+            123.4,
+            0
+          ],
+          [
+            127,
+            200
+          ],
+          [
+            121,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            0
+          ],
+          [
+            135.4,
+            0
+          ],
+          [
+            139,
+            200
+          ],
+          [
+            133,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            0
+          ],
+          [
+            147.4,
+            0
+          ],
+          [
+            151,
+            200
+          ],
+          [
+            145,
+            200
+          ]
+        ],
+        "fill": "#C7213B",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

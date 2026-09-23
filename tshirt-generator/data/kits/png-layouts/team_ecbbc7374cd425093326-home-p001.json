@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ecbbc7374cd425093326",
+  "team_name": "CSL Ștefăneștii de Jos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Plain golden-yellow shirt with matching collar and sleeves in the match photograph; sponsor/crest omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ecbbc7374cd425093326-home-502698.jpg",
+      "page_url": "https://www.footballkitarchive.com/csl-stefanesti-2026-27-home-kit-502698/",
+      "sha256": "e3312e3e00793462b8664f85378c33362a733668f6eeeb8256acaea37d45c142"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E4C821",
+      "leftSleeve": "#E4C821",
+      "rightSleeve": "#E4C821",
+      "collar": "#E4C821",
+      "leftCuff": "#E4C821",
+      "rightCuff": "#E4C821"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E4C821",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E4C821",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

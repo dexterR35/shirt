@@ -19,6 +19,8 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## Data and research
 
+- Latest user direction (23 September 2026): Football Kit Archive (`https://www.footballkitarchive.com/`) is the source of truth for kit research. Continue all 735 workbook teams and both Home/Away slots. Use `data/research/footballkitarchive/source-policy.json`, `worklist.json`, discovery checkpoints and saved front images. This supersedes the earlier official-source-first rule for new research; preserve the older evidence and approved revisions. Scraped metadata or color names alone never make a kit ready.
+
 - Include every source team: 735 teams, 39 countries/associations, 708 first teams and 27 reserve teams.
 - Preserve the 16 source tabs, 779 membership rows, 27 competition editions, hidden rows, seasons, links and notes as source data.
 - Research exactly two current kit slots per team: Home and Away. The baseline has 1,470 tasks. Both variants need independent evidence.

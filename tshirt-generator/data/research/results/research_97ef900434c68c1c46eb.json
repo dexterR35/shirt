@@ -4,8 +4,8 @@
   "team_name": "Eintracht Frankfurt",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2d5f3d53282dd0cc731e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/eintracht-frankfurt-2026-27-home-kit-472868/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/07/zU6WO1Ov75ZHkhq/eintracht-frankfurt-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2d5f3d53282dd0cc731e-home-472868.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#2A2B2D",
+      "leftSleeve": "#2A2B2D",
+      "rightSleeve": "#2A2B2D",
+      "collar": "#24292B",
+      "leftCuff": "#CA3641",
+      "rightCuff": "#CA3641"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal front with two grouped red pinstripe panels and fine red separators, red sleeve hoops, white shoulder tape and red-edged dark neckline.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_2d5f3d53282dd0cc731e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_97ef900434c68c1c46eb.json",
+    "source_kit_id": "472868"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

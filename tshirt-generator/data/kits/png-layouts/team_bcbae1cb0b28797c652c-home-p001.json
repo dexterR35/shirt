@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_bcbae1cb0b28797c652c",
+  "team_name": "VfB Stuttgart",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "germany-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White torso with a broad red chest band; sleeves transition from white shoulders to red lower sleeves, with a fine red neck edge. Manufacturer shoulder dots omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_bcbae1cb0b28797c652c-home-489009.jpg",
+      "page_url": "https://www.footballkitarchive.com/vfb-stuttgart-2026-27-home-kit-489009/",
+      "sha256": "79caf3a08d692bb46b979a5141bcb5abe6e4e2b0f119d2e1a230d1415a2ea64d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2F0",
+      "leftSleeve": "#F3F2F0",
+      "rightSleeve": "#F3F2F0",
+      "collar": "#EFF0E9",
+      "leftCuff": "#D12B39",
+      "rightCuff": "#D12B39"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EFF0E9",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.727 2.545L77 2Q100 7 123 2L124.273 2.545C127.909 25.455 72.091 25.455 75.727 2.545Z",
+          "fill": "#CC2F3B",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 69,
+        "width": 200,
+        "height": 26,
+        "fill": "#CF293C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 100,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 29,
+          "x2": 0,
+          "y2": 60,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F3F2F0"
+            },
+            {
+              "offset": 0.4,
+              "color": "#EEE0DE"
+            },
+            {
+              "offset": 1,
+              "color": "#D12B39"
+            }
+          ]
+        },
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 100,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 29,
+          "x2": 0,
+          "y2": 60,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F3F2F0"
+            },
+            {
+              "offset": 0.4,
+              "color": "#EEE0DE"
+            },
+            {
+              "offset": 1,
+              "color": "#D12B39"
+            }
+          ]
+        },
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

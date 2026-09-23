@@ -4,8 +4,8 @@
   "team_name": "Farul Constanța",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_829a8be572b445d1ea76-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fcv-farul-constanta-2026-27-away-kit-495739/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/LhAw8ddNPLuwqZq/fcv-farul-constanta-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_829a8be572b445d1ea76-away-495739.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F1F1EF",
+      "leftSleeve": "#F1F1EF",
+      "rightSleeve": "#F1F1EF",
+      "collar": "#1354A2",
+      "leftCuff": "#1258A9",
+      "rightCuff": "#1258A9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with royal-blue neck, broad blue cuffs and narrow blue side panels.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_829a8be572b445d1ea76-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f12fe3b6f4c714c28c45.json",
+    "source_kit_id": "495739"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

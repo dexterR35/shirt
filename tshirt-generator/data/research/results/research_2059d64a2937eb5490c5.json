@@ -4,8 +4,8 @@
   "team_name": "Hamburger SV",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_82146feb7ed048a70772-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hamburger-sv-2026-27-away-kit-501421/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/qgExJfMhIAMp2EK/hamburger-sv-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_82146feb7ed048a70772-away-501421.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#1C4C91",
+      "leftSleeve": "#1C4C91",
+      "rightSleeve": "#1C4C91",
+      "collar": "#EDF0EA",
+      "leftCuff": "#EEF0EA",
+      "rightCuff": "#EEF0EA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue shirt with white collar, paired white shoulder tape and broad white cuffs edged in dark navy.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_82146feb7ed048a70772-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2059d64a2937eb5490c5.json",
+    "source_kit_id": "501421"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

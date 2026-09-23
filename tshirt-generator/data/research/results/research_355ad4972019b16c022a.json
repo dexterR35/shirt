@@ -4,8 +4,8 @@
   "team_name": "Brest",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9d3adfa85277be6e611b-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/stade-brestois-2026-27-home-kit-492820/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/SU7tDUwDqC3m5e6/stade-brestois-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9d3adfa85277be6e611b-home-492820.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#CF0915",
+      "leftSleeve": "#CF0915",
+      "rightSleeve": "#CF0915",
+      "collar": "#F0EAE8",
+      "leftCuff": "#CF0915",
+      "rightCuff": "#CF0915"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with subtle thin red torso pinstripes, white collar and two small white hem-edge tabs.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_9d3adfa85277be6e611b-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_355ad4972019b16c022a.json",
+    "source_kit_id": "492820"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "france-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

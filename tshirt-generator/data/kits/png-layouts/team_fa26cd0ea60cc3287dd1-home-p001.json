@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fa26cd0ea60cc3287dd1",
+  "team_name": "Deportivo La Coruña",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "spain-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Alternating broad royal/azure blue and white front stripes, solid blue sleeves, pale blue-gray neck and cuff bands.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fa26cd0ea60cc3287dd1-home-492312.jpg",
+      "page_url": "https://www.footballkitarchive.com/deportivo-de-a-coruna-2026-27-home-kit-492312/",
+      "sha256": "6479c921fc9efe495d3db38ece48b2a6b92444c123ff6ed18837af902b53d588"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDEFEF",
+      "leftSleeve": "#0877A9",
+      "rightSleeve": "#0877A9",
+      "collar": "#D0DEE4",
+      "leftCuff": "#B9CBD5",
+      "rightCuff": "#B9CBD5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D0DEE4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDEFEF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 0,
+        "width": 17.5,
+        "height": 200,
+        "fill": "#087AAE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 17.5,
+        "height": 200,
+        "fill": "#087AAE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 17.5,
+        "height": 200,
+        "fill": "#087AAE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#B9CBD5",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#B9CBD5",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

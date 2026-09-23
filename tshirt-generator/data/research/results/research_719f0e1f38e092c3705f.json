@@ -4,8 +4,8 @@
   "team_name": "Metalul Buzău",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2819541c37b1f5fbc121-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/metalul-buzau-2026-27-away-kit-503441/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/9Ua2MFnobQwrlmc/metalul-buzau-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2819541c37b1f5fbc121-away-503441.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#EEEEE8",
+      "leftSleeve": "#EEEEE8",
+      "rightSleeve": "#EEEEE8",
+      "collar": "#E6EAE3",
+      "leftCuff": "#3D639A",
+      "rightCuff": "#3D639A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with blue inner neck edge and narrow blue/white/blue cuff stripes.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_2819541c37b1f5fbc121-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_719f0e1f38e092c3705f.json",
+    "source_kit_id": "503441"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

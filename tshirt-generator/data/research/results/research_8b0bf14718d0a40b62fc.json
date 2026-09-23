@@ -4,8 +4,8 @@
   "team_name": "1. FC Köln",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d509272aaa60d5a5b7dc-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fc-koln-2026-27-home-kit-479044/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/28/gakbtUFH99uj7yg/1-fc-koln-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d509272aaa60d5a5b7dc-home-479044.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#D32629",
+      "leftCuff": "#D32F2C",
+      "rightCuff": "#D32F2C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with paired red shoulder tape, red neck ring edged in white and red/black thin cuff edging.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_d509272aaa60d5a5b7dc-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8b0bf14718d0a40b62fc.json",
+    "source_kit_id": "479044"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

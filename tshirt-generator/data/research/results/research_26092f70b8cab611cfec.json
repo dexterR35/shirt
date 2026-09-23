@@ -4,8 +4,8 @@
   "team_name": "Borussia Mönchengladbach",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_c5d711cb3114c6593b20-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/borussia-monchengladbach-2026-27-away-kit-481281/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/08/MYQXUxm70jE163W/borussia-monchengladbach-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c5d711cb3114c6593b20-away-481281.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Green",
+      "Gold"
+    ],
+    "values": {
+      "body": "#191D1D",
+      "leftSleeve": "#191D1D",
+      "rightSleeve": "#191D1D",
+      "collar": "#1B201E",
+      "leftCuff": "#0B8953",
+      "rightCuff": "#0B8953"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with green side inserts and green cuff edges with narrow gold borders, dark collar with a green inner edge.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_c5d711cb3114c6593b20-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_26092f70b8cab611cfec.json",
+    "source_kit_id": "481281"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

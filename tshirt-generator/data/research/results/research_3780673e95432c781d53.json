@@ -4,8 +4,8 @@
   "team_name": "Atalanta",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d2bb9c0482103af91c4e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atalanta-bc-2026-27-home-kit-496447/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/1a1uJK2TOu938zH/atalanta-bc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d2bb9c0482103af91c4e-home-496447.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#193954",
+      "leftSleeve": "#1380BD",
+      "rightSleeve": "#1380BD",
+      "collar": "#181F26",
+      "leftCuff": "#F1F2EC",
+      "rightCuff": "#F1F2EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Narrow blue/black grouped front stripes contain alternating blue pinlines and rectangular tonal changes; blue sleeves and broad black curved shoulder borders, black collar and thin pale cuff edge.",
+    "render_path": "artifacts/footballkitarchive/italy-2026-09-23/team_d2bb9c0482103af91c4e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3780673e95432c781d53.json",
+    "source_kit_id": "496447"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "italy-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

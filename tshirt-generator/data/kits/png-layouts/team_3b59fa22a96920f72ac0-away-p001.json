@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3b59fa22a96920f72ac0",
+  "team_name": "Racing Santander",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "spain-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Dark green front and sleeves; seven widely spaced gold pinstripes on torso with matching fine neckline and cuff edges.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3b59fa22a96920f72ac0-away-498097.jpg",
+      "page_url": "https://www.footballkitarchive.com/racing-de-santander-2026-27-away-kit-498097/",
+      "sha256": "11c49d588844ee95c66d5cf81edb3b1ee5e66ca6fe20cfd64fbf33ca96ea21de"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#224B3C",
+      "leftSleeve": "#224B3C",
+      "rightSleeve": "#224B3C",
+      "collar": "#264E3D",
+      "leftCuff": "#BEAF76",
+      "rightCuff": "#BEAF76"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#264E3D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.087 2.391L77 2Q100 7 123 2L123.913 2.391C127.652 25.043 72.348 25.043 76.087 2.391Z",
+          "fill": "#B9AD6A",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#224B3C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 68,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 98,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 128,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#ACA56D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.39999999999999C24 80 36 85.3 44.5 84.39999999999999Q48 84.5 49.2 76.3L52 106H5Z",
+        "fill": "#BEAF76",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#234D3B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.39999999999999C176 80 164 85.3 155.5 84.39999999999999Q152 84.5 150.8 76.3L148 106H195Z",
+        "fill": "#BEAF76",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#234D3B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

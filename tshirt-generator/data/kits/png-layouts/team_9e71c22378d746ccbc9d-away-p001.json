@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9e71c22378d746ccbc9d",
+  "team_name": "Valencia",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "spain-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Deep blue/teal plain shirt with orange collar and broad orange sleeve-end bands.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9e71c22378d746ccbc9d-away-481787.jpg",
+      "page_url": "https://www.footballkitarchive.com/valencia-cf-2026-27-away-kit-481787/",
+      "sha256": "de826a31f6ac4b08babad7a804929fe2d3f88a41a79d6280cb0be6ca980874e4"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#005369",
+      "leftSleeve": "#005369",
+      "rightSleeve": "#005369",
+      "collar": "#E17739",
+      "leftCuff": "#DC763B",
+      "rightCuff": "#DC763B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E17739",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#005369",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.89999999999999C24 76.5 36 81.8 44.5 80.89999999999999Q48 81 49.2 72.8L52 106H5Z",
+        "fill": "#DC763B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.89999999999999C176 76.5 164 81.8 155.5 80.89999999999999Q152 81 150.8 72.8L148 106H195Z",
+        "fill": "#DC763B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

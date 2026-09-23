@@ -4,8 +4,8 @@
   "team_name": "Racing Santander",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3b59fa22a96920f72ac0-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/racing-de-santander-2026-27-home-kit-498096/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/Dt6bQwf5eOq2j4a/racing-de-santander-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3b59fa22a96920f72ac0-home-498096.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green",
+      "Black"
+    ],
+    "values": {
+      "body": "#F0F1EC",
+      "leftSleeve": "#F0F1EC",
+      "rightSleeve": "#F0F1EC",
+      "collar": "#127C3E",
+      "leftCuff": "#167C3E",
+      "rightCuff": "#167C3E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White fine-pinstriped body; green upper shoulder yokes and small black raglan inserts, green collar and fine green cuff edging.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_3b59fa22a96920f72ac0-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4815a448782a6136ce1b.json",
+    "source_kit_id": "498096"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Rapid București",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2054f258bb42bb82234d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rapid-bucuresti-2026-27-home-kit-493323/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/abJu1nDNyJWCyVG/rapid-bucuresti-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2054f258bb42bb82234d-home-493323.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#823B3C",
+      "leftSleeve": "#823B3C",
+      "rightSleeve": "#823B3C",
+      "collar": "#813B3A",
+      "leftCuff": "#E9EBE6",
+      "rightCuff": "#E9EBE6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Broad claret/white hoops, white shoulders and wide white sleeve ends, claret neck ring edged ivory; physical polo collar replaced by color on original round PNG collar.",
+    "render_path": "artifacts/footballkitarchive/romania-2026-09-23/team_2054f258bb42bb82234d-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b9b8ff096e0beec1244e.json",
+    "source_kit_id": "493323"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

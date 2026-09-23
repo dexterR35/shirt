@@ -4,8 +4,8 @@
   "team_name": "Bayern Munich",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7733e11bf659a4f00001-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bayern-munchen-2026-27-away-kit-441210/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/piZfaACNeZplk6r/bayern-munchen-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7733e11bf659a4f00001-away-441210.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F2EF",
+      "leftSleeve": "#F0F2EF",
+      "rightSleeve": "#F0F2EF",
+      "collar": "#14213D",
+      "leftCuff": "#15243D",
+      "rightCuff": "#15243D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt, navy neckline and shoulders, navy cuffs with fine white/red/white lower bands.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_7733e11bf659a4f00001-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c830291aef1cb6f536a8.json",
+    "source_kit_id": "441210"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "germany-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fa26cd0ea60cc3287dd1",
+  "team_name": "Deportivo La Coruña",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "spain-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Black plain body and sleeves with bright blue neckline and sleeve-end bands.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fa26cd0ea60cc3287dd1-away-495875.jpg",
+      "page_url": "https://www.footballkitarchive.com/deportivo-de-a-coruna-2026-27-away-kit-495875/",
+      "sha256": "fb1e54bd174f1542ee75c6f7974aad8c38588044b2270be9349eb4ea28db60f7"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#191C1D",
+      "leftSleeve": "#191C1D",
+      "rightSleeve": "#191C1D",
+      "collar": "#0679B5",
+      "leftCuff": "#087DBA",
+      "rightCuff": "#087DBA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0679B5",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#191C1D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.89999999999999C24 77.5 36 82.8 44.5 81.89999999999999Q48 82 49.2 73.8L52 106H5Z",
+        "fill": "#087DBA",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.89999999999999C176 77.5 164 82.8 155.5 81.89999999999999Q152 82 150.8 73.8L148 106H195Z",
+        "fill": "#087DBA",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

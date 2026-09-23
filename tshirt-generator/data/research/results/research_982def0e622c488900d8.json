@@ -4,8 +4,8 @@
   "team_name": "Levante",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_bdba0a73890dcf3b5e79-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/levante-ud-2026-27-home-kit-494770/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/T0XXlhktRNfkfvx/levante-ud-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_bdba0a73890dcf3b5e79-home-494770.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#B52B34",
+      "leftSleeve": "#B52B34",
+      "rightSleeve": "#B52B34",
+      "collar": "#EEEDE6",
+      "leftCuff": "#EEEDE6",
+      "rightCuff": "#EEEDE6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/navy independently observed narrow striped shirt; clusters of fine vertical pinlines around each broad column continue on sleeves. Pale neck and cuffs carry fine claret/dark bands; no polo flaps added.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_bdba0a73890dcf3b5e79-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_982def0e622c488900d8.json",
+    "source_kit_id": "494770"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

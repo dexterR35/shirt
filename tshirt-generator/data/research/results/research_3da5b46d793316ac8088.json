@@ -4,8 +4,8 @@
   "team_name": "Real Betis",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_58354991dd55daa85445-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-betis-2026-27-home-kit-484993/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/24/7NxDcxyQMsmW3hX/real-betis-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_58354991dd55daa85445-home-484993.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green",
+      "Black"
+    ],
+    "values": {
+      "body": "#E5EBE7",
+      "leftSleeve": "#118A54",
+      "rightSleeve": "#118A54",
+      "collar": "#EAEDEA",
+      "leftCuff": "#E9ECE8",
+      "rightCuff": "#E9ECE8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Broad green and white stripes with two diagonal multi-pinline passages across chest and lower torso; green sleeves, white cuffs/collar and shoulder chevrons.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_58354991dd55daa85445-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3da5b46d793316ac8088.json",
+    "source_kit_id": "484993"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

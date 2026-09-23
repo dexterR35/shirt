@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ecbbc7374cd425093326",
+  "team_name": "CSL Ștefăneștii de Jos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Plain royal-blue shirt with matching collar and sleeves in the independently labeled Away match photograph.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ecbbc7374cd425093326-away-511520.jpg",
+      "page_url": "https://www.footballkitarchive.com/csl-stefanesti-2026-27-away-kit-511520/",
+      "sha256": "fae1f1ecf51b24f439c964336e211c8f420734d58836306052a3ee960cbdf13f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1767BA",
+      "leftSleeve": "#1767BA",
+      "rightSleeve": "#1767BA",
+      "collar": "#1767BA",
+      "leftCuff": "#1767BA",
+      "rightCuff": "#1767BA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1767BA",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1767BA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

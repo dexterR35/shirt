@@ -4,8 +4,8 @@
   "team_name": "Auxerre",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7f1a26fa9a9e335447ff-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aj-auxerre-2026-27-home-kit-494248/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/E0Ey4mrnwFHTHeu/aj-auxerre-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7f1a26fa9a9e335447ff-home-494248.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F0F0F0",
+      "leftSleeve": "#F0F0F0",
+      "rightSleeve": "#F0F0F0",
+      "collar": "#1B283A",
+      "leftCuff": "#172239",
+      "rightCuff": "#172239"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body and shoulders with royal-blue lower sleeve panels, white angular sleeve inserts, navy cuffs edged white and narrow blue body side seams.",
+    "render_path": "artifacts/footballkitarchive/france-2026-09-23/team_7f1a26fa9a9e335447ff-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0aac5a585bc0bde7e9b0.json",
+    "source_kit_id": "494248"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "france-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

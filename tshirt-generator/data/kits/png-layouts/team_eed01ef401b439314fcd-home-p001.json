@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eed01ef401b439314fcd",
+  "team_name": "Venezia",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "italy-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Black shirt with a chest band split diagonally into orange and green. Orange and green sleeve ends and narrow neck accent colors. Tonal repeated Venezia lettering is omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eed01ef401b439314fcd-home-500262.jpg",
+      "page_url": "https://www.footballkitarchive.com/venezia-fc-2026-27-home-kit-500262/",
+      "sha256": "9e69ccfc07a102ed522e11512b8d1b7ae26c9cbeef2af5bf7128dbbae3f55d1b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#242524",
+      "leftSleeve": "#242524",
+      "rightSleeve": "#242524",
+      "collar": "#292C26",
+      "leftCuff": "#D87148",
+      "rightCuff": "#538768"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#292C26",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#DF6D3E",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M76.125 2.375L77 2Q100 7 123 2L123.875 2.375C127.625 25 72.375 25 76.125 2.375Z",
+          "fill": "#65A580",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#242524",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 68,
+        "width": 200,
+        "height": 30,
+        "fill": "#DB6A3D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            68
+          ],
+          [
+            151,
+            68
+          ],
+          [
+            151,
+            98
+          ]
+        ],
+        "fill": "#3C8770",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

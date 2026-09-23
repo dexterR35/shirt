@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2819541c37b1f5fbc121",
+  "team_name": "Metalul Buzău",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "romania-liga2-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "White shirt with blue inner neck edge and narrow blue/white/blue cuff stripes.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2819541c37b1f5fbc121-away-503441.jpg",
+      "page_url": "https://www.footballkitarchive.com/metalul-buzau-2026-27-away-kit-503441/",
+      "sha256": "7ad3a80e207028430016d160a46b1ecdbca7db08261bf1c3ad79d01e32bded5b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEEE8",
+      "leftSleeve": "#EEEEE8",
+      "rightSleeve": "#EEEEE8",
+      "collar": "#E6EAE3",
+      "leftCuff": "#3D639A",
+      "rightCuff": "#3D639A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E6EAE3",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.31 2.724L77 2Q100 7 123 2L124.69 2.724C128.207 25.931 71.793 25.931 75.31 2.724Z",
+          "fill": "#3B6096",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEEE8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.89999999999999C24 77.5 36 82.8 44.5 81.89999999999999Q48 82 49.2 73.8L52 106H5Z",
+        "fill": "#3D639A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#ECEEE5",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#3D6095",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.89999999999999C176 77.5 164 82.8 155.5 81.89999999999999Q152 82 150.8 73.8L148 106H195Z",
+        "fill": "#3D639A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#ECEEE5",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#3D6095",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

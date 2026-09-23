@@ -4,8 +4,8 @@
   "team_name": "Tottenham Hotspur",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Match the density transition and individual streak endpoints to the source before ready status."
+  ],
+  "kit_revision_path": "data/kits/team_8aee0c4f0c83a587071a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tottenham-hotspur-2026-27-away-kit-469492/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/19/ZugH1N0Vc2ARGhw/tottenham-hotspur-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8aee0c4f0c83a587071a-away-469492.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Purple",
+      "Orange"
+    ],
+    "values": {
+      "body": "#111F36",
+      "leftSleeve": "#182B43",
+      "rightSleeve": "#182B43",
+      "collar": "#111F36",
+      "leftCuff": "#101E35",
+      "rightCuff": "#101E35"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3e4ddc36c48bdf99b341.json",
+    "source_kit_id": "469492"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "england-next-2026-09-23",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

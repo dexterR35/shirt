@@ -4,8 +4,8 @@
   "team_name": "Racing Santander",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3b59fa22a96920f72ac0-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/racing-de-santander-2026-27-away-kit-498097/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/dS5Ux9jiUWg6w5n/racing-de-santander-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3b59fa22a96920f72ac0-away-498097.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Gold"
+    ],
+    "values": {
+      "body": "#224B3C",
+      "leftSleeve": "#224B3C",
+      "rightSleeve": "#224B3C",
+      "collar": "#264E3D",
+      "leftCuff": "#BEAF76",
+      "rightCuff": "#BEAF76"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark green front and sleeves; seven widely spaced gold pinstripes on torso with matching fine neckline and cuff edges.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_3b59fa22a96920f72ac0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_91517ad81409eaae1bb0.json",
+    "source_kit_id": "498097"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

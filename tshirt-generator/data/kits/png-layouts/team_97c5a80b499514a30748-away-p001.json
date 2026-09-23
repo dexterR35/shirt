@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_97c5a80b499514a30748",
+  "team_name": "SC Paderborn",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "germany-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Red shirt with thin gold vertical stripes interrupted across the central chest, gold collar and broad gold raglan inserts.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_97c5a80b499514a30748-away-492685.jpg",
+      "page_url": "https://www.footballkitarchive.com/sc-paderborn-2026-27-away-kit-492685/",
+      "sha256": "f285c2f69a50637dfd2ae9a52bf32d31e83be95d4f5fbc6cf68b05b66718c7e3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F32A3D",
+      "leftSleeve": "#F32A3D",
+      "rightSleeve": "#F32A3D",
+      "collar": "#F2B841",
+      "leftCuff": "#F32A3D",
+      "rightCuff": "#F32A3D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2B841",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F32A3D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 70,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#F1BA47",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6
+          ],
+          [
+            76,
+            11
+          ],
+          [
+            46,
+            27
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            49,
+            77
+          ],
+          [
+            39,
+            76
+          ],
+          [
+            32,
+            42
+          ],
+          [
+            35,
+            25
+          ]
+        ],
+        "fill": "#EBAB35",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6
+          ],
+          [
+            124,
+            11
+          ],
+          [
+            154,
+            27
+          ],
+          [
+            156,
+            52
+          ],
+          [
+            151,
+            77
+          ],
+          [
+            161,
+            76
+          ],
+          [
+            168,
+            42
+          ],
+          [
+            165,
+            25
+          ]
+        ],
+        "fill": "#EBAB35",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 66,
+        "width": 200,
+        "height": 35,
+        "fill": "#F32A3D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

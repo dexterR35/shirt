@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3f5376cd850fa404bc1b",
+  "team_name": "Napoli",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "italy-2026-09-23",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Muted medium sky blue body, sleeves, collar and sleeve ends. Gold marks are all logos/lettering and are omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3f5376cd850fa404bc1b-home-493194.jpg",
+      "page_url": "https://www.footballkitarchive.com/ssc-napoli-2026-27-home-kit-493194/",
+      "sha256": "eeb3ecd8cbf5bb76edec75ed7f29a47b041f9448806db90dc0ef6b710f9cb92b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#538CAF",
+      "leftSleeve": "#538CAF",
+      "rightSleeve": "#538CAF",
+      "collar": "#538CAF",
+      "leftCuff": "#538CAF",
+      "rightCuff": "#538CAF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#538CAF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#538CAF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8cfecaa1fbd55f637918",
+  "team_name": "Brighton and Hove Albion",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-23",
+  "human_approved": false,
+  "review_scope": "Independently checked Home and Away photos: evenly spaced fine vertical pinstripes extend onto sleeves, with contrast neck band and curved sleeve seam piping. Stitch-scale breaks in pinstripes are simplified; original PNG fabric retained.",
+  "limitations": "Colors and graphic placement are visual adaptations. Original PNG fabric and round collar retained; no claim of identical textile or garment construction.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8cfecaa1fbd55f637918-home-493924.jpg",
+      "page_url": "https://www.footballkitarchive.com/brighton-hove-albion-2026-27-home-kit-493924/",
+      "sha256": "688533c86275d2a5503f70af83f91af52c87c1275b0d430bf07ebeac9696f36b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0646A5",
+      "leftSleeve": "#0646A5",
+      "rightSleeve": "#0646A5",
+      "collar": "#E9F0F4",
+      "leftCuff": "#0646A5",
+      "rightCuff": "#0646A5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E9F0F4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0646A5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M24 0L24.45 0L26.45 200L26 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M34 0L34.45 0L36.45 200L36 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M44 0L44.45 0L46.45 200L46 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54 0L54.45 0L56.45 200L56 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M64 0L64.45 0L66.45 200L66 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 0L74.45 0L76.45 200L76 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M84 0L84.45 0L86.45 200L86 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M94 0L94.45 0L96.45 200L96 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M104 0L104.45 0L106.45 200L106 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M114 0L114.45 0L116.45 200L116 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124 0L124.45 0L126.45 200L126 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M134 0L134.45 0L136.45 200L136 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M144 0L144.45 0L146.45 200L146 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154 0L154.45 0L156.45 200L156 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M164 0L164.45 0L166.45 200L166 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M174 0L174.45 0L176.45 200L176 200Z",
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            22
+          ],
+          [
+            36,
+            22
+          ],
+          [
+            45,
+            60
+          ],
+          [
+            49.6,
+            77
+          ],
+          [
+            49,
+            77
+          ],
+          [
+            44.4,
+            60
+          ]
+        ],
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            22
+          ],
+          [
+            164,
+            22
+          ],
+          [
+            155,
+            60
+          ],
+          [
+            150.4,
+            77
+          ],
+          [
+            151,
+            77
+          ],
+          [
+            155.6,
+            60
+          ]
+        ],
+        "fill": "#E9F0F4",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

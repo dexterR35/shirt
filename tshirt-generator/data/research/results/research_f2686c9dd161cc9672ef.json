@@ -4,8 +4,8 @@
   "team_name": "Genoa",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a980fd13bed2ff9fc063-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/genoa-cfc-2026-27-home-kit-495842/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/izc1bPi0oRyUeHm/genoa-cfc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a980fd13bed2ff9fc063-home-495842.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Navy"
+    ],
+    "values": {
+      "body": "#C00F21",
+      "leftSleeve": "#15383E",
+      "rightSleeve": "#B70D20",
+      "collar": "#193C41",
+      "leftCuff": "#14373D",
+      "rightCuff": "#14373D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red viewer-left and deep teal/navy viewer-right body halves, opposite colored sleeves, dark collar/cuffs with a fine repeated pale/red dash edge.",
+    "render_path": "artifacts/footballkitarchive/italy-2026-09-23/team_a980fd13bed2ff9fc063-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f2686c9dd161cc9672ef.json",
+    "source_kit_id": "495842"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "italy-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c5d711cb3114c6593b20",
+  "team_name": "Borussia Mönchengladbach",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "germany-2026-09-23",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/borussia-monchengladbach-2026-27-away-kit-481281/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/08/MYQXUxm70jE163W/borussia-monchengladbach-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c5d711cb3114c6593b20-away-481281.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Green",
+      "Gold"
+    ],
+    "values": {
+      "body": "#191D1D",
+      "leftSleeve": "#191D1D",
+      "rightSleeve": "#191D1D",
+      "collar": "#1B201E",
+      "leftCuff": "#0B8953",
+      "rightCuff": "#0B8953"
+    }
+  },
+  "observations": "Black shirt with green side inserts and green cuff edges with narrow gold borders, dark collar with a green inner edge.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with green side inserts and green cuff edges with narrow gold borders, dark collar with a green inner edge.",
+    "render_path": "artifacts/footballkitarchive/germany-2026-09-23/team_c5d711cb3114c6593b20-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#191D1D",
+      "leftSleeve": "#191D1D",
+      "rightSleeve": "#191D1D",
+      "collar": "#1B201E",
+      "leftCuff": "#0B8953",
+      "rightCuff": "#0B8953"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1B201E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.645 2.581L77 2Q100 7 123 2L124.355 2.581C127.968 25.548 72.032 25.548 75.645 2.581Z",
+          "fill": "#169950",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#191D1D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H50.7Q54.7 133 50.7 77Z",
+        "fill": "#149650",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149.3Q145.3 133 149.3 77Z",
+        "fill": "#149650",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#0B8953",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#C29653",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#0B8953",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#C29653",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Roma",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fb9c3de8d4ce27e2f488-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-roma-2026-27-home-kit-429595/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/1fTKkcJOFuSmheU/as-roma-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fb9c3de8d4ce27e2f488-home-429595.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#B82945",
+      "leftSleeve": "#7D213A",
+      "rightSleeve": "#7D213A",
+      "collar": "#75213A",
+      "leftCuff": "#C5A135",
+      "rightCuff": "#C5A135"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red central body, darker claret sleeves/upper raglan panels, thin gold shoulder tape, neckline edge and sleeve hems.",
+    "render_path": "artifacts/footballkitarchive/italy-2026-09-23/team_fb9c3de8d4ce27e2f488-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e04745141e78ba410361.json",
+    "source_kit_id": "429595"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "italy-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

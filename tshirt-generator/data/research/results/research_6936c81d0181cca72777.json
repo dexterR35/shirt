@@ -4,8 +4,8 @@
   "team_name": "Valencia",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9e71c22378d746ccbc9d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/valencia-cf-2026-27-away-kit-481787/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/bJ9qjvZZuDImx4O/valencia-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9e71c22378d746ccbc9d-away-481787.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Orange"
+    ],
+    "values": {
+      "body": "#005369",
+      "leftSleeve": "#005369",
+      "rightSleeve": "#005369",
+      "collar": "#E17739",
+      "leftCuff": "#DC763B",
+      "rightCuff": "#DC763B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep blue/teal plain shirt with orange collar and broad orange sleeve-end bands.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_9e71c22378d746ccbc9d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6936c81d0181cca72777.json",
+    "source_kit_id": "481787"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

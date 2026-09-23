@@ -4,8 +4,8 @@
   "team_name": "CSM Slatina",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_82f3b13163159f5b4083-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-slatina-2026-27-home-kit-502852/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/bVYl0DIk4feXWvC/csm-slatina-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_82f3b13163159f5b4083-home-502852.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#173D87",
+      "leftSleeve": "#173D87",
+      "rightSleeve": "#173D87",
+      "collar": "#E5E8EB",
+      "leftCuff": "#DCE2E8",
+      "rightCuff": "#DCE2E8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue shirt with very fine dark body pinstripes, pale collar/cuffs and thin curving pale shoulder/side seam piping.",
+    "render_path": "artifacts/footballkitarchive/romania-liga2-2026-09-23/team_82f3b13163159f5b4083-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9f7a61e95ac63d4159f5.json",
+    "source_kit_id": "502852"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "romania-liga2-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Athletic Club",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f88ed23c7ec2ef60668d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/athletic-club-2026-27-away-kit-488145/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/10/6K8R5PP5eiWdBk3/athletic-club-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f88ed23c7ec2ef60668d-away-488145.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#17191B",
+      "leftSleeve": "#17191B",
+      "rightSleeve": "#17191B",
+      "collar": "#D02031",
+      "leftCuff": "#F1EFEB",
+      "rightCuff": "#F1EFEB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-23",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black body and sleeves, red neckline and sleeve ends with thin white separating edges. Fine fabric weave comes from the PNG.",
+    "render_path": "artifacts/footballkitarchive/spain-2026-09-23/team_f88ed23c7ec2ef60668d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8bd0b2bd66702454b6e6.json",
+    "source_kit_id": "488145"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-23",
+      "batch": "spain-2026-09-23",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }
