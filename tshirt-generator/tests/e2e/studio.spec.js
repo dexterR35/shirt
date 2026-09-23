@@ -158,14 +158,15 @@ test("missing saved asset is recoverable and leaves the previous preview intact"
 });
 
 
-test("custom colors retain the PNG silhouette and reset to the original pixels",async({page})=>{
+test("edited colors retain the PNG silhouette and reset to the original pixels",async({page})=>{
   await setup(page);
   const canvas=page.locator('.shirt-image');
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   const original=await canvas.evaluate(c=>c.toDataURL());
-  await page.getByText('Try your own colors',{exact:true}).click();
+  await page.getByRole('button',{name:'Edit',exact:true}).click();
   await page.getByLabel('Body color',{exact:true}).fill('#C72938');
-  await expect(page.getByText('CUSTOM COLORS',{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Save',exact:true}).click();
+  await expect(page.locator('.edit-toggle.edited')).toHaveCount(1);
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   expect(await canvas.evaluate(c=>c.toDataURL())).not.toBe(original);
   const alpha=await canvas.evaluate(c=>{
@@ -173,7 +174,10 @@ test("custom colors retain the PNG silhouette and reset to the original pixels",
     return {corner:p[3],center:p[(Math.floor(c.height/2)*c.width+Math.floor(c.width/2))*4+3]};
   });
   expect(alpha).toEqual({corner:0,center:255});
-  await page.getByRole('button',{name:'Reset colors',exact:true}).click();
+  await page.getByRole('button',{name:'Edit',exact:true}).click();
+  await page.getByRole('button',{name:'Reset all',exact:true}).click();
+  await page.getByRole('button',{name:'Save',exact:true}).click();
+  await expect(page.locator('.edit-toggle.edited')).toHaveCount(0);
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   expect(await canvas.evaluate(c=>c.toDataURL())).toBe(original);
 });
@@ -261,7 +265,7 @@ test('expanded country catalog applies independent Romanian Home/Away and shows 
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
 });
 
-test('equipment details use local JSON and follow selection, collection navigation and custom colors',async({page})=>{
+test('equipment details use local JSON and follow selection, collection navigation and edited colors',async({page})=>{
   const external=[];
   page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
   await page.goto('/');
@@ -279,14 +283,12 @@ test('equipment details use local JSON and follow selection, collection navigati
   await page.getByRole('button',{name:'Add to collection',exact:true}).click();
   await page.getByRole('button',{name:'Previous kit',exact:true}).click();
   await expect(card).toContainText('May 14, 2026');
-  await page.getByText('Try your own colors',{exact:true}).click();
+  await page.getByRole('button',{name:'Edit',exact:true}).click();
   await page.getByLabel('Body color',{exact:true}).fill('#00ff00');
+  await page.getByRole('button',{name:'Save',exact:true}).click();
   await expect(card).toContainText('Custom colors preview');
   await expect(card).toContainText('Red / White / Black');
   await page.screenshot({path:'artifacts/footballkitarchive/studio-equipment-details.png',fullPage:true});
-  await page.getByRole('button',{name:'Blank shirt',exact:true}).click();
-  await expect(card).toContainText('Choose a team');
-  await expect(card).not.toContainText('Snapdragon');
   expect(external).toEqual([]);
 });
 
@@ -420,4 +422,79 @@ test('the preview zooms within limits, pans by dragging and recenters without re
   await expect(level).toHaveText('50%');
   await expect(page.getByRole('button',{name:'Zoom out'})).toBeDisabled();
   expect(await canvas.evaluate(c=>c.toDataURL())).toBe(pixels);
+});
+
+test('edit mode fixes the view, selects parts by clicking the shirt, and keeps saved colors until reload',async({page})=>{
+  await page.goto('/');
+  await page.getByLabel('Team',{exact:true}).fill('Arsenal');
+  await page.getByRole('button',{name:/Arsenal England/}).click();
+  const canvas=page.locator('.shirt-image'),stage=page.locator('.shirt-stage');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  const original=await canvas.evaluate(c=>c.toDataURL());
+  await page.getByRole('button',{name:'Zoom in'}).click();
+  await page.getByRole('button',{name:'Edit',exact:true}).click();
+  const modal=page.getByRole('dialog',{name:'Edit colors'});
+  await expect(modal).toBeVisible();
+  // Sleeves fully covered by Arsenal's sleeve panels are not offered.
+  await expect(modal.getByRole('button',{name:'Left sleeve'})).toHaveCount(0);
+  // The editor window can be dragged by its title bar but never leaves the screen.
+  const head=modal.locator('.modal-head'),start=await modal.boundingBox(),hb=await head.boundingBox();
+  await page.mouse.move(hb.x+40,hb.y+hb.height/2);
+  await page.mouse.down();
+  await page.mouse.move(hb.x-260,hb.y+hb.height/2+120,{steps:6});
+  await page.mouse.up();
+  const moved=await modal.boundingBox();
+  expect(Math.round(moved.x)).toBe(Math.round(start.x-300));
+  expect(Math.round(moved.y)).toBe(Math.round(start.y+120));
+  await page.mouse.move(hb.x-260,hb.y+hb.height/2+120);
+  await page.mouse.down();
+  await page.mouse.move(-500,-500,{steps:6});
+  await page.mouse.up();
+  const clamped=await modal.boundingBox();
+  expect(clamped.x).toBe(8);
+  expect(clamped.y).toBe(8);
+  // Edit mode resets and disables zoom.
+  await expect(page.locator('.zoom-controls')).toHaveCount(0);
+  expect(await canvas.evaluate(c=>c.style.transform)).toContain('scale(1)');
+  // Click the chest (200-unit point 100,110) and a sleeve (35,60): each selects its own part.
+  const pointAt=async(u,v)=>{const b=await canvas.boundingBox();return [b.x+b.width*(1/16+u/200*7/8),b.y+b.height*(1/16+v/200*7/8)];};
+  await page.mouse.click(...await pointAt(100,110));
+  await expect(modal.getByRole('button',{name:/^Body/})).toHaveAttribute('aria-pressed','true');
+  // Hovering a part shows a hand cursor and the outline overlay; outside the shirt it does not.
+  await page.mouse.move(...await pointAt(30,62));
+  await expect(stage).toHaveClass(/over-part/);
+  expect(await stage.evaluate(e=>getComputedStyle(e).cursor)).toBe('pointer');
+  await expect.poll(()=>page.locator('.part-highlight').evaluate(c=>{
+    const d=c.getContext('2d').getImageData(0,0,c.width,c.height).data;let n=0;for(let i=3;i<d.length;i+=4)if(d[i])n++;return n;
+  })).toBeGreaterThan(100);
+  await page.mouse.move(...await pointAt(2,190));
+  await expect(stage).not.toHaveClass(/over-part/);
+  await page.mouse.click(...await pointAt(30,62));
+  const sleevePart=modal.locator('.part-option[aria-pressed="true"]');
+  await expect(sleevePart).not.toHaveText(/^Body/);
+  await page.mouse.click(...await pointAt(100,110));
+  await page.getByLabel('Body color',{exact:true}).fill('#1144aa');
+  await page.getByRole('button',{name:'Save',exact:true}).click();
+  await expect(modal).toHaveCount(0);
+  await expect(page.locator('.zoom-controls')).toHaveCount(1);
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  const edited=await canvas.evaluate(c=>c.toDataURL());
+  expect(edited).not.toBe(original);
+  // Saved edits survive switching kits in this session.
+  await page.getByRole('button',{name:'Away',exact:true}).click();
+  await expect(canvas).toHaveAttribute('aria-label','Arsenal away shirt');
+  await page.getByRole('button',{name:'Home',exact:true}).click();
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  expect(await canvas.evaluate(c=>c.toDataURL())).toBe(edited);
+  // Cancel discards unsaved changes.
+  await page.getByRole('button',{name:'Edit',exact:true}).click();
+  await page.getByLabel('Body color',{exact:true}).fill('#ffff00');
+  await page.getByRole('button',{name:'Cancel',exact:true}).click();
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  expect(await canvas.evaluate(c=>c.toDataURL())).toBe(edited);
+  // A refresh restores the saved team kit without the edits.
+  await page.reload();
+  await expect(canvas).toHaveAttribute('aria-label','Arsenal home shirt');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  expect(await canvas.evaluate(c=>c.toDataURL())).toBe(original);
 });

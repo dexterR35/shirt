@@ -1,5 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import PngShirtPreview from "./PngShirtPreview.jsx";
+import Modal from "./Modal.jsx";
+import PartHighlight from "./PartHighlight.jsx";
+import {editableParts, applyEdits} from "./lib/kit-edit.js";
+import {partAt, visiblePartIds} from "./lib/png-preview.js";
 import {useZoom, ZOOM_MIN, ZOOM_MAX} from "./lib/use-zoom.js";
 import EquipmentCard from "./EquipmentCard.jsx";
 import {equipmentForKit} from "./lib/equipment.js";
@@ -20,6 +24,7 @@ function Icon({ name, size = 20, ...props }) {
     plus: "M12 5v14M5 12h14",
     minus: "M5 12h14",
     fit: "M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5m8-5v2m-1-1h2",
+    edit: "M4 20h4L19 9l-4-4L4 16v4Zm9-13 4 4",
     left: "m15 5-7 7 7 7",
     right: "m9 5 7 7-7 7",
     check: "m5 12 4 4L19 6",
@@ -97,7 +102,12 @@ export default function App() {
     [active, setActive] = useState(null),
     [appliedConfig, setAppliedConfig] = useState(null),
     [equipment, setEquipment] = useState(null),
-    [customColors, setCustomColors] = useState(null),
+    [editing, setEditing] = useState(false),
+    [draft, setDraft] = useState({}),
+    [selectedPart, setSelectedPart] = useState(""),
+    [visibleIds, setVisibleIds] = useState(null),
+    [hoverPart, setHoverPart] = useState(null),
+    [, setSavedVersion] = useState(0),
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState(""),
@@ -105,7 +115,9 @@ export default function App() {
     [tab, setTab] = useState("studio");
   const request = useRef(0),
     controller = useRef(null),
-    cache = useRef(new Map());
+    cache = useRef(new Map()),
+    // Saved color edits per kit: kept in memory until the page is refreshed.
+    savedEdits = useRef(new Map());
   const zoom = useZoom();
   useEffect(() => {
     let alive = true;
@@ -138,9 +150,16 @@ export default function App() {
   );
   const candidate = catalog?.teams.find((t) => t.id === candidateId),
     slot = candidate?.kits[variant];
-  const previewConfig = useMemo(() => customColors
-    ? {...(appliedConfig || neutralConfig()), colors: customColors}
-    : appliedConfig, [appliedConfig, customColors]);
+  const editKey = active ? `${revisionKey(active)}:${active.png_layout_revision || "original"}` : "base",
+    editBase = useMemo(() => appliedConfig || neutralConfig(), [appliedConfig]),
+    allParts = useMemo(() => editableParts(editBase), [editBase]),
+    // Hide parts that are fully covered by other paint, e.g. sleeves under a sleeve panel.
+    parts = visibleIds ? allParts.filter((p) => visibleIds.has(p.id) || p.id === selectedPart) : allParts,
+    edits = editing ? draft : savedEdits.current.get(editKey) || {},
+    edited = Object.keys(edits).length > 0;
+  const previewConfig = useMemo(() => edited ? applyEdits(editBase, edits) : appliedConfig,
+    [appliedConfig, editBase, edited, JSON.stringify(edits)]);
+  const part = parts.find((p) => p.id === selectedPart);
   const missing = !active && candidate && slot?.status !== "ready";
   const selectedIndex = active
     ? selection.findIndex((s) => revisionKey(s) === revisionKey(active))
@@ -174,7 +193,7 @@ export default function App() {
         setActive(item);
         setAppliedConfig(saved.config);
         setEquipment(saved.equipment);
-        setCustomColors(null);
+        setEditing(false);
       }
     } catch (e) {
       if (e.name !== "AbortError" && request.current === sequence)
@@ -205,8 +224,46 @@ export default function App() {
     setActive(null);
     setAppliedConfig(null);
     setEquipment(null);
-    setCustomColors(null);
+    setEditing(false);
     setBusy(false);
+  }
+  function startEdit() {
+    zoom.center();
+    setDraft({...(savedEdits.current.get(editKey) || {})});
+    setSelectedPart(allParts[0]?.id || "");
+    setVisibleIds(null);
+    setHoverPart(null);
+    setEditing(true);
+    visiblePartIds(editBase).then(setVisibleIds, () => setVisibleIds(null));
+  }
+  const cancelEdit = useCallback(() => setEditing(false), []);
+  function saveEdit() {
+    if (Object.keys(draft).length) savedEdits.current.set(editKey, draft);
+    else savedEdits.current.delete(editKey);
+    setSavedVersion((n) => n + 1);
+    setEditing(false);
+  }
+  /** The editable part painted under the pointer, or null (outside the shirt). */
+  async function partUnderPointer(e) {
+    const el = e.currentTarget.querySelector(".shirt-image");
+    if (!el?.width) return null;
+    const r = el.getBoundingClientRect(), fit = Math.min(r.width, r.height) / el.width,
+      px = (e.clientX - r.left - (r.width - el.width * fit) / 2) / fit,
+      py = (e.clientY - r.top - (r.height - el.height * fit) / 2) / fit;
+    if (px < 0 || py < 0 || px >= el.width || py >= el.height) return null;
+    // Transparent pixels are outside the shirt.
+    if (el.getContext("2d").getImageData(Math.floor(px), Math.floor(py), 1, 1).data[3] === 0) return null;
+    const margin = el.width / 16, span = (el.width * 7) / 8;
+    return partAt(editBase, ((px - margin) / span) * 200, ((py - margin) / span) * 200);
+  }
+  /** In edit mode, clicking the shirt selects the part painted under the pointer. */
+  async function pickPart(e) {
+    const id = await partUnderPointer(e);
+    if (id) setSelectedPart(id);
+  }
+  async function hoverOver(e) {
+    const id = await partUnderPointer(e);
+    setHoverPart((current) => (current === id ? current : id));
   }
   if (loadError)
     return (
@@ -458,10 +515,16 @@ export default function App() {
               </div>
               <div className={`canvas ${background}`}>
                 <div className="canvas-topline">
-                  <span>
-                    <span className="live-dot" />
-                    {customColors ? "CUSTOM COLORS" : active ? "TEAM COLOR PREVIEW" : missing ? "KIT MISSING" : "ORIGINAL PNG"}
-                  </span>
+                  <button
+                    className={`edit-toggle ${editing ? "active" : ""} ${edited && !editing ? "edited" : ""}`}
+                    aria-pressed={editing}
+                    title={edited ? "Colors edited · not the saved team kit" : "Edit colors"}
+                    onClick={editing ? cancelEdit : startEdit}
+                    disabled={busy}
+                  >
+                    <Icon name="edit" size={13} />
+                    Edit
+                  </button>
                   <div
                     className="background-controls"
                     aria-label="Preview background"
@@ -478,17 +541,18 @@ export default function App() {
                   </div>
                 </div>
                 <div
-                  className={`shirt-stage ${zoom.dragging ? "dragging" : ""}`}
+                  className={`shirt-stage ${zoom.dragging ? "dragging" : ""} ${editing ? "editing" : ""} ${editing && hoverPart ? "over-part" : ""}`}
                   aria-busy={busy}
                   style={{touchAction: zoom.view.scale === 1 ? "pan-y" : "none"}}
-                  {...zoom.stageProps}
+                  {...(editing ? {onClick: pickPart, onPointerMove: hoverOver, onPointerLeave: () => setHoverPart(null)} : zoom.stageProps)}
                 >
                   <PngShirtPreview
                     config={previewConfig}
-                    cache={!customColors}
+                    cache={!editing}
                     style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
                     label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
                   />
+                  {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
                 </div>
                 <div className="canvas-caption">
                   <span className="caption-kicker">
@@ -514,12 +578,12 @@ export default function App() {
                   </p>
                   {!active && !missing && (
                     <span className="neutral-note">
-                      {customColors ? "Custom design · not a verified team kit" : "Original PNG · no team colors applied"}
+                      {edited ? "Custom design · not a verified team kit" : "Original PNG · no team colors applied"}
                     </span>
                   )}
                 </div>
                 <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
-                <div className="zoom-controls" aria-label="Zoom">
+                {!editing && <div className="zoom-controls" aria-label="Zoom">
                   <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
                     <Icon name="minus" size={14} />
                   </button>
@@ -530,8 +594,59 @@ export default function App() {
                   <button aria-label="Center shirt" onClick={zoom.center} disabled={zoom.view.scale === 1 && !zoom.view.x && !zoom.view.y}>
                     <Icon name="fit" size={14} />
                   </button>
-                </div>
+                </div>}
               </div>
+              {editing && (
+                <Modal
+                  title="Edit colors"
+                  className="edit-modal"
+                  onClose={cancelEdit}
+                  footer={<>
+                    <button className="secondary" onClick={() => setDraft({})} disabled={!Object.keys(draft).length}>Reset all</button>
+                    <button className="secondary" onClick={cancelEdit}>Cancel</button>
+                    <button className="primary" onClick={saveEdit}>Save</button>
+                  </>}
+                >
+                  <p className="edit-hint">Click a part on the shirt, or choose it below.</p>
+                  <div className="part-list">
+                    {parts.map((p) => (
+                      <button
+                        key={p.id}
+                        className={`part-option ${selectedPart === p.id ? "selected" : ""}`}
+                        aria-pressed={selectedPart === p.id}
+                        onClick={() => setSelectedPart(p.id)}
+                        onMouseEnter={() => setHoverPart(p.id)}
+                        onMouseLeave={() => setHoverPart(null)}
+                      >
+                        <span className="swatch" style={{background: draft[p.id] || p.color}} />
+                        {p.label}
+                        {draft[p.id] && <span className="changed-dot" aria-label="changed" />}
+                      </button>
+                    ))}
+                  </div>
+                  {part && (
+                    <div className="part-color">
+                      <label>
+                        {part.label} color
+                        <input
+                          type="color"
+                          aria-label={`${part.label} color`}
+                          value={(draft[part.id] || part.color).toLowerCase()}
+                          onChange={(e) => setDraft({...draft, [part.id]: e.target.value.toUpperCase()})}
+                        />
+                      </label>
+                      <span className="hex">{draft[part.id] || part.color}</span>
+                      <button
+                        className="secondary"
+                        disabled={!draft[part.id]}
+                        onClick={() => { const next = {...draft}; delete next[part.id]; setDraft(next); }}
+                      >
+                        Reset part
+                      </button>
+                    </div>
+                  )}
+                </Modal>
+              )}
               <div className="preview-actions">
                 <div className="pager">
                   <button
@@ -571,15 +686,6 @@ export default function App() {
                   Download later
                 </button>
               </div>
-              <details className="color-studio">
-                <summary>Try your own colors</summary>
-                <p>Body color sits beneath any team pattern. Choose a blank shirt to start a new design.</p>
-                <div className="color-fields">
-                  {Object.entries({body:"Body",leftSleeve:"Left sleeve",rightSleeve:"Right sleeve",collar:"Collar",leftCuff:"Left cuff",rightCuff:"Right cuff"}).map(([key,label])=><label key={key}>{label}<input type="color" aria-label={`${label} color`} value={(customColors || appliedConfig?.colors || neutralConfig().colors)[key]} onChange={e=>setCustomColors({...((customColors || appliedConfig?.colors) || neutralConfig().colors),[key]:e.target.value})}/></label>)}
-                </div>
-                <button className="secondary" onClick={master}>Blank shirt</button>
-                <button className="secondary" onClick={()=>setCustomColors(null)} disabled={!customColors}>Reset colors</button>
-              </details>
               <div className="preview-notes">
                 <span>
                   <Icon name="check" size={14} />
@@ -649,7 +755,7 @@ export default function App() {
                 <Icon name="download" size={17} />
                 Collection export later
               </button>
-              <EquipmentCard active={active} equipment={equipment} custom={!!customColors}/>
+              <EquipmentCard active={active} equipment={equipment} custom={edited}/>
             </aside>
           </div>
         )}
