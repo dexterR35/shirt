@@ -7,7 +7,7 @@ The user subsequently chose to retain the original high-resolution PNG. Current 
 
 ## Historical starter documentation
 
-# Tricouri SVG — master corectat după referință
+# Tricouri SVG - master corectat după referință
 
 Revizia `reference-front-2` înlocuiește starterul anterior. Conturul a fost redesenat în vectori după `reference-highlight.png`: umeri rotunjiți, mâneci orientate în jos, corp mai lung, talie ușor ajustată și tiv curbat. Luminile sunt reconstruite în SVG, cu intensitate redusă; fotografia/PNG-ul nu este încorporat în asseturi.
 

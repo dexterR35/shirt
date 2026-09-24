@@ -413,8 +413,8 @@ export default function StudioPage() {
                 <Icon name="left" size={17} />
               </button>
               <span>
-                {selectedIndex < 0 ? "—" : selectedIndex + 1}
-                <span> / {selection.length || "—"}</span>
+                {selectedIndex < 0 ? "-" : selectedIndex + 1}
+                <span> / {selection.length || "-"}</span>
               </span>
               <button
                 aria-label="Next kit"
