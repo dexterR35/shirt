@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with five narrow yellow vertical stripes, fine red triangular lattice in the upper/lower stripes and near-solid yellow through mid-front. Red sleeves and neckline, small black underarm inserts. Stripe lattice geometry measured from front; branding omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_4f851eefa0099eb88a22-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_4f851eefa0099eb88a22-home-498790.jpg",
-  "image_sha256": "415508678d96e69ad6f481cb23ac0c98f62d2778d9d1895f7febaa7d6d69512d"
+  "image_sha256": "415508678d96e69ad6f481cb23ac0c98f62d2778d9d1895f7febaa7d6d69512d",
+  "artwork_revision_path": "data/kits/team_4f851eefa0099eb88a22-home-r001.json"
 }

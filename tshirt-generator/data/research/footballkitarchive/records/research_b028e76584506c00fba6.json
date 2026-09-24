@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret angular tonal print mapped from the full front with observed logos excluded, solid sky-blue sleeves and dark/sky checker trim. Shoulder/body print placement no longer repeats a single crop; small sleeve checks follow each sloping cuff and collar checks stay inside the existing neckline.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_7fca5e06b88f9fac0adb-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Boylesports",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_7fca5e06b88f9fac0adb-home-492141.jpg",
-  "image_sha256": "c3da7159905f931a36080a665c9a1f3867ad1d84e383ae36427fa2f562600f5b"
+  "image_sha256": "c3da7159905f931a36080a665c9a1f3867ad1d84e383ae36427fa2f562600f5b",
+  "artwork_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-home-r002.json"
 }

@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Tonal triangular grid reads as a checkerboard; refine cell geometry."
-  ],
-  "kit_revision_path": "data/kits/team_874bad913c14b28eb9a5-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_874bad913c14b28eb9a5-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -99,7 +97,14 @@
       "rightCuff": "#ECEEE8"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue torso with dense tonal clipped quadrilateral cells and diagonal cut-outs, at the observed small repeat scale. Solid blue sleeves and the source double pale cuff/neck edging retained. Tiny cell corners simplified on the shared silhouette.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_874bad913c14b28eb9a5-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_d15def6294cb2120e940.json",
     "source_kit_id": "494029"
@@ -109,6 +114,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fd7459ef19d96f07b6ed",
+  "team_name": "Guingamp",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ea-guingamp-2026-27-away-kit-498145/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/a2G5vOPKd1WpMaU/ea-guingamp-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fd7459ef19d96f07b6ed-away-498145.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Red"
+    ],
+    "values": {
+      "body": "#EEEFEF",
+      "leftSleeve": "#EEEFEF",
+      "rightSleeve": "#EEEFEF",
+      "collar": "#EEEFEF",
+      "leftCuff": "#EAEBEC",
+      "rightCuff": "#EAEBEC"
+    }
+  },
+  "observations": "White with fine grey vertical pinstripes, charcoal shoulder panels and burgundy outer sleeve inserts; white collar and cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with fine grey vertical pinstripes, charcoal shoulder panels and burgundy outer sleeve inserts; white collar and cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_fd7459ef19d96f07b6ed-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEFEF",
+      "leftSleeve": "#EEEFEF",
+      "rightSleeve": "#EEEFEF",
+      "collar": "#EEEFEF",
+      "leftCuff": "#EAEBEC",
+      "rightCuff": "#EAEBEC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EEEFEF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEFEF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 64,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 74,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 124,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 134,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#C9CDCE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            0
+          ],
+          [
+            50,
+            9
+          ],
+          [
+            32,
+            22
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            57,
+            13
+          ],
+          [
+            78,
+            5
+          ]
+        ],
+        "fill": "#3B3C42",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            0
+          ],
+          [
+            150,
+            9
+          ],
+          [
+            168,
+            22
+          ],
+          [
+            165,
+            27
+          ],
+          [
+            143,
+            13
+          ],
+          [
+            122,
+            5
+          ]
+        ],
+        "fill": "#3B3C42",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            33,
+            25
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            9,
+            69
+          ],
+          [
+            29,
+            75
+          ]
+        ],
+        "fill": "#9B3344",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            167,
+            25
+          ],
+          [
+            178,
+            30
+          ],
+          [
+            191,
+            69
+          ],
+          [
+            171,
+            75
+          ]
+        ],
+        "fill": "#9B3344",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#EAEBEC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#EAEBEC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

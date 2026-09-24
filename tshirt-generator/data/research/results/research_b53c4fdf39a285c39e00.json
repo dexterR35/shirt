@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Confirm the fine diagonal graphic inside hoop fields and precise upper-yoke extent from a closer reference."
-  ],
-  "kit_revision_path": "data/kits/team_6e38187c99726423e04a-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6e38187c99726423e04a-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#473589"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with purple shoulder yoke and four broad purple hoops, including a partial bottom hoop, at the source spacing. Faint angular diamond outlines inside purple bars; white sleeves with purple cuffs and neckline. Match perspective adapted without painting physical folds.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_6e38187c99726423e04a-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_b53c4fdf39a285c39e00.json",
     "source_kit_id": "507579"
@@ -115,6 +120,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

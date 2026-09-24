@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-test('Tier 2 reviewed variants apply offline with independent equipment and rejected drafts stay unavailable',async({page})=>{
+test('Tier 2 reviewed variants apply offline with independent equipment and unfinished slots stay unavailable',async({page})=>{
  const external=[];
  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
  await page.goto('/studio');
@@ -8,7 +8,10 @@ test('Tier 2 reviewed variants apply offline with independent equipment and reje
  for(const [name,country,variant,brand]of [
   ['Birmingham City','England','Home','Nike'],['Birmingham City','England','Away','Nike'],
   ['1. FC Heidenheim','Germany','Away','Puma'],['Pisa','Italy','Away','adidas'],
-  ['Chindia Târgoviște','Romania','Away','Nike'],
+  ['Chindia Târgoviște','Romania','Away','Nike'],['Chindia Târgoviște','Romania','Home','Nike'],
+  ['Palermo','Italy','Away','Puma'],['VfL Wolfsburg','Germany','Home','Nike'],
+  ['Dijon','France','Away','Nike'],['Reims','France','Away','Puma'],
+  ['Sochaux','France','Away','Eldera'],
  ]){
   await page.getByLabel('Team',{exact:true}).fill(name);
   await page.getByRole('button',{name:new RegExp(`${name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')} ${country}`)}).click();
@@ -19,7 +22,8 @@ test('Tier 2 reviewed variants apply offline with independent equipment and reje
   await expect(page.getByRole('button',{name:'Add to collection',exact:true})).toBeEnabled();
  }
  await page.screenshot({path:'artifacts/footballkitarchive/tier2-studio-ready.png',fullPage:true});
- await page.getByRole('button',{name:'Home',exact:true}).click();
+ await page.getByLabel('Team',{exact:true}).fill('CSC Dumbrăvița');
+ await page.getByRole('button',{name:/CSC Dumbrăvița Romania/}).click();
  await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
  await expect(page.getByRole('button',{name:'Add to collection',exact:true})).toBeDisabled();

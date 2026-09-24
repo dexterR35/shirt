@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with faint tonal street-map contours across the front, solid yellow sleeves, navy/yellow layered collar and cuff bands. The full front map is converted to discrete lines; logo-obscured sections reconstructed from adjacent clean map, so exact hidden street alignment is not claimed.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_2ce62d3228552449705e-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Aircash",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_2ce62d3228552449705e-away-498510.jpg",
-  "image_sha256": "0e51f823d03fc495f85327b5ae6623e6360fe6e0ba8830c413ac4b0d90b815b6"
+  "image_sha256": "0e51f823d03fc495f85327b5ae6623e6360fe6e0ba8830c413ac4b0d90b815b6",
+  "artwork_revision_path": "data/kits/team_2ce62d3228552449705e-away-r001.json"
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body with tonal red checker field, white sleeves and neckline, red triangular teeth along white cuff bands. Small repeated animal/club motifs inside source checks omitted under the no-emblems rule; checker size and cuff teeth adapted from front.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_e131d0e12bde28f78a66-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Acciaierie Venete",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_e131d0e12bde28f78a66-away-496741.jpg",
-  "image_sha256": "54e8ff38cc876f8876cbea7617a89d65c16e40b857a321bdf071aea27f33846a"
+  "image_sha256": "54e8ff38cc876f8876cbea7617a89d65c16e40b857a321bdf071aea27f33846a",
+  "artwork_revision_path": "data/kits/team_e131d0e12bde28f78a66-away-r001.json"
 }

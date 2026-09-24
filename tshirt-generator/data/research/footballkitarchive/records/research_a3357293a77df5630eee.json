@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red torso with flowing dark claret diagonal wave stripes and variable-width curved fields mapped from the full source front. Three pale shoulder tapes, pale collar and cuff edges. Obscured branding areas use adjacent unbranded print at matching scale; broad block approximation removed.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_d518a6470c5f6c850188-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Toolcraft",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_d518a6470c5f6c850188-home-482650.jpg",
-  "image_sha256": "cd4d3fc6bc1c18e74d84e5b00271051df2a72cae837d1f369301dea0f4accf82"
+  "image_sha256": "cd4d3fc6bc1c18e74d84e5b00271051df2a72cae837d1f369301dea0f4accf82",
+  "artwork_revision_path": "data/kits/team_d518a6470c5f6c850188-home-r002.json"
 }

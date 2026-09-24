@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with very faint large angular outline and curving motifs observed in the independent Away front, replacing grainy fabric tracing. Fine claret/blue-grey neckline and cuff edges retained; dotted material weave stays with the original fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_7fca5e06b88f9fac0adb-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Boylesports",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_7fca5e06b88f9fac0adb-away-494284.jpg",
-  "image_sha256": "e2704843eac133d6c9c55d01978e64ad5c0052fe7dce53c5d44f85c932838fe7"
+  "image_sha256": "e2704843eac133d6c9c55d01978e64ad5c0052fe7dce53c5d44f85c932838fe7",
+  "artwork_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-away-r002.json"
 }

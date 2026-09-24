@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9aa166b17ec5527f0545",
+  "team_name": "Rodez",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with paired fine red vertical torso pinstripes, red collar/cuffs and three red shoulder ribbons. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9aa166b17ec5527f0545-away-507777.jpg",
+      "page_url": "https://www.footballkitarchive.com/rodez-af-2026-27-away-kit-507777/",
+      "sha256": "44f41d52253fe23a50c5117cef0e90949323df728d438a7e2891ceb74710951d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EF",
+      "leftSleeve": "#F0F1EF",
+      "rightSleeve": "#F0F1EF",
+      "collar": "#D12837",
+      "leftCuff": "#D32A3A",
+      "rightCuff": "#D32A3A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D12837",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 71,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 77,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 95,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 107,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 131,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 0.45,
+        "height": 200,
+        "fill": "#C84750",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            39,
+            21
+          ],
+          [
+            74,
+            6
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            161,
+            19
+          ],
+          [
+            170,
+            26
+          ],
+          [
+            171,
+            28
+          ],
+          [
+            161,
+            21
+          ],
+          [
+            126,
+            6
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            6.7
+          ],
+          [
+            39,
+            21.7
+          ],
+          [
+            30,
+            28.7
+          ],
+          [
+            29,
+            30.7
+          ],
+          [
+            39,
+            23.7
+          ],
+          [
+            74,
+            8.7
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            6.7
+          ],
+          [
+            161,
+            21.7
+          ],
+          [
+            170,
+            28.7
+          ],
+          [
+            171,
+            30.7
+          ],
+          [
+            161,
+            23.7
+          ],
+          [
+            126,
+            8.7
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            9.4
+          ],
+          [
+            39,
+            24.4
+          ],
+          [
+            30,
+            31.4
+          ],
+          [
+            29,
+            33.4
+          ],
+          [
+            39,
+            26.4
+          ],
+          [
+            74,
+            11.4
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            9.4
+          ],
+          [
+            161,
+            24.4
+          ],
+          [
+            170,
+            31.4
+          ],
+          [
+            171,
+            33.4
+          ],
+          [
+            161,
+            26.4
+          ],
+          [
+            126,
+            11.4
+          ]
+        ],
+        "fill": "#D22C3D",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#D32A3A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#ECEDE9",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#D32A3A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#ECEDE9",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

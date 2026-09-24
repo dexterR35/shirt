@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Purple with staggered parallelogram panels of alternating vertical and rising diagonal fine pale lines. White sleeves and collar, purple cuffs. The tessellation follows the source changing line directions rather than a single vertical grid.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_fca5dccfd9ea1a820d90-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Thomas Philipps",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_fca5dccfd9ea1a820d90-home-500662.jpg",
-  "image_sha256": "77097c5b587da88d8b234fa99c7785ee8231079cbe8e8d4ee90fef22357e6f15"
+  "image_sha256": "77097c5b587da88d8b234fa99c7785ee8231079cbe8e8d4ee90fef22357e6f15",
+  "artwork_revision_path": "data/kits/team_fca5dccfd9ea1a820d90-home-r002.json"
 }

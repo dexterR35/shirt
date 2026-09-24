@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1356bc5a9a3468251af8",
+  "team_name": "Pau",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White body, navy raglan sleeves and navy collar; very fine yellow raglan/side piping and layered narrow yellow/white/navy cuff edges. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1356bc5a9a3468251af8-away-503274.jpg",
+      "page_url": "https://www.footballkitarchive.com/pau-fc-2026-27-away-kit-503274/",
+      "sha256": "678ae581097b375c5f8fd01c748100e7e5a18186a76a6dbe3a51177203249f6f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#252D46",
+      "rightSleeve": "#252D46",
+      "collar": "#252B42",
+      "leftCuff": "#293049",
+      "rightCuff": "#293049"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#252B42",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76 2.429L77 2Q100 7 123 2L124 2.429C127.714 25.143 72.286 25.143 76 2.429Z",
+          "fill": "#E8CB40",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            0
+          ],
+          [
+            69,
+            5
+          ],
+          [
+            60,
+            22
+          ],
+          [
+            53,
+            42
+          ],
+          [
+            48,
+            62
+          ],
+          [
+            45,
+            69
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            47,
+            60
+          ],
+          [
+            52,
+            39
+          ],
+          [
+            59,
+            19
+          ],
+          [
+            68,
+            3
+          ]
+        ],
+        "fill": "#DABF39",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            0
+          ],
+          [
+            131,
+            5
+          ],
+          [
+            140,
+            22
+          ],
+          [
+            147,
+            42
+          ],
+          [
+            152,
+            62
+          ],
+          [
+            155,
+            69
+          ],
+          [
+            156,
+            67
+          ],
+          [
+            153,
+            60
+          ],
+          [
+            148,
+            39
+          ],
+          [
+            141,
+            19
+          ],
+          [
+            132,
+            3
+          ]
+        ],
+        "fill": "#DABF39",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.4Q53.4 133 49.4 77Z",
+        "fill": "#D1BC3E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.6Q146.6 133 150.6 77Z",
+        "fill": "#D1BC3E",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#293049",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.8C24 79.4 36 84.7 44.5 83.8Q48 83.9 49.2 75.7L52 106H5Z",
+        "fill": "#DAC955",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#E9E7DB",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76.19999999999999C24 80.8 36 86.1 44.5 85.19999999999999Q48 85.3 49.2 77.1L52 106H5Z",
+        "fill": "#262C40",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#293049",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.8C176 79.4 164 84.7 155.5 83.8Q152 83.9 150.8 75.7L148 106H195Z",
+        "fill": "#DAC955",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#E9E7DB",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76.19999999999999C176 80.8 164 86.1 155.5 85.19999999999999Q152 85.3 150.8 77.1L148 106H195Z",
+        "fill": "#262C40",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

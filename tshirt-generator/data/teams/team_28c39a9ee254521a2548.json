@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Montpellier HSC",
+      "design": "Single stripe",
+      "colors": [
+        "Navy",
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Swile",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "July 23, 2026",
+      "release_date_iso": "2026-07-23",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/montpellier-hsc-2026-27-home-kit-498587/",
+        "kit_id": "498587",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_aa736d936fccf849dfc3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Montpellier HSC",
+      "design": "Plain",
+      "colors": [
+        "Orange",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Swile",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "July 29, 2026",
+      "release_date_iso": "2026-07-29",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/montpellier-hsc-2026-27-away-kit-500840/",
+        "kit_id": "500840",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_598d58dd628b30f0e080.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

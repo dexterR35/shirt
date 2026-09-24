@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": null,
-  "status": "researching",
+  "status": "blocked",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,22 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-romania-source-gap-2026-09-24",
+      "action": "Checked archive season/history in browser after focused web search.",
+      "source_url": "https://www.footballkitarchive.com/csc-dumbravita-kits-t12620/",
+      "observed_entries": [
+        "2025/26",
+        "2024/25",
+        "2023/24",
+        "2022/23",
+        "2021/22"
+      ],
+      "outcome": "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
+    }
   ]
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with fine straight parallel lines clipped into irregular triangular facets across the front. The observed changing line direction replaces the broken grain trace; solid blue sleeves, white collar and cuffs with fine dark edging. Tessellation adapted to the common fabric shape.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_ed857b3e2d1c20f838ec-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Schüco",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_ed857b3e2d1c20f838ec-home-492310.jpg",
-  "image_sha256": "84fa32b056316c6f5a51c5dd484b1b652f89d36e13becf38ba10087addff5ff6"
+  "image_sha256": "84fa32b056316c6f5a51c5dd484b1b652f89d36e13becf38ba10087addff5ff6",
+  "artwork_revision_path": "data/kits/team_ed857b3e2d1c20f838ec-home-r002.json"
 }

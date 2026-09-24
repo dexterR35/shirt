@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Pale gradient and linework are present, but faceted trim and sleeve color transitions need another pass."
-  ],
-  "kit_revision_path": "data/kits/team_cd33fa78e503be50a1c4-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_cd33fa78e503be50a1c4-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -96,12 +94,19 @@
       "body": "#96B7DF",
       "leftSleeve": "#F0EDF2",
       "rightSleeve": "#F0EDF2",
-      "collar": "#203C6B",
-      "leftCuff": "#254B7B",
-      "rightCuff": "#254B7B"
+      "collar": "#69A5DE",
+      "leftCuff": "#122B4C",
+      "rightCuff": "#122B4C"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue front fading into pale lavender, asymmetric fine pinlines with stronger upper-right and lower-left contrast. White sleeves; dark/blue irregular faceted cuff and collar bands replace the plain trim. All collar facets clipped to the existing round fabric ring.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_cd33fa78e503be50a1c4-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_07dafdcdaaa50faf5563.json",
     "source_kit_id": "491683"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

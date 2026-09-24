@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e2478988f5800edeecc4",
+  "team_name": "Nancy",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-nancy-lorraine-2026-27-home-kit-492767/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/k5fxYhpBhNgAdIK/as-nancy-lorraine-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e2478988f5800edeecc4-home-492767.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1F2F0",
+      "leftSleeve": "#F1F2F0",
+      "rightSleeve": "#F1F2F0",
+      "collar": "#E63B42",
+      "leftCuff": "#D92C3B",
+      "rightCuff": "#D92C3B"
+    }
+  },
+  "observations": "White with thin red pinstripes across body/sleeves and a broad off-center red stripe on wearer-left divided by fine white lines; red collar and cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with thin red pinstripes across body/sleeves and a broad off-center red stripe on wearer-left divided by fine white lines; red collar and cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_e2478988f5800edeecc4-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2F0",
+      "leftSleeve": "#F1F2F0",
+      "rightSleeve": "#F1F2F0",
+      "collar": "#E63B42",
+      "leftCuff": "#D92C3B",
+      "rightCuff": "#D92C3B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E63B42",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 70,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 98,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D64048",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#D92033",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#F8EDEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#F8EDEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#F8EDEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 14,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 27,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 39,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 159,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 172,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 185,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 14,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 27,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 39,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 159,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 172,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 185,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D94D55",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#D92C3B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#ECECE8",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#D92C3B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#ECECE8",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

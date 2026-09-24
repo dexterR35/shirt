@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Brown diagonal strokes are too broad; reproduce the fine jagged branches and exact distribution."
-  ],
-  "kit_revision_path": "data/kits/team_a8d4565d5cc52227731c-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a8d4565d5cc52227731c-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#ECEBE6"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with source-mapped jagged brown diagonal slashes, fine branching tips and lower lightning-like strokes. Pale white sleeves and collar; logos removed with local reconstruction of obscured slashes, without copying photographed fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_a8d4565d5cc52227731c-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_b08d9b7d29c0317d1e64.json",
     "source_kit_id": "488458"
@@ -110,6 +115,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

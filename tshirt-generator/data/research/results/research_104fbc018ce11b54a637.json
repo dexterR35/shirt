@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Pink/blue marble ribbons need their finer continuous contours and reference color balance."
-  ],
-  "kit_revision_path": "data/kits/team_f4a13356d9b8b9f9e9d1-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f4a13356d9b8b9f9e9d1-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Silver"
     ],
     "values": {
-      "body": "#2382C4",
-      "leftSleeve": "#2382C4",
-      "rightSleeve": "#2382C4",
-      "collar": "#0962A7",
-      "leftCuff": "#0D61A7",
-      "rightCuff": "#0D61A7"
+      "body": "#65ABD4",
+      "leftSleeve": "#65ABD4",
+      "rightSleeve": "#65ABD4",
+      "collar": "#0868AB",
+      "leftCuff": "#0D69AE",
+      "rightCuff": "#0D69AE"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue/pink flowing marble rebuilt with three discrete ink separations and separately measured sleeve crops. Branding-free upper/lower source print covers the torso; the middle sponsor region uses adjacent clean contours at matching scale. Fine cyan transitions, pale shoulder inserts and blue cuffs/neck retained; continuous photograph shading excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_f4a13356d9b8b9f9e9d1-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_104fbc018ce11b54a637.json",
     "source_kit_id": "497065"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-england-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

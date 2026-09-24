@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Tonal scroll contours are still too grainy and contrasted; reconstruct finer ornamental lines."
-  ],
-  "kit_revision_path": "data/kits/team_f16a85c178e3bb4ddcff-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f16a85c178e3bb4ddcff-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#491D19"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with extremely faint curving tonal lines, claret round-neck/cuff color bands and thin red edging. Granular over-contrasted tracing replaced by low-contrast smooth contours observed on the lower front; fabric comes only from PNG.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_f16a85c178e3bb4ddcff-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_0740b06a8a766bd4f32f.json",
     "source_kit_id": "500181"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-england-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

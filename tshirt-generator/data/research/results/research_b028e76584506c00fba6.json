@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Sky-blue print spacing and checker cuff details need further reconstruction."
-  ],
-  "kit_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -96,12 +94,19 @@
       "body": "#761530",
       "leftSleeve": "#299BD1",
       "rightSleeve": "#299BD1",
-      "collar": "#4BAFD3",
-      "leftCuff": "#195073",
-      "rightCuff": "#195073"
+      "collar": "#581A30",
+      "leftCuff": "#4F1732",
+      "rightCuff": "#4F1732"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret angular tonal print mapped from the full front with observed logos excluded, solid sky-blue sleeves and dark/sky checker trim. Shoulder/body print placement no longer repeats a single crop; small sleeve checks follow each sloping cuff and collar checks stay inside the existing neckline.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_7fca5e06b88f9fac0adb-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_b028e76584506c00fba6.json",
     "source_kit_id": "492141"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-england-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

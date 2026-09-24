@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Cream-peach with orange citrus fruit, leaf and flower silhouettes mapped from the independently sourced Away front, pale lemon collar/cuffs. Brand-obscured floral areas reconstructed from clean same-print regions; discrete color contours only, no source fabric raster.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_8fb7bcb18cbc1eb253d0-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Sicily by Car",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-away-497644.jpg",
-  "image_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052"
+  "image_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052",
+  "artwork_revision_path": "data/kits/team_8fb7bcb18cbc1eb253d0-away-r001.json"
 }

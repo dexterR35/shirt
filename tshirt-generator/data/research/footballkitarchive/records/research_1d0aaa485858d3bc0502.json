@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green with narrow staggered hanging shell/kite cells made of nested fine green V lines across body and sleeves. Cells are taller and narrower than the rejected diamond grid; cream underarm inserts, narrow neck edge and cuffs follow source.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_e106cba18a712cfb7d55-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Hoffmann Personal",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_e106cba18a712cfb7d55-away-494725.jpg",
-  "image_sha256": "4d4bc4815ae8aa62961858b806bd1d8465543d6e37325a00be3794152d1d8f33"
+  "image_sha256": "4d4bc4815ae8aa62961858b806bd1d8465543d6e37325a00be3794152d1d8f33",
+  "artwork_revision_path": "data/kits/team_e106cba18a712cfb7d55-away-r002.json"
 }

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1356bc5a9a3468251af8",
+  "team_name": "Pau",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pau-fc-2026-27-home-kit-500868/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/RMffKnSrFwUKEpN/pau-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1356bc5a9a3468251af8-home-500868.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#F4CD09",
+      "leftSleeve": "#F4CD09",
+      "rightSleeve": "#F4CD09",
+      "collar": "#272B42",
+      "leftCuff": "#262A41",
+      "rightCuff": "#262A41"
+    }
+  },
+  "observations": "Yellow with broad navy mid-chest hoop, navy neckline with fine yellow bands, layered navy/yellow cuffs and thin navy side piping. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with broad navy mid-chest hoop, navy neckline with fine yellow bands, layered navy/yellow cuffs and thin navy side piping. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_1356bc5a9a3468251af8-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F4CD09",
+      "leftSleeve": "#F4CD09",
+      "rightSleeve": "#F4CD09",
+      "collar": "#272B42",
+      "leftCuff": "#262A41",
+      "rightCuff": "#262A41"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#272B42",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.836 3.356L77 2Q100 7 123 2L126.164 3.356C129.26 27.616 70.74 27.616 73.836 3.356Z",
+          "fill": "#EED33A",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.986 2.863L77 2Q100 7 123 2L125.014 2.863C128.438 26.301 71.562 26.301 74.986 2.863Z",
+          "fill": "#262A40",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M76.329 2.288L77 2Q100 7 123 2L123.671 2.288C127.479 24.767 72.521 24.767 76.329 2.288Z",
+          "fill": "#EED137",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F4CD09",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 72,
+        "width": 102,
+        "height": 32,
+        "fill": "#292B46",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.55Q53.55 133 49.55 77Z",
+        "fill": "#232C40",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.45Q146.45 133 150.45 77Z",
+        "fill": "#232C40",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#262A41",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#E9D245",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#272C44",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.89999999999999C24 79.5 36 84.8 44.5 83.89999999999999Q48 84 49.2 75.8L52 106H5Z",
+        "fill": "#DED047",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#252A41",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#262A41",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#E9D245",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#272C44",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.89999999999999C176 79.5 164 84.8 155.5 83.89999999999999Q152 84 150.8 75.8L148 106H195Z",
+        "fill": "#DED047",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#252A41",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

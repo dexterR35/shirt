@@ -4,8 +4,8 @@
   "team_name": "Montpellier",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_28c39a9ee254521a2548-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/montpellier-hsc-2026-27-home-kit-498587/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/1HwXdPs2XOVlWcU/montpellier-hsc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_28c39a9ee254521a2548-home-498587.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#203752",
+      "leftSleeve": "#203752",
+      "rightSleeve": "#203752",
+      "collar": "#D34B20",
+      "leftCuff": "#D44922",
+      "rightCuff": "#D44922"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with asymmetric white/orange jagged vertical ribbons on wearer-left front, orange neck and cuffs. Individually placed slashes follow independent Home reference; sponsor removed. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_28c39a9ee254521a2548-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_aa736d936fccf849dfc3.json",
+    "source_kit_id": "498587"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

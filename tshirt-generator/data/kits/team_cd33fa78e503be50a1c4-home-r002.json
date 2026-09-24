@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_cd33fa78e503be50a1c4",
+  "team_name": "VfL Bochum",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r002",
+  "research_batch": "tier2-refine-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vfl-bochum-2026-27-home-kit-491684/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/06/jaX3dsUCQ7zoBv1/vfl-bochum-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_cd33fa78e503be50a1c4-home-491684.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#132642",
+      "leftSleeve": "#132642",
+      "rightSleeve": "#132642",
+      "collar": "#8FAFE0",
+      "leftCuff": "#8EAFE1",
+      "rightCuff": "#8EAFE1"
+    }
+  },
+  "observations": "Navy with gently curved narrow blue diagonal ribbons converging into off-center V points on the right, following the source sweep. Dark sleeves, pale blue collar/cuffs with fine white edges. Ribbons replace the hard uniform zigzag grid.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with gently curved narrow blue diagonal ribbons converging into off-center V points on the right, following the source sweep. Dark sleeves, pale blue collar/cuffs with fine white edges. Ribbons replace the hard uniform zigzag grid.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_cd33fa78e503be50a1c4-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#132642",
+      "leftSleeve": "#132642",
+      "rightSleeve": "#132642",
+      "collar": "#8FAFE0",
+      "leftCuff": "#8EAFE1",
+      "rightCuff": "#8EAFE1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#8FAFE0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.915 2.465L77 2Q100 7 123 2L124.085 2.465C127.775 25.239 72.225 25.239 75.915 2.465Z",
+          "fill": "#ECEFF0",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#132642",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 -128Q57 -53 130 3Q142 -7 151 -19L151 -17Q142 -4 130 5Q55 -48 49 -124Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 -104Q57 -29 130 27Q142 17 151 5L151 7Q142 20 130 29Q55 -24 49 -100Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 -80Q57 -5 130 51Q142 41 151 29L151 31Q142 44 130 53Q55 0 49 -76Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 -56Q57 19 130 75Q142 65 151 53L151 55Q142 68 130 77Q55 24 49 -52Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 -32Q57 43 130 99Q142 89 151 77L151 79Q142 92 130 101Q55 48 49 -28Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 -8Q57 67 130 123Q142 113 151 101L151 103Q142 116 130 125Q55 72 49 -4Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 16Q57 91 130 147Q142 137 151 125L151 127Q142 140 130 149Q55 96 49 20Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 40Q57 115 130 171Q142 161 151 149L151 151Q142 164 130 173Q55 120 49 44Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 64Q57 139 130 195Q142 185 151 173L151 175Q142 188 130 197Q55 144 49 68Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 88Q57 163 130 219Q142 209 151 197L151 199Q142 212 130 221Q55 168 49 92Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 112Q57 187 130 243Q142 233 151 221L151 223Q142 236 130 245Q55 192 49 116Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 49,
+          "y1": 0,
+          "x2": 151,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#244B72"
+            },
+            {
+              "offset": 0.5,
+              "color": "#21557D"
+            },
+            {
+              "offset": 1,
+              "color": "#133049"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#8EAFE1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.94999999999999C24 80.55 36 85.85 44.5 84.94999999999999Q48 85.05 49.2 76.85L52 106H5Z",
+        "fill": "#D8E2EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#8EAFE1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.94999999999999C176 80.55 164 85.85 155.5 84.94999999999999Q152 85.05 150.8 76.85L148 106H195Z",
+        "fill": "#D8E2EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

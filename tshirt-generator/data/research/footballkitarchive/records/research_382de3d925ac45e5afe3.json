@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with fine red horizontal branching veins mapped from the front at full height, with crest/manufacturer exclusions and independently measured sleeve veins. Removed oversized repeating tile; dark collar/cuffs and original fabric retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_86918866332543e45fd1-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Mozilla Firefox",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_86918866332543e45fd1-away-494990.jpg",
-  "image_sha256": "6eb3cec073861847399cd2694c7b7d5c3272a3dc7b8106d04073171fdc3f0254"
+  "image_sha256": "6eb3cec073861847399cd2694c7b7d5c3272a3dc7b8106d04073171fdc3f0254",
+  "artwork_revision_path": "data/kits/team_86918866332543e45fd1-away-r002.json"
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with source-mapped jagged brown diagonal slashes, fine branching tips and lower lightning-like strokes. Pale white sleeves and collar; logos removed with local reconstruction of obscured slashes, without copying photographed fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_a8d4565d5cc52227731c-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Congstar",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_a8d4565d5cc52227731c-away-488458.jpg",
-  "image_sha256": "2a52e806f375405c3bbe9b0fad16d01a9f534cfa3f5567754c974736354f382f"
+  "image_sha256": "2a52e806f375405c3bbe9b0fad16d01a9f534cfa3f5567754c974736354f382f",
+  "artwork_revision_path": "data/kits/team_a8d4565d5cc52227731c-away-r002.json"
 }

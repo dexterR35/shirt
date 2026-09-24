@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale grey-white torso with asymmetric grey angular three-part motifs outlined thin red, grey sleeves, and grey/red fine collar and cuff bands. Motif positions adapted individually from the Away front; sponsor and crest shapes excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_93209fb61c23df4143a4-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Iltainox",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_93209fb61c23df4143a4-away-506464.jpg",
-  "image_sha256": "0b4356f737500c19feda40cc1e09a2fa3660e096a366e01c751b1125f3aad2e4"
+  "image_sha256": "0b4356f737500c19feda40cc1e09a2fa3660e096a366e01c751b1125f3aad2e4",
+  "artwork_revision_path": "data/kits/team_93209fb61c23df4143a4-away-r001.json"
 }

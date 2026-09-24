@@ -4,8 +4,8 @@
   "team_name": "Südtirol",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_72bc1011455559c1b1fd-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-sudtirol-2026-27-home-kit-498512/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/DfhyG7Tb5TMOBlx/fc-sudtirol-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_72bc1011455559c1b1fd-home-498512.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Gray"
+    ],
+    "values": {
+      "body": "#EEEFEA",
+      "leftSleeve": "#EEEFEA",
+      "rightSleeve": "#EEEFEA",
+      "collar": "#EEEFEA",
+      "leftCuff": "#EEEFEA",
+      "rightCuff": "#EEEFEA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with two asymmetric broad red angular lower-front ribbons and a red left-sleeve wedge; right sleeve remains white. Fine tonal red marks inside lower-left red area simplified, white collar/cuffs. Source asymmetry retained, logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_72bc1011455559c1b1fd-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0a2d9cca7ba74b5d8423.json",
+    "source_kit_id": "498512"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

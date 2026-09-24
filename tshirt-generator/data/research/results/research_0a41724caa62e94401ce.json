@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Regular chevrons do not reproduce the irregular black graphic; needs custom geometry."
-  ],
-  "kit_revision_path": "data/kits/team_b3b5e87f02cc11bd8040-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b3b5e87f02cc11bd8040-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Gold"
     ],
     "values": {
-      "body": "#D22D32",
-      "leftSleeve": "#D22D32",
-      "rightSleeve": "#D22D32",
-      "collar": "#191E22",
-      "leftCuff": "#D22D32",
-      "rightCuff": "#D22D32"
+      "body": "#CC2431",
+      "leftSleeve": "#CC2431",
+      "rightSleeve": "#CC2431",
+      "collar": "#C42631",
+      "leftCuff": "#CC2431",
+      "rightCuff": "#CC2431"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with three narrow dark shoulder tapes and pale curved side piping. Close inspection identifies the dark torso diagonals as folds/shadow rather than a repeated printed pattern, so the rejected body graphic is removed; fabric shading comes solely from base.png.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_b3b5e87f02cc11bd8040-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_0a41724caa62e94401ce.json",
     "source_kit_id": "502686"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

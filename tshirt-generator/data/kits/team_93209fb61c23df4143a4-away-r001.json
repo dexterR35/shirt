@@ -1,0 +1,729 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_93209fb61c23df4143a4",
+  "team_name": "Cremonese",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-complete-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-cremonese-2026-27-away-kit-506464/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/10/nqB7IKEgAxBjDCO/us-cremonese-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_93209fb61c23df4143a4-away-506464.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray",
+      "Red"
+    ],
+    "values": {
+      "body": "#E7EBE7",
+      "leftSleeve": "#AFB2B2",
+      "rightSleeve": "#AFB2B2",
+      "collar": "#E9EBE7",
+      "leftCuff": "#AEB2B2",
+      "rightCuff": "#AEB2B2"
+    }
+  },
+  "observations": "Pale grey-white torso with asymmetric grey angular three-part motifs outlined thin red, grey sleeves, and grey/red fine collar and cuff bands. Motif positions adapted individually from the Away front; sponsor and crest shapes excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale grey-white torso with asymmetric grey angular three-part motifs outlined thin red, grey sleeves, and grey/red fine collar and cuff bands. Motif positions adapted individually from the Away front; sponsor and crest shapes excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_93209fb61c23df4143a4-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E7EBE7",
+      "leftSleeve": "#AFB2B2",
+      "rightSleeve": "#AFB2B2",
+      "collar": "#E9EBE7",
+      "leftCuff": "#AEB2B2",
+      "rightCuff": "#AEB2B2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E9EBE7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.8 3.8L77 2Q100 7 123 2L127.2 3.8C130 28.8 70 28.8 72.8 3.8Z",
+          "fill": "#777D80",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.6 2.6L77 2Q100 7 123 2L124.4 2.6C128 25.6 72 25.6 75.6 2.6Z",
+          "fill": "#C63C48",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E7EBE7",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            116
+          ],
+          [
+            57,
+            107
+          ],
+          [
+            77,
+            98
+          ],
+          [
+            75,
+            112
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M73.098 115.826L57.195 107.043L76.946 98.193L74.805 111.957L72.821 115.911L73.179 116.089L75.195 112.043L77.054 97.807L56.805 106.957L72.902 116.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            118
+          ],
+          [
+            55,
+            127
+          ],
+          [
+            68,
+            134
+          ],
+          [
+            74,
+            145
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M72.911 117.821L54.809 126.94L67.862 134.145L74.191 145.06L73.2 117.993L72.8 118.007L73.809 144.94L68.138 133.855L55.191 127.06L73.089 118.179Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            113
+          ],
+          [
+            91,
+            99
+          ],
+          [
+            87,
+            125
+          ],
+          [
+            91,
+            139
+          ],
+          [
+            75,
+            119
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M76.136 113.146L90.853 99.135L86.8 125L91.089 138.821L75.173 118.9L76.197 113.033L75.803 112.967L74.827 119.1L90.911 139.179L87.2 125L91.147 98.865L75.864 112.854Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            184
+          ],
+          [
+            29.4,
+            176.35
+          ],
+          [
+            46.4,
+            168.7
+          ],
+          [
+            44.7,
+            180.6
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M43.098 183.826L29.595 176.393L46.346 168.893L44.505 180.557L42.821 183.911L43.179 184.089L44.895 180.643L46.454 168.507L29.205 176.307L42.902 184.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            185.7
+          ],
+          [
+            27.700000000000003,
+            193.35
+          ],
+          [
+            38.75,
+            199.3
+          ],
+          [
+            43.85,
+            208.65
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M42.911 185.521L27.509 193.29L38.612 199.445L44.041 208.71L43.2 185.693L42.8 185.707L43.659 208.59L38.888 199.155L27.891 193.41L43.089 185.879Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            45.55,
+            181.45
+          ],
+          [
+            58.3,
+            169.55
+          ],
+          [
+            54.9,
+            191.65
+          ],
+          [
+            58.3,
+            203.55
+          ],
+          [
+            44.7,
+            186.55
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M45.686 181.596L58.153 169.685L54.7 191.65L58.389 203.371L44.873 186.45L45.747 181.483L45.353 181.417L44.527 186.65L58.211 203.729L55.1 191.65L58.447 169.415L45.414 181.304Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            169
+          ],
+          [
+            138.4,
+            161.35
+          ],
+          [
+            155.4,
+            153.7
+          ],
+          [
+            153.7,
+            165.6
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M152.098 168.826L138.595 161.393L155.346 153.893L153.505 165.557L151.821 168.911L152.179 169.089L153.895 165.643L155.454 153.507L138.205 161.307L151.902 169.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            170.7
+          ],
+          [
+            136.7,
+            178.35
+          ],
+          [
+            147.75,
+            184.3
+          ],
+          [
+            152.85,
+            193.65
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151.911 170.521L136.509 178.29L147.612 184.445L153.041 193.71L152.2 170.693L151.8 170.707L152.659 193.59L147.888 184.155L136.891 178.41L152.089 170.879Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            154.55,
+            166.45
+          ],
+          [
+            167.3,
+            154.55
+          ],
+          [
+            163.9,
+            176.65
+          ],
+          [
+            167.3,
+            188.55
+          ],
+          [
+            153.7,
+            171.55
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154.686 166.596L167.153 154.685L163.7 176.65L167.389 188.371L153.873 171.45L154.747 166.483L154.353 166.417L153.527 171.65L167.211 188.729L164.1 176.65L167.447 154.415L154.414 166.304Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            154,
+            96
+          ],
+          [
+            146,
+            91.5
+          ],
+          [
+            156,
+            87
+          ],
+          [
+            155,
+            94
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154.098 95.826L146.195 91.543L155.946 87.193L154.805 93.957L153.821 95.911L154.179 96.089L155.195 94.043L156.054 86.807L145.805 91.457L153.902 96.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            154,
+            97
+          ],
+          [
+            145,
+            101.5
+          ],
+          [
+            151.5,
+            105
+          ],
+          [
+            154.5,
+            110.5
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M153.911 96.821L144.809 101.44L151.362 105.145L154.691 110.56L154.2 96.993L153.8 97.007L154.309 110.44L151.638 104.855L145.191 101.56L154.089 97.179Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            155.5,
+            94.5
+          ],
+          [
+            163,
+            87.5
+          ],
+          [
+            161,
+            100.5
+          ],
+          [
+            163,
+            107.5
+          ],
+          [
+            155,
+            97.5
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155.636 94.646L162.853 87.635L160.8 100.5L163.089 107.321L155.173 97.4L155.697 94.533L155.303 94.467L154.827 97.6L162.911 107.679L161.2 100.5L163.147 87.365L155.364 94.354Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            133,
+            6
+          ],
+          [
+            125.8,
+            1.9500000000000002
+          ],
+          [
+            134.8,
+            -2.0999999999999996
+          ],
+          [
+            133.9,
+            4.2
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.098 5.826L125.995 1.993L134.746 -1.907L133.705 4.157L132.821 5.911L133.179 6.089L134.095 4.243L134.854 -2.293L125.605 1.907L132.902 6.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            133,
+            6.9
+          ],
+          [
+            124.9,
+            10.95
+          ],
+          [
+            130.75,
+            14.1
+          ],
+          [
+            133.45,
+            19.05
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M132.911 6.721L124.709 10.89L130.612 14.245L133.641 19.11L133.2 6.893L132.8 6.907L133.259 18.99L130.888 13.955L125.091 11.01L133.089 7.079Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134.35,
+            4.65
+          ],
+          [
+            141.1,
+            -1.6500000000000004
+          ],
+          [
+            139.3,
+            10.05
+          ],
+          [
+            141.1,
+            16.35
+          ],
+          [
+            133.9,
+            7.35
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M134.486 4.796L140.953 -1.515L139.1 10.05L141.189 16.171L134.073 7.25L134.547 4.683L134.153 4.617L133.727 7.45L141.011 16.529L139.5 10.05L141.247 -1.785L134.214 4.504Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            5
+          ],
+          [
+            56.92,
+            1.58
+          ],
+          [
+            64.52,
+            -1.8399999999999999
+          ],
+          [
+            63.76,
+            3.48
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M63.098 4.826L57.115 1.623L64.466 -1.647L63.565 3.437L62.821 4.911L63.179 5.089L63.955 3.523L64.574 -2.033L56.725 1.537L62.902 5.174Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            5.76
+          ],
+          [
+            56.16,
+            9.18
+          ],
+          [
+            61.1,
+            11.84
+          ],
+          [
+            63.38,
+            16.02
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M62.911 5.581L55.969 9.12L60.962 11.985L63.571 16.08L63.2 5.753L62.8 5.767L63.189 15.96L61.238 11.695L56.351 9.24L63.089 5.939Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            64.14,
+            3.86
+          ],
+          [
+            69.84,
+            -1.46
+          ],
+          [
+            68.32,
+            8.42
+          ],
+          [
+            69.84,
+            13.74
+          ],
+          [
+            63.76,
+            6.140000000000001
+          ]
+        ],
+        "fill": "#B7B9B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M64.276 4.006L69.693 -1.325L68.12 8.42L69.929 13.561L63.933 6.04L64.337 3.893L63.943 3.827L63.587 6.24L69.751 13.919L68.52 8.42L69.987 -1.595L64.004 3.714Z",
+        "fill": "#CA666A",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.3C24 77.9 36 83.2 44.5 82.3Q48 82.4 49.2 74.2L52 106H5Z",
+        "fill": "#AEB2B2",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#6E7479",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#D63B48",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.3C176 77.9 164 83.2 155.5 82.3Q152 82.4 150.8 74.2L148 106H195Z",
+        "fill": "#AEB2B2",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#6E7479",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#D63B48",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

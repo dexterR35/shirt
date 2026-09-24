@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal front and black sleeves with asymmetric white left/red right curved raglan bands and red neckline edge. The large repeated LR monogram and shoulder manufacturer chevrons are branding and deliberately omitted; independent Away source retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_9b144edee4d522fd22e4-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Diesel",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_9b144edee4d522fd22e4-away-506850.jpg",
-  "image_sha256": "3cfbe91da1847d4b2628d7edaba5c900d9dad427160fe3d945274a85266937c2"
+  "image_sha256": "3cfbe91da1847d4b2628d7edaba5c900d9dad427160fe3d945274a85266937c2",
+  "artwork_revision_path": "data/kits/team_9b144edee4d522fd22e4-away-r001.json"
 }

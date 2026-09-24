@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Lower light-ribbon placement and glow do not yet match the saved reference."
-  ],
-  "kit_revision_path": "data/kits/team_ad806ac0ecc2ae62b1c5-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ad806ac0ecc2ae62b1c5-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#152039"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy upper shirt and sleeves with two broad overlapping pale-blue curved ribbons on the lower torso, soft color transitions and the separate dark curled lower-right wedge. Curves placed from the full front instead of uniform diagonal stripes; thin pale neckline edge.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_ad806ac0ecc2ae62b1c5-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_d8355ab5816eef695d75.json",
     "source_kit_id": "495350"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

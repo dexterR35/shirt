@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1ab2e5df4043971867d0",
+  "team_name": "Grenoble",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Split royal-blue/navy front with layered dark mountain zigzags, navy shoulder panels, blue left/navy right sleeve and white collar/cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1ab2e5df4043971867d0-home-501281.jpg",
+      "page_url": "https://www.footballkitarchive.com/grenoble-foot-38-2026-27-home-kit-501281/",
+      "sha256": "64f6aa906f3377f8a5b2ff99b6b78e5af3d33196cfcb41a9b028949f0699d688"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#124CB4",
+      "leftSleeve": "#124CB4",
+      "rightSleeve": "#233564",
+      "collar": "#F3F4F0",
+      "leftCuff": "#F2F4F2",
+      "rightCuff": "#F2F4F2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F4F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#124CB4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 60,
+        "height": 200,
+        "fill": "#202F61",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            0
+          ],
+          [
+            51,
+            6
+          ],
+          [
+            37,
+            16
+          ],
+          [
+            45,
+            27
+          ],
+          [
+            72,
+            14
+          ]
+        ],
+        "fill": "#223464",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            0
+          ],
+          [
+            149,
+            6
+          ],
+          [
+            163,
+            16
+          ],
+          [
+            155,
+            27
+          ],
+          [
+            128,
+            14
+          ]
+        ],
+        "fill": "#223464",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M50.627 100.643L66.255 58.731L83.494 96.679L99.458 48.664L125.01 110.443L152.284 83.189L149.716 80.811L126.99 107.557L100.542 45.336L82.506 93.321L65.745 55.269L47.373 99.357Z",
+        "fill": "#152D61",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M50.589 117.733L67.262 79.73L82.594 113.646L102.593 66.702L126.95 124.4L152.21 102.265L149.79 99.735L129.05 121.6L103.407 63.298L81.406 110.354L66.738 76.27L47.411 116.267Z",
+        "fill": "#152D61",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#F2F4F2",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#F2F4F2",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

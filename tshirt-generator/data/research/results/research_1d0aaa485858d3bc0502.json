@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Diamond repeat is too generic; reconstruct the nested shell/fan geometry."
-  ],
-  "kit_revision_path": "data/kits/team_e106cba18a712cfb7d55-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e106cba18a712cfb7d55-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#E0E7CE"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green with narrow staggered hanging shell/kite cells made of nested fine green V lines across body and sleeves. Cells are taller and narrower than the rejected diamond grid; cream underarm inserts, narrow neck edge and cuffs follow source.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_e106cba18a712cfb7d55-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_1d0aaa485858d3bc0502.json",
     "source_kit_id": "494725"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

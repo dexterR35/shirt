@@ -1,0 +1,724 @@
+{
+  "batch": "tier2-refine-england-2026-09-24",
+  "traces": [
+    {
+      "key": "Lincoln City:away",
+      "reference": "data/research/references/footballkitarchive/team_98fac2d0056268d040a4-away-498646.jpg",
+      "source_sha256": "808fd94b0d79ae5c6d89a29fc47ed733a59d3697da414ebe0b7961bf9bb598b0",
+      "spec": {
+        "box": [
+          285,
+          190,
+          510,
+          800
+        ],
+        "width": 440,
+        "mode": "dark",
+        "threshold": 6,
+        "blur": 12,
+        "smooth": 1.5,
+        "repairs": [
+          {
+            "target": [
+              380,
+              455,
+              270,
+              270
+            ],
+            "source": [
+              410,
+              730,
+              270,
+              230
+            ]
+          },
+          {
+            "target": [
+              350,
+              287,
+              83,
+              88
+            ],
+            "source": [
+              455,
+              270,
+              83,
+              88
+            ]
+          },
+          {
+            "target": [
+              625,
+              269,
+              79,
+              110
+            ],
+            "source": [
+              690,
+              740,
+              79,
+              110
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 10,
+        "width": 102,
+        "height": 190,
+        "color": "#111517"
+      },
+      "ink_pixels": 49476,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Norwich City:home",
+      "reference": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-home-492473.jpg",
+      "source_sha256": "0a4cda736dac7a8a77d03b46b939aa596924e85d366e879387e14fa83b20e15a",
+      "spec": {
+        "box": [
+          310,
+          700,
+          610,
+          630
+        ],
+        "width": 500,
+        "mode": "dark",
+        "threshold": 3,
+        "blur": 20,
+        "smooth": 3
+      },
+      "placement": {
+        "x": 49,
+        "y": 12,
+        "width": 102,
+        "height": 188,
+        "color": "#D3BC19",
+        "opacity": 0.48
+      },
+      "ink_pixels": 58966,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Norwich City:home",
+      "reference": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-home-492473.jpg",
+      "source_sha256": "0a4cda736dac7a8a77d03b46b939aa596924e85d366e879387e14fa83b20e15a",
+      "spec": {
+        "box": [
+          108,
+          292,
+          178,
+          335
+        ],
+        "width": 200,
+        "mode": "green",
+        "threshold": 12,
+        "blur": 9
+      },
+      "placement": {
+        "x": 1,
+        "y": 20,
+        "width": 48,
+        "height": 66,
+        "color": "#26863B",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 39685,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Norwich City:home",
+      "reference": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-home-492473.jpg",
+      "source_sha256": "0a4cda736dac7a8a77d03b46b939aa596924e85d366e879387e14fa83b20e15a",
+      "spec": {
+        "box": [
+          108,
+          292,
+          178,
+          335
+        ],
+        "width": 200,
+        "mode": "green",
+        "threshold": 12,
+        "blur": 9
+      },
+      "placement": {
+        "x": 151,
+        "y": 20,
+        "width": 48,
+        "height": 66,
+        "color": "#26863B",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 39685,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          340,
+          756,
+          620,
+          600
+        ],
+        "width": 500,
+        "mode": "inverse",
+        "threshold": 137,
+        "min": 35,
+        "max": 160,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 92,
+        "width": 102,
+        "height": 108,
+        "color": "#1470B4"
+      },
+      "ink_pixels": 49809,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          340,
+          756,
+          620,
+          600
+        ],
+        "width": 500,
+        "mode": "value",
+        "threshold": 166,
+        "min": 135,
+        "max": 240,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 92,
+        "width": 102,
+        "height": 108,
+        "color": "#84B7D8"
+      },
+      "ink_pixels": 96636,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          340,
+          756,
+          620,
+          600
+        ],
+        "width": 500,
+        "mode": "red",
+        "threshold": -8,
+        "min": 95,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 92,
+        "width": 102,
+        "height": 108,
+        "color": "#BCACD5"
+      },
+      "ink_pixels": 57095,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          300,
+          225,
+          640,
+          190
+        ],
+        "width": 500,
+        "mode": "inverse",
+        "threshold": 137,
+        "min": 35,
+        "max": 160,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 7,
+        "width": 102,
+        "height": 38,
+        "color": "#1470B4"
+      },
+      "ink_pixels": 10825,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          300,
+          225,
+          640,
+          190
+        ],
+        "width": 500,
+        "mode": "value",
+        "threshold": 166,
+        "min": 135,
+        "max": 240,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 7,
+        "width": 102,
+        "height": 38,
+        "color": "#84B7D8"
+      },
+      "ink_pixels": 29361,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          300,
+          225,
+          640,
+          190
+        ],
+        "width": 500,
+        "mode": "red",
+        "threshold": -8,
+        "min": 95,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 7,
+        "width": 102,
+        "height": 38,
+        "color": "#BCACD5"
+      },
+      "ink_pixels": 15454,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          310,
+          740,
+          630,
+          330
+        ],
+        "width": 500,
+        "mode": "inverse",
+        "threshold": 137,
+        "min": 35,
+        "max": 160,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 43,
+        "width": 102,
+        "height": 51,
+        "color": "#1470B4"
+      },
+      "ink_pixels": 22879,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          310,
+          740,
+          630,
+          330
+        ],
+        "width": 500,
+        "mode": "value",
+        "threshold": 166,
+        "min": 135,
+        "max": 240,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 43,
+        "width": 102,
+        "height": 51,
+        "color": "#84B7D8"
+      },
+      "ink_pixels": 52315,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          310,
+          740,
+          630,
+          330
+        ],
+        "width": 500,
+        "mode": "red",
+        "threshold": -8,
+        "min": 95,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 49,
+        "y": 43,
+        "width": 102,
+        "height": 51,
+        "color": "#BCACD5"
+      },
+      "ink_pixels": 25547,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          120,
+          275,
+          150,
+          310
+        ],
+        "width": 190,
+        "mode": "inverse",
+        "threshold": 137,
+        "min": 50,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 1,
+        "y": 20,
+        "width": 48,
+        "height": 64,
+        "color": "#1875B4",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 9333,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          120,
+          275,
+          150,
+          310
+        ],
+        "width": 190,
+        "mode": "red",
+        "threshold": -8,
+        "min": 50,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 1,
+        "y": 20,
+        "width": 48,
+        "height": 64,
+        "color": "#B5ACD1",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 22338,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          995,
+          280,
+          155,
+          310
+        ],
+        "width": 190,
+        "mode": "inverse",
+        "threshold": 137,
+        "min": 50,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 151,
+        "y": 20,
+        "width": 48,
+        "height": 64,
+        "color": "#1875B4",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 15465,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Southampton:away",
+      "reference": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "source_sha256": "27117038b5bc4da00d18be8daf4c895048497db3e0262902b87c4cff099a440e",
+      "spec": {
+        "box": [
+          995,
+          280,
+          155,
+          310
+        ],
+        "width": 190,
+        "mode": "red",
+        "threshold": -8,
+        "min": 50,
+        "max": 230,
+        "blur": 8
+      },
+      "placement": {
+        "x": 151,
+        "y": 20,
+        "width": 48,
+        "height": 64,
+        "color": "#B5ACD1",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 9202,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "West Ham United:home",
+      "reference": "data/research/references/footballkitarchive/team_7fca5e06b88f9fac0adb-home-492141.jpg",
+      "source_sha256": "c3da7159905f931a36080a665c9a1f3867ad1d84e383ae36427fa2f562600f5b",
+      "spec": {
+        "box": [
+          360,
+          330,
+          780,
+          1020
+        ],
+        "width": 480,
+        "mode": "dark",
+        "threshold": 4.5,
+        "blur": 12,
+        "max": 105,
+        "smooth": 2,
+        "repairs": [
+          {
+            "target": [
+              850,
+              405,
+              175,
+              155
+            ],
+            "source": [
+              720,
+              960,
+              175,
+              155
+            ]
+          },
+          {
+            "target": [
+              520,
+              450,
+              145,
+              100
+            ],
+            "source": [
+              400,
+              900,
+              145,
+              100
+            ]
+          },
+          {
+            "target": [
+              525,
+              575,
+              480,
+              220
+            ],
+            "source": [
+              470,
+              950,
+              480,
+              220
+            ]
+          },
+          {
+            "target": [
+              1030,
+              1260,
+              90,
+              80
+            ],
+            "source": [
+              930,
+              1080,
+              90,
+              80
+            ]
+          },
+          {
+            "target": [
+              390,
+              1260,
+              100,
+              90
+            ],
+            "source": [
+              500,
+              1040,
+              100,
+              90
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 14,
+        "width": 102,
+        "height": 186,
+        "color": "#431526",
+        "opacity": 0.95
+      },
+      "ink_pixels": 51280,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Wrexham:away",
+      "reference": "data/research/references/footballkitarchive/team_86918866332543e45fd1-away-494990.jpg",
+      "source_sha256": "6eb3cec073861847399cd2694c7b7d5c3272a3dc7b8106d04073171fdc3f0254",
+      "spec": {
+        "box": [
+          220,
+          230,
+          580,
+          1190
+        ],
+        "width": 550,
+        "mode": "red",
+        "threshold": 23,
+        "blur": 9,
+        "exclude": [
+          [
+            225,
+            295,
+            80,
+            100
+          ],
+          [
+            535,
+            265,
+            150,
+            155
+          ]
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 9,
+        "width": 102,
+        "height": 189,
+        "color": "#A33242",
+        "opacity": 0.9
+      },
+      "ink_pixels": 32424,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Wrexham:away",
+      "reference": "data/research/references/footballkitarchive/team_86918866332543e45fd1-away-494990.jpg",
+      "source_sha256": "6eb3cec073861847399cd2694c7b7d5c3272a3dc7b8106d04073171fdc3f0254",
+      "spec": {
+        "box": [
+          113,
+          400,
+          101,
+          250
+        ],
+        "width": 180,
+        "mode": "red",
+        "threshold": 19,
+        "blur": 9
+      },
+      "placement": {
+        "x": 5,
+        "y": 27,
+        "width": 43,
+        "height": 56,
+        "color": "#8C303C",
+        "clip": "leftSleeve",
+        "opacity": 0.8
+      },
+      "ink_pixels": 4213,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Wrexham:away",
+      "reference": "data/research/references/footballkitarchive/team_86918866332543e45fd1-away-494990.jpg",
+      "source_sha256": "6eb3cec073861847399cd2694c7b7d5c3272a3dc7b8106d04073171fdc3f0254",
+      "spec": {
+        "box": [
+          816,
+          400,
+          160,
+          300
+        ],
+        "width": 180,
+        "mode": "red",
+        "threshold": 19,
+        "blur": 9
+      },
+      "placement": {
+        "x": 151,
+        "y": 27,
+        "width": 43,
+        "height": 56,
+        "color": "#8C303C",
+        "clip": "rightSleeve",
+        "opacity": 0.8
+      },
+      "ink_pixels": 1484,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

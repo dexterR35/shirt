@@ -20,8 +20,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue torso with dense tonal clipped quadrilateral cells and diagonal cut-outs, at the observed small repeat scale. Solid blue sleeves and the source double pale cuff/neck edging retained. Tiny cell corners simplified on the shared silhouette.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_874bad913c14b28eb9a5-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "SWEG",
@@ -33,5 +40,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_874bad913c14b28eb9a5-home-494029.jpg",
-  "image_sha256": "f7d488d996afee8c04c9821ab9c0533efb0d5d0b97589fff7a0c051d24454230"
+  "image_sha256": "f7d488d996afee8c04c9821ab9c0533efb0d5d0b97589fff7a0c051d24454230",
+  "artwork_revision_path": "data/kits/team_874bad913c14b28eb9a5-home-r002.json"
 }

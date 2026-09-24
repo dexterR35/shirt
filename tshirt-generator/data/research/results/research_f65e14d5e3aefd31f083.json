@@ -4,8 +4,8 @@
   "team_name": "Sochaux",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d842d8fa0d81e6a424ce-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sochaux-montbeliard-2026-27-home-kit-496953/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/CoaayJwgBgg6V73/sochaux-montbeliard-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d842d8fa0d81e6a424ce-home-496953.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#E9CB16",
+      "leftSleeve": "#E9CB16",
+      "rightSleeve": "#E9CB16",
+      "collar": "#E6CF24",
+      "leftCuff": "#243650",
+      "rightCuff": "#243650"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with fine tonal vertical torso striping, broad navy outer raglan sleeve panels and navy/yellow/white narrow cuff trim. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_d842d8fa0d81e6a424ce-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f65e14d5e3aefd31f083.json",
+    "source_kit_id": "496953"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with a very faint fine diagonal geometric field and small blue hem-side inserts, ivory sleeves and neckline with a narrow blue inner edge. Tiny source textile pattern simplified to thin tonal outlines without transcribing lettering or emblems.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_85c0a98831c7a6a22b33-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Computer Gross",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_85c0a98831c7a6a22b33-away-504131.jpg",
-  "image_sha256": "a56357d2a51d8cd6c65b8d06b320958613c8d3b4ce77763d8568043116f3ae00"
+  "image_sha256": "a56357d2a51d8cd6c65b8d06b320958613c8d3b4ce77763d8568043116f3ae00",
+  "artwork_revision_path": "data/kits/team_85c0a98831c7a6a22b33-away-r001.json"
 }

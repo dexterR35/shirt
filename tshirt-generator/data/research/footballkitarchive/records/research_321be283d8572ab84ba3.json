@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark green with two source-positioned lime lightning trunks, fine jagged branches and layered flat-color glow. Trunks continue through logo-obscured center using visible endpoints; fine branch placement adapted by hand. Solid dark sleeves and pale lime round neckline, no repeated lightning crop or source photo shading.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_5d7f056713a290d8c44d-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "VW",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_5d7f056713a290d8c44d-home-494550.jpg",
-  "image_sha256": "99dc27aba1636406bbc612a85c41e51bfdb5fea997080e2473b763fae5c7277e"
+  "image_sha256": "99dc27aba1636406bbc612a85c41e51bfdb5fea997080e2473b763fae5c7277e",
+  "artwork_revision_path": "data/kits/team_5d7f056713a290d8c44d-home-r002.json"
 }

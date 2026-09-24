@@ -4,8 +4,8 @@
   "team_name": "Rodez",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9aa166b17ec5527f0545-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rodez-af-2026-27-home-kit-497823/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/VkV92jRXbOVQ5yk/rodez-af-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9aa166b17ec5527f0545-home-497823.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#C30E19",
+      "leftSleeve": "#C30E19",
+      "rightSleeve": "#C30E19",
+      "collar": "#C30E19",
+      "leftCuff": "#C30E19",
+      "rightCuff": "#C30E19"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with tonal red rising diagonal bands and fine paired diagonal lines, three golden-yellow shoulder ribbons and gold hem-side segments. Pattern bands follow photographed diagonal orientation; sponsor/crest removed. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_9aa166b17ec5527f0545-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_179b5cb5766044f1abd3.json",
+    "source_kit_id": "497823"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

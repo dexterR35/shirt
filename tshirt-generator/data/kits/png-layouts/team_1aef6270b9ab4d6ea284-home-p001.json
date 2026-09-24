@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1aef6270b9ab4d6ea284",
+  "team_name": "Laval",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Orange with faint irregular darker-orange sweeping bands across body, dark side wedges and cuffs, black collar with green edge. Bands are placed from the front photograph and softened in color; textile folds not traced. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1aef6270b9ab4d6ea284-home-504734.jpg",
+      "page_url": "https://www.footballkitarchive.com/stade-lavallois-mayenne-fc-2026-27-home-kit-504734/",
+      "sha256": "210776dc83d4b142b2a166e81da62424cc32de4a53c729123e5858147d1f44f5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#FF810B",
+      "leftSleeve": "#FF810B",
+      "rightSleeve": "#FF810B",
+      "collar": "#2B2B29",
+      "leftCuff": "#282B2C",
+      "rightCuff": "#282B2C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2B2B29",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.957 2.447L77 2Q100 7 123 2L124.043 2.447C127.745 25.191 72.255 25.191 75.957 2.447Z",
+          "fill": "#3DAB48",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#FF810B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            79
+          ],
+          [
+            55,
+            101
+          ],
+          [
+            61,
+            198
+          ],
+          [
+            49,
+            198
+          ]
+        ],
+        "fill": "#303334",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            79
+          ],
+          [
+            145,
+            101
+          ],
+          [
+            139,
+            198
+          ],
+          [
+            151,
+            198
+          ]
+        ],
+        "fill": "#303334",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            54,
+            26
+          ],
+          [
+            84,
+            22
+          ],
+          [
+            116,
+            35
+          ],
+          [
+            91,
+            27
+          ]
+        ],
+        "fill": "#DE5611",
+        "clip": "body",
+        "opacity": 0.4
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            64
+          ],
+          [
+            78,
+            73
+          ],
+          [
+            114,
+            82
+          ],
+          [
+            149,
+            84
+          ],
+          [
+            118,
+            77
+          ],
+          [
+            82,
+            68
+          ]
+        ],
+        "fill": "#DE5611",
+        "clip": "body",
+        "opacity": 0.4
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            112
+          ],
+          [
+            86,
+            118
+          ],
+          [
+            120,
+            128
+          ],
+          [
+            144,
+            127
+          ],
+          [
+            109,
+            120
+          ],
+          [
+            75,
+            110
+          ]
+        ],
+        "fill": "#DE5611",
+        "clip": "body",
+        "opacity": 0.4
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            149
+          ],
+          [
+            89,
+            154
+          ],
+          [
+            123,
+            175
+          ],
+          [
+            89,
+            164
+          ],
+          [
+            51,
+            158
+          ]
+        ],
+        "fill": "#DE5611",
+        "clip": "body",
+        "opacity": 0.4
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            53,
+            185
+          ],
+          [
+            82,
+            174
+          ],
+          [
+            100,
+            170
+          ],
+          [
+            79,
+            184
+          ]
+        ],
+        "fill": "#DE5611",
+        "clip": "body",
+        "opacity": 0.4
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#282B2C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#282B2C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/romanian-liga-2-kits-2026-27-l243/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/romania-liga2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with darker red scattered fine angular scratch strokes across front and sleeves, replacing oversized traced blobs. Independent source establishes color, density and diagonal direction; exact print behind crossed arms is adapted. Matching sewn collar and sleeves; no copied grain or shadow.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_64b1cf271c4accb18fe7-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_64b1cf271c4accb18fe7-home-503442.jpg",
-  "image_sha256": "4f79be60e701016c25fe5e7fc027306a40b629462110fee0e8fc9e60c4b0f1f6"
+  "image_sha256": "4f79be60e701016c25fe5e7fc027306a40b629462110fee0e8fc9e60c4b0f1f6",
+  "artwork_revision_path": "data/kits/team_64b1cf271c4accb18fe7-home-r002.json"
 }

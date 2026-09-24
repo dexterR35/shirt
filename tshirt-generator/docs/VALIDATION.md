@@ -1,6 +1,13 @@
 # Validation - 24 September 2026
 
-## Latest: complete Tier 1 with explicit season fallbacks
+## Latest: Tier 2 painted continuation
+
+24 September checkpoint: **197 / 300 Tier 2 slots ready**, **478 ready globally**. All **72 Node tests pass**, including independent source hashes, immutable prior revisions, the original PNG bytes/alpha, all reviewed layouts and preservation of empty final TSV fields. **Seven targeted Edge browser tests pass**: new Tier 2 variants load from local JSON, source equipment stays variant-specific, missing slots remain unavailable, and Catalog selection still works. The final Sochaux Away Studio screenshot was visually inspected.
+
+`npm run data:verify`: **PASS** (735 teams, 779 memberships, 27 competitions, 39 associations, 16 tabs and 1,470 independent slots preserved). `npm run build`: **PASS**, 233 modules. `git diff --check`: **PASS**. All 81 new ready designs have individually inspected comparison sheets; their source and adaptation limitations are documented in [the paint report](TIER2_PAINT_2026-09-24.md). Tier 1 remains 276/276.
+
+
+## Previous: complete Tier 1 with explicit season fallbacks
 
 `npm run data:verify`: **PASS**. All **53 Node tests** pass. **27 Edge browser tests verified**: the full run passed 26 and exposed one obsolete expectation that SuperLiga still had unavailable shirts; that test now asserts all 32 are ready and checks unavailable drafts in Liga II, and its targeted rerun passes. Final `npm run build`: **PASS**, after verification; Vite built 231 modules. `git diff --check`: **PASS**. Empty final release-date cells in the equipment TSV are intentional and documented in its whitespace attribute.
 

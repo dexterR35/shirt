@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark navy body with thin red connected irregular map outlines covering both sleeves and upper raglan, reconstructed from the visible source map geometry. Cream collar/cuffs with fine red edges; no tiled chest graphic.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_7a3e62af194adbda3859-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Novoline",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_7a3e62af194adbda3859-away-491247.jpg",
-  "image_sha256": "bd9207f1a5bd5ad772a30665c2d6fb90cba26ddcabe5da3a1da2e65284149065"
+  "image_sha256": "bd9207f1a5bd5ad772a30665c2d6fb90cba26ddcabe5da3a1da2e65284149065",
+  "artwork_revision_path": "data/kits/team_7a3e62af194adbda3859-away-r002.json"
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep red body with faint tonal scroll forms on red sleeves, gold sleeve bands and thin gold side piping. The source gold polo collar is represented only by recoloring the existing PNG round neckline; no flap or placket drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_ad4778df119a4521bb51-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Coop",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_ad4778df119a4521bb51-home-505643.jpg",
-  "image_sha256": "71adf5702f548f8cb64c642c36825acd55c8ea0f27cf073c15868effbcc5be4a"
+  "image_sha256": "71adf5702f548f8cb64c642c36825acd55c8ea0f27cf073c15868effbcc5be4a",
+  "artwork_revision_path": "data/kits/team_ad4778df119a4521bb51-home-r001.json"
 }

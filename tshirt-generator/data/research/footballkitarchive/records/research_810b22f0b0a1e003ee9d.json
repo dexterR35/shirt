@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow shirt with faint tonal marble contours adapted from the unobstructed lower front; solid green raglan strips and independently isolated green marble sleeve ink. Yellow neckline with fine green edge and green cuffs. Unbranded lower print extended vertically over the sponsor-obscured torso; exact hidden marble placement cannot be recovered.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_027f77c1d602c64f746d-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Blakely",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-home-492473.jpg",
-  "image_sha256": "0a4cda736dac7a8a77d03b46b939aa596924e85d366e879387e14fa83b20e15a"
+  "image_sha256": "0a4cda736dac7a8a77d03b46b939aa596924e85d366e879387e14fa83b20e15a",
+  "artwork_revision_path": "data/kits/team_027f77c1d602c64f746d-home-r002.json"
 }

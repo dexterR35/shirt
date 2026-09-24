@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Pale check print is incomplete along sleeves and side panels."
-  ],
-  "kit_revision_path": "data/kits/team_4c89055082ef4b43ce88-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4c89055082ef4b43ce88-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#1974AF"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with narrow central red broken ladder stripe, pale checker fields fading down both shoulder/sleeve tops and pale checked lower side strips. Checks now reach the visible sleeve and side areas; plain dark-blue existing collar ring, sponsor and crest excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_4c89055082ef4b43ce88-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_fdda4d2553dc593e0dda.json",
     "source_kit_id": "502739"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

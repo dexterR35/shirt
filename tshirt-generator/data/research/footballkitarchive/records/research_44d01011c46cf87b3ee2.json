@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with near-black diagonal and horizontal brush contours mapped from the full front; yellow neck edge and double cuffs. Logo-obscured central print reconstructed from adjacent clean brush ink. Local contrast segmentation removes broad photographic shading.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_98fac2d0056268d040a4-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Branston Ltd",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_98fac2d0056268d040a4-away-498646.jpg",
-  "image_sha256": "808fd94b0d79ae5c6d89a29fc47ed733a59d3697da414ebe0b7961bf9bb598b0"
+  "image_sha256": "808fd94b0d79ae5c6d89a29fc47ed733a59d3697da414ebe0b7961bf9bb598b0",
+  "artwork_revision_path": "data/kits/team_98fac2d0056268d040a4-away-r002.json"
 }

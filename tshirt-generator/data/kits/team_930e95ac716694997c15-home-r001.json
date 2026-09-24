@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_930e95ac716694997c15",
+  "team_name": "Dijon",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/dijon-fco-2026-27-home-kit-505369/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/QTJMgQXk3UieiLJ/dijon-fco-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_930e95ac716694997c15-home-505369.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#D71726",
+      "leftSleeve": "#D71726",
+      "rightSleeve": "#D71726",
+      "collar": "#EDECE6",
+      "leftCuff": "#EBEAE6",
+      "rightCuff": "#EBEAE6"
+    }
+  },
+  "observations": "Red torso with darker red broad vertical bars, solid red sleeves and white collar/cuffs; short gold side inserts. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red torso with darker red broad vertical bars, solid red sleeves and white collar/cuffs; short gold side inserts. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_930e95ac716694997c15-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D71726",
+      "leftSleeve": "#D71726",
+      "rightSleeve": "#D71726",
+      "collar": "#EDECE6",
+      "leftCuff": "#EBEAE6",
+      "rightCuff": "#EBEAE6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDECE6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D71726",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 61,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#AD1A25",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#AD1A25",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 107,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#AD1A25",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#AD1A25",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            87
+          ],
+          [
+            51.5,
+            98
+          ],
+          [
+            51,
+            148
+          ],
+          [
+            49,
+            131
+          ]
+        ],
+        "fill": "#E4C35B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            87
+          ],
+          [
+            148.5,
+            98
+          ],
+          [
+            149,
+            148
+          ],
+          [
+            151,
+            131
+          ]
+        ],
+        "fill": "#E4C35B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#EBEAE6",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#EBEAE6",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

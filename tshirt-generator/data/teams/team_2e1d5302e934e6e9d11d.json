@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Metz",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Claret",
+        "Gold",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Car Avenue",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "July 16, 2026",
+      "release_date_iso": "2026-07-16",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-metz-2026-27-home-kit-496573/",
+        "kit_id": "496573",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_7f9f426127571826655b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Metz",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Yellow",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Car Avenue",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "July 7, 2026",
+      "release_date_iso": "2026-07-07",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-metz-2026-27-away-kit-493873/",
+        "kit_id": "493873",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_fcd1d5f570ef77e62639.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

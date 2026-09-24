@@ -4,8 +4,8 @@
   "team_name": "Cremonese",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_93209fb61c23df4143a4-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-cremonese-2026-27-away-kit-506464/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/10/nqB7IKEgAxBjDCO/us-cremonese-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_93209fb61c23df4143a4-away-506464.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray",
+      "Red"
+    ],
+    "values": {
+      "body": "#E7EBE7",
+      "leftSleeve": "#AFB2B2",
+      "rightSleeve": "#AFB2B2",
+      "collar": "#E9EBE7",
+      "leftCuff": "#AEB2B2",
+      "rightCuff": "#AEB2B2"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale grey-white torso with asymmetric grey angular three-part motifs outlined thin red, grey sleeves, and grey/red fine collar and cuff bands. Motif positions adapted individually from the Away front; sponsor and crest shapes excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_93209fb61c23df4143a4-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0e56bf76ae02bce86dff.json",
+    "source_kit_id": "506464"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

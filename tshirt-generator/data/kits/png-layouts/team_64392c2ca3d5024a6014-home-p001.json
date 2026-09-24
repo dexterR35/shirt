@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_64392c2ca3d5024a6014",
+  "team_name": "Boulogne",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black with two broad red vertical panels and thin pale edges; black sleeves/collar. Tonal repeated club shields in center stripe and Jako shoulder logos deliberately omitted. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_64392c2ca3d5024a6014-home-503561.jpg",
+      "page_url": "https://www.footballkitarchive.com/us-boulogne-co-2026-27-home-kit-503561/",
+      "sha256": "23a733cdbe41a2eb48a6a651e6284b2b6b25169479460b6cc24f89574475921f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#242627",
+      "leftSleeve": "#242627",
+      "rightSleeve": "#242627",
+      "collar": "#242627",
+      "leftCuff": "#242627",
+      "rightCuff": "#242627"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#242627",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#242627",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 25,
+        "height": 200,
+        "fill": "#DF1B2A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 25,
+        "height": 200,
+        "fill": "#DF1B2A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 54.5,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#BBBBB8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#BBBBB8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 110.5,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#BBBBB8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#BBBBB8",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

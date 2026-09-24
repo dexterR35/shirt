@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b3b5e87f02cc11bd8040",
+  "team_name": "CSM Reșița",
+  "variant": "home",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-refine-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Red shirt with three narrow dark shoulder tapes and pale curved side piping. Close inspection identifies the dark torso diagonals as folds/shadow rather than a repeated printed pattern, so the rejected body graphic is removed; fabric shading comes solely from base.png.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b3b5e87f02cc11bd8040-home-502686.jpg",
+      "page_url": "https://www.footballkitarchive.com/csm-resita-2026-27-home-kit-502686/",
+      "sha256": "64b6defc373ac6b3cd642634ce3fd4f5f1c9a48f83f4688e7997837ee0550d3e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CC2431",
+      "leftSleeve": "#CC2431",
+      "rightSleeve": "#CC2431",
+      "collar": "#C42631",
+      "leftCuff": "#CC2431",
+      "rightCuff": "#CC2431"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C42631",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CC2431",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.2
+          ],
+          [
+            35,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.2
+          ],
+          [
+            165,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.2
+          ],
+          [
+            38,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.2
+          ],
+          [
+            162,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.2
+          ],
+          [
+            41,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.2
+          ],
+          [
+            159,
+            25.2
+          ]
+        ],
+        "fill": "#202C3D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.45Q53.45 133 49.45 77Z",
+        "fill": "#EAE8EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.55Q146.55 133 150.55 77Z",
+        "fill": "#EAE8EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

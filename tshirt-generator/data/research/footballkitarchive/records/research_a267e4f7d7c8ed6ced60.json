@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pink with asymmetric salmon and black rising diagonal brush/zigzag slashes, manually placed from the Home front. Pink sleeves, black cuffs and existing round collar; sponsors, crest and all Puma marks removed.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_8fb7bcb18cbc1eb253d0-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Sicily by Car",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-home-491712.jpg",
-  "image_sha256": "2f10c91a499cef6026503418bb48694d88209b502f454212a4adc98e4827956d"
+  "image_sha256": "2f10c91a499cef6026503418bb48694d88209b502f454212a4adc98e4827956d",
+  "artwork_revision_path": "data/kits/team_8fb7bcb18cbc1eb253d0-home-r001.json"
 }

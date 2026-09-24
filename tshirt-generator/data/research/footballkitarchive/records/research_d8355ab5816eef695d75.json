@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy upper shirt and sleeves with two broad overlapping pale-blue curved ribbons on the lower torso, soft color transitions and the separate dark curled lower-right wedge. Curves placed from the full front instead of uniform diagonal stripes; thin pale neckline edge.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_ad806ac0ecc2ae62b1c5-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Sparda-Bank",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_ad806ac0ecc2ae62b1c5-away-495350.jpg",
-  "image_sha256": "606759d29b6268644c1ae756abb3b94ef7ad313d898eca6dc4844a1c7a30a703"
+  "image_sha256": "606759d29b6268644c1ae756abb3b94ef7ad313d898eca6dc4844a1c7a30a703",
+  "artwork_revision_path": "data/kits/team_ad806ac0ecc2ae62b1c5-away-r002.json"
 }

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with gently curved narrow blue diagonal ribbons converging into off-center V points on the right, following the source sweep. Dark sleeves, pale blue collar/cuffs with fine white edges. Ribbons replace the hard uniform zigzag grid.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_cd33fa78e503be50a1c4-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Vonovia",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_cd33fa78e503be50a1c4-home-491684.jpg",
-  "image_sha256": "b5623f4020b439f6f18b6260cf8ac311f2a2082de4b7b262e26d0dda989e7a8b"
+  "image_sha256": "b5623f4020b439f6f18b6260cf8ac311f2a2082de4b7b262e26d0dda989e7a8b",
+  "artwork_revision_path": "data/kits/team_cd33fa78e503be50a1c4-home-r002.json"
 }

@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Missing darker lower vertical column structure; refine beyond the base gradient."
-  ],
-  "kit_revision_path": "data/kits/team_0375eaedc652312f9c40-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0375eaedc652312f9c40-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -68,11 +66,18 @@
       "leftSleeve": "#4B8FC5",
       "rightSleeve": "#4B8FC5",
       "collar": "#153668",
-      "leftCuff": "#0765C1",
-      "rightCuff": "#0765C1"
+      "leftCuff": "#236ABC",
+      "rightCuff": "#236ABC"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale blue upper shirt fading into royal blue body and sleeves with five darker lower-front vertical bars. Blue neckline, source animal emblem and repeated miniature club motifs omitted. Independent Away gradient and striping corrected.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_0375eaedc652312f9c40-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_e296fa5b9113ffba541d.json",
     "source_kit_id": "502337"
@@ -82,6 +87,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

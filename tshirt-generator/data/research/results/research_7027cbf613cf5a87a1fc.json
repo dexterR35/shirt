@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Cyan sleeve strokes require their jagged staggered shapes rather than regular bands."
-  ],
-  "kit_revision_path": "data/kits/team_a59ce54337e511168c4d-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a59ce54337e511168c4d-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -69,11 +67,18 @@
       "leftSleeve": "#075183",
       "rightSleeve": "#075183",
       "collar": "#164261",
-      "leftCuff": "#075183",
-      "rightCuff": "#075183"
+      "leftCuff": "#124C77",
+      "rightCuff": "#124C77"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep blue plain body with broad bright cyan jagged sleeve ribbons, separated by irregular dark steps, and dark sleeve ends. Source sleeve geometry redrawn individually instead of applying identical thin straight bands.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_a59ce54337e511168c4d-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_7027cbf613cf5a87a1fc.json",
     "source_kit_id": "502937"
@@ -83,6 +88,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

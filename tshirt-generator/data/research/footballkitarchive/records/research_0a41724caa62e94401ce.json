@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/romanian-liga-2-kits-2026-27-l243/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/romania-liga2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with three narrow dark shoulder tapes and pale curved side piping. Close inspection identifies the dark torso diagonals as folds/shadow rather than a repeated printed pattern, so the rejected body graphic is removed; fabric shading comes solely from base.png.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_b3b5e87f02cc11bd8040-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_b3b5e87f02cc11bd8040-home-502686.jpg",
-  "image_sha256": "64b6defc373ac6b3cd642634ce3fd4f5f1c9a48f83f4688e7997837ee0550d3e"
+  "image_sha256": "64b6defc373ac6b3cd642634ce3fd4f5f1c9a48f83f4688e7997837ee0550d3e",
+  "artwork_revision_path": "data/kits/team_b3b5e87f02cc11bd8040-home-r002.json"
 }

@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6e38187c99726423e04a",
+  "team_name": "Politehnica Timișoara",
+  "variant": "home",
+  "source_revision": "r003",
+  "layout_revision": "p003",
+  "research_batch": "tier2-refine-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with purple shoulder yoke and four broad purple hoops, including a partial bottom hoop, at the source spacing. Faint angular diamond outlines inside purple bars; white sleeves with purple cuffs and neckline. Match perspective adapted without painting physical folds.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6e38187c99726423e04a-home-507579.jpg",
+      "page_url": "https://www.footballkitarchive.com/politehnica-timisoara-2026-27-home-kit-507579/",
+      "sha256": "8ddc1fac713d4ca0a0463f673891257751551b094430173734d6fdb71cf18c8b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFEEEA",
+      "leftSleeve": "#EFEEEA",
+      "rightSleeve": "#EFEEEA",
+      "collar": "#4C318D",
+      "leftCuff": "#473589",
+      "rightCuff": "#473589"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#4C318D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFEEEA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 22,
+        "fill": "#503592",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 47,
+        "width": 102,
+        "height": 21,
+        "fill": "#51338C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.237 60.184L56 51.3L62.7 60L56 65.7L49.195 59.772L48.805 60.228L56 66.3L63.3 60L56 50.7L48.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M63.237 60.184L70 51.3L76.7 60L70 65.7L63.195 59.772L62.805 60.228L70 66.3L77.3 60L70 50.7L62.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M77.237 60.184L84 51.3L90.7 60L84 65.7L77.195 59.772L76.805 60.228L84 66.3L91.3 60L84 50.7L76.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M91.237 60.184L98 51.3L104.7 60L98 65.7L91.195 59.772L90.805 60.228L98 66.3L105.3 60L98 50.7L90.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M105.237 60.184L112 51.3L118.7 60L112 65.7L105.195 59.772L104.805 60.228L112 66.3L119.3 60L112 50.7L104.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M119.237 60.184L126 51.3L132.7 60L126 65.7L119.195 59.772L118.805 60.228L126 66.3L133.3 60L126 50.7L118.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M133.237 60.184L140 51.3L146.7 60L140 65.7L133.195 59.772L132.805 60.228L140 66.3L147.3 60L140 50.7L132.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M147.237 60.184L154 51.3L160.7 60L154 65.7L147.195 59.772L146.805 60.228L154 66.3L161.3 60L154 50.7L146.763 59.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 94,
+        "width": 102,
+        "height": 21,
+        "fill": "#51338C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.237 107.184L56 98.3L62.7 107L56 112.7L49.195 106.772L48.805 107.228L56 113.3L63.3 107L56 97.7L48.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M63.237 107.184L70 98.3L76.7 107L70 112.7L63.195 106.772L62.805 107.228L70 113.3L77.3 107L70 97.7L62.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M77.237 107.184L84 98.3L90.7 107L84 112.7L77.195 106.772L76.805 107.228L84 113.3L91.3 107L84 97.7L76.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M91.237 107.184L98 98.3L104.7 107L98 112.7L91.195 106.772L90.805 107.228L98 113.3L105.3 107L98 97.7L90.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M105.237 107.184L112 98.3L118.7 107L112 112.7L105.195 106.772L104.805 107.228L112 113.3L119.3 107L112 97.7L104.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M119.237 107.184L126 98.3L132.7 107L126 112.7L119.195 106.772L118.805 107.228L126 113.3L133.3 107L126 97.7L118.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M133.237 107.184L140 98.3L146.7 107L140 112.7L133.195 106.772L132.805 107.228L140 113.3L147.3 107L140 97.7L132.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M147.237 107.184L154 98.3L160.7 107L154 112.7L147.195 106.772L146.805 107.228L154 113.3L161.3 107L154 97.7L146.763 106.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 141,
+        "width": 102,
+        "height": 21,
+        "fill": "#51338C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.237 154.184L56 145.3L62.7 154L56 159.7L49.195 153.772L48.805 154.228L56 160.3L63.3 154L56 144.7L48.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M63.237 154.184L70 145.3L76.7 154L70 159.7L63.195 153.772L62.805 154.228L70 160.3L77.3 154L70 144.7L62.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M77.237 154.184L84 145.3L90.7 154L84 159.7L77.195 153.772L76.805 154.228L84 160.3L91.3 154L84 144.7L76.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M91.237 154.184L98 145.3L104.7 154L98 159.7L91.195 153.772L90.805 154.228L98 160.3L105.3 154L98 144.7L90.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M105.237 154.184L112 145.3L118.7 154L112 159.7L105.195 153.772L104.805 154.228L112 160.3L119.3 154L112 144.7L104.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M119.237 154.184L126 145.3L132.7 154L126 159.7L119.195 153.772L118.805 154.228L126 160.3L133.3 154L126 144.7L118.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M133.237 154.184L140 145.3L146.7 154L140 159.7L133.195 153.772L132.805 154.228L140 160.3L147.3 154L140 144.7L132.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M147.237 154.184L154 145.3L160.7 154L154 159.7L147.195 153.772L146.805 154.228L154 160.3L161.3 154L154 144.7L146.763 153.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 188,
+        "width": 102,
+        "height": 21,
+        "fill": "#51338C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.237 201.184L56 192.3L62.7 201L56 206.7L49.195 200.772L48.805 201.228L56 207.3L63.3 201L56 191.7L48.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M63.237 201.184L70 192.3L76.7 201L70 206.7L63.195 200.772L62.805 201.228L70 207.3L77.3 201L70 191.7L62.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M77.237 201.184L84 192.3L90.7 201L84 206.7L77.195 200.772L76.805 201.228L84 207.3L91.3 201L84 191.7L76.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M91.237 201.184L98 192.3L104.7 201L98 206.7L91.195 200.772L90.805 201.228L98 207.3L105.3 201L98 191.7L90.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M105.237 201.184L112 192.3L118.7 201L112 206.7L105.195 200.772L104.805 201.228L112 207.3L119.3 201L112 191.7L104.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M119.237 201.184L126 192.3L132.7 201L126 206.7L119.195 200.772L118.805 201.228L126 207.3L133.3 201L126 191.7L118.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M133.237 201.184L140 192.3L146.7 201L140 206.7L133.195 200.772L132.805 201.228L140 207.3L147.3 201L140 191.7L132.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "path",
+        "d": "M147.237 201.184L154 192.3L160.7 201L154 206.7L147.195 200.772L146.805 201.228L154 207.3L161.3 201L154 191.7L146.763 200.816Z",
+        "fill": "#422776",
+        "clip": "body",
+        "opacity": 0.6
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#473589",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#473589",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

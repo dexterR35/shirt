@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Dark/red pattern contains irregular boundaries that regular vertical stripes do not reproduce."
-  ],
-  "kit_revision_path": "data/kits/team_a96627afe2400d2d5b36-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a96627afe2400d2d5b36-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -64,15 +62,22 @@
       "Red"
     ],
     "values": {
-      "body": "#B82732",
-      "leftSleeve": "#263D4B",
-      "rightSleeve": "#263D4B",
-      "collar": "#C12A34",
-      "leftCuff": "#D23A38",
-      "rightCuff": "#D23A38"
+      "body": "#293B46",
+      "leftSleeve": "#293B46",
+      "rightSleeve": "#293B46",
+      "collar": "#B72F3C",
+      "leftCuff": "#D3363B",
+      "rightCuff": "#D3363B"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark charcoal-blue front and sleeves with fine red chest line, irregular muted red curved/angular lower-front ribbons and red shoulder accents, collar and cuffs. Corrected the unsupported regular red/blue stripes; small match reference limits exact hidden ribbon edges.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_a96627afe2400d2d5b36-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_4941b5ceaa933e65f88e.json",
     "source_kit_id": "511516"
@@ -82,6 +87,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

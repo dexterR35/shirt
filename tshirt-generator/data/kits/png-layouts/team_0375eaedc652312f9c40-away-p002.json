@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0375eaedc652312f9c40",
+  "team_name": "Gloria Bistrița",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-refine-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Pale blue upper shirt fading into royal blue body and sleeves with five darker lower-front vertical bars. Blue neckline, source animal emblem and repeated miniature club motifs omitted. Independent Away gradient and striping corrected.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_0375eaedc652312f9c40-away-502337.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-gloria-2018-bistrita-nasaud-2026-27-away-kit-502337/",
+      "sha256": "c58b78e6764e0a97fd3ae26b6490e78ec49a10dd25d2cf999d8e9a1bb9f861df"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0765C1",
+      "leftSleeve": "#4B8FC5",
+      "rightSleeve": "#4B8FC5",
+      "collar": "#153668",
+      "leftCuff": "#236ABC",
+      "rightCuff": "#236ABC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#153668",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0765C1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#C9D7E5"
+            },
+            {
+              "offset": 0.2,
+              "color": "#B9CEE0"
+            },
+            {
+              "offset": 0.5,
+              "color": "#1875C8"
+            },
+            {
+              "offset": 1,
+              "color": "#084DAF"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 70,
+        "width": 9,
+        "height": 130,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#598CBD"
+            },
+            {
+              "offset": 0.3,
+              "color": "#165AB7"
+            },
+            {
+              "offset": 1,
+              "color": "#103B94"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 70,
+        "width": 9,
+        "height": 130,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#598CBD"
+            },
+            {
+              "offset": 0.3,
+              "color": "#165AB7"
+            },
+            {
+              "offset": 1,
+              "color": "#103B94"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 70,
+        "width": 9,
+        "height": 130,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#598CBD"
+            },
+            {
+              "offset": 0.3,
+              "color": "#165AB7"
+            },
+            {
+              "offset": 1,
+              "color": "#103B94"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 70,
+        "width": 9,
+        "height": 130,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#598CBD"
+            },
+            {
+              "offset": 0.3,
+              "color": "#165AB7"
+            },
+            {
+              "offset": 1,
+              "color": "#103B94"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 70,
+        "width": 9,
+        "height": 130,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 70,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#598CBD"
+            },
+            {
+              "offset": 0.3,
+              "color": "#165AB7"
+            },
+            {
+              "offset": 1,
+              "color": "#103B94"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#236ABC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#236ABC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

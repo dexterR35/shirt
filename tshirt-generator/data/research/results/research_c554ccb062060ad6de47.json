@@ -4,8 +4,8 @@
   "team_name": "Benevento",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4f851eefa0099eb88a22-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/benevento-calcio-2026-27-home-kit-498790/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/12wv1wVAvwbEpH7/benevento-calcio-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f851eefa0099eb88a22-home-498790.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#E22B27",
+      "leftSleeve": "#E22B27",
+      "rightSleeve": "#E22B27",
+      "collar": "#CD282A",
+      "leftCuff": "#E22B27",
+      "rightCuff": "#E22B27"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with five narrow yellow vertical stripes, fine red triangular lattice in the upper/lower stripes and near-solid yellow through mid-front. Red sleeves and neckline, small black underarm inserts. Stripe lattice geometry measured from front; branding omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_4f851eefa0099eb88a22-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c554ccb062060ad6de47.json",
+    "source_kit_id": "498790"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with sparse pale-gold irregular polygon edges, concentrated around upper chest and lower torso. Gold line junctions placed individually from the Away source; plain white neck and sleeves.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_4f851eefa0099eb88a22-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_4f851eefa0099eb88a22-away-500644.jpg",
-  "image_sha256": "208deaa8b9e5045dc8a112a5a67d897208bcf21487c0aec4eb0e34393a3cf1dd"
+  "image_sha256": "208deaa8b9e5045dc8a112a5a67d897208bcf21487c0aec4eb0e34393a3cf1dd",
+  "artwork_revision_path": "data/kits/team_4f851eefa0099eb88a22-away-r001.json"
 }

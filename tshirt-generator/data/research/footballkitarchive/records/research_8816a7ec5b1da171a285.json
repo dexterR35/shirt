@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with faint grey road-map contours across the front, dark sleeves and neckline with tiny white/red center tab. Map ink separated locally from fabric; obscured sponsor regions reconstructed using clean lower map contours. No lettering, stars or club symbols retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_72bc1011455559c1b1fd-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "IDM Südtirol",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_72bc1011455559c1b1fd-away-504753.jpg",
-  "image_sha256": "f749646a86c5627e3a037520f1982e195b3b31b025c6f2bb418e96a6c78f35d6"
+  "image_sha256": "f749646a86c5627e3a037520f1982e195b3b31b025c6f2bb418e96a6c78f35d6",
+  "artwork_revision_path": "data/kits/team_72bc1011455559c1b1fd-away-r001.json"
 }

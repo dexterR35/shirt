@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue front fading into pale lavender, asymmetric fine pinlines with stronger upper-right and lower-left contrast. White sleeves; dark/blue irregular faceted cuff and collar bands replace the plain trim. All collar facets clipped to the existing round fabric ring.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_cd33fa78e503be50a1c4-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Vonovia",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_cd33fa78e503be50a1c4-away-491683.jpg",
-  "image_sha256": "bf55bedb6c324f6c627faa81e1e76b211d8492f15e35fc268b9f387ddff5f25a"
+  "image_sha256": "bf55bedb6c324f6c627faa81e1e76b211d8492f15e35fc268b9f387ddff5f25a",
+  "artwork_revision_path": "data/kits/team_cd33fa78e503be50a1c4-away-r002.json"
 }

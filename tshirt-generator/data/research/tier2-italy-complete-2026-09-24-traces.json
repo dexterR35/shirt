@@ -1,0 +1,386 @@
+{
+  "batch": "tier2-italy-complete-2026-09-24",
+  "traces": [
+    {
+      "key": "Catanzaro:away",
+      "reference": "data/research/references/footballkitarchive/team_ad4778df119a4521bb51-away-511216.jpg",
+      "source_sha256": "c6cf7a43425124bc12f81da023da56d916700cfe79abfb03c9f49e40a8f6c7c8",
+      "spec": {
+        "box": [
+          208,
+          174,
+          460,
+          830
+        ],
+        "width": 500,
+        "mode": "blue",
+        "threshold": -125,
+        "min": 150,
+        "max": 250,
+        "smooth": 1,
+        "exclude": [
+          [
+            520,
+            235,
+            103,
+            106
+          ],
+          [
+            587,
+            865,
+            80,
+            60
+          ]
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 7,
+        "width": 102,
+        "height": 193,
+        "color": "#F1D884"
+      },
+      "ink_pixels": 62358,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Hellas Verona:away",
+      "reference": "data/research/references/footballkitarchive/team_2ce62d3228552449705e-away-498510.jpg",
+      "source_sha256": "0e51f823d03fc495f85327b5ae6623e6360fe6e0ba8830c413ac4b0d90b815b6",
+      "spec": {
+        "box": [
+          222,
+          163,
+          456,
+          821
+        ],
+        "width": 520,
+        "mode": "dark",
+        "threshold": 3,
+        "blur": 10,
+        "smooth": 1.2,
+        "repairs": [
+          {
+            "target": [
+              269,
+              240,
+              110,
+              65
+            ],
+            "source": [
+              260,
+              471,
+              110,
+              65
+            ]
+          },
+          {
+            "target": [
+              528,
+              207,
+              110,
+              110
+            ],
+            "source": [
+              410,
+              489,
+              110,
+              110
+            ]
+          },
+          {
+            "target": [
+              265,
+              354,
+              400,
+              78
+            ],
+            "source": [
+              237,
+              518,
+              400,
+              78
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 5,
+        "width": 102,
+        "height": 190,
+        "color": "#D3AE12",
+        "opacity": 0.48
+      },
+      "ink_pixels": 54743,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Palermo:away",
+      "reference": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-away-497644.jpg",
+      "source_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052",
+      "spec": {
+        "box": [
+          251,
+          189,
+          510,
+          775
+        ],
+        "width": 530,
+        "mode": "red",
+        "threshold": 42,
+        "min": 140,
+        "max": 250,
+        "smooth": 1,
+        "repairs": [
+          {
+            "target": [
+              330,
+              286,
+              116,
+              76
+            ],
+            "source": [
+              341,
+              621,
+              116,
+              76
+            ]
+          },
+          {
+            "target": [
+              565,
+              282,
+              130,
+              92
+            ],
+            "source": [
+              549,
+              598,
+              130,
+              92
+            ]
+          },
+          {
+            "target": [
+              303,
+              422,
+              407,
+              86
+            ],
+            "source": [
+              292,
+              685,
+              407,
+              86
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 4,
+        "width": 102,
+        "height": 196,
+        "color": "#F4B579"
+      },
+      "ink_pixels": 352201,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Palermo:away",
+      "reference": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-away-497644.jpg",
+      "source_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052",
+      "spec": {
+        "box": [
+          126,
+          270,
+          105,
+          122
+        ],
+        "width": 180,
+        "mode": "red",
+        "threshold": 42,
+        "min": 140,
+        "max": 250
+      },
+      "placement": {
+        "x": 2,
+        "y": 25,
+        "width": 47,
+        "height": 60,
+        "color": "#F4B579",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 32965,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Palermo:away",
+      "reference": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-away-497644.jpg",
+      "source_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052",
+      "spec": {
+        "box": [
+          794,
+          272,
+          97,
+          114
+        ],
+        "width": 180,
+        "mode": "red",
+        "threshold": 42,
+        "min": 140,
+        "max": 250
+      },
+      "placement": {
+        "x": 151,
+        "y": 25,
+        "width": 47,
+        "height": 60,
+        "color": "#F4B579",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 21955,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Palermo:away",
+      "reference": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-away-497644.jpg",
+      "source_sha256": "3691f72a568f716a33e7ed8205f54c81f51a8899700fcf5c8887a293684b8052",
+      "spec": {
+        "box": [
+          251,
+          520,
+          510,
+          430
+        ],
+        "width": 500,
+        "channelMask": {
+          "red": [
+            0,
+            39
+          ],
+          "yellow": [
+            62,
+            160
+          ],
+          "lum": [
+            150,
+            250
+          ]
+        }
+      },
+      "placement": {
+        "x": 49,
+        "y": 95,
+        "width": 102,
+        "height": 105,
+        "color": "#E9CE75"
+      },
+      "ink_pixels": 1945,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Südtirol:away",
+      "reference": "data/research/references/footballkitarchive/team_72bc1011455559c1b1fd-away-504753.jpg",
+      "source_sha256": "f749646a86c5627e3a037520f1982e195b3b31b025c6f2bb418e96a6c78f35d6",
+      "spec": {
+        "box": [
+          380,
+          236,
+          738,
+          1259
+        ],
+        "width": 580,
+        "mode": "light",
+        "threshold": 3,
+        "blur": 9,
+        "min": 15,
+        "max": 115,
+        "smooth": 1.1,
+        "repairs": [
+          {
+            "target": [
+              505,
+              310,
+              135,
+              125
+            ],
+            "source": [
+              450,
+              970,
+              135,
+              125
+            ]
+          },
+          {
+            "target": [
+              902,
+              276,
+              150,
+              168
+            ],
+            "source": [
+              744,
+              1060,
+              150,
+              168
+            ]
+          },
+          {
+            "target": [
+              520,
+              500,
+              500,
+              222
+            ],
+            "source": [
+              464,
+              996,
+              500,
+              222
+            ]
+          },
+          {
+            "target": [
+              560,
+              752,
+              460,
+              96
+            ],
+            "source": [
+              435,
+              1200,
+              460,
+              96
+            ]
+          },
+          {
+            "target": [
+              1030,
+              1320,
+              70,
+              95
+            ],
+            "source": [
+              910,
+              1100,
+              70,
+              95
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 7,
+        "width": 102,
+        "height": 193,
+        "color": "#5F6161",
+        "opacity": 0.65
+      },
+      "ink_pixels": 84481,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_23d9b5769b975f8ad816",
+  "team_name": "Red Star",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain near-black front and sleeves with dark green neckline and sleeve-end bands. Source diagonal material weave is not a graphic and remains represented by the original PNG fabric. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_23d9b5769b975f8ad816-away-505223.jpg",
+      "page_url": "https://www.footballkitarchive.com/red-star-paris-2026-27-away-kit-505223/",
+      "sha256": "71bac6af7bdf7eec36dda5e48eb513448f3148791508a9fe257f672dd94f5025"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#242624",
+      "leftSleeve": "#242624",
+      "rightSleeve": "#242624",
+      "collar": "#005240",
+      "leftCuff": "#075744",
+      "rightCuff": "#075744"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#005240",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#242624",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.19999999999999C24 77.8 36 83.1 44.5 82.19999999999999Q48 82.3 49.2 74.1L52 106H5Z",
+        "fill": "#075744",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.19999999999999C176 77.8 164 83.1 155.5 82.19999999999999Q152 82.3 150.8 74.1L148 106H195Z",
+        "fill": "#075744",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9aa166b17ec5527f0545",
+  "team_name": "Rodez",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Red with tonal red rising diagonal bands and fine paired diagonal lines, three golden-yellow shoulder ribbons and gold hem-side segments. Pattern bands follow photographed diagonal orientation; sponsor/crest removed. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9aa166b17ec5527f0545-home-497823.jpg",
+      "page_url": "https://www.footballkitarchive.com/rodez-af-2026-27-home-kit-497823/",
+      "sha256": "e0827517b93298fab95f43d727c878b45b227ed0aae830784a4512ffbb02ed02"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#C30E19",
+      "leftSleeve": "#C30E19",
+      "rightSleeve": "#C30E19",
+      "collar": "#C30E19",
+      "leftCuff": "#C30E19",
+      "rightCuff": "#C30E19"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C30E19",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#C30E19",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            -50
+          ],
+          [
+            151,
+            -122
+          ],
+          [
+            151,
+            -114
+          ],
+          [
+            49,
+            -42
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -38.857L151.101 -110.857L150.899 -111.143L48.899 -39.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -36.857L151.101 -108.857L150.899 -109.143L48.899 -37.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -34.857L151.101 -106.857L150.899 -107.143L48.899 -35.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            -25
+          ],
+          [
+            151,
+            -97
+          ],
+          [
+            151,
+            -89
+          ],
+          [
+            49,
+            -17
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -13.857L151.101 -85.857L150.899 -86.143L48.899 -14.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -11.857L151.101 -83.857L150.899 -84.143L48.899 -12.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 -9.857L151.101 -81.857L150.899 -82.143L48.899 -10.143Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            0
+          ],
+          [
+            151,
+            -72
+          ],
+          [
+            151,
+            -64
+          ],
+          [
+            49,
+            8
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 11.143L151.101 -60.857L150.899 -61.143L48.899 10.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 13.143L151.101 -58.857L150.899 -59.143L48.899 12.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 15.143L151.101 -56.857L150.899 -57.143L48.899 14.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            25
+          ],
+          [
+            151,
+            -47
+          ],
+          [
+            151,
+            -39
+          ],
+          [
+            49,
+            33
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 36.143L151.101 -35.857L150.899 -36.143L48.899 35.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 38.143L151.101 -33.857L150.899 -34.143L48.899 37.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 40.143L151.101 -31.857L150.899 -32.143L48.899 39.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            50
+          ],
+          [
+            151,
+            -22
+          ],
+          [
+            151,
+            -14
+          ],
+          [
+            49,
+            58
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 61.143L151.101 -10.857L150.899 -11.143L48.899 60.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 63.143L151.101 -8.857L150.899 -9.143L48.899 62.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 65.143L151.101 -6.857L150.899 -7.143L48.899 64.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            75
+          ],
+          [
+            151,
+            3
+          ],
+          [
+            151,
+            11
+          ],
+          [
+            49,
+            83
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 86.143L151.101 14.143L150.899 13.857L48.899 85.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 88.143L151.101 16.143L150.899 15.857L48.899 87.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 90.143L151.101 18.143L150.899 17.857L48.899 89.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            100
+          ],
+          [
+            151,
+            28
+          ],
+          [
+            151,
+            36
+          ],
+          [
+            49,
+            108
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 111.143L151.101 39.143L150.899 38.857L48.899 110.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 113.143L151.101 41.143L150.899 40.857L48.899 112.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 115.143L151.101 43.143L150.899 42.857L48.899 114.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            125
+          ],
+          [
+            151,
+            53
+          ],
+          [
+            151,
+            61
+          ],
+          [
+            49,
+            133
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 136.143L151.101 64.143L150.899 63.857L48.899 135.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 138.143L151.101 66.143L150.899 65.857L48.899 137.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 140.143L151.101 68.143L150.899 67.857L48.899 139.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            150
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            151,
+            86
+          ],
+          [
+            49,
+            158
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 161.143L151.101 89.143L150.899 88.857L48.899 160.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 163.143L151.101 91.143L150.899 90.857L48.899 162.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 165.143L151.101 93.143L150.899 92.857L48.899 164.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            175
+          ],
+          [
+            151,
+            103
+          ],
+          [
+            151,
+            111
+          ],
+          [
+            49,
+            183
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 186.143L151.101 114.143L150.899 113.857L48.899 185.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 188.143L151.101 116.143L150.899 115.857L48.899 187.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 190.143L151.101 118.143L150.899 117.857L48.899 189.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            200
+          ],
+          [
+            151,
+            128
+          ],
+          [
+            151,
+            136
+          ],
+          [
+            49,
+            208
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 211.143L151.101 139.143L150.899 138.857L48.899 210.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 213.143L151.101 141.143L150.899 140.857L48.899 212.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 215.143L151.101 143.143L150.899 142.857L48.899 214.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            225
+          ],
+          [
+            151,
+            153
+          ],
+          [
+            151,
+            161
+          ],
+          [
+            49,
+            233
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 236.143L151.101 164.143L150.899 163.857L48.899 235.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 238.143L151.101 166.143L150.899 165.857L48.899 237.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 240.143L151.101 168.143L150.899 167.857L48.899 239.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            250
+          ],
+          [
+            151,
+            178
+          ],
+          [
+            151,
+            186
+          ],
+          [
+            49,
+            258
+          ]
+        ],
+        "fill": "#AD0D17",
+        "clip": "body",
+        "opacity": 0.7
+      },
+      {
+        "type": "path",
+        "d": "M49.101 261.143L151.101 189.143L150.899 188.857L48.899 260.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 263.143L151.101 191.143L150.899 190.857L48.899 262.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "path",
+        "d": "M49.101 265.143L151.101 193.143L150.899 192.857L48.899 264.857Z",
+        "fill": "#D02520",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            39,
+            21
+          ],
+          [
+            74,
+            6
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            161,
+            19
+          ],
+          [
+            170,
+            26
+          ],
+          [
+            171,
+            28
+          ],
+          [
+            161,
+            21
+          ],
+          [
+            126,
+            6
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            6.7
+          ],
+          [
+            39,
+            21.7
+          ],
+          [
+            30,
+            28.7
+          ],
+          [
+            29,
+            30.7
+          ],
+          [
+            39,
+            23.7
+          ],
+          [
+            74,
+            8.7
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            6.7
+          ],
+          [
+            161,
+            21.7
+          ],
+          [
+            170,
+            28.7
+          ],
+          [
+            171,
+            30.7
+          ],
+          [
+            161,
+            23.7
+          ],
+          [
+            126,
+            8.7
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            9.4
+          ],
+          [
+            39,
+            24.4
+          ],
+          [
+            30,
+            31.4
+          ],
+          [
+            29,
+            33.4
+          ],
+          [
+            39,
+            26.4
+          ],
+          [
+            74,
+            11.4
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            9.4
+          ],
+          [
+            161,
+            24.4
+          ],
+          [
+            170,
+            31.4
+          ],
+          [
+            171,
+            33.4
+          ],
+          [
+            161,
+            26.4
+          ],
+          [
+            126,
+            11.4
+          ]
+        ],
+        "fill": "#EFB91A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            193
+          ],
+          [
+            62,
+            195
+          ],
+          [
+            62,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#EDB819",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            193
+          ],
+          [
+            138,
+            195
+          ],
+          [
+            138,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#EDB819",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

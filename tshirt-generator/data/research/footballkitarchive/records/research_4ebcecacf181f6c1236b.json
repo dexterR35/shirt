@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with very pale fine rising diagonal torso lines and black interrupted narrow side bars. White sleeves and collar; tonal print contrast adapted from the independent Away front, with material weave and logos excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_5d38706b86ce583ee203-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Fainplast",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_5d38706b86ce583ee203-away-516793.jpg",
-  "image_sha256": "82abcbebe9575d2fff56125f79bc54a2374a370b912e132702fa6c969325bde5"
+  "image_sha256": "82abcbebe9575d2fff56125f79bc54a2374a370b912e132702fa6c969325bde5",
+  "artwork_revision_path": "data/kits/team_5d38706b86ce583ee203-away-r001.json"
 }

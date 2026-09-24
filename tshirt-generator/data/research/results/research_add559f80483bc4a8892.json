@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
+  "status": "blocked",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,19 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "2026/27 season listing contains Home and GK only; GK cannot substitute for Away."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-romania-source-gap-2026-09-24",
+      "action": "Checked archive season/history in browser after focused web search.",
+      "source_url": "https://www.footballkitarchive.com/politehnica-timisoara-kits-2026-27-t12616/",
+      "observed_entries": [
+        "2026/27 Home",
+        "2026/27 GK"
+      ],
+      "outcome": "2026/27 season listing contains Home and GK only; GK cannot substitute for Away."
+    }
   ]
 }

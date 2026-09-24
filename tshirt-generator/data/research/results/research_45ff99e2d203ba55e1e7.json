@@ -4,8 +4,8 @@
   "team_name": "Benevento",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4f851eefa0099eb88a22-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/benevento-calcio-2026-27-away-kit-500644/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/QzXgrnM5uyQCsX1/benevento-calcio-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f851eefa0099eb88a22-away-500644.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Yellow",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F0EC",
+      "leftSleeve": "#F0F0EC",
+      "rightSleeve": "#F0F0EC",
+      "collar": "#F0F0EC",
+      "leftCuff": "#F0F0EC",
+      "rightCuff": "#F0F0EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with sparse pale-gold irregular polygon edges, concentrated around upper chest and lower torso. Gold line junctions placed individually from the Away source; plain white neck and sleeves.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_4f851eefa0099eb88a22-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_45ff99e2d203ba55e1e7.json",
+    "source_kit_id": "500644"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

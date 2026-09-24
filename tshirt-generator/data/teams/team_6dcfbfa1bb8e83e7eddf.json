@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Nantes",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Yellow",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Synergie",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "June 9, 2026",
+      "release_date_iso": "2026-06-09",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-nantes-2026-27-home-kit-488041/",
+        "kit_id": "488041",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_0d0c3d76b703d5c864c9.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Nantes",
+      "design": "Graphic",
+      "colors": [
+        "Black",
+        "Green",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Synergie",
+      "competitions": [
+        "Ligue 2"
+      ],
+      "release_date": "July 9, 2026",
+      "release_date_iso": "2026-07-09",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-nantes-2026-27-away-kit-494419/",
+        "kit_id": "494419",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-2-kits-2026-27-l178/",
+        "record_path": "data/research/footballkitarchive/records/research_adb399fc9eb08d1b5cfd.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-2-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

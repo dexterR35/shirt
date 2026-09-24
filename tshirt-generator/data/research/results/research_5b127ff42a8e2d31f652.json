@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Red shoulder yoke is too narrow and lacks the observed upper-front extent."
-  ],
-  "kit_revision_path": "data/kits/team_2aa08cfd59b58585577a-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2aa08cfd59b58585577a-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -95,12 +93,19 @@
       "body": "#0577C8",
       "leftSleeve": "#0577C8",
       "rightSleeve": "#0577C8",
-      "collar": "#E73D31",
+      "collar": "#1379BE",
       "leftCuff": "#0577C8",
       "rightCuff": "#0577C8"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with a broad red upper-chest chevron yoke joining the shoulder strips, blue sewn neckline and blue sleeves. The photographed V seam is adapted only as color on the existing round neck; crossed arms obscure the center but visible body remains blue.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_2aa08cfd59b58585577a-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_5b127ff42a8e2d31f652.json",
     "source_kit_id": "503335"
@@ -115,6 +120,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

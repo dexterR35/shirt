@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0518bfa13bdd700191ce",
+  "team_name": "CS Afumați",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-romania-gap-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Yellow body with golden-orange shoulders and sleeves, yellow sleeve ends and existing round neckline. Independent 2026/27 Home match reference checked; no dark folds painted, no sponsor/crest/lettering. Source lists Liga 3, while the preserved workbook Tier 2 identity and membership remain unchanged.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_0518bfa13bdd700191ce-home-511518.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-afumati-2026-27-home-kit-511518/",
+      "sha256": "de99c3c1644410df733756fa25d3fcfc6d444a6ab116a530d6451ec10cafc51a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDD315",
+      "leftSleeve": "#E4AC16",
+      "rightSleeve": "#E4AC16",
+      "collar": "#EBD028",
+      "leftCuff": "#F0D724",
+      "rightCuff": "#F0D724"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EBD028",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDD315",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            11
+          ],
+          [
+            49,
+            26
+          ],
+          [
+            42,
+            39
+          ],
+          [
+            36,
+            27
+          ]
+        ],
+        "fill": "#E9B318",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            11
+          ],
+          [
+            151,
+            26
+          ],
+          [
+            158,
+            39
+          ],
+          [
+            164,
+            27
+          ]
+        ],
+        "fill": "#E9B318",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#F0D724",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#F0D724",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

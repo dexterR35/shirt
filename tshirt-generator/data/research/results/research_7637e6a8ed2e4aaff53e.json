@@ -4,8 +4,8 @@
   "team_name": "Hellas Verona",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2ce62d3228552449705e-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hellas-verona-2026-27-away-kit-498510/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/BnWjMWHiEekEM0t/hellas-verona-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2ce62d3228552449705e-away-498510.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#F3CF15",
+      "leftSleeve": "#F3CF15",
+      "rightSleeve": "#F3CF15",
+      "collar": "#123F67",
+      "leftCuff": "#123F67",
+      "rightCuff": "#123F67"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with faint tonal street-map contours across the front, solid yellow sleeves, navy/yellow layered collar and cuff bands. The full front map is converted to discrete lines; logo-obscured sections reconstructed from adjacent clean map, so exact hidden street alignment is not claimed.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_2ce62d3228552449705e-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7637e6a8ed2e4aaff53e.json",
+    "source_kit_id": "498510"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

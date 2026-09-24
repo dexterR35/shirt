@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Source fan print scale and placement differ substantially; redraw the asymmetric angular field."
-  ],
-  "kit_revision_path": "data/kits/team_6e81df359cdf64c36c30-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6e81df359cdf64c36c30-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -92,7 +90,7 @@
       "White"
     ],
     "values": {
-      "body": "#578D61",
+      "body": "#EFF0E8",
       "leftSleeve": "#568B5C",
       "rightSleeve": "#568B5C",
       "collar": "#EEF0E7",
@@ -100,7 +98,14 @@
       "rightCuff": "#E9ECE4"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White front with green asymmetric fan, angular ribbons and fine converging triangular lines mapped from the full source front. Solid green sleeves, white cuffs and round collar. Crest and brand removed with small manually continued neighboring graphic sections; no repeated lower-front crop.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_6e81df359cdf64c36c30-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_7b4ae9d7dc61a5bf886d.json",
     "source_kit_id": "502369"
@@ -110,6 +115,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

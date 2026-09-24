@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fdb36cc3aaf890bf4767",
+  "team_name": "Annecy",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White body and sleeves, red neckline and three burgundy shoulder ribbons. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fdb36cc3aaf890bf4767-away-517531.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-annecy-2026-27-away-kit-517531/",
+      "sha256": "211e290c88409b72f5ccbc864ce6bc794dda7a459519e5f278ef4d3e5c2047b1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0EFF0",
+      "leftSleeve": "#F0EFF0",
+      "rightSleeve": "#F0EFF0",
+      "collar": "#C32431",
+      "leftCuff": "#F0EFF0",
+      "rightCuff": "#F0EFF0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C32431",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0EFF0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            39,
+            21
+          ],
+          [
+            74,
+            6
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            161,
+            19
+          ],
+          [
+            170,
+            26
+          ],
+          [
+            171,
+            28
+          ],
+          [
+            161,
+            21
+          ],
+          [
+            126,
+            6
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            6.7
+          ],
+          [
+            39,
+            21.7
+          ],
+          [
+            30,
+            28.7
+          ],
+          [
+            29,
+            30.7
+          ],
+          [
+            39,
+            23.7
+          ],
+          [
+            74,
+            8.7
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            6.7
+          ],
+          [
+            161,
+            21.7
+          ],
+          [
+            170,
+            28.7
+          ],
+          [
+            171,
+            30.7
+          ],
+          [
+            161,
+            23.7
+          ],
+          [
+            126,
+            8.7
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            9.4
+          ],
+          [
+            39,
+            24.4
+          ],
+          [
+            30,
+            31.4
+          ],
+          [
+            29,
+            33.4
+          ],
+          [
+            39,
+            26.4
+          ],
+          [
+            74,
+            11.4
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            9.4
+          ],
+          [
+            161,
+            24.4
+          ],
+          [
+            170,
+            31.4
+          ],
+          [
+            171,
+            33.4
+          ],
+          [
+            161,
+            26.4
+          ],
+          [
+            126,
+            11.4
+          ]
+        ],
+        "fill": "#64212D",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Padova",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e131d0e12bde28f78a66-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/calcio-padova-2026-27-away-kit-496741/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/MHVg1DGW1feKaMj/calcio-padova-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e131d0e12bde28f78a66-away-496741.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D91528",
+      "leftSleeve": "#F0EFEB",
+      "rightSleeve": "#F0EFEB",
+      "collar": "#EEECE6",
+      "leftCuff": "#EEEDE8",
+      "rightCuff": "#EEEDE8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body with tonal red checker field, white sleeves and neckline, red triangular teeth along white cuff bands. Small repeated animal/club motifs inside source checks omitted under the no-emblems rule; checker size and cuff teeth adapted from front.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_e131d0e12bde28f78a66-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_95b33fde281e72a24c5f.json",
+    "source_kit_id": "496741"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

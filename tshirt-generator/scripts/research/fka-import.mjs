@@ -19,7 +19,8 @@ export function matchTeam(name,country,teams){
   return matches.length===1?matches[0]:null;
 }
 export function parseCapture(tsv){
-  const [header,...lines]=tsv.trim().split(/\r?\n/),keys=header.split('\t');
+  // A trailing tab represents an explicitly missing field, not whitespace to trim.
+  const [header,...lines]=tsv.replace(/^\uFEFF/,'').replace(/[\r\n]+$/,'').split(/\r?\n/),keys=header.split('\t');
   return lines.map(line=>{
     const values=line.split('\t');if(values.length!==keys.length)throw Error('Malformed capture row');
     const r=Object.fromEntries(keys.map((k,i)=>[k,values[i]]));
@@ -60,6 +61,7 @@ export async function importCaptures({download=false}={}){
       if(season!==task.candidate_kit_season&&!permittedSeason(team.id,variant,season,requested)){unmatched.push({name:r.team,kit_id:r.kit_id,reason:'season_requires_review',season,expected:requested});continue;}
       const record={schemaVersion:1,task_id:task.id,team_id:team.id,team_name:team.name,country_name:team.country_name,variant,kit_season:season,source:'Football Kit Archive',source_team_name:r.team,source_season_label:r.season,source_design:r.design,source_color_names:r.colors.split(' / '),brand:r.brand,source_kit_id:r.kit_id,page_url:`https://www.footballkitarchive.com/${r.kit_slug}-kit-${r.kit_id}/`,image_url:`https://www.footballkitarchive.com/cdn/${r.image_path}`,listing_url:capture.listing_url,checked_at:capture.captured_at,capture_path:`${ROOT}/captures/${capture.capture_file}`,status:'metadata_collected',visual_review:null,official_hex:false};
       const recordPath=`${ROOT}/records/${task.id}.json`;
+      if(r.source_variant_label)record.source_variant_label=r.source_variant_label;
       if(Object.hasOwn(r,'sponsor'))record.equipment_fields={sponsor:r.sponsor||null,competitions:r.competitions?r.competitions.split(' | '):[],release_date:r.release_date||null,capture_path:record.capture_path,checked_at:capture.captured_at};
       try{const old=await read(recordPath);if(old.page_url===record.page_url){for(const key of ['local_reference_path','image_sha256','visual_review','status','artwork_revision_path','download_error'])if(old[key]!==undefined)record[key]=old[key];}}catch(e){if(e.code!=='ENOENT')throw e;}
       const local=`data/research/references/footballkitarchive/${team.id}-${variant}-${r.kit_id}.jpg`;

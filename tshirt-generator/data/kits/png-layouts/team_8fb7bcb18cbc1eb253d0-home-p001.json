@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8fb7bcb18cbc1eb253d0",
+  "team_name": "Palermo",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-italy-complete-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Pink with asymmetric salmon and black rising diagonal brush/zigzag slashes, manually placed from the Home front. Pink sleeves, black cuffs and existing round collar; sponsors, crest and all Puma marks removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8fb7bcb18cbc1eb253d0-home-491712.jpg",
+      "page_url": "https://www.footballkitarchive.com/palermo-fc-2026-27-home-kit-491712/",
+      "sha256": "2f10c91a499cef6026503418bb48694d88209b502f454212a4adc98e4827956d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EAA1A7",
+      "leftSleeve": "#EAA1A7",
+      "rightSleeve": "#EAA1A7",
+      "collar": "#252322",
+      "leftCuff": "#242221",
+      "rightCuff": "#242221"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#252322",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EAA1A7",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            47
+          ],
+          [
+            78,
+            23
+          ],
+          [
+            54,
+            64
+          ]
+        ],
+        "fill": "#D87883",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            48
+          ],
+          [
+            148,
+            5
+          ],
+          [
+            141,
+            19
+          ],
+          [
+            99,
+            74
+          ],
+          [
+            151,
+            66
+          ],
+          [
+            151,
+            73
+          ],
+          [
+            84,
+            87
+          ],
+          [
+            96,
+            69
+          ]
+        ],
+        "fill": "#D87883",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            151
+          ],
+          [
+            101,
+            132
+          ],
+          [
+            64,
+            147
+          ],
+          [
+            49,
+            165
+          ]
+        ],
+        "fill": "#D87883",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            200
+          ],
+          [
+            119,
+            142
+          ],
+          [
+            126,
+            157
+          ],
+          [
+            152,
+            107
+          ],
+          [
+            151,
+            142
+          ],
+          [
+            127,
+            185
+          ],
+          [
+            120,
+            177
+          ],
+          [
+            97,
+            200
+          ]
+        ],
+        "fill": "#D87883",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            106
+          ],
+          [
+            61,
+            98
+          ],
+          [
+            49,
+            114
+          ]
+        ],
+        "fill": "#D87883",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            45
+          ],
+          [
+            77,
+            27
+          ],
+          [
+            71,
+            36
+          ],
+          [
+            49,
+            67
+          ]
+        ],
+        "fill": "#2B2525",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            59
+          ],
+          [
+            150,
+            9
+          ],
+          [
+            114,
+            37
+          ],
+          [
+            91,
+            45
+          ]
+        ],
+        "fill": "#2B2525",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            200
+          ],
+          [
+            119,
+            172
+          ],
+          [
+            116,
+            186
+          ],
+          [
+            150,
+            149
+          ],
+          [
+            151,
+            168
+          ],
+          [
+            120,
+            200
+          ]
+        ],
+        "fill": "#2B2525",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.086 39.235L67.75 32L48.828 49.819L49.172 50.181L68.25 32L48.914 38.765Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.145 63.204L146.145 12.204L145.855 11.796L73.855 62.796Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.071 147.24L93.071 134.24L92.929 133.76L48.929 146.76Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49.061 150.243L89.061 140.243L88.939 139.757L48.939 149.757Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M87.197 193.154L120.142 151.206L125.768 166.093L126.232 165.907L119.858 150.794L86.803 192.846Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M92.196 193.155L119.143 159.205L124.781 170.12L125.219 169.88L118.857 158.795L91.804 192.845Z",
+        "fill": "#EFBDC0",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#242221",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#242221",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

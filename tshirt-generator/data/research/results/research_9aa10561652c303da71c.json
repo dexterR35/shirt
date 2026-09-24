@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Clustered short strokes remain too regular and sparse; refine the source placement and cuff pattern."
-  ],
-  "kit_revision_path": "data/kits/team_82410eb3856dfaa7f451-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_82410eb3856dfaa7f451-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -72,7 +70,14 @@
       "rightCuff": "#243D80"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with dense uneven clusters of thin blue vertical strokes and short cross-strokes at the left shoulder and right lower front; matching fragmented blue sleeve-end print. Match-photo perspective limits exact stroke positions; cluster placement and scale corrected.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_82410eb3856dfaa7f451-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_9aa10561652c303da71c.json",
     "source_kit_id": "507576"
@@ -82,6 +87,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

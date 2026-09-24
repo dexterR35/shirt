@@ -5,7 +5,7 @@
   "country_name": "England",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Fine geometric white-on-white print is too grainy in the current tracing."
-  ],
-  "kit_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#367E9A"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with very faint large angular outline and curving motifs observed in the independent Away front, replacing grainy fabric tracing. Fine claret/blue-grey neckline and cuff edges retained; dotted material weave stays with the original fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_7fca5e06b88f9fac0adb-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_2c3d51d21447b4cc9a22.json",
     "source_kit_id": "494284"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-england-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

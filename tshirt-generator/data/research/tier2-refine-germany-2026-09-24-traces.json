@@ -1,0 +1,206 @@
+{
+  "batch": "tier2-refine-germany-2026-09-24",
+  "traces": [
+    {
+      "key": "1. FC Nürnberg:home",
+      "reference": "data/research/references/footballkitarchive/team_d518a6470c5f6c850188-home-482650.jpg",
+      "source_sha256": "cd4d3fc6bc1c18e74d84e5b00271051df2a72cae837d1f369301dea0f4accf82",
+      "spec": {
+        "box": [
+          330,
+          240,
+          650,
+          1220
+        ],
+        "width": 600,
+        "mode": "dark",
+        "threshold": 3,
+        "blur": 9,
+        "smooth": 0.7,
+        "repairs": [
+          {
+            "target": [
+              380,
+              350,
+              150,
+              115
+            ],
+            "source": [
+              410,
+              930,
+              150,
+              115
+            ]
+          },
+          {
+            "target": [
+              795,
+              340,
+              140,
+              145
+            ],
+            "source": [
+              740,
+              1110,
+              140,
+              145
+            ]
+          },
+          {
+            "target": [
+              380,
+              520,
+              580,
+              145
+            ],
+            "source": [
+              360,
+              940,
+              580,
+              145
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 9,
+        "width": 102,
+        "height": 191,
+        "color": "#711F30"
+      },
+      "ink_pixels": 332746,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "1. FC Nürnberg:home",
+      "reference": "data/research/references/footballkitarchive/team_d518a6470c5f6c850188-home-482650.jpg",
+      "source_sha256": "cd4d3fc6bc1c18e74d84e5b00271051df2a72cae837d1f369301dea0f4accf82",
+      "spec": {
+        "box": [
+          120,
+          350,
+          190,
+          260
+        ],
+        "width": 250,
+        "mode": "dark",
+        "threshold": 4,
+        "blur": 8
+      },
+      "placement": {
+        "x": 0,
+        "y": 23,
+        "width": 49,
+        "height": 62,
+        "color": "#711F30",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 37363,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "1. FC Nürnberg:home",
+      "reference": "data/research/references/footballkitarchive/team_d518a6470c5f6c850188-home-482650.jpg",
+      "source_sha256": "cd4d3fc6bc1c18e74d84e5b00271051df2a72cae837d1f369301dea0f4accf82",
+      "spec": {
+        "box": [
+          120,
+          350,
+          190,
+          260
+        ],
+        "width": 250,
+        "mode": "dark",
+        "threshold": 4,
+        "blur": 8
+      },
+      "placement": {
+        "x": 151,
+        "y": 23,
+        "width": 49,
+        "height": 62,
+        "color": "#711F30",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 37363,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "FC St. Pauli:away",
+      "reference": "data/research/references/footballkitarchive/team_a8d4565d5cc52227731c-away-488458.jpg",
+      "source_sha256": "2a52e806f375405c3bbe9b0fad16d01a9f534cfa3f5567754c974736354f382f",
+      "spec": {
+        "box": [
+          293,
+          170,
+          520,
+          835
+        ],
+        "width": 520,
+        "mode": "inverse",
+        "threshold": 145,
+        "smooth": 0.7,
+        "exclude": [
+          [
+            370,
+            315,
+            105,
+            80
+          ],
+          [
+            302,
+            904,
+            52,
+            54
+          ],
+          [
+            770,
+            919,
+            43,
+            86
+          ]
+        ],
+        "repairs": [
+          {
+            "target": [
+              407,
+              460,
+              288,
+              95
+            ],
+            "source": [
+              300,
+              553,
+              288,
+              95
+            ]
+          },
+          {
+            "target": [
+              645,
+              303,
+              88,
+              93
+            ],
+            "source": [
+              695,
+              221,
+              88,
+              93
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 8,
+        "width": 102,
+        "height": 192,
+        "color": "#48362D"
+      },
+      "ink_pixels": 98649,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

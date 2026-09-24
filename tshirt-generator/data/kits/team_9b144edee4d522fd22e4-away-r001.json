@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9b144edee4d522fd22e4",
+  "team_name": "Vicenza",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-complete-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/lr-vicenza-2026-27-away-kit-506850/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/11/GrksYZh9Zko2o5Y/lr-vicenza-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9b144edee4d522fd22e4-away-506850.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#3B3C42",
+      "leftSleeve": "#232629",
+      "rightSleeve": "#232629",
+      "collar": "#252728",
+      "leftCuff": "#232629",
+      "rightCuff": "#232629"
+    }
+  },
+  "observations": "Charcoal front and black sleeves with asymmetric white left/red right curved raglan bands and red neckline edge. The large repeated LR monogram and shoulder manufacturer chevrons are branding and deliberately omitted; independent Away source retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal front and black sleeves with asymmetric white left/red right curved raglan bands and red neckline edge. The large repeated LR monogram and shoulder manufacturer chevrons are branding and deliberately omitted; independent Away source retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_9b144edee4d522fd22e4-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#3B3C42",
+      "leftSleeve": "#232629",
+      "rightSleeve": "#232629",
+      "collar": "#252728",
+      "leftCuff": "#232629",
+      "rightCuff": "#232629"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#252728",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.6 2.6L77 2Q100 7 123 2L124.4 2.6C128 25.6 72 25.6 75.6 2.6Z",
+          "fill": "#C7333C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#3B3C42",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            59,
+            27
+          ],
+          [
+            50,
+            47
+          ],
+          [
+            48,
+            78
+          ],
+          [
+            41,
+            80
+          ],
+          [
+            43,
+            46
+          ],
+          [
+            50,
+            24
+          ]
+        ],
+        "fill": "#EBECE8",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            141,
+            27
+          ],
+          [
+            150,
+            47
+          ],
+          [
+            152,
+            78
+          ],
+          [
+            159,
+            80
+          ],
+          [
+            157,
+            46
+          ],
+          [
+            150,
+            24
+          ]
+        ],
+        "fill": "#CC3039",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

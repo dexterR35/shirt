@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Tonal triangular linework is fragmented; redraw the continuous geometry."
-  ],
-  "kit_revision_path": "data/kits/team_ed857b3e2d1c20f838ec-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ed857b3e2d1c20f838ec-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#EEEFEA"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with fine straight parallel lines clipped into irregular triangular facets across the front. The observed changing line direction replaces the broken grain trace; solid blue sleeves, white collar and cuffs with fine dark edging. Tessellation adapted to the common fabric shape.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-germany-2026-09-24/team_ed857b3e2d1c20f838ec-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_919920375ee3e9122770.json",
     "source_kit_id": "492310"
@@ -110,6 +115,11 @@
       "date": "2026-09-24",
       "batch": "tier2-germany-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

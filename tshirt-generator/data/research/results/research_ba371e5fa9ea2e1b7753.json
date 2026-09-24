@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Scratch print is much too large/coarse; reconstruct thin irregular strokes."
-  ],
-  "kit_revision_path": "data/kits/team_64b1cf271c4accb18fe7-home-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_64b1cf271c4accb18fe7-home-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#D33335"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with darker red scattered fine angular scratch strokes across front and sleeves, replacing oversized traced blobs. Independent source establishes color, density and diagonal direction; exact print behind crossed arms is adapted. Matching sewn collar and sleeves; no copied grain or shadow.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_64b1cf271c4accb18fe7-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_ba371e5fa9ea2e1b7753.json",
     "source_kit_id": "503442"
@@ -111,6 +116,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

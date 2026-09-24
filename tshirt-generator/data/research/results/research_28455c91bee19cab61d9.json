@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Upper dark yoke must extend fully to shoulders, and stripe count/width need a closer source check."
-  ],
-  "kit_revision_path": "data/kits/team_0375eaedc652312f9c40-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0375eaedc652312f9c40-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -72,7 +70,14 @@
       "rightCuff": "#202630"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black upper yoke and sleeves transitioning into a red torso with five narrow dark lower-front stripes. Large stylized club animal and lettering omitted; source match folds and exact gradient transition adapted to shared fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-romania-2026-09-24/team_0375eaedc652312f9c40-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_28455c91bee19cab61d9.json",
     "source_kit_id": "507572"
@@ -87,6 +92,11 @@
       "date": "2026-09-24",
       "batch": "tier2-romania-2026-09-24",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-refine-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

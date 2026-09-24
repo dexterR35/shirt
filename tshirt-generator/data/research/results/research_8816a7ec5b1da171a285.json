@@ -4,8 +4,8 @@
   "team_name": "Südtirol",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_72bc1011455559c1b1fd-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-sudtirol-2026-27-away-kit-504753/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/09/KsVq6EgFEAQxut9/fc-sudtirol-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_72bc1011455559c1b1fd-away-504753.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray",
+      "White"
+    ],
+    "values": {
+      "body": "#242526",
+      "leftSleeve": "#242526",
+      "rightSleeve": "#242526",
+      "collar": "#252728",
+      "leftCuff": "#242526",
+      "rightCuff": "#242526"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with faint grey road-map contours across the front, dark sleeves and neckline with tiny white/red center tab. Map ink separated locally from fabric; obscured sponsor regions reconstructed using clean lower map contours. No lettering, stars or club symbols retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_72bc1011455559c1b1fd-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8816a7ec5b1da171a285.json",
+    "source_kit_id": "504753"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-complete-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

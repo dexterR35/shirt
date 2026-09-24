@@ -1,0 +1,61 @@
+{
+  "batch": "tier2-refine-romania-2026-09-24",
+  "traces": [
+    {
+      "key": "Concordia Chiajna:home",
+      "reference": "data/research/references/footballkitarchive/team_6e81df359cdf64c36c30-home-502369.jpg",
+      "source_sha256": "8350b50885bb84453d4d057a0a7bffe2a1af381e6e5358394cb2729922c19be7",
+      "spec": {
+        "box": [
+          181,
+          104,
+          346,
+          674
+        ],
+        "width": 500,
+        "mode": "green",
+        "threshold": 12,
+        "smooth": 0.5,
+        "repairs": [
+          {
+            "target": [
+              215,
+              186,
+              104,
+              66
+            ],
+            "source": [
+              210,
+              330,
+              104,
+              66
+            ]
+          },
+          {
+            "target": [
+              400,
+              182,
+              91,
+              86
+            ],
+            "source": [
+              405,
+              410,
+              91,
+              86
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 4,
+        "width": 102,
+        "height": 195,
+        "color": "#5A9666"
+      },
+      "ink_pixels": 285995,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

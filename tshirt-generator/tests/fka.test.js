@@ -6,6 +6,16 @@ import crypto from 'node:crypto';
 import {parseKitHtml} from '../scripts/research/fka-scrape.mjs';
 import {permittedSeason} from '../scripts/research/season-policy.mjs';
 
+test('archive capture preserves empty final equipment fields on the last row',()=>{
+  const header='team\tvariant\tkit_id\tkit_slug\timage_path\tsponsor\trelease_date';
+  const row='Example\tHome\t123\texample-home\t2026/09/24/abc/example-home.jpg\t\t';
+  for(const newline of ['\n','\r\n']){
+    const [r]=parseCapture(header+newline+row+newline);
+    assert.equal(r.sponsor,'');assert.equal(r.release_date,'');
+  }
+  assert.throws(()=>parseCapture(header+'\n'+row.slice(0,-1)),/Malformed/);
+});
+
 test('archive identity matching preserves country, reserve identity and ambiguous names',()=>{
   const teams=[{id:'a',name:'Arsenal',country_name:'England'},{id:'b',name:'Arsenal',country_name:'Argentina'},{id:'c',name:'Arsenal II',country_name:'England'}];
   assert.equal(matchTeam('Arsenal FC','England',teams).id,'a');

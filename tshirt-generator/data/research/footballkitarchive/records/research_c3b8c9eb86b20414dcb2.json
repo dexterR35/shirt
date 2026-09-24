@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Golden-yellow shirt with pale cream flowing woodgrain-like vertical/diagonal ink mapped from full Away front, red cuffs and fine red neck edge. Separate color-channel ink mask excludes red sponsors; crest and lower label omitted. Yellow sleeves retain original fabric.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_ad4778df119a4521bb51-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Coop",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_ad4778df119a4521bb51-away-511216.jpg",
-  "image_sha256": "c6cf7a43425124bc12f81da023da56d916700cfe79abfb03c9f49e40a8f6c7c8"
+  "image_sha256": "c6cf7a43425124bc12f81da023da56d916700cfe79abfb03c9f49e40a8f6c7c8",
+  "artwork_revision_path": "data/kits/team_ad4778df119a4521bb51-away-r001.json"
 }

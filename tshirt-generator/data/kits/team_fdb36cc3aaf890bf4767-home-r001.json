@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fdb36cc3aaf890bf4767",
+  "team_name": "Annecy",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-annecy-2026-27-home-kit-503261/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/eQsPwHWFqGsBq7S/fc-annecy-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fdb36cc3aaf890bf4767-home-503261.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#C21C25",
+      "leftSleeve": "#C21C25",
+      "rightSleeve": "#C21C25",
+      "collar": "#841923",
+      "leftCuff": "#C21C25",
+      "rightCuff": "#C21C25"
+    }
+  },
+  "observations": "Red body and sleeves with fine burgundy vertical torso pinstripes, burgundy collar and three narrow shoulder ribbons. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body and sleeves with fine burgundy vertical torso pinstripes, burgundy collar and three narrow shoulder ribbons. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_fdb36cc3aaf890bf4767-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#C21C25",
+      "leftSleeve": "#C21C25",
+      "rightSleeve": "#C21C25",
+      "collar": "#841923",
+      "leftCuff": "#C21C25",
+      "rightCuff": "#C21C25"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#841923",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#C21C25",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 68,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 80,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 128,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#8D2530",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            39,
+            21
+          ],
+          [
+            74,
+            6
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            161,
+            19
+          ],
+          [
+            170,
+            26
+          ],
+          [
+            171,
+            28
+          ],
+          [
+            161,
+            21
+          ],
+          [
+            126,
+            6
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            6.7
+          ],
+          [
+            39,
+            21.7
+          ],
+          [
+            30,
+            28.7
+          ],
+          [
+            29,
+            30.7
+          ],
+          [
+            39,
+            23.7
+          ],
+          [
+            74,
+            8.7
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            6.7
+          ],
+          [
+            161,
+            21.7
+          ],
+          [
+            170,
+            28.7
+          ],
+          [
+            171,
+            30.7
+          ],
+          [
+            161,
+            23.7
+          ],
+          [
+            126,
+            8.7
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            9.4
+          ],
+          [
+            39,
+            24.4
+          ],
+          [
+            30,
+            31.4
+          ],
+          [
+            29,
+            33.4
+          ],
+          [
+            39,
+            26.4
+          ],
+          [
+            74,
+            11.4
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            9.4
+          ],
+          [
+            161,
+            24.4
+          ],
+          [
+            170,
+            31.4
+          ],
+          [
+            171,
+            33.4
+          ],
+          [
+            161,
+            26.4
+          ],
+          [
+            126,
+            11.4
+          ]
+        ],
+        "fill": "#641920",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

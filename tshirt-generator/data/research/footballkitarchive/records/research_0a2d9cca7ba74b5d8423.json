@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with two asymmetric broad red angular lower-front ribbons and a red left-sleeve wedge; right sleeve remains white. Fine tonal red marks inside lower-left red area simplified, white collar/cuffs. Source asymmetry retained, logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-complete-2026-09-24/team_72bc1011455559c1b1fd-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "IDM Südtirol",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_72bc1011455559c1b1fd-home-498512.jpg",
-  "image_sha256": "dfab426f6c5133b697cf2a4dcc6177b018b38d83607e886a4520387890a91339"
+  "image_sha256": "dfab426f6c5133b697cf2a4dcc6177b018b38d83607e886a4520387890a91339",
+  "artwork_revision_path": "data/kits/team_72bc1011455559c1b1fd-home-r001.json"
 }

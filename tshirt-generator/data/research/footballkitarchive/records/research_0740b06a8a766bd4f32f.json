@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with extremely faint curving tonal lines, claret round-neck/cuff color bands and thin red edging. Granular over-contrasted tracing replaced by low-contrast smooth contours observed on the lower front; fabric comes only from PNG.",
+    "render_path": "artifacts/footballkitarchive/tier2-refine-england-2026-09-24/team_f16a85c178e3bb4ddcff-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "RSK",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_f16a85c178e3bb4ddcff-away-500181.jpg",
-  "image_sha256": "bdb38689e6aa34ea4c5e5443d6113e6ae17a66ac4be7bd222a8e590a68ba2486"
+  "image_sha256": "bdb38689e6aa34ea4c5e5443d6113e6ae17a66ac4be7bd222a8e590a68ba2486",
+  "artwork_revision_path": "data/kits/team_f16a85c178e3bb4ddcff-away-r002.json"
 }

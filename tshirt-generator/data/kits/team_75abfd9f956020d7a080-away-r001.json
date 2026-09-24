@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_75abfd9f956020d7a080",
+  "team_name": "Dunkerque",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/usl-dunkerque-2026-27-away-kit-515146/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/ZW46PjcaQM4ib5X/usl-dunkerque-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_75abfd9f956020d7a080-away-515146.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret"
+    ],
+    "values": {
+      "body": "#E6E3D9",
+      "leftSleeve": "#E6E3D9",
+      "rightSleeve": "#E6E3D9",
+      "collar": "#8E283A",
+      "leftCuff": "#E6E3D9",
+      "rightCuff": "#E6E3D9"
+    }
+  },
+  "observations": "Warm ivory with fine grey vertical torso pinstripes and burgundy shoulder inserts/collar. Hummel shoulder chevrons omitted as branding; ivory cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with fine grey vertical torso pinstripes and burgundy shoulder inserts/collar. Hummel shoulder chevrons omitted as branding; ivory cuffs. Colors are visually estimated from the saved front. Existing PNG neckline only; logos, sponsors and lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-france-2026-09-24/team_75abfd9f956020d7a080-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E6E3D9",
+      "leftSleeve": "#E6E3D9",
+      "rightSleeve": "#E6E3D9",
+      "collar": "#8E283A",
+      "leftCuff": "#E6E3D9",
+      "rightCuff": "#E6E3D9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#8E283A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E6E3D9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 50.45,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 51.900000000000006,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 53.35000000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 54.80000000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 56.250000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 57.70000000000002,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 59.15000000000002,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 60.60000000000002,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 62.050000000000026,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 63.50000000000003,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 64.95000000000003,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 66.40000000000003,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 67.85000000000004,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 69.30000000000004,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 70.75000000000004,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 72.20000000000005,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 73.65000000000005,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 75.10000000000005,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 76.55000000000005,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 78.00000000000006,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 79.45000000000006,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 80.90000000000006,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 82.35000000000007,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 83.80000000000007,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 85.25000000000007,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 86.70000000000007,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 88.15000000000008,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 89.60000000000008,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 91.05000000000008,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 92.50000000000009,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 93.95000000000009,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 95.40000000000009,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 96.8500000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 98.3000000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 99.7500000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 101.2000000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 102.6500000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 104.10000000000011,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 105.55000000000011,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 107.00000000000011,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 108.45000000000012,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 109.90000000000012,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 111.35000000000012,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 112.80000000000013,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 114.25000000000013,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 115.70000000000013,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 117.15000000000013,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 118.60000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 120.05000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 121.50000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 122.95000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 124.40000000000015,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 125.85000000000015,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 127.30000000000015,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 128.75000000000014,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 130.20000000000013,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 131.65000000000012,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 133.1000000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 134.5500000000001,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 136.00000000000009,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 137.45000000000007,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 138.90000000000006,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 140.35000000000005,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 141.80000000000004,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 143.25000000000003,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 144.70000000000002,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 146.15,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 147.6,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 149.04999999999998,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 150.49999999999997,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#BBBDB5",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            0
+          ],
+          [
+            57,
+            5
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            30,
+            29
+          ],
+          [
+            59,
+            17
+          ],
+          [
+            78,
+            9
+          ]
+        ],
+        "fill": "#982F40",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            0
+          ],
+          [
+            143,
+            5
+          ],
+          [
+            165,
+            17
+          ],
+          [
+            170,
+            29
+          ],
+          [
+            141,
+            17
+          ],
+          [
+            122,
+            9
+          ]
+        ],
+        "fill": "#982F40",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}
