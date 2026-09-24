@@ -1,4 +1,4 @@
-# Catalog continuation — 23 September 2026
+# Catalog continuation - 23 September 2026
 
 The continuation began with 27 ready variants and 1,443 unfinished slots. It adds **138 ready variants**, reaching **165 ready / 1,470 total**. **1,305 slots remain unfinished: 30 drafts and 1,275 still in research.** This is a saved checkpoint, not completion of the requested 1,443 variants.
 

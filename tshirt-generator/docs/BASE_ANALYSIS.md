@@ -1,4 +1,4 @@
-# Current replacement PNG — 23 September 2026
+# Current replacement PNG - 23 September 2026
 
 ## Current approved approach: original PNG plus editable paint
 
@@ -34,7 +34,7 @@ Run `npm run base:analyze` then `npm run catalog:build`. The deliverable is `sta
 
 The new renderer surface is `replacement-base-vector-3`, with template `replacement-front-3`. Historical `reference-front-2` configurations and surfaces remain supported so every saved kit revision reproduces its existing bytes. This base change does not migrate approved team revisions or claim additional researched kits.
 
-## Historical original PNG analysis — 22 September 2026
+## Historical original PNG analysis - 22 September 2026
 
 The following records the superseded 200 × 200 base, retained for historical kit reproduction. The user removed its two starter PNG copies; `references/reference-highlight.png` and generated legacy vector data remain. Run `npm run base:analyze:legacy` to inspect that archived reference.
 
@@ -50,7 +50,7 @@ All three SHA-256 values are `f34b3ea5e8ddc215e3639f497bb09554a515abb0dc6f7f24ba
 
 There are 20,358 pixels with nonzero alpha, 68 distinct nonzero alpha values, and alpha ranges from 1 to 69 out of 255. Every visible RGB value is white. Visible bounds are x=18…180, y=2…198. The file contains the lighting and its negative-space folds; it contains no garment paint color and no separate black shadow layer.
 
-## Quality correction — current display/export surface
+## Quality correction - current display/export surface
 
 The initial pixel-faithful `original-png-vector-1` surface preserved the 200-pixel grid and produced visibly stepped edges when enlarged. That implementation was unsuitable for the requested scalable artwork. The current `original-png-smooth-2` surface restores the supplied reference-front-2 Bézier outline, keeps the same proportions/placement and interpolates the original sampled light map with a 0.55-source-unit SVG Gaussian filter. The outline stays sharp; only lighting is interpolated. No PNG is embedded. The raw light map remains unchanged for reproducibility.
 

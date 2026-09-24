@@ -1,4 +1,4 @@
-# Mandatory teams — 24 September 2026
+# Mandatory teams - 24 September 2026
 
 The user's new workbook contains **138 teams**, all already present under their original canonical IDs. Every row is mandatory, independent of competition. The original 735-team catalog remains intact. Source: `data/source/teams_tier-1_by-tier.xlsx`, sheet `Teams by tier`, A2:F139; SHA-256 `f4efdb011e765bdb0391f336a55703866d5d1091b3435b11e60c271f330d598e`.
 

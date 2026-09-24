@@ -1,4 +1,4 @@
-# Tier 1 ornamental Away shirts — 24 September 2026
+# Tier 1 ornamental Away shirts - 24 September 2026
 
 Three source-backed drafts received separate revisions. **Milan Away r004/p004** and **Venezia Away r003/p003** are now available. **Lorient Away r003/p003** remains a draft. Earlier revisions and the original 8000 × 5000 PNG are preserved.
 

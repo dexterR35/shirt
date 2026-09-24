@@ -1,4 +1,4 @@
-# Tier 1 artwork continuation — 23 September 2026
+# Tier 1 artwork continuation - 23 September 2026
 
 Twenty exact-season variants received new source-specific drawing revisions and PNG/source comparison sheets. Thirteen passed this review, moving mandatory coverage from 165 to **178 / 276 ready**. Seven drawings remain drafts. This is a visual adaptation review by Codex, not human approval or a claim of photographic reproduction. Estimated HEX colors remain distinct from source color names.
 

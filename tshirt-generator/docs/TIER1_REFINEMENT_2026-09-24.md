@@ -1,4 +1,4 @@
-# Tier 1 refinement — 24 September 2026
+# Tier 1 refinement - 24 September 2026
 
 Four existing 2026/27 drafts received separate r003/p003 revisions. Two are now selectable: **Union Berlin Home** and **Toulouse Away**. The other two remain drafts. No earlier revision, original PNG or pulled application behavior was overwritten.
 

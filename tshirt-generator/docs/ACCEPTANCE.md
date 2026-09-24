@@ -1,4 +1,4 @@
-# Criterii de acceptare — T-shirt Generator
+# Criterii de acceptare - T-shirt Generator
 
 > Actualizare cerută de utilizator, 23 septembrie 2026: preview-ul folosește PNG-ul original 8000 × 5000, cu forme SVG editabile doar pentru culori și modele. Detaliile țesăturii și transparența vin din PNG, fără trasare sau blur suplimentar. Dimensiunile și formatele de descărcare se vor implementa ulterior. Criteriile istorice SVG-only/download de mai jos sunt amânate unde contrazic această cerință. Configurațiile de echipe adaptate pe noua bază necesită review separat.
 

@@ -1,4 +1,4 @@
-# Validation — 24 September 2026
+# Validation - 24 September 2026
 
 ## Latest: complete Tier 1 with explicit season fallbacks
 
@@ -93,7 +93,7 @@ The checks below record the historical implementation.
 | Check | Result |
 | --- | --- |
 | Production build, React 19.3 / Vite 8.3 | PASS |
-| Original lighting vector/native PNG alpha equality | PASS — 0 differing pixels |
+| Original lighting vector/native PNG alpha equality | PASS - 0 differing pixels |
 | Shared 512 × 512 transparency across neutral + four configurations | PASS |
 | One application of the original coordinate transform | PASS |
 | Clips contain oversized artwork | PASS |
@@ -104,7 +104,7 @@ The checks below record the historical implementation.
 | Ten-item maximum, explicit eleventh rejection, duplicates, distinct variants | PASS |
 | Candidate changes leave the applied shirt intact | PASS |
 | New team candidate resets to Home | PASS |
-| Preview/download byte identity | PASS — fixture and actual Barcelona Home |
+| Preview/download byte identity | PASS - fixture and actual Barcelona Home |
 | Batch navigation/removal and ZIP contents/manifest | PASS |
 | Missing SVG retains the prior preview and allows recovery | PASS |
 | Mobile 390-pixel viewport has no horizontal overflow | PASS |

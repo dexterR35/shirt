@@ -32,7 +32,7 @@ The shared renderer supports validated rectangles, polygons, cubic/quadratic/arc
 
 The generated per-kit SVG archive (`public/assets/shirts/`, 356 files, 317 MB) was removed at the user's request on 23 September 2026. The app never displayed it, it predated the PNG layout corrections, and it would otherwise have been deployed. Catalog entries no longer carry `svg_path` or an SVG hash. The files remain in git history; the vector renderer can still reproduce any revision from `data/kits`.
 
-## Current replacement base — 23 September 2026
+## Current replacement base - 23 September 2026
 
 Display loading (24 September 2026): the screen loads a lossless **2048 × 2048 WebP** crop of the shirt square (1.56 MB) instead of the 6.8 MB master. It is generated deterministically at build time, preloaded from `index.html`, decoded asynchronously, and cached as immutable on Vercel (`vercel.json`) together with the content-named 8K master, which the preview never downloads. A test verifies the copy's outline matches the master within 2 pixels.
 

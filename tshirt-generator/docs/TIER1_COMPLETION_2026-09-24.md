@@ -1,4 +1,4 @@
-# Tier 1 completion — 24 September 2026
+# Tier 1 completion - 24 September 2026
 
 All **138 mandatory teams / 276 Home and Away slots** are available in the local catalog. This continuation completes the last **43 variants** (16 existing drafts and 27 previously unsourced or season-gated slots). All 735 canonical teams remain intact.
 
@@ -6,7 +6,7 @@ All **138 mandatory teams / 276 Home and Away slots** are available in the local
 | --- | ---: |
 | 2026/27 | 251 |
 | 2026 | 24 |
-| 2025/26 — Petrolul Away fallback for 2026 | 1 |
+| 2025/26 - Petrolul Away fallback for 2026 | 1 |
 | Total | 276 |
 
 The user's latest instruction permits 2026 when 2026/27 is unconfirmed. Each fallback is explicitly scoped to a team, variant and literal season in `data/research/season-policy.json`; no season is relabeled. Petrolul has no separate verified 2026/27 Away entry, so the independently observed 2025/26 garment is included as a disclosed fallback. The 24 Finnish variants use their calendar-year 2026 sources.

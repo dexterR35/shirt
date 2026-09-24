@@ -165,7 +165,7 @@
 >
 
 <style data-shopify>
-  /* FCB 01 — normal */
+  /* FCB 01 - normal */
   @font-face {
     font-family: 'FCB-01-Regular';
     src: url(//store.fcbarcelona.com/cdn/shop/t/322/assets/FCBARCELONA-Regular-web.woff2?v=154405964212780886921771852083) format('woff2');
@@ -191,7 +191,7 @@
     ascent-override: 100%;
   }
 
-  /* FCB 02 — condensed */
+  /* FCB 02 - condensed */
   @font-face {
     font-family: 'FCB-02-Regular';
     src: url(//store.fcbarcelona.com/cdn/shop/t/322/assets/FCBARCELONACONDENSED-Regular.woff2?v=36566816195202421531771852086) format('woff2');
@@ -28386,7 +28386,8 @@ rgb(var(--color-border-rgb) / 1.0); --border-radius:
 
 
 
-    <script>
+    
+<script>
   window.kitAnalyticsMeta = window.kitAnalyticsMeta || {};
   window.fcbDL = window.fcbDL || [];
   window.dataLayerIM = window.fcbDL;
@@ -31095,8 +31096,8 @@ registerDidomiReady();
 
         var after = snapshot(cart);
 
-        // 1️⃣ ADD & REDUCE quantity
-        // 1️⃣ ADD & REDUCE quantity — resolver bundles antes de disparar eventos
+        // 1️⃣ ADD & REDUCE quantity-
+        // 1️⃣ ADD & REDUCE quantity - resolver bundles antes de disparar eventos
         var bundlesSeen = {};
         for (var i = 0; i < cart.items.length; i++) {
           var item = cart.items[i];
@@ -33136,8 +33137,8 @@ registerDidomiReady();
           IM.waitFor(waitTargets, { timeout: 6000, interval: 50 }).then(function () {
             trackPageView();
             if (pageType === 'category') trackViewCategory();
-            if (pageType === 'product') trackViewItemIfPdp();
-            // Resolve the gate — all queued async view events (view_item_list, etc.) can now fire
+            if (pageType === 'pr-duct') trackViewItemIfPdp();
+            // Resolve the gate - all queued async view events (view_item_list, etc.) can now fire
             _resolvePageViewDone();
           });
         });
@@ -33151,8 +33152,8 @@ registerDidomiReady();
         try {
           categoryName = document.querySelector('h1')?.textContent?.trim() || document.title;
         } catch (e) {}
-
-        // immediate: true — fires synchronously right after page_view
+-
+        // immediate: true - fires synchronously right after page_view
         IM.track('view_category', {
           immediate: true,
           events: ['view_category', 'event191'],
