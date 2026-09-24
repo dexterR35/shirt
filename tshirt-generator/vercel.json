@@ -26,7 +26,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!assets/|catalog/|reviews/|fonts/).*)",
+      "source": "/((?!assets/|catalog/.*\\.json$|reviews/|fonts/).*)",
       "destination": "/index.html"
     }
   ]

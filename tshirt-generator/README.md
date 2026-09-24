@@ -11,6 +11,12 @@ npm run dev
 
 Open the local URL printed by Vite. Node 20.19+ or 22.12+ is required by the installed Vite version; development was verified with Node 26.5.0. The project lives in this `tshirt-generator` directory, one level below the workspace folder.
 
+## Vercel deployment
+
+Set the Vercel project's Root Directory to `tshirt-generator`. The checked-in `vercel.json` selects Vite, `npm ci`, `npm run build` and the `dist` output directory. Publish a new deployment containing configuration changes; redeploying an older commit keeps its old rules.
+
+Studio and Catalog URLs must reach `index.html` when opened directly or refreshed, as described in [Vercel's SPA guidance](https://vercel.com/docs/frameworks/frontend/vite#using-vite-to-make-spas). `/catalog/` also contains the app's static JSON files, so the rewrite excludes `/catalog/**/*.json`, not every `/catalog/` URL. JSON and other static assets retain normal file responses and missing-file errors. `node --test tests/vercel-routing.test.js` checks both cases.
+
 The app opens on the plain original shirt. Choosing a team shows its Home kit immediately; the Home/Away switch changes the kit immediately. A kit that is not ready shows the plain shirt with "Home/Away kit not available yet". Rendered kits are cached in memory until reload. The Studio lives at `/studio` (a refresh reopens the last kit) and each catalog tab has its own URL (`/catalog/<group>/<competition>`). Mandatory teams appear first, then readiness and workbook order; all 735 source teams remain searchable.
 
 The PNG, colors and equipment facts are local; no AI API, live archive request or cloud account is needed at display time. `data/teams/<canonical-team-id>.json` stores Home/Away facts with independent season, design, colors, brand, sponsor, competitions, release date and provenance. Missing facts remain null. Catalog builds materialize those local files for the app. The right panel displays the applied kit's facts, replacing the original-master promotional text. Fonts are self-hosted. Each collection holds up to ten revisions; Home and Away are separate items. Custom edits are session-only; saved facts retain their original colors and are labeled accordingly. Export controls remain deferred.

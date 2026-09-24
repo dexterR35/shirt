@@ -14,6 +14,8 @@ Global coverage is **294 ready**, **8 drafts**, **1,168 researching**, **320 sav
 
 ## Application
 
+Vercel routing correction (24 September): `/catalog/` and nested competition pages now share the SPA fallback with `/studio`; catalog JSON and static asset requests remain excluded. The previous rule excluded the entire `/catalog/` prefix, causing direct navigation and refresh to return Vercel 404. The correction takes effect when a deployment containing the updated `vercel.json` is published.
+
 React 19.3.0, React DOM 19.3.0, Vite 8.3.0, JavaScript/JSX and CSS, with a locked dependency tree. Dark navy responsive UI, country filter, accent-insensitive team search, instant team/Home/Away display without an Apply step (missing variants show the plain base and a "not available yet" message; renders cached in memory; `/studio` restores the last kit after a refresh, and each catalog tab has its own URL), one central PNG-based shirt, three preview backgrounds, ten-revision collection, previous/next and removal. Home/Away occupy separate collection slots. Missing configurations fail recoverably. Research coverage is available in the Catalog tab. Download and ZIP controls are deferred pending the user's later sizing/export requirements.
 
 All 735 original identities, 39 countries/associations, 708 first teams, 27 reserve teams, 779 memberships, 16 workbook tabs, notes, links and hidden rows are preserved. Country names represent the supplied club catalog, not a newly researched set of national teams. No database, AI account or cloud service is required. The user's original base PNG loads once; kit configurations load on demand. Team reference photos and workbook audits are not shipped in the browser catalog. Font assets are local.
