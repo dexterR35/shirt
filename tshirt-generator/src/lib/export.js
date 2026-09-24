@@ -3,7 +3,7 @@ import { renderEncoded } from "./png-preview.js";
 import { assetFilename } from "./catalog.js";
 
 /** Download sizes: the image's longest side, in pixels. Above 2048 the 8K master is used. */
-export const EXPORT_SIZES = [128, 256, 512, 1024, 2048, 4096];
+export const EXPORT_SIZES = [128, 168, 256, 512, 1024, 2048, 4096];
 
 /** Image shapes. The shirt stays whole and centered; extra space is transparent. */
 export const EXPORT_RATIOS = Object.freeze({
@@ -45,13 +45,13 @@ export const EXPORT_FORMATS = Object.freeze({
  * rendered square at the shorter side, so it is never cropped or stretched, and
  * centered on a transparent canvas of the chosen shape.
  */
-export async function renderImage(config, size, format = "png", ratio = "1:1") {
+export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 100) {
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   const spec = EXPORT_FORMATS[format];
   if (!spec) throw Error("Choose PNG, WebP or AVIF.");
   const { width, height } = exportDimensions(size, ratio);
   // Rendering and encoding run in the download worker, so the page never freezes.
-  return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height });
+  return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height }, lighting);
 }
 
 /** e.g. england-arsenal-team_…-2026-27-home-r001-2048px.webp or …-1152x2048px.png (plus -custom when recolored). */

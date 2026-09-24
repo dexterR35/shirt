@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { EXPORT_SIZES, EXPORT_RATIOS, EXPORT_FORMATS, exportDimensions, exportFilename, zipFilename } from "../src/lib/export.js";
 
 test("download sizes are the longest side; every shape keeps the shirt square inside", () => {
-  assert.deepEqual(EXPORT_SIZES, [128, 256, 512, 1024, 2048, 4096]);
+  assert.deepEqual(EXPORT_SIZES, [128, 168, 256, 512, 1024, 2048, 4096]);
   assert.deepEqual(exportDimensions(512, "1:1"), { width: 512, height: 512 });
   assert.deepEqual(exportDimensions(1280, "4:5"), { width: 1024, height: 1280 });
   assert.deepEqual(exportDimensions(2048, "16:9"), { width: 2048, height: 1152 });

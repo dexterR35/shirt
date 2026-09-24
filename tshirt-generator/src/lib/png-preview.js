@@ -1,5 +1,5 @@
 import { PNG_BASE, PNG_PREVIEW, renderColorArtwork } from './png-shirt.js';
-import { paintArea } from './composite.js';
+import { paintArea, validateLighting } from './composite.js';
 import { partIdConfig, matchPartId, countPartPixels, namedPartsOnly, visibleParts } from './kit-edit.js';
 
 
@@ -69,10 +69,11 @@ function lane(name) {
 }
 
 /** One render job: the page rasterizes the SVG paint (fast, native); the worker does the rest. */
-async function renderJob(name, config, size, encode) {
+async function renderJob(name, config, size, encode, lighting = 100) {
+  validateLighting(lighting);
   const base = baseSource(size);
   const [blob, paint] = await Promise.all([baseFile(base.path), config ? paintBitmap(config, size) : null]);
-  return lane(name)({size, base: {...base, blob}, paint, encode}, paint ? [paint] : []);
+  return lane(name)({size, base: {...base, blob}, paint, encode, lighting}, paint ? [paint] : []);
 }
 /** The paint at `size` on white (unpainted areas keep the photo unchanged), as a transferable bitmap. */
 async function paintBitmap(config, size) {
@@ -89,15 +90,16 @@ const checkSize = (size) => {
 };
 
 /** Compose from the original PNG on demand, in a worker. Display size never alters the source. */
-export async function renderPngPreview(config, size = 1024, {cache = true} = {}) {
+export async function renderPngPreview(config, size = 1024, {cache = true, lighting = 100} = {}) {
   checkSize(size);
-  const key = size + ':' + JSON.stringify(config);
+  validateLighting(lighting);
+  const key = size + ':' + lighting + ':' + JSON.stringify(config);
   if (cache && renders.has(key)) {
     const hit = renders.get(key);
     renders.delete(key); renders.set(key, hit);
     return hit;
   }
-  const result = await renderJob('screen', config, size);
+  const result = await renderJob('screen', config, size, undefined, lighting);
   if (cache) {
     if (renders.size >= RENDER_LIMIT) renders.delete(renders.keys().next().value);
     renders.set(key, result);
@@ -111,9 +113,9 @@ export async function renderPngPreview(config, size = 1024, {cache = true} = {})
  * @param {{type:string, label:string, width:number, height:number}} encode
  * @returns {Promise<Blob>}
  */
-export async function renderEncoded(config, size, encode) {
+export async function renderEncoded(config, size, encode, lighting = 100) {
   checkSize(size);
-  return renderJob('download', config, size, encode);
+  return renderJob('download', config, size, encode, lighting);
 }
 
 const PART_MAP_SIZE = 400;

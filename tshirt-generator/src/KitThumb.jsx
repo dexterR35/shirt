@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
+import { LightingContext } from "./LightingControl.jsx";
 import { loadKit } from "./lib/kit-config.js";
 import { renderPngPreview } from "./lib/png-preview.js";
 
@@ -24,6 +25,7 @@ function schedule(task) {
  * not ready (`item` null) shows the plain white base with a "No preview" label.
  */
 export default function KitThumb({ item, label }) {
+  const lighting = useContext(LightingContext);
   const ref = useRef(null),
     [state, setState] = useState("idle");
   useEffect(() => {
@@ -38,7 +40,7 @@ export default function KitThumb({ item, label }) {
         // Skip rows that left the table (e.g. another competition) while waiting.
         if (!alive) return;
         const config = item ? (await loadKit(item)).config : null;
-        const pixels = await renderPngPreview(config, SIZE, { cache: false });
+        const pixels = await renderPngPreview(config, SIZE, { cache: false, lighting });
         if (!alive) return;
         el.width = el.height = SIZE;
         el.getContext("2d").putImageData(pixels, 0, 0);
@@ -50,7 +52,7 @@ export default function KitThumb({ item, label }) {
       alive = false;
       observer.disconnect();
     };
-  }, [item]);
+  }, [item, lighting]);
   return (
     <span className="kit-thumb-wrap">
       <canvas ref={ref} className="kit-thumb" data-state={state} role="img" aria-label={item ? label : `${label}: no preview yet`} />

@@ -5,7 +5,7 @@
  * browsers cannot draw SVG inside a worker.
  *
  * Message in:  {id, size, base:{path, blob, width, height, x, y, span}, paint?:ImageBitmap,
- *               encode?:{type, label, width, height}}
+ *               lighting?:number, encode?:{type, label, width, height}}
  * Message out: {id, pixels:ImageData} (square render) | {id, blob:Blob} (encoded) | {id, error}
  */
 import { compositePixels, paintArea } from "./composite.js";
@@ -57,13 +57,13 @@ async function basePixels(base, size) {
   return pixels;
 }
 
-async function render({ size, base, paint }) {
+async function render({ size, base, paint, lighting = 100 }) {
   const source = await basePixels(base, size);
-  if (!paint) return new ImageData(new Uint8ClampedArray(source.data), size, size);
+  if (!paint) return new ImageData(compositePixels(source.data, null, lighting), size, size);
   const ctx = new OffscreenCanvas(size, size).getContext("2d", { willReadFrequently: true });
   ctx.drawImage(paint, 0, 0);
   paint.close();
-  return new ImageData(compositePixels(source.data, ctx.getImageData(0, 0, size, size).data), size, size);
+  return new ImageData(compositePixels(source.data, ctx.getImageData(0, 0, size, size).data, lighting), size, size);
 }
 
 /** Center the square render on a transparent canvas of the requested shape and encode it. */

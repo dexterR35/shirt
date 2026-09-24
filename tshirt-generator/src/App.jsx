@@ -4,7 +4,8 @@ import Icon from "./Icon.jsx";
 import {loadReviews, saveReview, reviewKey, emptyReview} from "./lib/reviews.js";
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
 import {partAt, visiblePartIds} from "./lib/png-preview.js";
-import {paintArea} from "./lib/composite.js";
+import {paintArea, LIGHTING_DEFAULT, validateLighting} from "./lib/composite.js";
+import LightingControl, {LightingContext} from "./LightingControl.jsx";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
 import {loadKit, loadJson} from "./lib/kit-config.js";
@@ -20,8 +21,14 @@ import {
 } from "./lib/catalog.js";
 import {EXPORT_SIZES, EXPORT_FORMATS, EXPORT_RATIOS, exportDimensions, renderImage, exportFilename, zipFilename, zipFiles, downloadBlob} from "./lib/export.js";
 import ConfirmDialog from "./ConfirmDialog.jsx";
+import {tier1Items, renderTier1Zip} from "./lib/tier1-export.js";
 
 const VIEW_KEY = "tshirt-studio:view";
+const LIGHTING_KEY = "tshirt-studio:lighting";
+function readLighting() {
+  try { return validateLighting(Number(localStorage.getItem(LIGHTING_KEY) ?? LIGHTING_DEFAULT)); }
+  catch { return LIGHTING_DEFAULT; }
+}
 /** Remember the shown team/variant for this browser tab, so a refresh reopens it. */
 function readView() {
   try { return JSON.parse(sessionStorage.getItem(VIEW_KEY)); } catch { return null; }
@@ -54,7 +61,8 @@ export default function App() {
     [exportSize, setExportSize] = useState(2048),
     [exportFormat, setExportFormat] = useState("png"),
     [exportRatio, setExportRatio] = useState("1:1"),
-    // The download waiting for a yes/no answer: {items, asZip}, or null.
+    [lighting, setLighting] = useState(readLighting),
+    // The download waiting for a yes/no answer: {items, asZip, tier1?}, or null.
     [pendingDownload, setPendingDownload] = useState(null),
     [exporting, setExporting] = useState(""),
     // Saved color edits per kit version (kitKey): kept in memory until the page is refreshed.
@@ -69,8 +77,12 @@ export default function App() {
     navigate = useNavigate(),
     section = location.pathname.startsWith("/catalog") ? "catalog" : "studio";
   const request = useRef(0),
-    controller = useRef(null);
+    controller = useRef(null),
+    tier1Controller = useRef(null);
   const zoom = useZoom();
+  useEffect(() => {
+    try { localStorage.setItem(LIGHTING_KEY, String(lighting)); } catch { /* optional */ }
+  }, [lighting]);
   // Messages close by themselves after a few seconds.
   useEffect(() => {
     if (!notice) return;
@@ -96,6 +108,7 @@ export default function App() {
     return () => {
       alive = false;
       controller.current?.abort();
+      tier1Controller.current?.abort();
     };
   }, []);
   const filtered = useMemo(
@@ -217,7 +230,7 @@ export default function App() {
       for (const [i, item] of items.entries()) {
         setExporting(`Preparing ${i + 1} / ${items.length}…`);
         const {config, custom} = await exportConfig(item);
-        files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio)});
+        files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio, lighting)});
       }
       if (asZip) {
         setExporting("Zipping…");
@@ -240,8 +253,42 @@ export default function App() {
   function askDownload(items, asZip) {
     if (items.length && !exporting) setPendingDownload({items, asZip});
   }
-  function downloadQuestion({items, asZip}) {
+  function askTier1Download() {
+    if (exporting || !catalog) return;
+    try {
+      setPendingDownload({items: tier1Items(catalog.teams), asZip: true, tier1: true});
+    } catch (error) {
+      setNotice(error.message);
+    }
+  }
+  async function downloadTier1(items) {
+    if (exporting || tier1Controller.current) return;
+    const abort = new AbortController();
+    tier1Controller.current = abort;
+    const size = exportSize, ratio = exportRatio;
+    const {width, height} = exportDimensions(size, ratio);
+    try {
+      const blob = await renderTier1Zip(items, {
+        size, ratio, lighting, signal: abort.signal,
+        onProgress: (done, total, item) => setExporting(`Tier 1: ${done + 1} / ${total} · ${item.team_name} ${variantLabel(item.variant)}…`),
+      });
+      abort.signal.throwIfAborted();
+      downloadBlob(blob, `tier-1-${items.length}-${width}x${height}-png.zip`);
+      setNotice(`${items.length} Tier 1 PNGs downloaded at ${width} × ${height} px in one ZIP.`);
+    } catch (error) {
+      setNotice(abort.signal.aborted ? "Tier 1 export cancelled. No files were downloaded." : error.message);
+    } finally {
+      tier1Controller.current = null;
+      setExporting("");
+    }
+  }
+  function downloadQuestion({items, asZip, tier1}) {
     const {width, height} = exportDimensions(exportSize, exportRatio);
+    if (tier1) return {
+      title: "Download all Tier 1 shirts?",
+      message: `All ${items.length / 2} teams, Home and Away: ${items.length} PNG images at ${width} × ${height} px each, in one ZIP.`,
+      note: `Lighting: ${lighting}%. Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
+    };
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
     const one = n === 1 ? `${items[0].team_name} ${variantLabel(items[0].variant)}` : null;
     return {
@@ -251,7 +298,7 @@ export default function App() {
         : one
           ? `One ${label} image, ${px}.`
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
-      note: exportFormat === "avif" ? "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : "",
+      note: `Lighting: ${lighting}%.${exportFormat === "avif" ? " AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : ""}`,
     };
   }
   function remove(index) {
@@ -315,6 +362,7 @@ export default function App() {
   }
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
+    lighting, setLighting, exporting,
     catalog, select: show, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
     country, feedback, setFeedback, saveFeedback, draft, editBase, edited, editing, equipment, filtered, hoverOver,
     hoverPart, missing, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,
@@ -340,6 +388,7 @@ export default function App() {
       </main>
     );
   return (
+    <LightingContext.Provider value={lighting}>
     <div className={`app ${section === "studio" ? "fit" : ""} ${railCollapsed ? "rail-collapsed" : ""}`}>
       <header className="header rail">
         <div className="rail-top">
@@ -456,6 +505,7 @@ export default function App() {
               ) : (
                 <p className="queue-empty">Use “Add to collection” to queue up to {COLLECTION_LIMIT} kits for download.</p>
               )}
+              <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
               <div className="queue-actions">
                 <select
                   aria-label="Download size"
@@ -496,7 +546,17 @@ export default function App() {
                   ZIP all
                 </button>
               </div>
+              <button className="secondary tier1-download" disabled={!catalog || !!exporting} onClick={askTier1Download}>
+                <Icon name="download" size={15} />
+                Download all Tier 1 · PNG ZIP
+              </button>
               {exporting && <p className="queue-progress" aria-live="polite">{exporting}</p>}
+              {exporting && tier1Controller.current && (
+                <button className="secondary tier1-cancel" onClick={() => {
+                  tier1Controller.current?.abort();
+                  setExporting("Cancelling Tier 1 export…");
+                }}>Cancel export</button>
+              )}
             </div>
           )}
         </section>
@@ -506,13 +566,15 @@ export default function App() {
             confirmLabel="Yes, download"
             onCancel={() => setPendingDownload(null)}
             onConfirm={() => {
-              const {items, asZip} = pendingDownload;
+              const {items, asZip, tier1} = pendingDownload;
               setPendingDownload(null);
-              void downloadKits(items, asZip);
+              if (tier1) void downloadTier1(items);
+              else void downloadKits(items, asZip);
             }}
           />
         )}
       </main>
     </div>
+    </LightingContext.Provider>
   );
 }

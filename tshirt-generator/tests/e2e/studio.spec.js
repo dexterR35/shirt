@@ -642,7 +642,7 @@ test('the collection tray downloads queued kits as sized PNG/WebP files or one Z
   const box=await tray.boundingBox(),vp=page.viewportSize();
   expect(Math.round(box.x+box.width)).toBe(vp.width-20);
   expect(Math.round(box.y+box.height)).toBe(vp.height-20);
-  await tray.getByLabel('Download size').selectOption('512');
+  await tray.getByLabel('Download size').selectOption('168');
   const fs=await import('node:fs/promises');
   const dialog=page.getByRole('dialog');
   const downloads=[];
@@ -650,7 +650,7 @@ test('the collection tray downloads queued kits as sized PNG/WebP files or one Z
   // "No" cancels: nothing is downloaded.
   await tray.getByRole('button',{name:'Download all',exact:true}).click();
   await expect(dialog).toContainText('Download 2 kits?');
-  await expect(dialog).toContainText('2 separate PNG images, 512 × 512 px each.');
+  await expect(dialog).toContainText('2 separate PNG images, 168 × 168 px each.');
   await dialog.getByRole('button',{name:'No'}).click();
   await expect(dialog).toHaveCount(0);
   // "Yes": one PNG per kit, at the chosen size.
@@ -658,17 +658,17 @@ test('the collection tray downloads queued kits as sized PNG/WebP files or one Z
   await dialog.getByRole('button',{name:'Yes, download'}).click();
   await expect.poll(()=>downloads.length).toBe(2);
   for(const d of downloads){
-    expect(d.suggestedFilename()).toMatch(/-(home)-r\d{3}-512px\.png$/);
+    expect(d.suggestedFilename()).toMatch(/-(home)-r\d{3}-168px\.png$/);
     const png=await fs.readFile(await d.path());
     expect(png.subarray(1,4).toString()).toBe('PNG');
-    expect([png.readUInt32BE(16),png.readUInt32BE(20)]).toEqual([512,512]);
+    expect([png.readUInt32BE(16),png.readUInt32BE(20)]).toEqual([168,168]);
   }
   // One kit on its own, as lossless WebP.
   await tray.getByLabel('Download format').selectOption('webp');
   await tray.getByRole('button',{name:'Download Arsenal home'}).click();
   await expect(dialog).toContainText('Download Arsenal Home?');
   const [webp]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
-  expect(webp.suggestedFilename()).toMatch(/arsenal-.*-home-r\d{3}-512px\.webp$/);
+  expect(webp.suggestedFilename()).toMatch(/arsenal-.*-home-r\d{3}-168px\.webp$/);
   const webpBytes=await fs.readFile(await webp.path());
   expect(webpBytes.subarray(8,12).toString()).toBe('WEBP');
   // Lossless: the image chunk is VP8L (lossy would be "VP8 "), inside the extended VP8X container.
@@ -680,12 +680,12 @@ test('the collection tray downloads queued kits as sized PNG/WebP files or one Z
   await tray.getByRole('button',{name:'ZIP all'}).click();
   await expect(dialog).toContainText('Download 2 kits as one ZIP?');
   const [zip]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
-  expect(zip.suggestedFilename()).toBe('tshirt-kits-2-512px-webp.zip');
+  expect(zip.suggestedFilename()).toBe('tshirt-kits-2-168px-webp.zip');
   const bytes=await fs.readFile(await zip.path());
   expect(bytes.subarray(0,2).toString()).toBe('PK');
   expect(bytes.toString('latin1')).toContain('arsenal');
   expect(bytes.toString('latin1')).toContain('chelsea');
-  expect(bytes.toString('latin1')).toContain('512px.webp');
+  expect(bytes.toString('latin1')).toContain('168px.webp');
   // Other shapes and small sizes: 9:16 at 256 px is 144 × 256, the shirt whole and centered.
   await tray.getByLabel('Download size').selectOption('256');
   await tray.getByLabel('Image shape').selectOption('9:16');

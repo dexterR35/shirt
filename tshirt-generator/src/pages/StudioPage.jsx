@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useOutletContext } from "react-router";
 import ShirtViews from "../ShirtViews.jsx";
 import PngShirtPreview from "../PngShirtPreview.jsx";
+import LightingControl from "../LightingControl.jsx";
 import Icon from "../Icon.jsx";
 import Modal from "../Modal.jsx";
 import PartHighlight from "../PartHighlight.jsx";
@@ -32,6 +33,9 @@ function TeamBadge({ summary }) {
 export default function StudioPage() {
   const ctx = useOutletContext();
   const {
+    lighting,
+    setLighting,
+    exporting,
     activate,
     active,
     add,
@@ -208,6 +212,7 @@ export default function StudioPage() {
               Add to collection
             </button>
           </div>
+          <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
           <div
             className={`canvas ${background} ${background === "white" || (background === "custom" && luminance(customBg) > 0.55) ? "on-light" : ""}`}
             style={background === "custom" ? { backgroundColor: customBg } : undefined}

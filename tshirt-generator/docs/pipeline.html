@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shirt Render Pipeline</title>
+<title>Shirt Image Pipeline</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@600;750&display=swap" rel="stylesheet">
 <style>
@@ -25,6 +25,7 @@
   section { margin-top: 28px; padding: 22px; background: var(--surface-1); border: 1px solid var(--line); border-radius: 14px; }
   .diagram { overflow-x: auto; }
   .diagram pre.mermaid { margin: 0; background: none; text-align: center; }
+  .slide img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { font-size: 10px; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; }
@@ -35,101 +36,145 @@
   li + li { margin-top: 6px; }
   li strong { color: var(--text); }
   code { font-size: 12px; color: var(--accent); }
+  a { color: var(--accent); }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
 </style>
 </head>
 <body>
 <main>
-  <span class="eyebrow">T-SHIRT GENERATOR · HOW A KIT IS MADE</span>
+  <span class="eyebrow">T-SHIRT GENERATOR · IMAGE PROCESSING</span>
   <h1>From the base photo to the download</h1>
   <p class="lead">The shirt photo (<code>base.png</code>) is never traced or redrawn. Each kit is validated SVG
-    <em>paint</em> that gets multiplied into the photo's pixels, so the fabric folds, highlights and transparent
-    edges stay exactly as photographed. The preview and every download use the same composite.</p>
+    <em>paint</em> that is multiplied into the photo's pixels, so the fabric folds, highlights and transparent
+    edges stay exactly as photographed. The preview, the catalog thumbnails and every download use the same
+    composite. This page covers image processing only, not research or the catalog UI.</p>
+
+  <section class="slide">
+    <h2>Overview (presentation slide)</h2>
+    <p class="lead" style="margin-bottom:14px">Standalone 16:9 version for slides:
+      <a href="image-pipeline-slide.svg"><code>docs/image-pipeline-slide.svg</code></a></p>
+    <img src="image-pipeline-slide.svg" alt="Five-stage image pipeline: base photo, kit paint, rasterize, composite in worker, output and download">
+  </section>
 
   <section>
-    <h2>Pipeline, start to end</h2>
+    <h2>Implementation, start to end</h2>
     <div class="diagram">
 <pre class="mermaid">
 flowchart TB
-  subgraph S1["1 · Base photo (build time)"]
+  subgraph S1["1 · Base photo (build: npm run base:prepare)"]
     direction TB
-    A["base.png<br/>8000 × 5000 PNG master<br/>SHA-256 checked"]
-    B["npm run base:prepare<br/>(sharp)"]
-    C["source-#lt;hash#gt;.png<br/>unchanged 8K master<br/>(renders above 2048)"]
-    D["preview-2048-#lt;hash#gt;.webp<br/>3858 px square crop → 2048<br/>lanczos3 · lossless WebP"]
-    A --> B
-    B --> C
-    B --> D
+    A["base.png<br/>8000 × 5000 RGBA master<br/>SHA-256 + size checked, else build fails"]
+    C["/assets/base/source-4670b8b8dd8d.png<br/>byte-identical master"]
+    D["/assets/base/preview-2048-4670b8b8dd8d-v1.webp<br/>crop 3858 px square at (2071, 572)<br/>→ 2048 · lanczos3 · lossless WebP"]
+    A -->|"copy"| C
+    A -->|"sharp extract + resize"| D
   end
 
-  subgraph S2["2 · Kit data (research)"]
+  subgraph S2["2 · Kit paint config (browser)"]
     direction TB
-    R["Football Kit Archive<br/>front reference photo"]
-    K["Kit config JSON<br/>6 colors · rect / polygon / path layers<br/>clips: body, sleeves, all"]
-    L["PNG layout revision p00x<br/>shoulders · collar · cuffs<br/>fitted to this photo"]
-    M["npm run catalog:build<br/>validate · lock hashes<br/>→ public/catalog"]
-    R -->|"observed colors & shapes<br/>(no logos, sponsors, text)"| K
-    K --> L
-    L --> M
+    I["Catalog item<br/>team · Home/Away · revision r00x<br/>+ PNG layout p00x"]
+    J["loadKit → details JSON<br/>kitPreviewConfig: layout must match the revision<br/>validateConfig: reject anything malformed"]
+    NK["No ready kit<br/>paint = none"]
+    E["Color edits (optional)<br/>applyEdits, kept in memory"]
+    I --> J
+    J --> E
   end
 
-  subgraph S3["3 · Paint (browser)"]
+  subgraph S3["3 · Paint raster (page main thread)"]
     direction TB
-    V["loadKit + validateConfig<br/>reject anything malformed"]
-    E["Optional color edits<br/>(Edit dialog, kept in memory)"]
-    SV["renderColorArtwork<br/>paint-only SVG on a 200 × 200 unit grid<br/>(not pixels: scaled to each size)<br/>collar clipped to the sewn neckline"]
-    RP["Rasterize SVG on white (on the page:<br/>browsers can't draw SVG in a worker)<br/>margin size/16 · paint span 7/8<br/>→ ImageBitmap, handed over without copying"]
-    V --> E
-    E --> SV
+    SV["renderColorArtwork → paint-only SVG<br/>200 × 200 unit grid · body/sleeve clips<br/>collar clipped to the sewn neckline"]
+    RP["SVG Blob → Image.decode()<br/>drawn on white OffscreenCanvas(size)<br/>margin size/16 · span 7/8<br/>→ ImageBitmap (transferred, no copy)"]
     SV --> RP
   end
 
   subgraph S4["4 · Composite (render worker · OffscreenCanvas)"]
     direction TB
-    BP["Base pixels at the same size<br/>≤ 2048 → WebP copy<br/>&gt; 2048 → 8K master<br/>decoded once per worker<br/>smoothing: high · downscale only"]
+    SEL{"square size ≤ 2048?"}
+    BW["2048 WebP copy<br/>(preloaded by index.html)"]
+    BM["8K PNG master<br/>(fetched only when needed)"]
+    BP["createImageBitmap once per worker<br/>dimensions checked<br/>drawImage into paint area · smoothing high<br/>last 2 sizes kept"]
     X["compositePixels<br/>RGB = photo × paint ÷ 255<br/>alpha = photo alpha (unchanged)"]
+    SEL -->|"yes"| BW
+    SEL -->|"no"| BM
+    BW --> BP
+    BM --> BP
     BP --> X
   end
 
   subgraph S5["5 · Output"]
     direction TB
-    P["Studio preview<br/>1024–2048 px canvas<br/>last 8 renders cached"]
-    T["Catalog thumbnails<br/>256 px, 2 at a time"]
-    O["Download size (longest side)<br/>128 · 256 · 512 · 1024 · 2048 · 4096<br/>shape 1:1 · 4:5 · 16:9 · 9:16"]
+    P["Studio preview · 'screen' worker<br/>clamp(width × DPR, 1024, 2048)<br/>last 8 renders cached"]
+    T["Catalog thumbnails · 'screen' worker<br/>256 px · on scroll · 2 at a time"]
+    Q{"Yes / No confirmation"}
+    DL["Download · 'download' worker<br/>size = longest side 128 … 4096<br/>shape 1:1 · 4:5 · 16:9 · 9:16<br/>square render at the shorter side,<br/>centered on transparent canvas"]
     F{"Format"}
-    PNG["PNG<br/>lossless"]
-    WEBP["WebP quality 1<br/>lossless VP8L (Chromium)<br/>smaller file, same pixels"]
-    AVIF["AVIF (WebAssembly encoder)<br/>quality 95 · 4:4:4 · exact alpha<br/>≈ 52 dB · about 1/10 of PNG"]
-    Q{"Yes / No<br/>confirmation"}
-    ONE["Single file<br/>(one kit or each kit)"]
-    ZIP["One ZIP<br/>stored, not recompressed"]
-    O --> F
+    PNG["PNG · lossless"]
+    WEBP["WebP · quality 1 → lossless<br/>(fails loudly if unsupported)"]
+    AVIF["AVIF · WASM encoder<br/>q95 · 4:4:4 · exact alpha"]
+    ONE["Files one by one<br/>…-2048px(-custom).ext"]
+    ZIP["One ZIP · stored, level 0"]
+    Q -->|"yes"| DL
+    DL --> F
     F --> PNG
     F --> WEBP
     F --> AVIF
-    PNG --> Q
-    WEBP --> Q
-    AVIF --> Q
-    Q -->|"per kit / all"| ONE
-    Q -->|"ZIP all"| ZIP
+    PNG --> ONE
+    WEBP --> ONE
+    AVIF --> ONE
+    PNG --> ZIP
+    WEBP --> ZIP
+    AVIF --> ZIP
   end
 
-  C --> BP
-  D --> BP
-  M --> V
+  C --> BM
+  D --> BW
+  E --> SV
   RP --> X
+  NK -->|"photo copied as is"| X
   X --> P
   X --> T
-  X --> O
+  X --> Q
 
   classDef source fill:#102238,stroke:#2ba0a2,color:#f6f7fa
   classDef data fill:#102238,stroke:#3d5169,color:#f6f7fa
   classDef paint fill:#0b1a2b,stroke:#2ba0a2,color:#f6f7fa
   classDef out fill:#0b1a2b,stroke:#f5b82e,color:#f6f7fa
-  class A,B,C,D source
-  class R,K,L,M data
-  class V,E,SV,RP,BP,X paint
-  class P,T,O,F,PNG,WEBP,AVIF,Q,ONE,ZIP out
+  class A,C,D source
+  class I,J,NK,E data
+  class SV,RP,SEL,BW,BM,BP,X paint
+  class P,T,Q,DL,F,PNG,WEBP,AVIF,ONE,ZIP out
+</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>One render job, in order</h2>
+    <div class="diagram">
+<pre class="mermaid">
+sequenceDiagram
+  autonumber
+  participant UI as Page (React)
+  participant PV as png-preview.js
+  participant W as render.worker.js
+  UI->>PV: renderPngPreview(config, size) / renderEncoded(config, size, encode)
+  PV->>PV: cache hit? (preview only) → return
+  par base file
+    PV->>PV: fetch base (2048 WebP or 8K PNG), kept as Blob
+  and paint
+    PV->>PV: renderColorArtwork → SVG → Image.decode()
+    PV->>PV: white OffscreenCanvas, drawImage at margin/span → ImageBitmap
+  end
+  PV->>W: postMessage {size, base Blob, paint ImageBitmap, encode?} (bitmap transferred)
+  W->>W: decode base once, scale into paint area (cached per size)
+  W->>W: compositePixels (multiply RGB, keep alpha)
+  alt preview / thumbnail
+    W-->>PV: ImageData (buffer transferred)
+    PV-->>UI: putImageData on the canvas
+  else download
+    W->>W: center on transparent W × H, encode PNG / WebP / AVIF
+    W-->>PV: Blob
+    PV-->>UI: file or ZIP entry
+  end
 </pre>
     </div>
   </section>
@@ -165,10 +210,10 @@ flowchart LR
     <table>
       <thead><tr><th>Where</th><th>200 units span</th><th>1 unit</th></tr></thead>
       <tbody>
-        <tr><td><strong>8000 × 5000 master photo</strong></td><td>3,856 px (from x 2,072, y 572)</td><td>19.3 px</td></tr>
-        <tr><td><strong>2048 WebP screen copy</strong></td><td>2,047 px</td><td>10.2 px</td></tr>
-        <tr><td><strong>2048 download</strong></td><td>1,792 px</td><td>9.0 px</td></tr>
-        <tr><td><strong>512 download</strong></td><td>448 px</td><td>2.2 px</td></tr>
+        <tr><td><strong>8000 × 5000 master photo</strong></td><td>3,856 px (from x 2,071.9, y 572.4)</td><td>19.3 px</td></tr>
+        <tr><td><strong>2048 WebP screen copy</strong></td><td>2,047 px (crop 3,858 px from x 2,071, y 572)</td><td>10.2 px</td></tr>
+        <tr><td><strong>2048 square render</strong></td><td>1,792 px</td><td>9.0 px</td></tr>
+        <tr><td><strong>512 square render</strong></td><td>448 px</td><td>2.2 px</td></tr>
       </tbody>
     </table>
     </div>
@@ -176,15 +221,19 @@ flowchart LR
 
   <section>
     <h2>Sizes and where their pixels come from</h2>
+    <p class="lead" style="margin-bottom:14px">The base is chosen by the <strong>square render size</strong>, which is
+      the shorter side of the download. A 4096 × 2304 (16:9) download renders a 2304 square from the 8K master;
+      a 2048 × 1152 one renders an 1152 square from the WebP copy.</p>
     <div class="table-scroll">
     <table>
-      <thead><tr><th>Render</th><th>Canvas</th><th>Shirt area</th><th>Base source</th><th>Source pixels across the shirt</th><th>Scaling</th></tr></thead>
+      <thead><tr><th>Render</th><th>Square</th><th>Shirt area</th><th>Base source</th><th>Source pixels across the shirt</th><th>Scaling</th></tr></thead>
       <tbody>
         <tr><td><strong>Thumbnail</strong></td><td>256 px</td><td>224 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.11</td></tr>
         <tr><td><strong>Download 512</strong></td><td>512 px</td><td>448 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.22</td></tr>
         <tr><td><strong>Download 1024 / preview</strong></td><td>1024 px</td><td>896 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.44</td></tr>
         <tr><td><strong>Download 2048 / sharp screens</strong></td><td>2048 px</td><td>1,792 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.88</td></tr>
-        <tr><td><strong>Download 4096</strong></td><td>4096 px</td><td>3,584 px</td><td>8K PNG master</td><td>3,856</td><td>down ×0.93</td></tr>
+        <tr><td><strong>Download 4096 × 2304 (16:9)</strong></td><td>2304 px</td><td>2,016 px</td><td>8K PNG master</td><td>3,856</td><td>down ×0.52</td></tr>
+        <tr><td><strong>Download 4096 (1:1)</strong></td><td>4096 px</td><td>3,584 px</td><td>8K PNG master</td><td>3,856</td><td>down ×0.93</td></tr>
       </tbody>
     </table>
     </div>
@@ -198,22 +247,26 @@ flowchart LR
         <li><strong>Lossless where it counts.</strong> The master PNG, the lossless WebP screen copy, PNG downloads and WebP at quality 1 (VP8L).</li>
         <li><strong>The fabric isn't redrawn.</strong> Shading and edges come straight from the photo; only the color is multiplied in.</li>
         <li><strong>Paint is vector.</strong> The SVG paint is rasterized fresh at each size, so stripes and trims stay crisp.</li>
-        <li><strong>AVIF is visually lossless, not bit-exact.</strong> Quality 95 with full color resolution (4:4:4) and exact transparency measures about 52 dB against the PNG, with files about a tenth of the size.</li>
-        <li><strong>The page never waits.</strong> Decoding, compositing and encoding run in two render workers (screen and downloads), so the page keeps 60 fps even during a 4096 AVIF.</li>
-        <li><strong>A ZIP doesn't recompress.</strong> Images are stored as they are, so it doesn't lose quality or waste time.</li>
+        <li><strong>No substitutes.</strong> A variant that isn't ready renders the plain photo; another kit is never shown in its place.</li>
+        <li><strong>AVIF is visually lossless, not bit-exact.</strong> Quality 95, full color resolution (4:4:4) and exact transparency: about 52 dB against the PNG, roughly a tenth of the size.</li>
+        <li><strong>The page never waits.</strong> Decoding, compositing and encoding run in two workers (screen and download), so a long ZIP never delays the preview.</li>
+        <li><strong>A ZIP doesn't recompress.</strong> Images are stored as they are.</li>
       </ul>
     </section>
     <section style="margin:0">
       <h2>Where it lives in the code</h2>
       <ul>
-        <li><code>scripts/prepare-png-base.mjs</code>: master copy and the 2048 WebP crop</li>
-        <li><code>scripts/build-catalog.mjs</code>: validates kits and layouts, writes <code>public/catalog</code></li>
-        <li><code>src/lib/png-shirt.js</code>: paint SVG (<code>renderColorArtwork</code>) and <code>compositePixels</code></li>
-        <li><code>src/lib/png-preview.js</code>: paint rasterizing, render cache, the two worker lanes</li>
-        <li><code>src/lib/render.worker.js</code>: base decode, composite and PNG/WebP/AVIF encoding (OffscreenCanvas)</li>
-        <li><code>src/lib/composite.js</code>: the paint area and the multiply, shared by page and worker</li>
+        <li><code>scripts/prepare-png-base.mjs</code>: hash check, master copy and the 2048 WebP crop</li>
+        <li><code>vite.config.js</code>: preloads the 2048 WebP</li>
+        <li><code>src/lib/kit-config.js</code>, <code>png-layout.js</code>: load and validate a kit's paint config</li>
+        <li><code>src/lib/kit-edit.js</code>: <code>applyEdits</code> for color edits</li>
+        <li><code>src/lib/png-shirt.js</code>: base mapping and <code>renderColorArtwork</code> (paint SVG)</li>
+        <li><code>src/lib/png-collar.js</code>: collar bands inside the existing neckline</li>
+        <li><code>src/lib/png-preview.js</code>: SVG rasterizing, base choice, render cache, the two worker lanes</li>
+        <li><code>src/lib/render.worker.js</code>: base decode, composite, PNG/WebP/AVIF encoding</li>
+        <li><code>src/lib/composite.js</code>: <code>paintArea</code> and <code>compositePixels</code>, shared by page and worker</li>
         <li><code>src/lib/export.js</code>: sizes, shapes, formats, file names, ZIP</li>
-        <li><code>src/App.jsx</code>: collection, yes/no question, batch downloads</li>
+        <li><code>src/App.jsx</code>: yes/no question and batch downloads</li>
       </ul>
     </section>
   </section>
@@ -229,6 +282,9 @@ flowchart LR
       background: "#061224", primaryColor: "#102238", primaryTextColor: "#f6f7fa",
       primaryBorderColor: "#3d5169", lineColor: "#8491a5", textColor: "#a8b3c4",
       clusterBkg: "#081626", clusterBorder: "#182a40", edgeLabelBackground: "#0b1a2b",
+      actorBkg: "#102238", actorBorder: "#2ba0a2", actorTextColor: "#f6f7fa",
+      signalColor: "#a8b3c4", signalTextColor: "#f6f7fa", noteBkgColor: "#102238",
+      noteTextColor: "#f6f7fa", activationBkgColor: "#0b1a2b", sequenceNumberColor: "#061224",
     },
   });
 </script>
