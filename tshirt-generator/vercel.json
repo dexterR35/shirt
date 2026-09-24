@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/assets/index-(.*)",
+      "source": "/assets/(.*)\\.(js|css|wasm)",
       "headers": [
         {
           "key": "Cache-Control",

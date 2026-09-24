@@ -137,6 +137,17 @@ const manifestTeams = teams.map((t) => ({
     }),
   ),
 }));
+// Team-list avatar colors come only from a ready kit's own paint (Home first), never
+// from workbook palettes: body fills the circle, the sleeves (or collar) form the ring.
+for (const t of manifestTeams) {
+  const variant = ["home", "away"].find((v) => t.kits[v].status === "ready");
+  if (!variant) continue;
+  const r = revisions.find((r) => r.team_id === t.id && r.variant === variant && r.revision === t.kits[variant].revision);
+  const { colors } = r.png_layout?.config ?? r.config;
+  const ring = [colors.leftSleeve, colors.collar].find((c) => c.toUpperCase() !== colors.body.toUpperCase()) ?? colors.body;
+  if (![colors.body, ring].every((c) => /^#[\da-f]{6}$/i.test(c))) throw Error(`Invalid avatar colors: ${t.id}`);
+  t.avatar = { variant, body: colors.body.toUpperCase(), ring: ring.toUpperCase() };
+}
 const counts = {
   teams: teams.length,
   countries: countries.length,

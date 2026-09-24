@@ -6,8 +6,15 @@ import { PNG_PREVIEW } from "./src/lib/png-shirt.js";
 const preloadBase = {
   name: "preload-png-base",
   transformIndexHtml: () => [
-    { tag: "link", attrs: { rel: "preload", as: "image", type: "image/webp", href: PNG_PREVIEW.path }, injectTo: "head" },
+    // Fetched by the page and decoded in the render worker, so it is preloaded as a fetch.
+    { tag: "link", attrs: { rel: "preload", as: "fetch", type: "image/webp", crossorigin: "anonymous", href: PNG_PREVIEW.path }, injectTo: "head" },
   ],
 };
 
-export default defineConfig({ plugins: [react(), preloadBase] });
+export default defineConfig({
+  plugins: [react(), preloadBase],
+  // The render worker loads the AVIF encoder on demand, which needs an ES module worker.
+  worker: { format: "es" },
+  // The encoder finds its .wasm next to itself; pre-bundling would move it in development.
+  optimizeDeps: { exclude: ["@jsquash/avif"] },
+});

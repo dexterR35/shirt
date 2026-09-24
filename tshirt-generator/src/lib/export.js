@@ -1,5 +1,5 @@
 import { zipSync } from "fflate";
-import { renderPngPreview } from "./png-preview.js";
+import { renderEncoded } from "./png-preview.js";
 import { assetFilename } from "./catalog.js";
 
 /** Download sizes: the image's longest side, in pixels. Above 2048 the 8K master is used. */
@@ -29,12 +29,15 @@ const sizeTag = (size, ratio) => {
 };
 
 /**
- * Download formats. PNG is lossless everywhere; WebP is requested at quality 1,
- * which Chromium browsers encode losslessly (smaller files, same pixels).
+ * Download formats. PNG is lossless everywhere; WebP is requested at quality 1, which
+ * Chromium browsers encode losslessly (smaller files, same pixels); AVIF is encoded by a
+ * WebAssembly encoder at high quality with full color resolution (smallest files,
+ * visually identical, not bit-exact).
  */
 export const EXPORT_FORMATS = Object.freeze({
   png: Object.freeze({ label: "PNG", type: "image/png", extension: "png" }),
   webp: Object.freeze({ label: "WebP", type: "image/webp", extension: "webp" }),
+  avif: Object.freeze({ label: "AVIF", type: "image/avif", extension: "avif" }),
 });
 
 /**
@@ -45,24 +48,10 @@ export const EXPORT_FORMATS = Object.freeze({
 export async function renderImage(config, size, format = "png", ratio = "1:1") {
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   const spec = EXPORT_FORMATS[format];
-  if (!spec) throw Error("Choose PNG or WebP.");
-  const { width, height } = exportDimensions(size, ratio), square = Math.min(width, height);
-  const pixels = await renderPngPreview(config, square, { cache: false });
-  const canvas = document.createElement("canvas");
-  canvas.width = width;
-  canvas.height = height;
-  canvas.getContext("2d").putImageData(pixels, Math.floor((width - square) / 2), Math.floor((height - square) / 2));
-  return new Promise((resolve, reject) =>
-    canvas.toBlob(
-      (blob) =>
-        // A browser that cannot encode the format silently returns PNG; never mislabel it.
-        blob?.type === spec.type
-          ? resolve(blob)
-          : reject(Error(blob ? `This browser cannot create ${spec.label} files. Choose PNG.` : `The ${spec.label} could not be created.`)),
-      spec.type,
-      1,
-    ),
-  );
+  if (!spec) throw Error("Choose PNG, WebP or AVIF.");
+  const { width, height } = exportDimensions(size, ratio);
+  // Rendering and encoding run in the download worker, so the page never freezes.
+  return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height });
 }
 
 /** e.g. england-arsenal-team_…-2026-27-home-r001-2048px.webp or …-1152x2048px.png (plus -custom when recolored). */

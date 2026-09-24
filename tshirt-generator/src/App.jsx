@@ -3,7 +3,8 @@ import { Link, Outlet, useLocation, useNavigate } from "react-router";
 import Icon from "./Icon.jsx";
 import {loadReviews, saveReview, reviewKey, emptyReview} from "./lib/reviews.js";
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
-import {partAt, visiblePartIds, paintArea} from "./lib/png-preview.js";
+import {partAt, visiblePartIds} from "./lib/png-preview.js";
+import {paintArea} from "./lib/composite.js";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
 import {loadKit, loadJson} from "./lib/kit-config.js";
@@ -250,6 +251,7 @@ export default function App() {
         : one
           ? `One ${label} image, ${px}.`
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
+      note: exportFormat === "avif" ? "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : "",
     };
   }
   function remove(index) {

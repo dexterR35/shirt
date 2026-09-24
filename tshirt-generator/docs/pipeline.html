@@ -77,16 +77,16 @@ flowchart TB
     direction TB
     V["loadKit + validateConfig<br/>reject anything malformed"]
     E["Optional color edits<br/>(Edit dialog, kept in memory)"]
-    SV["renderColorArtwork<br/>paint-only SVG, 200 × 200 units<br/>collar clipped to the sewn neckline"]
-    RP["Rasterize SVG on white<br/>square canvas · margin size/16<br/>paint span 7/8 of size"]
+    SV["renderColorArtwork<br/>paint-only SVG on a 200 × 200 unit grid<br/>(not pixels: scaled to each size)<br/>collar clipped to the sewn neckline"]
+    RP["Rasterize SVG on white (on the page:<br/>browsers can't draw SVG in a worker)<br/>margin size/16 · paint span 7/8<br/>→ ImageBitmap, handed over without copying"]
     V --> E
     E --> SV
     SV --> RP
   end
 
-  subgraph S4["4 · Composite"]
+  subgraph S4["4 · Composite (render worker · OffscreenCanvas)"]
     direction TB
-    BP["Base pixels at the same size<br/>≤ 2048 → WebP copy<br/>&gt; 2048 → 8K master<br/>smoothing: high · downscale only"]
+    BP["Base pixels at the same size<br/>≤ 2048 → WebP copy<br/>&gt; 2048 → 8K master<br/>decoded once per worker<br/>smoothing: high · downscale only"]
     X["compositePixels<br/>RGB = photo × paint ÷ 255<br/>alpha = photo alpha (unchanged)"]
     BP --> X
   end
@@ -95,18 +95,21 @@ flowchart TB
     direction TB
     P["Studio preview<br/>1024–2048 px canvas<br/>last 8 renders cached"]
     T["Catalog thumbnails<br/>256 px, 2 at a time"]
-    O["Download size<br/>512 · 1024 · 2048 · 4096"]
+    O["Download size (longest side)<br/>128 · 256 · 512 · 1024 · 2048 · 4096<br/>shape 1:1 · 4:5 · 16:9 · 9:16"]
     F{"Format"}
     PNG["PNG<br/>lossless"]
     WEBP["WebP quality 1<br/>lossless VP8L (Chromium)<br/>smaller file, same pixels"]
+    AVIF["AVIF (WebAssembly encoder)<br/>quality 95 · 4:4:4 · exact alpha<br/>≈ 52 dB · about 1/10 of PNG"]
     Q{"Yes / No<br/>confirmation"}
     ONE["Single file<br/>(one kit or each kit)"]
     ZIP["One ZIP<br/>stored, not recompressed"]
     O --> F
     F --> PNG
     F --> WEBP
+    F --> AVIF
     PNG --> Q
     WEBP --> Q
+    AVIF --> Q
     Q -->|"per kit / all"| ONE
     Q -->|"ZIP all"| ZIP
   end
@@ -126,7 +129,7 @@ flowchart TB
   class A,B,C,D source
   class R,K,L,M data
   class V,E,SV,RP,BP,X paint
-  class P,T,O,F,PNG,WEBP,Q,ONE,ZIP out
+  class P,T,O,F,PNG,WEBP,AVIF,Q,ONE,ZIP out
 </pre>
     </div>
   </section>
@@ -153,6 +156,25 @@ flowchart LR
   </section>
 
   <section>
+    <h2>What “200 × 200 units” means</h2>
+    <p class="lead">It's a drawing grid, not a pixel size. All kit paint (sleeves, stripes, collar) is drawn on a
+      200 × 200 square that covers the shirt: the shirt runs from about unit 2 at the collar to unit 198 at the
+      hem. At render time the square is scaled to 7/8 of the image (a 1/16 margin on each side), so the same
+      paint fits every size exactly.</p>
+    <div class="table-scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>Where</th><th>200 units span</th><th>1 unit</th></tr></thead>
+      <tbody>
+        <tr><td><strong>8000 × 5000 master photo</strong></td><td>3,856 px (from x 2,072, y 572)</td><td>19.3 px</td></tr>
+        <tr><td><strong>2048 WebP screen copy</strong></td><td>2,047 px</td><td>10.2 px</td></tr>
+        <tr><td><strong>2048 download</strong></td><td>1,792 px</td><td>9.0 px</td></tr>
+        <tr><td><strong>512 download</strong></td><td>448 px</td><td>2.2 px</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section>
     <h2>Sizes and where their pixels come from</h2>
     <div class="table-scroll">
     <table>
@@ -173,9 +195,11 @@ flowchart LR
       <h2>Why quality is kept</h2>
       <ul>
         <li><strong>Never enlarged.</strong> Every size, including 4096, scales the photo down, so no detail is invented.</li>
-        <li><strong>Lossless at every step.</strong> The master PNG, the lossless WebP screen copy, PNG downloads and WebP at quality 1 (VP8L).</li>
+        <li><strong>Lossless where it counts.</strong> The master PNG, the lossless WebP screen copy, PNG downloads and WebP at quality 1 (VP8L).</li>
         <li><strong>The fabric isn't redrawn.</strong> Shading and edges come straight from the photo; only the color is multiplied in.</li>
         <li><strong>Paint is vector.</strong> The SVG paint is rasterized fresh at each size, so stripes and trims stay crisp.</li>
+        <li><strong>AVIF is visually lossless, not bit-exact.</strong> Quality 95 with full color resolution (4:4:4) and exact transparency measures about 52 dB against the PNG, with files about a tenth of the size.</li>
+        <li><strong>The page never waits.</strong> Decoding, compositing and encoding run in two render workers (screen and downloads), so the page keeps 60 fps even during a 4096 AVIF.</li>
         <li><strong>A ZIP doesn't recompress.</strong> Images are stored as they are, so it doesn't lose quality or waste time.</li>
       </ul>
     </section>
@@ -185,8 +209,10 @@ flowchart LR
         <li><code>scripts/prepare-png-base.mjs</code>: master copy and the 2048 WebP crop</li>
         <li><code>scripts/build-catalog.mjs</code>: validates kits and layouts, writes <code>public/catalog</code></li>
         <li><code>src/lib/png-shirt.js</code>: paint SVG (<code>renderColorArtwork</code>) and <code>compositePixels</code></li>
-        <li><code>src/lib/png-preview.js</code>: base pixels, rasterizing and render cache</li>
-        <li><code>src/lib/export.js</code>: sizes, PNG/WebP encoding, file names, ZIP</li>
+        <li><code>src/lib/png-preview.js</code>: paint rasterizing, render cache, the two worker lanes</li>
+        <li><code>src/lib/render.worker.js</code>: base decode, composite and PNG/WebP/AVIF encoding (OffscreenCanvas)</li>
+        <li><code>src/lib/composite.js</code>: the paint area and the multiply, shared by page and worker</li>
+        <li><code>src/lib/export.js</code>: sizes, shapes, formats, file names, ZIP</li>
         <li><code>src/App.jsx</code>: collection, yes/no question, batch downloads</li>
       </ul>
     </section>

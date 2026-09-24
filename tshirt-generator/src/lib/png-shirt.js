@@ -65,20 +65,5 @@ export function renderColorArtwork(config) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><defs>${[['body',bodyClip],['leftSleeve',g.leftSleeve],['rightSleeve',g.rightSleeve],['base-neck',PNG_NECK_AREA]].map(([id,d])=>`<clipPath id="${id}"><path d="${d}" clip-rule="evenodd"/></clipPath>`).join('')}${defs.join('')}</defs><rect width="200" height="200" fill="${c.colors.body}"/><path d="${g.leftSleeve}" fill="${c.colors.leftSleeve}"/><path d="${g.rightSleeve}" fill="${c.colors.rightSleeve}"/>${artwork}<path d="${g.leftCuff}" fill="${c.colors.leftCuff}"/><path d="${g.rightCuff}" fill="${c.colors.rightCuff}"/>${details}${collar}</svg>`;
 }
 
-/** Multiply only RGB, preserving every original alpha value (including edges).
- * White paint reproduces the source exactly. Inputs are unpremultiplied RGBA.
- * @param {Uint8Array|Uint8ClampedArray} source
- * @param {Uint8Array|Uint8ClampedArray} paint
- * @returns {Uint8ClampedArray}
- */
-export function compositePixels(source, paint) {
-  if(source.length !== paint.length || source.length % 4) throw Error('RGBA buffers must match');
-  const result = new Uint8ClampedArray(source.length);
-  for(let i=0;i<source.length;i+=4){
-    result[i]=Math.round(source[i]*paint[i]/255);
-    result[i+1]=Math.round(source[i+1]*paint[i+1]/255);
-    result[i+2]=Math.round(source[i+2]*paint[i+2]/255);
-    result[i+3]=source[i+3];
-  }
-  return result;
-}
+// Kept here too for scripts and tests that composite in Node.
+export { compositePixels } from './composite.js';

@@ -24,6 +24,7 @@
     "research:fka:review": "node scripts/research/fka-review.mjs"
   },
   "dependencies": {
+    "@jsquash/avif": "2.1.1",
     "@tanstack/react-table": "9.2.4",
     "fflate": "0.8.3",
     "react": "19.3.0",

@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 /**
  * Blocking yes/no question (native modal <dialog>: focus stays inside, the page
  * behind is inert, Escape answers No). Rendered only while a question is open.
- * @param {{title:string, message:string, confirmLabel?:string, onConfirm:()=>void, onCancel:()=>void}} props
+ * @param {{title:string, message:string, note?:string, confirmLabel?:string, onConfirm:()=>void, onCancel:()=>void}} props
  */
-export default function ConfirmDialog({ title, message, confirmLabel = "Yes", onConfirm, onCancel }) {
+export default function ConfirmDialog({ title, message, note, confirmLabel = "Yes", onConfirm, onCancel }) {
   const ref = useRef(null);
   useEffect(() => {
     const dialog = ref.current;
@@ -25,6 +25,7 @@ export default function ConfirmDialog({ title, message, confirmLabel = "Yes", on
     >
       <h2 id="confirm-title">{title}</h2>
       <p id="confirm-message">{message}</p>
+      {note && <p className="confirm-note">{note}</p>}
       <div className="confirm-actions">
         <button className="secondary" onClick={onCancel}>
           No

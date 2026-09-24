@@ -101,3 +101,22 @@ test("display-name corrections change the shown name only; the source name stays
   }
   assert.equal(manifest.teams.find((t) => t.id === "team_d509272aaa60d5a5b7dc").name, "FC Köln");
 });
+
+test("team avatars use a ready kit's own paint colors (Home first), and only ready kits", async () => {
+  const manifest = JSON.parse(await fs.readFile("public/catalog/manifest.json", "utf8"));
+  let withAvatar = 0;
+  for (const team of manifest.teams) {
+    const variant = ["home", "away"].find((v) => team.kits[v].status === "ready");
+    if (!variant) {
+      assert.equal(team.avatar, undefined, `${team.name} has no ready kit`);
+      continue;
+    }
+    withAvatar++;
+    const kit = JSON.parse(await fs.readFile("public" + team.kits[variant].details_path, "utf8"));
+    const { colors } = kit.png_layout?.config ?? kit.config;
+    assert.equal(team.avatar.variant, variant);
+    assert.equal(team.avatar.body, colors.body.toUpperCase());
+    assert.ok([colors.leftSleeve, colors.collar, colors.body].map((c) => c.toUpperCase()).includes(team.avatar.ring));
+  }
+  assert.ok(withAvatar > 0);
+});

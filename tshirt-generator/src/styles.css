@@ -44,8 +44,6 @@
 
   /* Rating stars */
   --gold: #f5b82e;
-  --gold-line: color-mix(in srgb, var(--gold) 45%, #0b1a2b);
-  --gold-bg: color-mix(in srgb, var(--gold) 14%, #0b1a2b);
 
   /* Effects and special surfaces */
   --shadow: #0009;
@@ -423,6 +421,8 @@ input[type="search"]::-webkit-search-cancel-button {
   flex-shrink: 0;
   letter-spacing: 0.4px;
 }
+/* A team with a ready kit: its body color with a sleeve-colored ring (inline style). */
+.team-monogram.kit-colors { border-width: 3px; font-weight: 700; }
 .selected .team-monogram {
   color: var(--accent);
   border-color: var(--selected-line);
@@ -684,6 +684,11 @@ input[type="search"]::-webkit-search-cancel-button {
   transition: opacity 0.15s;
 }
 .shirt-stage .shirt-image { transition: opacity 0.15s, transform 0.12s ease-out; will-change: transform; }
+/* Zoomed in, the shirt can be dragged; it follows the pointer without easing. */
+.shirt-stage[data-pannable="true"] { cursor: grab; touch-action: none; }
+.shirt-stage[data-dragging="true"] { cursor: grabbing; }
+.shirt-stage[data-dragging="true"] .shirt-image { transition: opacity 0.15s; }
+.shirt-stage:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .zoom-controls {
   position: absolute;
   right: 14px;
@@ -1231,14 +1236,13 @@ input[type="search"]::-webkit-search-cancel-button {
   .queue { left: 12px; right: 12px; width: auto; bottom: 12px; }
 }
 
-/* Team review badge in the team list: average stars of the Home and Away shirt reviews,
-   one gold style for every status. */
+/* Team rating in the team list: a gold star and the average of the Home and Away
+   shirt ratings, no pill; the status is in the tooltip. */
 .team-badge {
-  display: inline-flex; align-items: center; gap: 4px; flex: none;
-  padding: 2px 6px; border-radius: 9px; font-size: 9px; line-height: 1.4;
-  color: var(--gold); background: var(--gold-bg); border: 1px solid var(--gold-line);
-  font-variant-numeric: tabular-nums;
+  display: inline-flex; align-items: center; gap: 3px; flex: none;
+  font-size: 10px; line-height: 1; color: var(--text-2); font-variant-numeric: tabular-nums;
 }
+.team-badge-star { color: var(--gold); font-size: 11px; }
 
 /* Catalog: a side list of groups (countries, UEFA) with the open group's competitions
    nested under it, and the reusable data table beside it. */
@@ -1368,5 +1372,6 @@ input[type="search"]::-webkit-search-cancel-button {
 .confirm-dialog::backdrop { background: var(--shadow-soft); }
 .confirm-dialog h2 { font-size: 15px; font-weight: 600; }
 .confirm-dialog p { margin: 8px 0 18px; font-size: 12px; line-height: 1.55; color: var(--text-2); }
+.confirm-dialog .confirm-note { margin-top: -10px; font-size: 11px; color: var(--text-muted); }
 .confirm-actions { display: flex; justify-content: flex-end; gap: 8px; }
 .confirm-actions button { padding: 9px 16px; }

@@ -1,22 +1,18 @@
-import { PNG_BASE, PNG_PREVIEW, renderColorArtwork, compositePixels } from './png-shirt.js';
+import { PNG_BASE, PNG_PREVIEW, renderColorArtwork } from './png-shirt.js';
+import { paintArea } from './composite.js';
 import { partIdConfig, matchPartId, countPartPixels, namedPartsOnly, visibleParts } from './kit-edit.js';
 
-const images = new Map();
-const surfaces = new Map();
+
 // Finished kits stay in memory until reload, so revisiting one does not repaint it.
 const renders = new Map(), RENDER_LIMIT = 8;
-/** Load and decode off the main thread, so a large image never freezes the page. */
-async function loadImage(url, failure = 'The high-resolution PNG base could not be loaded. Retry the preview.') {
+/** Decode an image off the main thread (used for the SVG paint). */
+async function loadImage(url, failure) {
   const image = new Image();
   image.decoding = 'async';
   image.src = url;
   try { await image.decode(); }
   catch { throw Error(failure); }
   return image;
-}
-/** Where the 200-unit paint square sits in a square render of `size` pixels. */
-export function paintArea(size) {
-  return {margin: size / 16, span: (size * 7) / 8};
 }
 /** Rasterize kit paint (validated SVG) into an image element. */
 async function paintImage(config) {
@@ -34,44 +30,90 @@ function baseSource(size) {
     ? {path: PNG_PREVIEW.path, width: PNG_PREVIEW.size, height: PNG_PREVIEW.size, x: PNG_PREVIEW.x, y: PNG_PREVIEW.y, span: PNG_PREVIEW.span}
     : {path: PNG_BASE.path, width: PNG_BASE.width, height: PNG_BASE.height, x: PNG_BASE.x, y: PNG_BASE.y, span: PNG_BASE.scale*200};
 }
-async function basePixels(size) {
-  if(surfaces.has(size))return surfaces.get(size);
-  const src=baseSource(size);
-  if(!images.has(src.path))images.set(src.path, loadImage(src.path).catch(error=>{images.delete(src.path);throw error;}));
-  const image=await images.get(src.path);
-  if(image.naturalWidth!==src.width || image.naturalHeight!==src.height)throw Error('The PNG base dimensions do not match the saved master.');
-  const target=canvas(size),ctx=target.getContext('2d',{willReadFrequently:true});
-  const {margin,span}=paintArea(size);
-  ctx.imageSmoothingQuality='high';
-  ctx.drawImage(image,src.x,src.y,src.span,src.span,margin,margin,span,span);
-  const pixels=ctx.getImageData(0,0,size,size);
-  // Cache a small number of display resolutions, never copies per team.
-  if(surfaces.size>=2)surfaces.delete(surfaces.keys().next().value);
-  surfaces.set(size,pixels);
-  return pixels;
+/** Base files are downloaded once (the 2048 copy is preloaded by index.html) and handed to workers. */
+const baseFiles = new Map();
+function baseFile(path) {
+  if (!baseFiles.has(path))
+    baseFiles.set(path, fetch(path)
+      .then((r) => { if (!r.ok) throw Error(); return r.blob(); })
+      .catch(() => { baseFiles.delete(path); throw Error('The high-resolution PNG base could not be loaded. Retry the preview.'); }));
+  return baseFiles.get(path);
 }
 
-/** Compose from the original PNG on demand. Display size never alters the source. */
-export async function renderPngPreview(config,size=1024,{cache=true}={}) {
-  if(!Number.isInteger(size)||size<64||size>4096)throw Error('Invalid preview size');
-  const source=await basePixels(size);
-  if(!config)return source;
-  const key=size+':'+JSON.stringify(config);
-  if(cache&&renders.has(key)){
-    const hit=renders.get(key);
-    renders.delete(key);renders.set(key,hit);
+/**
+ * Two render workers: one for the screen (preview, thumbnails) and one for downloads,
+ * so a long ZIP never delays the preview. Each decodes the base it needs once.
+ */
+const lanes = {};
+function lane(name) {
+  if (lanes[name]) return lanes[name];
+  const worker = new Worker(new URL('./render.worker.js', import.meta.url), {type: 'module'}), pending = new Map();
+  let next = 0;
+  worker.onmessage = ({data}) => {
+    const job = pending.get(data.id);
+    pending.delete(data.id);
+    if (data.error) job.reject(Error(data.error));
+    else job.resolve(data.pixels || data.blob);
+  };
+  worker.onerror = (event) => {
+    event.preventDefault();
+    for (const job of pending.values()) job.reject(Error('The shirt renderer could not start. Reload the page.'));
+    pending.clear();
+    delete lanes[name];
+  };
+  return (lanes[name] = (message, transfer) => new Promise((resolve, reject) => {
+    const id = ++next;
+    pending.set(id, {resolve, reject});
+    worker.postMessage({...message, id}, transfer);
+  }));
+}
+
+/** One render job: the page rasterizes the SVG paint (fast, native); the worker does the rest. */
+async function renderJob(name, config, size, encode) {
+  const base = baseSource(size);
+  const [blob, paint] = await Promise.all([baseFile(base.path), config ? paintBitmap(config, size) : null]);
+  return lane(name)({size, base: {...base, blob}, paint, encode}, paint ? [paint] : []);
+}
+/** The paint at `size` on white (unpainted areas keep the photo unchanged), as a transferable bitmap. */
+async function paintBitmap(config, size) {
+  const image = await paintImage(config), target = new OffscreenCanvas(size, size), ctx = target.getContext('2d');
+  ctx.fillStyle = '#FFFFFF';
+  ctx.fillRect(0, 0, size, size);
+  const {margin, span} = paintArea(size);
+  ctx.drawImage(image, margin, margin, span, span);
+  return target.transferToImageBitmap();
+}
+
+const checkSize = (size) => {
+  if (!Number.isInteger(size) || size < 64 || size > 4096) throw Error('Invalid preview size');
+};
+
+/** Compose from the original PNG on demand, in a worker. Display size never alters the source. */
+export async function renderPngPreview(config, size = 1024, {cache = true} = {}) {
+  checkSize(size);
+  const key = size + ':' + JSON.stringify(config);
+  if (cache && renders.has(key)) {
+    const hit = renders.get(key);
+    renders.delete(key); renders.set(key, hit);
     return hit;
   }
-  const image=await paintImage(config),target=canvas(size),ctx=target.getContext('2d',{willReadFrequently:true});
-  ctx.fillStyle='#FFFFFF';ctx.fillRect(0,0,size,size);
-  const {margin,span}=paintArea(size);
-  ctx.drawImage(image,margin,margin,span,span);
-  const result=new ImageData(compositePixels(source.data,ctx.getImageData(0,0,size,size).data),size,size);
-  if(cache){
-    if(renders.size>=RENDER_LIMIT)renders.delete(renders.keys().next().value);
-    renders.set(key,result);
+  const result = await renderJob('screen', config, size);
+  if (cache) {
+    if (renders.size >= RENDER_LIMIT) renders.delete(renders.keys().next().value);
+    renders.set(key, result);
   }
   return result;
+}
+
+/**
+ * A download: the square render at `size`, centered on a transparent `width` × `height`
+ * canvas and encoded as `type`, all in the download worker.
+ * @param {{type:string, label:string, width:number, height:number}} encode
+ * @returns {Promise<Blob>}
+ */
+export async function renderEncoded(config, size, encode) {
+  checkSize(size);
+  return renderJob('download', config, size, encode);
 }
 
 const PART_MAP_SIZE = 400;

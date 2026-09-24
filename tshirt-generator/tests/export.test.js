@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { EXPORT_SIZES, EXPORT_RATIOS, exportDimensions, exportFilename, zipFilename } from "../src/lib/export.js";
+import { EXPORT_SIZES, EXPORT_RATIOS, EXPORT_FORMATS, exportDimensions, exportFilename, zipFilename } from "../src/lib/export.js";
 
 test("download sizes are the longest side; every shape keeps the shirt square inside", () => {
   assert.deepEqual(EXPORT_SIZES, [128, 256, 512, 1024, 2048, 4096]);
@@ -15,6 +15,13 @@ test("download sizes are the longest side; every shape keeps the shirt square in
       const { width, height } = exportDimensions(size, ratio);
       assert.ok(Math.min(width, height) >= 64 && Math.max(width, height) === size);
     }
+});
+
+test("PNG, WebP and AVIF are offered, each with its own file type", () => {
+  assert.deepEqual(Object.keys(EXPORT_FORMATS), ["png", "webp", "avif"]);
+  assert.equal(EXPORT_FORMATS.avif.type, "image/avif");
+  const item = { country_name: "England", team_name: "Arsenal", team_id: "team_1", kit_season: "2026/27", variant: "home", revision: "r001" };
+  assert.match(exportFilename(item, 1024, "avif", false, "4:5"), /-home-r001-819x1024px\.avif$/);
 });
 
 test("file names carry the exact pixel size, format and shape", () => {

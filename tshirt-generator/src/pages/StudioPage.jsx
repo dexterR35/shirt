@@ -22,7 +22,8 @@ function TeamBadge({ summary }) {
   if (!summary) return null;
   return (
     <span className={`team-badge ${summary.status}`} title={summary.label} aria-label={summary.label}>
-      ★ {summary.rating}
+      <span className="team-badge-star">★</span>
+      {summary.rating}
     </span>
   );
 }
@@ -141,7 +142,15 @@ export default function StudioPage() {
                 ) : (
                   <span className="ready-dot off" aria-hidden="true" />
                 )}
-                <span className="team-monogram">
+                <span
+                  className={`team-monogram ${t.avatar ? "kit-colors" : ""}`}
+                  style={t.avatar && {
+                    background: t.avatar.body,
+                    borderColor: t.avatar.ring,
+                    color: luminance(t.avatar.body) > 0.55 ? "var(--on-light)" : "var(--text)",
+                  }}
+                  title={t.avatar && `${variantLabel(t.avatar.variant)} kit colors`}
+                >
                   {t.name
                     .replace(/^FC |^AS |^AC /, "")
                     .slice(0, 2)

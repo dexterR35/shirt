@@ -394,7 +394,7 @@ test('remaining-42 revisions render with local equipment facts and show drafts a
   expect(external).toEqual([]);
 });
 
-test('the preview zooms with the buttons and Ctrl+scroll only, cannot be dragged, and never repaints',async({page})=>{
+test('the preview zooms with the buttons and Ctrl+scroll, can be dragged only when zoomed in, and never repaints',async({page})=>{
   await setup(page);
   await page.getByRole('button',{name:/Știința Test Romania/}).click();
   const canvas=page.locator('.shirt-image'),level=page.locator('.zoom-controls span');
@@ -403,6 +403,11 @@ test('the preview zooms with the buttons and Ctrl+scroll only, cannot be dragged
   await expect(level).toHaveText('100%');
   await expect(page.getByRole('button',{name:'Center shirt'})).toBeDisabled();
   const stage=await page.locator('.shirt-stage').boundingBox(),cx=stage.x+stage.width/2,cy=stage.y+stage.height/2;
+  const drag=async(dx,dy)=>{await page.mouse.move(cx,cy);await page.mouse.down();await page.mouse.move(cx+dx,cy+dy,{steps:6});await page.mouse.up();};
+  const offset=async()=>(await canvas.evaluate(c=>c.style.transform)).match(/translate\((-?[\d.]+)px, (-?[\d.]+)px\)/).slice(1).map(Number);
+  // At 100% dragging does nothing: the shirt stays centered.
+  await drag(120,60);
+  expect(await canvas.evaluate(c=>c.style.transform)).toBe('translate(0px, 0px) scale(1)');
   // Plain scrolling does not zoom; Ctrl + scroll zooms toward the pointer.
   await page.mouse.move(cx+80,cy);
   await page.mouse.wheel(0,-400);
@@ -413,12 +418,21 @@ test('the preview zooms with the buttons and Ctrl+scroll only, cannot be dragged
   await expect(level).not.toHaveText('100%');
   const zoomed=await canvas.evaluate(c=>c.style.transform);
   expect(zoomed).not.toContain('translate(0px, 0px)');
-  // Dragging does nothing.
-  await page.mouse.move(cx,cy);
-  await page.mouse.down();
-  await page.mouse.move(cx+120,cy+60,{steps:6});
-  await page.mouse.up();
-  expect(await canvas.evaluate(c=>c.style.transform)).toBe(zoomed);
+  // Zoomed in, dragging moves the shirt by exactly the pointer movement.
+  const [x0,y0]=await offset();
+  await drag(120,60);
+  const [x1,y1]=await offset();
+  expect([Math.round(x1-x0),Math.round(y1-y0)]).toEqual([120,60]);
+  // It can never be dragged out of sight: its center stays inside the stage.
+  await drag(5000,5000);
+  const [x2,y2]=await offset(),scale=Number((await level.textContent()).replace('%',''))/100;
+  expect(x2).toBeLessThanOrEqual(stage.width*scale/2+1);
+  expect(y2).toBeLessThanOrEqual(stage.height*scale/2+1);
+  // The arrow keys move it too.
+  await page.locator('.shirt-stage').focus();
+  await page.keyboard.press('ArrowRight');
+  const [x3]=await offset();
+  expect(Math.round(x2-x3)).toBe(40);
   // Buttons, limits and centering.
   for(let i=0;i<12&&await page.getByRole('button',{name:'Zoom in'}).isEnabled();i++)await page.getByRole('button',{name:'Zoom in'}).click();
   await expect(level).toHaveText('400%');
@@ -527,7 +541,7 @@ test('stars review each shirt: 4-5 is perfect, 1-3 opens feedback; badges and re
   await page.getByRole('button',{name:/Leeds United England/}).click();
   await expect(status).toHaveText('Needs changes (sample)');
   await expect(feedback.locator('textarea')).toHaveValue(/shoulder tapes look too thin/);
-  await expect(page.locator('.team-row',{hasText:'Leeds United'}).locator('.team-badge.needs-changes')).toContainText('★ 3');
+  await expect(page.locator('.team-row',{hasText:'Leeds United'}).locator('.team-badge.needs-changes')).toHaveText('★3');
   // An unreviewed shirt: 2 stars opens the feedback box; saving keeps the note.
   await page.getByLabel('Team',{exact:true}).fill('Chelsea');
   await page.getByRole('button',{name:/Chelsea England/}).click();
@@ -626,6 +640,19 @@ test('the collection tray downloads queued kits as sized PNG/WebP files or one Z
   expect(story.suggestedFilename()).toMatch(/chelsea-.*-home-r\d{3}-144x256px\.png$/);
   const storyPng=await fs.readFile(await story.path());
   expect([storyPng.readUInt32BE(16),storyPng.readUInt32BE(20)]).toEqual([144,256]);
+  // AVIF, encoded in the render worker: an AVIF file with the requested size.
+  await tray.getByLabel('Download format').selectOption('avif');
+  await tray.getByRole('button',{name:'Download Chelsea home'}).click();
+  await expect(dialog).toContainText('One AVIF image, 144 × 256 px.');
+  await expect(dialog).toContainText('a tenth of the PNG size');
+  const [avif]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
+  expect(avif.suggestedFilename()).toMatch(/chelsea-.*-home-r\d{3}-144x256px\.avif$/);
+  const avifBytes=await fs.readFile(await avif.path());
+  expect(avifBytes.subarray(4,12).toString()).toBe('ftypavif');
+  const ispe=avifBytes.indexOf('ispe');
+  expect([avifBytes.readUInt32BE(ispe+8),avifBytes.readUInt32BE(ispe+12)]).toEqual([144,256]);
+  // Rendering and encoding ran in workers, not on the page.
+  expect(page.workers().length).toBeGreaterThan(0);
 });
 
 test('catalog tabs show competitions in a sortable, searchable table; selected shirts go to the collection',async({page})=>{

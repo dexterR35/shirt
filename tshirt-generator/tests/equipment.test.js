@@ -17,8 +17,12 @@ test('all 138 workbook identities are mandatory, retain canonical IDs and lead a
   assert.equal(work.length,1470);assert.equal(new Set(work.map(w=>w.task_id)).size,1470);
   assert.ok(work.slice(0,276).every(w=>w.mandatory&&w.requested_season==='2026/27'));
   assert.ok(work.slice(276).every(w=>!w.mandatory));
+  const {names:corrected}=await read('data/team-display-names.json');
   for(const p of priority.teams){
-    assert.equal(manifest.teams.find(t=>t.id===p.team_id).name,p.team_name);
+    // The workbook name is shown unless a documented display-name correction exists; then it stays an alias.
+    const shown=manifest.teams.find(t=>t.id===p.team_id),fix=corrected[p.team_id];
+    if(fix){assert.equal(fix.source_name,p.team_name);assert.equal(shown.name,fix.name);assert.ok(shown.aliases.includes(p.team_name));}
+    else assert.equal(shown.name,p.team_name);
     assert.equal(p.palette_status,'unverified_workbook_context_only');
     assert.deepEqual(work.filter(w=>w.team_id===p.team_id).map(w=>w.variant),['home','away']);
   }
