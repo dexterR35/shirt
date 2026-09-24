@@ -49,14 +49,16 @@ test("all 735 real teams, accent search and responsive layout", async ({
   page,
 }) => {
   await page.goto("/");
-  await expect(page.getByText("735 TEAMS", { exact: true })).toBeVisible();
+  await expect(page.locator(".team-row")).toHaveCount(735);
   await page
     .getByLabel("Country / association")
     .selectOption({ label: "Romania (134)" });
-  await expect(page.getByText("134 TEAMS", { exact: true })).toBeVisible();
+  await expect(page.locator(".team-row")).toHaveCount(134);
   await page.getByLabel("Team", { exact: true }).fill("zzzz-no-result");
   await expect(page.getByText("No teams found")).toBeVisible();
-  await page.getByRole("button", { name: "Reset filters" }).click();
+  await page.getByLabel("Team", { exact: true }).fill("");
+  await page.getByLabel("Country / association").selectOption({ label: "All countries" });
+  await expect(page.locator(".team-row")).toHaveCount(735);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(
     await page.evaluate(
@@ -118,7 +120,7 @@ test("ten selections, no truncation, independent Home/Away and synchronized navi
     "aria-label",
     "Știința Test home shirt",
   );
-  await expect(page.getByRole("button",{name:"ZIP",exact:true})).toBeEnabled();
+  await expect(page.getByRole("button",{name:"ZIP all",exact:true})).toBeEnabled();
   await page
     .getByRole("button", { name: "Remove Știința Test home", exact: true })
     .click();
@@ -259,6 +261,12 @@ test('expanded country catalog applies independent Romanian Home/Away and shows 
   await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
   await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
+  // The plain white base carries a "No preview" label; a ready kit never does.
+  await expect(page.locator('.shirt-stage .no-preview')).toHaveText('No preview');
+  await page.getByLabel('Team',{exact:true}).fill('FCSB');
+  await page.getByRole('button',{name:/FCSB Romania/}).click();
+  await expect(canvas).toHaveAttribute('aria-label','FCSB home shirt');
+  await expect(page.locator('.shirt-stage .no-preview')).toHaveCount(0);
 });
 
 test('equipment details use local JSON and follow selection, collection navigation and edited colors',async({page})=>{
@@ -550,11 +558,11 @@ test('stars review each shirt: 4-5 is perfect, 1-3 opens feedback; badges and re
   await expect(stars.locator('button.on')).toHaveCount(4);
 });
 
-test('the collection tray downloads queued kits as sized PNGs or one ZIP',async({page})=>{
+test('the collection tray downloads queued kits as sized PNG/WebP files or one ZIP, each after a yes/no question',async({page})=>{
   await page.goto('/');
   const tray=page.getByRole('region',{name:'Collection'});
   // Docked bottom-right, collapsed until something is added.
-  await expect(tray.getByRole('button',{name:'ZIP'})).toHaveCount(0);
+  await expect(tray.getByRole('button',{name:'ZIP all'})).toHaveCount(0);
   for(const team of ['Arsenal','Chelsea']){
     await page.getByLabel('Team',{exact:true}).fill(team);
     await page.getByRole('button',{name:new RegExp(`${team} England`)}).click();
@@ -566,24 +574,58 @@ test('the collection tray downloads queued kits as sized PNGs or one ZIP',async(
   expect(Math.round(box.y+box.height)).toBe(vp.height-20);
   await tray.getByLabel('Download size').selectOption('512');
   const fs=await import('node:fs/promises');
-  // One PNG per kit, at the chosen size.
-  const pngs=[];
-  page.on('download',d=>pngs.push(d));
-  await tray.getByRole('button',{name:'Download'}).click();
-  await expect.poll(()=>pngs.length).toBe(2);
-  for(const d of pngs){
+  const dialog=page.getByRole('dialog');
+  const downloads=[];
+  page.on('download',d=>downloads.push(d));
+  // "No" cancels: nothing is downloaded.
+  await tray.getByRole('button',{name:'Download all',exact:true}).click();
+  await expect(dialog).toContainText('Download 2 kits?');
+  await expect(dialog).toContainText('2 separate PNG images, 512 × 512 px each.');
+  await dialog.getByRole('button',{name:'No'}).click();
+  await expect(dialog).toHaveCount(0);
+  // "Yes": one PNG per kit, at the chosen size.
+  await tray.getByRole('button',{name:'Download all',exact:true}).click();
+  await dialog.getByRole('button',{name:'Yes, download'}).click();
+  await expect.poll(()=>downloads.length).toBe(2);
+  for(const d of downloads){
     expect(d.suggestedFilename()).toMatch(/-(home)-r\d{3}-512px\.png$/);
     const png=await fs.readFile(await d.path());
     expect(png.subarray(1,4).toString()).toBe('PNG');
     expect([png.readUInt32BE(16),png.readUInt32BE(20)]).toEqual([512,512]);
   }
+  // One kit on its own, as lossless WebP.
+  await tray.getByLabel('Download format').selectOption('webp');
+  await tray.getByRole('button',{name:'Download Arsenal home'}).click();
+  await expect(dialog).toContainText('Download Arsenal Home?');
+  const [webp]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
+  expect(webp.suggestedFilename()).toMatch(/arsenal-.*-home-r\d{3}-512px\.webp$/);
+  const webpBytes=await fs.readFile(await webp.path());
+  expect(webpBytes.subarray(8,12).toString()).toBe('WEBP');
+  // Lossless: the image chunk is VP8L (lossy would be "VP8 "), inside the extended VP8X container.
+  const chunks=[];
+  for(let at=12;at+8<=webpBytes.length;at+=8+webpBytes.readUInt32LE(at+4)+(webpBytes.readUInt32LE(at+4)&1))chunks.push(webpBytes.subarray(at,at+4).toString());
+  expect(chunks).toContain('VP8L');
+  expect(chunks).not.toContain('VP8 ');
   // Or both in one ZIP.
-  const [zip]=await Promise.all([page.waitForEvent('download'),tray.getByRole('button',{name:'ZIP'}).click()]);
-  expect(zip.suggestedFilename()).toBe('tshirt-kits-2-512px.zip');
+  await tray.getByRole('button',{name:'ZIP all'}).click();
+  await expect(dialog).toContainText('Download 2 kits as one ZIP?');
+  const [zip]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
+  expect(zip.suggestedFilename()).toBe('tshirt-kits-2-512px-webp.zip');
   const bytes=await fs.readFile(await zip.path());
   expect(bytes.subarray(0,2).toString()).toBe('PK');
   expect(bytes.toString('latin1')).toContain('arsenal');
   expect(bytes.toString('latin1')).toContain('chelsea');
+  expect(bytes.toString('latin1')).toContain('512px.webp');
+  // Other shapes and small sizes: 9:16 at 256 px is 144 × 256, the shirt whole and centered.
+  await tray.getByLabel('Download size').selectOption('256');
+  await tray.getByLabel('Image shape').selectOption('9:16');
+  await tray.getByLabel('Download format').selectOption('png');
+  await tray.getByRole('button',{name:'Download Chelsea home'}).click();
+  await expect(dialog).toContainText('One PNG image, 144 × 256 px.');
+  const [story]=await Promise.all([page.waitForEvent('download'),dialog.getByRole('button',{name:'Yes, download'}).click()]);
+  expect(story.suggestedFilename()).toMatch(/chelsea-.*-home-r\d{3}-144x256px\.png$/);
+  const storyPng=await fs.readFile(await story.path());
+  expect([storyPng.readUInt32BE(16),storyPng.readUInt32BE(20)]).toEqual([144,256]);
 });
 
 test('catalog tabs show competitions in a sortable, searchable table; selected shirts go to the collection',async({page})=>{
@@ -607,12 +649,15 @@ test('catalog tabs show competitions in a sortable, searchable table; selected s
   await expect(table.locator('th[aria-sort="descending"]')).toHaveCount(1);
   const names=await table.locator('.cell-team strong').allInnerTexts();
   expect(names).toEqual([...names].sort((a,b)=>b.localeCompare(a)));
-  // Switching tabs changes the competition and clears the selection.
-  await page.getByRole('tab',{name:'Romania'}).click();
+  // Switching competitions in the side list changes the table and clears the selection.
+  await page.getByRole('button',{name:'Romania'}).click();
   const liga=page.getByRole('table',{name:'SuperLiga'});
   await expect(liga.locator('tbody tr')).toHaveCount(32);
   // Shirts that are not ready cannot be selected.
   await expect(liga.locator('tr.unavailable input[type="checkbox"]').first()).toBeDisabled();
+  // Shirts that are not ready show the plain base with a "No preview" label.
+  await expect(liga.locator('tr.unavailable .no-preview').first()).toHaveText('No preview');
+  await expect(liga.locator('tr:not(.unavailable) .no-preview')).toHaveCount(0);
   // Selecting more than the free slots is refused, never truncated.
   await liga.getByRole('checkbox',{name:'Select all'}).check();
   await expect(page.getByRole('button',{name:/^Add \d+ to collection$/})).toBeDisabled();
@@ -643,7 +688,7 @@ test('routes: Studio is one page, catalog tabs have paths, breadcrumbs follow wh
   await page.getByRole('link',{name:/Catalog/}).click();
   await expect(page).toHaveURL(/\/catalog\/england\/premier-league$/);
   await expect(page.locator('.breadcrumb li')).toHaveText(['Catalog','England','Premier League']);
-  await page.getByRole('tab',{name:/EFL Championship/}).click();
+  await page.getByRole('button',{name:/EFL Championship/}).click();
   await expect(page).toHaveURL(/\/catalog\/england\/efl-championship$/);
   await page.goBack();
   await expect(page).toHaveURL(/\/premier-league$/);

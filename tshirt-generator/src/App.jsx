@@ -1,19 +1,24 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router";
 import Icon from "./Icon.jsx";
-import {loadReviews, saveReview, reviewKey, emptyReview, reviewStatus} from "./lib/reviews.js";
+import {loadReviews, saveReview, reviewKey, emptyReview} from "./lib/reviews.js";
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
-import {partAt, visiblePartIds} from "./lib/png-preview.js";
+import {partAt, visiblePartIds, paintArea} from "./lib/png-preview.js";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
-import {loadKit} from "./lib/kit-config.js";
+import {loadKit, loadJson} from "./lib/kit-config.js";
 import {
   filterTeams,
   addToSelection,
   revisionKey,
-  downloadBlob,
+  kitKey,
+  kitItem,
+  hasReadyKit,
+  variantLabel,
+  COLLECTION_LIMIT,
 } from "./lib/catalog.js";
-import {EXPORT_SIZES, renderPng, exportFilename, zipFiles} from "./lib/export.js";
+import {EXPORT_SIZES, EXPORT_FORMATS, EXPORT_RATIOS, exportDimensions, renderImage, exportFilename, zipFilename, zipFiles, downloadBlob} from "./lib/export.js";
+import ConfirmDialog from "./ConfirmDialog.jsx";
 
 const VIEW_KEY = "tshirt-studio:view";
 /** Remember the shown team/variant for this browser tab, so a refresh reopens it. */
@@ -27,20 +32,6 @@ const RAIL_KEY = "tshirt-studio:rail-collapsed";
 function readRailCollapsed() {
   try { return localStorage.getItem(RAIL_KEY) === "1"; } catch { return false; }
 }
-function kitItem(team, variant) {
-  return {
-    ...team.kits[variant],
-    team_id: team.id,
-    team_name: team.name,
-    country_name: team.country_name,
-    variant,
-  };
-}
-const json = async (url, signal) => {
-  const r = await fetch(url, {signal});
-  if (!r.ok) throw Error(`Could not load the local catalog (${r.status}).`);
-  return r.json();
-};
 export default function App() {
   const [catalog, setCatalog] = useState(null),
     [loadError, setLoadError] = useState(""),
@@ -60,8 +51,13 @@ export default function App() {
     [feedback, setFeedback] = useState(""),
     [queueOpen, setQueueOpen] = useState(false),
     [exportSize, setExportSize] = useState(2048),
+    [exportFormat, setExportFormat] = useState("png"),
+    [exportRatio, setExportRatio] = useState("1:1"),
+    // The download waiting for a yes/no answer: {items, asZip}, or null.
+    [pendingDownload, setPendingDownload] = useState(null),
     [exporting, setExporting] = useState(""),
-    [, setSavedVersion] = useState(0),
+    // Saved color edits per kit version (kitKey): kept in memory until the page is refreshed.
+    [savedEdits, setSavedEdits] = useState({}),
     [selection, setSelection] = useState([]),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState(""),
@@ -72,9 +68,7 @@ export default function App() {
     navigate = useNavigate(),
     section = location.pathname.startsWith("/catalog") ? "catalog" : "studio";
   const request = useRef(0),
-    controller = useRef(null),
-    // Saved color edits per kit: kept in memory until the page is refreshed.
-    savedEdits = useRef(new Map());
+    controller = useRef(null);
   const zoom = useZoom();
   // Messages close by themselves after a few seconds.
   useEffect(() => {
@@ -87,7 +81,7 @@ export default function App() {
   }, []);
   useEffect(() => {
     let alive = true;
-    json("/catalog/manifest.json")
+    loadJson("/catalog/manifest.json")
       .then((data) => {
         if (alive) {
           setCatalog(data);
@@ -108,20 +102,19 @@ export default function App() {
       filterTeams(catalog?.teams || [], country, query).sort(
         (a, b) =>
           Number(!!b.mandatory) - Number(!!a.mandatory) ||
-          Number(Object.values(b.kits).some((k) => k.status === "ready")) -
-          Number(Object.values(a.kits).some((k) => k.status === "ready")) ||
+          Number(hasReadyKit(b)) - Number(hasReadyKit(a)) ||
           (a.priority_order ?? 9999) - (b.priority_order ?? 9999),
       ),
     [catalog, country, query],
   );
   const candidate = catalog?.teams.find((t) => t.id === candidateId),
     slot = candidate?.kits[variant];
-  const editKey = active ? `${revisionKey(active)}:${active.png_layout_revision || "original"}` : "base",
+  const editKey = active ? kitKey(active) : "base",
     editBase = useMemo(() => appliedConfig || neutralConfig(), [appliedConfig]),
     allParts = useMemo(() => editableParts(editBase), [editBase]),
     // Hide parts that are fully covered by other paint, e.g. sleeves under a sleeve panel.
     parts = visibleIds ? allParts.filter((p) => visibleIds.has(p.id) || p.id === selectedPart) : allParts,
-    edits = editing ? draft : savedEdits.current.get(editKey) || {},
+    edits = editing ? draft : savedEdits[editKey] || {},
     edited = Object.keys(edits).length > 0;
   const previewConfig = useMemo(() => edited ? applyEdits(editBase, edits) : appliedConfig,
     [appliedConfig, editBase, edited, JSON.stringify(edits)]);
@@ -155,7 +148,7 @@ export default function App() {
     setNotice("");
     saveView({team_id: team.id, variant: v});
     if (team.kits[v].status === "ready") void activate(kitItem(team, v), {syncUrl: false});
-    else master();
+    else showBase();
   }
   async function activate(item, {syncUrl = true} = {}) {
     const sequence = ++request.current;
@@ -189,7 +182,7 @@ export default function App() {
     try {
       setSelection(addToSelection(selection, item));
       setQueueOpen(true);
-      setNotice(candidate.name + " " + variant + " added to your collection.");
+      setNotice(`${candidate.name} ${variantLabel(variant)} added to your collection.`);
     } catch (e) {
       setNotice(e.message);
     }
@@ -211,22 +204,23 @@ export default function App() {
   /** The config a queued kit downloads with: its saved layout plus any saved color edits. */
   async function exportConfig(item) {
     const saved = await loadKit(item);
-    const edits = savedEdits.current.get(`${revisionKey(item)}:${item.png_layout_revision || "original"}`);
+    const edits = savedEdits[kitKey(item)];
     return {config: edits ? applyEdits(saved.config, edits) : saved.config, custom: !!edits};
   }
-  /** Render every queued kit at the chosen size; download them one by one or as one ZIP. */
-  async function downloadQueue(asZip) {
-    if (!selection.length || exporting) return;
-    const files = [];
+  /** Render kits at the chosen size and format; download them one by one or as one ZIP. */
+  async function downloadKits(items, asZip) {
+    if (!items.length || exporting) return;
+    const files = [], size = exportSize, format = exportFormat, ratio = exportRatio, label = EXPORT_FORMATS[format].label;
+    const {width, height} = exportDimensions(size, ratio);
     try {
-      for (const [i, item] of selection.entries()) {
-        setExporting(`Preparing ${i + 1} / ${selection.length}…`);
+      for (const [i, item] of items.entries()) {
+        setExporting(`Preparing ${i + 1} / ${items.length}…`);
         const {config, custom} = await exportConfig(item);
-        files.push({name: exportFilename(item, exportSize, custom), blob: await renderPng(config, exportSize)});
+        files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio)});
       }
       if (asZip) {
         setExporting("Zipping…");
-        downloadBlob(await zipFiles(files), `tshirt-kits-${files.length}-${exportSize}px.zip`);
+        downloadBlob(await zipFiles(files), zipFilename(files.length, size, format, ratio));
       } else {
         // Space the downloads out so the browser accepts each file.
         for (const f of files) {
@@ -234,12 +228,29 @@ export default function App() {
           await new Promise((r) => setTimeout(r, 250));
         }
       }
-      setNotice(`${files.length} kit${files.length > 1 ? "s" : ""} downloaded at ${exportSize} px.`);
+      setNotice(`${files.length} kit${files.length > 1 ? "s" : ""} downloaded as ${label} at ${width} × ${height} px${asZip ? " in one ZIP" : ""}.`);
     } catch (e) {
       setNotice(e.message || "The download could not be prepared.");
     } finally {
       setExporting("");
     }
+  }
+  /** Every download asks first; the answer runs or drops it. */
+  function askDownload(items, asZip) {
+    if (items.length && !exporting) setPendingDownload({items, asZip});
+  }
+  function downloadQuestion({items, asZip}) {
+    const {width, height} = exportDimensions(exportSize, exportRatio);
+    const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
+    const one = n === 1 ? `${items[0].team_name} ${variantLabel(items[0].variant)}` : null;
+    return {
+      title: asZip ? `Download ${n} kit${n > 1 ? "s" : ""} as one ZIP?` : one ? `Download ${one}?` : `Download ${n} kits?`,
+      message: asZip
+        ? `One ZIP file with ${n} ${label} image${n > 1 ? "s" : ""}, ${px} each.`
+        : one
+          ? `One ${label} image, ${px}.`
+          : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
+    };
   }
   function remove(index) {
     const next = selection.filter((_, i) => i !== index);
@@ -247,17 +258,14 @@ export default function App() {
     if (index === selectedIndex && next.length)
       void activate(next[Math.min(index, next.length - 1)]);
   }
-  /** A click in the Studio (team row or Home/Away). */
-  function select(team, v) {
-    show(team, v);
-  }
   function toggleRail() {
     setRailCollapsed((c) => {
       try { localStorage.setItem(RAIL_KEY, c ? "0" : "1"); } catch { /* optional */ }
       return !c;
     });
   }
-  function master() {
+  /** No kit: the plain base (a variant that is not ready never shows another kit). */
+  function showBase() {
     request.current++;
     controller.current?.abort();
     setActive(null);
@@ -269,7 +277,7 @@ export default function App() {
   function startEdit() {
     if (busy) return;
     zoom.center();
-    setDraft({...(savedEdits.current.get(editKey) || {})});
+    setDraft({...(savedEdits[editKey] || {})});
     setSelectedPart(allParts[0]?.id || "");
     setVisibleIds(null);
     setHoverPart(null);
@@ -278,9 +286,7 @@ export default function App() {
   }
   const cancelEdit = useCallback(() => setEditing(false), []);
   function saveEdit() {
-    if (Object.keys(draft).length) savedEdits.current.set(editKey, draft);
-    else savedEdits.current.delete(editKey);
-    setSavedVersion((n) => n + 1);
+    setSavedEdits(({[editKey]: _previous, ...rest}) => (Object.keys(draft).length ? {...rest, [editKey]: draft} : rest));
     setEditing(false);
   }
   /** The editable part painted under the pointer, or null (outside the shirt). */
@@ -293,7 +299,7 @@ export default function App() {
     if (px < 0 || py < 0 || px >= el.width || py >= el.height) return null;
     // Transparent pixels are outside the shirt.
     if (el.getContext("2d").getImageData(Math.floor(px), Math.floor(py), 1, 1).data[3] === 0) return null;
-    const margin = el.width / 16, span = (el.width * 7) / 8;
+    const {margin, span} = paintArea(el.width);
     return partAt(editBase, ((px - margin) / span) * 200, ((py - margin) / span) * 200);
   }
   /** In edit mode, clicking the shirt selects the part painted under the pointer. */
@@ -307,8 +313,8 @@ export default function App() {
   }
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
-    catalog, select, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
-    country, feedback, setFeedback, saveFeedback, reviewStatus, draft, editBase, edited, editing, equipment, filtered, hoverOver,
+    catalog, select: show, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
+    country, feedback, setFeedback, saveFeedback, draft, editBase, edited, editing, equipment, filtered, hoverOver,
     hoverPart, missing, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,
     selectedIndex, selectedPart, selection, setBackground, setCountry, setDraft,
     setHoverPart, setQuery, setSelectedPart, slot, startEdit, updateReview, variant, zoom,
@@ -319,7 +325,7 @@ export default function App() {
         <Icon name="info" size={36} />
         <h1>The studio could not open</h1>
         <p>{loadError}</p>
-        <button className="primary" onClick={() => location.reload()}>
+        <button className="primary" onClick={() => window.location.reload()}>
           Try again
         </button>
       </main>
@@ -336,9 +342,7 @@ export default function App() {
       <header className="header rail">
         <div className="rail-top">
           <Link to="/studio" className="brand" title="T-shirt Generator">
-            <span className="brand-mark">
-              <Icon name="shirt" size={25} />
-            </span>
+            <span className="brand-mark">DT</span>
             <span className="rail-text">
               T-shirt Generator<small>FOOTBALL KIT STUDIO</small>
             </span>
@@ -365,10 +369,6 @@ export default function App() {
             <span className="nav-count rail-text">{catalog.counts.teams}</span>
           </Link>
         </nav>
-        <div className="season-label rail-text">
-          <span className="live-dot" />
-          2026 / 27 COLLECTION
-        </div>
         <button
           className="rail-toggle"
           aria-label={railCollapsed ? "Expand sidebar" : "Collapse sidebar"}
@@ -410,7 +410,7 @@ export default function App() {
           <button className="queue-head" aria-expanded={queueOpen} onClick={() => setQueueOpen((o) => !o)}>
             <Icon name="layers" size={16} />
             <span>Collection</span>
-            <span className="count-pill">{selection.length}/10</span>
+            <span className="count-pill">{selection.length}/{COLLECTION_LIMIT}</span>
             <Icon name={queueOpen ? "down" : "up"} size={15} />
           </button>
           {queueOpen && (
@@ -427,13 +427,23 @@ export default function App() {
                         <span>
                           <strong>{item.team_name}</strong>
                           <small>
-                            {item.variant} · {item.kit_season}
+                            {variantLabel(item.variant)} · {item.kit_season}
                           </small>
                         </span>
                       </button>
                       <button
-                        className="remove"
+                        className="item-action"
+                        aria-label={`Download ${item.team_name} ${item.variant}`}
+                        title="Download this kit"
+                        disabled={!!exporting}
+                        onClick={() => askDownload([item], false)}
+                      >
+                        <Icon name="download" size={14} />
+                      </button>
+                      <button
+                        className="item-action remove"
                         aria-label={`Remove ${item.team_name} ${item.variant}`}
+                        title="Remove from the collection"
                         onClick={() => remove(i)}
                       >
                         <Icon name="close" size={14} />
@@ -442,7 +452,7 @@ export default function App() {
                   ))}
                 </div>
               ) : (
-                <p className="queue-empty">Use “Add to collection” to queue up to 10 kits for download.</p>
+                <p className="queue-empty">Use “Add to collection” to queue up to {COLLECTION_LIMIT} kits for download.</p>
               )}
               <div className="queue-actions">
                 <select
@@ -452,21 +462,54 @@ export default function App() {
                   disabled={!!exporting}
                 >
                   {EXPORT_SIZES.map((size) => (
-                    <option key={size} value={size}>{size} px · PNG</option>
+                    <option key={size} value={size}>{size} px</option>
                   ))}
                 </select>
-                <button className="secondary" disabled={!selection.length || !!exporting} onClick={() => downloadQueue(false)}>
+                <select
+                  aria-label="Image shape"
+                  title={`${EXPORT_RATIOS[exportRatio].name} · the shirt stays whole and centered`}
+                  value={exportRatio}
+                  onChange={(e) => setExportRatio(e.target.value)}
+                  disabled={!!exporting}
+                >
+                  {Object.entries(EXPORT_RATIOS).map(([id, r]) => (
+                    <option key={id} value={id} title={r.name}>{r.label}</option>
+                  ))}
+                </select>
+                <select
+                  aria-label="Download format"
+                  value={exportFormat}
+                  onChange={(e) => setExportFormat(e.target.value)}
+                  disabled={!!exporting}
+                >
+                  {Object.entries(EXPORT_FORMATS).map(([id, f]) => (
+                    <option key={id} value={id}>{f.label}</option>
+                  ))}
+                </select>
+                <button className="secondary" disabled={!selection.length || !!exporting} onClick={() => askDownload(selection, false)}>
                   <Icon name="download" size={15} />
-                  Download
+                  Download all
                 </button>
-                <button className="primary" disabled={!selection.length || !!exporting} onClick={() => downloadQueue(true)}>
-                  ZIP
+                <button className="primary" disabled={!selection.length || !!exporting} onClick={() => askDownload(selection, true)}>
+                  ZIP all
                 </button>
               </div>
               {exporting && <p className="queue-progress" aria-live="polite">{exporting}</p>}
             </div>
           )}
         </section>
+        {pendingDownload && (
+          <ConfirmDialog
+            {...downloadQuestion(pendingDownload)}
+            confirmLabel="Yes, download"
+            onCancel={() => setPendingDownload(null)}
+            onConfirm={() => {
+              const {items, asZip} = pendingDownload;
+              setPendingDownload(null);
+              void downloadKits(items, asZip);
+            }}
+          />
+        )}
       </main>
     </div>
   );

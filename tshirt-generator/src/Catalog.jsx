@@ -1,8 +1,9 @@
 import { useMemo } from "react";
 import DataTable, { selectColumn } from "./DataTable.jsx";
 import KitThumb from "./KitThumb.jsx";
+import Icon from "./Icon.jsx";
+import { COLLECTION_LIMIT, kitItem, revisionKey, variantLabel } from "./lib/catalog.js";
 
-const COLLECTION_LIMIT = 10;
 const EMPTY = [];
 
 /** One row per shirt (team × Home/Away); only ready shirts can be selected. */
@@ -49,60 +50,77 @@ function shirtRows(competition, teamsById, facts) {
         id: `${id}:${variant}`,
         team: team.name,
         country: team.country_name,
-        kit: variant === "home" ? "Home" : "Away",
+        kit: variantLabel(variant),
         season: slot.kit_season || fact?.season || "",
         brand: fact?.brand || "",
         colors: (fact?.colors || []).join(" / "),
         design: fact?.design || "",
         ready,
         status: ready ? "Ready" : "Not ready",
-        item: ready ? { ...slot, team_id: id, team_name: team.name, country_name: team.country_name, variant } : null,
+        item: ready ? kitItem(team, variant) : null,
       };
     });
   });
 }
 
 /**
- * Catalog view: competition group tabs and sub-tabs over the reusable DataTable.
+ * Catalog view: a side list of groups (countries, UEFA) with the open group's
+ * competitions nested under it, and the reusable DataTable beside it.
  * Controlled by the route: `onSelect(groupId, competitionSlug)` changes the URL.
  * Selected ready shirts are added to the collection together.
- * @param {{data:any, group:any, competition:any, teams:any[], collectionSize:number,
+ * Shirts already in the collection are skipped when adding, so they do not use a free slot.
+ * @param {{data:any, group:any, competition:any, teams:any[], collection:any[],
  *   onAdd:(items:any[])=>void, onSelect:(groupId:string, competitionSlug:string)=>void}} props
  */
-export default function Catalog({ data, group, competition, teams, collectionSize, onAdd, onSelect }) {
+export default function Catalog({ data, group, competition, teams, collection, onAdd, onSelect }) {
   const teamsById = useMemo(() => new Map(teams.map((t) => [t.id, t])), [teams]);
   const rows = useMemo(() => shirtRows(competition, teamsById, data.facts), [competition, teamsById, data]);
-  const free = COLLECTION_LIMIT - collectionSize;
+  const inCollection = useMemo(() => new Set(collection.map(revisionKey)), [collection]);
+  const free = COLLECTION_LIMIT - collection.length;
 
   return (
     <section className="catalog">
-      <div className="catalog-tabs" role="tablist" aria-label="Competition groups">
-        {data.groups.map((g) => (
-          <button
-            key={g.id}
-            role="tab"
-            aria-selected={g.id === group.id}
-            className={g.id === group.id ? "active" : ""}
-            onClick={() => onSelect(g.id, g.competitions[0].slug)}
-          >
-            {g.name}
-          </button>
-        ))}
-      </div>
-      <div className="catalog-subtabs" role="tablist" aria-label={`${group.name} competitions`}>
-        {group.competitions.map((c) => (
-          <button
-            key={c.id}
-            role="tab"
-            aria-selected={c.id === competition.id}
-            className={c.id === competition.id ? "active" : ""}
-            onClick={() => onSelect(group.id, c.slug)}
-          >
-            {c.name}
-            <span>{c.team_ids.length}</span>
-          </button>
-        ))}
-      </div>
+      <nav className="catalog-nav" aria-label="Competitions">
+        {data.groups.map((g) => {
+          const open = g.id === group.id;
+          return (
+            <div key={g.id} className={`catalog-group ${open ? "open" : ""}`}>
+              <button
+                className="catalog-group-name"
+                aria-expanded={open}
+                onClick={() => onSelect(g.id, g.competitions[0].slug)}
+              >
+                {g.name}
+                <Icon name="right" size={13} />
+              </button>
+              {open && (
+                <ul>
+                  {g.competitions.map((c) => (
+                    <li key={c.id}>
+                      <button
+                        className={c.id === competition.id ? "active" : ""}
+                        aria-current={c.id === competition.id ? "page" : undefined}
+                        onClick={() => onSelect(g.id, c.slug)}
+                      >
+                        <span>{c.name}</span>
+                        <small>{c.team_ids.length}</small>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          );
+        })}
+      </nav>
+      <div className="catalog-main">
+        <div className="catalog-heading">
+          <small className="eyebrow">{group.name.toUpperCase()}</small>
+          <h3>
+            {competition.name}
+            <span>{competition.team_ids.length} teams · {rows.length} shirts</span>
+          </h3>
+        </div>
       <DataTable
         label={competition.name}
         data={rows}
@@ -113,7 +131,7 @@ export default function Catalog({ data, group, competition, teams, collectionSiz
         searchPlaceholder="Search team, brand, color…"
         emptyText="No shirts match."
         actions={(selected, clear) => {
-          const tooMany = selected.length > free;
+          const tooMany = selected.filter((r) => !inCollection.has(revisionKey(r.item))).length > free;
           return (
             <div className="catalog-actions">
               <span className={tooMany ? "over" : ""}>
@@ -134,6 +152,7 @@ export default function Catalog({ data, group, competition, teams, collectionSiz
           );
         }}
       />
+      </div>
     </section>
   );
 }

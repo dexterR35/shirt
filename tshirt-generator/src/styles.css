@@ -10,30 +10,28 @@
   color-scheme: dark;
 
   /* Backgrounds, darkest to lightest */
-  --bg: #081321;          /* page */
-  --surface-0: #0a1524;   /* sidebar */
-  --surface-1: #0c1827;   /* inputs, wells, workspace */
-  --surface-2: #101e2e;   /* panels, cards, dialogs */
-  --surface-3: #152638;   /* raised: buttons, chips, pills */
-  --surface-4: #1c2f43;   /* hover on raised */
+  --bg: #061224;          /* page */
+  --surface-1: #0b1a2b;   /* cards, panels, inputs, dialogs */
+  --surface-2: #102238;   /* raised and hover: buttons, chips, pills, row hover */
 
   /* Lines */
-  --line: #233246;          /* dividers */
-  --border: #2c3f54;        /* inputs, buttons, cards */
-  --border-strong: #3c5268; /* emphasis, dashed outlines */
+  --line: #182a40;          /* dividers, card borders */
+  --border: #3d5169;        /* inputs, buttons, cards */
+  --border-strong: #4f6582; /* emphasis, dashed outlines */
 
   /* Text */
-  --text: #eef3f8;        /* white text, headings */
-  --text-2: #c9d8e5;      /* light body text */
-  --text-muted: #8fa6ba;  /* soft gray: labels, hints */
-  --text-faint: #65798e;  /* icons, placeholders, disabled */
+  --text: #f6f7fa;        /* primary: white text, headings */
+  --text-2: #a8b3c4;      /* secondary: body text */
+  --text-muted: #9eabc0;  /* labels, hints, icons, placeholders, disabled */
 
   /* Accent: one color, the other tones are derived from it */
-  --accent: #91d8d2;
-  --on-accent: #0c272c;   /* text on an accent background */
-  --accent-muted: color-mix(in srgb, var(--accent) 75%, #0c1827);
-  --accent-line: color-mix(in srgb, var(--accent) 55%, #0c1827);
-  --accent-bg: color-mix(in srgb, var(--accent) 16%, #0c1827);
+  --accent: #2ba0a2;
+  --accent-hover: color-mix(in srgb, var(--accent) 88%, #ffffff);
+  --accent-active: color-mix(in srgb, var(--accent) 82%, #000000);
+  --on-accent: #061224;   /* text on an accent background */
+  --accent-muted: color-mix(in srgb, var(--accent) 75%, #0b1a2b);
+  --accent-line: color-mix(in srgb, var(--accent) 55%, #0b1a2b);
+  --accent-bg: color-mix(in srgb, var(--accent) 16%, #0b1a2b);
   /* Selected / active state, shared by nav, tabs, switches and list rows */
   --selected-bg: color-mix(in srgb, var(--accent) 18%, transparent);
   --selected-line: color-mix(in srgb, var(--accent) 50%, transparent);
@@ -43,6 +41,11 @@
   --danger-line: #6d4a3d;
   --danger-bg: #2a1d19;
   --warn: #c7b584;
+
+  /* Rating stars */
+  --gold: #f5b82e;
+  --gold-line: color-mix(in srgb, var(--gold) 45%, #0b1a2b);
+  --gold-bg: color-mix(in srgb, var(--gold) 14%, #0b1a2b);
 
   /* Effects and special surfaces */
   --shadow: #0009;
@@ -73,13 +76,11 @@ summary {
 button {
   cursor: pointer;
   color: inherit;
+  border: 0;
 }
 button:disabled {
   cursor: not-allowed;
   opacity: 0.36;
-}
-button {
-  border: 0;
 }
 button:focus-visible,
 a:focus-visible,
@@ -136,7 +137,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  background: var(--surface-0);
+  background: var(--surface-1);
   overflow: hidden;
 }
 /* Animate collapsing only where the rail exists (not on phones, where it becomes a top bar). */
@@ -147,6 +148,7 @@ svg {
 .rail-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 43px; }
 .rail-toggle {
   display: flex; align-items: center; gap: 10px; width: 100%; height: 32px; padding: 0 12px;
+  margin-top: auto;
   font-size: 11px; color: var(--text-muted); background: none; border: 1px solid transparent; border-radius: 7px;
 }
 .rail-toggle:hover { color: var(--text); border-color: var(--accent-line); }
@@ -156,7 +158,7 @@ svg {
 .rail-collapsed .account { justify-content: center; padding: 8px 0; }
 .account {
   display: flex; align-items: center; gap: 11px; width: 100%; padding: 10px;
-  text-align: left; color: var(--text-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px;
+  text-align: left; color: var(--text-2); background: var(--surface-1); border: 1px solid var(--line); border-radius: 10px;
 }
 .account:hover { border-color: var(--accent-line); }
 .account-avatar {
@@ -169,10 +171,10 @@ svg {
 /* Breadcrumb mirrors the route. */
 .breadcrumb ol { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 8px; padding: 0; list-style: none; font-size: 11px; }
 .breadcrumb li { display: flex; align-items: center; gap: 6px; color: var(--text-muted); }
-.breadcrumb li + li::before { content: "›"; color: var(--border-strong); }
-.breadcrumb a { color: var(--accent); text-decoration: none; }
-.breadcrumb a:hover { text-decoration: underline; }
-.breadcrumb [aria-current="page"] { color: var(--text); }
+.breadcrumb li + li::before { content: "›"; color: var(--text-muted); }
+.breadcrumb a { color: var(--text-muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--text-2); }
+.breadcrumb [aria-current="page"] { color: var(--text-2); }
 .brand {
   display: flex;
   align-items: center;
@@ -189,8 +191,11 @@ svg {
   border-radius: 12px;
   display: grid;
   place-items: center;
-  background: var(--surface-3);
+  background: var(--surface-2);
   color: var(--accent);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
 }
 .brand small {
   display: block;
@@ -222,7 +227,7 @@ svg {
 }
 .header nav a:hover {
   color: var(--text);
-  background: var(--surface-2);
+  background: var(--surface-1);
 }
 /* Active tabs and selected rows everywhere: a low-opacity accent tint (--selected-*). */
 .header nav a.nav-active {
@@ -245,13 +250,13 @@ svg {
   margin-left: auto;
 }
 .season-label {
-  margin-top: auto;
   font-size: 10px;
   letter-spacing: 1.7px;
   color: var(--text-muted);
   display: flex;
   align-items: center;
   gap: 9px;
+  margin: -4px 0 10px;
 }
 .live-dot {
   width: 5px;
@@ -291,7 +296,7 @@ h1 {
   padding-top: 23px;
 }
 .catalog-summary svg {
-  color: var(--text-faint);
+  color: var(--text-muted);
 }
 .catalog-summary strong {
   color: var(--text-2);
@@ -315,7 +320,7 @@ main {
 }
 .sidebar {
   padding: 23px 20px;
-  background: var(--surface-2);
+  background: var(--surface-1);
   border-right: 1px solid var(--line);
   display: flex;
   flex-direction: column;
@@ -369,27 +374,10 @@ select {
   padding-right: 24px;
 }
 input::placeholder {
-  color: var(--text-faint);
+  color: var(--text-muted);
 }
 input[type="search"]::-webkit-search-cancel-button {
   cursor: pointer;
-}
-.list-label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1px 0 9px;
-  font-size: 8px;
-  color: var(--text-faint);
-  letter-spacing: 1.2px;
-  min-height: 13px;
-}
-.list-label button {
-  background: none;
-  padding: 0;
-  color: var(--accent);
-  letter-spacing: 0;
-  font-size: 10px;
 }
 /* Fills the sidebar and scrolls inside it. contain: size stops 735 rows from
    growing the sidebar (and the page); the other columns decide the height. */
@@ -416,7 +404,7 @@ input[type="search"]::-webkit-search-cancel-button {
   min-height: 52px;
 }
 .team-row:hover {
-  background: var(--surface-4);
+  background: var(--surface-2);
 }
 .team-row.selected {
   background: var(--selected-bg);
@@ -426,7 +414,7 @@ input[type="search"]::-webkit-search-cancel-button {
   width: 30px;
   height: 30px;
   border: 1px solid var(--border);
-  background: var(--surface-3);
+  background: var(--surface-2);
   color: var(--text-muted);
   border-radius: 50%;
   display: grid;
@@ -446,7 +434,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 .team-info strong {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   overflow-wrap: anywhere;
 }
@@ -454,10 +442,10 @@ input[type="search"]::-webkit-search-cancel-button {
   color: var(--text-muted);
   font-size: 9px;
   display: block;
-  margin-top: 4px;
+  margin: 0;
 }
 .team-row > svg {
-  color: var(--text-faint);
+  color: var(--text-muted);
 }
 .team-row.selected > svg {
   color: var(--accent);
@@ -470,6 +458,10 @@ input[type="search"]::-webkit-search-cancel-button {
   background: var(--accent);
   flex-shrink: 0;
 }
+/* In the team list the dot sits in front of the avatar; teams without a ready
+   shirt keep the empty slot so the avatars stay aligned. */
+.team-row .ready-dot { margin-right: -4px; }
+.ready-dot.off { visibility: hidden; }
 .candidate-heading {
   min-width: 0;
 }
@@ -516,8 +508,10 @@ input[type="search"]::-webkit-search-cancel-button {
   justify-content: center;
   gap: 10px;
 }
+.primary:not(:disabled):hover { background: var(--accent-hover); filter: none; }
+.primary:not(:disabled):active { background: var(--accent-active); }
 .primary:disabled {
-  background: var(--text-faint);
+  background: var(--text-muted);
   color: var(--text-2);
   opacity: 0.52;
 }
@@ -574,7 +568,7 @@ input[type="search"]::-webkit-search-cancel-button {
   position: relative;
   min-height: 536px;
   flex: 1;
-  background-color: var(--surface-3);
+  background-color: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 9px;
   overflow: hidden;
@@ -584,12 +578,12 @@ input[type="search"]::-webkit-search-cancel-button {
 /* Preview backgrounds. Transparent shows the usual checkerboard as a marker only
    (downloads stay transparent); white; or a custom color (inline style). */
 .canvas.transparent {
-  background-color: var(--surface-2);
+  background-color: var(--surface-1);
   background-image:
-    linear-gradient(45deg, var(--surface-3) 25%, transparent 25%),
-    linear-gradient(-45deg, var(--surface-3) 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, var(--surface-3) 75%),
-    linear-gradient(-45deg, transparent 75%, var(--surface-3) 75%);
+    linear-gradient(45deg, var(--surface-2) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--surface-2) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--surface-2) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--surface-2) 75%);
   background-size: 24px 24px;
   background-position: 0 0, 0 12px, 12px -12px, -12px 0;
 }
@@ -625,7 +619,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .background-controls button {
   height: 15px;
   width: 15px;
-  border: 1px solid var(--text-faint);
+  border: 1px solid var(--text-muted);
   border-radius: 50%;
   padding: 0;
 }
@@ -637,9 +631,9 @@ input[type="search"]::-webkit-search-cancel-button {
   /* The swatch shows a checker only as a symbol for "transparent". */
   background: conic-gradient(
     var(--border) 25%,
-    var(--text-faint) 25% 50%,
+    var(--text-muted) 25% 50%,
     var(--border) 50% 75%,
-    var(--text-faint) 75%
+    var(--text-muted) 75%
   );
   background-size: 6px 6px;
 }
@@ -651,7 +645,7 @@ input[type="search"]::-webkit-search-cancel-button {
   display: block;
   height: 15px;
   width: 15px;
-  border: 1px solid var(--text-faint);
+  border: 1px solid var(--text-muted);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -675,6 +669,10 @@ input[type="search"]::-webkit-search-cancel-button {
   align-items: center;
   min-height: 0;
   flex: 1;
+  /* Zoom happens inside a full-width band; the header and caption/buttons below stay visible. */
+  position: relative;
+  overflow: hidden;
+  user-select: none;
 }
 .shirt-image {
   height: 100%;
@@ -685,8 +683,6 @@ input[type="search"]::-webkit-search-cancel-button {
   aspect-ratio: 1;
   transition: opacity 0.15s;
 }
-/* Zoom happens inside a full-width band; the header and caption/buttons below stay visible. */
-.shirt-stage { position: relative; overflow: hidden; user-select: none; }
 .shirt-stage .shirt-image { transition: opacity 0.15s, transform 0.12s ease-out; will-change: transform; }
 .zoom-controls {
   position: absolute;
@@ -719,7 +715,7 @@ input[type="search"]::-webkit-search-cancel-button {
   color: var(--text-2);
   font-variant-numeric: tabular-nums;
 }
-.preview-error { position: absolute; inset: 0; display: grid; place-content: center; gap: 14px; padding: 24px; background: var(--surface-2, var(--surface-2)); }
+.preview-error { position: absolute; inset: 0; display: grid; place-content: center; gap: 14px; padding: 24px; background: var(--surface-1); }
 /* Dim only when a kit takes a while to load; quick switches never flash. */
 .shirt-stage[aria-busy="true"] .shirt-image {
   opacity: 0.45;
@@ -770,7 +766,7 @@ input[type="search"]::-webkit-search-cancel-button {
   left: 17px;
   font-size: 7px;
   letter-spacing: 1px;
-  color: var(--text-faint);
+  color: var(--text-muted);
 }
 .preview-actions {
   display: grid;
@@ -782,14 +778,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .review-rating { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; }
 .stars { display: flex; gap: 2px; }
 .stars button { background: none; padding: 2px 3px; font-size: 20px; line-height: 1; color: var(--border); }
-.stars button.on { color: var(--accent); }
-.stars:not(:has(button:disabled)):hover button { color: var(--accent); }
+.stars button.on { color: var(--gold); }
+.stars:not(:has(button:disabled)):hover button { color: var(--gold); }
 .stars:not(:has(button:disabled)) button:hover ~ button { color: var(--border); }
 .feedback-form { margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface-1); }
 .feedback-form label { display: grid; gap: 8px; font-size: 11px; color: var(--text-2); }
-.feedback-form textarea { resize: vertical; padding: 8px 10px; font: inherit; font-size: 12px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border-strong); border-radius: 6px; }
+.feedback-form textarea { resize: vertical; padding: 8px 10px; font: inherit; font-size: 12px; color: var(--text); background: var(--surface-1); border: 1px solid var(--border-strong); border-radius: 6px; }
 .feedback-form textarea:focus { outline: 1px solid var(--accent); }
-.feedback-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 10px; }
+.feedback-actions { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin-top: 10px; }
 .feedback-actions button { padding: 7px 12px; }
 .pager {
   display: flex;
@@ -799,7 +795,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .pager button {
   width: 29px;
   height: 29px;
-  background: var(--surface-3);
+  background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 5px;
   display: grid;
@@ -811,7 +807,7 @@ input[type="search"]::-webkit-search-cancel-button {
   color: var(--text-2);
 }
 .pager > span > span {
-  color: var(--text-faint);
+  color: var(--text-muted);
 }
 .details-panel {
   padding: 25px 20px;
@@ -899,11 +895,13 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-top: 5px;
   text-transform: capitalize;
 }
-.collection-item .remove {
+.collection-item .item-action {
   background: none;
   padding: 6px;
   color: var(--text-muted);
 }
+.collection-item .item-action:not(:disabled):hover { color: var(--text); }
+.collection-item .item-action.remove { margin-right: 2px; }
 .empty-results {
   text-align: center;
   padding: 50px 5px;
@@ -1038,10 +1036,12 @@ input[type="search"]::-webkit-search-cancel-button {
   }
   .header nav {
     flex-direction: row;
+    gap: 18px;
   }
   .header nav a {
     width: auto;
     padding: 8px 10px;
+    font-size: 11px;
   }
   .header nav a > svg {
     display: none;
@@ -1058,16 +1058,7 @@ input[type="search"]::-webkit-search-cancel-button {
     font-size: 7px;
     letter-spacing: 1.5px;
   }
-  .header nav {
-    gap: 18px;
-  }
-  .header nav a {
-    font-size: 11px;
-  }
   .header nav .nav-count {
-    display: none;
-  }
-  .season-label {
     display: none;
   }
   main {
@@ -1113,6 +1104,7 @@ input[type="search"]::-webkit-search-cancel-button {
   }
   .preview-panel {
     overflow: visible;
+    padding: 20px 14px;
   }
   .team-list {
     flex: none;
@@ -1121,9 +1113,6 @@ input[type="search"]::-webkit-search-cancel-button {
   }
   .section-title {
     margin-bottom: 18px;
-  }
-  .preview-panel {
-    padding: 20px 14px;
   }
   .canvas {
     min-height: 490px;
@@ -1179,7 +1168,7 @@ input[type="search"]::-webkit-search-cancel-button {
   position: fixed; z-index: 30; top: 110px; right: 24px;
   width: 300px; max-height: calc(100vh - 140px);
   display: flex; flex-direction: column;
-  background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
   box-shadow: 0 18px 60px var(--shadow);
 }
 .modal-head { display: flex; align-items: center; justify-content: space-between; padding: 16px 18px 10px; cursor: grab; user-select: none; touch-action: none; }
@@ -1197,7 +1186,7 @@ input[type="search"]::-webkit-search-cancel-button {
   padding: 7px 9px; text-align: left; font-size: 11px;
   color: var(--text-2); background: none; border: 1px solid transparent; border-radius: 7px;
 }
-.part-option:hover { background: var(--surface-3); }
+.part-option:hover { background: var(--surface-2); }
 .part-option.selected { border-color: var(--selected-line); background: var(--selected-bg); color: var(--text); }
 .swatch { width: 18px; height: 18px; flex: none; border-radius: 5px; border: 1px solid var(--swatch-ring); }
 .changed-dot { margin-left: auto; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
@@ -1216,7 +1205,7 @@ input[type="search"]::-webkit-search-cancel-button {
 /* Collection: a download queue docked bottom-right, like a browser download tray. */
 .queue {
   position: fixed; z-index: 25; right: 20px; bottom: 20px; width: 320px;
-  background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
   box-shadow: 0 18px 60px var(--shadow);
 }
 .queue-head {
@@ -1229,7 +1218,9 @@ input[type="search"]::-webkit-search-cancel-button {
 .queue-body { padding: 0 12px 12px; border-top: 1px solid var(--line); }
 .queue .collection-list { max-height: 300px; margin: 10px 0; }
 .queue-empty { font-size: 11px; line-height: 1.6; color: var(--text-muted); margin: 12px 2px; }
-.queue-actions { display: grid; grid-template-columns: 1fr auto auto; gap: 6px; }
+.queue-actions { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.queue-actions select { grid-column: span 2; }
+.queue-actions button { grid-column: span 3; }
 .queue-actions select {
   min-width: 0; padding: 0 8px; height: 34px; font: inherit; font-size: 11px;
   color: var(--text); background: var(--surface-1); border: 1px solid var(--border-strong); border-radius: 6px;
@@ -1241,33 +1232,46 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 /* Team review badge in the team list: average stars of the Home and Away shirt reviews,
-   one accent style for every status. */
+   one gold style for every status. */
 .team-badge {
   display: inline-flex; align-items: center; gap: 4px; flex: none;
   padding: 2px 6px; border-radius: 9px; font-size: 9px; line-height: 1.4;
-  color: var(--accent); background: var(--accent-bg); border: 1px solid var(--accent-line);
+  color: var(--gold); background: var(--gold-bg); border: 1px solid var(--gold-line);
   font-variant-numeric: tabular-nums;
 }
 
-/* Catalog: competition tabs and the reusable data table. */
-.catalog { border: 1px solid var(--line); border-radius: 14px; background: var(--surface-1); padding: 20px 22px 24px; }
+/* Catalog: a side list of groups (countries, UEFA) with the open group's competitions
+   nested under it, and the reusable data table beside it. */
+.catalog {
+  display: grid; grid-template-columns: 220px minmax(0, 1fr);
+  border: 1px solid var(--line); border-radius: 14px; background: var(--surface-1); overflow: hidden;
+}
 .catalog-message { color: var(--text-muted); font-size: 13px; padding: 30px 0; }
-.catalog-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
-.catalog-tabs button {
-  padding: 8px 14px; font-size: 12px; color: var(--text-2); background: var(--surface-2);
-  border: 1px solid var(--border); border-radius: 8px;
+.catalog-nav { padding: 16px 12px; border-right: 1px solid var(--line); overflow: auto; }
+.catalog-group + .catalog-group { margin-top: 2px; }
+.catalog-group-name {
+  display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 9px 10px;
+  font-size: 10px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase;
+  color: var(--text-muted); background: none; border-radius: 7px;
 }
-.catalog-tabs button:hover { color: var(--text); }
-.catalog-tabs button.active { color: var(--text); background: var(--selected-bg); border-color: var(--selected-line); font-weight: 600; }
-.catalog-subtabs { display: flex; flex-wrap: wrap; gap: 2px; margin: 16px 0 14px; border-bottom: 1px solid var(--line); }
-.catalog-subtabs button {
-  display: inline-flex; align-items: center; gap: 7px; padding: 10px 12px; margin-bottom: -1px;
-  font-size: 12px; color: var(--text-muted); background: none; border-bottom: 2px solid transparent; border-radius: 0;
+.catalog-group-name:hover { color: var(--text-2); background: var(--surface-2); }
+.catalog-group-name > svg { color: var(--text-muted); transition: transform 0.15s; }
+.catalog-group.open .catalog-group-name { color: var(--text); }
+.catalog-group.open .catalog-group-name > svg { transform: rotate(90deg); color: var(--text-muted); }
+.catalog-group ul { list-style: none; margin: 2px 0 10px; padding: 0 0 0 10px; }
+.catalog-group li button {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+  padding: 8px 10px; font-size: 12px; text-align: left; color: var(--text-2); background: none;
+  border-left: 2px solid var(--line); border-radius: 0 7px 7px 0;
 }
-.catalog-subtabs button span { font-size: 9px; padding: 1px 6px; border-radius: 8px; background: var(--surface-3); color: var(--text-muted); }
-.catalog-subtabs button { border-radius: 7px 7px 0 0; }
-.catalog-subtabs button.active { color: var(--text); background: var(--selected-bg); border-bottom-color: var(--accent); font-weight: 600; }
-.catalog-subtabs button.active span { color: var(--accent); }
+.catalog-group li button:hover { color: var(--text); background: var(--surface-2); }
+.catalog-group li button small { font-size: 10px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.catalog-group li button.active { color: var(--text); font-weight: 600; background: var(--selected-bg); border-left-color: var(--accent); }
+.catalog-group li button.active small { color: var(--accent); }
+.catalog-main { min-width: 0; padding: 20px 22px 24px; }
+.catalog-heading { margin-bottom: 16px; }
+.catalog-heading h3 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; font-size: 15px; margin-top: 4px; font-weight: 550; }
+.catalog-heading h3 span { font-size: 11px; font-weight: 400; color: var(--text-muted); }
 .catalog-actions { display: flex; align-items: center; gap: 12px; margin-left: auto; font-size: 11px; color: var(--text-muted); }
 .catalog-actions .over { color: var(--danger); }
 .catalog-actions button { padding: 9px 14px; }
@@ -1282,11 +1286,11 @@ input[type="search"]::-webkit-search-cancel-button {
 .data-table table { width: 100%; border-collapse: collapse; font-size: 12px; }
 .data-table th {
   position: sticky; top: 0; z-index: 1; text-align: left; padding: 10px; font-size: 10px; font-weight: 600;
-  letter-spacing: 0.6px; text-transform: uppercase; color: var(--text-muted); background: var(--surface-2); border-bottom: 1px solid var(--line);
+  letter-spacing: 0.6px; text-transform: uppercase; color: var(--text-muted); background: var(--surface-1); border-bottom: 1px solid var(--line);
 }
-.data-table td { padding: 6px 10px; color: var(--text-2); border-bottom: 1px solid var(--surface-3); vertical-align: middle; }
+.data-table td { padding: 6px 10px; color: var(--text-2); border-bottom: 1px solid var(--surface-2); vertical-align: middle; }
 .data-table tr.selected td { background: var(--selected-bg); }
-.data-table tr.unavailable td { color: var(--text-faint); }
+.data-table tr.unavailable td { color: var(--text-muted); }
 .data-table input[type="checkbox"] { width: 15px; height: 15px; accent-color: var(--accent); cursor: pointer; }
 .data-table input[type="checkbox"]:disabled { cursor: default; opacity: 0.35; }
 .sort-button { display: inline-flex; align-items: center; gap: 5px; padding: 0; background: none; font: inherit; color: inherit; text-transform: inherit; letter-spacing: inherit; }
@@ -1297,9 +1301,17 @@ input[type="search"]::-webkit-search-cancel-button {
 .cell-team small { font-size: 10px; color: var(--text-muted); }
 .cell-status { font-size: 11px; color: var(--text-muted); }
 .cell-status.ready { color: var(--accent); }
-.kit-thumb { display: block; width: 52px; height: 52px; border-radius: 6px; background: var(--surface-3); }
+.kit-thumb-wrap { position: relative; display: block; width: 52px; height: 52px; }
+.kit-thumb { display: block; width: 52px; height: 52px; border-radius: 6px; background: var(--surface-2); }
 .kit-thumb[data-state="ready"] { background: none; }
-.kit-thumb.empty { opacity: 0.4; }
+/* "No preview": centered on the plain white base when a kit is not ready (Studio stage and catalog thumbnails). */
+.no-preview {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;
+  padding: 7px 14px; border-radius: 20px; white-space: nowrap; pointer-events: none;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.4px; color: var(--text-2);
+  background: var(--surface-1); border: 1px solid var(--border); box-shadow: 0 6px 20px var(--shadow-soft);
+}
+.kit-thumb-wrap .no-preview { padding: 2px 5px; font-size: 7px; letter-spacing: 0; border-radius: 6px; box-shadow: none; }
 
 /* Studio fits exactly in the screen on laptops and desktops: no page scroll.
    The team list scrolls inside its section, and the shirt canvas takes whatever
@@ -1324,21 +1336,37 @@ input[type="search"]::-webkit-search-cancel-button {
 .view-option {
   position: relative; display: flex; flex-direction: column; align-items: center; gap: 3px;
   width: 58px; padding: 5px 4px 4px; font-size: 9px; color: var(--text-muted);
-  background: var(--surface-2); border: 1px solid var(--border); border-radius: 7px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 7px;
 }
 .view-option:not(:disabled):hover { color: var(--text); border-color: var(--accent-line); }
 .view-option.active { color: var(--text); border-color: var(--selected-line); background: var(--selected-bg); }
 .view-option:disabled { opacity: 0.55; cursor: default; }
-.view-option > svg { width: 40px; height: 40px; padding: 6px; color: var(--text-faint); }
+.view-option > svg { width: 40px; height: 40px; padding: 6px; color: var(--text-muted); }
 .view-thumb { display: block; width: 40px; height: 40px; }
 .view-option small {
   position: absolute; top: 3px; right: 3px; padding: 0 3px; font-size: 7px; letter-spacing: 0.3px;
-  color: var(--text-muted); background: var(--surface-3); border-radius: 3px;
+  color: var(--text-muted); background: var(--surface-2); border-radius: 3px;
 }
 
 /* Review status next to the stars: derived from the rating. */
 .review-status { font-size: 10px; color: var(--text-muted); white-space: nowrap; padding-left: 3px; }
 .review-status.perfect { color: var(--accent); font-weight: 600; }
 .review-status.needs-changes { color: var(--danger); font-weight: 600; }
-.feedback-actions { align-items: center; }
 .feedback-actions span { margin-right: auto; font-size: 10px; color: var(--text-muted); }
+
+@media (max-width: 900px) {
+  .catalog { grid-template-columns: 1fr; }
+  .catalog-nav { border-right: 0; border-bottom: 1px solid var(--line); max-height: 260px; }
+}
+
+/* Blocking yes/no question (ConfirmDialog), e.g. before a download. */
+.confirm-dialog {
+  width: min(380px, calc(100vw - 32px)); padding: 22px 22px 18px; color: var(--text);
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: 0 18px 60px var(--shadow);
+}
+.confirm-dialog::backdrop { background: var(--shadow-soft); }
+.confirm-dialog h2 { font-size: 15px; font-weight: 600; }
+.confirm-dialog p { margin: 8px 0 18px; font-size: 12px; line-height: 1.55; color: var(--text-2); }
+.confirm-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.confirm-actions button { padding: 9px 16px; }

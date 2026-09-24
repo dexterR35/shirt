@@ -4,6 +4,7 @@ import { renderShirt, neutralConfig } from "../src/lib/shirt-renderer.js";
 import { validatePngLayout } from "../src/lib/png-layout.js";
 import { buildTeamEquipment } from "./research/build-team-equipment.mjs";
 import { equipmentForKit } from "../src/lib/equipment.js";
+import { loadDisplayNames } from "./team-display-names.mjs";
 const {teams: equipmentTeams, priority} = await buildTeamEquipment();
 const read = async (f) => JSON.parse(await fs.readFile(f, "utf8"));
 const teams = await read("data/normalized/teams.json"),
@@ -90,12 +91,12 @@ for (const file of (await fs.readdir("data/research/discovery")).filter((f) =>
   if (typeof r.response === "string" && r.response.length > 100)
     r.tasks.forEach((t) => searched.add(t.id));
 }
+const displayName = await loadDisplayNames(teams);
 const manifestTeams = teams.map((t) => ({
   id: t.id,
-  name: t.name,
+  ...displayName(t),
   country_id: t.country_id,
   country_name: t.country_name,
-  aliases: t.aliases,
   mandatory: equipmentTeams.get(t.id).mandatory,
   priority_order: equipmentTeams.get(t.id).priority_order,
   equipment_path: `/catalog/teams/${t.id}.json`,

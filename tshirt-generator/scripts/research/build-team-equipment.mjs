@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
+import {loadDisplayNames} from '../team-display-names.mjs';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const save=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
 
@@ -17,6 +18,7 @@ export function releaseDateISO(value){
 /** Offline materialization. Never fetch live data during build or app use. */
 export async function buildTeamEquipment(){
   const teams=await read('data/normalized/teams.json');
+  const displayName=await loadDisplayNames(teams);
   const priority=await read('data/research/priority-teams.json');
   const provenance=await read('data/research/footballkitarchive/equipment-fields-provenance.json');
   const gaps=await read('data/research/footballkitarchive/mandatory-gaps.json');
@@ -40,7 +42,7 @@ export async function buildTeamEquipment(){
   await fs.mkdir('data/teams',{recursive:true});
   for(const team of teams){
     const p=priority.teams.find(p=>p.team_id===team.id);
-    const data={schemaVersion:1,team_id:team.id,team_name:team.name,country_name:team.country_name,
+    const data={schemaVersion:1,team_id:team.id,team_name:displayName(team).name,country_name:team.country_name,
       mandatory:!!p,priority_order:p?.priority_order??null,requested_season:p?.requested_season??null,
       other_season_references:['home','away'].map(v=>records.get(`${team.id}:${v}`)).filter(r=>r&&p&&r.kit_season!==p.requested_season).map(r=>({variant:r.variant,season:r.kit_season,page_url:r.page_url,record_path:`data/research/footballkitarchive/records/${r.task_id}.json`,note:'Does not satisfy the strict 2026/27 request; retained as research context only.'})),
       kits:Object.fromEntries(['home','away'].map(variant=>{

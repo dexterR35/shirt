@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import Icon from "./Icon.jsx";
 
 /**
- * The same two-row header on every page: breadcrumb (mirrors the route), then title.
+ * Shared page header: breadcrumb, title, then the season line.
  * Crumbs with `to` are links; the last crumb is the current page.
  * @param {{crumbs:{label:string,to?:string}[], title:string, counts?:{teams:number,countries:number}}} props
  */
@@ -27,6 +27,10 @@ export default function PageHeader({ crumbs, title, counts }) {
           </ol>
         </nav>
         <h1>{title}</h1>
+        <div className="season-label">
+          <span className="live-dot" />
+          2026 / 27 COLLECTION
+        </div>
       </div>
       {counts && (
         <div className="catalog-summary">

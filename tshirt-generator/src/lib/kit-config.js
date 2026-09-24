@@ -1,11 +1,8 @@
 import { kitPreviewConfig } from "./png-layout.js";
 import { equipmentForKit } from "./equipment.js";
+import { kitKey } from "./catalog.js";
 
 const kits = new Map();
-
-/** One key per exact kit version: team, variant, revision and PNG layout. */
-export const kitKey = (item) =>
-  `${item.team_id}:${item.variant}:${item.revision}:${item.png_layout_revision || "original"}`;
 
 export async function loadJson(url, signal) {
   const r = await fetch(url, { signal });

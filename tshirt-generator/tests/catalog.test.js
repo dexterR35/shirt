@@ -7,6 +7,10 @@ import {
   addToSelection,
   revisionKey,
   assetFilename,
+  kitItem,
+  kitKey,
+  hasReadyKit,
+  COLLECTION_LIMIT,
 } from "../src/lib/catalog.js";
 const teams = JSON.parse(
   await fs.readFile("data/normalized/teams.json", "utf8"),
@@ -72,4 +76,28 @@ test("every ready kit revision keeps its locked paint configuration", async () =
     const hash = crypto.createHash("sha256").update(JSON.stringify(revision.config)).digest("hex");
     assert.equal(hash, lock[file], `${file} changed; create a new revision instead`);
   }
+});
+
+test("kit items carry their team; the kit key adds the PNG layout to the revision key", () => {
+  const team = { id: "team_x", name: "X", country_name: "Y", kits: { home: { status: "ready", revision: "r002", png_layout_revision: "p001" }, away: { status: "missing" } } };
+  const item = kitItem(team, "home");
+  assert.deepEqual(item, { status: "ready", revision: "r002", png_layout_revision: "p001", team_id: "team_x", team_name: "X", country_name: "Y", variant: "home" });
+  assert.equal(revisionKey(item), "team_x:home:r002");
+  assert.equal(kitKey(item), "team_x:home:r002:p001");
+  assert.equal(kitKey({ ...item, png_layout_revision: undefined }), "team_x:home:r002:original");
+  assert.ok(hasReadyKit(team));
+  assert.ok(!hasReadyKit({ kits: { home: { status: "missing" }, away: { status: "blocked" } } }));
+  assert.equal(COLLECTION_LIMIT, 10);
+});
+
+test("display-name corrections change the shown name only; the source name stays searchable", async () => {
+  const { names } = JSON.parse(await fs.readFile("data/team-display-names.json", "utf8"));
+  const manifest = JSON.parse(await fs.readFile("public/catalog/manifest.json", "utf8"));
+  for (const [id, entry] of Object.entries(names)) {
+    assert.equal(teams.find((t) => t.id === id).name, entry.source_name, "source data is preserved");
+    const shown = manifest.teams.find((t) => t.id === id);
+    assert.equal(shown.name, entry.name);
+    assert.deepEqual(filterTeams(manifest.teams, "", entry.source_name).map((t) => t.id), [id]);
+  }
+  assert.equal(manifest.teams.find((t) => t.id === "team_d509272aaa60d5a5b7dc").name, "FC Köln");
 });

@@ -7,7 +7,8 @@ import Modal from "../Modal.jsx";
 import PartHighlight from "../PartHighlight.jsx";
 import EquipmentCard from "../EquipmentCard.jsx";
 import PageHeader from "../PageHeader.jsx";
-import { teamReviewSummary } from "../lib/reviews.js";
+import { teamReviewSummary, reviewStatus } from "../lib/reviews.js";
+import { hasReadyKit, variantLabel } from "../lib/catalog.js";
 import { ZOOM_MIN, ZOOM_MAX } from "../lib/use-zoom.js";
 
 /** Relative luminance (0–1) of a #rrggbb color, to keep caption text readable. */
@@ -44,7 +45,6 @@ export default function StudioPage() {
     feedback,
     setFeedback,
     saveFeedback,
-    reviewStatus,
     editBase,
     edited,
     editing,
@@ -79,12 +79,15 @@ export default function StudioPage() {
     zoom,
   } = ctx;
   const [view, setView] = useState("front");
+  // Paging moves between collection kits; it does nothing when the only kit is already shown.
+  const canPage = selection.length > 1 || (selection.length === 1 && selectedIndex < 0);
+  const status = reviewStatus(review);
   const crumbs = [{ label: "Studio", to: "/studio" }];
   if (candidate)
     crumbs.push(
       { label: candidate.country_name },
       { label: candidate.name },
-      { label: variant === "home" ? "Home" : "Away" },
+      { label: variantLabel(variant) },
     );
   return (
     <>
@@ -125,19 +128,6 @@ export default function StudioPage() {
               onChange={(e) => setQuery(e.target.value)}
             />
           </div>
-          <div className="list-label">
-            <span>{filtered.length} TEAMS</span>
-            {(query || country) && (
-              <button
-                onClick={() => {
-                  setQuery("");
-                  setCountry("");
-                }}
-              >
-                Reset filters
-              </button>
-            )}
-          </div>
           <div className="team-list" aria-label="Teams">
             {filtered.map((t) => (
               <button
@@ -146,6 +136,11 @@ export default function StudioPage() {
                 onClick={() => ctx.select(t, "home")}
                 aria-pressed={candidateId === t.id}
               >
+                {hasReadyKit(t) ? (
+                  <span className="ready-dot" title="A kit is ready" />
+                ) : (
+                  <span className="ready-dot off" aria-hidden="true" />
+                )}
                 <span className="team-monogram">
                   {t.name
                     .replace(/^FC |^AS |^AC /, "")
@@ -160,9 +155,6 @@ export default function StudioPage() {
                   </small>
                 </span>
                 <TeamBadge summary={teamReviewSummary(t, reviews)} />
-                {Object.values(t.kits).some((k) => k.status === "ready") ? (
-                  <span className="ready-dot" title="A kit is ready" />
-                ) : null}
                 {candidateId === t.id ? (
                   <Icon name="check" size={16} />
                 ) : (
@@ -194,10 +186,7 @@ export default function StudioPage() {
                   onClick={() => ctx.select(candidate, v)}
                   className={variant === v ? "active" : ""}
                 >
-                  {v === "home" ? "Home" : "Away"}
-                  {candidate?.kits[v].status === "ready" && (
-                    <span className="ready-dot" />
-                  )}
+                  {variantLabel(v)}
                 </button>
               ))}
             </div>
@@ -269,6 +258,7 @@ export default function StudioPage() {
                 label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
               />
               {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
+              {missing && <span className="no-preview">No preview</span>}
             </div>
             <div className="canvas-caption">
               <span className="caption-kicker">
@@ -287,9 +277,9 @@ export default function StudioPage() {
               </h2>
               <p>
                 {active
-                  ? active.variant === "home" ? "Home" : "Away"
+                  ? variantLabel(active.variant)
                   : missing
-                    ? `${variant === "home" ? "Home" : "Away"} kit not available yet`
+                    ? `${variantLabel(variant)} kit not available yet`
                     : "Original highlights, fabric folds, and transparent edges."}
               </p>
               {!active && !missing && (
@@ -381,12 +371,12 @@ export default function StudioPage() {
                   </button>
                 ))}
               </div>
-              <div className={`review-status ${reviewStatus(review)}`} aria-live="polite">
+              <div className={`review-status ${status}`} aria-live="polite">
                 {!review
                   ? ""
-                  : reviewStatus(review) === "perfect"
+                  : status === "perfect"
                     ? `✓ Perfect${review.sample ? " (sample)" : ""}`
-                    : reviewStatus(review) === "needs-changes"
+                    : status === "needs-changes"
                       ? `Needs changes${review.sample ? " (sample)" : ""}`
                       : "Not rated yet"}
               </div>
@@ -394,7 +384,7 @@ export default function StudioPage() {
             <div className="pager">
               <button
                 aria-label="Previous kit"
-                disabled={selection.length < 2}
+                disabled={!canPage}
                 onClick={() =>
                   activate(
                     selection[
@@ -414,7 +404,7 @@ export default function StudioPage() {
               </span>
               <button
                 aria-label="Next kit"
-                disabled={!selection.length}
+                disabled={!canPage}
                 onClick={() =>
                   activate(
                     selection[(selectedIndex + 1) % selection.length],
@@ -426,7 +416,7 @@ export default function StudioPage() {
             </div>
             <span aria-hidden="true" />
           </div>
-          {reviewStatus(review) === "needs-changes" && (
+          {status === "needs-changes" && (
             <div className="feedback-form">
               <label>
                 What needs to change on this shirt?

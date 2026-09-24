@@ -6,13 +6,22 @@ const surfaces = new Map();
 // Finished kits stay in memory until reload, so revisiting one does not repaint it.
 const renders = new Map(), RENDER_LIMIT = 8;
 /** Load and decode off the main thread, so a large image never freezes the page. */
-async function loadImage(url) {
+async function loadImage(url, failure = 'The high-resolution PNG base could not be loaded. Retry the preview.') {
   const image = new Image();
   image.decoding = 'async';
   image.src = url;
   try { await image.decode(); }
-  catch { throw Error('The high-resolution PNG base could not be loaded. Retry the preview.'); }
+  catch { throw Error(failure); }
   return image;
+}
+/** Where the 200-unit paint square sits in a square render of `size` pixels. */
+export function paintArea(size) {
+  return {margin: size / 16, span: (size * 7) / 8};
+}
+/** Rasterize kit paint (validated SVG) into an image element. */
+async function paintImage(config) {
+  const url = URL.createObjectURL(new Blob([renderColorArtwork(config)], {type: 'image/svg+xml'}));
+  try { return await loadImage(url, 'The kit colors could not be drawn. Retry the preview.'); } finally { URL.revokeObjectURL(url); }
 }
 function canvas(size) {
   const result=document.createElement('canvas');
@@ -32,7 +41,7 @@ async function basePixels(size) {
   const image=await images.get(src.path);
   if(image.naturalWidth!==src.width || image.naturalHeight!==src.height)throw Error('The PNG base dimensions do not match the saved master.');
   const target=canvas(size),ctx=target.getContext('2d',{willReadFrequently:true});
-  const margin=size/16,span=size*7/8;
+  const {margin,span}=paintArea(size);
   ctx.imageSmoothingQuality='high';
   ctx.drawImage(image,src.x,src.y,src.span,src.span,margin,margin,span,span);
   const pixels=ctx.getImageData(0,0,size,size);
@@ -44,7 +53,7 @@ async function basePixels(size) {
 
 /** Compose from the original PNG on demand. Display size never alters the source. */
 export async function renderPngPreview(config,size=1024,{cache=true}={}) {
-  if(!Number.isInteger(size)||size<256||size>4096)throw Error('Invalid preview size');
+  if(!Number.isInteger(size)||size<64||size>4096)throw Error('Invalid preview size');
   const source=await basePixels(size);
   if(!config)return source;
   const key=size+':'+JSON.stringify(config);
@@ -53,30 +62,24 @@ export async function renderPngPreview(config,size=1024,{cache=true}={}) {
     renders.delete(key);renders.set(key,hit);
     return hit;
   }
-  const url=URL.createObjectURL(new Blob([renderColorArtwork(config)],{type:'image/svg+xml'}));
-  try {
-    const image=await loadImage(url),target=canvas(size),ctx=target.getContext('2d',{willReadFrequently:true});
-    ctx.fillStyle='#FFFFFF';ctx.fillRect(0,0,size,size);
-    const margin=size/16,span=size*7/8;
-    ctx.drawImage(image,margin,margin,span,span);
-    const result=new ImageData(compositePixels(source.data,ctx.getImageData(0,0,size,size).data),size,size);
-    if(cache){
-      if(renders.size>=RENDER_LIMIT)renders.delete(renders.keys().next().value);
-      renders.set(key,result);
-    }
-    return result;
-  } finally {URL.revokeObjectURL(url);}
+  const image=await paintImage(config),target=canvas(size),ctx=target.getContext('2d',{willReadFrequently:true});
+  ctx.fillStyle='#FFFFFF';ctx.fillRect(0,0,size,size);
+  const {margin,span}=paintArea(size);
+  ctx.drawImage(image,margin,margin,span,span);
+  const result=new ImageData(compositePixels(source.data,ctx.getImageData(0,0,size,size).data),size,size);
+  if(cache){
+    if(renders.size>=RENDER_LIMIT)renders.delete(renders.keys().next().value);
+    renders.set(key,result);
+  }
+  return result;
 }
 
 const PART_MAP_SIZE = 400;
 let partMap = null;
 async function idPixels(idConfig) {
-  const url = URL.createObjectURL(new Blob([renderColorArtwork(idConfig)], {type: 'image/svg+xml'}));
-  try {
-    const image = await loadImage(url), target = canvas(PART_MAP_SIZE), ctx = target.getContext('2d', {willReadFrequently: true});
-    ctx.drawImage(image, 0, 0, PART_MAP_SIZE, PART_MAP_SIZE);
-    return ctx.getImageData(0, 0, PART_MAP_SIZE, PART_MAP_SIZE).data;
-  } finally { URL.revokeObjectURL(url); }
+  const image = await paintImage(idConfig), target = canvas(PART_MAP_SIZE), ctx = target.getContext('2d', {willReadFrequently: true});
+  ctx.drawImage(image, 0, 0, PART_MAP_SIZE, PART_MAP_SIZE);
+  return ctx.getImageData(0, 0, PART_MAP_SIZE, PART_MAP_SIZE).data;
 }
 /** Hidden flat render where every editable part has its own ID color. */
 async function partMapFor(config) {
@@ -109,7 +112,7 @@ function accentRgb() {
 export async function drawPartHighlight(overlay, shirt, config, selectedId, hoverId) {
   const map = await partMapFor(config), S = PART_MAP_SIZE;
   // The shirt's own transparency at map resolution, so outlines also follow the silhouette.
-  const margin = shirt.width / 16, span = (shirt.width * 7) / 8;
+  const {margin, span} = paintArea(shirt.width);
   const alphaCanvas = canvas(S), actx = alphaCanvas.getContext('2d', {willReadFrequently: true});
   actx.drawImage(shirt, margin, margin, span, span, 0, 0, S, S);
   const alpha = actx.getImageData(0, 0, S, S).data;

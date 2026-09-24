@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shirt Render Pipeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@600;750&display=swap" rel="stylesheet">
+<style>
+  /* Same tokens as src/styles.css, so the page matches the studio. */
+  :root {
+    --bg: #061224; --surface-1: #0b1a2b; --surface-2: #102238;
+    --line: #182a40; --border: #3d5169;
+    --text: #f6f7fa; --text-2: #a8b3c4; --text-muted: #8491a5;
+    --accent: #2ba0a2; --gold: #f5b82e;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.6 "DM Sans", sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 40px 16px 64px; }
+  .eyebrow { font-size: 10px; letter-spacing: 1.8px; font-weight: 600; color: var(--text-muted); }
+  h1 { font: 750 32px/1.15 Manrope, sans-serif; letter-spacing: -1px; margin: 8px 0 10px; }
+  h2 { font: 600 17px/1.3 Manrope, sans-serif; margin: 0 0 12px; }
+  p.lead { color: var(--text-2); max-width: 760px; margin: 0; }
+  section { margin-top: 28px; padding: 22px; background: var(--surface-1); border: 1px solid var(--line); border-radius: 14px; }
+  .diagram { overflow-x: auto; }
+  .diagram pre.mermaid { margin: 0; background: none; text-align: center; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 10px; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; }
+  td { color: var(--text-2); }
+  td strong { color: var(--text); font-weight: 600; }
+  .table-scroll { overflow-x: auto; }
+  ul { margin: 0; padding-left: 18px; color: var(--text-2); }
+  li + li { margin-top: 6px; }
+  li strong { color: var(--text); }
+  code { font-size: 12px; color: var(--accent); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="eyebrow">T-SHIRT GENERATOR · HOW A KIT IS MADE</span>
+  <h1>From the base photo to the download</h1>
+  <p class="lead">The shirt photo (<code>base.png</code>) is never traced or redrawn. Each kit is validated SVG
+    <em>paint</em> that gets multiplied into the photo's pixels, so the fabric folds, highlights and transparent
+    edges stay exactly as photographed. The preview and every download use the same composite.</p>
+
+  <section>
+    <h2>Pipeline, start to end</h2>
+    <div class="diagram">
+<pre class="mermaid">
+flowchart TB
+  subgraph S1["1 · Base photo (build time)"]
+    direction TB
+    A["base.png<br/>8000 × 5000 PNG master<br/>SHA-256 checked"]
+    B["npm run base:prepare<br/>(sharp)"]
+    C["source-#lt;hash#gt;.png<br/>unchanged 8K master<br/>(renders above 2048)"]
+    D["preview-2048-#lt;hash#gt;.webp<br/>3858 px square crop → 2048<br/>lanczos3 · lossless WebP"]
+    A --> B
+    B --> C
+    B --> D
+  end
+
+  subgraph S2["2 · Kit data (research)"]
+    direction TB
+    R["Football Kit Archive<br/>front reference photo"]
+    K["Kit config JSON<br/>6 colors · rect / polygon / path layers<br/>clips: body, sleeves, all"]
+    L["PNG layout revision p00x<br/>shoulders · collar · cuffs<br/>fitted to this photo"]
+    M["npm run catalog:build<br/>validate · lock hashes<br/>→ public/catalog"]
+    R -->|"observed colors & shapes<br/>(no logos, sponsors, text)"| K
+    K --> L
+    L --> M
+  end
+
+  subgraph S3["3 · Paint (browser)"]
+    direction TB
+    V["loadKit + validateConfig<br/>reject anything malformed"]
+    E["Optional color edits<br/>(Edit dialog, kept in memory)"]
+    SV["renderColorArtwork<br/>paint-only SVG, 200 × 200 units<br/>collar clipped to the sewn neckline"]
+    RP["Rasterize SVG on white<br/>square canvas · margin size/16<br/>paint span 7/8 of size"]
+    V --> E
+    E --> SV
+    SV --> RP
+  end
+
+  subgraph S4["4 · Composite"]
+    direction TB
+    BP["Base pixels at the same size<br/>≤ 2048 → WebP copy<br/>&gt; 2048 → 8K master<br/>smoothing: high · downscale only"]
+    X["compositePixels<br/>RGB = photo × paint ÷ 255<br/>alpha = photo alpha (unchanged)"]
+    BP --> X
+  end
+
+  subgraph S5["5 · Output"]
+    direction TB
+    P["Studio preview<br/>1024–2048 px canvas<br/>last 8 renders cached"]
+    T["Catalog thumbnails<br/>256 px, 2 at a time"]
+    O["Download size<br/>512 · 1024 · 2048 · 4096"]
+    F{"Format"}
+    PNG["PNG<br/>lossless"]
+    WEBP["WebP quality 1<br/>lossless VP8L (Chromium)<br/>smaller file, same pixels"]
+    Q{"Yes / No<br/>confirmation"}
+    ONE["Single file<br/>(one kit or each kit)"]
+    ZIP["One ZIP<br/>stored, not recompressed"]
+    O --> F
+    F --> PNG
+    F --> WEBP
+    PNG --> Q
+    WEBP --> Q
+    Q -->|"per kit / all"| ONE
+    Q -->|"ZIP all"| ZIP
+  end
+
+  C --> BP
+  D --> BP
+  M --> V
+  RP --> X
+  X --> P
+  X --> T
+  X --> O
+
+  classDef source fill:#102238,stroke:#2ba0a2,color:#f6f7fa
+  classDef data fill:#102238,stroke:#3d5169,color:#f6f7fa
+  classDef paint fill:#0b1a2b,stroke:#2ba0a2,color:#f6f7fa
+  classDef out fill:#0b1a2b,stroke:#f5b82e,color:#f6f7fa
+  class A,B,C,D source
+  class R,K,L,M data
+  class V,E,SV,RP,BP,X paint
+  class P,T,O,F,PNG,WEBP,Q,ONE,ZIP out
+</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>How one pixel is made</h2>
+    <div class="diagram">
+<pre class="mermaid">
+flowchart LR
+  photo["Photo pixel<br/>RGB (fabric shade) + alpha (edge)"]
+  paint["Paint pixel<br/>kit color at the same spot<br/>(white where nothing is painted)"]
+  mul["Multiply RGB<br/>photo × paint ÷ 255"]
+  keep["Keep photo alpha<br/>edges stay soft, background stays transparent"]
+  result["Kit pixel<br/>kit color with the photo's folds and light"]
+  photo --> mul
+  paint --> mul
+  photo --> keep
+  mul --> result
+  keep --> result
+  classDef n fill:#102238,stroke:#2ba0a2,color:#f6f7fa
+  class photo,paint,mul,keep,result n
+</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sizes and where their pixels come from</h2>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>Render</th><th>Canvas</th><th>Shirt area</th><th>Base source</th><th>Source pixels across the shirt</th><th>Scaling</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Thumbnail</strong></td><td>256 px</td><td>224 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.11</td></tr>
+        <tr><td><strong>Download 512</strong></td><td>512 px</td><td>448 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.22</td></tr>
+        <tr><td><strong>Download 1024 / preview</strong></td><td>1024 px</td><td>896 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.44</td></tr>
+        <tr><td><strong>Download 2048 / sharp screens</strong></td><td>2048 px</td><td>1,792 px</td><td>2048 WebP copy</td><td>2,047</td><td>down ×0.88</td></tr>
+        <tr><td><strong>Download 4096</strong></td><td>4096 px</td><td>3,584 px</td><td>8K PNG master</td><td>3,856</td><td>down ×0.93</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section class="grid" style="background:none;border:0;padding:0">
+    <section style="margin:0">
+      <h2>Why quality is kept</h2>
+      <ul>
+        <li><strong>Never enlarged.</strong> Every size, including 4096, scales the photo down, so no detail is invented.</li>
+        <li><strong>Lossless at every step.</strong> The master PNG, the lossless WebP screen copy, PNG downloads and WebP at quality 1 (VP8L).</li>
+        <li><strong>The fabric isn't redrawn.</strong> Shading and edges come straight from the photo; only the color is multiplied in.</li>
+        <li><strong>Paint is vector.</strong> The SVG paint is rasterized fresh at each size, so stripes and trims stay crisp.</li>
+        <li><strong>A ZIP doesn't recompress.</strong> Images are stored as they are, so it doesn't lose quality or waste time.</li>
+      </ul>
+    </section>
+    <section style="margin:0">
+      <h2>Where it lives in the code</h2>
+      <ul>
+        <li><code>scripts/prepare-png-base.mjs</code>: master copy and the 2048 WebP crop</li>
+        <li><code>scripts/build-catalog.mjs</code>: validates kits and layouts, writes <code>public/catalog</code></li>
+        <li><code>src/lib/png-shirt.js</code>: paint SVG (<code>renderColorArtwork</code>) and <code>compositePixels</code></li>
+        <li><code>src/lib/png-preview.js</code>: base pixels, rasterizing and render cache</li>
+        <li><code>src/lib/export.js</code>: sizes, PNG/WebP encoding, file names, ZIP</li>
+        <li><code>src/App.jsx</code>: collection, yes/no question, batch downloads</li>
+      </ul>
+    </section>
+  </section>
+</main>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "base",
+    flowchart: { curve: "basis", padding: 12 },
+    themeVariables: {
+      fontFamily: "DM Sans, sans-serif", fontSize: "13px",
+      background: "#061224", primaryColor: "#102238", primaryTextColor: "#f6f7fa",
+      primaryBorderColor: "#3d5169", lineColor: "#8491a5", textColor: "#a8b3c4",
+      clusterBkg: "#081626", clusterBorder: "#182a40", edgeLabelBackground: "#0b1a2b",
+    },
+  });
+</script>
+</body>
+</html>

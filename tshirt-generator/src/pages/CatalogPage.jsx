@@ -42,7 +42,7 @@ export default function CatalogPage() {
     <>
       <PageHeader
         crumbs={crumbs}
-        title="Every competition. Every shirt."
+        title="Pick a league. Build your ten."
         counts={catalog.counts}
       />
       {error ? (
@@ -55,7 +55,7 @@ export default function CatalogPage() {
           group={group}
           competition={competition}
           teams={catalog.teams}
-          collectionSize={selection.length}
+          collection={selection}
           onAdd={addMany}
           onSelect={(g, c) => navigate(`/catalog/${g}/${c}`)}
         />

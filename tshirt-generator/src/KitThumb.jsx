@@ -19,20 +19,25 @@ function schedule(task) {
   });
 }
 
-/** Small shirt picture for a ready kit, rendered only once its row scrolls into view. */
+/**
+ * Small shirt picture, rendered only once its row scrolls into view. A shirt that is
+ * not ready (`item` null) shows the plain white base with a "No preview" label.
+ */
 export default function KitThumb({ item, label }) {
   const ref = useRef(null),
     [state, setState] = useState("idle");
   useEffect(() => {
     const el = ref.current;
-    if (!el || !item) return;
+    if (!el) return;
     let alive = true;
     const observer = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) return;
       observer.disconnect();
       setState("loading");
       schedule(async () => {
-        const { config } = await loadKit(item);
+        // Skip rows that left the table (e.g. another competition) while waiting.
+        if (!alive) return;
+        const config = item ? (await loadKit(item)).config : null;
         const pixels = await renderPngPreview(config, SIZE, { cache: false });
         if (!alive) return;
         el.width = el.height = SIZE;
@@ -46,6 +51,10 @@ export default function KitThumb({ item, label }) {
       observer.disconnect();
     };
   }, [item]);
-  if (!item) return <span className="kit-thumb empty" aria-hidden="true" />;
-  return <canvas ref={ref} className="kit-thumb" data-state={state} role="img" aria-label={label} />;
+  return (
+    <span className="kit-thumb-wrap">
+      <canvas ref={ref} className="kit-thumb" data-state={state} role="img" aria-label={item ? label : `${label}: no preview yet`} />
+      {!item && <span className="no-preview" aria-hidden="true">No preview</span>}
+    </span>
+  );
 }

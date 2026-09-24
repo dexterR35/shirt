@@ -9,6 +9,8 @@
  * Supabase calls; the record shape stays the same.
  */
 
+import { kitKey } from "./catalog.js";
+
 const SEED_URL = "/reviews/kit-reviews.json";
 const STORAGE_KEY = "tshirt-studio:reviews";
 export const PERFECT_FROM = 4;
@@ -23,8 +25,7 @@ export function reviewStatus(review) {
  *   rating:number|null, notes:string, reviewed_by:string, reviewed_at:string|null, sample?:boolean}} KitReview */
 
 /** Key of the exact kit version shown: team, variant, revision and PNG layout. */
-export const reviewKey = (item) =>
-  `${item.team_id}:${item.variant}:${item.revision}:${item.png_layout_revision || "original"}`;
+export const reviewKey = kitKey;
 
 /** Runtime validation: reject anything that is not a well-formed review. */
 export function validateReview(r) {
