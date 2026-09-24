@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_a4c6e08fa0022644187d",
+  "team_name": "Athens Kallithea",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-greece-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy with four narrow groups of fine pale-blue vertical lines and broad pale-blue sleeve ends; navy neckline. Source polo flaps/placket omitted on the fixed round collar. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_a4c6e08fa0022644187d-home-504101.jpg",
+      "page_url": "https://www.footballkitarchive.com/athens-kallithea-2026-27-home-kit-504101/",
+      "sha256": "f6e3d825fd361642b7dad26a74a5fac983f5401227472f9a41d056e0a1c9de2f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1D2C59",
+      "leftSleeve": "#1D2C59",
+      "rightSleeve": "#1D2C59",
+      "collar": "#1A2E49",
+      "leftCuff": "#B4DCEC",
+      "rightCuff": "#B4DCEC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1A2E49",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1D2C59",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 63,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 64.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 66,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 67.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 88.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 91.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 112.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 115.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 136.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      },
+      {
+        "type": "rect",
+        "x": 139.5,
+        "y": 0,
+        "width": 0.3,
+        "height": 200,
+        "fill": "#829DBA",
+        "clip": "body",
+        "opacity": 0.65
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 67.6C24 72.2 36 77.5 44.5 76.6Q48 76.7 49.2 68.5L52 106H5Z",
+        "fill": "#B4DCEC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#749DBD",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 67.6C176 72.2 164 77.5 155.5 76.6Q152 76.7 150.8 68.5L148 106H195Z",
+        "fill": "#B4DCEC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#749DBD",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

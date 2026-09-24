@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2c71f0a2a811872fd4f5",
+  "team_name": "Sporting Gijón",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-sporting-de-gijon-2026-27-home-kit-492834/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/afXjhAQFEg6ZNSz/real-sporting-de-gijon-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2c71f0a2a811872fd4f5-home-492834.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#EEEFE8",
+      "leftSleeve": "#EEEFE8",
+      "rightSleeve": "#EEEFE8",
+      "collar": "#C0272D",
+      "leftCuff": "#BF2C2D",
+      "rightCuff": "#BF2C2D"
+    }
+  },
+  "observations": "White with four broad red torso stripes and red/white sleeves, red neckline edged gold and red/ivory/gold cuff lines. On-person photo proportions adapted to the common front. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with four broad red torso stripes and red/white sleeves, red neckline edged gold and red/ivory/gold cuff lines. On-person photo proportions adapted to the common front. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2c71f0a2a811872fd4f5-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEFE8",
+      "leftSleeve": "#EEEFE8",
+      "rightSleeve": "#EEEFE8",
+      "collar": "#C0272D",
+      "leftCuff": "#BF2C2D",
+      "rightCuff": "#BF2C2D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C0272D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.087 2.391L77 2Q100 7 123 2L123.913 2.391C127.652 25.043 72.348 25.043 76.087 2.391Z",
+          "fill": "#D8BC7A",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEFE8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 25,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 108,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 134,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 163,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#C3292D",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#BF2C2D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#F1E6C8",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.19999999999999C24 79.8 36 85.1 44.5 84.19999999999999Q48 84.3 49.2 76.1L52 106H5Z",
+        "fill": "#C7A56A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#F0E9D4",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#BF2C2D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#F1E6C8",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.19999999999999C176 79.8 164 85.1 155.5 84.19999999999999Q152 84.3 150.8 76.1L148 106H195Z",
+        "fill": "#C7A56A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#F0E9D4",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

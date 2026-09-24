@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d50f4ea338ca317977ab",
+  "team_name": "Las Palmas",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Yellow with a broad blue chest band, yellow neckline and thin blue/yellow cuff and hem bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d50f4ea338ca317977ab-home-493421.jpg",
+      "page_url": "https://www.footballkitarchive.com/ud-las-palmas-2026-27-home-kit-493421/",
+      "sha256": "01f9c9ee9f471af81423dd90f5a1f26e04366fb8c38cc03287e4c60745c00120"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDCE12",
+      "leftSleeve": "#EDCE12",
+      "rightSleeve": "#EDCE12",
+      "collar": "#EDCE12",
+      "leftCuff": "#1C5894",
+      "rightCuff": "#1C5894"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDCE12",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDCE12",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 51,
+        "width": 102,
+        "height": 37,
+        "fill": "#174F89",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 197,
+        "width": 102,
+        "height": 3,
+        "fill": "#185490",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#1C5894",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#EFD33C",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#1C5894",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#EFD33C",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

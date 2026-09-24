@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Lavender with broad white vertical stripes across front/sleeves, lavender neckline edged ivory and white/lavender cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_0e11fbdc4219c0d82598-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Estrella Galicia",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_0e11fbdc4219c0d82598-home-496511.jpg",
-  "image_sha256": "0cc155a4eb6947f3206a85139844abdedc63cb98cc29fcff5a4f21afe32c44e5"
+  "image_sha256": "0cc155a4eb6947f3206a85139844abdedc63cb98cc29fcff5a4f21afe32c44e5",
+  "artwork_revision_path": "data/kits/team_0e11fbdc4219c0d82598-home-r001.json"
 }

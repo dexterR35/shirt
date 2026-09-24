@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6ad512d4b31375ef7264",
+  "team_name": "FC Andorra",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-andorra-2026-27-away-kit-494832/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/01/gBZ2nZ2VyFphhyq/fc-andorra-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6ad512d4b31375ef7264-away-494832.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F0F0EA",
+      "leftSleeve": "#F0F0EA",
+      "rightSleeve": "#F0F0EA",
+      "collar": "#174B90",
+      "leftCuff": "#F0F0EA",
+      "rightCuff": "#F0F0EA"
+    }
+  },
+  "observations": "White with off-center red vertical stripe edged thin gold on wearer-left, blue neckline and white sleeves. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with off-center red vertical stripe edged thin gold on wearer-left, blue neckline and white sleeves. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6ad512d4b31375ef7264-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0EA",
+      "leftSleeve": "#F0F0EA",
+      "rightSleeve": "#F0F0EA",
+      "collar": "#174B90",
+      "leftCuff": "#F0F0EA",
+      "rightCuff": "#F0F0EA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#174B90",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0EA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#DA3025",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 1,
+        "height": 200,
+        "fill": "#DFBF32",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 1,
+        "height": 200,
+        "fill": "#DDBB36",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8f9bc7af6d254258f499",
+  "team_name": "Olympiacos B",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-greece-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Warm off-white, burgundy neckline/shoulder bands and fine muted-gold/red cuff edging. Independent reserve-team Away evidence, without first-team substitution. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8f9bc7af6d254258f499-away-520625.jpg",
+      "page_url": "https://www.footballkitarchive.com/olympiacos-fc-b-2026-27-away-kit-520625/",
+      "sha256": "196c906ecc2e82bf7a6b7af3bd6c8523dd95a657cb6df549c875b1b11c71a059"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E8E9DE",
+      "leftSleeve": "#E8E9DE",
+      "rightSleeve": "#E8E9DE",
+      "collar": "#B81C26",
+      "leftCuff": "#AAA05F",
+      "rightCuff": "#AAA05F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B81C26",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#A99D5D",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E8E9DE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            49,
+            13
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            30,
+            28.5
+          ],
+          [
+            49,
+            14.5
+          ],
+          [
+            75,
+            4.5
+          ]
+        ],
+        "fill": "#A91D24",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            151,
+            13
+          ],
+          [
+            169,
+            27
+          ],
+          [
+            170,
+            28.5
+          ],
+          [
+            151,
+            14.5
+          ],
+          [
+            125,
+            4.5
+          ]
+        ],
+        "fill": "#A91D24",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6
+          ],
+          [
+            49,
+            16
+          ],
+          [
+            31,
+            30
+          ],
+          [
+            30,
+            31.5
+          ],
+          [
+            49,
+            17.5
+          ],
+          [
+            75,
+            7.5
+          ]
+        ],
+        "fill": "#A91D24",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6
+          ],
+          [
+            151,
+            16
+          ],
+          [
+            169,
+            30
+          ],
+          [
+            170,
+            31.5
+          ],
+          [
+            151,
+            17.5
+          ],
+          [
+            125,
+            7.5
+          ]
+        ],
+        "fill": "#A91D24",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#AAA05F",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#BA2028",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#AAA05F",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#BA2028",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

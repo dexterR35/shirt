@@ -4,8 +4,8 @@
   "team_name": "Burgos",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9814acaefc40ad378f02-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/burgos-cf-2026-27-away-kit-489957/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/02/g8erN59e4EEypFW/burgos-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9814acaefc40ad378f02-away-489957.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#191B19",
+      "leftSleeve": "#191B19",
+      "rightSleeve": "#191B19",
+      "collar": "#171A18",
+      "leftCuff": "#AD9343",
+      "rightCuff": "#AD9343"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with very fine gold neckline/cuff edging; large gold sponsor and manufacturer marks omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9814acaefc40ad378f02-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_71b41722f5a3191e41f6.json",
+    "source_kit_id": "489957"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

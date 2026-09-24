@@ -33,14 +33,14 @@ export function contours(mask,w,h){
  * dark/light modes remove slow illumination with a local average. Color modes
  * use a channel contrast to separate ink from cloth; fills are chosen separately.
  */
-export async function tracePatch({reference,box,width=240,mode='dark',threshold=8,blur=10,min=0,max=255,close=0,exclude=[]}){
+export async function tracePatch({reference,box,width=240,mode='dark',threshold=8,blur=10,min=0,max=255,close=0,exclude=[],bandHeight=8}){
   const pipeline=sharp(reference).extract({left:box[0],top:box[1],width:box[2],height:box[3]}).resize({width}).removeAlpha().toColourspace('srgb');
   const {data,info}=await pipeline.clone().blur(.5).raw().toBuffer({resolveWithObject:true});
   const local=await pipeline.clone().blur(blur).raw().toBuffer();
   let mask=new Uint8Array(info.width*info.height);
   for(let i=0;i<mask.length;i++){
     const r=data[i*3],g=data[i*3+1],b=data[i*3+2],lum=(r+g+b)/3,mean=(local[i*3]+local[i*3+1]+local[i*3+2])/3;
-    const value=mode==='dark'?mean-lum:mode==='light'?lum-mean:mode==='blue'?b-r:mode==='green'?g-r:mode==='red'?r-g:mode==='yellow'?(r+g)/2-b:mode==='value'?lum:mode==='inverse'?255-lum:0;
+    const value=mode==='dark'?mean-lum:mode==='light'?lum-mean:mode==='blue'?b-r:mode==='green'?g-r:mode==='red'?r-g:mode==='yellow'?(r+g)/2-b:mode==='yellow-light'?Math.min((r+g)/2-b,2*(lum-mean)):mode==='value'?lum:mode==='inverse'?255-lum:0;
     mask[i]=value>threshold&&lum>=min&&lum<=max?1:0;
   }
   // Optional small binary closing reconnects broken printed strokes without
@@ -64,8 +64,9 @@ export async function tracePatch({reference,box,width=240,mode='dark',threshold=
   // Independent narrow bands keep every outer contour and its holes in the
   // same SVG path, even when a large print needs several validated layers.
   const groups=[];
-  for(let y=0;y<info.height;y+=8){
-    const h=Math.min(8,info.height-y);
+  if(!Number.isInteger(bandHeight)||bandHeight<1||bandHeight>8)throw Error('Invalid trace band height');
+  for(let y=0;y<info.height;y+=bandHeight){
+    const h=Math.min(bandHeight,info.height-y);
     groups.push(contours(mask.slice(y*info.width,(y+h)*info.width),info.width,h).map(p=>p.map(([x,yy])=>[x,yy+y])));
   }
   return {width:info.width,height:info.height,groups,ink_pixels:mask.reduce((a,b)=>a+b,0)};

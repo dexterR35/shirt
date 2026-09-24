@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White, burgundy neckline and cuffs with two burgundy shoulder lines. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_e81502918bac333d6b0a-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Globalcaja",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_e81502918bac333d6b0a-home-497836.jpg",
-  "image_sha256": "c6acecbb596cb674a774eb5fcd21323f710f5e5c88831f119bad47904a5f7892"
+  "image_sha256": "c6acecbb596cb674a774eb5fcd21323f710f5e5c88831f119bad47904a5f7892",
+  "artwork_revision_path": "data/kits/team_e81502918bac333d6b0a-home-r001.json"
 }

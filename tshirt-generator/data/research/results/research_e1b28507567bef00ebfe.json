@@ -4,8 +4,8 @@
   "team_name": "AD Ceuta",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_da4e4e1865d8e1bfe82a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ad-ceuta-2026-27-away-kit-500427/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/01/XnEgFWXFT8D6Hm8/ad-ceuta-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_da4e4e1865d8e1bfe82a-away-500427.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Purple",
+      "Black",
+      "Pink"
+    ],
+    "values": {
+      "body": "#3F3A56",
+      "leftSleeve": "#3F3A56",
+      "rightSleeve": "#3F3A56",
+      "collar": "#292737",
+      "leftCuff": "#302D40",
+      "rightCuff": "#302D40"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Purple/near-black split front with fine lilac vertical pinstripes, purple sleeves, pale-purple piping and cuff/collar edging. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_da4e4e1865d8e1bfe82a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e1b28507567bef00ebfe.json",
+    "source_kit_id": "500427"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

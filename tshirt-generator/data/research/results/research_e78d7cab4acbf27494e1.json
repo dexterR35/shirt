@@ -4,8 +4,8 @@
   "team_name": "Córdoba",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_abcbe5774b6ad94b2e37-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cordoba-cf-2026-27-away-kit-492276/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/02/r5tnWXJwH080dfu/cordoba-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_abcbe5774b6ad94b2e37-away-492276.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#222520",
+      "leftCuff": "#B4913D",
+      "rightCuff": "#B4913D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with gold inner sleeve/underarm inserts and fine gold neck/cuff bands. Gold city-map lines mapped from clean lower front, retaining the larger road topology while reducing tiny streets; no sponsor text included. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_abcbe5774b6ad94b2e37-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e78d7cab4acbf27494e1.json",
+    "source_kit_id": "492276"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

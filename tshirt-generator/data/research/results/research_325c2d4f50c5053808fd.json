@@ -4,8 +4,8 @@
   "team_name": "Celta Fortuna",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_db8fa2d60d4ae79fe2ce-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rc-celta-de-vigo-fortuna-2026-27-home-kit-491729/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/01/Q1Xgr1FsOwoBvyj/rc-celta-de-vigo-fortuna-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_db8fa2d60d4ae79fe2ce-home-491729.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Off-white",
+      "Red"
+    ],
+    "values": {
+      "body": "#9BC9EA",
+      "leftSleeve": "#9BC9EA",
+      "rightSleeve": "#9BC9EA",
+      "collar": "#EBE6CE",
+      "leftCuff": "#E7E0C8",
+      "rightCuff": "#E7E0C8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue with ivory collar/cuff rings edged fine red; Hummel manufacturer chevrons omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_db8fa2d60d4ae79fe2ce-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_325c2d4f50c5053808fd.json",
+    "source_kit_id": "491729"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

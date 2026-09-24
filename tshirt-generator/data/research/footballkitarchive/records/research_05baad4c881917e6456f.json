@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with red vertical stripes having fine ragged edges, red/white striped sleeves and white collar/cuffs edged red. Source stripe-edge distress adapted to editable irregular contours; tonal crest marks omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6a5df1f7dfb6a0fcb599-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Saudi Media Company",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6a5df1f7dfb6a0fcb599-home-498529.jpg",
-  "image_sha256": "60a23be96e28a213c14477af600cfb3d5d646f2b11c970e3436dc3d446539bc6"
+  "image_sha256": "60a23be96e28a213c14477af600cfb3d5d646f2b11c970e3436dc3d446539bc6",
+  "artwork_revision_path": "data/kits/team_6a5df1f7dfb6a0fcb599-home-r001.json"
 }

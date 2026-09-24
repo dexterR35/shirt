@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pink with a broad white upper-chest chevron edged pale blue, white shoulder lines, pale-blue neck/cuff bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_aebb3d1a942fb7d4c1b4-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Central Lechera Asturiana",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_aebb3d1a942fb7d4c1b4-away-492931.jpg",
-  "image_sha256": "ee06d932ef52f149d5efa6d699aaecec11711cf0a4266fc57adf6397b0fe84b8"
+  "image_sha256": "ee06d932ef52f149d5efa6d699aaecec11711cf0a4266fc57adf6397b0fe84b8",
+  "artwork_revision_path": "data/kits/team_aebb3d1a942fb7d4c1b4-away-r001.json"
 }

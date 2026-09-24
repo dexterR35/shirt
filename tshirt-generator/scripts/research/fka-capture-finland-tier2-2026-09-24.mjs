@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';
+const root='data/research/footballkitarchive/captures',name='finland-tier2-2026';
+await fs.writeFile(`${root}/${name}.tsv`,'team\tvariant\tseason\tdesign\tcolors\tbrand\tkit_slug\tkit_id\timage_path\tsponsor\tcompetitions\trelease_date\nFC Haka\tHome\t2026\tPlain\tWhite / Black\tPuma\tfc-haka-2026-home\t494878\t2026/07/11/5FaP2OX8Ctd0Ith/fc-haka-2026-home-kit.jpg\t\tYkkösliiga\t\n');
+await fs.writeFile(`${root}/${name}.json`,JSON.stringify({schemaVersion:1,country:'Finland',listing_url:'https://www.footballkitarchive.com/ykkosliiga-kits-2026-l45525/',captured_at:'2026-09-24',method:'Independent FC Haka 2026 Home detail page, rendered table and front image. Literal calendar-year season preserved. Missing sponsor/release fields remain unknown.',capture_file:name+'.tsv',record_count:1,team_aliases:{}},null,2)+'\n');

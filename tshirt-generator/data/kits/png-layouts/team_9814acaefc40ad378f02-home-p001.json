@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9814acaefc40ad378f02",
+  "team_name": "Burgos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Very pale cool white with black collar/cuffs and fine black raglan piping. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9814acaefc40ad378f02-home-490299.jpg",
+      "page_url": "https://www.footballkitarchive.com/burgos-cf-2026-27-home-kit-490299/",
+      "sha256": "788f46bf8eb97c5bf835d08744da53cf08abab23597df88ef275d5fa546da2a7"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFF6F5",
+      "leftSleeve": "#EFF6F5",
+      "rightSleeve": "#EFF6F5",
+      "collar": "#232428",
+      "leftCuff": "#25262B",
+      "rightCuff": "#25262B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#232428",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFF6F5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M73.91 7.767L60.91 12.767L42.846 19.803L37.752 30.968L37.754 59.044L45.774 76.106L46.226 75.894L38.246 58.956L38.248 31.032L43.154 20.197L61.09 13.233L74.09 8.233Z",
+        "fill": "#2A2C30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.91 8.233L138.91 13.233L156.846 20.197L161.752 31.032L161.754 58.956L153.774 75.894L154.226 76.106L162.246 59.044L162.248 30.968L157.154 19.803L139.09 12.767L126.09 7.767Z",
+        "fill": "#2A2C30",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#25262B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#25262B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

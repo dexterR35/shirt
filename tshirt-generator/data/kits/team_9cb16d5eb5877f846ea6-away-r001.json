@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9cb16d5eb5877f846ea6",
+  "team_name": "Eldense",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-eldense-2026-27-away-kit-498119/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/w5gsjCAsC3g8oZb/cd-eldense-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9cb16d5eb5877f846ea6-away-498119.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#242725",
+      "leftSleeve": "#242725",
+      "rightSleeve": "#242725",
+      "collar": "#E0E1DC",
+      "leftCuff": "#E9EAE4",
+      "rightCuff": "#E9EAE4"
+    }
+  },
+  "observations": "Black with a narrow central white chevron graphic stripe, fine white layered neck/cuff edging. Source explicitly labels 26-27 (Carry-over); chest/shoulder manufacturer marks and sponsor removed. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with a narrow central white chevron graphic stripe, fine white layered neck/cuff edging. Source explicitly labels 26-27 (Carry-over); chest/shoulder manufacturer marks and sponsor removed. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9cb16d5eb5877f846ea6-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#242725",
+      "leftSleeve": "#242725",
+      "rightSleeve": "#242725",
+      "collar": "#E0E1DC",
+      "leftCuff": "#E9EAE4",
+      "rightCuff": "#E9EAE4"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E0E1DC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71 4.571L77 2Q100 7 123 2L129 4.571C131.286 30.857 68.714 30.857 71 4.571Z",
+          "fill": "#252A27",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73 3.714L77 2Q100 7 123 2L127 3.714C129.857 28.571 70.143 28.571 73 3.714Z",
+          "fill": "#E4E5E1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74 3.286L77 2Q100 7 123 2L126 3.286C129.143 27.429 70.857 27.429 74 3.286Z",
+          "fill": "#252A27",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M76 2.429L77 2Q100 7 123 2L124 2.429C127.714 25.143 72.286 25.143 76 2.429Z",
+          "fill": "#E0E1DA",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#242725",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M95.855 0.291L100 2.325L104.145 0.291L103.855 -0.291L100 1.675L96.145 -0.291Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 2.291L100 4.325L104.145 2.291L103.855 1.709L100 3.675L96.145 1.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 4.291L100 6.325L104.145 4.291L103.855 3.709L100 5.675L96.145 3.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 6.291L100 8.325L104.145 6.291L103.855 5.709L100 7.675L96.145 5.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 8.291L100 10.325L104.145 8.291L103.855 7.709L100 9.675L96.145 7.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 10.291L100 12.325L104.145 10.291L103.855 9.709L100 11.675L96.145 9.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 12.291L100 14.325L104.145 12.291L103.855 11.709L100 13.675L96.145 11.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 14.291L100 16.325L104.145 14.291L103.855 13.709L100 15.675L96.145 13.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 16.291L100 18.325L104.145 16.291L103.855 15.709L100 17.675L96.145 15.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 18.291L100 20.325L104.145 18.291L103.855 17.709L100 19.675L96.145 17.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 20.291L100 22.325L104.145 20.291L103.855 19.709L100 21.675L96.145 19.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 22.291L100 24.325L104.145 22.291L103.855 21.709L100 23.675L96.145 21.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 24.291L100 26.325L104.145 24.291L103.855 23.709L100 25.675L96.145 23.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 26.291L100 28.325L104.145 26.291L103.855 25.709L100 27.675L96.145 25.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 28.291L100 30.325L104.145 28.291L103.855 27.709L100 29.675L96.145 27.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 30.291L100 32.325L104.145 30.291L103.855 29.709L100 31.675L96.145 29.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 32.291L100 34.325L104.145 32.291L103.855 31.709L100 33.675L96.145 31.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 34.291L100 36.325L104.145 34.291L103.855 33.709L100 35.675L96.145 33.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 36.291L100 38.325L104.145 36.291L103.855 35.709L100 37.675L96.145 35.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 38.291L100 40.325L104.145 38.291L103.855 37.709L100 39.675L96.145 37.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 40.291L100 42.325L104.145 40.291L103.855 39.709L100 41.675L96.145 39.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 42.291L100 44.325L104.145 42.291L103.855 41.709L100 43.675L96.145 41.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 44.291L100 46.325L104.145 44.291L103.855 43.709L100 45.675L96.145 43.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 46.291L100 48.325L104.145 46.291L103.855 45.709L100 47.675L96.145 45.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 48.291L100 50.325L104.145 48.291L103.855 47.709L100 49.675L96.145 47.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 50.291L100 52.325L104.145 50.291L103.855 49.709L100 51.675L96.145 49.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 52.291L100 54.325L104.145 52.291L103.855 51.709L100 53.675L96.145 51.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 54.291L100 56.325L104.145 54.291L103.855 53.709L100 55.675L96.145 53.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 56.291L100 58.325L104.145 56.291L103.855 55.709L100 57.675L96.145 55.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 58.291L100 60.325L104.145 58.291L103.855 57.709L100 59.675L96.145 57.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 60.291L100 62.325L104.145 60.291L103.855 59.709L100 61.675L96.145 59.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 62.291L100 64.325L104.145 62.291L103.855 61.709L100 63.675L96.145 61.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 64.291L100 66.325L104.145 64.291L103.855 63.709L100 65.675L96.145 63.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 66.291L100 68.325L104.145 66.291L103.855 65.709L100 67.675L96.145 65.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 68.291L100 70.325L104.145 68.291L103.855 67.709L100 69.675L96.145 67.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 70.291L100 72.325L104.145 70.291L103.855 69.709L100 71.675L96.145 69.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 72.291L100 74.325L104.145 72.291L103.855 71.709L100 73.675L96.145 71.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 74.291L100 76.325L104.145 74.291L103.855 73.709L100 75.675L96.145 73.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 76.291L100 78.325L104.145 76.291L103.855 75.709L100 77.675L96.145 75.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 78.291L100 80.325L104.145 78.291L103.855 77.709L100 79.675L96.145 77.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 80.291L100 82.325L104.145 80.291L103.855 79.709L100 81.675L96.145 79.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 82.291L100 84.325L104.145 82.291L103.855 81.709L100 83.675L96.145 81.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 84.291L100 86.325L104.145 84.291L103.855 83.709L100 85.675L96.145 83.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 86.291L100 88.325L104.145 86.291L103.855 85.709L100 87.675L96.145 85.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 88.291L100 90.325L104.145 88.291L103.855 87.709L100 89.675L96.145 87.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 90.291L100 92.325L104.145 90.291L103.855 89.709L100 91.675L96.145 89.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 92.291L100 94.325L104.145 92.291L103.855 91.709L100 93.675L96.145 91.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 94.291L100 96.325L104.145 94.291L103.855 93.709L100 95.675L96.145 93.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 96.291L100 98.325L104.145 96.291L103.855 95.709L100 97.675L96.145 95.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 98.291L100 100.325L104.145 98.291L103.855 97.709L100 99.675L96.145 97.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 100.291L100 102.325L104.145 100.291L103.855 99.709L100 101.675L96.145 99.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 102.291L100 104.325L104.145 102.291L103.855 101.709L100 103.675L96.145 101.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 104.291L100 106.325L104.145 104.291L103.855 103.709L100 105.675L96.145 103.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 106.291L100 108.325L104.145 106.291L103.855 105.709L100 107.675L96.145 105.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 108.291L100 110.325L104.145 108.291L103.855 107.709L100 109.675L96.145 107.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 110.291L100 112.325L104.145 110.291L103.855 109.709L100 111.675L96.145 109.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 112.291L100 114.325L104.145 112.291L103.855 111.709L100 113.675L96.145 111.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 114.291L100 116.325L104.145 114.291L103.855 113.709L100 115.675L96.145 113.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 116.291L100 118.325L104.145 116.291L103.855 115.709L100 117.675L96.145 115.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 118.291L100 120.325L104.145 118.291L103.855 117.709L100 119.675L96.145 117.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 120.291L100 122.325L104.145 120.291L103.855 119.709L100 121.675L96.145 119.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 122.291L100 124.325L104.145 122.291L103.855 121.709L100 123.675L96.145 121.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 124.291L100 126.325L104.145 124.291L103.855 123.709L100 125.675L96.145 123.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 126.291L100 128.325L104.145 126.291L103.855 125.709L100 127.675L96.145 125.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 128.291L100 130.325L104.145 128.291L103.855 127.709L100 129.675L96.145 127.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 130.291L100 132.325L104.145 130.291L103.855 129.709L100 131.675L96.145 129.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 132.291L100 134.325L104.145 132.291L103.855 131.709L100 133.675L96.145 131.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 134.291L100 136.325L104.145 134.291L103.855 133.709L100 135.675L96.145 133.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 136.291L100 138.325L104.145 136.291L103.855 135.709L100 137.675L96.145 135.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 138.291L100 140.325L104.145 138.291L103.855 137.709L100 139.675L96.145 137.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 140.291L100 142.325L104.145 140.291L103.855 139.709L100 141.675L96.145 139.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 142.291L100 144.325L104.145 142.291L103.855 141.709L100 143.675L96.145 141.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 144.291L100 146.325L104.145 144.291L103.855 143.709L100 145.675L96.145 143.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 146.291L100 148.325L104.145 146.291L103.855 145.709L100 147.675L96.145 145.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 148.291L100 150.325L104.145 148.291L103.855 147.709L100 149.675L96.145 147.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 150.291L100 152.325L104.145 150.291L103.855 149.709L100 151.675L96.145 149.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 152.291L100 154.325L104.145 152.291L103.855 151.709L100 153.675L96.145 151.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 154.291L100 156.325L104.145 154.291L103.855 153.709L100 155.675L96.145 153.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 156.291L100 158.325L104.145 156.291L103.855 155.709L100 157.675L96.145 155.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 158.291L100 160.325L104.145 158.291L103.855 157.709L100 159.675L96.145 157.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 160.291L100 162.325L104.145 160.291L103.855 159.709L100 161.675L96.145 159.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 162.291L100 164.325L104.145 162.291L103.855 161.709L100 163.675L96.145 161.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 164.291L100 166.325L104.145 164.291L103.855 163.709L100 165.675L96.145 163.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 166.291L100 168.325L104.145 166.291L103.855 165.709L100 167.675L96.145 165.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 168.291L100 170.325L104.145 168.291L103.855 167.709L100 169.675L96.145 167.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 170.291L100 172.325L104.145 170.291L103.855 169.709L100 171.675L96.145 169.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 172.291L100 174.325L104.145 172.291L103.855 171.709L100 173.675L96.145 171.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 174.291L100 176.325L104.145 174.291L103.855 173.709L100 175.675L96.145 173.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 176.291L100 178.325L104.145 176.291L103.855 175.709L100 177.675L96.145 175.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 178.291L100 180.325L104.145 178.291L103.855 177.709L100 179.675L96.145 177.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 180.291L100 182.325L104.145 180.291L103.855 179.709L100 181.675L96.145 179.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 182.291L100 184.325L104.145 182.291L103.855 181.709L100 183.675L96.145 181.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 184.291L100 186.325L104.145 184.291L103.855 183.709L100 185.675L96.145 183.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 186.291L100 188.325L104.145 186.291L103.855 185.709L100 187.675L96.145 185.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 188.291L100 190.325L104.145 188.291L103.855 187.709L100 189.675L96.145 187.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 190.291L100 192.325L104.145 190.291L103.855 189.709L100 191.675L96.145 189.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 192.291L100 194.325L104.145 192.291L103.855 191.709L100 193.675L96.145 191.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 194.291L100 196.325L104.145 194.291L103.855 193.709L100 195.675L96.145 193.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 196.291L100 198.325L104.145 196.291L103.855 195.709L100 197.675L96.145 195.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.855 198.291L100 200.325L104.145 198.291L103.855 197.709L100 199.675L96.145 197.709Z",
+        "fill": "#DCDDDA",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#E9EAE4",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#282B28",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#E9EAE3",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#E9EAE4",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#282B28",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#E9EAE3",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

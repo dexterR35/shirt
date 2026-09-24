@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/black split torso with matching red left/black right sleeve, black collar/cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_84caba5060afc50121ae-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Taica",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_84caba5060afc50121ae-home-489549.jpg",
-  "image_sha256": "2846aa0fe4e38e8f334f92b4db823fef0f1a517f5b6f6de9c17a5884763369e2"
+  "image_sha256": "2846aa0fe4e38e8f334f92b4db823fef0f1a517f5b6f6de9c17a5884763369e2",
+  "artwork_revision_path": "data/kits/team_84caba5060afc50121ae-home-r001.json"
 }

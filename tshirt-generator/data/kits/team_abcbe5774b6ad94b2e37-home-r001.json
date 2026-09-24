@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_abcbe5774b6ad94b2e37",
+  "team_name": "Córdoba",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cordoba-cf-2026-27-home-kit-492419/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/03/2WHvnBhY6xB0INz/cordoba-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_abcbe5774b6ad94b2e37-home-492419.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F0F1EC",
+      "leftSleeve": "#F0F1EC",
+      "rightSleeve": "#F0F1EC",
+      "collar": "#F0F1EC",
+      "leftCuff": "#E1B24D",
+      "rightCuff": "#E1B24D"
+    }
+  },
+  "observations": "White with two broad green front stripes, white sleeves and neckline, fine gold cuff edges. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with two broad green front stripes, white sleeves and neckline, fine gold cuff edges. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_abcbe5774b6ad94b2e37-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EC",
+      "leftSleeve": "#F0F1EC",
+      "rightSleeve": "#F0F1EC",
+      "collar": "#F0F1EC",
+      "leftCuff": "#E1B24D",
+      "rightCuff": "#E1B24D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#0C8C41",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#0C8C41",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#E1B24D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#F1F0E6",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#E1B24D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#F1F0E6",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

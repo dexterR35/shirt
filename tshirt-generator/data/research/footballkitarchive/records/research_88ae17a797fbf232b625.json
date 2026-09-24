@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with a narrow central white chevron graphic stripe, fine white layered neck/cuff edging. Source explicitly labels 26-27 (Carry-over); chest/shoulder manufacturer marks and sponsor removed. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9cb16d5eb5877f846ea6-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Ayuntamiento de Elda",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_9cb16d5eb5877f846ea6-away-498119.jpg",
-  "image_sha256": "8185819d5ced352fa8253127eb288db9f50cb8b9e1bf99efca1a6c08098ffc71"
+  "image_sha256": "8185819d5ced352fa8253127eb288db9f50cb8b9e1bf99efca1a6c08098ffc71",
+  "artwork_revision_path": "data/kits/team_9cb16d5eb5877f846ea6-away-r001.json"
 }

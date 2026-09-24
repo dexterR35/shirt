@@ -5,8 +5,8 @@
   "country_name": "Greece",
   "variant": "home",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,19 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-finland-source-gaps-2026-09-24",
+      "action": "Inspected live FKA competition season listing and individual club history; resolved aliases and reserve identities independently.",
+      "source_url": "https://www.footballkitarchive.com/apollon-kalamaria-kits-t9864/",
+      "observed_entries": [
+        "2025-26"
+      ],
+      "additional_sources": [],
+      "outcome": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
+    }
   ]
 }

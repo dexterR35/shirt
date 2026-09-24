@@ -4,8 +4,8 @@
   "team_name": "Girona",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,50 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_82b3f805325f529c59f0-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/girona-fc-2026-27-away-kit-493239/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/10/xpnvscgKwkgpmTp-small/girona-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_82b3f805325f529c59f0-away-493239.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [],
+    "values": {
+      "body": "#232523",
+      "leftSleeve": "#232523",
+      "rightSleeve": "#232523",
+      "collar": "#DD2631",
+      "leftCuff": "#D92E39",
+      "rightCuff": "#D92E39"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with grey irregular maze-like vertical lines and red neck/cuff bands. Fine pattern adapted from independently labeled public 500px Away listing image; sponsor-covered sections reconstructed from clean lower print. Detail metadata unavailable. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_82b3f805325f529c59f0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8ed5981302665fbbe019.json",
+    "source_kit_id": "493239"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

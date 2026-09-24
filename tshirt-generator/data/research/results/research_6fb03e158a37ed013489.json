@@ -4,8 +4,8 @@
   "team_name": "Hellas Syros",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_255c48f34a2938829cb3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ellas-syrou-2026-27-home-kit-516344/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/EyvJHA2x2134W2O/ellas-syrou-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_255c48f34a2938829cb3-home-516344.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#ECEEF5",
+      "leftSleeve": "#ECEEF5",
+      "rightSleeve": "#ECEEF5",
+      "collar": "#235E92",
+      "leftCuff": "#1E5485",
+      "rightCuff": "#1E5485"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with blue collar/cuffs edged white and a dark line drawing of Syros hillside/churches on lower front, plus a small blue lower-left field. Clean source architecture contours traced from below sponsor; perspective and fine linework adapted to common front. Capelli shoulder marks omitted. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_255c48f34a2938829cb3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6fb03e158a37ed013489.json",
+    "source_kit_id": "516344"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

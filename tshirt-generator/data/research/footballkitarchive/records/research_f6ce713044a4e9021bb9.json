@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with muted blue architectural line drawings across front and sleeves; blue-grey neckline. Clean printed building lines extracted separately from fabric, with sponsor-covered sections reconstructed from unbranded lower field. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_8eda218f5af227206f22-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "DIGI",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_8eda218f5af227206f22-away-500668.jpg",
-  "image_sha256": "3ad2cd3651122e8fa06737143a3b8164c82858642dff7ea3c19024df1bca9358"
+  "image_sha256": "3ad2cd3651122e8fa06737143a3b8164c82858642dff7ea3c19024df1bca9358",
+  "artwork_revision_path": "data/kits/team_8eda218f5af227206f22-away-r001.json"
 }

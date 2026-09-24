@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with a broad yellow chest band, blue neckline and thin yellow/blue cuff and hem bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_d50f4ea338ca317977ab-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Gran Canaria",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_d50f4ea338ca317977ab-away-493420.jpg",
-  "image_sha256": "5a4ea30d703ff6910e28d3320dcb4d05c871f5996f1697e7d05204ef8ef4f2ef"
+  "image_sha256": "5a4ea30d703ff6910e28d3320dcb4d05c871f5996f1697e7d05204ef8ef4f2ef",
+  "artwork_revision_path": "data/kits/team_d50f4ea338ca317977ab-away-r001.json"
 }

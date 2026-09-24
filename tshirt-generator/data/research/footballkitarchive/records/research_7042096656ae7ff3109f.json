@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a broad curved orange-red diagonal field across upper torso, lighter diagonal lines inside it and orange-red left sleeve. Burgundy neckline and fine cuff edges. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6cb8f7eeb589a9b11175-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Smartlog",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6cb8f7eeb589a9b11175-away-488303.jpg",
-  "image_sha256": "3ce07eb2217e33e238596820fb799518b98f22f2c38443a35f915ee61a619704"
+  "image_sha256": "3ce07eb2217e33e238596820fb799518b98f22f2c38443a35f915ee61a619704",
+  "artwork_revision_path": "data/kits/team_6cb8f7eeb589a9b11175-away-r001.json"
 }

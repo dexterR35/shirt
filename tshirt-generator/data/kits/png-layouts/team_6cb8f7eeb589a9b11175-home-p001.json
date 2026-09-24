@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6cb8f7eeb589a9b11175",
+  "team_name": "Eibar",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy/claret broad vertical torso stripes, plain navy sleeves and round neckline; shoulder brand chevrons omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6cb8f7eeb589a9b11175-home-487065.jpg",
+      "page_url": "https://www.footballkitarchive.com/sd-eibar-2026-27-home-kit-487065/",
+      "sha256": "5d3abe5f1b3aba16ccdf7818493d0dbfbd68fd8deec9f65555d9960002c3afbd"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1F2639",
+      "leftSleeve": "#1F2639",
+      "rightSleeve": "#1F2639",
+      "collar": "#202739",
+      "leftCuff": "#1F2639",
+      "rightCuff": "#1F2639"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#202739",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1F2639",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 52,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#57152B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#57152B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 124,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#57152B",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

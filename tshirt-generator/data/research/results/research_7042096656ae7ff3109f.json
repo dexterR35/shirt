@@ -4,8 +4,8 @@
   "team_name": "Eibar",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6cb8f7eeb589a9b11175-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sd-eibar-2026-27-away-kit-488303/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/11/2gRTZJRAN0XMDWe/sd-eibar-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6cb8f7eeb589a9b11175-away-488303.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#EFEFED",
+      "leftSleeve": "#D83929",
+      "rightSleeve": "#EFEFED",
+      "collar": "#772737",
+      "leftCuff": "#733034",
+      "rightCuff": "#733034"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a broad curved orange-red diagonal field across upper torso, lighter diagonal lines inside it and orange-red left sleeve. Burgundy neckline and fine cuff edges. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6cb8f7eeb589a9b11175-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7042096656ae7ff3109f.json",
+    "source_kit_id": "488303"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

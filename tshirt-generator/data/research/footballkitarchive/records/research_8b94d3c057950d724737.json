@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green with two dusty-pink chest bands separated by a narrow burgundy line, pink neck/shoulder lines and small pink hem-side blocks. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_e81502918bac333d6b0a-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Globalcaja",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_e81502918bac333d6b0a-away-500645.jpg",
-  "image_sha256": "7a4108bce476c70f83a6f013d45ed3e22df4ba7ad9d4161a2cfaf81da950b9b0"
+  "image_sha256": "7a4108bce476c70f83a6f013d45ed3e22df4ba7ad9d4161a2cfaf81da950b9b0",
+  "artwork_revision_path": "data/kits/team_e81502918bac333d6b0a-away-r001.json"
 }

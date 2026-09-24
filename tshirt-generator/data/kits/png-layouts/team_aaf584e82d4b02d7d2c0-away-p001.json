@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aaf584e82d4b02d7d2c0",
+  "team_name": "Leganés",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Charcoal with faint irregular tonal fragments, asymmetric blue/white underarm panels and a blue/white recolored round neckline. Physical source V shape not reproduced; low-contrast print simplified. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_aaf584e82d4b02d7d2c0-away-496014.jpg",
+      "page_url": "https://www.footballkitarchive.com/cd-leganes-2026-27-away-kit-496014/",
+      "sha256": "5306e012a954a5d9eb0af4146dcdc0952df3ce725135df4b4d5a5d01ffe6feba"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#282A2A",
+      "leftSleeve": "#282A2A",
+      "rightSleeve": "#282A2A",
+      "collar": "#356F94",
+      "leftCuff": "#282A2A",
+      "rightCuff": "#282A2A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#356F94",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.5 3.5L77 2Q100 7 123 2L126.5 3.5C129.5 28 70.5 28 73.5 3.5Z",
+          "fill": "#EDEEE7",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#282A2A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            61
+          ],
+          [
+            50,
+            78
+          ],
+          [
+            44,
+            85
+          ],
+          [
+            28,
+            78
+          ]
+        ],
+        "fill": "#12618E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            61
+          ],
+          [
+            150,
+            78
+          ],
+          [
+            156,
+            85
+          ],
+          [
+            172,
+            78
+          ]
+        ],
+        "fill": "#12618E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            155,
+            61
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            158,
+            85
+          ],
+          [
+            174,
+            77
+          ]
+        ],
+        "fill": "#EAEBE5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            52,
+            26
+          ],
+          [
+            77,
+            18
+          ],
+          [
+            66,
+            32
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            93,
+            55
+          ],
+          [
+            135,
+            42
+          ],
+          [
+            114,
+            57
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            104
+          ],
+          [
+            76,
+            95
+          ],
+          [
+            69,
+            112
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            123
+          ],
+          [
+            134,
+            132
+          ],
+          [
+            119,
+            145
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            61,
+            168
+          ],
+          [
+            106,
+            154
+          ],
+          [
+            95,
+            171
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      }
+    ],
+    "detailLayers": []
+  }
+}

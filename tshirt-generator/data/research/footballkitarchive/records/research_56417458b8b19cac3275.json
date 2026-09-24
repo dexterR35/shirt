@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with off-center red vertical stripe edged thin gold on wearer-left, blue neckline and white sleeves. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6ad512d4b31375ef7264-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "MoraBanc",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6ad512d4b31375ef7264-away-494832.jpg",
-  "image_sha256": "9714dabfe1cf2bad2a50d03f872a9b1df2eee134155ed15888990e5fdb5b4059"
+  "image_sha256": "9714dabfe1cf2bad2a50d03f872a9b1df2eee134155ed15888990e5fdb5b4059",
+  "artwork_revision_path": "data/kits/team_6ad512d4b31375ef7264-away-r001.json"
 }

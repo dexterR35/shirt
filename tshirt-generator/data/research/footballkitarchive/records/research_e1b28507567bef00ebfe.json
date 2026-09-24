@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Purple/near-black split front with fine lilac vertical pinstripes, purple sleeves, pale-purple piping and cuff/collar edging. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_da4e4e1865d8e1bfe82a-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Ciudad Autónoma de Ceuta",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_da4e4e1865d8e1bfe82a-away-500427.jpg",
-  "image_sha256": "f31815baa4d75be71411f4866469874691ee8ff4b57f5baae679543e3195669f"
+  "image_sha256": "f31815baa4d75be71411f4866469874691ee8ff4b57f5baae679543e3195669f",
+  "artwork_revision_path": "data/kits/team_da4e4e1865d8e1bfe82a-away-r001.json"
 }

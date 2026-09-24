@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue/white quartered torso with fine double pale cross dividers, subtle horizontal micro-lines, white sleeves and layered navy/blue/white cuffs and collar. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2cd54e73ca83a16d91e1-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_2cd54e73ca83a16d91e1-home-498629.jpg",
-  "image_sha256": "a8a6f4f34735832f5340a8a61077067ea2d809cf8c5e0f8e90ceeab84efdcdd5"
+  "image_sha256": "a8a6f4f34735832f5340a8a61077067ea2d809cf8c5e0f8e90ceeab84efdcdd5",
+  "artwork_revision_path": "data/kits/team_2cd54e73ca83a16d91e1-home-r001.json"
 }

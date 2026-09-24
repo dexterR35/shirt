@@ -5,8 +5,8 @@
   "country_name": "Greece",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Archive history includes 2026-27 Home but no independent eligible away reference. Goalkeeper/other variant cannot substitute.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,19 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Archive history includes 2026-27 Home but no independent eligible away reference. Goalkeeper/other variant cannot substitute."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-finland-source-gaps-2026-09-24",
+      "action": "Inspected live FKA competition season listing and individual club history; resolved aliases and reserve identities independently.",
+      "source_url": "https://www.footballkitarchive.com/ellas-syrou-kits-t20872/",
+      "observed_entries": [
+        "2026-27 Home"
+      ],
+      "additional_sources": [],
+      "outcome": "Archive history includes 2026-27 Home but no independent eligible away reference. Goalkeeper/other variant cannot substitute."
+    }
   ]
 }

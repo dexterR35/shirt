@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2cd54e73ca83a16d91e1",
+  "team_name": "Sabadell",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ce-sabadell-2026-27-away-kit-506810/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/8pu6nMF03ueFLm2/ce-sabadell-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2cd54e73ca83a16d91e1-away-506810.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#242622",
+      "leftSleeve": "#242622",
+      "rightSleeve": "#242622",
+      "collar": "#26271F",
+      "leftCuff": "#242622",
+      "rightCuff": "#242622"
+    }
+  },
+  "observations": "Black with thin pale-gold raglan piping and gold-edged neckline. Repeated tonal club crests and initials intentionally omitted; black sleeves/cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with thin pale-gold raglan piping and gold-edged neckline. Repeated tonal club crests and initials intentionally omitted; black sleeves/cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2cd54e73ca83a16d91e1-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#242622",
+      "leftSleeve": "#242622",
+      "rightSleeve": "#242622",
+      "collar": "#26271F",
+      "leftCuff": "#242622",
+      "rightCuff": "#242622"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#26271F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.915 2.465L77 2Q100 7 123 2L124.085 2.465C127.775 25.239 72.225 25.239 75.915 2.465Z",
+          "fill": "#C7BC88",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#242622",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M73.901 7.743L60.901 12.744L42.831 19.783L37.727 30.965L37.729 59.048L45.751 76.117L46.249 75.883L38.271 58.952L38.273 31.035L43.169 20.217L61.099 13.256L74.099 8.257Z",
+        "fill": "#C7BD83",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.901 8.257L138.901 13.256L156.831 20.217L161.727 31.035L161.729 58.952L153.751 75.883L154.249 76.117L162.271 59.048L162.273 30.965L157.169 19.783L139.099 12.744L126.099 7.743Z",
+        "fill": "#C7BD83",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

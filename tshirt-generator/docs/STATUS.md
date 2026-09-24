@@ -1,10 +1,10 @@
 # Project status
 
-24 September 2026. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 continuation has reached **197 ready / 300 slots** across the preserved 150 second-tier teams. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
+24 September 2026. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 has **254 ready / 300 slots** across the preserved 150 second-tier teams; all 46 remaining slots have documented current-source gaps. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
 
 ## Tier 2 continuation — 24 September 2026
 
-The user requested finished painted shirts before continuing. This pass adds **81 ready kits**: 30 corrected drafts, 14 previously unpainted Italian references, one newly researched Afumați Home, and 36 independently researched French Home/Away variants. Tier 2 now has **197 ready, 0 drafts, 96 researching and 7 blocked slots**. All 197 saved Tier 2 references have reviewed paint. England (48), Germany (36), Italy (40), and France (36) have both variants complete; Romania has 37 ready and seven documented source gaps. Spain, Greece and Finland remain to research.
+The user requested finished painted shirts before continuing. This pass adds **138 ready kits**: 30 corrected drafts, 14 previously unpainted Italian references, Afumați Home, 36 French variants, 44 Spanish variants, 12 Greek variants and FC Haka Home. Tier 2 now has **254 ready, 0 drafts, 0 researching and 46 blocked slots**. All 254 saved Tier 2 references have reviewed paint. England (48), Spain (44), Germany (36), Italy (40), and France (36) have both variants complete. The 46 source gaps are Romanian (7), Greek (20) and Finnish (19); each remaining team history was checked. Literal source seasons remain 2026/27 except FC Haka Home 2026.
 
 The original 30 draft revisions and all prior ready revisions are retained. New paint has individual source/render comparisons, configuration hashes, and explicit limitations for hidden regions, simplified fine print, and the original round neckline. See [the paint continuation](TIER2_PAINT_2026-09-24.md), the [earlier checkpoint](TIER2_CONTINUATION_2026-09-24.md), and `data/research/tier2-worklist.json`.
 
@@ -16,7 +16,7 @@ Latest user direction: use independently evidenced 2026 kits when 2026/27 is unc
 
 `data/teams/<team_id>.json` now stores local Home/Away equipment facts for every canonical team. Each verified source entry includes season, design, color names, brand, sponsor, competitions, release date, source URL and checked date. Unresearched/missing values are null. The app's right panel replaces the original-master promotional text with applied-kit details. Data travels with the local applied revision, so candidate changes, failed loads and custom colors cannot silently change the facts. No live archive call occurs in the app. See [mandatory coverage](MANDATORY_TEAMS_2026-27.md).
 
-Global coverage is **478 ready**, **0 drafts**, **985 researching**, **7 blocked**, **481 saved archive references** and **464 archive-reviewed adaptations**. Tier 1 remains **276/276 ready**, with its original season split unchanged. See [Tier 1 completion](TIER1_COMPLETION_2026-09-24.md) for its last 43 revisions and source limitations. Original PNG bytes, earlier reviewed revisions and local equipment facts are retained. Fine graphics and hidden source regions are documented adaptations to the common base. Earlier batch reports remain historical checkpoints.
+Global coverage is **535 ready**, **0 drafts**, **889 researching**, **46 blocked**, **538 saved archive references** and **521 archive-reviewed adaptations**. Tier 1 remains **276/276 ready**, with its original season split unchanged. See [Tier 1 completion](TIER1_COMPLETION_2026-09-24.md) for its last 43 revisions and source limitations. Original PNG bytes, earlier reviewed revisions and local equipment facts are retained. Fine graphics and hidden source regions are documented adaptations to the common base. Earlier batch reports remain historical checkpoints.
 
 ## Application
 

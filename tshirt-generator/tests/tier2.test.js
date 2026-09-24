@@ -52,7 +52,7 @@ for(const [country,count,ready]of [['england',48,41],['germany',36,25],['romania
  });
 }
 
-for(const [batch,count]of [['tier2-refine-england-2026-09-24',7],['tier2-refine-germany-2026-09-24',11],['tier2-refine-romania-2026-09-24',12],['tier2-italy-complete-2026-09-24',14],['tier2-romania-gap-2026-09-24',1],['tier2-france-2026-09-24',36]]){
+for(const [batch,count]of [['tier2-refine-england-2026-09-24',7],['tier2-refine-germany-2026-09-24',11],['tier2-refine-romania-2026-09-24',12],['tier2-italy-complete-2026-09-24',14],['tier2-romania-gap-2026-09-24',1],['tier2-france-2026-09-24',36],['tier2-spain-2026-09-24',44],['tier2-greece-2026-09-24',12],['tier2-finland-2026-09-24',1]]){
  test(`${batch} publishes the individually compared immutable paint`,async()=>{
   const decisions=await read(`data/research/${batch}-review.json`),manifest=await read(`artifacts/footballkitarchive/${batch}/manifest.json`),catalog=await read('public/catalog/manifest.json');
   assert.equal(decisions.length,count);assert.equal(manifest.length,count);
@@ -61,7 +61,7 @@ for(const [batch,count]of [['tier2-refine-england-2026-09-24',7],['tier2-refine-
    assert.equal(k.status,'ready');assert.equal(d.status,'ready');assert.equal(l.status,'reviewed');
    assert.equal(d.config_sha256,hash(JSON.stringify(k.config)));assert.deepEqual(l.config,k.config);
    assert.equal(d.reference_sha256,hash(await fs.readFile(item.reference)));await fs.access(d.comparison_path);
-   assert.equal(k.visual_review.human_approved,false);assert.equal(k.kit_season,'2026/27');
+   assert.equal(k.visual_review.human_approved,false);assert.equal(k.kit_season,batch.includes('finland')?'2026':'2026/27');
    const slot=catalog.teams.find(t=>t.id===k.team_id).kits[k.variant];
    assert.equal(slot.revision,k.revision);assert.equal(slot.png_layout_revision,l.layout_revision);assert.equal(slot.status,'ready');
    const details=await read('public'+slot.details_path);assert.deepEqual(details.png_layout.config,k.config);
@@ -71,7 +71,7 @@ for(const [batch,count]of [['tier2-refine-england-2026-09-24',7],['tier2-refine-
 
 test('Tier 2 equipment fields use their own per-page capture, including explicit missing values',async()=>{
  const teams=await read('data/normalized/teams.json'),queue=await read('data/research/kit-research-queue.json');
- for(const [captureName,count]of [['championship-2026-27',48],['2-bundesliga-2026-27',36],['serie-b-2026-27',40],['ligue-2-2026-27',36]]){
+ for(const [captureName,count]of [['championship-2026-27',48],['2-bundesliga-2026-27',36],['serie-b-2026-27',40],['ligue-2-2026-27',36],['la-liga-2-2026-27',40],['greece-tier2-2026-27',12],['finland-tier2-2026',1]]){
   const path=`data/research/footballkitarchive/captures/${captureName}`,capture=await read(path+'.json');
   const rows=parseCapture(await fs.readFile(path+'.tsv','utf8'));assert.equal(rows.length,count);
   assert.equal(new Set(rows.map(r=>r.kit_id)).size,count);
@@ -84,5 +84,18 @@ test('Tier 2 equipment fields use their own per-page capture, including explicit
    assert.equal(saved.release_date,row.release_date||null);assert.equal(saved.source_season_label,row.season);
    assert.deepEqual(saved.competitions,row.competitions?row.competitions.split(' | '):[]);
   }
+ }
+});
+
+test('Tier 2 source gaps remain unavailable without substituting older seasons or other variants',async()=>{
+ const catalog=await read('public/catalog/manifest.json'),work=await read('data/research/tier2-worklist.json');
+ const gaps=[...(await read('data/research/tier2-romania-source-gaps-2026-09-24.json')).slots,...(await read('data/research/tier2-greece-finland-source-gaps-2026-09-24.json')).slots];
+ assert.equal(gaps.length,46);assert.equal(new Set(gaps.map(g=>g.task_id)).size,46);
+ for(const gap of gaps){
+  const result=await read(`data/research/results/${gap.task_id}.json`),task=work.tasks.find(t=>t.task_id===gap.task_id);
+  assert.equal(result.status,'blocked');assert.equal(result.kit_season,null);assert.equal(task.status,'blocked');assert.ok(!task.reference_path);
+  assert.ok(result.research_log.some(l=>l.source_url===gap.source_url&&l.outcome===gap.remaining));
+  const slot=catalog.teams.find(t=>t.id===task.team_id).kits[gap.variant];
+  assert.equal(slot.status,'blocked');assert.ok(!slot.png_layout_revision);
  }
 });

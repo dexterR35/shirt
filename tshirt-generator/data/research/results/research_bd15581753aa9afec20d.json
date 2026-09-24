@@ -4,8 +4,8 @@
   "team_name": "Real Valladolid",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0e11fbdc4219c0d82598-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-valladolid-2026-27-home-kit-496511/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/23/v4BBauxILtIBjno/real-valladolid-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0e11fbdc4219c0d82598-home-496511.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Purple",
+      "White"
+    ],
+    "values": {
+      "body": "#A892B8",
+      "leftSleeve": "#A892B8",
+      "rightSleeve": "#A892B8",
+      "collar": "#A891B6",
+      "leftCuff": "#F0F0E8",
+      "rightCuff": "#F0F0E8"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Lavender with broad white vertical stripes across front/sleeves, lavender neckline edged ivory and white/lavender cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_0e11fbdc4219c0d82598-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_bd15581753aa9afec20d.json",
+    "source_kit_id": "496511"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

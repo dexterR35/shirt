@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with very fine gold neckline/cuff edging; large gold sponsor and manufacturer marks omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9814acaefc40ad378f02-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "DIGI",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_9814acaefc40ad378f02-away-489957.jpg",
-  "image_sha256": "8ef4dd3d95483c08ce08ee5a8fc4c840fa385f19b0837db08645ba8a55e4cbb5"
+  "image_sha256": "8ef4dd3d95483c08ce08ee5a8fc4c840fa385f19b0837db08645ba8a55e4cbb5",
+  "artwork_revision_path": "data/kits/team_9814acaefc40ad378f02-away-r001.json"
 }

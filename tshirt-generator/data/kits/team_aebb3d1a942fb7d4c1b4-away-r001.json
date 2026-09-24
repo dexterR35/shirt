@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aebb3d1a942fb7d4c1b4",
+  "team_name": "Real Oviedo",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-oviedo-2026-27-away-kit-492931/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/tYaAIUlmszyQKSE/real-oviedo-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aebb3d1a942fb7d4c1b4-away-492931.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "White",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#E6B6C4",
+      "leftSleeve": "#E6B6C4",
+      "rightSleeve": "#E6B6C4",
+      "collar": "#C2E0E0",
+      "leftCuff": "#BCD8DC",
+      "rightCuff": "#BCD8DC"
+    }
+  },
+  "observations": "Pink with a broad white upper-chest chevron edged pale blue, white shoulder lines, pale-blue neck/cuff bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pink with a broad white upper-chest chevron edged pale blue, white shoulder lines, pale-blue neck/cuff bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_aebb3d1a942fb7d4c1b4-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E6B6C4",
+      "leftSleeve": "#E6B6C4",
+      "rightSleeve": "#E6B6C4",
+      "collar": "#C2E0E0",
+      "leftCuff": "#BCD8DC",
+      "rightCuff": "#BCD8DC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C2E0E0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E6B6C4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            49,
+            13
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            30,
+            28.2
+          ],
+          [
+            49,
+            14.2
+          ],
+          [
+            75,
+            4.2
+          ]
+        ],
+        "fill": "#EDF2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            151,
+            13
+          ],
+          [
+            169,
+            27
+          ],
+          [
+            170,
+            28.2
+          ],
+          [
+            151,
+            14.2
+          ],
+          [
+            125,
+            4.2
+          ]
+        ],
+        "fill": "#EDF2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            5.2
+          ],
+          [
+            49,
+            15.2
+          ],
+          [
+            31,
+            29.2
+          ],
+          [
+            30,
+            30.4
+          ],
+          [
+            49,
+            16.4
+          ],
+          [
+            75,
+            6.4
+          ]
+        ],
+        "fill": "#EDF2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            5.2
+          ],
+          [
+            151,
+            15.2
+          ],
+          [
+            169,
+            29.2
+          ],
+          [
+            170,
+            30.4
+          ],
+          [
+            151,
+            16.4
+          ],
+          [
+            125,
+            6.4
+          ]
+        ],
+        "fill": "#EDF2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            4
+          ],
+          [
+            151,
+            4
+          ],
+          [
+            151,
+            30
+          ],
+          [
+            100,
+            66
+          ],
+          [
+            49,
+            30
+          ]
+        ],
+        "fill": "#EDEEE7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            27
+          ],
+          [
+            100,
+            61
+          ],
+          [
+            151,
+            27
+          ],
+          [
+            151,
+            36
+          ],
+          [
+            100,
+            70
+          ],
+          [
+            49,
+            36
+          ]
+        ],
+        "fill": "#C1DDE0",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#BCD8DC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#EAEBE5",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#BCD8DC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#EAEBE5",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

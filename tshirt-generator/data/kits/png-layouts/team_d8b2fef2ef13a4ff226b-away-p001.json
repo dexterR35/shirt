@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d8b2fef2ef13a4ff226b",
+  "team_name": "PAOK B",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-greece-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with very faint paired grey pinstripes, black collar/cuffs edged white and thin black raglan piping. Fine pale material motifs omitted rather than importing source lighting; independent PAOK B Away reference. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d8b2fef2ef13a4ff226b-away-516829.jpg",
+      "page_url": "https://www.footballkitarchive.com/paok-fc-b-2026-27-away-kit-516829/",
+      "sha256": "054ba6877a26be660feb8de3376082f91a48aedcf1320bd77d503c324ef7ce00"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1ED",
+      "leftSleeve": "#F0F1ED",
+      "rightSleeve": "#F0F1ED",
+      "collar": "#24272A",
+      "leftCuff": "#24272A",
+      "rightCuff": "#24272A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#24272A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#ECEDE8",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1ED",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 0.32,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 63.3,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 0.32,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84.3,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 0.32,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105.3,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 0.32,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126.3,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 146,
+        "y": 0,
+        "width": 0.32,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 147.3,
+        "y": 0,
+        "width": 0.2,
+        "height": 200,
+        "fill": "#D7DADA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M75.936 6.784L48.891 14.803L39.78 26.952L39.778 56.038L48.789 80.079L49.211 79.921L40.222 55.962L40.22 27.048L49.109 15.197L76.064 7.216Z",
+        "fill": "#373B3F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M123.936 7.216L150.891 15.197L159.78 27.048L159.778 55.962L150.789 79.921L151.211 80.079L160.222 56.038L160.22 26.952L151.109 14.803L124.064 6.784Z",
+        "fill": "#373B3F",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#24272A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.94999999999999C24 80.55 36 85.85 44.5 84.94999999999999Q48 85.05 49.2 76.85L52 106H5Z",
+        "fill": "#EBEDE6",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#24272A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.94999999999999C176 80.55 164 85.85 155.5 84.94999999999999Q152 85.05 150.8 76.85L148 106H195Z",
+        "fill": "#EBEDE6",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

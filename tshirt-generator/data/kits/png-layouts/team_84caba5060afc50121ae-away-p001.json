@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_84caba5060afc50121ae",
+  "team_name": "Mallorca",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black with narrow gold upper-chest band and gold collar/cuffs; sponsor and crest omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_84caba5060afc50121ae-away-494100.jpg",
+      "page_url": "https://www.footballkitarchive.com/rcd-mallorca-2026-27-away-kit-494100/",
+      "sha256": "ff6c723b866971a4cba2b2a971fd66a8eafaecce1da030664fe9493fcac808b1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#CFB276",
+      "leftCuff": "#CEB276",
+      "rightCuff": "#CEB276"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CFB276",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#202321",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 35,
+        "width": 102,
+        "height": 8,
+        "fill": "#CCAF77",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#CEB276",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#CEB276",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

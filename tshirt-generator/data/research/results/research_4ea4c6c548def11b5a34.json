@@ -4,8 +4,8 @@
   "team_name": "Panionios",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_305f92756fa7a5dd92ee-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/panionios-2026-27-home-kit-495506/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/16/KWDZ2RzMr5DqPRK/panionios-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_305f92756fa7a5dd92ee-home-495506.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#17679B",
+      "leftSleeve": "#17679B",
+      "rightSleeve": "#17679B",
+      "collar": "#CF2441",
+      "leftCuff": "#17679B",
+      "rightCuff": "#17679B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with jagged red vertical bands, staggered diagonal sawtooth edges and blended blue/red transitions across front and sleeves, red neck. Editable measured geometry recreates print rhythm without copying fabric highlights. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_305f92756fa7a5dd92ee-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4ea4c6c548def11b5a34.json",
+    "source_kit_id": "495506"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

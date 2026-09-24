@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aaf584e82d4b02d7d2c0",
+  "team_name": "Leganés",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-leganes-2026-27-away-kit-496014/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/23/JrOByb4qoion8FM/cd-leganes-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aaf584e82d4b02d7d2c0-away-496014.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#282A2A",
+      "leftSleeve": "#282A2A",
+      "rightSleeve": "#282A2A",
+      "collar": "#356F94",
+      "leftCuff": "#282A2A",
+      "rightCuff": "#282A2A"
+    }
+  },
+  "observations": "Charcoal with faint irregular tonal fragments, asymmetric blue/white underarm panels and a blue/white recolored round neckline. Physical source V shape not reproduced; low-contrast print simplified. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with faint irregular tonal fragments, asymmetric blue/white underarm panels and a blue/white recolored round neckline. Physical source V shape not reproduced; low-contrast print simplified. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_aaf584e82d4b02d7d2c0-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#282A2A",
+      "leftSleeve": "#282A2A",
+      "rightSleeve": "#282A2A",
+      "collar": "#356F94",
+      "leftCuff": "#282A2A",
+      "rightCuff": "#282A2A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#356F94",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.5 3.5L77 2Q100 7 123 2L126.5 3.5C129.5 28 70.5 28 73.5 3.5Z",
+          "fill": "#EDEEE7",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#282A2A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            61
+          ],
+          [
+            50,
+            78
+          ],
+          [
+            44,
+            85
+          ],
+          [
+            28,
+            78
+          ]
+        ],
+        "fill": "#12618E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            61
+          ],
+          [
+            150,
+            78
+          ],
+          [
+            156,
+            85
+          ],
+          [
+            172,
+            78
+          ]
+        ],
+        "fill": "#12618E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            155,
+            61
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            158,
+            85
+          ],
+          [
+            174,
+            77
+          ]
+        ],
+        "fill": "#EAEBE5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            52,
+            26
+          ],
+          [
+            77,
+            18
+          ],
+          [
+            66,
+            32
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            93,
+            55
+          ],
+          [
+            135,
+            42
+          ],
+          [
+            114,
+            57
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            104
+          ],
+          [
+            76,
+            95
+          ],
+          [
+            69,
+            112
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            123
+          ],
+          [
+            134,
+            132
+          ],
+          [
+            119,
+            145
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            61,
+            168
+          ],
+          [
+            106,
+            154
+          ],
+          [
+            95,
+            171
+          ]
+        ],
+        "fill": "#333637",
+        "clip": "body",
+        "opacity": 0.45
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e81502918bac333d6b0a",
+  "team_name": "Albacete",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/albacete-balompie-2026-27-home-kit-497836/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/qhzRsX2cW9i5cbk/albacete-balompie-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e81502918bac333d6b0a-home-497836.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret"
+    ],
+    "values": {
+      "body": "#EDF0EC",
+      "leftSleeve": "#EDF0EC",
+      "rightSleeve": "#EDF0EC",
+      "collar": "#82313B",
+      "leftCuff": "#84313F",
+      "rightCuff": "#84313F"
+    }
+  },
+  "observations": "White, burgundy neckline and cuffs with two burgundy shoulder lines. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White, burgundy neckline and cuffs with two burgundy shoulder lines. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_e81502918bac333d6b0a-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDF0EC",
+      "leftSleeve": "#EDF0EC",
+      "rightSleeve": "#EDF0EC",
+      "collar": "#82313B",
+      "leftCuff": "#84313F",
+      "rightCuff": "#84313F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#82313B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDF0EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            49,
+            13
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            30,
+            28
+          ],
+          [
+            49,
+            14
+          ],
+          [
+            75,
+            4
+          ]
+        ],
+        "fill": "#6A1E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            151,
+            13
+          ],
+          [
+            169,
+            27
+          ],
+          [
+            170,
+            28
+          ],
+          [
+            151,
+            14
+          ],
+          [
+            125,
+            4
+          ]
+        ],
+        "fill": "#6A1E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            5.2
+          ],
+          [
+            49,
+            15.2
+          ],
+          [
+            31,
+            29.2
+          ],
+          [
+            30,
+            30.2
+          ],
+          [
+            49,
+            16.2
+          ],
+          [
+            75,
+            6.2
+          ]
+        ],
+        "fill": "#6A1E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            5.2
+          ],
+          [
+            151,
+            15.2
+          ],
+          [
+            169,
+            29.2
+          ],
+          [
+            170,
+            30.2
+          ],
+          [
+            151,
+            16.2
+          ],
+          [
+            125,
+            6.2
+          ]
+        ],
+        "fill": "#6A1E30",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#84313F",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#EEF0EB",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#84313F",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#EEF0EB",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

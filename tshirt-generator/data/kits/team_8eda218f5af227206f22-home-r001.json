@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8eda218f5af227206f22",
+  "team_name": "Cádiz",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cadiz-cf-2026-27-home-kit-491412/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/01/Hq0wLhi80vKpwER/cadiz-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8eda218f5af227206f22-home-491412.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F5D313",
+      "leftSleeve": "#F5D313",
+      "rightSleeve": "#F5D313",
+      "collar": "#F5D313",
+      "leftCuff": "#F5D313",
+      "rightCuff": "#F5D313"
+    }
+  },
+  "observations": "Plain bright yellow with yellow neck/cuffs and very small blue lower-side inserts. Tonal fabric motifs are not replaced with guessed graphics. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain bright yellow with yellow neck/cuffs and very small blue lower-side inserts. Tonal fabric motifs are not replaced with guessed graphics. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_8eda218f5af227206f22-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F5D313",
+      "leftSleeve": "#F5D313",
+      "rightSleeve": "#F5D313",
+      "collar": "#F5D313",
+      "leftCuff": "#F5D313",
+      "rightCuff": "#F5D313"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F5D313",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F5D313",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            187
+          ],
+          [
+            53,
+            199
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#125494",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            187
+          ],
+          [
+            147,
+            199
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#125494",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

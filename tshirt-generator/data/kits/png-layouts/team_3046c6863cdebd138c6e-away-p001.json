@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3046c6863cdebd138c6e",
+  "team_name": "Tenerife",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Near-black with cyan neckline/raglan/side piping and cuff edges. Large tonal historical club emblems, dates and lettering in source are deliberately omitted rather than traced into artwork. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3046c6863cdebd138c6e-away-499238.jpg",
+      "page_url": "https://www.footballkitarchive.com/cd-tenerife-2026-27-away-kit-499238/",
+      "sha256": "10751f737b97facc410686664cd829e96db83d175279c189314003a1a25bbc66"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#20241F",
+      "leftCuff": "#30ACD0",
+      "rightCuff": "#30ACD0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#20241F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.915 2.465L77 2Q100 7 123 2L124.085 2.465C127.775 25.239 72.225 25.239 75.915 2.465Z",
+          "fill": "#2CB2D7",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#202321",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M73.901 7.743L60.901 12.744L42.831 19.783L37.727 30.965L37.729 59.048L45.751 76.117L46.249 75.883L38.271 58.952L38.273 31.035L43.169 20.217L61.099 13.256L74.099 8.257Z",
+        "fill": "#28ACD5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.901 8.257L138.901 13.256L156.831 20.217L161.727 31.035L161.729 58.952L153.751 75.883L154.249 76.117L162.271 59.048L162.273 30.965L157.169 19.783L139.099 12.744L126.099 7.743Z",
+        "fill": "#28ACD5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.45Q53.45 133 49.45 77Z",
+        "fill": "#249AC2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.55Q146.55 133 150.55 77Z",
+        "fill": "#249AC2",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.69999999999999C24 80.3 36 85.6 44.5 84.69999999999999Q48 84.8 49.2 76.6L52 106H5Z",
+        "fill": "#30ACD0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.69999999999999C176 80.3 164 85.6 155.5 84.69999999999999Q152 84.8 150.8 76.6L148 106H195Z",
+        "fill": "#30ACD0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

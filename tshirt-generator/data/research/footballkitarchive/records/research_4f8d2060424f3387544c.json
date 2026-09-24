@@ -18,11 +18,19 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/spain-tier2-listing-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with broad navy vertical stripes across torso and sleeves, navy collar/cuffs. Independent reserve-team Home image confirmed on league listing; detail returns 404 and missing table fields remain unknown. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_86fc70efbc34f127bf63-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_86fc70efbc34f127bf63-home-491565.jpg",
   "image_sha256": "0ddbe0e5f13ea519646f1b773bfd0fa3005aba3f3bedc7840994e2d2c672611d",
+  "artwork_revision_path": "data/kits/team_86fc70efbc34f127bf63-home-r001.json",
   "detail_page_issue": {
     "checked_at": "2026-09-24",
     "url": "https://www.footballkitarchive.com/real-sociedad-b-2026-27-home-kit-491565/",

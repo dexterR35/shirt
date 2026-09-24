@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a faint fine grey grid, dark raglan piping and black/red collar and cuff bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_da4e4e1865d8e1bfe82a-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Ciudad Autónoma de Ceuta",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_da4e4e1865d8e1bfe82a-home-500405.jpg",
-  "image_sha256": "d1dfd72e273c280f1d4d92f4e6194d282a3e2112e3db5d106fa2f9a73375044b"
+  "image_sha256": "d1dfd72e273c280f1d4d92f4e6194d282a3e2112e3db5d106fa2f9a73375044b",
+  "artwork_revision_path": "data/kits/team_da4e4e1865d8e1bfe82a-home-r001.json"
 }

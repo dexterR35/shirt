@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with faint irregular tonal fragments, asymmetric blue/white underarm panels and a blue/white recolored round neckline. Physical source V shape not reproduced; low-contrast print simplified. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_aaf584e82d4b02d7d2c0-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Ontime",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_aaf584e82d4b02d7d2c0-away-496014.jpg",
-  "image_sha256": "5306e012a954a5d9eb0af4146dcdc0952df3ce725135df4b4d5a5d01ffe6feba"
+  "image_sha256": "5306e012a954a5d9eb0af4146dcdc0952df3ce725135df4b4d5a5d01ffe6feba",
+  "artwork_revision_path": "data/kits/team_aaf584e82d4b02d7d2c0-away-r001.json"
 }

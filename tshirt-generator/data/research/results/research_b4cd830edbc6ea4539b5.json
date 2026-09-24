@@ -4,8 +4,8 @@
   "team_name": "Real Sociedad B",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,50 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_86fc70efbc34f127bf63-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-sociedad-b-2026-27-away-kit-515469/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/dfouBoLLKs2Fy6z-small/real-sociedad-b-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_86fc70efbc34f127bf63-away-515469.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [],
+    "values": {
+      "body": "#292D2F",
+      "leftSleeve": "#292D2F",
+      "rightSleeve": "#292D2F",
+      "collar": "#292D2F",
+      "leftCuff": "#292D2F",
+      "rightCuff": "#292D2F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with fine tonal diagonal stepped/chevron texture and dark neckline/cuffs. Fine print simplified from independently labeled reserve-team Away listing front; 404 detail metadata remains unknown. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_86fc70efbc34f127bf63-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b4cd830edbc6ea4539b5.json",
+    "source_kit_id": "515469"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with four burgundy-red vertical torso stripes, blue sleeves and navy neckline with thin red cuff edge. Stripes aligned to torso from angled source photograph; brand shoulder symbols omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9cb16d5eb5877f846ea6-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Ayuntamiento de Elda",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_9cb16d5eb5877f846ea6-home-522629.jpg",
-  "image_sha256": "28165b8e4d57b539a2029d7379f5a039cf036057097333915583cb16e77e4292"
+  "image_sha256": "28165b8e4d57b539a2029d7379f5a039cf036057097333915583cb16e77e4292",
+  "artwork_revision_path": "data/kits/team_9cb16d5eb5877f846ea6-home-r001.json"
 }

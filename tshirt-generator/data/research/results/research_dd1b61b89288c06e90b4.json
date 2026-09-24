@@ -4,8 +4,8 @@
   "team_name": "AEL",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_eeb6d0c8b93e3cf22563-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ael-larissa-2026-27-home-kit-516832/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/sg82r7gqOMkIaJY/ael-larissa-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_eeb6d0c8b93e3cf22563-home-516832.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#791A30",
+      "leftSleeve": "#791A30",
+      "rightSleeve": "#791A30",
+      "collar": "#791A30",
+      "leftCuff": "#791A30",
+      "rightCuff": "#791A30"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Burgundy with nested fine pink diamond/chevron outlines on torso, plain burgundy sleeves and neckline. Measured line pattern adapted from on-person photo. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_eeb6d0c8b93e3cf22563-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_dd1b61b89288c06e90b4.json",
+    "source_kit_id": "516832"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

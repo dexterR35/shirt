@@ -4,8 +4,8 @@
   "team_name": "Sabadell",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2cd54e73ca83a16d91e1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ce-sabadell-2026-27-home-kit-498629/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/ioGeCkBPel7bg7a/ce-sabadell-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2cd54e73ca83a16d91e1-home-498629.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#ECEFE9",
+      "leftSleeve": "#ECEFE9",
+      "rightSleeve": "#ECEFE9",
+      "collar": "#233D61",
+      "leftCuff": "#203A5A",
+      "rightCuff": "#203A5A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue/white quartered torso with fine double pale cross dividers, subtle horizontal micro-lines, white sleeves and layered navy/blue/white cuffs and collar. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2cd54e73ca83a16d91e1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0b04163f2068f449ca79.json",
+    "source_kit_id": "498629"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

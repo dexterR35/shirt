@@ -1,0 +1,40 @@
+{
+  "batch": "tier2-greece-2026-09-24",
+  "traces": [
+    {
+      "key": "Hellas Syros:home",
+      "reference": "data/research/references/footballkitarchive/team_255c48f34a2938829cb3-home-516344.jpg",
+      "source_sha256": "d4a8f726b53ee72006d251779850e098d8f1629779a48a362d57f677eb4a15c5",
+      "spec": {
+        "box": [
+          78,
+          440,
+          398,
+          358
+        ],
+        "width": 420,
+        "mode": "inverse",
+        "threshold": 161,
+        "min": 0,
+        "max": 100,
+        "exclude": [
+          [
+            75,
+            420,
+            255,
+            47
+          ]
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 105,
+        "width": 102,
+        "height": 95,
+        "color": "#34384E"
+      },
+      "ink_pixels": 18456,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

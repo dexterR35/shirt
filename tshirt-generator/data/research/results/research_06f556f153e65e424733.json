@@ -4,8 +4,8 @@
   "team_name": "Olympiacos B",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8f9bc7af6d254258f499-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/olympiacos-fc-b-2026-27-away-kit-520625/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/19/EG3d2NtfEbiYJFc/olympiacos-fc-b-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8f9bc7af6d254258f499-away-520625.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#E8E9DE",
+      "leftSleeve": "#E8E9DE",
+      "rightSleeve": "#E8E9DE",
+      "collar": "#B81C26",
+      "leftCuff": "#AAA05F",
+      "rightCuff": "#AAA05F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm off-white, burgundy neckline/shoulder bands and fine muted-gold/red cuff edging. Independent reserve-team Away evidence, without first-team substitution. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_8f9bc7af6d254258f499-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_06f556f153e65e424733.json",
+    "source_kit_id": "520625"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

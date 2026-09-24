@@ -4,8 +4,8 @@
   "team_name": "Sporting Gijón",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2c71f0a2a811872fd4f5-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-sporting-de-gijon-2026-27-home-kit-492834/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/08/afXjhAQFEg6ZNSz/real-sporting-de-gijon-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2c71f0a2a811872fd4f5-home-492834.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#EEEFE8",
+      "leftSleeve": "#EEEFE8",
+      "rightSleeve": "#EEEFE8",
+      "collar": "#C0272D",
+      "leftCuff": "#BF2C2D",
+      "rightCuff": "#BF2C2D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with four broad red torso stripes and red/white sleeves, red neckline edged gold and red/ivory/gold cuff lines. On-person photo proportions adapted to the common front. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2c71f0a2a811872fd4f5-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_19a1e9969f978e6fa422.json",
+    "source_kit_id": "492834"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

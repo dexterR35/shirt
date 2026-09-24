@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_86fc70efbc34f127bf63",
+  "team_name": "Real Sociedad B",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with broad navy vertical stripes across torso and sleeves, navy collar/cuffs. Independent reserve-team Home image confirmed on league listing; detail returns 404 and missing table fields remain unknown. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_86fc70efbc34f127bf63-home-491565.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-sociedad-b-2026-27-home-kit-491565/",
+      "sha256": "0ddbe0e5f13ea519646f1b773bfd0fa3005aba3f3bedc7840994e2d2c672611d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFEFE9",
+      "leftSleeve": "#EFEFE9",
+      "rightSleeve": "#EFEFE9",
+      "collar": "#203B66",
+      "leftCuff": "#213B60",
+      "rightCuff": "#213B60"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#203B66",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFEFE9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#28436D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#28436D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#28436D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 142,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#28436D",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#213B60",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#213B60",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

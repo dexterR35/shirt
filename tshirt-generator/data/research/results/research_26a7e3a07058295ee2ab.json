@@ -5,8 +5,8 @@
   "country_name": "Finland",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,25 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-finland-source-gaps-2026-09-24",
+      "action": "Inspected live FKA competition season listing and individual club history; resolved aliases and reserve identities independently.",
+      "source_url": "https://www.footballkitarchive.com/pk-35-vantaa-kits-t79520/",
+      "observed_entries": [
+        "2025"
+      ],
+      "additional_sources": [
+        {
+          "url": "https://www.footballkitarchive.com/pallokerho-35-kits-t8332/",
+          "observed_latest": "2024",
+          "note": "Separate older-name candidate also checked; no current-season match asserted."
+        }
+      ],
+      "outcome": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
+    }
   ]
 }

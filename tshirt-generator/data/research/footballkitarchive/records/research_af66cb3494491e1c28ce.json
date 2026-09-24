@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain bright yellow with yellow neck/cuffs and very small blue lower-side inserts. Tonal fabric motifs are not replaced with guessed graphics. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_8eda218f5af227206f22-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "DIGI",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_8eda218f5af227206f22-home-491412.jpg",
-  "image_sha256": "b378ab1a9cc4b2e5c145c092c155a5d3dd842ae4366b549c32f764261df02f01"
+  "image_sha256": "b378ab1a9cc4b2e5c145c092c155a5d3dd842ae4366b549c32f764261df02f01",
+  "artwork_revision_path": "data/kits/team_8eda218f5af227206f22-home-r001.json"
 }

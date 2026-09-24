@@ -4,8 +4,8 @@
   "team_name": "Athens Kallithea",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a4c6e08fa0022644187d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/athens-kallithea-2026-27-away-kit-504100/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/06/cvIfhuFkN3N7Bfk/athens-kallithea-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a4c6e08fa0022644187d-away-504100.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#EFF1F4",
+      "leftSleeve": "#EFF1F4",
+      "rightSleeve": "#EFF1F4",
+      "collar": "#192D4A",
+      "leftCuff": "#EFF1F4",
+      "rightCuff": "#EFF1F4"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Cool white with five groups of four fine navy horizontal hoops below chest, white sleeves, navy side seam piping and navy neckline. No artificial polo construction. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_a4c6e08fa0022644187d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d2d50934b9ce127f1646.json",
+    "source_kit_id": "504100"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

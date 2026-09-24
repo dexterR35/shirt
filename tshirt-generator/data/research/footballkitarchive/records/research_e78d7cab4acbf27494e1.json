@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with gold inner sleeve/underarm inserts and fine gold neck/cuff bands. Gold city-map lines mapped from clean lower front, retaining the larger road topology while reducing tiny streets; no sponsor text included. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_abcbe5774b6ad94b2e37-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Bahrain Victorious",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_abcbe5774b6ad94b2e37-away-492276.jpg",
-  "image_sha256": "2c8d7da4823941e42faad24c9e59ecd82984db80ba592468e9a8cfebbf990100"
+  "image_sha256": "2c8d7da4823941e42faad24c9e59ecd82984db80ba592468e9a8cfebbf990100",
+  "artwork_revision_path": "data/kits/team_abcbe5774b6ad94b2e37-away-r001.json"
 }

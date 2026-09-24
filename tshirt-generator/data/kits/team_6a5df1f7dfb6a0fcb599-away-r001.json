@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6a5df1f7dfb6a0fcb599",
+  "team_name": "Almería",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ud-almeria-2026-27-away-kit-504739/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/01/ZVQ8WgVBtG1wpbB/ud-almeria-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6a5df1f7dfb6a0fcb599-away-504739.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Green"
+    ],
+    "values": {
+      "body": "#E8E8DB",
+      "leftSleeve": "#E8E8DB",
+      "rightSleeve": "#E8E8DB",
+      "collar": "#063E34",
+      "leftCuff": "#164639",
+      "rightCuff": "#164639"
+    }
+  },
+  "observations": "Warm off-white with dark-green neckline and broad green cuff bands; white material texture retained through the original base. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm off-white with dark-green neckline and broad green cuff bands; white material texture retained through the original base. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6a5df1f7dfb6a0fcb599-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E8E8DB",
+      "leftSleeve": "#E8E8DB",
+      "rightSleeve": "#E8E8DB",
+      "collar": "#063E34",
+      "leftCuff": "#164639",
+      "rightCuff": "#164639"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#063E34",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E8E8DB",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#164639",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#164639",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

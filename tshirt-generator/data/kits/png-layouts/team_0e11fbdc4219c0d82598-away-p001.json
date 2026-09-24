@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0e11fbdc4219c0d82598",
+  "team_name": "Real Valladolid",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black with three groups of lavender/white narrow vertical stripes and lavender/white fine cuff trim. Tonal historic club lettering/emblems omitted; black neck and sleeves. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_0e11fbdc4219c0d82598-away-498514.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-valladolid-2026-27-away-kit-498514/",
+      "sha256": "25fa27c160e71a3f4908ada2cf5b701b994e22537329db0cbdb8479dc778f0bc"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#292828",
+      "leftSleeve": "#292828",
+      "rightSleeve": "#292828",
+      "collar": "#292828",
+      "leftCuff": "#9A84B2",
+      "rightCuff": "#9A84B2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#292828",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#292828",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#DCDDD6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 93,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#DCDDD6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 133,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 2,
+        "height": 200,
+        "fill": "#8F7AA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#DCDDD6",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.89999999999999C24 78.5 36 83.8 44.5 82.89999999999999Q48 83 49.2 74.8L52 106H5Z",
+        "fill": "#9A84B2",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75C24 79.60000000000001 36 84.9 44.5 84Q48 84.10000000000001 49.2 75.9L52 106H5Z",
+        "fill": "#E9E9DF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#333133",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.89999999999999C176 78.5 164 83.8 155.5 82.89999999999999Q152 83 150.8 74.8L148 106H195Z",
+        "fill": "#9A84B2",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75C176 79.60000000000001 164 84.9 155.5 84Q152 84.10000000000001 150.8 75.9L148 106H195Z",
+        "fill": "#E9E9DF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#333133",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

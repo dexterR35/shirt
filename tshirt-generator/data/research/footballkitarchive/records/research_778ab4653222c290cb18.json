@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Forest green with pale tonal geometric linked square/rectangle outlines, ivory-gold collar/cuff edging. Fine structural pattern traced from front, sponsor/crest regions reconstructed from clean lower field. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_2c71f0a2a811872fd4f5-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Siroko",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_2c71f0a2a811872fd4f5-away-498211.jpg",
-  "image_sha256": "a0bff818ae9dda373f1b46a79c543f5926ea25e4c505033a304549a927c228b2"
+  "image_sha256": "a0bff818ae9dda373f1b46a79c543f5926ea25e4c505033a304549a927c228b2",
+  "artwork_revision_path": "data/kits/team_2c71f0a2a811872fd4f5-away-r001.json"
 }

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with two broad green front stripes, white sleeves and neckline, fine gold cuff edges. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_abcbe5774b6ad94b2e37-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Bahrain Victorious",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_abcbe5774b6ad94b2e37-home-492419.jpg",
-  "image_sha256": "57372cd043eb8076d20d5289c6deaae10aa5d45264f6daa56e31e052a1aaa0c8"
+  "image_sha256": "57372cd043eb8076d20d5289c6deaae10aa5d45264f6daa56e31e052a1aaa0c8",
+  "artwork_revision_path": "data/kits/team_abcbe5774b6ad94b2e37-home-r001.json"
 }

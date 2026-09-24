@@ -4,8 +4,8 @@
   "team_name": "Real Oviedo",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_aebb3d1a942fb7d4c1b4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-oviedo-2026-27-home-kit-492943/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/03/z8WjU4yugKquWMX/real-oviedo-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aebb3d1a942fb7d4c1b4-home-492943.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#085290",
+      "leftSleeve": "#085290",
+      "rightSleeve": "#085290",
+      "collar": "#EDF2E9",
+      "leftCuff": "#EDF3EC",
+      "rightCuff": "#EDF3EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with very faint pinstripes, white collar, two white shoulder lines and layered white/blue cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_aebb3d1a942fb7d4c1b4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9b12e2bfb7034ebb7f1e.json",
+    "source_kit_id": "492943"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

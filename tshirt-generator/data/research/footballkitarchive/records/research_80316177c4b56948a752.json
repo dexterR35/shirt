@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with off-white curved raglan panels edged red, and blue/ivory neckline bands. Verified reserve-team reference, not inherited first-team evidence. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_db8fa2d60d4ae79fe2ce-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Estrella Galicia",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_db8fa2d60d4ae79fe2ce-away-491758.jpg",
-  "image_sha256": "712a41e9fdc783c8dca18c4dfe9b22c9d400d08ed178d6872f81df61b31a003f"
+  "image_sha256": "712a41e9fdc783c8dca18c4dfe9b22c9d400d08ed178d6872f81df61b31a003f",
+  "artwork_revision_path": "data/kits/team_db8fa2d60d4ae79fe2ce-away-r001.json"
 }

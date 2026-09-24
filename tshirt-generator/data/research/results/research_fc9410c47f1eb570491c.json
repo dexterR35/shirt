@@ -4,8 +4,8 @@
   "team_name": "Athens Kallithea",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a4c6e08fa0022644187d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/athens-kallithea-2026-27-home-kit-504101/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/06/RRS5uFKBeAfH5dV/athens-kallithea-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a4c6e08fa0022644187d-home-504101.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1D2C59",
+      "leftSleeve": "#1D2C59",
+      "rightSleeve": "#1D2C59",
+      "collar": "#1A2E49",
+      "leftCuff": "#B4DCEC",
+      "rightCuff": "#B4DCEC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with four narrow groups of fine pale-blue vertical lines and broad pale-blue sleeve ends; navy neckline. Source polo flaps/placket omitted on the fixed round collar. Colors visually estimated. Original PNG fabric and alpha retained; all emblems, lettering and sponsors omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-greece-2026-09-24/team_a4c6e08fa0022644187d-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fc9410c47f1eb570491c.json",
+    "source_kit_id": "504101"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-greece-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

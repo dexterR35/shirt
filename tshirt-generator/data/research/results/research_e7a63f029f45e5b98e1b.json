@@ -4,8 +4,8 @@
   "team_name": "FC Andorra",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6ad512d4b31375ef7264-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-andorra-2026-27-home-kit-494091/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/01/fPtIqpEmG7enWOF/fc-andorra-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6ad512d4b31375ef7264-home-494091.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow",
+      "Red"
+    ],
+    "values": {
+      "body": "#193556",
+      "leftSleeve": "#193556",
+      "rightSleeve": "#193556",
+      "collar": "#DFC22C",
+      "leftCuff": "#DFC340",
+      "rightCuff": "#DFC340"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with golden-yellow collar and sleeve bands. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_6ad512d4b31375ef7264-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e7a63f029f45e5b98e1b.json",
+    "source_kit_id": "494091"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

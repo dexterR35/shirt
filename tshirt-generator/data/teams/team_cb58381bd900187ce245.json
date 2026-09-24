@@ -11,22 +11,36 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Haka",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkösliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-haka-2026-home-kit-494878/",
+        "kit_id": "494878",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ykkosliiga-kits-2026-l45525/",
+        "record_path": "data/research/footballkitarchive/records/research_df8a198d96bfb37c9798.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/finland-tier2-2026.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",

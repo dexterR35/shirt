@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/la-liga-2-kits-2026-27-l151/",
   "checked_at": "2026-09-24",
   "capture_path": "data/research/footballkitarchive/captures/la-liga-2-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with large irregular green marbled shapes and halftone boundaries, orange neck and two orange shoulder bands. Discrete green mask from full front with small manually reconstructed brand-covered fragments; central brand-covered navy field retained; halftone dots simplified. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_068a7c74be7f11049377-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Sabor Granada",
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-24"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_068a7c74be7f11049377-away-503560.jpg",
-  "image_sha256": "4f005c82eeeb722d22861a28aafe660c18025bfedf16bb96d9c02432be434f90"
+  "image_sha256": "4f005c82eeeb722d22861a28aafe660c18025bfedf16bb96d9c02432be434f90",
+  "artwork_revision_path": "data/kits/team_068a7c74be7f11049377-away-r001.json"
 }

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8eda218f5af227206f22",
+  "team_name": "Cádiz",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain bright yellow with yellow neck/cuffs and very small blue lower-side inserts. Tonal fabric motifs are not replaced with guessed graphics. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8eda218f5af227206f22-home-491412.jpg",
+      "page_url": "https://www.footballkitarchive.com/cadiz-cf-2026-27-home-kit-491412/",
+      "sha256": "b378ab1a9cc4b2e5c145c092c155a5d3dd842ae4366b549c32f764261df02f01"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F5D313",
+      "leftSleeve": "#F5D313",
+      "rightSleeve": "#F5D313",
+      "collar": "#F5D313",
+      "leftCuff": "#F5D313",
+      "rightCuff": "#F5D313"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F5D313",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F5D313",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            187
+          ],
+          [
+            53,
+            199
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#125494",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            187
+          ],
+          [
+            147,
+            199
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#125494",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

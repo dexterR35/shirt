@@ -4,8 +4,8 @@
   "team_name": "Mallorca",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_84caba5060afc50121ae-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rcd-mallorca-2026-27-home-kit-489549/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/rZXUXNL1fz7DSM0/rcd-mallorca-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_84caba5060afc50121ae-home-489549.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#E52B42",
+      "leftSleeve": "#E52B42",
+      "rightSleeve": "#222423",
+      "collar": "#242722",
+      "leftCuff": "#222423",
+      "rightCuff": "#222423"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/black split torso with matching red left/black right sleeve, black collar/cuffs. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_84caba5060afc50121ae-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9cb672c9122e8eefa7e5.json",
+    "source_kit_id": "489549"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-spain-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

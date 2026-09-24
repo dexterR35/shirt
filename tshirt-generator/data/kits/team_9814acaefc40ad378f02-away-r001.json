@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9814acaefc40ad378f02",
+  "team_name": "Burgos",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/burgos-cf-2026-27-away-kit-489957/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/02/g8erN59e4EEypFW/burgos-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9814acaefc40ad378f02-away-489957.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#191B19",
+      "leftSleeve": "#191B19",
+      "rightSleeve": "#191B19",
+      "collar": "#171A18",
+      "leftCuff": "#AD9343",
+      "rightCuff": "#AD9343"
+    }
+  },
+  "observations": "Black with very fine gold neckline/cuff edging; large gold sponsor and manufacturer marks omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with very fine gold neckline/cuff edging; large gold sponsor and manufacturer marks omitted. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+    "render_path": "artifacts/footballkitarchive/tier2-spain-2026-09-24/team_9814acaefc40ad378f02-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#191B19",
+      "leftSleeve": "#191B19",
+      "rightSleeve": "#191B19",
+      "collar": "#171A18",
+      "leftCuff": "#AD9343",
+      "rightCuff": "#AD9343"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#171A18",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.588 2.176L77 2Q100 7 123 2L123.412 2.176C127.294 24.471 72.706 24.471 76.588 2.176Z",
+          "fill": "#B99940",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#191B19",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#AD9343",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#AD9343",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e81502918bac333d6b0a",
+  "team_name": "Albacete",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-spain-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Deep green with two dusty-pink chest bands separated by a narrow burgundy line, pink neck/shoulder lines and small pink hem-side blocks. Colors visually estimated from independent saved reference. Original PNG fabric/alpha and round collar retained; no second collar, placket, sponsor, emblem or lettering drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e81502918bac333d6b0a-away-500645.jpg",
+      "page_url": "https://www.footballkitarchive.com/albacete-balompie-2026-27-away-kit-500645/",
+      "sha256": "7a4108bce476c70f83a6f013d45ed3e22df4ba7ad9d4161a2cfaf81da950b9b0"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#005244",
+      "leftSleeve": "#005244",
+      "rightSleeve": "#005244",
+      "collar": "#E4B2B6",
+      "leftCuff": "#005244",
+      "rightCuff": "#005244"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E4B2B6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#005244",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            49,
+            13
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            30,
+            28
+          ],
+          [
+            49,
+            14
+          ],
+          [
+            75,
+            4
+          ]
+        ],
+        "fill": "#E0B0B6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            151,
+            13
+          ],
+          [
+            169,
+            27
+          ],
+          [
+            170,
+            28
+          ],
+          [
+            151,
+            14
+          ],
+          [
+            125,
+            4
+          ]
+        ],
+        "fill": "#E0B0B6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            5.2
+          ],
+          [
+            49,
+            15.2
+          ],
+          [
+            31,
+            29.2
+          ],
+          [
+            30,
+            30.2
+          ],
+          [
+            49,
+            16.2
+          ],
+          [
+            75,
+            6.2
+          ]
+        ],
+        "fill": "#E0B0B6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            5.2
+          ],
+          [
+            151,
+            15.2
+          ],
+          [
+            169,
+            29.2
+          ],
+          [
+            170,
+            30.2
+          ],
+          [
+            151,
+            16.2
+          ],
+          [
+            125,
+            6.2
+          ]
+        ],
+        "fill": "#E0B0B6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 52,
+        "width": 102,
+        "height": 10,
+        "fill": "#D8A2A8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 62,
+        "width": 102,
+        "height": 2,
+        "fill": "#77222F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 64,
+        "width": 102,
+        "height": 10,
+        "fill": "#D8A2A8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            194
+          ],
+          [
+            60,
+            194
+          ],
+          [
+            60,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#DBA6AD",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            194
+          ],
+          [
+            140,
+            194
+          ],
+          [
+            140,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#DBA6AD",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}
