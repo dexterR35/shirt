@@ -4,8 +4,8 @@
   "team_name": "Cosenza",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 reference captured; awaiting paint/review."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -82,6 +80,53 @@
         "2025-26 Home"
       ],
       "outcome": "Live team history lists 2026-27 Away, 2025-26 Home but no independent current 2026/27 home front. Older season, third kit, goalkeeper and event kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-western-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_831c91e4c1a938086192-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cosenza-2025-26-home-kit-400737/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/07/O7J29TKQuAudxvm/cosenza-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_831c91e4c1a938086192-home-400737.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#213961",
+      "leftSleeve": "#213961",
+      "rightSleeve": "#213961",
+      "collar": "#213961",
+      "leftCuff": "#213961",
+      "rightCuff": "#213961"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with eight narrow red torso stripes, plain navy sleeves, three white shoulder tapes and narrow white side strips. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_831c91e4c1a938086192-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f05f2b52c96c17bd1491.json",
+    "source_kit_id": "400737"
+  }
 }

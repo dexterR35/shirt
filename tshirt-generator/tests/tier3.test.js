@@ -52,3 +52,25 @@ test('League One first batch binds reviewed paint, independent evidence and equi
     assert.deepEqual(equipment.competitions,['League One']);
   }
 });
+
+test('every ready Tier 3 slot publishes its individually reviewed configuration and literal source season',async()=>{
+  const work=await read('data/research/tier3-worklist.json'),catalog=await read('public/catalog/manifest.json');
+  const reviews=new Map();
+  for(const task of work.tasks.filter(t=>t.status==='ready')){
+    const k=await read(task.kit_revision_path),source=await read(`data/research/footballkitarchive/records/${task.task_id}.json`);
+    if(!reviews.has(k.research_batch))reviews.set(k.research_batch,await read(`data/research/${k.research_batch}-review.json`));
+    const decision=reviews.get(k.research_batch).find(d=>d.key===`${k.team_name}:${k.variant}`);
+    assert.equal(decision?.status,'ready',task.team_name);
+    assert.equal(decision.config_sha256,hash(JSON.stringify(k.config)));
+    assert.equal(decision.reference_sha256,hash(await fs.readFile(task.reference_path)));
+    assert.equal(k.kit_season,source.kit_season);assert.equal(k.variant,task.variant);assert.equal(k.team_id,task.team_id);
+    assert.equal(k.visual_review.human_approved,false);await fs.access(decision.comparison_path);
+    const slot=catalog.teams.find(t=>t.id===task.team_id).kits[task.variant];
+    assert.equal(slot.status,'ready');assert.equal(slot.revision,k.revision);assert.equal(slot.kit_season,k.kit_season);
+    const published=await read('public'+slot.details_path);assert.deepEqual(published.png_layout.config,k.config);
+    const equipment=(await read(`data/teams/${task.team_id}.json`)).kits[task.variant];
+    assert.equal(equipment.season,k.kit_season);assert.equal(equipment.source.url,task.source_url);
+  }
+  const pro=(await read('data/teams/team_01574f84fc27a53ae442.json')).kits.away;
+  assert.equal(pro.release_date,'August 15, 225');assert.equal(pro.release_date_iso,null);
+});

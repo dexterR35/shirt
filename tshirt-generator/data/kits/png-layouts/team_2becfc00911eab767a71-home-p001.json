@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2becfc00911eab767a71",
+  "team_name": "Atsalenios",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Dark green with fine muted white pinlines, white cuff edging. White shoulder blocks are repeated Capelli brand marks and removed. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2becfc00911eab767a71-home-444398.jpg",
+      "page_url": "https://www.footballkitarchive.com/po-atsaleniou-2025-26-home-kit-444398/",
+      "sha256": "35520ddf6f0f5dca4b957f37e9d589fb5cdae5712480460bfc47a48c80a3b418"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#24664A",
+      "leftSleeve": "#24664A",
+      "rightSleeve": "#24664A",
+      "collar": "#24664A",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#24664A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#24664A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 73,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8AA993",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73C24 77.60000000000001 36 82.9 44.5 82Q48 82.10000000000001 49.2 73.9L52 106H5Z",
+        "fill": "#F1F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#24664A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73C176 77.60000000000001 164 82.9 155.5 82Q152 82.10000000000001 150.8 73.9L148 106H195Z",
+        "fill": "#F1F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#24664A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

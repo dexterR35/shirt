@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with dense blue flowing/interlaced fine contour lines, sky-blue ring/cuffs. Fine curved and crossing line field manually redrawn with reduced micro-detail. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_71135adb81cb2d2f3a76-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_71135adb81cb2d2f3a76-home-444154.jpg",
-  "image_sha256": "34a853d92a58aa1d363fa743e2ed6779d2e600724be107e0195732affb0eb6d2"
+  "image_sha256": "34a853d92a58aa1d363fa743e2ed6779d2e600724be107e0195732affb0eb6d2",
+  "artwork_revision_path": "data/kits/team_71135adb81cb2d2f3a76-home-r001.json"
 }

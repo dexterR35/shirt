@@ -4,8 +4,8 @@
   "team_name": "Kavala",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -83,6 +81,52 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_21dfd15ab85aae8b03c0-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kavala-fc-2025-26-away-kit-417302/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/04/AeU7JTHdTeMWDl5/kavala-fc-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_21dfd15ab85aae8b03c0-away-417302.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#ECC523",
+      "leftSleeve": "#ECC523",
+      "rightSleeve": "#ECC523",
+      "collar": "#ECC523",
+      "leftCuff": "#ECC523",
+      "rightCuff": "#ECC523"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with navy angled upper chest-to-raglan strips and very thin dark lower-side trim, plain yellow sleeves and ring. Independently inspected 2025/26 Home/Away source; newly authorized fallback replaces the old current-season source gap. Literal season retained, estimated colors and reduced fine detail disclosed. Original PNG fabric, alpha and physical round collar preserved; no logos or lettering.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-c-2026-09-25/team_21dfd15ab85aae8b03c0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7a182f75e3288c34af64.json",
+    "source_kit_id": "417302"
+  }
 }

@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1923b5b014715eb43b99",
+  "team_name": "Trikala",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with blue raglan shoulders/sleeves, blue upper-left downward spike fades and blue lower-right angled spike fades, red ring. Jako shoulder dots removed. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1923b5b014715eb43b99-home-444171.jpg",
+      "page_url": "https://www.footballkitarchive.com/trikala-2025-26-home-kit-444171/",
+      "sha256": "b26c75f8695c81103216a973cd98be03ad00abf1b0dade452507b67d4994dd96"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D7272A",
+      "leftSleeve": "#25569D",
+      "rightSleeve": "#25569D",
+      "collar": "#CE2B2F",
+      "leftCuff": "#25569D",
+      "rightCuff": "#25569D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CE2B2F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D7272A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            4
+          ],
+          [
+            71,
+            13
+          ],
+          [
+            59,
+            18
+          ],
+          [
+            52,
+            28
+          ],
+          [
+            48,
+            60
+          ],
+          [
+            47,
+            90
+          ],
+          [
+            0,
+            100
+          ]
+        ],
+        "fill": "#25569D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            125,
+            4
+          ],
+          [
+            129,
+            13
+          ],
+          [
+            141,
+            18
+          ],
+          [
+            148,
+            28
+          ],
+          [
+            152,
+            60
+          ],
+          [
+            153,
+            90
+          ],
+          [
+            200,
+            100
+          ]
+        ],
+        "fill": "#25569D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            0
+          ],
+          [
+            121,
+            0
+          ],
+          [
+            103,
+            29
+          ],
+          [
+            88,
+            55
+          ],
+          [
+            57,
+            47
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 53,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#275BA6"
+            },
+            {
+              "offset": 1,
+              "color": "#D7272A"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            200
+          ],
+          [
+            156,
+            200
+          ],
+          [
+            156,
+            132
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 140,
+          "x2": 0,
+          "y2": 180,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D7272A"
+            },
+            {
+              "offset": 1,
+              "color": "#2B5AA0"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            0
+          ],
+          [
+            57,
+            0
+          ],
+          [
+            67,
+            45
+          ],
+          [
+            55,
+            33
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 45,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#29579D"
+            },
+            {
+              "offset": 1,
+              "color": "#D7272A"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            65,
+            0
+          ],
+          [
+            74,
+            0
+          ],
+          [
+            84,
+            45
+          ],
+          [
+            72,
+            33
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 45,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#29579D"
+            },
+            {
+              "offset": 1,
+              "color": "#D7272A"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            82,
+            0
+          ],
+          [
+            91,
+            0
+          ],
+          [
+            101,
+            45
+          ],
+          [
+            89,
+            33
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 45,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#29579D"
+            },
+            {
+              "offset": 1,
+              "color": "#D7272A"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            104,
+            200
+          ],
+          [
+            119,
+            200
+          ],
+          [
+            153,
+            139
+          ],
+          [
+            147,
+            147
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 134,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D7272A"
+            },
+            {
+              "offset": 1,
+              "color": "#2A5AA0"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            121,
+            200
+          ],
+          [
+            136,
+            200
+          ],
+          [
+            153,
+            139
+          ],
+          [
+            147,
+            147
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 134,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D7272A"
+            },
+            {
+              "offset": 1,
+              "color": "#2A5AA0"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            200
+          ],
+          [
+            154,
+            200
+          ],
+          [
+            153,
+            139
+          ],
+          [
+            147,
+            147
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 134,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D7272A"
+            },
+            {
+              "offset": 1,
+              "color": "#2A5AA0"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

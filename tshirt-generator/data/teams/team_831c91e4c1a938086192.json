@@ -11,22 +11,43 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_831c91e4c1a938086192",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/cosenza-2025-26-home-kit-400737/",
+        "reason": "Independent history has no preferred 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Preserve literal source season."
+      },
+      "source_team_name": "Cosenza",
+      "design": "Stripes",
+      "colors": [
+        "Navy",
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Ecologia Oggi",
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 15, 2025",
+      "release_date_iso": "2025-08-15",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/cosenza-2025-26-home-kit-400737/",
+        "kit_id": "400737",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_f05f2b52c96c17bd1491.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-italy-fallback-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",

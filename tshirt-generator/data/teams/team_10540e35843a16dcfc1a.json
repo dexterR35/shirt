@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_10540e35843a16dcfc1a",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/iraklis-thermaikou-2025-26-home-kit-444007/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Iraklis Thermaikos",
+      "design": "Stripes",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/iraklis-thermaikou-2025-26-home-kit-444007/",
+        "kit_id": "444007",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_320aa6cd12e8dee4835b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-b-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_10540e35843a16dcfc1a",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/iraklis-thermaikou-2025-26-away-kit-444006/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Iraklis Thermaikos",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/iraklis-thermaikou-2025-26-away-kit-444006/",
+        "kit_id": "444006",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_60a68fbaeab74655008d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-b-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

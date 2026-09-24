@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5436dc5a36497fc4dd20",
+  "team_name": "Panagriniakos",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-d-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/panagriniakos-fc-2025-26-home-kit-516483/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/BKeKAXnyp5mI7mF/panagriniakos-fc-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5436dc5a36497fc4dd20-home-516483.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#F1F2EF",
+      "rightSleeve": "#F1F2EF",
+      "collar": "#F1F2EF",
+      "leftCuff": "#F1F2EF",
+      "rightCuff": "#F1F2EF"
+    }
+  },
+  "observations": "Plain white body/sleeves and white round ring, independently evidenced by match photograph. Brand, chest crest, sponsor and overlaid watermark removed; no extra trim inferred from folds. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#F1F2EF",
+      "rightSleeve": "#F1F2EF",
+      "collar": "#F1F2EF",
+      "leftCuff": "#F1F2EF",
+      "rightCuff": "#F1F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

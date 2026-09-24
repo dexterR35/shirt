@@ -4,8 +4,8 @@
   "team_name": "PAO Kristoni",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
@@ -40,9 +40,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -55,6 +53,53 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_01bb97e89b7020049562-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/paok-kristonis-2025-26-away-kit-443713/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/Epwi40CpP2OPyRc/paok-kristonis-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_01bb97e89b7020049562-away-443713.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Gray",
+      "Navy"
+    ],
+    "values": {
+      "body": "#AEB1B4",
+      "leftSleeve": "#B4B7BA",
+      "rightSleeve": "#B4B7BA",
+      "collar": "#2B2C2D",
+      "leftCuff": "#2B2C2D",
+      "rightCuff": "#2B2C2D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Grey with pale dense broken fleck texture on torso, plain light-grey raglan sleeves, dark fine cuff/ring edging and navy lower-side tabs. Lower-front flecks isolated and repeated; tiny microtexture reduced. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_01bb97e89b7020049562-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6918ca1c7a2218e91ffd.json",
+    "source_kit_id": "443713"
+  }
 }

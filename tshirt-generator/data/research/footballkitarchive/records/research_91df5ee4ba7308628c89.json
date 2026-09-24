@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-italy-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with narrow broken yellow/navy diagonal brush bands from lower viewer-left to upper viewer-right, dark cuffs/ring. Sponsor gap retained. Large tonal tiger is club imagery and removed; neutral brush edges redrawn. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_1c9d550ef7ec01c8dde5-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_1c9d550ef7ec01c8dde5-away-402103.jpg",
-  "image_sha256": "463caa6055b8e91d0f11751add1cb0a4cd68410b1d77b2af88e0a05f944c55ad"
+  "image_sha256": "463caa6055b8e91d0f11751add1cb0a4cd68410b1d77b2af88e0a05f944c55ad",
+  "artwork_revision_path": "data/kits/team_1c9d550ef7ec01c8dde5-away-r001.json"
 }

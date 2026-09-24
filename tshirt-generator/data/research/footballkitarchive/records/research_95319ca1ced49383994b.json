@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-spain-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with cyan radiating narrow torso wedges and diagonal upper-left stripes, cyan sleeves, white cuffs/ring. Sponsor-obscured intersections continued geometrically from visible rays. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_d57548f7c1a5ac297d4f-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Estrella Galicia",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_d57548f7c1a5ac297d4f-away-418540.jpg",
-  "image_sha256": "f0ef66cf7a74e4dcbde51b7fad17a7ed59758e0f94db0cc0e46b59c621c1a6a0"
+  "image_sha256": "f0ef66cf7a74e4dcbde51b7fad17a7ed59758e0f94db0cc0e46b59c621c1a6a0",
+  "artwork_revision_path": "data/kits/team_d57548f7c1a5ac297d4f-away-r001.json"
 }

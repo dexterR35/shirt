@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_742f114f62fb033f2ff2",
+  "team_name": "Ionikos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Orange with separated white slanted chest strips at either side, orange sleeves and ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_742f114f62fb033f2ff2-away-444394.jpg",
+      "page_url": "https://www.footballkitarchive.com/ionikos-2025-26-away-kit-444394/",
+      "sha256": "20e89feb5e3fb4e77022906eb20243906dbdf5b9a5fba6284f6bc13d126f1289"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F35B13",
+      "leftSleeve": "#F35B13",
+      "rightSleeve": "#F35B13",
+      "collar": "#EE5C19",
+      "leftCuff": "#F35B13",
+      "rightCuff": "#F35B13"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EE5C19",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F35B13",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            46
+          ],
+          [
+            78,
+            40
+          ],
+          [
+            76,
+            47
+          ],
+          [
+            50,
+            53
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            46
+          ],
+          [
+            122,
+            40
+          ],
+          [
+            124,
+            47
+          ],
+          [
+            150,
+            53
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -96,11 +96,26 @@ test('equipment cannot leak from another variant, season or unsafe source and da
   assert.throws(()=>equipmentForKit({...kit,colors:'#D32F2F'},item),/colors/);
   assert.throws(()=>equipmentForKit({...kit,source:{...kit.source,url:'javascript:alert(1)'}},item),/source/);
   assert.equal(releaseDateISO('May 14, 2026'),'2026-05-14');assert.equal(releaseDateISO(''),null);
-  assert.throws(()=>releaseDateISO('February 30, 2026'));
+  assert.equal(releaseDateISO('February 30, 2026'),null);
+  assert.equal(releaseDateISO('August 15, 225'),null);
+  assert.equal(releaseDateISO('February 29, 2024'),'2024-02-29');
+  assert.equal(releaseDateISO('February 29, 2025'),null);
+  assert.equal(releaseDateISO('January 0, 2026'),null);
 });
 
-test('season fallback is restricted to audited team, variant and literal season',()=>{
-  assert.equal(seasonPolicy.fallbacks.length,25);
+test('season fallback is restricted to audited team, variant and literal season',async()=>{
+  const priority=await read('data/research/priority-teams.json');
+  const mandatoryIds=new Set(priority.teams.map(t=>t.team_id));
+  assert.equal(seasonPolicy.fallbacks.filter(f=>mandatoryIds.has(f.team_id)).length,25);
+  const keys=seasonPolicy.fallbacks.map(f=>`${f.team_id}:${f.variant}:${f.season}`);
+  assert.equal(new Set(keys).size,keys.length);
+  for(const fallback of seasonPolicy.fallbacks){
+    assert.ok(['home','away'].includes(fallback.variant));
+    assert.ok(fallback.reason);
+    assert.match(fallback.source_url,/^https:\/\/www\.footballkitarchive\.com\/.+/);
+    assert.equal(permittedSeason(fallback.team_id,fallback.variant,fallback.season),true);
+    assert.equal(permittedSeason('unknown-team',fallback.variant,fallback.season),false);
+  }
   assert.equal(permittedSeason('team_24a16861cf05897392d5','home','2026'),true);
   assert.equal(permittedSeason('team_24a16861cf05897392d5','home','2025/26'),false);
   assert.equal(permittedSeason('team_20e876bedbeb75f01389','home','2026'),false);

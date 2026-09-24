@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4e1ff976e559dc447288",
+  "team_name": "Panargiakos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain white with white sleeves and neckline, sponsors, badge and sleeve marks removed. Independently inspected 2025/26 Home/Away source; newly authorized fallback replaces the old current-season source gap. Literal season retained, estimated colors and reduced fine detail disclosed. Original PNG fabric, alpha and physical round collar preserved; no logos or lettering.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4e1ff976e559dc447288-away-419358.jpg",
+      "page_url": "https://www.footballkitarchive.com/panargiakos-apo-2025-26-away-kit-419358/",
+      "sha256": "fd3c283cfdad91964b6a8fd51de952c90d64589fff0aefb1fc4e958127738ccd"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

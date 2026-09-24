@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3be87054412a698d8fe1",
+  "team_name": "Pelopas Kiato",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with very thin white shoulder seam accents, red round ring and cuffs. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3be87054412a698d8fe1-home-444348.jpg",
+      "page_url": "https://www.footballkitarchive.com/gps-pelopas-kiatou-2025-26-home-kit-444348/",
+      "sha256": "451bbb5ec8b5cd750679ca9fa7ddbba5e29e3a29816e7f10b98fb5933712da39"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D91817",
+      "leftSleeve": "#D91817",
+      "rightSleeve": "#D91817",
+      "collar": "#D01919",
+      "leftCuff": "#D91817",
+      "rightCuff": "#D91817"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D01919",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D91817",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            72,
+            8
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            40,
+            22
+          ],
+          [
+            40,
+            23
+          ],
+          [
+            48,
+            18
+          ],
+          [
+            72,
+            8.6
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            128,
+            8
+          ],
+          [
+            152,
+            17
+          ],
+          [
+            160,
+            22
+          ],
+          [
+            160,
+            23
+          ],
+          [
+            152,
+            18
+          ],
+          [
+            128,
+            8.6
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

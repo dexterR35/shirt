@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2026-27-l11659/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/gamma-ethniki-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Current 2026/27 Away: navy/slate blue with irregular black diagonal hatch groups, pink shoulder tapes and fine pink ring. Unbranded lower-front hatch field isolated as flat ink. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_c67f8dc5f41d6402ab84-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_c67f8dc5f41d6402ab84-away-516101.jpg",
-  "image_sha256": "095410d4c9a70882717ce5f8f59ae94a744e39fcf65a51376f1563af7a25f590"
+  "image_sha256": "095410d4c9a70882717ce5f8f59ae94a744e39fcf65a51376f1563af7a25f590",
+  "artwork_revision_path": "data/kits/team_c67f8dc5f41d6402ab84-away-r001.json"
 }

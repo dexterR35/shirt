@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_beec93bd59aefafd54c1",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-home-kit-443689/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Xanthi",
+      "design": "Stripes",
+      "colors": [
+        "White",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Lotto",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-home-kit-443689/",
+        "kit_id": "443689",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_aee68dc248d71160e088.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_beec93bd59aefafd54c1",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-away-kit-443690/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Xanthi",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Red",
+        "Claret"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Lotto",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-away-kit-443690/",
+        "kit_id": "443690",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_f89997c2cdd154ce9a79.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

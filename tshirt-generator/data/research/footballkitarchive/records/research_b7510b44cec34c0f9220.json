@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/ligue-3-kits-2026-27-l58/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-france-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black torso with three red vertical bars fading at their ends, red sleeves fading to black and double red cuff edges. Black shoulder panels retained; red physical round ring. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_4f51bec445fc643c0cad-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_4f51bec445fc643c0cad-away-400931.jpg",
-  "image_sha256": "72338314c7f849fa0e7c4463cf273a766ec98f1c5495b26ddc4b5a004676f3e6"
+  "image_sha256": "72338314c7f849fa0e7c4463cf273a766ec98f1c5495b26ddc4b5a004676f3e6",
+  "artwork_revision_path": "data/kits/team_4f51bec445fc643c0cad-away-r001.json"
 }

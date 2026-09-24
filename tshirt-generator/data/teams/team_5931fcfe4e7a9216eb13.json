@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_5931fcfe4e7a9216eb13",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ae-lefkimmi-2025-26-home-kit-444160/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Lefkimmi",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Zeus",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ae-lefkimmi-2025-26-home-kit-444160/",
+        "kit_id": "444160",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_74c60e01fd5e9f4d21b3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_5931fcfe4e7a9216eb13",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ae-lefkimmi-2025-26-away-kit-444161/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Lefkimmi",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ae-lefkimmi-2025-26-away-kit-444161/",
+        "kit_id": "444161",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_1c357ebc82e332526c22.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

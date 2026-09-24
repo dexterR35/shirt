@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-italy-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with large symmetrical grey ornamental field growing lighter toward hem, white shoulder inserts/cuffs and red edging. Unbranded lower front isolated as flat contours; no fabric pixels embedded. Literal archive release-date typo retained in source facts. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_01574f84fc27a53ae442-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_01574f84fc27a53ae442-away-401938.jpg",
-  "image_sha256": "a11477aab5624f57e4476c8b3761988366f1b87c8045b1b7fc48114ab3a9d1cb"
+  "image_sha256": "a11477aab5624f57e4476c8b3761988366f1b87c8045b1b7fc48114ab3a9d1cb",
+  "artwork_revision_path": "data/kits/team_01574f84fc27a53ae442-away-r001.json"
 }

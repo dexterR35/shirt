@@ -4,8 +4,8 @@
   "team_name": "Doxa Vyronas",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
@@ -40,9 +40,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -55,6 +53,53 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_7fb22254b0eac5525e9d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/doxa-vyronas-2025-26-home-kit-416267/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/QiOsG7s3vqbwVSF/doxa-vyronas-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7fb22254b0eac5525e9d-home-416267.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#234D80",
+      "leftSleeve": "#234D80",
+      "rightSleeve": "#234D80",
+      "collar": "#CCB86A",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with dark tonal irregular geometric textile field, fine gold/white neckline and white cuff ends. Unbranded lower print traced and reflected; fine mesh simplified. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_7fb22254b0eac5525e9d-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0fc32bd1000f7a5d73ef.json",
+    "source_kit_id": "416267"
+  }
 }

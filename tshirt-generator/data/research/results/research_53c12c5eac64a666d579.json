@@ -4,8 +4,8 @@
   "team_name": "Panargiakos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted.",
   "seed_references": [
     {
@@ -40,9 +40,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -55,6 +53,52 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_4e1ff976e559dc447288-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/panargiakos-apo-2025-26-home-kit-419359/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/14/fZCkbcyzCi0UYu8/panargiakos-apo-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4e1ff976e559dc447288-home-419359.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "White"
+    ],
+    "values": {
+      "body": "#248437",
+      "leftSleeve": "#248437",
+      "rightSleeve": "#248437",
+      "collar": "#248437",
+      "leftCuff": "#248437",
+      "rightCuff": "#248437"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Green with lighter green dense nested angular/triangle line field and white slanted side inserts; plain green sleeves/ring. Clear unbranded lower print isolated as flat contours and reflected. Independently inspected 2025/26 Home/Away source; newly authorized fallback replaces the old current-season source gap. Literal season retained, estimated colors and reduced fine detail disclosed. Original PNG fabric, alpha and physical round collar preserved; no logos or lettering.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-c-2026-09-25/team_4e1ff976e559dc447288-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_53c12c5eac64a666d579.json",
+    "source_kit_id": "419359"
+  }
 }

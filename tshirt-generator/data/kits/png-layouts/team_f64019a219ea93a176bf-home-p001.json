@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f64019a219ea93a176bf",
+  "team_name": "Ethnikos Asteras",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Quartered red/white torso with white upper viewer-left/red upper viewer-right, reversed lower quarters, red sleeves and white ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f64019a219ea93a176bf-home-444367.jpg",
+      "page_url": "https://www.footballkitarchive.com/ethnikos-asteras-fc-2025-26-home-kit-444367/",
+      "sha256": "cf056a4cfa48f4c1affc3763a282e27de391b8408b348a0764b28a40ac4007aa"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#D12426",
+      "rightSleeve": "#D12426",
+      "collar": "#F1F2EE",
+      "leftCuff": "#D12426",
+      "rightCuff": "#D12426"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75 2.857L77 2Q100 7 123 2L125 2.857C128.429 26.286 71.571 26.286 75 2.857Z",
+          "fill": "#C72329",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 55,
+        "height": 91,
+        "fill": "#D12426",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 45,
+        "y": 91,
+        "width": 55,
+        "height": 109,
+        "fill": "#D12426",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Amiens",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 reference captured; awaiting paint/review."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -82,6 +80,52 @@
         "2025-26 Home"
       ],
       "outcome": "Live team history lists 2026-27 Away, 2025-26 Home but no independent current 2026/27 home front. Older season, third kit and event kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-western-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_10556e1566b401bcb529-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/amiens-sc-2025-26-home-kit-395903/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/03/05/wN4jWDNBDanBm0x/amiens-sc-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_10556e1566b401bcb529-home-395903.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#1A1C1E",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#F2F2EF",
+      "leftCuff": "#1A1C1E",
+      "rightCuff": "#1A1C1E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White viewer-left/black viewer-right body halves, reversed sleeve blocks with a white lower inner sleeve insert and narrow black right cuff. Physical polo shape omitted; existing round ring stays white. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_10556e1566b401bcb529-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_59eff2fa51b2856134ec.json",
+    "source_kit_id": "395903"
+  }
 }

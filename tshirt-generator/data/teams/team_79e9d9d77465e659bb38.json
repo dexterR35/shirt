@@ -11,42 +11,83 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_79e9d9d77465e659bb38",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/panachaiki-ge-2025-26-home-kit-444339/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Panachaiki",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Unknown",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/panachaiki-ge-2025-26-home-kit-444339/",
+        "kit_id": "444339",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_3f0e88a81bcfea3c40ec.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-b-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_79e9d9d77465e659bb38",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/panachaiki-ge-2025-26-away-kit-444340/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Panachaiki",
+      "design": "Graphic",
+      "colors": [
+        "Green",
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Unknown",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/panachaiki-ge-2025-26-away-kit-444340/",
+        "kit_id": "444340",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_4f239c3f857142c8069b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-b-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

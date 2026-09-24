@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "home",
   "kit_season": "2025/26",
-  "status": "draft",
+  "status": "ready",
   "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
@@ -40,9 +40,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -59,7 +57,7 @@
     {
       "date": "2026-09-25",
       "batch": "tier3-greece-a-2026-09-25",
-      "action": "Created source-specific draft for visual comparison."
+      "action": "Compared archive reference with PNG adaptation."
     }
   ],
   "kit_revision_path": "data/kits/team_5931fcfe4e7a9216eb13-home-r001.json",
@@ -91,7 +89,14 @@
       "rightCuff": "#F1F2EE"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with red body stripes, red shoulders/sleeves, white cuff ends and fine grey horizontal torso lines. Sponsor box removed, stripes continue. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_5931fcfe4e7a9216eb13-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_74c60e01fd5e9f4d21b3.json",
     "source_kit_id": "444160"

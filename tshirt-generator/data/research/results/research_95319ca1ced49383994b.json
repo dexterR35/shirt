@@ -4,8 +4,8 @@
   "team_name": "Lugo",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 reference captured; awaiting paint/review."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -82,6 +80,52 @@
         "2025-26 Away"
       ],
       "outcome": "Live team history lists 2026-27 Home, 2025-26 Away but no independent current 2026/27 away front. Older season, third kit and event kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-western-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_d57548f7c1a5ac297d4f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-lugo-2025-26-away-kit-418540/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/SbAA04dLwdCA5rL/cd-lugo-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d57548f7c1a5ac297d4f-away-418540.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#48B0D1",
+      "rightSleeve": "#48B0D1",
+      "collar": "#F2F2EF",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with cyan radiating narrow torso wedges and diagonal upper-left stripes, cyan sleeves, white cuffs/ring. Sponsor-obscured intersections continued geometrically from visible rays. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_d57548f7c1a5ac297d4f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_95319ca1ced49383994b.json",
+    "source_kit_id": "418540"
+  }
 }

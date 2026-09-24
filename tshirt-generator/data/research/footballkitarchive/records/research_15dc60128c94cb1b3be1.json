@@ -20,8 +20,15 @@
   "listing_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-spain-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain near-black with matching sleeves, cuffs and neckline; independently saved Away reference. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_9ebb1ab4a9761e0e114a-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Limsama",
@@ -33,5 +40,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_9ebb1ab4a9761e0e114a-away-418547.jpg",
-  "image_sha256": "6bef589879f8bc21f353cff7470433593ab87a14679f2ad8b596161f648eb8e0"
+  "image_sha256": "6bef589879f8bc21f353cff7470433593ab87a14679f2ad8b596161f648eb8e0",
+  "artwork_revision_path": "data/kits/team_9ebb1ab4a9761e0e114a-away-r001.json"
 }

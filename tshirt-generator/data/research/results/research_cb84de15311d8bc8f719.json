@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "away",
   "kit_season": "2025/26",
-  "status": "draft",
+  "status": "ready",
   "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -87,7 +85,7 @@
     {
       "date": "2026-09-25",
       "batch": "tier3-greece-a-2026-09-25",
-      "action": "Created source-specific draft for visual comparison."
+      "action": "Compared archive reference with PNG adaptation."
     }
   ],
   "kit_revision_path": "data/kits/team_516bc31bb334fbac5c29-away-r001.json",
@@ -120,7 +118,14 @@
       "rightCuff": "#DFC82F"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a narrow broken red/yellow diamond-fragment column down viewer-right, red/yellow trim. Printed fragments redrawn; manufacturer arrow/sleeve symbols removed. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_516bc31bb334fbac5c29-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_cb84de15311d8bc8f719.json",
     "source_kit_id": "444375"

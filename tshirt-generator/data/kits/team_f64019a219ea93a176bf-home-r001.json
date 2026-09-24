@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f64019a219ea93a176bf",
+  "team_name": "Ethnikos Asteras",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ethnikos-asteras-fc-2025-26-home-kit-444367/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/va3OmBq2KupzhAh/ethnikos-asteras-fc-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f64019a219ea93a176bf-home-444367.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#D12426",
+      "rightSleeve": "#D12426",
+      "collar": "#F1F2EE",
+      "leftCuff": "#D12426",
+      "rightCuff": "#D12426"
+    }
+  },
+  "observations": "Quartered red/white torso with white upper viewer-left/red upper viewer-right, reversed lower quarters, red sleeves and white ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Quartered red/white torso with white upper viewer-left/red upper viewer-right, reversed lower quarters, red sleeves and white ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_f64019a219ea93a176bf-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#D12426",
+      "rightSleeve": "#D12426",
+      "collar": "#F1F2EE",
+      "leftCuff": "#D12426",
+      "rightCuff": "#D12426"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75 2.857L77 2Q100 7 123 2L125 2.857C128.429 26.286 71.571 26.286 75 2.857Z",
+          "fill": "#C72329",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 55,
+        "height": 91,
+        "fill": "#D12426",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 45,
+        "y": 91,
+        "width": 55,
+        "height": 109,
+        "fill": "#D12426",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

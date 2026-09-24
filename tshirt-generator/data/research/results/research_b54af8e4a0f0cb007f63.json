@@ -4,8 +4,8 @@
   "team_name": "Águilas",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 reference captured; awaiting paint/review."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -82,6 +80,52 @@
         "2025-26 Away"
       ],
       "outcome": "Live team history lists 2026-27 Home, 2025-26 Away but no independent current 2026/27 away front. Older season, third kit and event kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-western-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_ec147ac6445bfc70aecf-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aguilas-fc-2025-26-away-kit-394696/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/20/PPg9ym7dQEDYxWn/aguilas-fc-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ec147ac6445bfc70aecf-away-394696.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Pink"
+    ],
+    "values": {
+      "body": "#1A1C1E",
+      "leftSleeve": "#1A1C1E",
+      "rightSleeve": "#1A1C1E",
+      "collar": "#1A1C1E",
+      "leftCuff": "#1A1C1E",
+      "rightCuff": "#1A1C1E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with overlapping red/grey undulating horizontal graphic ribbons and clear upper-chest band; plain black sleeves. Neutral vector waves follow the observed forms; small gradient/placement differences disclosed. Thin red neckline adapted onto original ring. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_ec147ac6445bfc70aecf-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b54af8e4a0f0cb007f63.json",
+    "source_kit_id": "394696"
+  }
 }

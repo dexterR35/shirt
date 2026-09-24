@@ -11,42 +11,83 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_516bc31bb334fbac5c29",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ao-nea-artaki-2025-26-home-kit-444374/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Nea Artaki",
+      "design": "Stripes",
+      "colors": [
+        "Yellow",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Zeus",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-nea-artaki-2025-26-home-kit-444374/",
+        "kit_id": "444374",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_e6d01623aa8b01b86e8f.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_516bc31bb334fbac5c29",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/ao-nea-artaki-2025-26-away-kit-444375/",
+        "reason": "Independent team history has no 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Literal season retained."
+      },
+      "source_team_name": "Nea Artaki",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Red",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Zeus",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-nea-artaki-2025-26-away-kit-444375/",
+        "kit_id": "444375",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_cb84de15311d8bc8f719.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-a-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

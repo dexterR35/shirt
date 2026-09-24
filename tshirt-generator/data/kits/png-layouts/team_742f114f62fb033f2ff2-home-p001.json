@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_742f114f62fb033f2ff2",
+  "team_name": "Ionikos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Dark navy with short slanted gold/white chest bars on viewer-left and narrow white/gold cuff ends. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_742f114f62fb033f2ff2-home-447130.jpg",
+      "page_url": "https://www.footballkitarchive.com/ionikos-2025-26-home-kit-447130/",
+      "sha256": "e04ccbb0d24696f8d148b818e312ab133ba28d3e44cc345cae2243d5a1cccc8b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#122439",
+      "leftSleeve": "#122439",
+      "rightSleeve": "#122439",
+      "collar": "#122439",
+      "leftCuff": "#122439",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#122439",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#122439",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            42
+          ],
+          [
+            104,
+            52
+          ],
+          [
+            102,
+            54
+          ],
+          [
+            50,
+            44
+          ]
+        ],
+        "fill": "#D8AA2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            48
+          ],
+          [
+            102,
+            58
+          ],
+          [
+            100,
+            61
+          ],
+          [
+            50,
+            51
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#F1F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.89999999999999C176 79.5 164 84.8 155.5 83.89999999999999Q152 84 150.8 75.8L148 106H195Z",
+        "fill": "#D5A62C",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#122439",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_516f5a1b9dba612bd639",
+  "team_name": "Ethnikos Piraeus",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ethnikos-piraeus-2025-26-home-kit-444383/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/uG6DbOeP3Q5vlO9/ethnikos-piraeus-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_516f5a1b9dba612bd639-home-444383.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#205397",
+      "leftSleeve": "#205397",
+      "rightSleeve": "#205397",
+      "collar": "#205397",
+      "leftCuff": "#205397",
+      "rightCuff": "#205397"
+    }
+  },
+  "observations": "Blue with six slim white stripes on viewer-left torso and thin curved white lines sweeping onto right sleeve. Repeated Lotto shoulder diamonds removed. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with six slim white stripes on viewer-left torso and thin curved white lines sweeping onto right sleeve. Repeated Lotto shoulder diamonds removed. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_516f5a1b9dba612bd639-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#205397",
+      "leftSleeve": "#205397",
+      "rightSleeve": "#205397",
+      "collar": "#205397",
+      "leftCuff": "#205397",
+      "rightCuff": "#205397"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#205397",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#205397",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 70,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 78,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 2.5,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103.693 0.395L107.556 3.395L111.409 6.394L115.245 9.393L119.055 12.392L122.83 15.391L126.563 18.389L130.244 21.386L133.866 24.384L137.42 27.381L140.899 30.377L144.294 33.373L147.599 36.368L150.806 39.363L153.908 42.357L156.897 45.35L159.768 48.342L162.514 51.334L165.128 54.324L167.606 57.314L169.941 60.302L172.128 63.289L174.163 66.274L176.041 69.258L177.757 72.24L179.31 75.221L180.694 78.2L181.907 81.177L182.948 84.152L183.812 87.126L184.503 90.113L185.478 89.887L184.78 86.874L183.9 83.848L182.843 80.823L181.611 77.8L180.207 74.779L178.634 71.76L176.897 68.742L174.999 65.726L172.944 62.711L170.738 59.698L168.385 56.686L165.89 53.676L163.259 50.666L160.497 47.658L157.612 44.65L154.609 41.643L151.495 38.637L148.276 35.632L144.961 32.627L141.556 29.623L138.068 26.619L134.507 23.616L130.878 20.614L127.192 17.611L123.455 14.609L119.675 11.608L115.863 8.607L112.024 5.606L108.17 2.605L104.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M106.693 0.395L110.556 3.395L114.409 6.394L118.245 9.393L122.055 12.392L125.83 15.391L129.563 18.389L133.244 21.386L136.866 24.384L140.42 27.381L143.899 30.377L147.294 33.373L150.599 36.368L153.806 39.363L156.908 42.357L159.897 45.35L162.768 48.342L165.514 51.334L168.128 54.324L170.606 57.314L172.941 60.302L175.128 63.289L177.163 66.274L179.041 69.258L180.757 72.24L182.31 75.221L183.694 78.2L184.907 81.177L185.948 84.152L186.812 87.126L187.503 90.113L188.478 89.887L187.78 86.874L186.9 83.848L185.843 80.823L184.611 77.8L183.207 74.779L181.634 71.76L179.897 68.742L177.999 65.726L175.944 62.711L173.738 59.698L171.385 56.686L168.89 53.676L166.259 50.666L163.497 47.658L160.612 44.65L157.609 41.643L154.495 38.637L151.276 35.632L147.961 32.627L144.556 29.623L141.068 26.619L137.507 23.616L133.878 20.614L130.192 17.611L126.455 14.609L122.675 11.608L118.863 8.607L115.024 5.606L111.17 2.605L107.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M109.693 0.395L113.556 3.395L117.409 6.394L121.245 9.393L125.055 12.392L128.83 15.391L132.563 18.389L136.244 21.386L139.866 24.384L143.42 27.381L146.899 30.377L150.294 33.373L153.599 36.368L156.806 39.363L159.908 42.357L162.897 45.35L165.768 48.342L168.514 51.334L171.128 54.324L173.606 57.314L175.941 60.302L178.128 63.289L180.163 66.274L182.041 69.258L183.757 72.24L185.31 75.221L186.694 78.2L187.907 81.177L188.948 84.152L189.812 87.126L190.503 90.113L191.478 89.887L190.78 86.874L189.9 83.848L188.843 80.823L187.611 77.8L186.207 74.779L184.634 71.76L182.897 68.742L180.999 65.726L178.944 62.711L176.738 59.698L174.385 56.686L171.89 53.676L169.259 50.666L166.497 47.658L163.612 44.65L160.609 41.643L157.495 38.637L154.276 35.632L150.961 32.627L147.556 29.623L144.068 26.619L140.507 23.616L136.878 20.614L133.192 17.611L129.455 14.609L125.675 11.608L121.863 8.607L118.024 5.606L114.17 2.605L110.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M112.693 0.395L116.556 3.395L120.409 6.394L124.245 9.393L128.055 12.392L131.83 15.391L135.563 18.389L139.244 21.386L142.866 24.384L146.42 27.381L149.899 30.377L153.294 33.373L156.599 36.368L159.806 39.363L162.908 42.357L165.897 45.35L168.768 48.342L171.514 51.334L174.128 54.324L176.606 57.314L178.941 60.302L181.128 63.289L183.163 66.274L185.041 69.258L186.757 72.24L188.31 75.221L189.694 78.2L190.907 81.177L191.948 84.152L192.812 87.126L193.503 90.113L194.478 89.887L193.78 86.874L192.9 83.848L191.843 80.823L190.611 77.8L189.207 74.779L187.634 71.76L185.897 68.742L183.999 65.726L181.944 62.711L179.738 59.698L177.385 56.686L174.89 53.676L172.259 50.666L169.497 47.658L166.612 44.65L163.609 41.643L160.495 38.637L157.276 35.632L153.961 32.627L150.556 29.623L147.068 26.619L143.507 23.616L139.878 20.614L136.192 17.611L132.455 14.609L128.675 11.608L124.863 8.607L121.024 5.606L117.17 2.605L113.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M115.693 0.395L119.556 3.395L123.409 6.394L127.245 9.393L131.055 12.392L134.83 15.391L138.563 18.389L142.244 21.386L145.866 24.384L149.42 27.381L152.899 30.377L156.294 33.373L159.599 36.368L162.806 39.363L165.908 42.357L168.897 45.35L171.768 48.342L174.514 51.334L177.128 54.324L179.606 57.314L181.941 60.302L184.128 63.289L186.163 66.274L188.041 69.258L189.757 72.24L191.31 75.221L192.694 78.2L193.907 81.177L194.948 84.152L195.812 87.126L196.503 90.113L197.478 89.887L196.78 86.874L195.9 83.848L194.843 80.823L193.611 77.8L192.207 74.779L190.634 71.76L188.897 68.742L186.999 65.726L184.944 62.711L182.738 59.698L180.385 56.686L177.89 53.676L175.259 50.666L172.497 47.658L169.612 44.65L166.609 41.643L163.495 38.637L160.276 35.632L156.961 32.627L153.556 29.623L150.068 26.619L146.507 23.616L142.878 20.614L139.192 17.611L135.455 14.609L131.675 11.608L127.863 8.607L124.024 5.606L120.17 2.605L116.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M118.693 0.395L122.556 3.395L126.409 6.394L130.245 9.393L134.055 12.392L137.83 15.391L141.563 18.389L145.244 21.386L148.866 24.384L152.42 27.381L155.899 30.377L159.294 33.373L162.599 36.368L165.806 39.363L168.908 42.357L171.897 45.35L174.768 48.342L177.514 51.334L180.128 54.324L182.606 57.314L184.941 60.302L187.128 63.289L189.163 66.274L191.041 69.258L192.757 72.24L194.31 75.221L195.694 78.2L196.907 81.177L197.948 84.152L198.812 87.126L199.503 90.113L200.478 89.887L199.78 86.874L198.9 83.848L197.843 80.823L196.611 77.8L195.207 74.779L193.634 71.76L191.897 68.742L189.999 65.726L187.944 62.711L185.738 59.698L183.385 56.686L180.89 53.676L178.259 50.666L175.497 47.658L172.612 44.65L169.609 41.643L166.495 38.637L163.276 35.632L159.961 32.627L156.556 29.623L153.068 26.619L149.507 23.616L145.878 20.614L142.192 17.611L138.455 14.609L134.675 11.608L130.863 8.607L127.024 5.606L123.17 2.605L119.307 -0.395Z",
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

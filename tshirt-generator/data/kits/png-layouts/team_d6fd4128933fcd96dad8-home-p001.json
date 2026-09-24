@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d6fd4128933fcd96dad8",
+  "team_name": "PAS Korinthos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with small yellow shoulder wedges and narrow yellow lower-side strips, red sleeves/ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d6fd4128933fcd96dad8-home-444332.jpg",
+      "page_url": "https://www.footballkitarchive.com/pas-korinthos-2025-26-home-kit-444332/",
+      "sha256": "3fa91c2a854d6dab1b6c8664fac3bbe107eeafa30cf936f549ab338ab5b49b67"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DC2633",
+      "leftSleeve": "#DC2633",
+      "rightSleeve": "#DC2633",
+      "collar": "#D62634",
+      "leftCuff": "#DC2633",
+      "rightCuff": "#DC2633"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D62634",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DC2633",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            19
+          ],
+          [
+            50,
+            16
+          ],
+          [
+            48,
+            30
+          ],
+          [
+            38,
+            26
+          ]
+        ],
+        "fill": "#EDCA31",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            19
+          ],
+          [
+            150,
+            16
+          ],
+          [
+            152,
+            30
+          ],
+          [
+            162,
+            26
+          ]
+        ],
+        "fill": "#EDCA31",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            124
+          ],
+          [
+            53,
+            130
+          ],
+          [
+            52,
+            193
+          ],
+          [
+            49,
+            197
+          ]
+        ],
+        "fill": "#E2C331",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            124
+          ],
+          [
+            147,
+            130
+          ],
+          [
+            148,
+            193
+          ],
+          [
+            151,
+            197
+          ]
+        ],
+        "fill": "#E2C331",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

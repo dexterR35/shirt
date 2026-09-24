@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d10e3cd9be022bd001b2",
+  "team_name": "Lamia",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pas-lamia-2025-26-home-kit-427310/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/LiJpgWwnf9zeGY1/pas-lamia-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d10e3cd9be022bd001b2-home-427310.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#21558B",
+      "leftSleeve": "#21558B",
+      "rightSleeve": "#21558B",
+      "collar": "#21558B",
+      "leftCuff": "#21558B",
+      "rightCuff": "#21558B"
+    }
+  },
+  "observations": "Blue with small white shoulder wedges and narrow white lower-side strips, blue round ring. Home fallback 2025/26 is independent of the ready 2026/27 Away. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with small white shoulder wedges and narrow white lower-side strips, blue round ring. Home fallback 2025/26 is independent of the ready 2026/27 Away. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_d10e3cd9be022bd001b2-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#21558B",
+      "leftSleeve": "#21558B",
+      "rightSleeve": "#21558B",
+      "collar": "#21558B",
+      "leftCuff": "#21558B",
+      "rightCuff": "#21558B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#21558B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#21558B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            19
+          ],
+          [
+            50,
+            16
+          ],
+          [
+            48,
+            29
+          ],
+          [
+            38,
+            25
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            19
+          ],
+          [
+            150,
+            16
+          ],
+          [
+            152,
+            29
+          ],
+          [
+            162,
+            25
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            125
+          ],
+          [
+            53,
+            131
+          ],
+          [
+            52,
+            194
+          ],
+          [
+            49,
+            198
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            125
+          ],
+          [
+            147,
+            131
+          ],
+          [
+            148,
+            194
+          ],
+          [
+            151,
+            198
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

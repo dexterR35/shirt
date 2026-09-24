@@ -5,14 +5,17 @@ import {permittedSeason,fallbackFor} from './season-policy.mjs';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const save=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
 
-/** Parse literal English release dates without locale or timezone dependence. */
+/** Parse literal English release dates without locale or timezone dependence.
+ * Archive typos stay in release_date; an unparseable value has no ISO date.
+ */
 export function releaseDateISO(value){
   if(!value)return null;
   const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
   const match=/^(\w+) (\d{1,2}), (\d{4})$/.exec(value);
-  if(!match||!months.includes(match[1]))throw Error(`Unsupported archive release date: ${value}`);
+  if(!match||!months.includes(match[1]))return null;
   const month=months.indexOf(match[1])+1,day=Number(match[2]),year=Number(match[3]);
-  if(new Date(Date.UTC(year,month-1,day)).getUTCMonth()!==month-1)throw Error(`Invalid release date: ${value}`);
+  const date=new Date(Date.UTC(year,month-1,day));
+  if(year<1000||date.getUTCFullYear()!==year||date.getUTCMonth()!==month-1||date.getUTCDate()!==day)return null;
   return `${year}-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
 }
 

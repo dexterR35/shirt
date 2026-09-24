@@ -46,22 +46,42 @@
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_4f51bec445fc643c0cad",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/fc-fleury-91-2025-26-away-kit-400931/",
+        "reason": "Independent history has no preferred 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Preserve literal source season."
+      },
+      "source_team_name": "Fleury 91",
+      "design": "Stripes",
+      "colors": [
+        "Black",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Skita",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Championnat National"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-fleury-91-2025-26-away-kit-400931/",
+        "kit_id": "400931",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-3-kits-2026-27-l58/",
+        "record_path": "data/research/footballkitarchive/records/research_b7510b44cec34c0f9220.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-france-fallback-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

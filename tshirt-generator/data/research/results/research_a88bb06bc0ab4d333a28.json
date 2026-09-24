@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
+  "remaining": [],
   "kit_revision_path": "data/kits/team_4d91acd63f4206362f9a-away-r001.json",
   "references": [
     {
@@ -100,7 +98,14 @@
       "rightCuff": "#F1F2EE"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Literal current 2026/27 carry-over Away: white with blue fine diagonal segmented stripes on raglan sleeves, white ring and cuffs. Fine sleeve mesh-stripe graphic reduced to validated linework. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_4d91acd63f4206362f9a-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_a88bb06bc0ab4d333a28.json",
     "source_kit_id": "492808"
@@ -109,7 +114,7 @@
     {
       "date": "2026-09-25",
       "batch": "tier3-greece-a-2026-09-25",
-      "action": "Created source-specific draft for visual comparison."
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

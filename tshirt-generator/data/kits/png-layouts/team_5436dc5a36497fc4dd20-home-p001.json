@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5436dc5a36497fc4dd20",
+  "team_name": "Panagriniakos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-d-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain white body/sleeves and white round ring, independently evidenced by match photograph. Brand, chest crest, sponsor and overlaid watermark removed; no extra trim inferred from folds. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5436dc5a36497fc4dd20-home-516483.jpg",
+      "page_url": "https://www.footballkitarchive.com/panagriniakos-fc-2025-26-home-kit-516483/",
+      "sha256": "ce7491d8c27d3c6787149e43d8a7a646bcf50e567ccb115c2c36e865d08b9f93"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#F1F2EF",
+      "rightSleeve": "#F1F2EF",
+      "collar": "#F1F2EF",
+      "leftCuff": "#F1F2EF",
+      "rightCuff": "#F1F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

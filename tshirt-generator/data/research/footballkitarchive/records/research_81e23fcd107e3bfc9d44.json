@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/ligue-3-kits-2026-27-l58/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-france-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm off-white with burgundy neckline and cuff ends. Hanging reference has a very faint indistinct tonal fabric motif; it is not resolved into invented artwork. All sponsor/crest/text removed. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_07303f6b5de20f6af620-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_07303f6b5de20f6af620-away-400572.jpg",
-  "image_sha256": "24b70c5373c5bcbf50a94bb7a49ceb8b168fc2bafc24bb5f117d3c6fde237dad"
+  "image_sha256": "24b70c5373c5bcbf50a94bb7a49ceb8b168fc2bafc24bb5f117d3c6fde237dad",
+  "artwork_revision_path": "data/kits/team_07303f6b5de20f6af620-away-r001.json"
 }

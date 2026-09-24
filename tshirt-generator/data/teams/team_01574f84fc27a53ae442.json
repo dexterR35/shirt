@@ -46,22 +46,43 @@
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_01574f84fc27a53ae442",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/pro-vercelli-2025-26-away-kit-401938/",
+        "reason": "Independent history has no preferred 2026/27 variant; user authorized 2025/26 fallback on 25 September 2026. Preserve literal source season."
+      },
+      "source_team_name": "Pro Vercelli",
+      "design": "Graphic",
+      "colors": [
+        "Black",
+        "Gray",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "14Fourteen",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 15, 225",
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/pro-vercelli-2025-26-away-kit-401938/",
+        "kit_id": "401938",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_c7012ea27aca19d3ed30.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-italy-fallback-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

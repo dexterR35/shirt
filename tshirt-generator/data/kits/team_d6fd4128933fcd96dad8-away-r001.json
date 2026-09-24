@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d6fd4128933fcd96dad8",
+  "team_name": "PAS Korinthos",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pas-korinthos-2025-26-away-kit-444333/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/6jgpPvfaKMbjkED/pas-korinthos-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d6fd4128933fcd96dad8-away-444333.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#141617",
+      "leftSleeve": "#141617",
+      "rightSleeve": "#141617",
+      "collar": "#141617",
+      "leftCuff": "#141617",
+      "rightCuff": "#141617"
+    }
+  },
+  "observations": "Near-black with short claret slanted shoulder bars, plain black ring/cuffs. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Near-black with short claret slanted shoulder bars, plain black ring/cuffs. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_d6fd4128933fcd96dad8-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#141617",
+      "leftSleeve": "#141617",
+      "rightSleeve": "#141617",
+      "collar": "#141617",
+      "leftCuff": "#141617",
+      "rightCuff": "#141617"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#141617",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#141617",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            39,
+            19
+          ],
+          [
+            44,
+            21
+          ],
+          [
+            49,
+            40
+          ],
+          [
+            43,
+            41
+          ]
+        ],
+        "fill": "#A53B48",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            161,
+            19
+          ],
+          [
+            156,
+            21
+          ],
+          [
+            151,
+            40
+          ],
+          [
+            157,
+            41
+          ]
+        ],
+        "fill": "#A53B48",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

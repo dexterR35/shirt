@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8b3dd965b2b0b72c6f62",
+  "team_name": "Asteras Magoula",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-d-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/asteras-magoula-f-c-2025-26-home-kit-478477/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/04/27/enEaURpQGSwTX96/asteras-magoula-f-c-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8b3dd965b2b0b72c6f62-home-478477.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#48B0DE",
+      "rightSleeve": "#48B0DE",
+      "collar": "#F1F2EF",
+      "leftCuff": "#F1F2EF",
+      "rightCuff": "#F1F2EF"
+    }
+  },
+  "observations": "White with sky-blue torso stripes, sky-blue sleeves and white ring/cuffs. Match photograph twists the lower torso; flat continuation follows independently visible stripes. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#48B0DE",
+      "rightSleeve": "#48B0DE",
+      "collar": "#F1F2EF",
+      "leftCuff": "#F1F2EF",
+      "rightCuff": "#F1F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#52B9E7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#52B9E7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#52B9E7",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#F1F2EF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#F1F2EF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

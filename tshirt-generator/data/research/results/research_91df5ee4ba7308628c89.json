@@ -4,8 +4,8 @@
   "team_name": "Giugliano",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 reference captured; awaiting paint/review."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -85,6 +83,53 @@
         "2025-26 Away"
       ],
       "outcome": "Live team history lists 2026-27 Home, 2026-27 Pre-Season Home, 2026-27 GK 1, 2026-27 Pre-Season GK, 2025-26 Away but no independent current 2026/27 away front. Older season, third kit, goalkeeper and event kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-western-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_1c9d550ef7ec01c8dde5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/giugliano-calcio-2025-26-away-kit-402103/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/07/JR1YLXVIvaIFQ5y/giugliano-calcio-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1c9d550ef7ec01c8dde5-away-402103.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#202C4B",
+      "leftCuff": "#202C4B",
+      "rightCuff": "#202C4B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with narrow broken yellow/navy diagonal brush bands from lower viewer-left to upper viewer-right, dark cuffs/ring. Sponsor gap retained. Large tonal tiger is club imagery and removed; neutral brush edges redrawn. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_1c9d550ef7ec01c8dde5-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_91df5ee4ba7308628c89.json",
+    "source_kit_id": "402103"
+  }
 }

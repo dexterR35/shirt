@@ -1,6 +1,8 @@
 # Project status
 
-24 September 2026. Global coverage is **551 ready / 1,470 slots**. Tier 3 has started with **16 ready / 766 slots**. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 has **254 ready / 300 slots** across the preserved 150 second-tier teams; all 46 remaining slots have documented current-source gaps. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
+25 September 2026. Global coverage is **906 ready / 1,470 slots**. Tier 3 continuation has reached **371 ready / 766 slots**; England, Germany, France, Spain and Italy are complete. Greece has 45 ready and Finland 2. A further 53 Greek references are saved for painting. User-authorized 2025/26 fallbacks retain their literal seasons; event listings may provide evidence for the same team Home/Away shirt. Current worklist: `data/research/tier3-worklist.json`.
+
+The following 24 September sections are historical checkpoints. Global coverage then was **551 ready / 1,470 slots**. Tier 3 has started with **16 ready / 766 slots**. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 has **254 ready / 300 slots** across the preserved 150 second-tier teams; all 46 remaining slots have documented current-source gaps. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
 
 ## Tier 3 continuation — 24 September 2026
 

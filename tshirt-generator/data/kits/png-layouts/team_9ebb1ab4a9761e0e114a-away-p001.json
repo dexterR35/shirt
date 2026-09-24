@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9ebb1ab4a9761e0e114a",
+  "team_name": "Juventud de Torremolinos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-western-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain near-black with matching sleeves, cuffs and neckline; independently saved Away reference. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9ebb1ab4a9761e0e114a-away-418547.jpg",
+      "page_url": "https://www.footballkitarchive.com/juventud-torremolinos-cf-2025-26-away-kit-418547/",
+      "sha256": "6bef589879f8bc21f353cff7470433593ab87a14679f2ad8b596161f648eb8e0"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1A1C1E",
+      "leftSleeve": "#1A1C1E",
+      "rightSleeve": "#1A1C1E",
+      "collar": "#1A1C1E",
+      "leftCuff": "#1A1C1E",
+      "rightCuff": "#1A1C1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1A1C1E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1A1C1E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

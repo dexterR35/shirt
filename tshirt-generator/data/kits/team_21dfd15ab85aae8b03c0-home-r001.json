@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_21dfd15ab85aae8b03c0",
+  "team_name": "Kavala",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-c-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kavala-fc-2025-26-home-kit-417303/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/04/EhJ3JFiNeKowurY/kavala-fc-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_21dfd15ab85aae8b03c0-home-417303.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#07518D",
+      "leftSleeve": "#07518D",
+      "rightSleeve": "#07518D",
+      "collar": "#07518D",
+      "leftCuff": "#07518D",
+      "rightCuff": "#07518D"
+    }
+  },
+  "observations": "Royal blue with angled white upper chest-to-raglan strips, plain sleeves and blue round ring. Independently inspected 2025/26 Home/Away source; newly authorized fallback replaces the old current-season source gap. Literal season retained, estimated colors and reduced fine detail disclosed. Original PNG fabric, alpha and physical round collar preserved; no logos or lettering.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with angled white upper chest-to-raglan strips, plain sleeves and blue round ring. Independently inspected 2025/26 Home/Away source; newly authorized fallback replaces the old current-season source gap. Literal season retained, estimated colors and reduced fine detail disclosed. Original PNG fabric, alpha and physical round collar preserved; no logos or lettering.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-c-2026-09-25/team_21dfd15ab85aae8b03c0-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#07518D",
+      "leftSleeve": "#07518D",
+      "rightSleeve": "#07518D",
+      "collar": "#07518D",
+      "leftCuff": "#07518D",
+      "rightCuff": "#07518D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#07518D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#07518D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            10
+          ],
+          [
+            48,
+            20
+          ],
+          [
+            44,
+            39
+          ],
+          [
+            43,
+            27
+          ],
+          [
+            46,
+            17
+          ],
+          [
+            73,
+            7
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            10
+          ],
+          [
+            152,
+            20
+          ],
+          [
+            156,
+            39
+          ],
+          [
+            157,
+            27
+          ],
+          [
+            154,
+            17
+          ],
+          [
+            127,
+            7
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

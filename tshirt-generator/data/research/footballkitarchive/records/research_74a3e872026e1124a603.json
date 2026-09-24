@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2026-27-l11659/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/gamma-ethniki-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Current 2026/27 Home: orange with yellow dot-cloud waves and thin white shoulder tapes; unobstructed lower-front yellow-dot ink isolated and repeated, sponsor/logo excluded. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-a-2026-09-25/team_c67f8dc5f41d6402ab84-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_c67f8dc5f41d6402ab84-home-516821.jpg",
-  "image_sha256": "a35d66c2bef0c00a35ea60b89283acfb2cec3d337f2b1fcfaba9250cfe08b79a"
+  "image_sha256": "a35d66c2bef0c00a35ea60b89283acfb2cec3d337f2b1fcfaba9250cfe08b79a",
+  "artwork_revision_path": "data/kits/team_c67f8dc5f41d6402ab84-home-r001.json"
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-italy-fallback-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/claret narrow vertical torso columns crossed by fine red horizontal lines, solid navy raglan sleeves and red neckline with white inner edging. Sponsor spaces filled with continuing stripe field. Independently inspected 2025/26 Home/Away fallback, authorized when 2026/27 is unavailable. Literal season retained. Colors visually estimated, tiny print/hidden regions adapted. Logos, lettering, sponsors and club emblems removed. Original PNG fabric/alpha preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-western-fallback-2026-09-25/team_7ef47a98b13c66777139-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_7ef47a98b13c66777139-home-402573.jpg",
-  "image_sha256": "3d7127cbd52cc614982786a65bdf916e327d67b9a809917c8d94e6d610db0194"
+  "image_sha256": "3d7127cbd52cc614982786a65bdf916e327d67b9a809917c8d94e6d610db0194",
+  "artwork_revision_path": "data/kits/team_7ef47a98b13c66777139-home-r001.json"
 }

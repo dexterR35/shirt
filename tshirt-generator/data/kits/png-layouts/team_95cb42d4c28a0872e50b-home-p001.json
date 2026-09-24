@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_95cb42d4c28a0872e50b",
+  "team_name": "Veria",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy with wide claret-red stripes continuing on sleeves, claret cuffs and ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_95cb42d4c28a0872e50b-home-443727.jpg",
+      "page_url": "https://www.footballkitarchive.com/veria-nfc-2025-26-home-kit-443727/",
+      "sha256": "847d382e3e9f04f1016211ce6892dc54ced89e209d2b9fdef132bf9ca9dfab69"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#173F7E",
+      "leftSleeve": "#173F7E",
+      "rightSleeve": "#173F7E",
+      "collar": "#B91A39",
+      "leftCuff": "#B51937",
+      "rightCuff": "#B51937"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B91A39",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#173F7E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 7,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 33,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 163,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 189,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#B51435",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#B51937",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#B51937",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

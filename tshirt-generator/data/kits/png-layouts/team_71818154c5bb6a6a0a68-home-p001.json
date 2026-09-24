@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_71818154c5bb6a6a0a68",
+  "team_name": "PAS Giannina",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-d-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal blue with three fine white side seam lines from underarm to hem and plain blue sleeves/ring. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_71818154c5bb6a6a0a68-home-418388.jpg",
+      "page_url": "https://www.footballkitarchive.com/pas-giannina-2025-26-home-kit-418388/",
+      "sha256": "af5ccff5dc71208cba71b540fe8e9aec41db382947035118969046d7b33898ce"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#254B90",
+      "leftSleeve": "#254B90",
+      "rightSleeve": "#254B90",
+      "collar": "#254B90",
+      "leftCuff": "#254B90",
+      "rightCuff": "#254B90"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#254B90",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#254B90",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49.775 77.013L52.775 130L49.775 197.99L50.225 198.01L53.225 130L50.225 76.987Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M50.925 77.013L53.925 130L50.925 197.99L51.375 198.01L54.375 130L51.375 76.987Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M52.075 77.013L55.075 130L52.075 197.99L52.525 198.01L55.525 130L52.525 76.987Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M149.775 76.987L146.775 130L149.775 198.01L150.225 197.99L147.225 130L150.225 77.013Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M148.625 76.987L145.625 130L148.625 198.01L149.075 197.99L146.075 130L149.075 77.013Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M147.475 76.987L144.475 130L147.475 198.01L147.925 197.99L144.925 130L147.925 77.013Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2025-26-l11659/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/gamma-ethniki-fallback-b-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with dense tonal nested angular/triangle line field and black slanted side inserts, plain yellow sleeves/ring. Clear lower-front print isolated and reflected, no source fabric pixels. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_6fcf402d315f930a4e40-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6fcf402d315f930a4e40-away-444170.jpg",
-  "image_sha256": "4e8e8a17342fe05f5e227b0dc1aa7db68408c48bb3629318d25beadb585bb7d2"
+  "image_sha256": "4e8e8a17342fe05f5e227b0dc1aa7db68408c48bb3629318d25beadb585bb7d2",
+  "artwork_revision_path": "data/kits/team_6fcf402d315f930a4e40-away-r001.json"
 }

@@ -4,8 +4,8 @@
   "team_name": "Diagoras",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -83,6 +81,52 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_5d3c0fe84d0d6ba02304-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pae-gs-diagoras-2025-26-home-kit-444363/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/4mVu9ucCS05mGjj/pae-gs-diagoras-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5d3c0fe84d0d6ba02304-home-444363.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Navy"
+    ],
+    "values": {
+      "body": "#083B62",
+      "leftSleeve": "#D5241D",
+      "rightSleeve": "#D5241D",
+      "collar": "#D41F1C",
+      "leftCuff": "#0A3756",
+      "rightCuff": "#0A3756"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with two wide red torso columns, red sleeves, navy cuff ends and red ring. Independently inspected team Home/Away reference, literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated; fine print/occluded areas adapted. Logos, sponsors, lettering and club imagery removed. Original PNG fabric, alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-b-2026-09-25/team_5d3c0fe84d0d6ba02304-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_348bae5ebb7dda3027c7.json",
+    "source_kit_id": "444363"
+  }
 }
