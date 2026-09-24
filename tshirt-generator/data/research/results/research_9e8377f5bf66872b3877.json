@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The curved architectural rows are identified, but threshold gaps make parts of the truss and column network incomplete; restore continuous geometry."
-  ],
-  "kit_revision_path": "data/kits/team_fbcd98c460c852b100c0-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fbcd98c460c852b100c0-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#F0EBE3"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Continuous tonal lens-shaped architectural rows with closely spaced vertical mullions, pointed openings and triangular trusses replace broken threshold contours. Tonal sleeve continuation, pale shoulder tape, cuff edges and the existing red round collar are retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-refinement-2026-09-24/team_fbcd98c460c852b100c0-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_9e8377f5bf66872b3877.json",
     "source_kit_id": "478181"
@@ -115,6 +120,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-refinement-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

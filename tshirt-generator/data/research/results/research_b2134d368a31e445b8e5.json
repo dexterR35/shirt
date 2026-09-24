@@ -5,7 +5,7 @@
   "country_name": "France",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,10 +96,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The central architectural panels and their spacing still differ from the source; side/sleeve herringbone details alone do not finish the map."
-  ],
-  "kit_revision_path": "data/kits/team_9f5151fa5537071e9ea4-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9f5151fa5537071e9ea4-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -129,7 +127,14 @@
       "rightCuff": "#222322"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Full tonal timber-frame architecture remapped: paired framed windows, herringbone side columns, cross-braced horizontal beams and sleeve continuation. Fine line spacing simplified, logo-covered center continued with the observed panel structure. Black cuffs and existing round ring retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_9f5151fa5537071e9ea4-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_b2134d368a31e445b8e5.json",
     "source_kit_id": "481431"
@@ -144,6 +149,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

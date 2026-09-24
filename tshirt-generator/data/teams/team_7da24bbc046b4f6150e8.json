@@ -6,68 +6,87 @@
   "mandatory": true,
   "priority_order": 44,
   "requested_season": "2026/27",
-  "other_season_references": [
-    {
-      "variant": "home",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-home-kit-482571/",
-      "record_path": "data/research/footballkitarchive/records/research_7f49d0017c7d1eb604a2.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    },
-    {
-      "variant": "away",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-away-kit-482570/",
-      "record_path": "data/research/footballkitarchive/records/research_494f49539bbbb5a88be3.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    }
-  ],
+  "other_season_references": [],
   "kits": {
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026 (Carry-over)",
+      "season_fallback": {
+        "team_id": "team_7da24bbc046b4f6150e8",
+        "variant": "home",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-home-kit-482571/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
+      },
+      "source_team_name": "FC Inter Turku",
+      "design": "Stripes",
+      "colors": [
+        "Blue",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Nike",
+      "sponsor": "Alfons Håkans",
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
         "url": "https://www.footballkitarchive.com/fc-inter-turku-2026-home-kit-482571/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
-      },
-      "source": null
+        "kit_id": "482571",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_7f49d0017c7d1eb604a2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_7da24bbc046b4f6150e8",
+        "variant": "away",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-away-kit-482570/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
+      },
+      "source_team_name": "FC Inter Turku",
+      "design": "Plain",
+      "colors": [
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Nike",
+      "sponsor": "Alfons Håkans",
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
         "url": "https://www.footballkitarchive.com/fc-inter-turku-2026-away-kit-482570/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
-      },
-      "source": null
+        "kit_id": "482570",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_494f49539bbbb5a88be3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     }
   }
 }

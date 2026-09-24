@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1cf0c93c15930e155c30",
+  "team_name": "TPS",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black shirt with three wide white body stripes, white collar and broad white cuff borders. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-home-464608.jpg",
+      "page_url": "https://www.footballkitarchive.com/tps-turku-2026-home-kit-464608/",
+      "sha256": "06f7e9fb878ef7a26b96398f090b8636e0e7d51856de572eca374068cbc2a7a2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#151716",
+      "leftSleeve": "#151716",
+      "rightSleeve": "#151716",
+      "collar": "#F6F6F2",
+      "leftCuff": "#F6F6F2",
+      "rightCuff": "#F6F6F2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F6F6F2",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#151716",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 58,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#F6F6F2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#F6F6F2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#F6F6F2",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F6F6F2",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F6F6F2",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

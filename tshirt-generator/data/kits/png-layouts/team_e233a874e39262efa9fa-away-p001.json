@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e233a874e39262efa9fa",
+  "team_name": "IFK Mariehamn",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain green shirt with matching collar and cuffs. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e233a874e39262efa9fa-away-485181.jpg",
+      "page_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-away-kit-485181/",
+      "sha256": "a445b78893a807b20a67d0feffcf8f0823d266ef2792f8d8644f04b4a9b68b56"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#34936A",
+      "leftSleeve": "#34936A",
+      "rightSleeve": "#34936A",
+      "collar": "#34936A",
+      "leftCuff": "#34936A",
+      "rightCuff": "#34936A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#34936A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#34936A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

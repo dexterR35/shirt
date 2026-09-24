@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The pale architectural scene above and behind the sponsor is unresolved; the saved front is blurred and only the lower scene is partially recovered."
-  ],
-  "kit_revision_path": "data/kits/team_f5a63daa5cf98db2c301-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f5a63daa5cf98db2c301-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#63318B"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale full-height architectural scene now includes the upper front and lower building placement, between purple side columns. Branding is explicitly masked; the narrow sponsor gap continues a matching architectural section. White sleeves, purple cuff borders and original ring retained. Fine photographic scene detail remains simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_f5a63daa5cf98db2c301-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_e01dee1201e4f9a923b1.json",
     "source_kit_id": "495797"
@@ -115,6 +120,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

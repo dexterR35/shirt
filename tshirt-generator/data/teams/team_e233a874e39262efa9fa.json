@@ -6,68 +6,85 @@
   "mandatory": true,
   "priority_order": 58,
   "requested_season": "2026/27",
-  "other_season_references": [
-    {
-      "variant": "home",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-home-kit-481393/",
-      "record_path": "data/research/footballkitarchive/records/research_f253bb355e1318e434fa.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    },
-    {
-      "variant": "away",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-away-kit-485181/",
-      "record_path": "data/research/footballkitarchive/records/research_c649874c61cb45770b5f.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    }
-  ],
+  "other_season_references": [],
   "kits": {
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_e233a874e39262efa9fa",
+        "variant": "home",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-home-kit-481393/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
+      },
+      "source_team_name": "IFK Mariehamn",
+      "design": "Plain",
+      "colors": [
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
         "url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-home-kit-481393/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
-      },
-      "source": null
+        "kit_id": "481393",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_f253bb355e1318e434fa.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_e233a874e39262efa9fa",
+        "variant": "away",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-away-kit-485181/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
+      },
+      "source_team_name": "IFK Mariehamn",
+      "design": "Plain",
+      "colors": [
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
         "url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-away-kit-485181/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
-      },
-      "source": null
+        "kit_id": "485181",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_c649874c61cb45770b5f.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     }
   }
 }

@@ -4,8 +4,8 @@
   "team_name": "Ilves",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_05b36ddb2c054459e372-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tampereen-ilves-2026-home-kit-471181/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/X9edKDqBNiVdFXB/tampereen-ilves-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_05b36ddb2c054459e372-home-471181.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Green"
+    ],
+    "values": {
+      "body": "#E4C723",
+      "leftSleeve": "#E4C723",
+      "rightSleeve": "#E4C723",
+      "collar": "#176850",
+      "leftCuff": "#176850",
+      "rightCuff": "#176850"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow body with fine olive pinstripes, green collar/cuffs and paired shoulder tapes. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_05b36ddb2c054459e372-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0bd58cf0bfb8643f9e7b.json",
+    "source_kit_id": "471181"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

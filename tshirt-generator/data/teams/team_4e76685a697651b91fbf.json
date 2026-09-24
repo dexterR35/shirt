@@ -6,68 +6,87 @@
   "mandatory": true,
   "priority_order": 55,
   "requested_season": "2026/27",
-  "other_season_references": [
-    {
-      "variant": "home",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/hjk-helsinki-2026-home-kit-466978/",
-      "record_path": "data/research/footballkitarchive/records/research_a90e3e8a8721109a4f52.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    },
-    {
-      "variant": "away",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/hjk-helsinki-2026-away-kit-468783/",
-      "record_path": "data/research/footballkitarchive/records/research_647a23368419ac94f1d2.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    }
-  ],
+  "other_season_references": [],
   "kits": {
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
-      "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
-        "url": "https://www.footballkitarchive.com/hjk-helsinki-2026-home-kit-466978/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_4e76685a697651b91fbf",
+        "variant": "home",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/hjk-helsinki-2026-home-kit-466978/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
       },
-      "source": null
+      "source_team_name": "HJK Helsinki",
+      "design": "Stripes",
+      "colors": [
+        "White",
+        "Blue"
+      ],
+      "color_values_official": false,
+      "brand": "adidas",
+      "sponsor": "Révvi",
+      "competitions": [
+        "Veikkausliiga"
+      ],
+      "release_date": "March 18, 2026",
+      "release_date_iso": "2026-03-18",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hjk-helsinki-2026-home-kit-466978/",
+        "kit_id": "466978",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_a90e3e8a8721109a4f52.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
-      "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
-        "url": "https://www.footballkitarchive.com/hjk-helsinki-2026-away-kit-468783/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_4e76685a697651b91fbf",
+        "variant": "away",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/hjk-helsinki-2026-away-kit-468783/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
       },
-      "source": null
+      "source_team_name": "HJK Helsinki",
+      "design": "Pinstripes",
+      "colors": [
+        "Navy",
+        "Pink"
+      ],
+      "color_values_official": false,
+      "brand": "adidas",
+      "sponsor": "Révvi",
+      "competitions": [
+        "Veikkausliiga"
+      ],
+      "release_date": "March 24, 2026",
+      "release_date_iso": "2026-03-24",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hjk-helsinki-2026-away-kit-468783/",
+        "kit_id": "468783",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_647a23368419ac94f1d2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     }
   }
 }

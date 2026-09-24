@@ -20,6 +20,8 @@ The user requested this handoff before moving to Codex desktop. Build the applic
 
 ## Data and research
 
+- Latest user direction (24 September 2026): finish every Tier 1 Home/Away slot, using 2026 where 2026/27 is unconfirmed. Tier 1 now has 276 ready slots: 251 labeled 2026/27, 24 labeled 2026 and the explicitly disclosed Petrolul Away 2025/26 fallback for 2026. Preserve literal seasons. `data/research/season-policy.json` scopes allowed fallbacks by canonical team, variant and season; prefer verified 2026/27 revisions. Read `docs/TIER1_COMPLETION_2026-09-24.md` for source limitations and review evidence.
+
 - Latest user direction (23 September 2026): Football Kit Archive (`https://www.footballkitarchive.com/`) is the source of truth for kit research. Continue all 735 workbook teams and both Home/Away slots. Use `data/research/footballkitarchive/source-policy.json`, `worklist.json`, discovery checkpoints and saved front images. This supersedes the earlier official-source-first rule for new research; preserve the older evidence and approved revisions. Scraped metadata or color names alone never make a kit ready.
 
 - Include every source team: 735 teams, 39 countries/associations, 708 first teams and 27 reserve teams.

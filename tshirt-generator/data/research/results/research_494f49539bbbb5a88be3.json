@@ -4,8 +4,8 @@
   "team_name": "FC Inter Turku",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7da24bbc046b4f6150e8-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-away-kit-482570/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/CGicX19ERiNm1dO/fc-inter-turku-2026-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7da24bbc046b4f6150e8-away-482570.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red"
+    ],
+    "values": {
+      "body": "#CD151C",
+      "leftSleeve": "#CD151C",
+      "rightSleeve": "#CD151C",
+      "collar": "#CD151C",
+      "leftCuff": "#CD151C",
+      "rightCuff": "#CD151C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with tonal sleeve panels; no printed body graphic visible. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7da24bbc046b4f6150e8-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_494f49539bbbb5a88be3.json",
+    "source_kit_id": "482570"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

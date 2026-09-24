@@ -5,6 +5,7 @@ import { validatePngLayout } from "../src/lib/png-layout.js";
 import { buildTeamEquipment } from "./research/build-team-equipment.mjs";
 import { equipmentForKit } from "../src/lib/equipment.js";
 import { loadDisplayNames } from "./team-display-names.mjs";
+import { permittedSeason } from "./research/season-policy.mjs";
 const {teams: equipmentTeams, priority} = await buildTeamEquipment();
 const read = async (f) => JSON.parse(await fs.readFile(f, "utf8"));
 const teams = await read("data/normalized/teams.json"),
@@ -108,8 +109,8 @@ const manifestTeams = teams.map((t) => ({
         ),
         r = revisions
           .filter((r) => r.team_id === t.id && r.variant === variant &&
-            (!equipmentTeams.get(t.id).mandatory || r.kit_season === priority.requested_season))
-          .sort((a, b) => b.revision.localeCompare(a.revision))[0],
+            (!equipmentTeams.get(t.id).mandatory || permittedSeason(t.id,variant,r.kit_season,priority.requested_season)))
+          .sort((a, b) => Number(b.kit_season===priority.requested_season)-Number(a.kit_season===priority.requested_season)||b.revision.localeCompare(a.revision))[0],
         result = results.get(task.id);
       return [
         variant,
@@ -123,7 +124,7 @@ const manifestTeams = teams.map((t) => ({
             }
           : {
               status:
-                (equipmentTeams.get(t.id).mandatory && result?.kit_season && result.kit_season !== priority.requested_season ? 'researching' : result?.status) ??
+                (equipmentTeams.get(t.id).mandatory && result?.kit_season && !permittedSeason(t.id,variant,result.kit_season,priority.requested_season) ? 'researching' : result?.status) ??
                 (searched.has(task.id) ? "researching" : "unresearched"),
               kit_season: null,
               reason:
@@ -161,6 +162,8 @@ const counts = {
   mandatory_slots: priority.slot_count,
   mandatory_ready: manifestTeams.filter(t => t.mandatory).flatMap(t => Object.values(t.kits)).filter(k => k.status === 'ready').length,
   mandatory_references: [...equipmentTeams.values()].filter(t => t.mandatory).flatMap(t => Object.values(t.kits)).filter(k => k.source).length,
+  mandatory_preferred_season: manifestTeams.filter(t=>t.mandatory).flatMap(t=>Object.values(t.kits)).filter(k=>k.status==='ready'&&k.kit_season===priority.requested_season).length,
+  mandatory_fallbacks: manifestTeams.filter(t=>t.mandatory).flatMap(t=>Object.values(t.kits)).filter(k=>k.status==='ready'&&k.kit_season!==priority.requested_season).length,
 };
 try {
   const archive = await read('data/research/footballkitarchive/progress.json');

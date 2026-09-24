@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Only the unobstructed Titormos head and lower body are traced. The sponsor covers the connecting torso and the source-specific side details remain incomplete."
-  ],
-  "kit_revision_path": "data/kits/team_73af7171f6f1011fece5-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_73af7171f6f1011fece5-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -100,7 +98,14 @@
       "rightCuff": "#134D87"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent yellow/blue Home Titormos field mapped as a full composition, with hatched contours joined through the removed sponsor and completed diagonal side stripes. Away sleeve hatch restored. Greek lettering, badge and logos omitted. Hidden connecting contours are reconstructed, not claimed as directly visible evidence.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_73af7171f6f1011fece5-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_bcd09cddc4609aaf89d6.json",
     "source_kit_id": "503529"
@@ -115,6 +120,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

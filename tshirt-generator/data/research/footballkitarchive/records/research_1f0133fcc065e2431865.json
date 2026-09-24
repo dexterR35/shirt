@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/serie-a-kits-2026-27-l258/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/serie-a-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent ivory Away architectural field mapped over the full front instead of a repeated lower scene. Fine building lines and upper field recovered; small branding-covered portions are continued with the observed columns/roof structure. Source shoulder wedges, cuffs and original round ring retained; micro-detail simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7f88a22bcf20db0b09f6-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-away-506313.jpg",
-  "image_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c"
+  "image_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c",
+  "artwork_revision_path": "data/kits/team_7f88a22bcf20db0b09f6-away-r003.json"
 }

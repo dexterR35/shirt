@@ -5,7 +5,7 @@
   "country_name": "France",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The lower wave positions are closer, but the source has diffuse curved color boundaries and layered highlights that the current hard-edged gradients do not reproduce."
-  ],
-  "kit_revision_path": "data/kits/team_ad93f6c09b5a8960a02f-away-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ad93f6c09b5a8960a02f-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -93,15 +91,22 @@
       "Purple"
     ],
     "values": {
-      "body": "#F1E7E9",
-      "leftSleeve": "#F1E7E9",
-      "rightSleeve": "#F1E7E9",
+      "body": "#F4ECF1",
+      "leftSleeve": "#F4ECF1",
+      "rightSleeve": "#F4ECF1",
       "collar": "#EEE0E2",
       "leftCuff": "#EBDFE3",
       "rightCuff": "#EBDFE3"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale pink body with fine pink pinstripes and asymmetric purple lower waves. Dense vector contour bands now follow curved pink/red/magenta transitions, replacing straight gradient boundaries; two softer interior magenta waves follow the source. Sleeves and the original round collar stay pale.",
+    "render_path": "artifacts/footballkitarchive/tier1-refinement-2026-09-24/team_ad93f6c09b5a8960a02f-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_9d8c2c09e1d8ee89bc73.json",
     "source_kit_id": "508724"
@@ -116,6 +121,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-refinement-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

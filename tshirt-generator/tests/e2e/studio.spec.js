@@ -296,13 +296,19 @@ test('equipment details use local JSON and follow selection, collection navigati
   expect(external).toEqual([]);
 });
 
-test('mandatory calendar-year teams stay visible without substituting 2026 for 2026/27',async({page})=>{
+test('calendar-year Home and Away apply with their literal 2026 season',async({page})=>{
   await page.goto('/');
   await page.getByLabel('Team',{exact:true}).fill('AC Oulu');
   await page.getByRole('button',{name:/AC Oulu Finland/}).click();
-  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','AC Oulu home shirt');
+  await expect(page.locator('.shirt-image')).toHaveAttribute('data-render-state','ready');
+  await expect(page.getByRole('region',{name:'Applied kit details'})).toContainText('2026');
+  await expect(page.getByRole('region',{name:'Applied kit details'})).not.toContainText('26-27');
   await page.getByRole('button',{name:'Away',exact:true}).click();
-  await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
+  await expect(page.locator('.shirt-image')).toHaveAttribute('aria-label','AC Oulu away shirt');
+  await expect(page.locator('.shirt-image')).toHaveAttribute('data-render-state','ready');
+  const yellow=await page.locator('.shirt-image').evaluate(c=>{const p=c.getContext('2d').getImageData(c.width*.5,c.height*.5,1,1).data;return p[0]>150&&p[1]>130&&p[2]<90;});
+  expect(yellow).toBe(true);
   await page.setViewportSize({width:390,height:844});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
@@ -327,8 +333,8 @@ test('new Tier 1 detailed layouts apply locally while unfinished revisions show 
     await page.screenshot({path:`artifacts/footballkitarchive/studio-tier1-${team.toLowerCase().replaceAll(' ','-')}.png`,fullPage:true});
   }
   // An unfinished draft is never painted; the plain base and a missing message are shown.
-  await page.getByLabel('Team',{exact:true}).fill('Milan');
-  await page.getByRole('button',{name:/Milan Italy/}).click();
+  await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
+  await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
   await page.getByRole('button',{name:'Away',exact:true}).click();
   await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
@@ -355,8 +361,8 @@ test('remaining-71 batch applies newly reviewed patterns and shows a draft as mi
     await expect(card).toContainText('26-27');
     await page.screenshot({path:`artifacts/footballkitarchive/tier1-71-2026-09-23/studio-${team.toLowerCase().replaceAll(' ','-')}.png`,fullPage:true});
   }
-  await page.getByLabel('Team',{exact:true}).fill('Crystal Palace');
-  await page.getByRole('button',{name:/Crystal Palace England/}).click();
+  await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
+  await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
   await page.getByRole('button',{name:'Away',exact:true}).click();
   await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
@@ -376,6 +382,7 @@ test('remaining-42 revisions render with local equipment facts and show drafts a
     ['Sassuolo','Italy','us-sassuolo-calcio-2026-27-away-kit-501416'],
     ['Monza','Italy','ac-monza-2026-27-away-kit-519841'],
     ['Kifisia','Greece','kifisia-fc-2026-27-away-kit-515391'],
+    ['Toulouse','France','toulouse-fc-2026-27-away-kit-508724'],
   ]){
     await page.getByLabel('Team',{exact:true}).fill(team);
     await page.getByRole('button',{name:new RegExp(`${team} ${country}`)}).click();
@@ -383,10 +390,58 @@ test('remaining-42 revisions render with local equipment facts and show drafts a
       await expect(canvas).toHaveAttribute('aria-label',`${team} away shirt`);
     await expect(canvas).toHaveAttribute('data-render-state','ready');
     await expect(card).toContainText('26-27');
-    await page.screenshot({path:`artifacts/footballkitarchive/tier1-42-2026-09-23/studio-${team.toLowerCase()}.png`,fullPage:true});
+    if(team==='Toulouse'){
+      // Ready must describe Away pixels, not the preceding plain/Home preview.
+      await expect.poll(()=>canvas.evaluate(c=>{
+        const ctx=c.getContext('2d'),p=ctx.getImageData(c.width*.5,c.height*.4,1,1).data;
+        return Math.min(p[0],p[1],p[2])>170;
+      })).toBe(true);
+    }
+    const screenshotBatch=team==='Toulouse'?'tier1-refinement-2026-09-24':'tier1-42-2026-09-23';
+    await page.screenshot({path:`artifacts/footballkitarchive/${screenshotBatch}/studio-${team.toLowerCase()}.png`,fullPage:true});
   }
-  await page.getByLabel('Team',{exact:true}).fill('Toulouse');
-  await page.getByRole('button',{name:/Toulouse France/}).click();
+  await page.getByLabel('Team',{exact:true}).fill('Union Berlin');
+  await page.getByRole('button',{name:/Union Berlin Germany/}).click();
+  await expect(canvas).toHaveAttribute('aria-label','Union Berlin home shirt');
+  await expect(canvas).toHaveAttribute('data-render-state','ready');
+  await expect(card).toContainText('26-27');
+  const unionPixels=await canvas.evaluate(c=>{
+    const p=c.getContext('2d').getImageData(c.width*.5,c.height*.5,1,1).data;
+    return p[0]>140&&p[0]>p[1]*2&&p[0]>p[2]*2;
+  });
+  expect(unionPixels).toBe(true);
+  await page.screenshot({path:'artifacts/footballkitarchive/tier1-refinement-2026-09-24/studio-union-berlin.png',fullPage:true});
+  await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
+  await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
+  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
+  await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
+  await expect(card).toContainText('Choose a team');
+  expect(external).toEqual([]);
+});
+
+test('Milan and Venezia Away load reviewed local layouts while a non-mandatory draft remains unavailable',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const canvas=page.locator('.shirt-image'),card=page.getByRole('region',{name:'Applied kit details'});
+  for(const team of ['Milan','Venezia']){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} Italy`)}).click();
+    await page.getByRole('button',{name:'Away',exact:true}).click();
+    await expect(canvas).toHaveAttribute('aria-label',`${team} away shirt`);
+    await expect(canvas).toHaveAttribute('data-render-state','ready');
+    await expect(card).toContainText(team);
+    await expect(card).toContainText('26-27');
+    // Both Away fronts are pale; Milan's red Home must have finished switching.
+    const pale=await canvas.evaluate(c=>{
+      const p=c.getContext('2d').getImageData(c.width*.5,c.height*.5,1,1).data;
+      return Math.min(p[0],p[1],p[2])>150;
+    });
+    expect(pale).toBe(true);
+    await page.screenshot({path:`artifacts/footballkitarchive/tier1-ornaments-2026-09-24/studio-${team.toLowerCase()}.png`,fullPage:true});
+  }
+  await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
+  await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
   await page.getByRole('button',{name:'Away',exact:true}).click();
   await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
@@ -453,6 +508,7 @@ test('edit mode fixes the view, selects parts by clicking the shirt, and keeps s
   await page.getByLabel('Team',{exact:true}).fill('Arsenal');
   await page.getByRole('button',{name:/Arsenal England/}).click();
   const canvas=page.locator('.shirt-image'),stage=page.locator('.shirt-stage');
+  await expect(canvas).toHaveAttribute('aria-label','Arsenal home shirt');
   await expect(canvas).toHaveAttribute('data-render-state','ready');
   const original=await canvas.evaluate(c=>c.toDataURL());
   await page.getByRole('button',{name:'Zoom in'}).click();
@@ -680,11 +736,16 @@ test('catalog tabs show competitions in a sortable, searchable table; selected s
   await page.getByRole('button',{name:'Romania'}).click();
   const liga=page.getByRole('table',{name:'SuperLiga'});
   await expect(liga.locator('tbody tr')).toHaveCount(32);
+  await expect(liga.locator('tr.unavailable')).toHaveCount(0);
+  // Tier 1 is complete. The wider Liga II catalog still contains real drafts.
+  await page.getByRole('button',{name:'Liga II 22',exact:true}).click();
+  const liga2=page.getByRole('table',{name:'Liga II'});
   // Shirts that are not ready cannot be selected.
-  await expect(liga.locator('tr.unavailable input[type="checkbox"]').first()).toBeDisabled();
+  await expect(liga2.locator('tr.unavailable input[type="checkbox"]').first()).toBeDisabled();
   // Shirts that are not ready show the plain base with a "No preview" label.
-  await expect(liga.locator('tr.unavailable .no-preview').first()).toHaveText('No preview');
-  await expect(liga.locator('tr:not(.unavailable) .no-preview')).toHaveCount(0);
+  await expect(liga2.locator('tr.unavailable .no-preview').first()).toHaveText('No preview');
+  await expect(liga2.locator('tr:not(.unavailable) .no-preview')).toHaveCount(0);
+  await page.getByRole('button',{name:'SuperLiga 16',exact:true}).click();
   // Selecting more than the free slots is refused, never truncated.
   await liga.getByRole('checkbox',{name:'Select all'}).check();
   await expect(page.getByRole('button',{name:/^Add \d+ to collection$/})).toBeDisabled();
@@ -802,4 +863,27 @@ test('canvas background: transparent shows a checkerboard, white is white, custo
   await expect(canvas).toHaveClass(/on-light/);
   await page.getByRole('button',{name:'Transparent background'}).click();
   expect(await checker()).toContain('linear-gradient');
+});
+
+test('completed Tier 1 shirts and explicit season fallbacks apply from local JSON',async({page})=>{
+  const external=[];
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!['localhost','127.0.0.1'].includes(new URL(r.url()).hostname))external.push(r.url());});
+  await page.goto('/');
+  const canvas=page.locator('.shirt-image'),card=page.getByRole('region',{name:'Applied kit details'});
+  for(const[team,country,variant,season]of [
+    ['Real Sociedad','Spain','Home','26-27'],['Real Sociedad','Spain','Away','26-27'],
+    ['Lorient','France','Home','26-27'],['Lorient','France','Away','26-27'],
+    ['Bayer Leverkusen','Germany','Away','26-27'],['Petrolul Ploiești','Romania','Away','25-26'],
+    ['Panetolikos','Greece','Away','26-27'],
+  ]){
+    await page.getByLabel('Team',{exact:true}).fill(team);
+    await page.getByRole('button',{name:new RegExp(`${team} ${country}`)}).click();
+    await page.getByRole('button',{name:variant,exact:true}).click();
+    await expect(canvas).toHaveAttribute('aria-label',`${team} ${variant.toLowerCase()} shirt`);
+    await expect(canvas).toHaveAttribute('data-render-state','ready');
+    await expect(card).toContainText(season);await expect(card).toContainText(team);
+    if(team==='Petrolul Ploiești'){await expect(card).toContainText('MrBit');await expect(card).not.toContainText('26-27');}
+    await page.screenshot({path:`artifacts/footballkitarchive/tier1-completion-2026-09-24/studio-${team.toLowerCase().replaceAll(' ','-')}-${variant.toLowerCase()}.png`,fullPage:true});
+  }
+  expect(external).toEqual([]);
 });

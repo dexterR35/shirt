@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/serie-a-kits-2026-27-l258/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/serie-a-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent golden Home architectural field mapped over the full front instead of a repeated lower scene. Fine building lines and upper field recovered; small branding-covered portions are continued with the observed columns/roof structure. Source shoulder wedges, cuffs and original round ring retained; micro-detail simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7f88a22bcf20db0b09f6-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-home-506314.jpg",
-  "image_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8"
+  "image_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8",
+  "artwork_revision_path": "data/kits/team_7f88a22bcf20db0b09f6-home-r003.json"
 }

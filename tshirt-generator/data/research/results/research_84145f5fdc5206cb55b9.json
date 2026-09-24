@@ -4,8 +4,8 @@
   "team_name": "TPS",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1cf0c93c15930e155c30-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tps-turku-2026-home-kit-464608/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/03/09/KPzMGGeViD8b53q/tps-turku-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-home-464608.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#151716",
+      "leftSleeve": "#151716",
+      "rightSleeve": "#151716",
+      "collar": "#F6F6F2",
+      "leftCuff": "#F6F6F2",
+      "rightCuff": "#F6F6F2"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with three wide white body stripes, white collar and broad white cuff borders. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_1cf0c93c15930e155c30-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_84145f5fdc5206cb55b9.json",
+    "source_kit_id": "464608"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

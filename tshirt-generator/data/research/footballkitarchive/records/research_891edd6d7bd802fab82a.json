@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/ligue-1-kits-2026-27-l177/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/ligue-1-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange body with independently redrawn gold triangular wedges, staggered columns and alternating slopes from the reference. Each wedge fades into the cloth as observed; photographic gold grain is simplified. Plain orange sleeves and black/white trim retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_12d7a3c2f1b225b34acb-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_12d7a3c2f1b225b34acb-home-496991.jpg",
-  "image_sha256": "43d5b5e62662ef2dba493cec16f720bd8c23f99903a2d89e523f7b92200efa92"
+  "image_sha256": "43d5b5e62662ef2dba493cec16f720bd8c23f99903a2d89e523f7b92200efa92",
+  "artwork_revision_path": "data/kits/team_12d7a3c2f1b225b34acb-home-r004.json"
 }

@@ -5,7 +5,7 @@
   "country_name": "Germany",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,10 +96,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The lower branching figure is traced, but the chest network is only a repeated clean fragment and does not reconnect into the complete illustration."
-  ],
-  "kit_revision_path": "data/kits/team_fe786175653b0053bdcf-away-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fe786175653b0053bdcf-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -129,7 +127,14 @@
       "rightCuff": "#E3C047"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Entire branching figure mapped from the full front with its upper network and lower limbs in place. Observed branch directions continue through the areas hidden by branding; prior disconnected repeated chest fragments removed. Yellow/navy trim retained; fine line texture simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_fe786175653b0053bdcf-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_2a1649afad387e41102d.json",
     "source_kit_id": "485366"
@@ -144,6 +149,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

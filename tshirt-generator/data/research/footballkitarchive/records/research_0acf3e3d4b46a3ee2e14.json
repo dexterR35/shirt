@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/bundesliga-kits-2026-27-l34/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/bundesliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Asymmetric left and right mineral shoulder/sleeve fields mapped separately from the full reference, replacing reflected patch repeats. Four blue ink levels preserve large cells and veins. Pale central raglan panel and fine zigzag cuff trim restored; original round collar retained. Branding-covered gaps omitted and fine vein detail simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_e60eedf6f63f01185c31-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
-  "image_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288"
+  "image_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+  "artwork_revision_path": "data/kits/team_e60eedf6f63f01185c31-away-r004.json"
 }

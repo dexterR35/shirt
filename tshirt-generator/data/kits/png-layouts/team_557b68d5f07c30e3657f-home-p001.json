@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_557b68d5f07c30e3657f",
+  "team_name": "FF Jaro",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain red shirt and trim. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_557b68d5f07c30e3657f-home-478694.jpg",
+      "page_url": "https://www.footballkitarchive.com/ff-jaro-2026-home-kit-478694/",
+      "sha256": "745c6813343fa4a1efb902ee7f8e82a1e373ad959388b33e8a931920c323a5f3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CC191C",
+      "leftSleeve": "#CC191C",
+      "rightSleeve": "#CC191C",
+      "collar": "#CC191C",
+      "leftCuff": "#CC191C",
+      "rightCuff": "#CC191C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CC191C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CC191C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

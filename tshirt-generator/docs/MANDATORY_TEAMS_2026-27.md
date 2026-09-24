@@ -1,4 +1,4 @@
-# Mandatory teams — 23 September 2026
+# Mandatory teams — 24 September 2026
 
 The user's new workbook contains **138 teams**, all already present under their original canonical IDs. Every row is mandatory, independent of competition. The original 735-team catalog remains intact. Source: `data/source/teams_tier-1_by-tier.xlsx`, sheet `Teams by tier`, A2:F139; SHA-256 `f4efdb011e765bdb0391f336a55703866d5d1091b3435b11e60c271f330d598e`.
 
@@ -14,20 +14,17 @@ The user's new workbook contains **138 teams**, all already present under their 
 | Finland | 12 | 24 |
 | Total | 138 | 276 |
 
-The requested season is **strictly 2026/27**, as identified by Football Kit Archive. Workbook palettes are unverified context and never supply verified kit colors. Literal archive labels, including carry-over notes, are retained. Competition fields describe the kit; they do not decide whether a team is included.
+The preferred season is **2026/27**, as identified by Football Kit Archive. On 24 September the user permitted independently sourced **2026** fallbacks to complete Tier 1. Workbook palettes are unverified context and never supply verified kit colors. Literal archive labels, including carry-over notes, are retained. Competition fields describe the kit; they do not decide whether a team is included.
 
 ## Current coverage
 
-- 249 / 276 matching archive references saved locally, with equipment facts.
-- 229 / 276 ready PNG adaptations; 20 drafts; 27 researching.
-- 47 unfinished layouts: 20 have an exact-season reference but need drawing/refinement; 27 lack a matching reference.
-- Latest continuation: all 42 remaining source-backed variants revised and compared, with 22 promoted and 20 retained as drafts. See [the exact inventory and remaining differences](TIER1_42_REVIEW_2026-09-23.md).
-- 25 Greek variants are ready. Kifisia Away now has a reviewed revision; Asteras Home and both Panetolikos variants remain drafts.
-- Brentford Home r002/p002 independently binds the existing reviewed paint to the archive's 26-27 season; the historical official 2026–2028 revision is unchanged.
+- **276 / 276 ready** with independent local Home/Away references; no mandatory drafts or researching slots remain.
+- **251 × 2026/27**, **24 × calendar-year 2026** (all Finnish teams), and **Petrolul Away × 2025/26** as the disclosed fallback for 2026.
+- All last 43 variants have individual source/render reviews; see [completion report](TIER1_COMPLETION_2026-09-24.md).
+- Real Sociedad detail pages return 404; independently labeled images on the live season listing supply identity and visual evidence. Unknown metadata remains null.
+- All Greek variants are now ready. Workbook palettes remain unverified context. Elche Away's source lists Friendly; competition does not exclude a mandatory kit.
 
-Real Sociedad Home and Away are listed but both detail pages return 404, including a fresh follow-up. Petrolul Away was not found in targeted searches or current archive kit listings. Elche Away was found independently of the league page: the source lists `Friendly`, which is retained without excluding the kit.
-
-All 12 Finnish teams have observed calendar-year 2026 Home/Away entries. Those 24 sources are retained under `other_season_references` and do **not** satisfy 2026/27. Twelve exact-season team searches are saved in `strict-season-search-1.json` through `strict-season-search-3.json`; none verified an independent 2026/27 Home/Away entry. No source absence is replaced by a guessed season or generic preset.
+Literal source seasons are preserved in the app. The explicit team/variant fallback allowlist lives in `data/research/season-policy.json`; a different season for another slot is still rejected. Sources that do not fit this policy remain research context.
 
 ## Local JSON and application
 
@@ -35,12 +32,12 @@ All 12 Finnish teams have observed calendar-year 2026 Home/Away entries. Those 2
 
 Example: `data/teams/team_20e876bedbeb75f01389.json` contains Manchester United Home and Away. Home lists Plain, Red / White / Black, adidas, Snapdragon, Premier League and Champions League, released May 14, 2026. Away has its independent colors and July 22, 2026 date. Both match the inspected archive pages.
 
-`npm run catalog:build` uses only local inputs, writes `/catalog/teams/<id>.json`, and attaches matching-season equipment facts to local revision details. The right panel displays the **applied** kit's data. Selecting another team or variant does not change it until Apply succeeds. Custom colors are labeled and do not rewrite saved facts. No archive request happens at display time. Existing promotional text and “View original master” are removed; the color studio's Blank shirt action remains.
+`npm run catalog:build` uses only local inputs, writes `/catalog/teams/<id>.json`, and attaches matching-season equipment facts to local revision details. The right panel displays the shown kit's data when the selected team/variant loads. Unready variants show the plain base and an unavailable message. Custom colors are labeled and do not rewrite saved facts. No archive request happens at display time. Existing promotional text and “View original master” are removed.
 
 ## Resume
 
-Read `data/research/priority-worklist.json`: all 276 mandatory tasks are first, followed by every other original task. `data/research/priority-teams.json` preserves workbook cells and order. Continue exact-season reference checks, source-specific drawings and comparison; no metadata-only row is marked ready. The original immutable baseline queue is unchanged.
+Read `data/research/priority-worklist.json`: all 276 mandatory tasks are first, followed by every other original task. `data/research/priority-teams.json` preserves workbook cells and order. Mandatory work is complete; continue the remaining non-mandatory slots using independent reference checks, drawings and comparison. No metadata-only row is marked ready. The original immutable baseline queue is unchanged.
 
 Re-import the priority workbook using `scripts/import-priority-workbook.py` with the workbook path and a Python runtime with openpyxl. `scripts/research/build-team-equipment.mjs` reproduces local equipment JSON without network access. Extended public table captures and their provenance are in `data/research/footballkitarchive/equipment-fields.tsv` and `equipment-fields-provenance.json`.
 
-Validation: 33 Node tests, 15 Edge browser tests, original data verification and the final production build pass, recorded in `docs/VALIDATION.md`. The complete visual catalog is still unfinished.
+Validation commands and results are recorded in `docs/VALIDATION.md`. The complete visual catalog is still unfinished.

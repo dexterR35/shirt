@@ -5,7 +5,7 @@
   "country_name": "Italy",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The rounded shoulder fans, their overlap boundaries and faint ivory body pattern are not yet sufficiently matched."
-  ],
-  "kit_revision_path": "data/kits/team_eed01ef401b439314fcd-away-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_eed01ef401b439314fcd-away-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -101,7 +99,14 @@
       "rightCuff": "#292923"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Ivory body with faint source-derived tonal print. Orange left and green right scalloped panels are redrawn in source image coordinates, including layered diagonal fades, curved side insets and thin colored/black seams. The existing PNG ring retains the trim colors without adding a V-neck.",
+    "render_path": "artifacts/footballkitarchive/tier1-ornaments-2026-09-24/team_eed01ef401b439314fcd-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_32f4e8632910734be208.json",
     "source_kit_id": "508159"
@@ -116,6 +121,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-ornaments-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

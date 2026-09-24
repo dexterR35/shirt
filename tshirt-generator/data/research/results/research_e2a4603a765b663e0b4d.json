@@ -4,8 +4,8 @@
   "team_name": "Petrolul Ploiești",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_681ab3aa19bea70aa273-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/petrolul-ploiesti-2025-26-away-kit-392500/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/07/21/Q9AeFlC9Gu2soH3/petrolul-ploiesti-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_681ab3aa19bea70aa273-away-392500.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#124F88",
+      "leftSleeve": "#124F88",
+      "rightSleeve": "#124F88",
+      "collar": "#EBD342",
+      "leftCuff": "#EBD342",
+      "rightCuff": "#EBD342"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "2025/26 Away fallback for equipment in 2026: blue field with tonal angular fracture lines, yellow collar/cuffs with a fine blue stripe, small yellow underarm inserts. Source season is retained as 2025/26, never relabeled 2026/27. Original round collar construction used.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_681ab3aa19bea70aa273-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e2a4603a765b663e0b4d.json",
+    "source_kit_id": "392500"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -5,7 +5,7 @@
   "country_name": "France",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The isolated rosettes still lose fine scroll connections and the tiny cuff ornament is incomplete."
-  ],
-  "kit_revision_path": "data/kits/team_12d7a3c2f1b225b34acb-away-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_12d7a3c2f1b225b34acb-away-r004.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -92,15 +90,22 @@
       "Black"
     ],
     "values": {
-      "body": "#ECE6D6",
-      "leftSleeve": "#ECE6D6",
-      "rightSleeve": "#ECE6D6",
-      "collar": "#20221F",
-      "leftCuff": "#20211F",
-      "rightCuff": "#20211F"
+      "body": "#F3EFDF",
+      "leftSleeve": "#F3EFDF",
+      "rightSleeve": "#F3EFDF",
+      "collar": "#171E23",
+      "leftCuff": "#192027",
+      "rightCuff": "#192027"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Connected paisley clusters now include the missing interlocking inner curls and denser ornamental cuff scrollwork. Cluster spacing and scale match the independently inspected source crop on warm ivory. Fine curves remain an adaptation; plain sleeves and original dark round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_12d7a3c2f1b225b34acb-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_a72c566d47eb2c2c1d42.json",
     "source_kit_id": "494913"
@@ -115,6 +120,16 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-ornaments-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

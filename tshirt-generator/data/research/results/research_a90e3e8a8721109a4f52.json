@@ -4,8 +4,8 @@
   "team_name": "HJK",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4e76685a697651b91fbf-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hjk-helsinki-2026-home-kit-466978/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/db7GtEEdNsiOFy0/hjk-helsinki-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4e76685a697651b91fbf-home-466978.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#FAFAF7",
+      "leftSleeve": "#FAFAF7",
+      "rightSleeve": "#FAFAF7",
+      "collar": "#285CAA",
+      "leftCuff": "#FAFAF7",
+      "rightCuff": "#FAFAF7"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with three broad blue body stripes and white sleeves, blue collar and twin shoulder tapes. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_4e76685a697651b91fbf-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a90e3e8a8721109a4f52.json",
+    "source_kit_id": "466978"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

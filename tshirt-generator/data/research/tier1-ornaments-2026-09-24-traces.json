@@ -1,0 +1,45 @@
+{
+  "batch": "tier1-ornaments-2026-09-24",
+  "date": "2026-09-24",
+  "traces": [
+    {
+      "team": "Lorient",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_12d7a3c2f1b225b34acb-away-494913.jpg",
+      "source_sha256": "53ffc1747b6d5d90eb29a7cac609cd6d32592ab715435426b6408fa425acd4ca",
+      "box": [
+        229,
+        529,
+        110,
+        110
+      ],
+      "width": 260,
+      "mode": "yellow",
+      "threshold": 26,
+      "preview": "artifacts/footballkitarchive/tier1-ornaments-2026-09-24/ink-lorient-1.png",
+      "ink_pixels": 7978,
+      "method": "Observed ink contours from an inspected branding-free crop; estimated fill, no reference image embedded.",
+      "used_in_final": false,
+      "rejection": "The threshold breaks the fine source loops into fragments. Final motifs use manually reconstructed connected curves."
+    },
+    {
+      "team": "Venezia",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_eed01ef401b439314fcd-away-508159.jpg",
+      "source_sha256": "857ca51d174f2e0358a63fd8fe64220d266c7be0355a4b2db8c435106c0585ce",
+      "box": [
+        435,
+        686,
+        327,
+        246
+      ],
+      "width": 200,
+      "mode": "dark",
+      "threshold": 2.1,
+      "blur": 6,
+      "preview": "artifacts/footballkitarchive/tier1-ornaments-2026-09-24/ink-venezia-2.png",
+      "ink_pixels": 1030,
+      "method": "Observed ink contours from an inspected branding-free crop; estimated fill, no reference image embedded."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7da24bbc046b4f6150e8",
+  "team_name": "FC Inter Turku",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Three broad blue front stripes on black, continued on sleeves; blue round collar. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7da24bbc046b4f6150e8-home-482571.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-home-kit-482571/",
+      "sha256": "922268583acd22579f9a16eb0eb46d967d4fec25c9dc063dbb180c71c91e52dd"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#171B1E",
+      "leftSleeve": "#171B1E",
+      "rightSleeve": "#171B1E",
+      "collar": "#245780",
+      "leftCuff": "#171B1E",
+      "rightCuff": "#171B1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#245780",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#171B1E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            19,
+            13
+          ],
+          [
+            31,
+            13
+          ],
+          [
+            42,
+            91
+          ],
+          [
+            30,
+            91
+          ]
+        ],
+        "fill": "#245780",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            13
+          ],
+          [
+            164,
+            13
+          ],
+          [
+            175,
+            91
+          ],
+          [
+            163,
+            91
+          ]
+        ],
+        "fill": "#245780",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

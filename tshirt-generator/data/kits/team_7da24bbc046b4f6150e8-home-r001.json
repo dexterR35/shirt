@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7da24bbc046b4f6150e8",
+  "team_name": "FC Inter Turku",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": "2026",
+  "revision": "r001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-home-kit-482571/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/uv7pzEqh0HUfKBj/fc-inter-turku-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7da24bbc046b4f6150e8-home-482571.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#171B1E",
+      "leftSleeve": "#171B1E",
+      "rightSleeve": "#171B1E",
+      "collar": "#245780",
+      "leftCuff": "#171B1E",
+      "rightCuff": "#171B1E"
+    }
+  },
+  "observations": "Three broad blue front stripes on black, continued on sleeves; blue round collar. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Three broad blue front stripes on black, continued on sleeves; blue round collar. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7da24bbc046b4f6150e8-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#171B1E",
+      "leftSleeve": "#171B1E",
+      "rightSleeve": "#171B1E",
+      "collar": "#245780",
+      "leftCuff": "#171B1E",
+      "rightCuff": "#171B1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#245780",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#171B1E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#245780",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            19,
+            13
+          ],
+          [
+            31,
+            13
+          ],
+          [
+            42,
+            91
+          ],
+          [
+            30,
+            91
+          ]
+        ],
+        "fill": "#245780",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            13
+          ],
+          [
+            164,
+            13
+          ],
+          [
+            175,
+            91
+          ],
+          [
+            163,
+            91
+          ]
+        ],
+        "fill": "#245780",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

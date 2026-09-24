@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7da24bbc046b4f6150e8",
+  "team_name": "FC Inter Turku",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Red shirt with tonal sleeve panels; no printed body graphic visible. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7da24bbc046b4f6150e8-away-482570.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-2026-away-kit-482570/",
+      "sha256": "4e52e5c85aae442ffdce7dc1cbaebca3e77b893e12e1dad64521e8e563365446"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CD151C",
+      "leftSleeve": "#CD151C",
+      "rightSleeve": "#CD151C",
+      "collar": "#CD151C",
+      "leftCuff": "#CD151C",
+      "rightCuff": "#CD151C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CD151C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CD151C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

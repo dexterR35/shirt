@@ -4,8 +4,8 @@
   "team_name": "FF Jaro",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_557b68d5f07c30e3657f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/0RkEUcwqBtbAAFe/ff-jaro-2026-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_557b68d5f07c30e3657f-away-478589.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Claret"
+    ],
+    "values": {
+      "body": "#B8B7B3",
+      "leftSleeve": "#833D36",
+      "rightSleeve": "#833D36",
+      "collar": "#833D36",
+      "leftCuff": "#833D36",
+      "rightCuff": "#833D36"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm grey front with regularly spaced fine red pinstripes, brick-red sleeves and collar. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_557b68d5f07c30e3657f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_39bda7b2d66396cdd561.json",
+    "source_kit_id": "478589"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

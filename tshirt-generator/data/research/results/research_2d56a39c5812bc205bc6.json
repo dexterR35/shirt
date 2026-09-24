@@ -4,8 +4,8 @@
   "team_name": "VPS",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b2397494b0facc80a2ca-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vps-2026-away-kit-485184/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/7Jyy99vn06MO6cQ/vps-2026-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b2397494b0facc80a2ca-away-485184.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow"
+    ],
+    "values": {
+      "body": "#E7C924",
+      "leftSleeve": "#E7C924",
+      "rightSleeve": "#E7C924",
+      "collar": "#E7C924",
+      "leftCuff": "#E7C924",
+      "rightCuff": "#E7C924"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain yellow shirt and matching trim. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_b2397494b0facc80a2ca-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2d56a39c5812bc205bc6.json",
+    "source_kit_id": "485184"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "FC Lahti",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fef1e19abc17bfa6f7d3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-lahti-2026-home-kit-467778/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/XxnIkeQPcw8yXfS/fc-lahti-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fef1e19abc17bfa6f7d3-home-467778.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#141716",
+      "leftSleeve": "#141716",
+      "rightSleeve": "#141716",
+      "collar": "#F6F7F5",
+      "leftCuff": "#141716",
+      "rightCuff": "#141716"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Contrasting round collar, two narrow shoulder tapes and small lower side/hem inserts; plain central body and sleeves. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_fef1e19abc17bfa6f7d3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b23a8dea9859eefc85a3.json",
+    "source_kit_id": "467778"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

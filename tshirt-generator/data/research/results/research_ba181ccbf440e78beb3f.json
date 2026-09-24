@@ -5,7 +5,7 @@
   "country_name": "Italy",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The architectural scene remains fragmented and repeated. A sharper source is needed to recover the small buildings and full placement."
-  ],
-  "kit_revision_path": "data/kits/team_7f88a22bcf20db0b09f6-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7f88a22bcf20db0b09f6-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -92,15 +90,22 @@
       "Blue"
     ],
     "values": {
-      "body": "#EBC44C",
-      "leftSleeve": "#EBC44C",
-      "rightSleeve": "#EBC44C",
+      "body": "#EFD17D",
+      "leftSleeve": "#EFD17D",
+      "rightSleeve": "#EFD17D",
       "collar": "#26649D",
       "leftCuff": "#26649D",
       "rightCuff": "#26649D"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent golden Home architectural field mapped over the full front instead of a repeated lower scene. Fine building lines and upper field recovered; small branding-covered portions are continued with the observed columns/roof structure. Source shoulder wedges, cuffs and original round ring retained; micro-detail simplified.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7f88a22bcf20db0b09f6-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_ba181ccbf440e78beb3f.json",
     "source_kit_id": "506314"
@@ -115,6 +120,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

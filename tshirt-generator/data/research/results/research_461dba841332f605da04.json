@@ -4,8 +4,8 @@
   "team_name": "IF Gnistan",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d5c48859814647fdccc6-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/if-gnistan-2026-home-kit-467103/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/xU2X4H5gMwVCLio/if-gnistan-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d5c48859814647fdccc6-home-467103.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#EAD727",
+      "leftSleeve": "#EAD727",
+      "rightSleeve": "#EAD727",
+      "collar": "#28597C",
+      "leftCuff": "#28597C",
+      "rightCuff": "#28597C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Source-specific opposing jagged lightning columns widen down both sides; central front and sleeves stay plain. Independent Home/Away palette and cuff colors. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_d5c48859814647fdccc6-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_461dba841332f605da04.json",
+    "source_kit_id": "467103"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

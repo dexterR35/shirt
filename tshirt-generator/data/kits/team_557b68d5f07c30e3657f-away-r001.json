@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_557b68d5f07c30e3657f",
+  "team_name": "FF Jaro",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": "2026",
+  "revision": "r001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/0RkEUcwqBtbAAFe/ff-jaro-2026-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_557b68d5f07c30e3657f-away-478589.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Claret"
+    ],
+    "values": {
+      "body": "#B8B7B3",
+      "leftSleeve": "#833D36",
+      "rightSleeve": "#833D36",
+      "collar": "#833D36",
+      "leftCuff": "#833D36",
+      "rightCuff": "#833D36"
+    }
+  },
+  "observations": "Warm grey front with regularly spaced fine red pinstripes, brick-red sleeves and collar. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm grey front with regularly spaced fine red pinstripes, brick-red sleeves and collar. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_557b68d5f07c30e3657f-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#B8B7B3",
+      "leftSleeve": "#833D36",
+      "rightSleeve": "#833D36",
+      "collar": "#833D36",
+      "leftCuff": "#833D36",
+      "rightCuff": "#833D36"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#833D36",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#B8B7B3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 79,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#8E4138",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

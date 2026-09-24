@@ -1,6 +1,36 @@
-# Validation — 23 September 2026
+# Validation — 24 September 2026
 
-## Latest: review of the remaining 42 Tier 1 variants
+## Latest: complete Tier 1 with explicit season fallbacks
+
+`npm run data:verify`: **PASS**. All **53 Node tests** pass. **27 Edge browser tests verified**: the full run passed 26 and exposed one obsolete expectation that SuperLiga still had unavailable shirts; that test now asserts all 32 are ready and checks unavailable drafts in Liga II, and its targeted rerun passes. Final `npm run build`: **PASS**, after verification; Vite built 231 modules. `git diff --check`: **PASS**. Empty final release-date cells in the equipment TSV are intentional and documented in its whitespace attribute.
+
+Mandatory coverage: **276 ready / 276 slots** (251 labeled 2026/27, 24 labeled 2026, one Petrolul Away fallback labeled 2025/26). Global: **294 ready / 8 drafts / 1,168 researching**. All 43 new variants have independently saved sources, individual reviewed configurations and preserved predecessors. Eleven source/render comparison sheets and seven new Studio screenshots were inspected. The realistic PNG base, round collar and original alpha remain intact. Detailed print and sponsor-obscured regions have explicit adaptation limitations.
+
+Tests verify the complete mandatory inventory, source hashes, literal season labels, per-slot fallback restrictions, historical lineage, immutable configuration hashes and local equipment metadata. Browser checks cover calendar-year Home/Away switching, Real Sociedad, Lorient, Bayer, Panetolikos and the explicitly labeled Petrolul fallback, without external source requests. Existing editing, export/ZIP, routing and collection checks also passed. Twenty-nine earlier screenshots were restored from pre-run copies.
+
+Two intermediate catalog builds encountered transient Windows file-open errors on different generated files; the subsequent catalog generation and final full production build completed successfully. The original PNG hash remains `4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042`. No per-kit SVG archive was generated. See [the completion inventory](TIER1_COMPLETION_2026-09-24.md).
+
+## Previous: Milan, Venezia and Lorient Away continuation
+
+`npm run data:verify`: **PASS**. All **52 Node tests** and **26 Edge browser tests** pass. Final `npm run build`: **PASS**, after both suites; Vite built 231 modules. `git diff --check`: **PASS**. Global coverage: **251 ready / 24 drafts / 1,195 researching**. Mandatory coverage: **233 ready / 16 drafts / 27 researching**.
+
+Milan Away r004/p004 and Venezia Away r003/p003 passed source/render comparison and are available; Lorient Away r003/p003 remains a draft because the ornament and cuff scrolls need more detail. All three have explicit predecessor paths, individual decisions and independently rechecked 2026/27 Away pages. Lorient's fragmented threshold study is marked unused; the subsequent manual curve study is retained for continuation. Equipment facts remain local per team.
+
+Tests cover exact-season source bindings, revision lineage, publication gates, trace hashes and original PNG preservation. The new browser flow selects both ready Away shirts, checks their pale rendered pixels and equipment data, then verifies that Lorient Away shows the plain base and unavailable message. No external requests occurred. Both resulting browser screenshots were visually inspected. Existing editing, export/ZIP, routing and collection tests also pass. Historical browser screenshots were restored from copies taken immediately before this run, preserving earlier evidence.
+
+See [the comparison and remaining gaps](TIER1_ORNAMENTS_2026-09-24.md). The original PNG and previously reviewed configuration hashes remain unchanged; the removed per-kit SVG archive is not regenerated.
+
+## Previous: source-specific refinements and preview readiness
+
+`npm run data:verify`: **PASS**. All **51 Node tests** and **25 Edge browser tests** pass. Final `npm run build`: **PASS**, after both suites; Vite built 231 modules. Global coverage is **249 ready / 26 drafts / 1,195 researching**. Mandatory coverage is **231 ready / 18 drafts / 27 researching**. All 735 teams and the unchanged 8000 × 5000 PNG remain available.
+
+Four new r003/p003 source-specific revisions were compared with their independently saved 2026/27 images. Union Berlin Home and Toulouse Away passed; Lorient Home and Bayer Leverkusen Away retain concrete visual gaps. Tests verify fixed draft predecessors, source URLs and hashes, explicit promotion decisions, dates, deployed PNG bindings and equipment metadata. The removed per-kit SVG archive was not regenerated.
+
+The first Node run exposed a pre-existing Windows line-ending assumption in the CSS token test; normalizing CRLF in that test fixed it without changing CSS. The first browser run exposed an Arsenal test that sampled before the selected kit loaded. Visual inspection then showed the preview could briefly report a new configuration as ready while still displaying old pixels. `PngShirtPreview` now associates readiness with the painted configuration and cache mode. The browser check explicitly inspects pale Toulouse Away pixels and red Union Berlin Home pixels before saving proof, and still verifies that Lorient's draft shows the plain base. Both final screenshots were visually inspected. All 25 browser checks, including editing, downloads, routing, collection and button stability, passed after the fix.
+
+The original base remains SHA-256 `4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042`; prior ready configurations pass the immutable hash checks. See [the review and remaining gaps](TIER1_REFINEMENT_2026-09-24.md). This batch does not complete the catalog.
+
+## Previous: review of the remaining 42 Tier 1 variants
 
 `npm run data:verify`: **PASS**. All **33 Node tests** and **15 Edge browser tests** pass. Final `npm run build`: **PASS**, after both suites; Vite built 29 modules. Current coverage: **247 ready globally; 229 / 276 mandatory ready**. Mandatory outstanding work is 20 drafts plus 27 slots without exact-season evidence; global outstanding work is 28 drafts and 1,195 researching slots.
 

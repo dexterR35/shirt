@@ -4,8 +4,8 @@
   "team_name": "Real Sociedad",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -96,11 +96,50 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_909183a07cf516b052d2-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-sociedad-2026-27-away-kit-493914/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/9oTHVgvx0XARc3j-small/real-sociedad-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_909183a07cf516b052d2-away-493914.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [],
+    "values": {
+      "body": "#24272A",
+      "leftSleeve": "#24272A",
+      "rightSleeve": "#24272A",
+      "collar": "#202326",
+      "leftCuff": "#202326",
+      "rightCuff": "#202326"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Archive season-listing image independently identifies 2026/27 Away: charcoal shirt with repeated small diagonal tonal slashes across body and sleeves, dark plain cuffs and original round ring. Exact fine woven texture simplified; unavailable detail fields remain null.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_909183a07cf516b052d2-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_06bd11d7cc1acaed6698.json",
+    "source_kit_id": "493914"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

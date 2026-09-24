@@ -6,68 +6,86 @@
   "mandatory": true,
   "priority_order": 48,
   "requested_season": "2026/27",
-  "other_season_references": [
-    {
-      "variant": "home",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/ff-jaro-2026-home-kit-478694/",
-      "record_path": "data/research/footballkitarchive/records/research_8d372f2f3a77cc0cf7c1.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    },
-    {
-      "variant": "away",
-      "season": "2026",
-      "page_url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
-      "record_path": "data/research/footballkitarchive/records/research_39bda7b2d66396cdd561.json",
-      "note": "Does not satisfy the strict 2026/27 request; retained as research context only."
-    }
-  ],
+  "other_season_references": [],
   "kits": {
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_557b68d5f07c30e3657f",
+        "variant": "home",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/ff-jaro-2026-home-kit-478694/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
+      },
+      "source_team_name": "FF Jaro",
+      "design": "Plain",
+      "colors": [
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
         "url": "https://www.footballkitarchive.com/ff-jaro-2026-home-kit-478694/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
-      },
-      "source": null
+        "kit_id": "478694",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_8d372f2f3a77cc0cf7c1.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
-      "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
-      "source_issue": {
-        "checked_at": "2026-09-23",
-        "url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
-        "outcome": "Archive labels the observed kit 2026; a 2026/27 Home/Away reference is still required."
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_557b68d5f07c30e3657f",
+        "variant": "away",
+        "season": "2026",
+        "source_url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
+        "reason": "No confirmed 2026/27 source; user authorized the independently sourced calendar-year 2026 kit on 24 September 2026."
       },
-      "source": null
+      "source_team_name": "FF Jaro",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Gray",
+        "Claret"
+      ],
+      "color_values_official": false,
+      "brand": "Puma",
+      "sponsor": null,
+      "competitions": [
+        "Veikkausliiga"
+      ],
+      "release_date": "April 28, 2026",
+      "release_date_iso": "2026-04-28",
+      "extended_fields_checked": true,
+      "source_issue": null,
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ff-jaro-2026-away-kit-478589/",
+        "kit_id": "478589",
+        "checked_at": "2026-09-23",
+        "evidence_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
+        "record_path": "data/research/footballkitarchive/records/research_39bda7b2d66396cdd561.json",
+        "extended_fields_capture": "data/research/footballkitarchive/equipment-fields.tsv",
+        "extended_fields_checked_at": "2026-09-23"
+      }
     }
   }
 }

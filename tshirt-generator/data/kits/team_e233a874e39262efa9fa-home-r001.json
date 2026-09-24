@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e233a874e39262efa9fa",
+  "team_name": "IFK Mariehamn",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": "2026",
+  "revision": "r001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ifk-mariehamn-2026-home-kit-481393/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/25/M3QrE0cEn5vEAsi/ifk-mariehamn-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e233a874e39262efa9fa-home-481393.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White"
+    ],
+    "values": {
+      "body": "#F6F7F5",
+      "leftSleeve": "#F6F7F5",
+      "rightSleeve": "#F6F7F5",
+      "collar": "#F6F7F5",
+      "leftCuff": "#F6F7F5",
+      "rightCuff": "#F6F7F5"
+    }
+  },
+  "observations": "Plain white shirt with matching collar and cuffs. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain white shirt with matching collar and cuffs. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_e233a874e39262efa9fa-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F6F7F5",
+      "leftSleeve": "#F6F7F5",
+      "rightSleeve": "#F6F7F5",
+      "collar": "#F6F7F5",
+      "leftCuff": "#F6F7F5",
+      "rightCuff": "#F6F7F5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F6F7F5",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F6F7F5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

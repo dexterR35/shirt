@@ -5,7 +5,7 @@
   "country_name": "Spain",
   "variant": "home",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "The large upper scroll arrangement is not recovered by the narrow crop. Cuff scrolls also sit too high on the band and need re-mapping."
-  ],
-  "kit_revision_path": "data/kits/team_7e1d7a59b6974646d3c5-home-r002.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7e1d7a59b6974646d3c5-home-r003.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -95,12 +93,19 @@
       "body": "#D80E2B",
       "leftSleeve": "#D80E2B",
       "rightSleeve": "#D80E2B",
-      "collar": "#223D7A",
-      "leftCuff": "#223D7A",
-      "rightCuff": "#223D7A"
+      "collar": "#273D74",
+      "leftCuff": "#273D74",
+      "rightCuff": "#273D74"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Large upper scrolling ornament reconstructed from the clean source scroll unit with near-invisible lower continuation, replacing the narrow fragmented crop. Blue cuffs carry pale scrolls aligned to the cuff curve. The source polo construction is adapted to the existing blue round collar.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_7e1d7a59b6974646d3c5-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_d5a7b4f21f7f67faa4cc.json",
     "source_kit_id": "492549"
@@ -115,6 +120,11 @@
       "date": "2026-09-23",
       "batch": "tier1-42-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier1-completion-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

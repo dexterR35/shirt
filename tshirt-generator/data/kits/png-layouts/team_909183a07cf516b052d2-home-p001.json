@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_909183a07cf516b052d2",
+  "team_name": "Real Sociedad",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Archive season-listing image independently identifies 2026/27 Home: three broad navy body stripes on white, striped sleeves, navy round ring and cuffs. Listing is retained as evidence because the detail page returns 404; unobserved equipment fields remain null.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_909183a07cf516b052d2-home-490554.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-sociedad-2026-27-home-kit-490554/",
+      "sha256": "97c858082eef2ec0fd38006481aaf272fbf7d7db7abfc885afceedce11b31b62"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F7F7F5",
+      "leftSleeve": "#F7F7F5",
+      "rightSleeve": "#F7F7F5",
+      "collar": "#223966",
+      "leftCuff": "#223966",
+      "rightCuff": "#223966"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#223966",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F7F7F5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#223966",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#223966",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 128,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#223966",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            23,
+            18
+          ],
+          [
+            33,
+            23
+          ],
+          [
+            41,
+            83
+          ],
+          [
+            29,
+            86
+          ],
+          [
+            17,
+            70
+          ]
+        ],
+        "fill": "#223966",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            177,
+            18
+          ],
+          [
+            167,
+            23
+          ],
+          [
+            159,
+            83
+          ],
+          [
+            171,
+            86
+          ],
+          [
+            183,
+            70
+          ]
+        ],
+        "fill": "#223966",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#223966",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#223966",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

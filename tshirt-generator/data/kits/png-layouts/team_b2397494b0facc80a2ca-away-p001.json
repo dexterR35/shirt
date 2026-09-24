@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b2397494b0facc80a2ca",
+  "team_name": "VPS",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain yellow shirt and matching trim. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b2397494b0facc80a2ca-away-485184.jpg",
+      "page_url": "https://www.footballkitarchive.com/vps-2026-away-kit-485184/",
+      "sha256": "e3ad110029e96317c49dbac9c7dd991db8b5e65c57d0e83fe002ac299824034b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E7C924",
+      "leftSleeve": "#E7C924",
+      "rightSleeve": "#E7C924",
+      "collar": "#E7C924",
+      "leftCuff": "#E7C924",
+      "rightCuff": "#E7C924"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E7C924",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E7C924",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

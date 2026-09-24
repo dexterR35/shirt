@@ -1,0 +1,2373 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_12d7a3c2f1b225b34acb",
+  "team_name": "Lorient",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r003",
+  "research_batch": "tier1-refinement-2026-09-24",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-lorient-2026-27-home-kit-496991/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/kZBp3kN0efZUyUf/fc-lorient-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_12d7a3c2f1b225b34acb-home-496991.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F2531F",
+      "leftSleeve": "#F2531F",
+      "rightSleeve": "#F2531F",
+      "collar": "#F0EFEB",
+      "leftCuff": "#F1EFE9",
+      "rightCuff": "#F1EFE9"
+    }
+  },
+  "observations": "Orange body with staggered pairs of gold triangular wedges, inward fades and the source central waist/notches. The incorrect crossing quadrilateral is removed. Sleeves stay plain orange; black and white cuff edging and only the existing round PNG collar are retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2531F",
+      "leftSleeve": "#F2531F",
+      "rightSleeve": "#F2531F",
+      "collar": "#F0EFEB",
+      "leftCuff": "#F1EFE9",
+      "rightCuff": "#F1EFE9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0EFEB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.531 4.344L77 2Q100 7 123 2L128.469 4.344C130.906 30.25 69.094 30.25 71.531 4.344Z",
+          "fill": "#24292A",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F06C31",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -14,
+            -12
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            24,
+            -12
+          ],
+          [
+            24,
+            13
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            -14,
+            13
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": -14,
+          "y1": 0,
+          "x2": 24,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            24,
+            -12
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            62,
+            -12
+          ],
+          [
+            62,
+            13
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            24,
+            13
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 24,
+          "y1": 0,
+          "x2": 62,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            -12
+          ],
+          [
+            81,
+            1
+          ],
+          [
+            100,
+            -12
+          ],
+          [
+            100,
+            13
+          ],
+          [
+            81,
+            1
+          ],
+          [
+            62,
+            13
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 62,
+          "y1": 0,
+          "x2": 100,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            -12
+          ],
+          [
+            119,
+            1
+          ],
+          [
+            138,
+            -12
+          ],
+          [
+            138,
+            13
+          ],
+          [
+            119,
+            1
+          ],
+          [
+            100,
+            13
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 100,
+          "y1": 0,
+          "x2": 138,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            -12
+          ],
+          [
+            157,
+            1
+          ],
+          [
+            176,
+            -12
+          ],
+          [
+            176,
+            13
+          ],
+          [
+            157,
+            1
+          ],
+          [
+            138,
+            13
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 138,
+          "y1": 0,
+          "x2": 176,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            5,
+            17
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            43,
+            17
+          ],
+          [
+            43,
+            42
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            5,
+            42
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 5,
+          "y1": 29,
+          "x2": 43,
+          "y2": 29,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            17
+          ],
+          [
+            62,
+            30
+          ],
+          [
+            81,
+            17
+          ],
+          [
+            81,
+            42
+          ],
+          [
+            62,
+            30
+          ],
+          [
+            43,
+            42
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 43,
+          "y1": 29,
+          "x2": 81,
+          "y2": 29,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            81,
+            17
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            119,
+            17
+          ],
+          [
+            119,
+            42
+          ],
+          [
+            100,
+            30
+          ],
+          [
+            81,
+            42
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 81,
+          "y1": 29,
+          "x2": 119,
+          "y2": 29,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            17
+          ],
+          [
+            138,
+            30
+          ],
+          [
+            157,
+            17
+          ],
+          [
+            157,
+            42
+          ],
+          [
+            138,
+            30
+          ],
+          [
+            119,
+            42
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 119,
+          "y1": 29,
+          "x2": 157,
+          "y2": 29,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            17
+          ],
+          [
+            176,
+            30
+          ],
+          [
+            195,
+            17
+          ],
+          [
+            195,
+            42
+          ],
+          [
+            176,
+            30
+          ],
+          [
+            157,
+            42
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 157,
+          "y1": 29,
+          "x2": 195,
+          "y2": 29,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            24,
+            46
+          ],
+          [
+            43,
+            59
+          ],
+          [
+            62,
+            46
+          ],
+          [
+            62,
+            71
+          ],
+          [
+            43,
+            59
+          ],
+          [
+            24,
+            71
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 24,
+          "y1": 58,
+          "x2": 62,
+          "y2": 58,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            46
+          ],
+          [
+            81,
+            59
+          ],
+          [
+            100,
+            46
+          ],
+          [
+            100,
+            71
+          ],
+          [
+            81,
+            59
+          ],
+          [
+            62,
+            71
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 62,
+          "y1": 58,
+          "x2": 100,
+          "y2": 58,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            46
+          ],
+          [
+            119,
+            59
+          ],
+          [
+            138,
+            46
+          ],
+          [
+            138,
+            71
+          ],
+          [
+            119,
+            59
+          ],
+          [
+            100,
+            71
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 100,
+          "y1": 58,
+          "x2": 138,
+          "y2": 58,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            46
+          ],
+          [
+            157,
+            59
+          ],
+          [
+            176,
+            46
+          ],
+          [
+            176,
+            71
+          ],
+          [
+            157,
+            59
+          ],
+          [
+            138,
+            71
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 138,
+          "y1": 58,
+          "x2": 176,
+          "y2": 58,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            176,
+            46
+          ],
+          [
+            195,
+            59
+          ],
+          [
+            214,
+            46
+          ],
+          [
+            214,
+            71
+          ],
+          [
+            195,
+            59
+          ],
+          [
+            176,
+            71
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 176,
+          "y1": 58,
+          "x2": 214,
+          "y2": 58,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            5,
+            75
+          ],
+          [
+            24,
+            88
+          ],
+          [
+            43,
+            75
+          ],
+          [
+            43,
+            100
+          ],
+          [
+            24,
+            88
+          ],
+          [
+            5,
+            100
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 5,
+          "y1": 87,
+          "x2": 43,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            75
+          ],
+          [
+            62,
+            88
+          ],
+          [
+            81,
+            75
+          ],
+          [
+            81,
+            100
+          ],
+          [
+            62,
+            88
+          ],
+          [
+            43,
+            100
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 43,
+          "y1": 87,
+          "x2": 81,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            81,
+            75
+          ],
+          [
+            100,
+            88
+          ],
+          [
+            119,
+            75
+          ],
+          [
+            119,
+            100
+          ],
+          [
+            100,
+            88
+          ],
+          [
+            81,
+            100
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 81,
+          "y1": 87,
+          "x2": 119,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            75
+          ],
+          [
+            138,
+            88
+          ],
+          [
+            157,
+            75
+          ],
+          [
+            157,
+            100
+          ],
+          [
+            138,
+            88
+          ],
+          [
+            119,
+            100
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 119,
+          "y1": 87,
+          "x2": 157,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            75
+          ],
+          [
+            176,
+            88
+          ],
+          [
+            195,
+            75
+          ],
+          [
+            195,
+            100
+          ],
+          [
+            176,
+            88
+          ],
+          [
+            157,
+            100
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 157,
+          "y1": 87,
+          "x2": 195,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            24,
+            104
+          ],
+          [
+            43,
+            117
+          ],
+          [
+            62,
+            104
+          ],
+          [
+            62,
+            129
+          ],
+          [
+            43,
+            117
+          ],
+          [
+            24,
+            129
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 24,
+          "y1": 116,
+          "x2": 62,
+          "y2": 116,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            104
+          ],
+          [
+            81,
+            117
+          ],
+          [
+            100,
+            104
+          ],
+          [
+            100,
+            129
+          ],
+          [
+            81,
+            117
+          ],
+          [
+            62,
+            129
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 62,
+          "y1": 116,
+          "x2": 100,
+          "y2": 116,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            104
+          ],
+          [
+            119,
+            117
+          ],
+          [
+            138,
+            104
+          ],
+          [
+            138,
+            129
+          ],
+          [
+            119,
+            117
+          ],
+          [
+            100,
+            129
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 100,
+          "y1": 116,
+          "x2": 138,
+          "y2": 116,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            104
+          ],
+          [
+            157,
+            117
+          ],
+          [
+            176,
+            104
+          ],
+          [
+            176,
+            129
+          ],
+          [
+            157,
+            117
+          ],
+          [
+            138,
+            129
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 138,
+          "y1": 116,
+          "x2": 176,
+          "y2": 116,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            176,
+            104
+          ],
+          [
+            195,
+            117
+          ],
+          [
+            214,
+            104
+          ],
+          [
+            214,
+            129
+          ],
+          [
+            195,
+            117
+          ],
+          [
+            176,
+            129
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 176,
+          "y1": 116,
+          "x2": 214,
+          "y2": 116,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            5,
+            133
+          ],
+          [
+            24,
+            146
+          ],
+          [
+            43,
+            133
+          ],
+          [
+            43,
+            158
+          ],
+          [
+            24,
+            146
+          ],
+          [
+            5,
+            158
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 5,
+          "y1": 145,
+          "x2": 43,
+          "y2": 145,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            133
+          ],
+          [
+            62,
+            146
+          ],
+          [
+            81,
+            133
+          ],
+          [
+            81,
+            158
+          ],
+          [
+            62,
+            146
+          ],
+          [
+            43,
+            158
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 43,
+          "y1": 145,
+          "x2": 81,
+          "y2": 145,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            81,
+            133
+          ],
+          [
+            100,
+            146
+          ],
+          [
+            119,
+            133
+          ],
+          [
+            119,
+            158
+          ],
+          [
+            100,
+            146
+          ],
+          [
+            81,
+            158
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 81,
+          "y1": 145,
+          "x2": 119,
+          "y2": 145,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            133
+          ],
+          [
+            138,
+            146
+          ],
+          [
+            157,
+            133
+          ],
+          [
+            157,
+            158
+          ],
+          [
+            138,
+            146
+          ],
+          [
+            119,
+            158
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 119,
+          "y1": 145,
+          "x2": 157,
+          "y2": 145,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            133
+          ],
+          [
+            176,
+            146
+          ],
+          [
+            195,
+            133
+          ],
+          [
+            195,
+            158
+          ],
+          [
+            176,
+            146
+          ],
+          [
+            157,
+            158
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 157,
+          "y1": 145,
+          "x2": 195,
+          "y2": 145,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            24,
+            162
+          ],
+          [
+            43,
+            175
+          ],
+          [
+            62,
+            162
+          ],
+          [
+            62,
+            187
+          ],
+          [
+            43,
+            175
+          ],
+          [
+            24,
+            187
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 24,
+          "y1": 174,
+          "x2": 62,
+          "y2": 174,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            162
+          ],
+          [
+            81,
+            175
+          ],
+          [
+            100,
+            162
+          ],
+          [
+            100,
+            187
+          ],
+          [
+            81,
+            175
+          ],
+          [
+            62,
+            187
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 62,
+          "y1": 174,
+          "x2": 100,
+          "y2": 174,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            162
+          ],
+          [
+            119,
+            175
+          ],
+          [
+            138,
+            162
+          ],
+          [
+            138,
+            187
+          ],
+          [
+            119,
+            175
+          ],
+          [
+            100,
+            187
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 100,
+          "y1": 174,
+          "x2": 138,
+          "y2": 174,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            162
+          ],
+          [
+            157,
+            175
+          ],
+          [
+            176,
+            162
+          ],
+          [
+            176,
+            187
+          ],
+          [
+            157,
+            175
+          ],
+          [
+            138,
+            187
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 138,
+          "y1": 174,
+          "x2": 176,
+          "y2": 174,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            176,
+            162
+          ],
+          [
+            195,
+            175
+          ],
+          [
+            214,
+            162
+          ],
+          [
+            214,
+            187
+          ],
+          [
+            195,
+            175
+          ],
+          [
+            176,
+            187
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 176,
+          "y1": 174,
+          "x2": 214,
+          "y2": 174,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            5,
+            191
+          ],
+          [
+            24,
+            204
+          ],
+          [
+            43,
+            191
+          ],
+          [
+            43,
+            216
+          ],
+          [
+            24,
+            204
+          ],
+          [
+            5,
+            216
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 5,
+          "y1": 203,
+          "x2": 43,
+          "y2": 203,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            191
+          ],
+          [
+            62,
+            204
+          ],
+          [
+            81,
+            191
+          ],
+          [
+            81,
+            216
+          ],
+          [
+            62,
+            204
+          ],
+          [
+            43,
+            216
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 43,
+          "y1": 203,
+          "x2": 81,
+          "y2": 203,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            81,
+            191
+          ],
+          [
+            100,
+            204
+          ],
+          [
+            119,
+            191
+          ],
+          [
+            119,
+            216
+          ],
+          [
+            100,
+            204
+          ],
+          [
+            81,
+            216
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 81,
+          "y1": 203,
+          "x2": 119,
+          "y2": 203,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            191
+          ],
+          [
+            138,
+            204
+          ],
+          [
+            157,
+            191
+          ],
+          [
+            157,
+            216
+          ],
+          [
+            138,
+            204
+          ],
+          [
+            119,
+            216
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 119,
+          "y1": 203,
+          "x2": 157,
+          "y2": 203,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            191
+          ],
+          [
+            176,
+            204
+          ],
+          [
+            195,
+            191
+          ],
+          [
+            195,
+            216
+          ],
+          [
+            176,
+            204
+          ],
+          [
+            157,
+            216
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 157,
+          "y1": 203,
+          "x2": 195,
+          "y2": 203,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F2AA3D"
+            },
+            {
+              "offset": 0.48,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 0.52,
+              "color": "#F35F24"
+            },
+            {
+              "offset": 1,
+              "color": "#F2AA3D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 0.9
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.19999999999999C24 76.8 36 82.1 44.5 81.19999999999999Q48 81.3 49.2 73.1L52 106H5Z",
+        "fill": "#F1EFE9",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.5C24 78.10000000000001 36 83.4 44.5 82.5Q48 82.60000000000001 49.2 74.4L52 106H5Z",
+        "fill": "#26282A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#EDEBE5",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.19999999999999C176 76.8 164 82.1 155.5 81.19999999999999Q152 81.3 150.8 73.1L148 106H195Z",
+        "fill": "#F1EFE9",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.5C176 78.10000000000001 164 83.4 155.5 82.5Q152 82.60000000000001 150.8 74.4L148 106H195Z",
+        "fill": "#26282A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#EDEBE5",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

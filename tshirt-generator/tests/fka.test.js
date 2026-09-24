@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import {matchTeam,parseCapture,discoveryCandidates,canonicalSeason} from '../scripts/research/fka-import.mjs';
 import crypto from 'node:crypto';
 import {parseKitHtml} from '../scripts/research/fka-scrape.mjs';
+import {permittedSeason} from '../scripts/research/season-policy.mjs';
 
 test('archive identity matching preserves country, reserve identity and ambiguous names',()=>{
   const teams=[{id:'a',name:'Arsenal',country_name:'England'},{id:'b',name:'Arsenal',country_name:'Argentina'},{id:'c',name:'Arsenal II',country_name:'England'}];
@@ -49,7 +50,8 @@ test('every country capture resolves unique workbook slots with independent inta
       const team=matchTeam(capture.team_aliases?.[row.team]||row.team,capture.country,teams);
       assert.ok(team,`${file}: ${row.team}`);
       const task=queue.find(q=>q.team_id===team.id&&q.kit_variant===row.variant.toLowerCase());
-      assert.equal(canonicalSeason(row.season),task.candidate_kit_season);
+      const season=canonicalSeason(row.season);
+      assert.ok(season===task.candidate_kit_season||permittedSeason(team.id,row.variant.toLowerCase(),season),'A differing season needs explicit fallback evidence');
       assert.ok(!seen.has(task.id),`Duplicate source task ${task.id}`);seen.add(task.id);
       const record=JSON.parse(await fs.readFile(`${root}/records/${task.id}.json`,'utf8'));
       assert.equal(record.source_season_label,row.season);

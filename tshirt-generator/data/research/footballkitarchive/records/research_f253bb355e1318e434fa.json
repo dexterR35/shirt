@@ -20,9 +20,17 @@
   "listing_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/finland-2026.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain white shirt with matching collar and cuffs. Independently observed 2026 home source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_e233a874e39262efa9fa-home.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_e233a874e39262efa9fa-home-481393.jpg",
-  "image_sha256": "355539bece776406cc51fc9b458daab15a1b802eab894f77944208af1f7dc325"
+  "image_sha256": "355539bece776406cc51fc9b458daab15a1b802eab894f77944208af1f7dc325",
+  "artwork_revision_path": "data/kits/team_e233a874e39262efa9fa-home-r001.json"
 }

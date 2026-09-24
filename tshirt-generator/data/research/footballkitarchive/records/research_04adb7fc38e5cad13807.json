@@ -22,9 +22,17 @@
   "listing_url": "https://www.footballkitarchive.com/romanian-liga-1-kits-2026-27-l242/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/romania-superliga-2026-27.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Live archive detail page confirms 26-27 Away. Tonal navy hexagons rebuilt at source scale with a softer central field; broad pale mesh gussets and fine side/raglan seams now follow the observed underarm-to-waist boundaries. Paired shoulder tapes, cuff edging and the original round ring retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_910b39186ce9bf6f3656-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_910b39186ce9bf6f3656-away-500206.jpg",
-  "image_sha256": "ea3f450a0ae78947a8ad510917fe25a8288d54fd3f445df184756445b248f847"
+  "image_sha256": "ea3f450a0ae78947a8ad510917fe25a8288d54fd3f445df184756445b248f847",
+  "artwork_revision_path": "data/kits/team_910b39186ce9bf6f3656-away-r005.json"
 }

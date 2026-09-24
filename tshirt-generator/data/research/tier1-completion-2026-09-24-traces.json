@@ -1,0 +1,2290 @@
+{
+  "batch": "tier1-completion-2026-09-24",
+  "date": "2026-09-24",
+  "traces": [
+    {
+      "team": "KuPS",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-home-471265.jpg",
+      "source_sha256": "13344485d7768fb24499ede725d19ddb133a38531314b8f7c280638feb57a010",
+      "box": [
+        221,
+        450,
+        290,
+        247
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 75,
+      "ink_pixels": 32049,
+      "placement": {
+        "x": 51,
+        "y": 100,
+        "width": 98,
+        "height": 92,
+        "color": "#C3A024",
+        "opacity": 0.75,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 34,
+        "y": 7,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 34,
+          "y1": 7,
+          "x2": 34,
+          "y2": 49,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.42
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Petrolul Ploiești",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_681ab3aa19bea70aa273-away-392500.jpg",
+      "source_sha256": "d2493cdc663a9b1bb9c50214f938a79e34f5bc0bbb3c029977f35365f6411f17",
+      "box": [
+        282,
+        651,
+        420,
+        360
+      ],
+      "width": 260,
+      "mode": "dark",
+      "threshold": 2,
+      "blur": 16,
+      "ink_pixels": 9749,
+      "placement": {
+        "x": 13,
+        "y": 20,
+        "width": 33,
+        "height": 60,
+        "color": "#143E6C",
+        "opacity": 0.55,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "FC Argeș",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_f5a63daa5cf98db2c301-home-495797.jpg",
+      "source_sha256": "c12660b63626dc9bb59564778feb124823eb71d4ee9ffdd2dc6ac25d34cffd61",
+      "box": [
+        218,
+        173,
+        230,
+        548
+      ],
+      "width": 260,
+      "mode": "dark",
+      "threshold": 1.4,
+      "blur": 10,
+      "close": 1,
+      "exclude": [
+        [
+          218,
+          172,
+          65,
+          84
+        ],
+        [
+          306,
+          173,
+          45,
+          62
+        ],
+        [
+          375,
+          178,
+          73,
+          88
+        ],
+        [
+          214,
+          302,
+          237,
+          73
+        ]
+      ],
+      "ink_pixels": 56180,
+      "placement": {
+        "x": 65,
+        "y": 23,
+        "width": 71,
+        "height": 175,
+        "color": "#C8CAC7",
+        "opacity": 0.28
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Crystal Palace",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_368b265f34346b9f46bd-away-500373.jpg",
+      "source_sha256": "1216f10561563022ec475d0aa0d33bc9510cebb74d00da3a6c06698a69a2b6e0",
+      "box": [
+        138,
+        175,
+        357,
+        806
+      ],
+      "width": 360,
+      "mode": "light",
+      "threshold": 2.8,
+      "blur": 6,
+      "close": 1,
+      "exclude": [
+        [
+          136,
+          205,
+          64,
+          78
+        ],
+        [
+          344,
+          208,
+          67,
+          80
+        ],
+        [
+          196,
+          284,
+          119,
+          108
+        ],
+        [
+          128,
+          397,
+          284,
+          64
+        ],
+        [
+          131,
+          863,
+          32,
+          105
+        ],
+        [
+          431,
+          588,
+          65,
+          394
+        ]
+      ],
+      "ink_pixels": 64007,
+      "placement": {
+        "x": 48,
+        "y": 23,
+        "width": 104,
+        "height": 174,
+        "color": "#424B53",
+        "opacity": 0.7
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Troyes",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_d6010558938653205a8d-home-506823.jpg",
+      "source_sha256": "05a5e14df370e2c69b712fe18ef392d7a8b168b0789c6414ebe015850cd4cfe0",
+      "box": [
+        504,
+        885,
+        407,
+        359
+      ],
+      "width": 260,
+      "mode": "dark",
+      "threshold": 3.5,
+      "blur": 13,
+      "ink_pixels": 19175,
+      "placement": {
+        "x": 63,
+        "y": 68,
+        "width": 78,
+        "height": 36,
+        "color": "#1C4D85",
+        "opacity": 0.55
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 79,
+        "y": 7,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 79,
+          "y1": 7,
+          "x2": 79,
+          "y2": 49,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.42
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "KuPS",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-home-471265.jpg",
+      "source_sha256": "13344485d7768fb24499ede725d19ddb133a38531314b8f7c280638feb57a010",
+      "box": [
+        221,
+        450,
+        290,
+        247
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 75,
+      "ink_pixels": 32049,
+      "placement": {
+        "x": 51,
+        "y": 17,
+        "width": 98,
+        "height": 83,
+        "color": "#C3A024",
+        "opacity": 0.75,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "FC Argeș",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_f5a63daa5cf98db2c301-home-495797.jpg",
+      "source_sha256": "c12660b63626dc9bb59564778feb124823eb71d4ee9ffdd2dc6ac25d34cffd61",
+      "box": [
+        239,
+        577,
+        181,
+        110
+      ],
+      "width": 200,
+      "mode": "dark",
+      "threshold": 1.4,
+      "blur": 10,
+      "ink_pixels": 10756,
+      "placement": {
+        "x": 67,
+        "y": 66,
+        "width": 66,
+        "height": 24,
+        "color": "#C8CAC7",
+        "opacity": 0.22
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Petrolul Ploiești",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_681ab3aa19bea70aa273-away-392500.jpg",
+      "source_sha256": "d2493cdc663a9b1bb9c50214f938a79e34f5bc0bbb3c029977f35365f6411f17",
+      "box": [
+        282,
+        651,
+        420,
+        360
+      ],
+      "width": 260,
+      "mode": "dark",
+      "threshold": 2,
+      "blur": 16,
+      "ink_pixels": 9749,
+      "placement": {
+        "x": 154,
+        "y": 20,
+        "width": 33,
+        "height": 60,
+        "color": "#143E6C",
+        "opacity": 0.55,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Crystal Palace",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_368b265f34346b9f46bd-away-500373.jpg",
+      "source_sha256": "1216f10561563022ec475d0aa0d33bc9510cebb74d00da3a6c06698a69a2b6e0",
+      "box": [
+        87,
+        281,
+        53,
+        143
+      ],
+      "width": 130,
+      "mode": "light",
+      "threshold": 3,
+      "blur": 8,
+      "close": 1,
+      "ink_pixels": 6294,
+      "placement": {
+        "x": 12,
+        "y": 22,
+        "width": 37,
+        "height": 57,
+        "color": "#424B53",
+        "opacity": 0.65,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 124,
+        "y": 7,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 124,
+          "y1": 7,
+          "x2": 124,
+          "y2": 49,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.42
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "KuPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-away-485179.jpg",
+      "source_sha256": "6b19479991f73c70df31812f393bdffe98b0462779f475daff24a0c662f98404",
+      "box": [
+        208,
+        482,
+        294,
+        245
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 150,
+      "ink_pixels": 25487,
+      "placement": {
+        "x": 51,
+        "y": 100,
+        "width": 98,
+        "height": 92,
+        "color": "#DCDFDE",
+        "opacity": 0.7,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Troyes",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_d6010558938653205a8d-home-506823.jpg",
+      "source_sha256": "05a5e14df370e2c69b712fe18ef392d7a8b168b0789c6414ebe015850cd4cfe0",
+      "box": [
+        357,
+        202,
+        711,
+        1265
+      ],
+      "width": 380,
+      "mode": "dark",
+      "threshold": 3.5,
+      "blur": 13,
+      "close": 1,
+      "exclude": [
+        [
+          367,
+          262,
+          225,
+          75
+        ],
+        [
+          445,
+          401,
+          115,
+          98
+        ],
+        [
+          611,
+          390,
+          235,
+          98
+        ],
+        [
+          888,
+          235,
+          102,
+          98
+        ],
+        [
+          876,
+          382,
+          116,
+          149
+        ],
+        [
+          479,
+          594,
+          531,
+          180
+        ],
+        [
+          390,
+          1314,
+          78,
+          100
+        ],
+        [
+          1007,
+          1315,
+          61,
+          87
+        ]
+      ],
+      "ink_pixels": 93422,
+      "placement": {
+        "x": 48,
+        "y": 20,
+        "width": 104,
+        "height": 177,
+        "color": "#1C4D85",
+        "opacity": 0.75
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Crystal Palace",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_368b265f34346b9f46bd-away-500373.jpg",
+      "source_sha256": "1216f10561563022ec475d0aa0d33bc9510cebb74d00da3a6c06698a69a2b6e0",
+      "box": [
+        540,
+        219,
+        99,
+        214
+      ],
+      "width": 130,
+      "mode": "light",
+      "threshold": 3,
+      "blur": 8,
+      "close": 1,
+      "ink_pixels": 6859,
+      "placement": {
+        "x": 151,
+        "y": 22,
+        "width": 37,
+        "height": 57,
+        "color": "#424B53",
+        "opacity": 0.65,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Asteras Tripolis",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_666e31cca0cc9f1151b8-home-498321.jpg",
+      "source_sha256": "429dda4cf95509358188b31d1892f0537089942a6a969e094fc2edc6e4ffc334",
+      "box": [
+        164,
+        145,
+        389,
+        710
+      ],
+      "width": 360,
+      "mode": "dark",
+      "threshold": 2.7,
+      "blur": 14,
+      "close": 1,
+      "exclude": [
+        [
+          185,
+          198,
+          91,
+          47
+        ],
+        [
+          418,
+          176,
+          90,
+          65
+        ],
+        [
+          174,
+          257,
+          353,
+          132
+        ]
+      ],
+      "ink_pixels": 72745,
+      "placement": {
+        "x": 48,
+        "y": 23,
+        "width": 104,
+        "height": 175,
+        "color": "#D4B125",
+        "opacity": 0.62
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 34,
+        "y": 48,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 34,
+          "y1": 48,
+          "x2": 34,
+          "y2": 90,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.17
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "KuPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-away-485179.jpg",
+      "source_sha256": "6b19479991f73c70df31812f393bdffe98b0462779f475daff24a0c662f98404",
+      "box": [
+        208,
+        482,
+        294,
+        245
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 150,
+      "ink_pixels": 25487,
+      "placement": {
+        "x": 51,
+        "y": 17,
+        "width": 98,
+        "height": 83,
+        "color": "#DCDFDE",
+        "opacity": 0.7,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Nottingham Forest",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_924c51422bf5bbeeee39-home-510152.jpg",
+      "source_sha256": "ed1d30bba844b1435315c63f1589130396d9c9c77cd095308ffad9f78e4eddd5",
+      "box": [
+        186,
+        145,
+        332,
+        494
+      ],
+      "width": 290,
+      "mode": "light",
+      "threshold": 3.2,
+      "blur": 25,
+      "close": 1,
+      "exclude": [
+        [
+          219,
+          218,
+          92,
+          62
+        ],
+        [
+          426,
+          199,
+          59,
+          93
+        ],
+        [
+          213,
+          323,
+          276,
+          90
+        ]
+      ],
+      "ink_pixels": 21793,
+      "placement": {
+        "x": 48,
+        "y": 22,
+        "width": 104,
+        "height": 137,
+        "color": {
+          "type": "linearGradient",
+          "x1": 48,
+          "y1": 22,
+          "x2": 150,
+          "y2": 167,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D92930"
+            },
+            {
+              "offset": 1,
+              "color": "#BE1922"
+            }
+          ]
+        },
+        "opacity": 0.75
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 79,
+        "y": 48,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 79,
+          "y1": 48,
+          "x2": 79,
+          "y2": 90,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.17
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Asteras Tripolis",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_666e31cca0cc9f1151b8-home-498321.jpg",
+      "source_sha256": "429dda4cf95509358188b31d1892f0537089942a6a969e094fc2edc6e4ffc334",
+      "box": [
+        94,
+        185,
+        71,
+        199
+      ],
+      "width": 110,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 8,
+      "close": 1,
+      "ink_pixels": 9806,
+      "placement": {
+        "x": 12,
+        "y": 20,
+        "width": 37,
+        "height": 63,
+        "color": "#D4B125",
+        "opacity": 0.6,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        157,
+        213,
+        69,
+        64
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 63,
+      "ink_pixels": 12825,
+      "placement": {
+        "x": 12,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#87B7C7",
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "KuPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-away-485179.jpg",
+      "source_sha256": "6b19479991f73c70df31812f393bdffe98b0462779f475daff24a0c662f98404",
+      "box": [
+        208,
+        482,
+        294,
+        245
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 150,
+      "ink_pixels": 25487,
+      "placement": {
+        "x": 13,
+        "y": 33,
+        "width": 35,
+        "height": 49,
+        "color": "#E0E2E1",
+        "opacity": 0.8,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Asteras Tripolis",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_666e31cca0cc9f1151b8-home-498321.jpg",
+      "source_sha256": "429dda4cf95509358188b31d1892f0537089942a6a969e094fc2edc6e4ffc334",
+      "box": [
+        555,
+        162,
+        60,
+        184
+      ],
+      "width": 110,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 8,
+      "close": 1,
+      "ink_pixels": 12060,
+      "placement": {
+        "x": 151,
+        "y": 20,
+        "width": 37,
+        "height": 63,
+        "color": "#D4B125",
+        "opacity": 0.6,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        157,
+        213,
+        69,
+        64
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 112,
+      "ink_pixels": 6841,
+      "placement": {
+        "x": 12,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#4D819F",
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 124,
+        "y": 48,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 124,
+          "y1": 48,
+          "x2": 124,
+          "y2": 90,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.17
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "KuPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_b3aea40f809c391190e3-away-485179.jpg",
+      "source_sha256": "6b19479991f73c70df31812f393bdffe98b0462779f475daff24a0c662f98404",
+      "box": [
+        208,
+        482,
+        294,
+        245
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 12,
+      "min": 150,
+      "ink_pixels": 25487,
+      "placement": {
+        "x": 153,
+        "y": 33,
+        "width": 35,
+        "height": 49,
+        "color": "#E0E2E1",
+        "opacity": 0.8,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        157,
+        213,
+        69,
+        64
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 163,
+      "ink_pixels": 3766,
+      "placement": {
+        "x": 12,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#264B70",
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 34,
+        "y": 106,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 34,
+          "y1": 106,
+          "x2": 34,
+          "y2": 148,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "TPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-away-485183.jpg",
+      "source_sha256": "5651d4dff86e3d64c26c4903c360f2933672bbdc1a21767266271cbd6b2a63a8",
+      "box": [
+        207,
+        633,
+        307,
+        110
+      ],
+      "width": 230,
+      "mode": "dark",
+      "threshold": 2.5,
+      "blur": 14,
+      "close": 1,
+      "ink_pixels": 7976,
+      "placement": {
+        "x": 49,
+        "y": 19,
+        "width": 102,
+        "height": 36,
+        "color": "#D5813A",
+        "opacity": 0.8,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Asteras Tripolis",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_666e31cca0cc9f1151b8-home-498321.jpg",
+      "source_sha256": "429dda4cf95509358188b31d1892f0537089942a6a969e094fc2edc6e4ffc334",
+      "box": [
+        230,
+        464,
+        242,
+        127
+      ],
+      "width": 210,
+      "mode": "dark",
+      "threshold": 3,
+      "blur": 10,
+      "close": 1,
+      "ink_pixels": 8465,
+      "placement": {
+        "x": 64,
+        "y": 53,
+        "width": 70,
+        "height": 30,
+        "color": "#D4B125",
+        "opacity": 0.57
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        157,
+        213,
+        69,
+        64
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 198,
+      "ink_pixels": 1786,
+      "placement": {
+        "x": 12,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#192D50",
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 79,
+        "y": 106,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 79,
+          "y1": 106,
+          "x2": 79,
+          "y2": 148,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "TPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-away-485183.jpg",
+      "source_sha256": "5651d4dff86e3d64c26c4903c360f2933672bbdc1a21767266271cbd6b2a63a8",
+      "box": [
+        207,
+        633,
+        307,
+        110
+      ],
+      "width": 230,
+      "mode": "dark",
+      "threshold": 2.5,
+      "blur": 14,
+      "close": 1,
+      "ink_pixels": 7976,
+      "placement": {
+        "x": 49,
+        "y": 55,
+        "width": 102,
+        "height": 36,
+        "color": "#D5813A",
+        "opacity": 0.8,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        750,
+        172,
+        67,
+        89
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 63,
+      "ink_pixels": 22457,
+      "placement": {
+        "x": 168,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#87B7C7",
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Panetolikos",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_73af7171f6f1011fece5-home-503529.jpg",
+      "source_sha256": "69925c0fb060f0cd4e3dfb6a1d6b8455315074789b2a7fbf0c226c8f90e562eb",
+      "box": [
+        274,
+        247,
+        337,
+        880
+      ],
+      "width": 350,
+      "mode": "dark",
+      "threshold": 4,
+      "blur": 7,
+      "exclude": [
+        [
+          228,
+          346,
+          425,
+          116
+        ],
+        [
+          218,
+          233,
+          88,
+          107
+        ],
+        [
+          578,
+          227,
+          108,
+          130
+        ]
+      ],
+      "ink_pixels": 75803,
+      "placement": {
+        "x": 69,
+        "y": 27,
+        "width": 65,
+        "height": 170,
+        "color": "#D6A31B",
+        "opacity": 0.75
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "TPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-away-485183.jpg",
+      "source_sha256": "5651d4dff86e3d64c26c4903c360f2933672bbdc1a21767266271cbd6b2a63a8",
+      "box": [
+        207,
+        633,
+        307,
+        110
+      ],
+      "width": 230,
+      "mode": "dark",
+      "threshold": 2.5,
+      "blur": 14,
+      "close": 1,
+      "ink_pixels": 7976,
+      "placement": {
+        "x": 49,
+        "y": 91,
+        "width": 102,
+        "height": 36,
+        "color": "#D5813A",
+        "opacity": 0.8,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 124,
+        "y": 106,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 124,
+          "y1": 106,
+          "x2": 124,
+          "y2": 148,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        750,
+        172,
+        67,
+        89
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 112,
+      "ink_pixels": 12413,
+      "placement": {
+        "x": 168,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#4D819F",
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 34,
+        "y": 148,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 34,
+          "y1": 148,
+          "x2": 34,
+          "y2": 190,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "TPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-away-485183.jpg",
+      "source_sha256": "5651d4dff86e3d64c26c4903c360f2933672bbdc1a21767266271cbd6b2a63a8",
+      "box": [
+        207,
+        633,
+        307,
+        110
+      ],
+      "width": 230,
+      "mode": "dark",
+      "threshold": 2.5,
+      "blur": 14,
+      "close": 1,
+      "ink_pixels": 7976,
+      "placement": {
+        "x": 49,
+        "y": 127,
+        "width": 102,
+        "height": 36,
+        "color": "#D5813A",
+        "opacity": 0.8,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        750,
+        172,
+        67,
+        89
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 163,
+      "ink_pixels": 6194,
+      "placement": {
+        "x": 168,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#264B70",
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Panetolikos",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_73af7171f6f1011fece5-away-503530.jpg",
+      "source_sha256": "c994342b03e242a4c4c659b98004db509054edc8a3338bfa1059df14869be172",
+      "box": [
+        355,
+        245,
+        277,
+        880
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 5,
+      "blur": 7,
+      "exclude": [
+        [
+          259,
+          338,
+          463,
+          121
+        ],
+        [
+          630,
+          210,
+          118,
+          145
+        ]
+      ],
+      "ink_pixels": 66704,
+      "placement": {
+        "x": 69,
+        "y": 27,
+        "width": 65,
+        "height": 170,
+        "color": "#143355",
+        "opacity": 0.75
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 79,
+        "y": 148,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 79,
+          "y1": 148,
+          "x2": 79,
+          "y2": 190,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "TPS",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_1cf0c93c15930e155c30-away-485183.jpg",
+      "source_sha256": "5651d4dff86e3d64c26c4903c360f2933672bbdc1a21767266271cbd6b2a63a8",
+      "box": [
+        207,
+        633,
+        307,
+        110
+      ],
+      "width": 230,
+      "mode": "dark",
+      "threshold": 2.5,
+      "blur": 14,
+      "close": 1,
+      "ink_pixels": 7976,
+      "placement": {
+        "x": 49,
+        "y": 163,
+        "width": 102,
+        "height": 36,
+        "color": "#D5813A",
+        "opacity": 0.8,
+        "clip": "body"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        750,
+        172,
+        67,
+        89
+      ],
+      "width": 150,
+      "mode": "inverse",
+      "threshold": 198,
+      "ink_pixels": 2348,
+      "placement": {
+        "x": 168,
+        "y": 46,
+        "width": 25,
+        "height": 38,
+        "color": "#192D50",
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Osasuna",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7e1d7a59b6974646d3c5-home-492549.jpg",
+      "source_sha256": "9b17a69474896031d84e415a27600f74e1db1ba10838ec0a2db0f1969ccb3052",
+      "box": [
+        235,
+        266,
+        140,
+        80
+      ],
+      "width": 230,
+      "mode": "light",
+      "threshold": 2,
+      "blur": 11,
+      "ink_pixels": 15613,
+      "placement": {
+        "x": 124,
+        "y": 148,
+        "width": 45,
+        "height": 42,
+        "color": {
+          "type": "linearGradient",
+          "x1": 124,
+          "y1": 148,
+          "x2": 124,
+          "y2": 190,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#F44948"
+            },
+            {
+              "offset": 1,
+              "color": "#D80E2B"
+            }
+          ]
+        },
+        "opacity": 0.035
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        80,
+        28,
+        324,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 63,
+      "exclude": [
+        [
+          77,
+          274,
+          85,
+          124
+        ],
+        [
+          290,
+          178,
+          95,
+          66
+        ]
+      ],
+      "ink_pixels": 23544,
+      "placement": {
+        "x": 12,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#87B7C7",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-home-506314.jpg",
+      "source_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8",
+      "box": [
+        292,
+        565,
+        320,
+        310
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 26088,
+      "placement": {
+        "x": 49,
+        "y": 28,
+        "width": 102,
+        "height": 82,
+        "color": "#D5AF5E",
+        "opacity": 0.24
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        80,
+        28,
+        324,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 112,
+      "exclude": [
+        [
+          77,
+          274,
+          85,
+          124
+        ],
+        [
+          290,
+          178,
+          95,
+          66
+        ]
+      ],
+      "ink_pixels": 19106,
+      "placement": {
+        "x": 12,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#4D819F",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-home-506314.jpg",
+      "source_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8",
+      "box": [
+        292,
+        565,
+        320,
+        310
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 26088,
+      "placement": {
+        "x": 13,
+        "y": 27,
+        "width": 35,
+        "height": 58,
+        "color": "#D5AF5E",
+        "opacity": 0.18,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        80,
+        28,
+        324,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 163,
+      "exclude": [
+        [
+          77,
+          274,
+          85,
+          124
+        ],
+        [
+          290,
+          178,
+          95,
+          66
+        ]
+      ],
+      "ink_pixels": 12530,
+      "placement": {
+        "x": 12,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#264B70",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-home-506314.jpg",
+      "source_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8",
+      "box": [
+        292,
+        565,
+        320,
+        310
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 26088,
+      "placement": {
+        "x": 152,
+        "y": 27,
+        "width": 35,
+        "height": 58,
+        "color": "#D5AF5E",
+        "opacity": 0.18,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        80,
+        28,
+        324,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 198,
+      "exclude": [
+        [
+          77,
+          274,
+          85,
+          124
+        ],
+        [
+          290,
+          178,
+          95,
+          66
+        ]
+      ],
+      "ink_pixels": 6537,
+      "placement": {
+        "x": 12,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#192D50",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        565,
+        28,
+        326,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 63,
+      "exclude": [
+        [
+          816,
+          264,
+          81,
+          138
+        ],
+        [
+          576,
+          155,
+          129,
+          106
+        ]
+      ],
+      "ink_pixels": 20035,
+      "placement": {
+        "x": 121,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#87B7C7",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "home",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-home-506314.jpg",
+      "source_sha256": "2414a503452a395096fe3e4e4d63b495b8d82464157689312f2f4af76c812ea8",
+      "box": [
+        237,
+        205,
+        439,
+        765
+      ],
+      "width": 360,
+      "mode": "dark",
+      "threshold": 1.7,
+      "blur": 8,
+      "close": 1,
+      "exclude": [
+        [
+          258,
+          279,
+          140,
+          56
+        ],
+        [
+          549,
+          248,
+          119,
+          135
+        ],
+        [
+          283,
+          423,
+          351,
+          111
+        ],
+        [
+          223,
+          902,
+          85,
+          50
+        ]
+      ],
+      "ink_pixels": 72260,
+      "placement": {
+        "x": 48,
+        "y": 23,
+        "width": 104,
+        "height": 173,
+        "color": "#D5AF5E",
+        "opacity": 0.46
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        565,
+        28,
+        326,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 112,
+      "exclude": [
+        [
+          816,
+          264,
+          81,
+          138
+        ],
+        [
+          576,
+          155,
+          129,
+          106
+        ]
+      ],
+      "ink_pixels": 13344,
+      "placement": {
+        "x": 121,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#4D819F",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        565,
+        28,
+        326,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 163,
+      "exclude": [
+        [
+          816,
+          264,
+          81,
+          138
+        ],
+        [
+          576,
+          155,
+          129,
+          106
+        ]
+      ],
+      "ink_pixels": 7832,
+      "placement": {
+        "x": 121,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#264B70",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-away-506313.jpg",
+      "source_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c",
+      "box": [
+        327,
+        636,
+        350,
+        350
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 24669,
+      "placement": {
+        "x": 49,
+        "y": 28,
+        "width": 102,
+        "height": 82,
+        "color": "#CCC8C1",
+        "opacity": 0.18
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_e60eedf6f63f01185c31-away-488940.jpg",
+      "source_sha256": "60d0089e65193b4100364c574ea0a062c7223e5b8c6b6b515d916ef1d21d6288",
+      "box": [
+        565,
+        28,
+        326,
+        387
+      ],
+      "width": 240,
+      "mode": "inverse",
+      "threshold": 198,
+      "exclude": [
+        [
+          816,
+          264,
+          81,
+          138
+        ],
+        [
+          576,
+          155,
+          129,
+          106
+        ]
+      ],
+      "ink_pixels": 3441,
+      "placement": {
+        "x": 121,
+        "y": 2,
+        "width": 67,
+        "height": 81,
+        "color": "#192D50",
+        "clip": "all"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-away-506313.jpg",
+      "source_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c",
+      "box": [
+        327,
+        636,
+        350,
+        350
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 24669,
+      "placement": {
+        "x": 13,
+        "y": 27,
+        "width": 35,
+        "height": 58,
+        "color": "#CCC8C1",
+        "opacity": 0.18,
+        "clip": "leftSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-away-506313.jpg",
+      "source_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c",
+      "box": [
+        327,
+        636,
+        350,
+        350
+      ],
+      "width": 300,
+      "mode": "dark",
+      "threshold": 2.3,
+      "blur": 8,
+      "ink_pixels": 24669,
+      "placement": {
+        "x": 152,
+        "y": 27,
+        "width": 35,
+        "height": 58,
+        "color": "#CCC8C1",
+        "opacity": 0.18,
+        "clip": "rightSleeve"
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "RB Leipzig",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_fe786175653b0053bdcf-away-485366.jpg",
+      "source_sha256": "0b8b4b14b79bd779de2003e3a92a47fe0d9de8573a2056cc3e23a57bdb5e4824",
+      "box": [
+        360,
+        281,
+        744,
+        1160
+      ],
+      "width": 500,
+      "mode": "light",
+      "threshold": 4,
+      "blur": 9,
+      "exclude": [
+        [
+          450,
+          385,
+          140,
+          110
+        ],
+        [
+          845,
+          375,
+          190,
+          130
+        ],
+        [
+          460,
+          575,
+          520,
+          235
+        ],
+        [
+          358,
+          1320,
+          42,
+          91
+        ],
+        [
+          1054,
+          1370,
+          41,
+          37
+        ]
+      ],
+      "ink_pixels": 47872,
+      "placement": {
+        "x": 48,
+        "y": 25,
+        "width": 104,
+        "height": 172,
+        "color": "#EF8069",
+        "opacity": 0.65
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    },
+    {
+      "team": "Frosinone",
+      "variant": "away",
+      "reference": "data/research/references/footballkitarchive/team_7f88a22bcf20db0b09f6-away-506313.jpg",
+      "source_sha256": "bd94478388c1887abbd913687a0adca6cb3471c2beccc92a71cfe7636f1d3e4c",
+      "box": [
+        270,
+        235,
+        489,
+        875
+      ],
+      "width": 360,
+      "mode": "dark",
+      "threshold": 1.4,
+      "blur": 8,
+      "close": 1,
+      "exclude": [
+        [
+          304,
+          291,
+          163,
+          56
+        ],
+        [
+          636,
+          278,
+          108,
+          155
+        ],
+        [
+          319,
+          472,
+          387,
+          119
+        ],
+        [
+          256,
+          1035,
+          79,
+          52
+        ]
+      ],
+      "ink_pixels": 78758,
+      "placement": {
+        "x": 48,
+        "y": 23,
+        "width": 104,
+        "height": 173,
+        "color": "#CCC8C1",
+        "opacity": 0.32
+      },
+      "method": "Inspected printed region converted to vector contours; explicit exclusions remove branding where present. Fine detail simplified, source photograph not embedded."
+    }
+  ]
+}

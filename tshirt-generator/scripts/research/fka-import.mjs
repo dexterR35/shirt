@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 import {setTimeout as delay} from 'node:timers/promises';
 import {fileURLToPath} from 'node:url';
+import {permittedSeason} from './season-policy.mjs';
 
 export const ROOT='data/research/footballkitarchive';
 /** Keep the literal archive label separately, including explicit carry-over evidence. */
@@ -22,7 +23,7 @@ export function parseCapture(tsv){
   return lines.map(line=>{
     const values=line.split('\t');if(values.length!==keys.length)throw Error('Malformed capture row');
     const r=Object.fromEntries(keys.map((k,i)=>[k,values[i]]));
-    if(!['Home','Away'].includes(r.variant)||!/^\d+$/.test(r.kit_id)||!/^[-a-z0-9]+$/.test(r.kit_slug)||!/^\d{4}\/\d{2}\/\d{2}\/[a-zA-Z0-9]+\/[-a-z0-9]+\.jpg$/.test(r.image_path))throw Error('Invalid source capture');
+    if(!['Home','Away'].includes(r.variant)||!/^\d+$/.test(r.kit_id)||!/^[-a-z0-9]+$/.test(r.kit_slug)||!/^\d{4}\/\d{2}\/\d{2}\/[a-zA-Z0-9-]+\/[-a-z0-9]+\.jpg$/.test(r.image_path))throw Error('Invalid source capture');
     return r;
   });
 }
@@ -56,7 +57,7 @@ export async function importCaptures({download=false}={}){
       const requested=priorityOrder.has(team.id)?priority.requested_season:task.candidate_kit_season;
       // Preserve earlier calendar-year observations as context, but also admit an
       // independently verified exact requested season if later found.
-      if(season!==task.candidate_kit_season&&season!==requested){unmatched.push({name:r.team,kit_id:r.kit_id,reason:'season_requires_review',season,expected:requested});continue;}
+      if(season!==task.candidate_kit_season&&!permittedSeason(team.id,variant,season,requested)){unmatched.push({name:r.team,kit_id:r.kit_id,reason:'season_requires_review',season,expected:requested});continue;}
       const record={schemaVersion:1,task_id:task.id,team_id:team.id,team_name:team.name,country_name:team.country_name,variant,kit_season:season,source:'Football Kit Archive',source_team_name:r.team,source_season_label:r.season,source_design:r.design,source_color_names:r.colors.split(' / '),brand:r.brand,source_kit_id:r.kit_id,page_url:`https://www.footballkitarchive.com/${r.kit_slug}-kit-${r.kit_id}/`,image_url:`https://www.footballkitarchive.com/cdn/${r.image_path}`,listing_url:capture.listing_url,checked_at:capture.captured_at,capture_path:`${ROOT}/captures/${capture.capture_file}`,status:'metadata_collected',visual_review:null,official_hex:false};
       const recordPath=`${ROOT}/records/${task.id}.json`;
       try{const old=await read(recordPath);if(old.page_url===record.page_url){for(const key of ['local_reference_path','image_sha256','visual_review','status','artwork_revision_path','download_error'])if(old[key]!==undefined)record[key]=old[key];}}catch(e){if(e.code!=='ENOENT')throw e;}
@@ -70,6 +71,9 @@ export async function importCaptures({download=false}={}){
         }catch(e){record.download_error=e.message;}
         await delay(150);
       }
+      record.source_color_names=record.source_color_names.filter(Boolean);
+      record.source_design=record.source_design||null;
+      if(capture.detail_page_issue)record.detail_page_issue={checked_at:capture.captured_at,url:record.page_url,outcome:capture.detail_page_issue,evidence_url:capture.listing_url};
       await save(recordPath,record);records.set(task.id,record);
     }
   }
@@ -83,7 +87,7 @@ export async function importCaptures({download=false}={}){
     task.mandatory=priorityOrder.has(task.team_id);task.priority_order=priorityOrder.get(task.team_id)??null;
     task.requested_season=task.mandatory?priority.requested_season:null;
     const record=records.get(task.task_id);
-    if(task.mandatory&&record&&record.kit_season!==task.requested_season){
+    if(task.mandatory&&record&&!permittedSeason(task.team_id,task.variant,record.kit_season,task.requested_season)){
       task.other_season_record_path=task.record_path;task.record_path=null;
       task.status='requested_season_not_verified';
     }

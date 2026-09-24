@@ -21,9 +21,17 @@
   "listing_url": "https://www.footballkitarchive.com/veikkausliiga-kits-2026-l302/",
   "checked_at": "2026-09-23",
   "capture_path": "data/research/footballkitarchive/captures/finland-2026.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Source-specific opposing jagged lightning columns widen down both sides; central front and sleeves stay plain. Independent Home/Away palette and cuff colors. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier1-completion-2026-09-24/team_d5c48859814647fdccc6-away.png"
+  },
   "official_hex": false,
   "local_reference_path": "data/research/references/footballkitarchive/team_d5c48859814647fdccc6-away-467104.jpg",
-  "image_sha256": "cb46391787b7df56e0cefd342e91598eff77fc753281b5b76075c7a9507b1d92"
+  "image_sha256": "cb46391787b7df56e0cefd342e91598eff77fc753281b5b76075c7a9507b1d92",
+  "artwork_revision_path": "data/kits/team_d5c48859814647fdccc6-away-r001.json"
 }

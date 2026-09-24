@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_24a16861cf05897392d5",
+  "team_name": "AC Oulu",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier1-completion-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain golden-yellow body, sleeves, collar and cuffs. Independently observed 2026 away source; estimated colors, branding omitted, original round PNG collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_24a16861cf05897392d5-away-485182.jpg",
+      "page_url": "https://www.footballkitarchive.com/ac-oulu-2026-away-kit-485182/",
+      "sha256": "6142a43eed00e1c4c67c29ef2a111490b56a587d6aaea0018a09996d4e83f65f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E7C517",
+      "leftSleeve": "#E7C517",
+      "rightSleeve": "#E7C517",
+      "collar": "#E7C517",
+      "leftCuff": "#E7C517",
+      "rightCuff": "#E7C517"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E7C517",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E7C517",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}
