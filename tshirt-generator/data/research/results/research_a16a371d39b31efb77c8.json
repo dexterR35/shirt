@@ -4,8 +4,8 @@
   "team_name": "Sampdoria",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_da7461323be9a5eec9a9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/uc-sampdoria-2026-27-home-kit-496445/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/KBkocaBcja6j2dG/uc-sampdoria-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_da7461323be9a5eec9a9-home-496445.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#183EA4",
+      "leftSleeve": "#183EA4",
+      "rightSleeve": "#183EA4",
+      "collar": "#19388C",
+      "leftCuff": "#183EA4",
+      "rightCuff": "#183EA4"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue shirt with a white/red/black/white central chest band and blue sleeves/neck. Repeated anniversary symbols and central cross crest omitted as emblems.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_da7461323be9a5eec9a9-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a16a371d39b31efb77c8.json",
+    "source_kit_id": "496445"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

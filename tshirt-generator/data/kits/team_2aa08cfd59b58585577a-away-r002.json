@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2aa08cfd59b58585577a",
+  "team_name": "Chindia Târgoviște",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/chindia-targoviste-2026-27-away-kit-503436/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/ZSYmyrvZ2dWsuIG/chindia-targoviste-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2aa08cfd59b58585577a-away-503436.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#18232B",
+      "leftSleeve": "#18232B",
+      "rightSleeve": "#18232B",
+      "collar": "#BDAB78",
+      "leftCuff": "#18232B",
+      "rightCuff": "#18232B"
+    }
+  },
+  "observations": "Black shirt with a broad sand-gold upper shoulder yoke and gold neck; sleeves and lower torso stay black.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with a broad sand-gold upper shoulder yoke and gold neck; sleeves and lower torso stay black.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_2aa08cfd59b58585577a-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#18232B",
+      "leftSleeve": "#18232B",
+      "rightSleeve": "#18232B",
+      "collar": "#BDAB78",
+      "leftCuff": "#18232B",
+      "rightCuff": "#18232B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BDAB78",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#18232B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            75,
+            14
+          ],
+          [
+            47,
+            25
+          ],
+          [
+            35,
+            26
+          ],
+          [
+            35,
+            21
+          ]
+        ],
+        "fill": "#BDAD7E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            125,
+            14
+          ],
+          [
+            153,
+            25
+          ],
+          [
+            165,
+            26
+          ],
+          [
+            165,
+            21
+          ]
+        ],
+        "fill": "#BDAD7E",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

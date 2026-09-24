@@ -4,8 +4,8 @@
   "team_name": "Metaloglobus București",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a59ce54337e511168c4d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/metaloglobus-bucuresti-2026-27-away-kit-502936/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/We2bRmnsT8hfjxD/metaloglobus-bucuresti-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a59ce54337e511168c4d-away-502936.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#ECD413",
+      "leftSleeve": "#ECD413",
+      "rightSleeve": "#ECD413",
+      "collar": "#262D2D",
+      "leftCuff": "#ECD413",
+      "rightCuff": "#ECD413"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with broad irregular black tiger-like horizontal strokes sampled from a clean lower torso region and continued onto sleeves, dark collar.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_a59ce54337e511168c4d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7c29b4ffc154771a1e19.json",
+    "source_kit_id": "502936"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

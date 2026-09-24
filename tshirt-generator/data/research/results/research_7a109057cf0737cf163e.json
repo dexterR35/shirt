@@ -4,8 +4,8 @@
   "team_name": "Cesena",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8460ab7da827dce74da9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cesena-fc-2026-27-home-kit-501592/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/rYw4NVXPVOwPig9/cesena-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8460ab7da827dce74da9-home-501592.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#ECEEED",
+      "leftSleeve": "#ECEEED",
+      "rightSleeve": "#ECEEED",
+      "collar": "#222729",
+      "leftCuff": "#25292B",
+      "rightCuff": "#25292B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body and sleeves with black neckline/cuffs and thin black curved raglan and side seams; no second polo collar.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_8460ab7da827dce74da9-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7a109057cf0737cf163e.json",
+    "source_kit_id": "501592"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

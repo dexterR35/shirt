@@ -4,8 +4,8 @@
   "team_name": "Juve Stabia",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a23a8fa365306c8fd72f-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ss-juve-stabia-2026-27-home-kit-516403/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/V2W0P6Y4K8d7dMw/ss-juve-stabia-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a23a8fa365306c8fd72f-home-516403.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gold",
+      "Black",
+      "Silver"
+    ],
+    "values": {
+      "body": "#1B2D3A",
+      "leftSleeve": "#1B2D3A",
+      "rightSleeve": "#1B2D3A",
+      "collar": "#E4B14A",
+      "leftCuff": "#DDB44E",
+      "rightCuff": "#DDB44E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy-black with four gold front stripes narrowly edged silver-grey, three pale shoulder bands, gold/silver neck and cuff trim.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_a23a8fa365306c8fd72f-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d0605e8b6fd5e4849822.json",
+    "source_kit_id": "516403"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

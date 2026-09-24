@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aa492f9df87320b67579",
+  "team_name": "Modena",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/modena-fc-2018-2026-27-home-kit-496299/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/Jyy9p0RFfMb9od8/modena-fc-2018-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aa492f9df87320b67579-home-496299.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F1D229",
+      "leftSleeve": "#F1D229",
+      "rightSleeve": "#F1D229",
+      "collar": "#F1D229",
+      "leftCuff": "#253856",
+      "rightCuff": "#253856"
+    }
+  },
+  "observations": "Yellow with navy broad chest band, fine contrasting neck edge and double contrasting cuff bands. Original round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with navy broad chest band, fine contrasting neck edge and double contrasting cuff bands. Original round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_aa492f9df87320b67579-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1D229",
+      "leftSleeve": "#F1D229",
+      "rightSleeve": "#F1D229",
+      "collar": "#F1D229",
+      "leftCuff": "#253856",
+      "rightCuff": "#253856"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1D229",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.676 2.568L77 2Q100 7 123 2L124.324 2.568C127.946 25.514 72.054 25.514 75.676 2.568Z",
+          "fill": "#253856",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1D229",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 64,
+        "width": 102,
+        "height": 23,
+        "fill": "#253856",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#253856",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74C24 78.60000000000001 36 83.9 44.5 83Q48 83.10000000000001 49.2 74.9L52 106H5Z",
+        "fill": "#F1D229",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#253856",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#253856",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74C176 78.60000000000001 164 83.9 155.5 83Q152 83.10000000000001 150.8 74.9L148 106H195Z",
+        "fill": "#F1D229",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#253856",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

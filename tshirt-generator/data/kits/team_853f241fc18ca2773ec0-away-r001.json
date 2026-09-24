@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_853f241fc18ca2773ec0",
+  "team_name": "Arezzo",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ss-arezzo-2026-27-away-kit-499774/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/26/ZpB0QIT2zUN9ePZ/ss-arezzo-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_853f241fc18ca2773ec0-away-499774.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret",
+      "Black"
+    ],
+    "values": {
+      "body": "#EEE9DB",
+      "leftSleeve": "#EEE9DB",
+      "rightSleeve": "#EEE9DB",
+      "collar": "#831E30",
+      "leftCuff": "#831E30",
+      "rightCuff": "#831E30"
+    }
+  },
+  "observations": "Ivory with claret neck/cuffs and narrow raglan piping, black curved lower-side panels bordered by the contrasting trim. Physical polo/V construction adapted to the existing round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Ivory with claret neck/cuffs and narrow raglan piping, black curved lower-side panels bordered by the contrasting trim. Physical polo/V construction adapted to the existing round collar.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_853f241fc18ca2773ec0-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEE9DB",
+      "leftSleeve": "#EEE9DB",
+      "rightSleeve": "#EEE9DB",
+      "collar": "#831E30",
+      "leftCuff": "#831E30",
+      "rightCuff": "#831E30"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#831E30",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEE9DB",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            76
+          ],
+          [
+            58,
+            112
+          ],
+          [
+            61,
+            154
+          ],
+          [
+            68,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#222424",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            76
+          ],
+          [
+            142,
+            112
+          ],
+          [
+            139,
+            154
+          ],
+          [
+            132,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#222424",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            55,
+            78
+          ],
+          [
+            60,
+            92
+          ],
+          [
+            64,
+            155
+          ],
+          [
+            73,
+            200
+          ],
+          [
+            68,
+            200
+          ],
+          [
+            61,
+            157
+          ]
+        ],
+        "fill": "#831E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            78
+          ],
+          [
+            140,
+            92
+          ],
+          [
+            136,
+            155
+          ],
+          [
+            127,
+            200
+          ],
+          [
+            132,
+            200
+          ],
+          [
+            139,
+            157
+          ]
+        ],
+        "fill": "#831E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 3Q39 15 36 44L36.7 44Q40 16 74 3.7Z",
+        "fill": "#831E30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126 3Q161 15 164 44L163.3 44Q160 16 126 3.7Z",
+        "fill": "#831E30",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#831E30",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#831E30",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

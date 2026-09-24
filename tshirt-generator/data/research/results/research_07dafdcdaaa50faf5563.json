@@ -4,8 +4,8 @@
   "team_name": "VfL Bochum",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Pale gradient and linework are present, but faceted trim and sleeve color transitions need another pass."
+  ],
+  "kit_revision_path": "data/kits/team_cd33fa78e503be50a1c4-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vfl-bochum-2026-27-away-kit-491683/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/06/1VoKwbjI71dKV8G/vfl-bochum-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_cd33fa78e503be50a1c4-away-491683.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#96B7DF",
+      "leftSleeve": "#F0EDF2",
+      "rightSleeve": "#F0EDF2",
+      "collar": "#203C6B",
+      "leftCuff": "#254B7B",
+      "rightCuff": "#254B7B"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_07dafdcdaaa50faf5563.json",
+    "source_kit_id": "491683"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

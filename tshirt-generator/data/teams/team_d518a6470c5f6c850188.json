@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "1. FC Nürnberg",
+      "design": "Graphic",
+      "colors": [
+        "Red",
+        "Claret",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Toolcraft",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 23, 2026",
+      "release_date_iso": "2026-07-23",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/1-fc-nurnberg-2026-27-home-kit-482650/",
+        "kit_id": "482650",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_a3357293a77df5630eee.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "1. FC Nürnberg",
+      "design": "Chest band",
+      "colors": [
+        "White",
+        "Red",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Toolcraft",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 31, 2026",
+      "release_date_iso": "2026-07-31",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/1-fc-nurnberg-2026-27-away-kit-501586/",
+        "kit_id": "501586",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_4c0c55d4f556d15f9efb.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

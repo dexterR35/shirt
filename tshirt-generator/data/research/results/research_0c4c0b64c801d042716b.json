@@ -4,8 +4,8 @@
   "team_name": "Wolverhampton Wanderers",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b04e66840877a5406aff-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wolverhampton-wanderers-2026-27-away-kit-501388/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/YbKxwdFclp9rIVG/wolverhampton-wanderers-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b04e66840877a5406aff-away-501388.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Orange"
+    ],
+    "values": {
+      "body": "#E9E9EB",
+      "leftSleeve": "#E9E9EB",
+      "rightSleeve": "#E9E9EB",
+      "collar": "#202428",
+      "leftCuff": "#202226",
+      "rightCuff": "#202226"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with thin grey vertical pinstripes, dark shoulder seam lines, black collar and layered black/white/gold sleeve bands.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_b04e66840877a5406aff-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0c4c0b64c801d042716b.json",
+    "source_kit_id": "501388"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

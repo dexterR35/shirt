@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_29abf144de6408acb8c1",
+  "team_name": "Sheffield United",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sheffield-united-2026-27-home-kit-492659/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/F02Ehq2KQBL13Tj/sheffield-united-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_29abf144de6408acb8c1-home-492659.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#CF1232",
+      "leftSleeve": "#CF1232",
+      "rightSleeve": "#CF1232",
+      "collar": "#1A1B1E",
+      "leftCuff": "#161B1C",
+      "rightCuff": "#161B1C"
+    }
+  },
+  "observations": "Red shirt with three pale body stripes outlined in thin black, red sleeves, three pale shoulder tapes and black/red neck/cuffs.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with three pale body stripes outlined in thin black, red sleeves, three pale shoulder tapes and black/red neck/cuffs.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_29abf144de6408acb8c1-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#CF1232",
+      "leftSleeve": "#CF1232",
+      "rightSleeve": "#CF1232",
+      "collar": "#1A1B1E",
+      "leftCuff": "#161B1C",
+      "rightCuff": "#161B1C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1A1B1E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.5 3.5L77 2Q100 7 123 2L126.5 3.5C129.5 28 70.5 28 73.5 3.5Z",
+          "fill": "#CF2138",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#CF1232",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#12181B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#EAEDE8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#12181B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#EAEDE8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#12181B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#EAEDE8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.8
+          ],
+          [
+            35,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.8
+          ],
+          [
+            165,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.8
+          ],
+          [
+            38,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.8
+          ],
+          [
+            162,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.8
+          ],
+          [
+            41,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.8
+          ],
+          [
+            159,
+            25.8
+          ]
+        ],
+        "fill": "#E8EBE9",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#161B1C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#CC2138",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#161B1C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#CC2138",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

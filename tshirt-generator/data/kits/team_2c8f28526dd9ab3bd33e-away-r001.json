@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2c8f28526dd9ab3bd33e",
+  "team_name": "1. FC Heidenheim",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fc-heidenheim-2026-27-away-kit-492671/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/06/MSvd6AyqSOXlQDw/1-fc-heidenheim-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2c8f28526dd9ab3bd33e-away-492671.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#204F89",
+      "leftSleeve": "#204F89",
+      "rightSleeve": "#204F89",
+      "collar": "#EDF0EF",
+      "leftCuff": "#EAEEED",
+      "rightCuff": "#EAEEED"
+    }
+  },
+  "observations": "Blue body/sleeves with two white neckline bands and white/blue/white cuff rings.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue body/sleeves with two white neckline bands and white/blue/white cuff rings.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_2c8f28526dd9ab3bd33e-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#204F89",
+      "leftSleeve": "#204F89",
+      "rightSleeve": "#204F89",
+      "collar": "#EDF0EF",
+      "leftCuff": "#EAEEED",
+      "rightCuff": "#EAEEED"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDF0EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.333 4L77 2Q100 7 123 2L127.667 4C130.333 29.333 69.667 29.333 72.333 4Z",
+          "fill": "#24497C",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.667 3L77 2Q100 7 123 2L125.333 3C128.667 26.667 71.333 26.667 74.667 3Z",
+          "fill": "#EDF0EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#204F89",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#EAEEED",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#1E4378",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#EEF1F0",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#EAEEED",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#1E4378",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#EEF1F0",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

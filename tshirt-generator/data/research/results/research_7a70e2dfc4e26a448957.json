@@ -4,8 +4,8 @@
   "team_name": "Hannover 96",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_71a61b575b315bc52c0a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hannover-96-2026-27-home-kit-493566/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/5BaMsngYSq06WVb/hannover-96-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_71a61b575b315bc52c0a-home-493566.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#E73530",
+      "leftSleeve": "#E73530",
+      "rightSleeve": "#E73530",
+      "collar": "#E1E5D7",
+      "leftCuff": "#171C1C",
+      "rightCuff": "#171C1C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with faint architectural line print sampled from lower front, black/white/green neck and sleeve bands. Building contours simplified; lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_71a61b575b315bc52c0a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7a70e2dfc4e26a448957.json",
+    "source_kit_id": "493566"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

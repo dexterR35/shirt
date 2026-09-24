@@ -4,8 +4,8 @@
   "team_name": "VfL Osnabrück",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fca5dccfd9ea1a820d90-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vfl-osnabruck-2026-27-away-kit-495852/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/16/Tr8pxHHXE8ynNHA/vfl-osnabruck-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fca5dccfd9ea1a820d90-away-495852.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Purple"
+    ],
+    "values": {
+      "body": "#F0EFF0",
+      "leftSleeve": "#F0EFF0",
+      "rightSleeve": "#F0EFF0",
+      "collar": "#7554A2",
+      "leftCuff": "#67439B",
+      "rightCuff": "#67439B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with purple rising diagonal pinlines on upper/lower front and broad opposite-direction purple lower sash; central sponsor-height area plain.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_fca5dccfd9ea1a820d90-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4d1c1aff5d0fa01fc969.json",
+    "source_kit_id": "495852"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

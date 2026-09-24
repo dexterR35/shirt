@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4d5b25be9af665cc02e1",
+  "team_name": "Birmingham City",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal blue body and sleeves, blue neck ring with narrow pale edge and short white shoulder seam piping. Plain sleeve ends; physical polo construction omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4d5b25be9af665cc02e1-home-500320.jpg",
+      "page_url": "https://www.footballkitarchive.com/birmingham-city-2026-27-home-kit-500320/",
+      "sha256": "1bba7cb6c013785baca069c90ee995a60d84a2676ba50a774aa701c0649552a0"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#064BBC",
+      "leftSleeve": "#064BBC",
+      "rightSleeve": "#064BBC",
+      "collar": "#0752B8",
+      "leftCuff": "#064BBC",
+      "rightCuff": "#064BBC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0752B8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.222 2.333L77 2Q100 7 123 2L123.778 2.333C127.556 24.889 72.444 24.889 76.222 2.333Z",
+          "fill": "#EBEFF1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#064BBC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            22
+          ],
+          [
+            52,
+            12
+          ],
+          [
+            76,
+            3
+          ],
+          [
+            76,
+            3.6
+          ],
+          [
+            52,
+            12.6
+          ],
+          [
+            36,
+            22.6
+          ]
+        ],
+        "fill": "#EBF0F5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            164,
+            22
+          ],
+          [
+            148,
+            12
+          ],
+          [
+            124,
+            3
+          ],
+          [
+            124,
+            3.6
+          ],
+          [
+            148,
+            12.6
+          ],
+          [
+            164,
+            22.6
+          ]
+        ],
+        "fill": "#EBF0F5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            18
+          ],
+          [
+            49,
+            16
+          ],
+          [
+            53,
+            18
+          ],
+          [
+            53,
+            18.6
+          ],
+          [
+            49,
+            16.6
+          ],
+          [
+            43,
+            18.6
+          ]
+        ],
+        "fill": "#EBF0F5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            18
+          ],
+          [
+            151,
+            16
+          ],
+          [
+            147,
+            18
+          ],
+          [
+            147,
+            18.6
+          ],
+          [
+            151,
+            16.6
+          ],
+          [
+            157,
+            18.6
+          ]
+        ],
+        "fill": "#EBF0F5",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

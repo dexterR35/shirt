@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1a36c9a833d7e9f610f0",
+  "team_name": "Bolton Wanderers",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Claret fabric with fine dark vertical pinlines, black sleeve panels, gold seam piping, gold collar and cuffs.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1a36c9a833d7e9f610f0-away-485902.jpg",
+      "page_url": "https://www.footballkitarchive.com/bolton-wanderers-2026-27-away-kit-485902/",
+      "sha256": "59df22023b34b2238dc605372a4c42e43f70be97eabba0f9d9e7e1839ff7c416"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#611B39",
+      "leftSleeve": "#611B39",
+      "rightSleeve": "#611B39",
+      "collar": "#B59951",
+      "leftCuff": "#B59951",
+      "rightCuff": "#B59951"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B59951",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#611B39",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 63,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 72,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 108,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 117,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 0.28,
+        "height": 200,
+        "fill": "#421C2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            24
+          ],
+          [
+            46,
+            39
+          ],
+          [
+            49,
+            77
+          ],
+          [
+            25,
+            83
+          ],
+          [
+            17,
+            72
+          ]
+        ],
+        "fill": "#202127",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            164,
+            24
+          ],
+          [
+            154,
+            39
+          ],
+          [
+            151,
+            77
+          ],
+          [
+            175,
+            83
+          ],
+          [
+            183,
+            72
+          ]
+        ],
+        "fill": "#202127",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            22
+          ],
+          [
+            52,
+            12
+          ],
+          [
+            76,
+            3
+          ],
+          [
+            76,
+            3.6
+          ],
+          [
+            52,
+            12.6
+          ],
+          [
+            36,
+            22.6
+          ]
+        ],
+        "fill": "#B59951",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            164,
+            22
+          ],
+          [
+            148,
+            12
+          ],
+          [
+            124,
+            3
+          ],
+          [
+            124,
+            3.6
+          ],
+          [
+            148,
+            12.6
+          ],
+          [
+            164,
+            22.6
+          ]
+        ],
+        "fill": "#B59951",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            8
+          ],
+          [
+            52,
+            18
+          ],
+          [
+            43,
+            29
+          ],
+          [
+            41,
+            56
+          ],
+          [
+            40.5,
+            56
+          ],
+          [
+            42.4,
+            28.5
+          ],
+          [
+            51.7,
+            17.4
+          ],
+          [
+            75,
+            7.4
+          ]
+        ],
+        "fill": "#B59951",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            8
+          ],
+          [
+            148,
+            18
+          ],
+          [
+            157,
+            29
+          ],
+          [
+            159,
+            56
+          ],
+          [
+            159.5,
+            56
+          ],
+          [
+            157.6,
+            28.5
+          ],
+          [
+            148.3,
+            17.4
+          ],
+          [
+            125,
+            7.4
+          ]
+        ],
+        "fill": "#B59951",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#B59951",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#B59951",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

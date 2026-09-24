@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_85c0a98831c7a6a22b33",
+  "team_name": "Empoli",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/empoli-fc-2026-27-home-kit-498222/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/wAmxAwF5tRBdrJl/empoli-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_85c0a98831c7a6a22b33-home-498222.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#0475AC",
+      "leftSleeve": "#0475AC",
+      "rightSleeve": "#0475AC",
+      "collar": "#11678E",
+      "leftCuff": "#0475AC",
+      "rightCuff": "#0475AC"
+    }
+  },
+  "observations": "Blue upper shirt fading into near-black navy at the lower torso, blue sleeves, pale inner neckline edge and pale green hem corner inserts. Fabric texture preserved from base.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue upper shirt fading into near-black navy at the lower torso, blue sleeves, pale inner neckline edge and pale green hem corner inserts. Fabric texture preserved from base.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_85c0a98831c7a6a22b33-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0475AC",
+      "leftSleeve": "#0475AC",
+      "rightSleeve": "#0475AC",
+      "collar": "#11678E",
+      "leftCuff": "#0475AC",
+      "rightCuff": "#0475AC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#11678E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.676 2.568L77 2Q100 7 123 2L124.324 2.568C127.946 25.514 72.054 25.514 75.676 2.568Z",
+          "fill": "#E4E8D8",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0475AC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 102,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#0875AB"
+            },
+            {
+              "offset": 0.4,
+              "color": "#096E9A"
+            },
+            {
+              "offset": 0.72,
+              "color": "#114365"
+            },
+            {
+              "offset": 0.96,
+              "color": "#111B2E"
+            },
+            {
+              "offset": 1,
+              "color": "#121E32"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            194
+          ],
+          [
+            57,
+            194
+          ],
+          [
+            54,
+            200
+          ],
+          [
+            48,
+            200
+          ]
+        ],
+        "fill": "#B8D79C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            143,
+            194
+          ],
+          [
+            152,
+            194
+          ],
+          [
+            149,
+            200
+          ],
+          [
+            143,
+            200
+          ]
+        ],
+        "fill": "#B8D79C",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

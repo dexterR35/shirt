@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_06034ab3b491eb82eecc",
+  "team_name": "Blackburn Rovers",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/blackburn-rovers-2026-27-away-kit-504493/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/w52IcXc4YJFKNI8/blackburn-rovers-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_06034ab3b491eb82eecc-away-504493.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#F0F0EF",
+      "rightSleeve": "#F0F0EF",
+      "collar": "#F0F0EF",
+      "leftCuff": "#B92A37",
+      "rightCuff": "#B92A37"
+    }
+  },
+  "observations": "White shirt, narrow central red/blue split vertical stripe. Continue stripe through removed sponsor region; fine red/navy neck and cuff edging.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt, narrow central red/blue split vertical stripe. Continue stripe through removed sponsor region; fine red/navy neck and cuff edging.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_06034ab3b491eb82eecc-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#F0F0EF",
+      "rightSleeve": "#F0F0EF",
+      "collar": "#F0F0EF",
+      "leftCuff": "#B92A37",
+      "rightCuff": "#B92A37"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F0EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.122 2.805L77 2Q100 7 123 2L124.878 2.805C128.341 26.146 71.659 26.146 75.122 2.805Z",
+          "fill": "#213C55",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M76.146 2.366L77 2Q100 7 123 2L123.854 2.366C127.61 24.976 72.39 24.976 76.146 2.366Z",
+          "fill": "#B92935",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#C5262D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#1F79AF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#B92A37",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76.14999999999999C24 80.75 36 86.05 44.5 85.14999999999999Q48 85.25 49.2 77.05L52 106H5Z",
+        "fill": "#193749",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#B92A37",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76.14999999999999C176 80.75 164 86.05 155.5 85.14999999999999Q152 85.25 150.8 77.05L148 106H195Z",
+        "fill": "#193749",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

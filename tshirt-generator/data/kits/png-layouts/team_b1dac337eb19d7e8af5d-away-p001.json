@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b1dac337eb19d7e8af5d",
+  "team_name": "Energie Cottbus",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black plain fabric with three white shoulder tapes, white collar and small pale hem corner inserts. Independent source shows matching sleeve fabric.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b1dac337eb19d7e8af5d-away-490559.jpg",
+      "page_url": "https://www.footballkitarchive.com/energie-cottbus-2026-27-away-kit-490559/",
+      "sha256": "e32d74b9a538015abeef8d06029f41d3cb9ddeb8d256216abdd7376815f4c126"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#191D23",
+      "leftSleeve": "#191D23",
+      "rightSleeve": "#191D23",
+      "collar": "#EFF0EC",
+      "leftCuff": "#191D23",
+      "rightCuff": "#191D23"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EFF0EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#191D23",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.3
+          ],
+          [
+            35,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.3
+          ],
+          [
+            165,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.3
+          ],
+          [
+            38,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.3
+          ],
+          [
+            162,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.3
+          ],
+          [
+            41,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.3
+          ],
+          [
+            159,
+            25.3
+          ]
+        ],
+        "fill": "#F0F1ED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 194,
+        "width": 9,
+        "height": 5,
+        "fill": "#ECEFEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 194,
+        "width": 9,
+        "height": 5,
+        "fill": "#ECEFEA",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

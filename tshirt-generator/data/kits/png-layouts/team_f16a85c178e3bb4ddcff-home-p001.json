@@ -1,0 +1,843 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f16a85c178e3bb4ddcff",
+  "team_name": "Charlton Athletic",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Bright red with fine diagonal salmon pinstripes, white neck/cuffs and curved white upper side inserts.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f16a85c178e3bb4ddcff-home-492978.jpg",
+      "page_url": "https://www.footballkitarchive.com/charlton-athletic-2026-27-home-kit-492978/",
+      "sha256": "b5c722e6df437b09a5cedde619be39ebe20186c8c87d8c2fe49511ef0633d1a8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#ED3027",
+      "leftSleeve": "#ED3027",
+      "rightSleeve": "#ED3027",
+      "collar": "#F1EEE9",
+      "leftCuff": "#F0F0ED",
+      "rightCuff": "#F0F0ED"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1EEE9",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#ED3027",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -90,
+            0
+          ],
+          [
+            -89.68,
+            0
+          ],
+          [
+            30.319999999999993,
+            200
+          ],
+          [
+            30,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -80,
+            0
+          ],
+          [
+            -79.68,
+            0
+          ],
+          [
+            40.31999999999999,
+            200
+          ],
+          [
+            40,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -70,
+            0
+          ],
+          [
+            -69.68,
+            0
+          ],
+          [
+            50.31999999999999,
+            200
+          ],
+          [
+            50,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -60,
+            0
+          ],
+          [
+            -59.68,
+            0
+          ],
+          [
+            60.31999999999999,
+            200
+          ],
+          [
+            60,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -50,
+            0
+          ],
+          [
+            -49.68,
+            0
+          ],
+          [
+            70.32,
+            200
+          ],
+          [
+            70,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -40,
+            0
+          ],
+          [
+            -39.68,
+            0
+          ],
+          [
+            80.32,
+            200
+          ],
+          [
+            80,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -30,
+            0
+          ],
+          [
+            -29.68,
+            0
+          ],
+          [
+            90.32,
+            200
+          ],
+          [
+            90,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -20,
+            0
+          ],
+          [
+            -19.68,
+            0
+          ],
+          [
+            100.32,
+            200
+          ],
+          [
+            100,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            -10,
+            0
+          ],
+          [
+            -9.68,
+            0
+          ],
+          [
+            110.32,
+            200
+          ],
+          [
+            110,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0.32,
+            0
+          ],
+          [
+            120.32,
+            200
+          ],
+          [
+            120,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            10,
+            0
+          ],
+          [
+            10.32,
+            0
+          ],
+          [
+            130.32,
+            200
+          ],
+          [
+            130,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            20,
+            0
+          ],
+          [
+            20.32,
+            0
+          ],
+          [
+            140.32,
+            200
+          ],
+          [
+            140,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            30,
+            0
+          ],
+          [
+            30.32,
+            0
+          ],
+          [
+            150.32,
+            200
+          ],
+          [
+            150,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            40,
+            0
+          ],
+          [
+            40.32,
+            0
+          ],
+          [
+            160.32,
+            200
+          ],
+          [
+            160,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            0
+          ],
+          [
+            50.32,
+            0
+          ],
+          [
+            170.32,
+            200
+          ],
+          [
+            170,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60,
+            0
+          ],
+          [
+            60.32,
+            0
+          ],
+          [
+            180.32,
+            200
+          ],
+          [
+            180,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            70,
+            0
+          ],
+          [
+            70.32,
+            0
+          ],
+          [
+            190.32,
+            200
+          ],
+          [
+            190,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            80,
+            0
+          ],
+          [
+            80.32,
+            0
+          ],
+          [
+            200.32,
+            200
+          ],
+          [
+            200,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            90,
+            0
+          ],
+          [
+            90.32,
+            0
+          ],
+          [
+            210.32,
+            200
+          ],
+          [
+            210,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            0
+          ],
+          [
+            100.32,
+            0
+          ],
+          [
+            220.32,
+            200
+          ],
+          [
+            220,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            0
+          ],
+          [
+            110.32,
+            0
+          ],
+          [
+            230.32,
+            200
+          ],
+          [
+            230,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            120,
+            0
+          ],
+          [
+            120.32,
+            0
+          ],
+          [
+            240.32,
+            200
+          ],
+          [
+            240,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            0
+          ],
+          [
+            130.32,
+            0
+          ],
+          [
+            250.32,
+            200
+          ],
+          [
+            250,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            140,
+            0
+          ],
+          [
+            140.32,
+            0
+          ],
+          [
+            260.32,
+            200
+          ],
+          [
+            260,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            150,
+            0
+          ],
+          [
+            150.32,
+            0
+          ],
+          [
+            270.32,
+            200
+          ],
+          [
+            270,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            160,
+            0
+          ],
+          [
+            160.32,
+            0
+          ],
+          [
+            280.32,
+            200
+          ],
+          [
+            280,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            170,
+            0
+          ],
+          [
+            170.32,
+            0
+          ],
+          [
+            290.32,
+            200
+          ],
+          [
+            290,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            180,
+            0
+          ],
+          [
+            180.32,
+            0
+          ],
+          [
+            300.32,
+            200
+          ],
+          [
+            300,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            190,
+            0
+          ],
+          [
+            190.32,
+            0
+          ],
+          [
+            310.32,
+            200
+          ],
+          [
+            310,
+            200
+          ]
+        ],
+        "fill": "#F37A68",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            35
+          ],
+          [
+            51,
+            43
+          ],
+          [
+            50,
+            60
+          ],
+          [
+            47,
+            72
+          ],
+          [
+            47,
+            56
+          ]
+        ],
+        "fill": "#EFEEE9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            35
+          ],
+          [
+            149,
+            43
+          ],
+          [
+            150,
+            60
+          ],
+          [
+            153,
+            72
+          ],
+          [
+            153,
+            56
+          ]
+        ],
+        "fill": "#EFEEE9",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#F0F0ED",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#E7342B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#F0F0ED",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#E7342B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Virtus Entella",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_c5eb60f2951e261681fb-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/virtus-entella-2026-27-home-kit-491245/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/29/w4oFkZsfsoBzm1P/virtus-entella-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c5eb60f2951e261681fb-home-491245.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#EDF0EF",
+      "leftSleeve": "#EDF0EF",
+      "rightSleeve": "#EDF0EF",
+      "collar": "#E9EEED",
+      "leftCuff": "#ECEFEB",
+      "rightCuff": "#ECEFEB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with four pale-sky-blue vertical columns, white sleeves/collar and three pale blue shoulder bands.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_c5eb60f2951e261681fb-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0809ab92558e8d7a9d58.json",
+    "source_kit_id": "491245"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

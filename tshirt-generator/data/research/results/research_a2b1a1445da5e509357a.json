@@ -4,8 +4,8 @@
   "team_name": "Modena",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_aa492f9df87320b67579-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/modena-fc-2018-2026-27-home-kit-496299/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/Jyy9p0RFfMb9od8/modena-fc-2018-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aa492f9df87320b67579-home-496299.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F1D229",
+      "leftSleeve": "#F1D229",
+      "rightSleeve": "#F1D229",
+      "collar": "#F1D229",
+      "leftCuff": "#253856",
+      "rightCuff": "#253856"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with navy broad chest band, fine contrasting neck edge and double contrasting cuff bands. Original round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_aa492f9df87320b67579-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a2b1a1445da5e509357a.json",
+    "source_kit_id": "496299"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

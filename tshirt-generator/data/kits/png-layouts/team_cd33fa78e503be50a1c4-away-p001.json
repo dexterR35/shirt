@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_cd33fa78e503be50a1c4",
+  "team_name": "VfL Bochum",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Sky-blue front fading to pale lavender hem with fine pale vertical lines, solid white sleeves and dark/blue collar and cuff bands. Tiny trim facets simplified.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_cd33fa78e503be50a1c4-away-491683.jpg",
+      "page_url": "https://www.footballkitarchive.com/vfl-bochum-2026-27-away-kit-491683/",
+      "sha256": "bf55bedb6c324f6c627faa81e1e76b211d8492f15e35fc268b9f387ddff5f25a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#96B7DF",
+      "leftSleeve": "#F0EDF2",
+      "rightSleeve": "#F0EDF2",
+      "collar": "#203C6B",
+      "leftCuff": "#254B7B",
+      "rightCuff": "#254B7B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#203C6B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#96B7DF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 102,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#559CDB"
+            },
+            {
+              "offset": 0.55,
+              "color": "#A4C6E7"
+            },
+            {
+              "offset": 1,
+              "color": "#E3E0EA"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 61,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 63,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 65,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 69,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 71,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 73,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 77,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 79,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 93,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 95,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 107,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 109,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 117,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 119,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 131,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 133,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 141,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 147,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#D6E1EF",
+        "clip": "body",
+        "opacity": 0.6
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#254B7B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#254B7B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

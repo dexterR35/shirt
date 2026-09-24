@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_853f241fc18ca2773ec0",
+  "team_name": "Arezzo",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Claret with ivory neck/cuffs and narrow raglan piping, black curved lower-side panels bordered by the contrasting trim. Physical polo/V construction adapted to the existing round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_853f241fc18ca2773ec0-home-498818.jpg",
+      "page_url": "https://www.footballkitarchive.com/ss-arezzo-2026-27-home-kit-498818/",
+      "sha256": "60be8e1b03cafbc7c18fcce0222f341ba7d3d63ba27f1bea6948b4e5789fd5f1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#A0142B",
+      "leftSleeve": "#A0142B",
+      "rightSleeve": "#A0142B",
+      "collar": "#ECE8DC",
+      "leftCuff": "#ECE8DC",
+      "rightCuff": "#ECE8DC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#ECE8DC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#A0142B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            76
+          ],
+          [
+            58,
+            112
+          ],
+          [
+            61,
+            154
+          ],
+          [
+            68,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#222424",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            76
+          ],
+          [
+            142,
+            112
+          ],
+          [
+            139,
+            154
+          ],
+          [
+            132,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#222424",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            55,
+            78
+          ],
+          [
+            60,
+            92
+          ],
+          [
+            64,
+            155
+          ],
+          [
+            73,
+            200
+          ],
+          [
+            68,
+            200
+          ],
+          [
+            61,
+            157
+          ]
+        ],
+        "fill": "#ECE8DC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            78
+          ],
+          [
+            140,
+            92
+          ],
+          [
+            136,
+            155
+          ],
+          [
+            127,
+            200
+          ],
+          [
+            132,
+            200
+          ],
+          [
+            139,
+            157
+          ]
+        ],
+        "fill": "#ECE8DC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 3Q39 15 36 44L36.7 44Q40 16 74 3.7Z",
+        "fill": "#ECE8DC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126 3Q161 15 164 44L163.3 44Q160 16 126 3.7Z",
+        "fill": "#ECE8DC",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#ECE8DC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#ECE8DC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

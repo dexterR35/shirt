@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Hertha BSC",
+      "design": "Stripes",
+      "colors": [
+        "White",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "Sparda-Bank",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 1, 2026",
+      "release_date_iso": "2026-07-01",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hertha-bsc-2026-27-home-kit-491882/",
+        "kit_id": "491882",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_279bff4cf5657ba4325b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Hertha BSC",
+      "design": "Graphic",
+      "colors": [
+        "Navy",
+        "Sky blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "Sparda-Bank",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 12, 2026",
+      "release_date_iso": "2026-07-12",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hertha-bsc-2026-27-away-kit-495350/",
+        "kit_id": "495350",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_d8355ab5816eef695d75.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

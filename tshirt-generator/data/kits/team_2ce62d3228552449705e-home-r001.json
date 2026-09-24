@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2ce62d3228552449705e",
+  "team_name": "Hellas Verona",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hellas-verona-2026-27-home-kit-493881/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/wJ6unYuiAZ5agVE/hellas-verona-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2ce62d3228552449705e-home-493881.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow",
+      "White"
+    ],
+    "values": {
+      "body": "#193569",
+      "leftSleeve": "#193569",
+      "rightSleeve": "#193569",
+      "collar": "#EDD528",
+      "leftCuff": "#EDCD1E",
+      "rightCuff": "#EDCD1E"
+    }
+  },
+  "observations": "Navy front with the thin yellow outline of a central cross, interrupted across the horizontal sponsor-height band; yellow neckline, sleeve ends and side piping. Crest omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy front with the thin yellow outline of a central cross, interrupted across the horizontal sponsor-height band; yellow neckline, sleeve ends and side piping. Crest omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_2ce62d3228552449705e-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#193569",
+      "leftSleeve": "#193569",
+      "rightSleeve": "#193569",
+      "collar": "#EDD528",
+      "leftCuff": "#EDCD1E",
+      "rightCuff": "#EDCD1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDD528",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#193569",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 18,
+        "width": 0.55,
+        "height": 54,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 18,
+        "width": 0.55,
+        "height": 54,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 52,
+        "y": 72,
+        "width": 34,
+        "height": 0.55,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 72,
+        "width": 34,
+        "height": 0.55,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 52,
+        "y": 96,
+        "width": 34,
+        "height": 0.55,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 96,
+        "width": 34,
+        "height": 0.55,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 96,
+        "width": 0.55,
+        "height": 70,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 96,
+        "width": 0.55,
+        "height": 70,
+        "fill": "#E6D33A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H51Q55 133 51 77Z",
+        "fill": "#E6CD21",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149Q145 133 149 77Z",
+        "fill": "#E6CD21",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#EDCD1E",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#EDCD1E",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

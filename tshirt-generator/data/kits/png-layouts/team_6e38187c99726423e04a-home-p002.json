@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6e38187c99726423e04a",
+  "team_name": "Politehnica Timișoara",
+  "variant": "home",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White match shirt with five purple horizontal torso hoops and purple collar/cuffs. Plain white sleeve fields; the match angle limits exact hoop spacing. Purple upper shoulder yoke retained above the hoops.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6e38187c99726423e04a-home-507579.jpg",
+      "page_url": "https://www.footballkitarchive.com/politehnica-timisoara-2026-27-home-kit-507579/",
+      "sha256": "8ddc1fac713d4ca0a0463f673891257751551b094430173734d6fdb71cf18c8b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFEEEA",
+      "leftSleeve": "#EFEEEA",
+      "rightSleeve": "#EFEEEA",
+      "collar": "#4C318D",
+      "leftCuff": "#473589",
+      "rightCuff": "#473589"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#4C318D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFEEEA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 37,
+        "width": 102,
+        "height": 14,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 75,
+        "width": 102,
+        "height": 14,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 113,
+        "width": 102,
+        "height": 14,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 151,
+        "width": 102,
+        "height": 14,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 189,
+        "width": 102,
+        "height": 14,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 102,
+        "height": 16,
+        "fill": "#48348A",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#473589",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#473589",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

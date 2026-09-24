@@ -4,8 +4,8 @@
   "team_name": "Southampton",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f4a13356d9b8b9f9e9d1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/southampton-fc-2026-27-home-kit-484982/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/19/p4lu8q8c4dRgzoS/southampton-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-home-484982.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#EEEFEF",
+      "leftSleeve": "#EEEFEF",
+      "rightSleeve": "#EEEFEF",
+      "collar": "#171B1C",
+      "leftCuff": "#161C1E",
+      "rightCuff": "#161C1E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/white vertical stripes across body and sleeves with black collar and cuff bands. Subtle red stripe fabric retained as common PNG shading.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_f4a13356d9b8b9f9e9d1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ea220fe2a3dd1e01561b.json",
+    "source_kit_id": "484982"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e9c919284ba7dc0181cf",
+  "team_name": "Eintracht Braunschweig",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal/deep blue with dark cuff bands and subdued gold inner neck edge. Repeated cuff icons and chest symbols omitted as branding.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e9c919284ba7dc0181cf-away-498666.jpg",
+      "page_url": "https://www.footballkitarchive.com/eintracht-braunschweig-2026-27-away-kit-498666/",
+      "sha256": "a3fcfd6296cadba226f81f1ddf51f3f8c3b7f6fdb83a93660085cb3e98685848"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#104883",
+      "leftSleeve": "#104883",
+      "rightSleeve": "#104883",
+      "collar": "#102D4D",
+      "leftCuff": "#163D54",
+      "rightCuff": "#163D54"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#102D4D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.526 2.632L77 2Q100 7 123 2L124.474 2.632C128.053 25.684 71.947 25.684 75.526 2.632Z",
+          "fill": "#98802F",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#104883",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#163D54",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#163D54",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

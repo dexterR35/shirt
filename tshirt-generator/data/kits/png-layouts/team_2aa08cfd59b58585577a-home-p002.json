@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2aa08cfd59b58585577a",
+  "team_name": "Chindia Târgoviște",
+  "variant": "home",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal-blue shirt with red neckline and short red raglan shoulder panels. Lower body hidden partly by crossed arms; no inferred alternate kit.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2aa08cfd59b58585577a-home-503335.jpg",
+      "page_url": "https://www.footballkitarchive.com/chindia-targoviste-2026-27-home-kit-503335/",
+      "sha256": "2c33c797998c92e3f5f6c7841758a7f0b224ef70af45363bb194a121806fd634"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0577C8",
+      "leftSleeve": "#0577C8",
+      "rightSleeve": "#0577C8",
+      "collar": "#E73D31",
+      "leftCuff": "#0577C8",
+      "rightCuff": "#0577C8"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E73D31",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0577C8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            69,
+            11
+          ],
+          [
+            35,
+            25
+          ],
+          [
+            36,
+            20
+          ]
+        ],
+        "fill": "#EB3D30",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            131,
+            11
+          ],
+          [
+            165,
+            25
+          ],
+          [
+            164,
+            20
+          ]
+        ],
+        "fill": "#EB3D30",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

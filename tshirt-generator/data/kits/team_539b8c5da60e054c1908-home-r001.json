@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_539b8c5da60e054c1908",
+  "team_name": "Pisa",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pisa-sc-2026-27-home-kit-498516/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/hOXbuVAKlKxPHkg/pisa-sc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_539b8c5da60e054c1908-home-498516.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#24252F",
+      "leftSleeve": "#24252F",
+      "rightSleeve": "#24252F",
+      "collar": "#EBEAE7",
+      "leftCuff": "#ECECE5",
+      "rightCuff": "#ECECE5"
+    }
+  },
+  "observations": "Black torso and sleeves, three broad blue front stripes, three red shoulder bands, pale neckline and thin pale cuff hems.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black torso and sleeves, three broad blue front stripes, three red shoulder bands, pale neckline and thin pale cuff hems.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_539b8c5da60e054c1908-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#24252F",
+      "leftSleeve": "#24252F",
+      "rightSleeve": "#24252F",
+      "collar": "#EBEAE7",
+      "leftCuff": "#ECECE5",
+      "rightCuff": "#ECECE5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EBEAE7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.667 3L77 2Q100 7 123 2L125.333 3C128.667 26.667 71.333 26.667 74.667 3Z",
+          "fill": "#222A38",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#24252F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0564A7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 93,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0564A7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0564A7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            6
+          ],
+          [
+            35,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            6
+          ],
+          [
+            165,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            9
+          ],
+          [
+            38,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            9
+          ],
+          [
+            162,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            12
+          ],
+          [
+            41,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            12
+          ],
+          [
+            159,
+            26
+          ]
+        ],
+        "fill": "#B1323B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#ECECE5",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#ECECE5",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

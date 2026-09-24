@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c5eb60f2951e261681fb",
+  "team_name": "Virtus Entella",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White shirt with four pale-sky-blue vertical columns, white sleeves/collar and three pale blue shoulder bands.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_c5eb60f2951e261681fb-home-491245.jpg",
+      "page_url": "https://www.footballkitarchive.com/virtus-entella-2026-27-home-kit-491245/",
+      "sha256": "daf830d47e2ac5b6b85217520bc772d1b0f1aa9b2d0b5566c331602c577868be"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDF0EF",
+      "leftSleeve": "#EDF0EF",
+      "rightSleeve": "#EDF0EF",
+      "collar": "#E9EEED",
+      "leftCuff": "#ECEFEB",
+      "rightCuff": "#ECEFEB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E9EEED",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDF0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#98CBDD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#98CBDD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#98CBDD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#98CBDD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.25
+          ],
+          [
+            35,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.25
+          ],
+          [
+            165,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.25
+          ],
+          [
+            38,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.25
+          ],
+          [
+            162,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.25
+          ],
+          [
+            41,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.25
+          ],
+          [
+            159,
+            25.25
+          ]
+        ],
+        "fill": "#96D0E6",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#ECEFEB",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#ECEFEB",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

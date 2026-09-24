@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Lincoln City",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Oxen",
+      "sponsor": "Branston Ltd",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "July 2, 2026",
+      "release_date_iso": "2026-07-02",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/lincoln-city-2026-27-home-kit-492441/",
+        "kit_id": "492441",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_ad3a3c809d0d117af222.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Lincoln City",
+      "design": "Graphic",
+      "colors": [
+        "Black",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Oxen",
+      "sponsor": "Branston Ltd",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "July 23, 2026",
+      "release_date_iso": "2026-07-23",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/lincoln-city-2026-27-away-kit-498646/",
+        "kit_id": "498646",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_44d01011c46cf87b3ee2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

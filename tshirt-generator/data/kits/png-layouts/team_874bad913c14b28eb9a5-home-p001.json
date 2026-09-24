@@ -1,0 +1,6483 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_874bad913c14b28eb9a5",
+  "team_name": "Karlsruher SC",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal blue with a regular tonal triangular grid on torso, solid blue sleeves and fine multiple pale neck/cuff rings.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_874bad913c14b28eb9a5-home-494029.jpg",
+      "page_url": "https://www.footballkitarchive.com/karlsruher-sc-2026-27-home-kit-494029/",
+      "sha256": "f7d488d996afee8c04c9821ab9c0533efb0d5d0b97589fff7a0c051d24454230"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1454B4",
+      "leftSleeve": "#1454B4",
+      "rightSleeve": "#1454B4",
+      "collar": "#F0EFE6",
+      "leftCuff": "#ECEEE8",
+      "rightCuff": "#ECEEE8"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0EFE6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.313 4.438L77 2Q100 7 123 2L128.688 4.438C131.063 30.5 68.938 30.5 71.313 4.438Z",
+          "fill": "#194F9C",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.688 2.563L77 2Q100 7 123 2L124.313 2.563C127.938 25.5 72.063 25.5 75.688 2.563Z",
+          "fill": "#EDEDE4",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1454B4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            8
+          ],
+          [
+            60,
+            9
+          ],
+          [
+            60,
+            19
+          ],
+          [
+            50,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            9
+          ],
+          [
+            59,
+            18
+          ],
+          [
+            51,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            8
+          ],
+          [
+            72,
+            9
+          ],
+          [
+            72,
+            19
+          ],
+          [
+            62,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            9
+          ],
+          [
+            71,
+            18
+          ],
+          [
+            63,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            8
+          ],
+          [
+            84,
+            9
+          ],
+          [
+            84,
+            19
+          ],
+          [
+            74,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9
+          ],
+          [
+            83,
+            18
+          ],
+          [
+            75,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            8
+          ],
+          [
+            96,
+            9
+          ],
+          [
+            96,
+            19
+          ],
+          [
+            86,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            9
+          ],
+          [
+            95,
+            18
+          ],
+          [
+            87,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            8
+          ],
+          [
+            108,
+            9
+          ],
+          [
+            108,
+            19
+          ],
+          [
+            98,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            9
+          ],
+          [
+            107,
+            18
+          ],
+          [
+            99,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            8
+          ],
+          [
+            120,
+            9
+          ],
+          [
+            120,
+            19
+          ],
+          [
+            110,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            9
+          ],
+          [
+            119,
+            18
+          ],
+          [
+            111,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            8
+          ],
+          [
+            132,
+            9
+          ],
+          [
+            132,
+            19
+          ],
+          [
+            122,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            9
+          ],
+          [
+            131,
+            18
+          ],
+          [
+            123,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            8
+          ],
+          [
+            144,
+            9
+          ],
+          [
+            144,
+            19
+          ],
+          [
+            134,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            9
+          ],
+          [
+            143,
+            18
+          ],
+          [
+            135,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            8
+          ],
+          [
+            156,
+            9
+          ],
+          [
+            156,
+            19
+          ],
+          [
+            146,
+            19
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            9
+          ],
+          [
+            155,
+            18
+          ],
+          [
+            147,
+            18
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            20
+          ],
+          [
+            60,
+            21
+          ],
+          [
+            60,
+            31
+          ],
+          [
+            50,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            21
+          ],
+          [
+            59,
+            30
+          ],
+          [
+            51,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            20
+          ],
+          [
+            72,
+            21
+          ],
+          [
+            72,
+            31
+          ],
+          [
+            62,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            21
+          ],
+          [
+            71,
+            30
+          ],
+          [
+            63,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            20
+          ],
+          [
+            84,
+            21
+          ],
+          [
+            84,
+            31
+          ],
+          [
+            74,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            21
+          ],
+          [
+            83,
+            30
+          ],
+          [
+            75,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            20
+          ],
+          [
+            96,
+            21
+          ],
+          [
+            96,
+            31
+          ],
+          [
+            86,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            21
+          ],
+          [
+            95,
+            30
+          ],
+          [
+            87,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            20
+          ],
+          [
+            108,
+            21
+          ],
+          [
+            108,
+            31
+          ],
+          [
+            98,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            21
+          ],
+          [
+            107,
+            30
+          ],
+          [
+            99,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            20
+          ],
+          [
+            120,
+            21
+          ],
+          [
+            120,
+            31
+          ],
+          [
+            110,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            21
+          ],
+          [
+            119,
+            30
+          ],
+          [
+            111,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            20
+          ],
+          [
+            132,
+            21
+          ],
+          [
+            132,
+            31
+          ],
+          [
+            122,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            21
+          ],
+          [
+            131,
+            30
+          ],
+          [
+            123,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            20
+          ],
+          [
+            144,
+            21
+          ],
+          [
+            144,
+            31
+          ],
+          [
+            134,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            21
+          ],
+          [
+            143,
+            30
+          ],
+          [
+            135,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            20
+          ],
+          [
+            156,
+            21
+          ],
+          [
+            156,
+            31
+          ],
+          [
+            146,
+            31
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            21
+          ],
+          [
+            155,
+            30
+          ],
+          [
+            147,
+            30
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            32
+          ],
+          [
+            60,
+            33
+          ],
+          [
+            60,
+            43
+          ],
+          [
+            50,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            33
+          ],
+          [
+            59,
+            42
+          ],
+          [
+            51,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            32
+          ],
+          [
+            72,
+            33
+          ],
+          [
+            72,
+            43
+          ],
+          [
+            62,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            33
+          ],
+          [
+            71,
+            42
+          ],
+          [
+            63,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            32
+          ],
+          [
+            84,
+            33
+          ],
+          [
+            84,
+            43
+          ],
+          [
+            74,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            33
+          ],
+          [
+            83,
+            42
+          ],
+          [
+            75,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            32
+          ],
+          [
+            96,
+            33
+          ],
+          [
+            96,
+            43
+          ],
+          [
+            86,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            33
+          ],
+          [
+            95,
+            42
+          ],
+          [
+            87,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            32
+          ],
+          [
+            108,
+            33
+          ],
+          [
+            108,
+            43
+          ],
+          [
+            98,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            33
+          ],
+          [
+            107,
+            42
+          ],
+          [
+            99,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            32
+          ],
+          [
+            120,
+            33
+          ],
+          [
+            120,
+            43
+          ],
+          [
+            110,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            33
+          ],
+          [
+            119,
+            42
+          ],
+          [
+            111,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            32
+          ],
+          [
+            132,
+            33
+          ],
+          [
+            132,
+            43
+          ],
+          [
+            122,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            33
+          ],
+          [
+            131,
+            42
+          ],
+          [
+            123,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            32
+          ],
+          [
+            144,
+            33
+          ],
+          [
+            144,
+            43
+          ],
+          [
+            134,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            33
+          ],
+          [
+            143,
+            42
+          ],
+          [
+            135,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            32
+          ],
+          [
+            156,
+            33
+          ],
+          [
+            156,
+            43
+          ],
+          [
+            146,
+            43
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            33
+          ],
+          [
+            155,
+            42
+          ],
+          [
+            147,
+            42
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            44
+          ],
+          [
+            60,
+            45
+          ],
+          [
+            60,
+            55
+          ],
+          [
+            50,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            45
+          ],
+          [
+            59,
+            54
+          ],
+          [
+            51,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            44
+          ],
+          [
+            72,
+            45
+          ],
+          [
+            72,
+            55
+          ],
+          [
+            62,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            45
+          ],
+          [
+            71,
+            54
+          ],
+          [
+            63,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            44
+          ],
+          [
+            84,
+            45
+          ],
+          [
+            84,
+            55
+          ],
+          [
+            74,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            45
+          ],
+          [
+            83,
+            54
+          ],
+          [
+            75,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            44
+          ],
+          [
+            96,
+            45
+          ],
+          [
+            96,
+            55
+          ],
+          [
+            86,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            45
+          ],
+          [
+            95,
+            54
+          ],
+          [
+            87,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            44
+          ],
+          [
+            108,
+            45
+          ],
+          [
+            108,
+            55
+          ],
+          [
+            98,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            45
+          ],
+          [
+            107,
+            54
+          ],
+          [
+            99,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            44
+          ],
+          [
+            120,
+            45
+          ],
+          [
+            120,
+            55
+          ],
+          [
+            110,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            45
+          ],
+          [
+            119,
+            54
+          ],
+          [
+            111,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            44
+          ],
+          [
+            132,
+            45
+          ],
+          [
+            132,
+            55
+          ],
+          [
+            122,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            45
+          ],
+          [
+            131,
+            54
+          ],
+          [
+            123,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            44
+          ],
+          [
+            144,
+            45
+          ],
+          [
+            144,
+            55
+          ],
+          [
+            134,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            45
+          ],
+          [
+            143,
+            54
+          ],
+          [
+            135,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            44
+          ],
+          [
+            156,
+            45
+          ],
+          [
+            156,
+            55
+          ],
+          [
+            146,
+            55
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            45
+          ],
+          [
+            155,
+            54
+          ],
+          [
+            147,
+            54
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            56
+          ],
+          [
+            60,
+            57
+          ],
+          [
+            60,
+            67
+          ],
+          [
+            50,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            57
+          ],
+          [
+            59,
+            66
+          ],
+          [
+            51,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            56
+          ],
+          [
+            72,
+            57
+          ],
+          [
+            72,
+            67
+          ],
+          [
+            62,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            57
+          ],
+          [
+            71,
+            66
+          ],
+          [
+            63,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            56
+          ],
+          [
+            84,
+            57
+          ],
+          [
+            84,
+            67
+          ],
+          [
+            74,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            57
+          ],
+          [
+            83,
+            66
+          ],
+          [
+            75,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            56
+          ],
+          [
+            96,
+            57
+          ],
+          [
+            96,
+            67
+          ],
+          [
+            86,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            57
+          ],
+          [
+            95,
+            66
+          ],
+          [
+            87,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            56
+          ],
+          [
+            108,
+            57
+          ],
+          [
+            108,
+            67
+          ],
+          [
+            98,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            57
+          ],
+          [
+            107,
+            66
+          ],
+          [
+            99,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            56
+          ],
+          [
+            120,
+            57
+          ],
+          [
+            120,
+            67
+          ],
+          [
+            110,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            57
+          ],
+          [
+            119,
+            66
+          ],
+          [
+            111,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            56
+          ],
+          [
+            132,
+            57
+          ],
+          [
+            132,
+            67
+          ],
+          [
+            122,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            57
+          ],
+          [
+            131,
+            66
+          ],
+          [
+            123,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            56
+          ],
+          [
+            144,
+            57
+          ],
+          [
+            144,
+            67
+          ],
+          [
+            134,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            57
+          ],
+          [
+            143,
+            66
+          ],
+          [
+            135,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            56
+          ],
+          [
+            156,
+            57
+          ],
+          [
+            156,
+            67
+          ],
+          [
+            146,
+            67
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            57
+          ],
+          [
+            155,
+            66
+          ],
+          [
+            147,
+            66
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            68
+          ],
+          [
+            60,
+            69
+          ],
+          [
+            60,
+            79
+          ],
+          [
+            50,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            69
+          ],
+          [
+            59,
+            78
+          ],
+          [
+            51,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            68
+          ],
+          [
+            72,
+            69
+          ],
+          [
+            72,
+            79
+          ],
+          [
+            62,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            69
+          ],
+          [
+            71,
+            78
+          ],
+          [
+            63,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            68
+          ],
+          [
+            84,
+            69
+          ],
+          [
+            84,
+            79
+          ],
+          [
+            74,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            69
+          ],
+          [
+            83,
+            78
+          ],
+          [
+            75,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            68
+          ],
+          [
+            96,
+            69
+          ],
+          [
+            96,
+            79
+          ],
+          [
+            86,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            69
+          ],
+          [
+            95,
+            78
+          ],
+          [
+            87,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            68
+          ],
+          [
+            108,
+            69
+          ],
+          [
+            108,
+            79
+          ],
+          [
+            98,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            69
+          ],
+          [
+            107,
+            78
+          ],
+          [
+            99,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            68
+          ],
+          [
+            120,
+            69
+          ],
+          [
+            120,
+            79
+          ],
+          [
+            110,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            69
+          ],
+          [
+            119,
+            78
+          ],
+          [
+            111,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            68
+          ],
+          [
+            132,
+            69
+          ],
+          [
+            132,
+            79
+          ],
+          [
+            122,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            69
+          ],
+          [
+            131,
+            78
+          ],
+          [
+            123,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            68
+          ],
+          [
+            144,
+            69
+          ],
+          [
+            144,
+            79
+          ],
+          [
+            134,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            69
+          ],
+          [
+            143,
+            78
+          ],
+          [
+            135,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            68
+          ],
+          [
+            156,
+            69
+          ],
+          [
+            156,
+            79
+          ],
+          [
+            146,
+            79
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            69
+          ],
+          [
+            155,
+            78
+          ],
+          [
+            147,
+            78
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            80
+          ],
+          [
+            60,
+            81
+          ],
+          [
+            60,
+            91
+          ],
+          [
+            50,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            81
+          ],
+          [
+            59,
+            90
+          ],
+          [
+            51,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            80
+          ],
+          [
+            72,
+            81
+          ],
+          [
+            72,
+            91
+          ],
+          [
+            62,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            81
+          ],
+          [
+            71,
+            90
+          ],
+          [
+            63,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            80
+          ],
+          [
+            84,
+            81
+          ],
+          [
+            84,
+            91
+          ],
+          [
+            74,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            81
+          ],
+          [
+            83,
+            90
+          ],
+          [
+            75,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            80
+          ],
+          [
+            96,
+            81
+          ],
+          [
+            96,
+            91
+          ],
+          [
+            86,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            81
+          ],
+          [
+            95,
+            90
+          ],
+          [
+            87,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            80
+          ],
+          [
+            108,
+            81
+          ],
+          [
+            108,
+            91
+          ],
+          [
+            98,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            81
+          ],
+          [
+            107,
+            90
+          ],
+          [
+            99,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            80
+          ],
+          [
+            120,
+            81
+          ],
+          [
+            120,
+            91
+          ],
+          [
+            110,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            81
+          ],
+          [
+            119,
+            90
+          ],
+          [
+            111,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            80
+          ],
+          [
+            132,
+            81
+          ],
+          [
+            132,
+            91
+          ],
+          [
+            122,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            81
+          ],
+          [
+            131,
+            90
+          ],
+          [
+            123,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            80
+          ],
+          [
+            144,
+            81
+          ],
+          [
+            144,
+            91
+          ],
+          [
+            134,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            81
+          ],
+          [
+            143,
+            90
+          ],
+          [
+            135,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            80
+          ],
+          [
+            156,
+            81
+          ],
+          [
+            156,
+            91
+          ],
+          [
+            146,
+            91
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            81
+          ],
+          [
+            155,
+            90
+          ],
+          [
+            147,
+            90
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            92
+          ],
+          [
+            60,
+            93
+          ],
+          [
+            60,
+            103
+          ],
+          [
+            50,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            93
+          ],
+          [
+            59,
+            102
+          ],
+          [
+            51,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            92
+          ],
+          [
+            72,
+            93
+          ],
+          [
+            72,
+            103
+          ],
+          [
+            62,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            93
+          ],
+          [
+            71,
+            102
+          ],
+          [
+            63,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            92
+          ],
+          [
+            84,
+            93
+          ],
+          [
+            84,
+            103
+          ],
+          [
+            74,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            93
+          ],
+          [
+            83,
+            102
+          ],
+          [
+            75,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            92
+          ],
+          [
+            96,
+            93
+          ],
+          [
+            96,
+            103
+          ],
+          [
+            86,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            93
+          ],
+          [
+            95,
+            102
+          ],
+          [
+            87,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            92
+          ],
+          [
+            108,
+            93
+          ],
+          [
+            108,
+            103
+          ],
+          [
+            98,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            93
+          ],
+          [
+            107,
+            102
+          ],
+          [
+            99,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            92
+          ],
+          [
+            120,
+            93
+          ],
+          [
+            120,
+            103
+          ],
+          [
+            110,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            93
+          ],
+          [
+            119,
+            102
+          ],
+          [
+            111,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            92
+          ],
+          [
+            132,
+            93
+          ],
+          [
+            132,
+            103
+          ],
+          [
+            122,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            93
+          ],
+          [
+            131,
+            102
+          ],
+          [
+            123,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            92
+          ],
+          [
+            144,
+            93
+          ],
+          [
+            144,
+            103
+          ],
+          [
+            134,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            93
+          ],
+          [
+            143,
+            102
+          ],
+          [
+            135,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            92
+          ],
+          [
+            156,
+            93
+          ],
+          [
+            156,
+            103
+          ],
+          [
+            146,
+            103
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            93
+          ],
+          [
+            155,
+            102
+          ],
+          [
+            147,
+            102
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            104
+          ],
+          [
+            60,
+            105
+          ],
+          [
+            60,
+            115
+          ],
+          [
+            50,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            105
+          ],
+          [
+            59,
+            114
+          ],
+          [
+            51,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            104
+          ],
+          [
+            72,
+            105
+          ],
+          [
+            72,
+            115
+          ],
+          [
+            62,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            105
+          ],
+          [
+            71,
+            114
+          ],
+          [
+            63,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            104
+          ],
+          [
+            84,
+            105
+          ],
+          [
+            84,
+            115
+          ],
+          [
+            74,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            105
+          ],
+          [
+            83,
+            114
+          ],
+          [
+            75,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            104
+          ],
+          [
+            96,
+            105
+          ],
+          [
+            96,
+            115
+          ],
+          [
+            86,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            105
+          ],
+          [
+            95,
+            114
+          ],
+          [
+            87,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            104
+          ],
+          [
+            108,
+            105
+          ],
+          [
+            108,
+            115
+          ],
+          [
+            98,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            105
+          ],
+          [
+            107,
+            114
+          ],
+          [
+            99,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            104
+          ],
+          [
+            120,
+            105
+          ],
+          [
+            120,
+            115
+          ],
+          [
+            110,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            105
+          ],
+          [
+            119,
+            114
+          ],
+          [
+            111,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            104
+          ],
+          [
+            132,
+            105
+          ],
+          [
+            132,
+            115
+          ],
+          [
+            122,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            105
+          ],
+          [
+            131,
+            114
+          ],
+          [
+            123,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            104
+          ],
+          [
+            144,
+            105
+          ],
+          [
+            144,
+            115
+          ],
+          [
+            134,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            105
+          ],
+          [
+            143,
+            114
+          ],
+          [
+            135,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            104
+          ],
+          [
+            156,
+            105
+          ],
+          [
+            156,
+            115
+          ],
+          [
+            146,
+            115
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            105
+          ],
+          [
+            155,
+            114
+          ],
+          [
+            147,
+            114
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            116
+          ],
+          [
+            60,
+            117
+          ],
+          [
+            60,
+            127
+          ],
+          [
+            50,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            117
+          ],
+          [
+            59,
+            126
+          ],
+          [
+            51,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            116
+          ],
+          [
+            72,
+            117
+          ],
+          [
+            72,
+            127
+          ],
+          [
+            62,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            117
+          ],
+          [
+            71,
+            126
+          ],
+          [
+            63,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            116
+          ],
+          [
+            84,
+            117
+          ],
+          [
+            84,
+            127
+          ],
+          [
+            74,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            117
+          ],
+          [
+            83,
+            126
+          ],
+          [
+            75,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            116
+          ],
+          [
+            96,
+            117
+          ],
+          [
+            96,
+            127
+          ],
+          [
+            86,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            117
+          ],
+          [
+            95,
+            126
+          ],
+          [
+            87,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            116
+          ],
+          [
+            108,
+            117
+          ],
+          [
+            108,
+            127
+          ],
+          [
+            98,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            117
+          ],
+          [
+            107,
+            126
+          ],
+          [
+            99,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            116
+          ],
+          [
+            120,
+            117
+          ],
+          [
+            120,
+            127
+          ],
+          [
+            110,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            117
+          ],
+          [
+            119,
+            126
+          ],
+          [
+            111,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            116
+          ],
+          [
+            132,
+            117
+          ],
+          [
+            132,
+            127
+          ],
+          [
+            122,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            117
+          ],
+          [
+            131,
+            126
+          ],
+          [
+            123,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            116
+          ],
+          [
+            144,
+            117
+          ],
+          [
+            144,
+            127
+          ],
+          [
+            134,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            117
+          ],
+          [
+            143,
+            126
+          ],
+          [
+            135,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            116
+          ],
+          [
+            156,
+            117
+          ],
+          [
+            156,
+            127
+          ],
+          [
+            146,
+            127
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            117
+          ],
+          [
+            155,
+            126
+          ],
+          [
+            147,
+            126
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            128
+          ],
+          [
+            60,
+            129
+          ],
+          [
+            60,
+            139
+          ],
+          [
+            50,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            129
+          ],
+          [
+            59,
+            138
+          ],
+          [
+            51,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            128
+          ],
+          [
+            72,
+            129
+          ],
+          [
+            72,
+            139
+          ],
+          [
+            62,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            129
+          ],
+          [
+            71,
+            138
+          ],
+          [
+            63,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            128
+          ],
+          [
+            84,
+            129
+          ],
+          [
+            84,
+            139
+          ],
+          [
+            74,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            129
+          ],
+          [
+            83,
+            138
+          ],
+          [
+            75,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            128
+          ],
+          [
+            96,
+            129
+          ],
+          [
+            96,
+            139
+          ],
+          [
+            86,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            129
+          ],
+          [
+            95,
+            138
+          ],
+          [
+            87,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            128
+          ],
+          [
+            108,
+            129
+          ],
+          [
+            108,
+            139
+          ],
+          [
+            98,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            129
+          ],
+          [
+            107,
+            138
+          ],
+          [
+            99,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            128
+          ],
+          [
+            120,
+            129
+          ],
+          [
+            120,
+            139
+          ],
+          [
+            110,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            129
+          ],
+          [
+            119,
+            138
+          ],
+          [
+            111,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            128
+          ],
+          [
+            132,
+            129
+          ],
+          [
+            132,
+            139
+          ],
+          [
+            122,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            129
+          ],
+          [
+            131,
+            138
+          ],
+          [
+            123,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            128
+          ],
+          [
+            144,
+            129
+          ],
+          [
+            144,
+            139
+          ],
+          [
+            134,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            129
+          ],
+          [
+            143,
+            138
+          ],
+          [
+            135,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            128
+          ],
+          [
+            156,
+            129
+          ],
+          [
+            156,
+            139
+          ],
+          [
+            146,
+            139
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            129
+          ],
+          [
+            155,
+            138
+          ],
+          [
+            147,
+            138
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            140
+          ],
+          [
+            60,
+            141
+          ],
+          [
+            60,
+            151
+          ],
+          [
+            50,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            141
+          ],
+          [
+            59,
+            150
+          ],
+          [
+            51,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            140
+          ],
+          [
+            72,
+            141
+          ],
+          [
+            72,
+            151
+          ],
+          [
+            62,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            141
+          ],
+          [
+            71,
+            150
+          ],
+          [
+            63,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            140
+          ],
+          [
+            84,
+            141
+          ],
+          [
+            84,
+            151
+          ],
+          [
+            74,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            141
+          ],
+          [
+            83,
+            150
+          ],
+          [
+            75,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            140
+          ],
+          [
+            96,
+            141
+          ],
+          [
+            96,
+            151
+          ],
+          [
+            86,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            141
+          ],
+          [
+            95,
+            150
+          ],
+          [
+            87,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            140
+          ],
+          [
+            108,
+            141
+          ],
+          [
+            108,
+            151
+          ],
+          [
+            98,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            141
+          ],
+          [
+            107,
+            150
+          ],
+          [
+            99,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            140
+          ],
+          [
+            120,
+            141
+          ],
+          [
+            120,
+            151
+          ],
+          [
+            110,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            141
+          ],
+          [
+            119,
+            150
+          ],
+          [
+            111,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            140
+          ],
+          [
+            132,
+            141
+          ],
+          [
+            132,
+            151
+          ],
+          [
+            122,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            141
+          ],
+          [
+            131,
+            150
+          ],
+          [
+            123,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            140
+          ],
+          [
+            144,
+            141
+          ],
+          [
+            144,
+            151
+          ],
+          [
+            134,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            141
+          ],
+          [
+            143,
+            150
+          ],
+          [
+            135,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            140
+          ],
+          [
+            156,
+            141
+          ],
+          [
+            156,
+            151
+          ],
+          [
+            146,
+            151
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            141
+          ],
+          [
+            155,
+            150
+          ],
+          [
+            147,
+            150
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            152
+          ],
+          [
+            60,
+            153
+          ],
+          [
+            60,
+            163
+          ],
+          [
+            50,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            153
+          ],
+          [
+            59,
+            162
+          ],
+          [
+            51,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            152
+          ],
+          [
+            72,
+            153
+          ],
+          [
+            72,
+            163
+          ],
+          [
+            62,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            153
+          ],
+          [
+            71,
+            162
+          ],
+          [
+            63,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            152
+          ],
+          [
+            84,
+            153
+          ],
+          [
+            84,
+            163
+          ],
+          [
+            74,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            153
+          ],
+          [
+            83,
+            162
+          ],
+          [
+            75,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            152
+          ],
+          [
+            96,
+            153
+          ],
+          [
+            96,
+            163
+          ],
+          [
+            86,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            153
+          ],
+          [
+            95,
+            162
+          ],
+          [
+            87,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            152
+          ],
+          [
+            108,
+            153
+          ],
+          [
+            108,
+            163
+          ],
+          [
+            98,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            153
+          ],
+          [
+            107,
+            162
+          ],
+          [
+            99,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            152
+          ],
+          [
+            120,
+            153
+          ],
+          [
+            120,
+            163
+          ],
+          [
+            110,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            153
+          ],
+          [
+            119,
+            162
+          ],
+          [
+            111,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            152
+          ],
+          [
+            132,
+            153
+          ],
+          [
+            132,
+            163
+          ],
+          [
+            122,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            153
+          ],
+          [
+            131,
+            162
+          ],
+          [
+            123,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            152
+          ],
+          [
+            144,
+            153
+          ],
+          [
+            144,
+            163
+          ],
+          [
+            134,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            153
+          ],
+          [
+            143,
+            162
+          ],
+          [
+            135,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            152
+          ],
+          [
+            156,
+            153
+          ],
+          [
+            156,
+            163
+          ],
+          [
+            146,
+            163
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            153
+          ],
+          [
+            155,
+            162
+          ],
+          [
+            147,
+            162
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            164
+          ],
+          [
+            60,
+            165
+          ],
+          [
+            60,
+            175
+          ],
+          [
+            50,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            165
+          ],
+          [
+            59,
+            174
+          ],
+          [
+            51,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            164
+          ],
+          [
+            72,
+            165
+          ],
+          [
+            72,
+            175
+          ],
+          [
+            62,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            165
+          ],
+          [
+            71,
+            174
+          ],
+          [
+            63,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            164
+          ],
+          [
+            84,
+            165
+          ],
+          [
+            84,
+            175
+          ],
+          [
+            74,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            165
+          ],
+          [
+            83,
+            174
+          ],
+          [
+            75,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            164
+          ],
+          [
+            96,
+            165
+          ],
+          [
+            96,
+            175
+          ],
+          [
+            86,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            165
+          ],
+          [
+            95,
+            174
+          ],
+          [
+            87,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            164
+          ],
+          [
+            108,
+            165
+          ],
+          [
+            108,
+            175
+          ],
+          [
+            98,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            165
+          ],
+          [
+            107,
+            174
+          ],
+          [
+            99,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            164
+          ],
+          [
+            120,
+            165
+          ],
+          [
+            120,
+            175
+          ],
+          [
+            110,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            165
+          ],
+          [
+            119,
+            174
+          ],
+          [
+            111,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            164
+          ],
+          [
+            132,
+            165
+          ],
+          [
+            132,
+            175
+          ],
+          [
+            122,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            165
+          ],
+          [
+            131,
+            174
+          ],
+          [
+            123,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            164
+          ],
+          [
+            144,
+            165
+          ],
+          [
+            144,
+            175
+          ],
+          [
+            134,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            165
+          ],
+          [
+            143,
+            174
+          ],
+          [
+            135,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            164
+          ],
+          [
+            156,
+            165
+          ],
+          [
+            156,
+            175
+          ],
+          [
+            146,
+            175
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            165
+          ],
+          [
+            155,
+            174
+          ],
+          [
+            147,
+            174
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            176
+          ],
+          [
+            60,
+            177
+          ],
+          [
+            60,
+            187
+          ],
+          [
+            50,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            177
+          ],
+          [
+            59,
+            186
+          ],
+          [
+            51,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            176
+          ],
+          [
+            72,
+            177
+          ],
+          [
+            72,
+            187
+          ],
+          [
+            62,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            177
+          ],
+          [
+            71,
+            186
+          ],
+          [
+            63,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            176
+          ],
+          [
+            84,
+            177
+          ],
+          [
+            84,
+            187
+          ],
+          [
+            74,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            177
+          ],
+          [
+            83,
+            186
+          ],
+          [
+            75,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            176
+          ],
+          [
+            96,
+            177
+          ],
+          [
+            96,
+            187
+          ],
+          [
+            86,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            177
+          ],
+          [
+            95,
+            186
+          ],
+          [
+            87,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            176
+          ],
+          [
+            108,
+            177
+          ],
+          [
+            108,
+            187
+          ],
+          [
+            98,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            177
+          ],
+          [
+            107,
+            186
+          ],
+          [
+            99,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            176
+          ],
+          [
+            120,
+            177
+          ],
+          [
+            120,
+            187
+          ],
+          [
+            110,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            177
+          ],
+          [
+            119,
+            186
+          ],
+          [
+            111,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            176
+          ],
+          [
+            132,
+            177
+          ],
+          [
+            132,
+            187
+          ],
+          [
+            122,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            177
+          ],
+          [
+            131,
+            186
+          ],
+          [
+            123,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            176
+          ],
+          [
+            144,
+            177
+          ],
+          [
+            144,
+            187
+          ],
+          [
+            134,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            177
+          ],
+          [
+            143,
+            186
+          ],
+          [
+            135,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            176
+          ],
+          [
+            156,
+            177
+          ],
+          [
+            156,
+            187
+          ],
+          [
+            146,
+            187
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            177
+          ],
+          [
+            155,
+            186
+          ],
+          [
+            147,
+            186
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            188
+          ],
+          [
+            60,
+            189
+          ],
+          [
+            60,
+            199
+          ],
+          [
+            50,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            189
+          ],
+          [
+            59,
+            198
+          ],
+          [
+            51,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            188
+          ],
+          [
+            72,
+            189
+          ],
+          [
+            72,
+            199
+          ],
+          [
+            62,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            63,
+            189
+          ],
+          [
+            71,
+            198
+          ],
+          [
+            63,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            188
+          ],
+          [
+            84,
+            189
+          ],
+          [
+            84,
+            199
+          ],
+          [
+            74,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            189
+          ],
+          [
+            83,
+            198
+          ],
+          [
+            75,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            188
+          ],
+          [
+            96,
+            189
+          ],
+          [
+            96,
+            199
+          ],
+          [
+            86,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            189
+          ],
+          [
+            95,
+            198
+          ],
+          [
+            87,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            188
+          ],
+          [
+            108,
+            189
+          ],
+          [
+            108,
+            199
+          ],
+          [
+            98,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            99,
+            189
+          ],
+          [
+            107,
+            198
+          ],
+          [
+            99,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            188
+          ],
+          [
+            120,
+            189
+          ],
+          [
+            120,
+            199
+          ],
+          [
+            110,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            111,
+            189
+          ],
+          [
+            119,
+            198
+          ],
+          [
+            111,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            188
+          ],
+          [
+            132,
+            189
+          ],
+          [
+            132,
+            199
+          ],
+          [
+            122,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            189
+          ],
+          [
+            131,
+            198
+          ],
+          [
+            123,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            188
+          ],
+          [
+            144,
+            189
+          ],
+          [
+            144,
+            199
+          ],
+          [
+            134,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            135,
+            189
+          ],
+          [
+            143,
+            198
+          ],
+          [
+            135,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            188
+          ],
+          [
+            156,
+            189
+          ],
+          [
+            156,
+            199
+          ],
+          [
+            146,
+            199
+          ]
+        ],
+        "fill": "#10509E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            189
+          ],
+          [
+            155,
+            198
+          ],
+          [
+            147,
+            198
+          ]
+        ],
+        "fill": "#2868B4",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#ECEEE8",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.89999999999999C24 78.5 36 83.8 44.5 82.89999999999999Q48 83 49.2 74.8L52 106H5Z",
+        "fill": "#245CA2",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.69999999999999C24 79.3 36 84.6 44.5 83.69999999999999Q48 83.8 49.2 75.6L52 106H5Z",
+        "fill": "#EEF0E7",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#255DA2",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#EFF0E6",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#ECEEE8",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.89999999999999C176 78.5 164 83.8 155.5 82.89999999999999Q152 83 150.8 74.8L148 106H195Z",
+        "fill": "#245CA2",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.69999999999999C176 79.3 164 84.6 155.5 83.69999999999999Q152 83.8 150.8 75.6L148 106H195Z",
+        "fill": "#EEF0E7",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#255DA2",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#EFF0E6",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

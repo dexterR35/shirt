@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9b144edee4d522fd22e4",
+  "team_name": "Vicenza",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/lr-vicenza-2026-27-home-kit-503290/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/11/xag7O2DaC7uPskt/lr-vicenza-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9b144edee4d522fd22e4-home-503290.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#E9EBE7",
+      "leftSleeve": "#E9EBE7",
+      "rightSleeve": "#E9EBE7",
+      "collar": "#E8E9E4",
+      "leftCuff": "#E9EBE7",
+      "rightCuff": "#E9EBE7"
+    }
+  },
+  "observations": "White shirt with five red front stripes and red inner sleeve/raglan panels, white/red/white round neckline. White outer sleeves; manufacturer chevrons omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with five red front stripes and red inner sleeve/raglan panels, white/red/white round neckline. White outer sleeves; manufacturer chevrons omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_9b144edee4d522fd22e4-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E9EBE7",
+      "leftSleeve": "#E9EBE7",
+      "rightSleeve": "#E9EBE7",
+      "collar": "#E8E9E4",
+      "leftCuff": "#E9EBE7",
+      "rightCuff": "#E9EBE7"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E8E9E4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.118 3.235L77 2Q100 7 123 2L125.882 3.235C129.059 27.294 70.941 27.294 74.118 3.235Z",
+          "fill": "#C43237",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.559 2.618L77 2Q100 7 123 2L124.441 2.618C128.029 25.647 71.971 25.647 75.559 2.618Z",
+          "fill": "#EBEAE5",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E9EBE7",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#C82E37",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#C82E37",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 95,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#C82E37",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#C82E37",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 133,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#C82E37",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            23
+          ],
+          [
+            47,
+            18
+          ],
+          [
+            43,
+            73
+          ],
+          [
+            49,
+            84
+          ],
+          [
+            45,
+            84
+          ],
+          [
+            37,
+            63
+          ]
+        ],
+        "fill": "#BF2934",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            23
+          ],
+          [
+            153,
+            18
+          ],
+          [
+            157,
+            73
+          ],
+          [
+            151,
+            84
+          ],
+          [
+            155,
+            84
+          ],
+          [
+            163,
+            63
+          ]
+        ],
+        "fill": "#BF2934",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

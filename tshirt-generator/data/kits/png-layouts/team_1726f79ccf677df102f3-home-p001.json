@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1726f79ccf677df102f3",
+  "team_name": "Swansea City",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with paired fine grey/rust body pinstripes and black/rust/white collar and cuffs. Source photo is draped; spacing adapted to the flat common silhouette.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1726f79ccf677df102f3-home-501312.jpg",
+      "page_url": "https://www.footballkitarchive.com/swansea-city-2026-27-home-kit-501312/",
+      "sha256": "9b32e788d674ac07f54439a8d66bcd9a9cd5313cfb07be8bd97198ad5e69b8b6"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EBE9E8",
+      "leftSleeve": "#EBE9E8",
+      "rightSleeve": "#EBE9E8",
+      "collar": "#1F2123",
+      "leftCuff": "#BC572D",
+      "rightCuff": "#BC572D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1F2123",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.75 4.25L77 2Q100 7 123 2L128.25 4.25C130.75 30 69.25 30 71.75 4.25Z",
+          "fill": "#B85C30",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.5 3.5L77 2Q100 7 123 2L126.5 3.5C129.5 28 70.5 28 73.5 3.5Z",
+          "fill": "#EEEDEA",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EBE9E8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 70,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 71,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 122,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 0.4,
+        "height": 200,
+        "fill": "#606471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#8E4631",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#BC572D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.3C24 78.9 36 84.2 44.5 83.3Q48 83.4 49.2 75.2L52 106H5Z",
+        "fill": "#F0ECE7",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#22272A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#BC572D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.3C176 78.9 164 84.2 155.5 83.3Q152 83.4 150.8 75.2L148 106H195Z",
+        "fill": "#F0ECE7",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#22272A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

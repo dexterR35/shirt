@@ -4,8 +4,8 @@
   "team_name": "Pisa",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_539b8c5da60e054c1908-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pisa-sc-2026-27-away-kit-503367/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/IUJEomhtb9bxSug/pisa-sc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_539b8c5da60e054c1908-away-503367.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "Black",
+      "Blue"
+    ],
+    "values": {
+      "body": "#EE622F",
+      "leftSleeve": "#0865B5",
+      "rightSleeve": "#25262E",
+      "collar": "#253038",
+      "leftCuff": "#ECEBE6",
+      "rightCuff": "#ECEBE6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange torso crossed by a black/navy sash with a blue lower edge from viewer-left shoulder to viewer-right hem; viewer-left sleeve blue and right black, asymmetric dark/blue three-stripe shoulder trim and pale sleeve hems.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_539b8c5da60e054c1908-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_00dbc190bc1c98b3e9cf.json",
+    "source_kit_id": "503367"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

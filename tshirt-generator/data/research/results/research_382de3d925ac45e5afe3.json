@@ -4,8 +4,8 @@
   "team_name": "Wrexham",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Red branching vein pattern needs finer line spacing and lower contrast."
+  ],
+  "kit_revision_path": "data/kits/team_86918866332543e45fd1-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wrexham-afc-2026-27-away-kit-494990/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/12/FtaDCSpMH4YILOv/wrexham-afc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_86918866332543e45fd1-away-494990.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#303238",
+      "leftSleeve": "#303238",
+      "rightSleeve": "#303238",
+      "collar": "#282C31",
+      "leftCuff": "#292C31",
+      "rightCuff": "#292C31"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_382de3d925ac45e5afe3.json",
+    "source_kit_id": "494990"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

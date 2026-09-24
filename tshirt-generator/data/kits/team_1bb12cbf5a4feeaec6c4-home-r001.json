@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1bb12cbf5a4feeaec6c4",
+  "team_name": "Queens Park Rangers",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/queens-park-rangers-2026-27-home-kit-488671/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/14/Pk20DNWxtxik37C/queens-park-rangers-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1bb12cbf5a4feeaec6c4-home-488671.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#EEEFF1",
+      "leftSleeve": "#EEEFF1",
+      "rightSleeve": "#EEEFF1",
+      "collar": "#005ACA",
+      "leftCuff": "#005DCF",
+      "rightCuff": "#005DCF"
+    }
+  },
+  "observations": "Three broad royal-blue hoops on white torso; solid white sleeves. Blue/white/yellow ring and sleeve edging.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Three broad royal-blue hoops on white torso; solid white sleeves. Blue/white/yellow ring and sleeve edging.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1bb12cbf5a4feeaec6c4-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEFF1",
+      "leftSleeve": "#EEEFF1",
+      "rightSleeve": "#EEEFF1",
+      "collar": "#005ACA",
+      "leftCuff": "#005DCF",
+      "rightCuff": "#005DCF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#005ACA",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.889 3.333L77 2Q100 7 123 2L126.111 3.333C129.222 27.556 70.778 27.556 73.889 3.333Z",
+          "fill": "#F1F0E3",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.444 2.667L77 2Q100 7 123 2L124.556 2.667C128.111 25.778 71.889 25.778 75.444 2.667Z",
+          "fill": "#E4C222",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEFF1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 35,
+        "width": 200,
+        "height": 28,
+        "fill": "#0060D7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 91,
+        "width": 200,
+        "height": 28,
+        "fill": "#0060D7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 148,
+        "width": 200,
+        "height": 28,
+        "fill": "#0060D7",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#005DCF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.89999999999999C24 79.5 36 84.8 44.5 83.89999999999999Q48 84 49.2 75.8L52 106H5Z",
+        "fill": "#EDEFE9",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#E8C11B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#005DCF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.89999999999999C176 79.5 164 84.8 155.5 83.89999999999999Q152 84 150.8 75.8L148 106H195Z",
+        "fill": "#EDEFE9",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#E8C11B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

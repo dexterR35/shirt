@@ -11,42 +11,70 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "SV Darmstadt 98",
+      "design": "Graphic",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Craft",
+      "sponsor": "Haix",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 3, 2026",
+      "release_date_iso": "2026-07-03",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/sv-darmstadt-98-2026-27-home-kit-492474/",
+        "kit_id": "492474",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_4797ac1c1255f8f50f77.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "SV Darmstadt 98",
+      "design": "Chest band",
+      "colors": [
+        "Off-white",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Craft",
+      "sponsor": "Haix",
+      "competitions": [
+        "2. Bundesliga"
+      ],
+      "release_date": "July 31, 2026",
+      "release_date_iso": "2026-07-31",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/sv-darmstadt-98-2026-27-away-kit-501496/",
+        "kit_id": "501496",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/2-bundesliga-kits-2026-27-l2/",
+        "record_path": "data/research/footballkitarchive/records/research_6496a2794201c5b01d31.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/2-bundesliga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

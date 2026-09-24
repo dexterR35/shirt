@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eb20dca77371769cbb2b",
+  "team_name": "West Bromwich Albion",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Blue/white vertical stripes on body and sleeves, dark blue neck/cuffs with fine red edges.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eb20dca77371769cbb2b-home-494127.jpg",
+      "page_url": "https://www.footballkitarchive.com/west-bromwich-albion-2026-27-home-kit-494127/",
+      "sha256": "f9b7d0a3b95054bb1e5b04fa2f3479c87701d668f3649894b57191f899891855"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E7EBE9",
+      "leftSleeve": "#E7EBE9",
+      "rightSleeve": "#E7EBE9",
+      "collar": "#173D64",
+      "leftCuff": "#204667",
+      "rightCuff": "#204667"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#173D64",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.915 2.465L77 2Q100 7 123 2L124.085 2.465C127.775 25.239 72.225 25.239 75.915 2.465Z",
+          "fill": "#C43B41",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E7EBE9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#1B4671",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 80,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#1B4671",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#1B4671",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 142,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#1B4671",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 17,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#234A72",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 38,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#234A72",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#234A72",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 171,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#234A72",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#204667",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#C73840",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#204667",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#C73840",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

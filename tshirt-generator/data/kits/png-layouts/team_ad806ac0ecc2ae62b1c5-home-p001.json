@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad806ac0ecc2ae62b1c5",
+  "team_name": "Hertha BSC",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with three broad blue front stripes, plain white sleeves and blue neckline/cuff edging.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad806ac0ecc2ae62b1c5-home-491882.jpg",
+      "page_url": "https://www.footballkitarchive.com/hertha-bsc-2026-27-home-kit-491882/",
+      "sha256": "d8b7ba4eec78aec696c835a52d7a6067f73bff2e2ab115cdd12da254732c09d5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0EF",
+      "leftSleeve": "#F0F0EF",
+      "rightSleeve": "#F0F0EF",
+      "collar": "#036CB0",
+      "leftCuff": "#0269A4",
+      "rightCuff": "#0269A4"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#036CB0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 47,
+        "y": 0,
+        "width": 23,
+        "height": 200,
+        "fill": "#0079B9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 23,
+        "height": 200,
+        "fill": "#0079B9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 133,
+        "y": 0,
+        "width": 23,
+        "height": 200,
+        "fill": "#0079B9",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#0269A4",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#0269A4",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

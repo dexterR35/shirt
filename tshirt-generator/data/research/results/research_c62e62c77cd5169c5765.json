@@ -4,8 +4,8 @@
   "team_name": "1. FC Magdeburg",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0b235f8384bcf056ea4e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fc-magdeburg-2026-27-home-kit-490274/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/XKF8tVx1Ofok51T/1-fc-magdeburg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0b235f8384bcf056ea4e-home-490274.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#E9EFF1",
+      "leftSleeve": "#0075BB",
+      "rightSleeve": "#0075BB",
+      "collar": "#F0F0ED",
+      "leftCuff": "#0075BB",
+      "rightCuff": "#0075BB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White front with six narrow blue vertical bars and a plain white horizontal sponsor-height band, solid blue sleeves and white neck.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_0b235f8384bcf056ea4e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c62e62c77cd5169c5765.json",
+    "source_kit_id": "490274"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

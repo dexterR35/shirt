@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Burnley FC",
+      "design": "Plain",
+      "colors": [
+        "Claret",
+        "Sky blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "Vertu Motors",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "August 14, 2026",
+      "release_date_iso": "2026-08-14",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/burnley-fc-2026-27-home-kit-511447/",
+        "kit_id": "511447",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_1e644278774ca1d14930.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Burnley FC",
+      "design": "Pinstripes",
+      "colors": [
+        "Off-white",
+        "Claret",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "Vertu Motors",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "August 21, 2026",
+      "release_date_iso": "2026-08-21",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/burnley-fc-2026-27-away-kit-511958/",
+        "kit_id": "511958",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_ed1e93241d98f1dd98ce.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

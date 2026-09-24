@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4d5b25be9af665cc02e1",
+  "team_name": "Birmingham City",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Yellow body and sleeves, contrasting blue neck ring, fine pale shoulder seam stitching. Source markings removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4d5b25be9af665cc02e1-away-508003.jpg",
+      "page_url": "https://www.footballkitarchive.com/birmingham-city-2026-27-away-kit-508003/",
+      "sha256": "0a879a61bcfbc2a8e098ecd9adfd452663ad2055b32301be1290d5964eda59f2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F6D609",
+      "leftSleeve": "#F6D609",
+      "rightSleeve": "#F6D609",
+      "collar": "#0874AF",
+      "leftCuff": "#F6D609",
+      "rightCuff": "#F6D609"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0874AF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F6D609",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            22
+          ],
+          [
+            52,
+            12
+          ],
+          [
+            76,
+            3
+          ],
+          [
+            76,
+            3.5
+          ],
+          [
+            52,
+            12.5
+          ],
+          [
+            36,
+            22.5
+          ]
+        ],
+        "fill": "#F2EAB4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            164,
+            22
+          ],
+          [
+            148,
+            12
+          ],
+          [
+            124,
+            3
+          ],
+          [
+            124,
+            3.5
+          ],
+          [
+            148,
+            12.5
+          ],
+          [
+            164,
+            22.5
+          ]
+        ],
+        "fill": "#F2EAB4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            18
+          ],
+          [
+            49,
+            16
+          ],
+          [
+            53,
+            18
+          ],
+          [
+            53,
+            18.6
+          ],
+          [
+            49,
+            16.6
+          ],
+          [
+            43,
+            18.6
+          ]
+        ],
+        "fill": "#F2EAB4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            18
+          ],
+          [
+            151,
+            16
+          ],
+          [
+            147,
+            18
+          ],
+          [
+            147,
+            18.6
+          ],
+          [
+            151,
+            16.6
+          ],
+          [
+            157,
+            18.6
+          ]
+        ],
+        "fill": "#F2EAB4",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

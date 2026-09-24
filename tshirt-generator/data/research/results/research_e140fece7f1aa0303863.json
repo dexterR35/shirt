@@ -4,8 +4,8 @@
   "team_name": "Swansea City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1726f79ccf677df102f3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/swansea-city-2026-27-home-kit-501312/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/MjGxtYimZH4pXyu/swansea-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1726f79ccf677df102f3-home-501312.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Orange"
+    ],
+    "values": {
+      "body": "#EBE9E8",
+      "leftSleeve": "#EBE9E8",
+      "rightSleeve": "#EBE9E8",
+      "collar": "#1F2123",
+      "leftCuff": "#BC572D",
+      "rightCuff": "#BC572D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with paired fine grey/rust body pinstripes and black/rust/white collar and cuffs. Source photo is draped; spacing adapted to the flat common silhouette.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1726f79ccf677df102f3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e140fece7f1aa0303863.json",
+    "source_kit_id": "501312"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

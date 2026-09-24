@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e8cbb22e5d8a4cedd7fc",
+  "team_name": "CSC 1599 Șelimbăr",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-romania-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1599-selimbar-2026-27-home-kit-502336/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/6LFXhCFlGQFwYny/1599-selimbar-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e8cbb22e5d8a4cedd7fc-home-502336.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#AF192B",
+      "leftSleeve": "#AF192B",
+      "rightSleeve": "#AF192B",
+      "collar": "#242E35",
+      "leftCuff": "#AF192B",
+      "rightCuff": "#AF192B"
+    }
+  },
+  "observations": "Red shirt with black curved shoulder/raglan panels and small white underarm side inserts.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red shirt with black curved shoulder/raglan panels and small white underarm side inserts.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_e8cbb22e5d8a4cedd7fc-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#AF192B",
+      "leftSleeve": "#AF192B",
+      "rightSleeve": "#AF192B",
+      "collar": "#242E35",
+      "leftCuff": "#AF192B",
+      "rightCuff": "#AF192B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#242E35",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#AF192B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            10
+          ],
+          [
+            48,
+            22
+          ],
+          [
+            44,
+            38
+          ],
+          [
+            42,
+            63
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            41,
+            27
+          ],
+          [
+            51,
+            16
+          ]
+        ],
+        "fill": "#192934",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            10
+          ],
+          [
+            152,
+            22
+          ],
+          [
+            156,
+            38
+          ],
+          [
+            158,
+            63
+          ],
+          [
+            161,
+            48
+          ],
+          [
+            159,
+            27
+          ],
+          [
+            149,
+            16
+          ]
+        ],
+        "fill": "#192934",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            75
+          ],
+          [
+            56,
+            88
+          ],
+          [
+            52,
+            101
+          ],
+          [
+            49,
+            100
+          ]
+        ],
+        "fill": "#EAECED",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            75
+          ],
+          [
+            144,
+            88
+          ],
+          [
+            148,
+            101
+          ],
+          [
+            151,
+            100
+          ]
+        ],
+        "fill": "#EAECED",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

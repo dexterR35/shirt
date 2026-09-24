@@ -4,8 +4,8 @@
   "team_name": "Middlesbrough",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ada30dbcff149d590881-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/middlesbrough-fc-2026-27-home-kit-493362/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/fS47p4mb2rJ4SO8/middlesbrough-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ada30dbcff149d590881-home-493362.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F0202C",
+      "leftSleeve": "#F0202C",
+      "rightSleeve": "#F0202C",
+      "collar": "#B89B53",
+      "leftCuff": "#B79C55",
+      "rightCuff": "#B79C55"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Scarlet plain shirt with metallic-gold colored collar and narrow gold sleeve edging; dark inner neck edge.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_ada30dbcff149d590881-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4a1ca62338a504c79cf6.json",
+    "source_kit_id": "493362"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

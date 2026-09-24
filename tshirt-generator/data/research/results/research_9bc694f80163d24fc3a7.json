@@ -4,8 +4,8 @@
   "team_name": "Holstein Kiel",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9a838e946db1952f02c6-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/holstein-kiel-2026-27-home-kit-490364/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/Oy8eyIQlSW28EeP/holstein-kiel-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9a838e946db1952f02c6-home-490364.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#20263A",
+      "leftSleeve": "#20263A",
+      "rightSleeve": "#20263A",
+      "collar": "#D22638",
+      "leftCuff": "#C92B40",
+      "rightCuff": "#C92B40"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain navy shirt with contrasting red collar and sleeve ends; original round construction preserved.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_9a838e946db1952f02c6-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9bc694f80163d24fc3a7.json",
+    "source_kit_id": "490364"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

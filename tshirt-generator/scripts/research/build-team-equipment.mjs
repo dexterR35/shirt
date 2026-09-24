@@ -49,7 +49,7 @@ export async function buildTeamEquipment(){
       kits:Object.fromEntries(['home','away'].map(variant=>{
         const observed=records.get(`${team.id}:${variant}`);
         const mismatch=observed&&p&&!permittedSeason(team.id,variant,observed.kit_season,p.requested_season);
-        const r=mismatch?null:observed,e=r&&extras.get(r.source_kit_id);
+        const r=mismatch?null:observed,e=r&&(r.equipment_fields?{...r.equipment_fields,release_date_iso:releaseDateISO(r.equipment_fields.release_date)}:extras.get(r.source_kit_id));
         return [variant,{variant,type:variant==='home'?'Home':'Away',status:r?'source_saved':'pending_research',
           season:r?.kit_season??null,source_season_label:r?.source_season_label??null,
           season_fallback:r?fallbackFor(team.id,variant,r.kit_season):null,
@@ -61,7 +61,7 @@ export async function buildTeamEquipment(){
           source:r?{publisher:r.source,url:r.page_url,kit_id:r.source_kit_id,checked_at:r.checked_at,
             evidence_url:r.listing_url??r.page_url,
             record_path:`data/research/footballkitarchive/records/${r.task_id}.json`,
-            extended_fields_capture:e?provenance.capture_path:null,extended_fields_checked_at:e?(provenance.supplemental_checks?.find(c=>c.kit_id===r.source_kit_id)?.checked_at??provenance.checked_at):null}:null}];
+            extended_fields_capture:e?(e.capture_path??provenance.capture_path):null,extended_fields_checked_at:e?(e.checked_at??provenance.supplemental_checks?.find(c=>c.kit_id===r.source_kit_id)?.checked_at??provenance.checked_at):null}:null}];
       }))};
     await save(`data/teams/${team.id}.json`,data);output.set(team.id,data);
   }

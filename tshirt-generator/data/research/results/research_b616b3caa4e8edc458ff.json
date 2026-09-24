@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,10 +40,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_219a8535e73f63dba1e1-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_219a8535e73f63dba1e1-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -65,15 +63,22 @@
       "Red"
     ],
     "values": {
-      "body": "#147AB8",
-      "leftSleeve": "#147AB8",
-      "rightSleeve": "#147AB8",
-      "collar": "#147AB8",
-      "leftCuff": "#147AB8",
-      "rightCuff": "#147AB8"
+      "body": "#076AA9",
+      "leftSleeve": "#076AA9",
+      "rightSleeve": "#076AA9",
+      "collar": "#08609D",
+      "leftCuff": "#076AA9",
+      "rightCuff": "#076AA9"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue body, sleeves and sewn round neckline; sponsor and sleeve/chest lettering excluded. The posed source is independently identified as Away.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_219a8535e73f63dba1e1-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_b616b3caa4e8edc458ff.json",
     "source_kit_id": "502693"
@@ -83,6 +88,11 @@
       "date": "2026-09-23",
       "batch": "romania-liga2-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eb5ead83708f82932710",
+  "team_name": "Millwall",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy with muted blue vertical bars edged by thin pale pinlines, continuing onto sleeves; subdued gold collar/cuff edge.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eb5ead83708f82932710-home-485881.jpg",
+      "page_url": "https://www.footballkitarchive.com/millwall-fc-2026-27-home-kit-485881/",
+      "sha256": "3394d74e366cfddfda5999198febd658efe0c2e4d65e8ad5e1666d0bc2e8436d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#151D3B",
+      "leftSleeve": "#151D3B",
+      "rightSleeve": "#151D3B",
+      "collar": "#19243C",
+      "leftCuff": "#162039",
+      "rightCuff": "#162039"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#19243C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.676 2.568L77 2Q100 7 123 2L124.324 2.568C127.946 25.514 72.054 25.514 75.676 2.568Z",
+          "fill": "#B6A570",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#151D3B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 53.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 66,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 66.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 79,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 79.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 131,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 131.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#253449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 144.2,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#D9E0DD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 18,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#E5E5D8",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 39,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#E5E5D8",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 160,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#E5E5D8",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 181,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#E5E5D8",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#162039",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#B2A778",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#162039",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#B2A778",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

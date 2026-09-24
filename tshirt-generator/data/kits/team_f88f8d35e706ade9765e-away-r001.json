@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f88f8d35e706ade9765e",
+  "team_name": "Carrarese",
+  "country_name": "Italy",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-italy-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/carrarese-calcio-2026-27-away-kit-513539/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/NfP42ursj2a5rlN/carrarese-calcio-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f88f8d35e706ade9765e-away-513539.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Yellow",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#ECEDEA",
+      "leftSleeve": "#ECEDEA",
+      "rightSleeve": "#ECEDEA",
+      "collar": "#ECEDEA",
+      "leftCuff": "#1670B8",
+      "rightCuff": "#1670B8"
+    }
+  },
+  "observations": "White with a broad blue upper chevron containing a narrow yellow chevron; white neck, fine blue/yellow/blue sleeve edging. Shoulder brand symbols omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a broad blue upper chevron containing a narrow yellow chevron; white neck, fine blue/yellow/blue sleeve edging. Shoulder brand symbols omitted.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_f88f8d35e706ade9765e-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#ECEDEA",
+      "leftSleeve": "#ECEDEA",
+      "rightSleeve": "#ECEDEA",
+      "collar": "#ECEDEA",
+      "leftCuff": "#1670B8",
+      "rightCuff": "#1670B8"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#ECEDEA",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#ECEDEA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            27
+          ],
+          [
+            100,
+            51
+          ],
+          [
+            151,
+            27
+          ],
+          [
+            151,
+            43
+          ],
+          [
+            100,
+            68
+          ],
+          [
+            49,
+            43
+          ]
+        ],
+        "fill": "#136DB7",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            32
+          ],
+          [
+            100,
+            57
+          ],
+          [
+            151,
+            32
+          ],
+          [
+            151,
+            37
+          ],
+          [
+            100,
+            62
+          ],
+          [
+            49,
+            37
+          ]
+        ],
+        "fill": "#E9CF31",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#1670B8",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.5C24 79.10000000000001 36 84.4 44.5 83.5Q48 83.60000000000001 49.2 75.4L52 106H5Z",
+        "fill": "#E2C734",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.69999999999999C24 80.3 36 85.6 44.5 84.69999999999999Q48 84.8 49.2 76.6L52 106H5Z",
+        "fill": "#186CAE",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#1670B8",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.5C176 79.10000000000001 164 84.4 155.5 83.5Q152 83.60000000000001 150.8 75.4L148 106H195Z",
+        "fill": "#E2C734",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.69999999999999C176 80.3 164 85.6 155.5 84.69999999999999Q152 84.8 150.8 76.6L148 106H195Z",
+        "fill": "#186CAE",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

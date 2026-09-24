@@ -4,8 +4,8 @@
   "team_name": "Queens Park Rangers",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1bb12cbf5a4feeaec6c4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/queens-park-rangers-2026-27-home-kit-488671/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/14/Pk20DNWxtxik37C/queens-park-rangers-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1bb12cbf5a4feeaec6c4-home-488671.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#EEEFF1",
+      "leftSleeve": "#EEEFF1",
+      "rightSleeve": "#EEEFF1",
+      "collar": "#005ACA",
+      "leftCuff": "#005DCF",
+      "rightCuff": "#005DCF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Three broad royal-blue hoops on white torso; solid white sleeves. Blue/white/yellow ring and sleeve edging.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1bb12cbf5a4feeaec6c4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c19a27f8ebb186818132.json",
+    "source_kit_id": "488671"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

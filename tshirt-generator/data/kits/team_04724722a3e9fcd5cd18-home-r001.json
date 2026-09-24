@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_04724722a3e9fcd5cd18",
+  "team_name": "Burnley",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/burnley-fc-2026-27-home-kit-511447/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/19/aWggRl3klKmJLgs/burnley-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_04724722a3e9fcd5cd18-home-511447.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#741D3D",
+      "leftSleeve": "#741D3D",
+      "rightSleeve": "#741D3D",
+      "collar": "#741D3D",
+      "leftCuff": "#A8D5E7",
+      "rightCuff": "#A8D5E7"
+    }
+  },
+  "observations": "Claret torso and sleeves with narrow sky-blue edging on collar and two parallel cuff edges.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret torso and sleeves with narrow sky-blue edging on collar and two parallel cuff edges.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_04724722a3e9fcd5cd18-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#741D3D",
+      "leftSleeve": "#741D3D",
+      "rightSleeve": "#741D3D",
+      "collar": "#741D3D",
+      "leftCuff": "#A8D5E7",
+      "rightCuff": "#A8D5E7"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#741D3D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#A8D5E7",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#741D3D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#A8D5E7",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.19999999999999C24 77.8 36 83.1 44.5 82.19999999999999Q48 82.3 49.2 74.1L52 106H5Z",
+        "fill": "#741D3D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#A8D5E7",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#A8D5E7",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.19999999999999C176 77.8 164 83.1 155.5 82.19999999999999Q152 82.3 150.8 74.1L148 106H195Z",
+        "fill": "#741D3D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#A8D5E7",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

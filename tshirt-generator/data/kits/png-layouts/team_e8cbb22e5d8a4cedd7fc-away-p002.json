@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e8cbb22e5d8a4cedd7fc",
+  "team_name": "CSC 1599 Șelimbăr",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White shirt with dark blue curved shoulder inserts and narrow red lower side flashes, matching the separate posed front source.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e8cbb22e5d8a4cedd7fc-away-507577.jpg",
+      "page_url": "https://www.footballkitarchive.com/1599-selimbar-2026-27-away-kit-507577/",
+      "sha256": "29fd7dee01e86c5c960035edfc591d243bde80362dbe07a53233f43c3109477c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1F1",
+      "leftSleeve": "#F0F1F1",
+      "rightSleeve": "#F0F1F1",
+      "collar": "#E4EBEB",
+      "leftCuff": "#F0F1F1",
+      "rightCuff": "#F0F1F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E4EBEB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            8
+          ],
+          [
+            48,
+            21
+          ],
+          [
+            43,
+            45
+          ],
+          [
+            40,
+            30
+          ],
+          [
+            48,
+            18
+          ]
+        ],
+        "fill": "#2B4164",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            8
+          ],
+          [
+            152,
+            21
+          ],
+          [
+            157,
+            45
+          ],
+          [
+            160,
+            30
+          ],
+          [
+            152,
+            18
+          ]
+        ],
+        "fill": "#2B4164",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            115
+          ],
+          [
+            55,
+            121
+          ],
+          [
+            50,
+            156
+          ]
+        ],
+        "fill": "#D52C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            115
+          ],
+          [
+            145,
+            121
+          ],
+          [
+            150,
+            156
+          ]
+        ],
+        "fill": "#D52C36",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

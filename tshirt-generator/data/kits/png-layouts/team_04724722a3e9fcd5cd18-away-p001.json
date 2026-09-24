@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_04724722a3e9fcd5cd18",
+  "team_name": "Burnley",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Cream shirt with five widely spaced paired green/claret horizontal pinlines, green cuffs and neck with claret edging. Sleeve lines continue from the independently checked source.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_04724722a3e9fcd5cd18-away-511958.jpg",
+      "page_url": "https://www.footballkitarchive.com/burnley-fc-2026-27-away-kit-511958/",
+      "sha256": "30f075a80fb4d1ca56269dc28f63cf5b66f0e5342a58279980c06e2ea2627367"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0E5CD",
+      "leftSleeve": "#F0E5CD",
+      "rightSleeve": "#F0E5CD",
+      "collar": "#173931",
+      "leftCuff": "#213D34",
+      "rightCuff": "#213D34"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#173931",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#682F30",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0E5CD",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 23,
+        "width": 200,
+        "height": 0.7,
+        "fill": "#1D3D36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 24.4,
+        "width": 200,
+        "height": 0.65,
+        "fill": "#6F3431",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 63,
+        "width": 200,
+        "height": 0.7,
+        "fill": "#1D3D36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 64.4,
+        "width": 200,
+        "height": 0.65,
+        "fill": "#6F3431",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 103,
+        "width": 200,
+        "height": 0.7,
+        "fill": "#1D3D36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 104.4,
+        "width": 200,
+        "height": 0.65,
+        "fill": "#6F3431",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 143,
+        "width": 200,
+        "height": 0.7,
+        "fill": "#1D3D36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 144.4,
+        "width": 200,
+        "height": 0.65,
+        "fill": "#6F3431",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 184,
+        "width": 200,
+        "height": 0.7,
+        "fill": "#1D3D36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 185.4,
+        "width": 200,
+        "height": 0.65,
+        "fill": "#6F3431",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#213D34",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.39999999999999C24 80 36 85.3 44.5 84.39999999999999Q48 84.5 49.2 76.3L52 106H5Z",
+        "fill": "#6B2C30",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#213D34",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.39999999999999C176 80 164 85.3 155.5 84.39999999999999Q152 84.5 150.8 76.3L148 106H195Z",
+        "fill": "#6B2C30",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

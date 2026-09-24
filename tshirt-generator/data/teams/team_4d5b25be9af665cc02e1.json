@@ -11,42 +11,70 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Birmingham City",
+      "design": "Plain",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Coral",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "July 27, 2026",
+      "release_date_iso": "2026-07-27",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/birmingham-city-2026-27-home-kit-500320/",
+        "kit_id": "500320",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_67f25ba9abee261c0671.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Birmingham City",
+      "design": "Plain",
+      "colors": [
+        "Yellow",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Coral",
+      "competitions": [
+        "Championship"
+      ],
+      "release_date": "August 13, 2026",
+      "release_date_iso": "2026-08-13",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/birmingham-city-2026-27-away-kit-508003/",
+        "kit_id": "508003",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/championship-kits-2026-27-l61/",
+        "record_path": "data/research/footballkitarchive/records/research_38cb3ad438ad58b7b6aa.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/championship-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

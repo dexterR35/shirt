@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_29abf144de6408acb8c1",
+  "team_name": "Sheffield United",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Ivory shirt with broad red and black diagonal sash from viewer-right shoulder to viewer-left hem, black shoulder tapes, black/red trim.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_29abf144de6408acb8c1-away-496555.jpg",
+      "page_url": "https://www.footballkitarchive.com/sheffield-united-2026-27-away-kit-496555/",
+      "sha256": "ffa9f8fc2cef4751fa3526bb27acd7ad8ffd2911ae126590a123bbcc416f8de3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0E9",
+      "leftSleeve": "#F0F0E9",
+      "rightSleeve": "#F0F0E9",
+      "collar": "#1B1E21",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1B1E21",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#CF233E",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0E9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            3
+          ],
+          [
+            145,
+            23
+          ],
+          [
+            70,
+            199
+          ],
+          [
+            48,
+            199
+          ]
+        ],
+        "fill": "#171A1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            2
+          ],
+          [
+            132,
+            6
+          ],
+          [
+            58,
+            199
+          ],
+          [
+            48,
+            195
+          ]
+        ],
+        "fill": "#C9243B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.4
+          ],
+          [
+            35,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.4
+          ],
+          [
+            165,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.4
+          ],
+          [
+            38,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.4
+          ],
+          [
+            162,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.4
+          ],
+          [
+            41,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.4
+          ],
+          [
+            159,
+            25.4
+          ]
+        ],
+        "fill": "#1D2021",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#1C1E20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#CE2841",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#1C1E20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#CE2841",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Eintracht Braunschweig",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e9c919284ba7dc0181cf-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/eintracht-braunschweig-2026-27-home-kit-492707/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/27/pHfwsqdU6ZV5qgm/eintracht-braunschweig-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e9c919284ba7dc0181cf-home-492707.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F1C600",
+      "leftSleeve": "#F1C600",
+      "rightSleeve": "#F1C600",
+      "collar": "#0E4B7F",
+      "leftCuff": "#E7BE10",
+      "rightCuff": "#E7BE10"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with blue underarm sleeve panels, slim blue neckline edged yellow. Large faint lion/emblem field deliberately omitted under no-emblems rule.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_e9c919284ba7dc0181cf-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5a65db6a592ac98511a4.json",
+    "source_kit_id": "492707"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

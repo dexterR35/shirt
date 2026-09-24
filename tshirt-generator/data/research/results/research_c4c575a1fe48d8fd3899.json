@@ -4,8 +4,8 @@
   "team_name": "Preston North End",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_179e415d421cb58091f6-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/preston-north-end-2026-27-away-kit-491778/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/sJbZVWP69vWGKI1/preston-north-end-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_179e415d421cb58091f6-away-491778.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#053B8B",
+      "leftSleeve": "#053B8B",
+      "rightSleeve": "#053B8B",
+      "collar": "#E5BF17",
+      "leftCuff": "#E1BC19",
+      "rightCuff": "#E1BC19"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep royal-blue body and sleeves, contrasting yellow neckline and yellow sleeve ends.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_179e415d421cb58091f6-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c4c575a1fe48d8fd3899.json",
+    "source_kit_id": "491778"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

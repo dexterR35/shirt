@@ -4,8 +4,8 @@
   "team_name": "Juve Stabia",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a23a8fa365306c8fd72f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ss-juve-stabia-2026-27-away-kit-525010/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/24/KoeF7EQqUvBpOmW/ss-juve-stabia-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a23a8fa365306c8fd72f-away-525010.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#EBEBED",
+      "leftSleeve": "#EBEBED",
+      "rightSleeve": "#EBEBED",
+      "collar": "#E9CF56",
+      "leftCuff": "#EBEBED",
+      "rightCuff": "#EBEBED"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with fine widely spaced gold vertical pinstripes, gold round neck and three navy shoulder bands. White sleeves and white cuffs retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_a23a8fa365306c8fd72f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1d8bbebccec10771b42a.json",
+    "source_kit_id": "525010"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

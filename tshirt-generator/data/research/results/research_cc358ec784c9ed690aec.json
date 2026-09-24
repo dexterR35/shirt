@@ -4,8 +4,8 @@
   "team_name": "Mantova",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fb63a732260311bfba54-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mantova-1911-2026-27-away-kit-506316/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/R2i7jK7TaskLTFU/mantova-1911-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fb63a732260311bfba54-away-506316.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#CE202F",
+      "leftSleeve": "#CE202F",
+      "rightSleeve": "#CE202F",
+      "collar": "#CB2630",
+      "leftCuff": "#F1ECE3",
+      "rightCuff": "#F1ECE3"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body with darker red shoulder stripes, red neckline edged white and white sleeve bands. Three shoulder stripes inspected independently; source polo flap/placket not added.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_fb63a732260311bfba54-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cc358ec784c9ed690aec.json",
+    "source_kit_id": "506316"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

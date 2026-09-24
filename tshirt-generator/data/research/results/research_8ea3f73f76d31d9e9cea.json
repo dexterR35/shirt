@@ -4,8 +4,8 @@
   "team_name": "Cremonese",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_93209fb61c23df4143a4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-cremonese-2026-27-home-kit-501570/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/pLWATaQvu86Ftr1/us-cremonese-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_93209fb61c23df4143a4-home-501570.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#A3A5A5",
+      "leftSleeve": "#A3A5A5",
+      "rightSleeve": "#A3A5A5",
+      "collar": "#4A4A47",
+      "leftCuff": "#333A3D",
+      "rightCuff": "#333A3D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Grey body with four red serrated vertical columns, grey/red sleeve inserts, grey neck and layered grey/black/red sleeve ends. Zigzag width and spacing adapted from saved front.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_93209fb61c23df4143a4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8ea3f73f76d31d9e9cea.json",
+    "source_kit_id": "501570"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_219a8535e73f63dba1e1",
+  "team_name": "FC Bacău",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Blue body, sleeves and sewn round neckline; sponsor and sleeve/chest lettering excluded. The posed source is independently identified as Away.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_219a8535e73f63dba1e1-away-502693.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-bacau-2026-27-away-kit-502693/",
+      "sha256": "e98db2f65c07d9c6a205f07b99095876cd44c7481aa95e06f00b3232c7ebcb0a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#076AA9",
+      "leftSleeve": "#076AA9",
+      "rightSleeve": "#076AA9",
+      "collar": "#08609D",
+      "leftCuff": "#076AA9",
+      "rightCuff": "#076AA9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#08609D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#076AA9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

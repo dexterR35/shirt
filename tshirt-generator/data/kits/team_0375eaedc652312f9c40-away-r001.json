@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0375eaedc652312f9c40",
+  "team_name": "Gloria Bistrița",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-romania-2026-09-24",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-gloria-2018-bistrita-nasaud-2026-27-away-kit-502337/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/QQeNHWpbr7Najny/cs-gloria-2018-bistrita-nasaud-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0375eaedc652312f9c40-away-502337.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#0765C1",
+      "leftSleeve": "#4B8FC5",
+      "rightSleeve": "#4B8FC5",
+      "collar": "#153668",
+      "leftCuff": "#0765C1",
+      "rightCuff": "#0765C1"
+    }
+  },
+  "observations": "Pale blue upper front fading to royal blue lower body, blue sleeves and dark blue neck. Large repeated stylized lion emblem excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0765C1",
+      "leftSleeve": "#4B8FC5",
+      "rightSleeve": "#4B8FC5",
+      "collar": "#153668",
+      "leftCuff": "#0765C1",
+      "rightCuff": "#0765C1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#153668",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0765C1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 102,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#BDCFDF"
+            },
+            {
+              "offset": 0.22,
+              "color": "#89B6D8"
+            },
+            {
+              "offset": 0.55,
+              "color": "#086AC1"
+            },
+            {
+              "offset": 1,
+              "color": "#0349A6"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0b235f8384bcf056ea4e",
+  "team_name": "1. FC Magdeburg",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fc-magdeburg-2026-27-home-kit-490274/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/XKF8tVx1Ofok51T/1-fc-magdeburg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0b235f8384bcf056ea4e-home-490274.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#E9EFF1",
+      "leftSleeve": "#0075BB",
+      "rightSleeve": "#0075BB",
+      "collar": "#F0F0ED",
+      "leftCuff": "#0075BB",
+      "rightCuff": "#0075BB"
+    }
+  },
+  "observations": "White front with six narrow blue vertical bars and a plain white horizontal sponsor-height band, solid blue sleeves and white neck.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White front with six narrow blue vertical bars and a plain white horizontal sponsor-height band, solid blue sleeves and white neck.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_0b235f8384bcf056ea4e-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E9EFF1",
+      "leftSleeve": "#0075BB",
+      "rightSleeve": "#0075BB",
+      "collar": "#F0F0ED",
+      "leftCuff": "#0075BB",
+      "rightCuff": "#0075BB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F0ED",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E9EFF1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 73,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 9,
+        "height": 200,
+        "fill": "#0076B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 64,
+        "width": 102,
+        "height": 20,
+        "fill": "#ECEFEF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

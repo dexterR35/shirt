@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1caa339e9a7b9a023f1b",
+  "team_name": "Bristol City",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bristol-city-2026-27-home-kit-494837/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/10/3fSHtTM6IqmxPuc/bristol-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1caa339e9a7b9a023f1b-home-494837.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#BF1938",
+      "leftSleeve": "#BF1938",
+      "rightSleeve": "#BF1938",
+      "collar": "#BF1938",
+      "leftCuff": "#BF1938",
+      "rightCuff": "#BF1938"
+    }
+  },
+  "observations": "Red fabric and sleeves with a fine pale neckline band. The original sewn round neck replaces the source wrap neckline; no second neck shape.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red fabric and sleeves with a fine pale neckline band. The original sewn round neck replaces the source wrap neckline; no second neck shape.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1caa339e9a7b9a023f1b-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BF1938",
+      "leftSleeve": "#BF1938",
+      "rightSleeve": "#BF1938",
+      "collar": "#BF1938",
+      "leftCuff": "#BF1938",
+      "rightCuff": "#BF1938"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BF1938",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.753 2.534L77 2Q100 7 123 2L124.247 2.534C127.89 25.425 72.11 25.425 75.753 2.534Z",
+          "fill": "#E4D8D5",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BF1938",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

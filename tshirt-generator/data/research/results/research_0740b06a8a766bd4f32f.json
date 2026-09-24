@@ -4,8 +4,8 @@
   "team_name": "Charlton Athletic",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Tonal scroll contours are still too grainy and contrasted; reconstruct finer ornamental lines."
+  ],
+  "kit_revision_path": "data/kits/team_f16a85c178e3bb4ddcff-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/charlton-athletic-2026-27-away-kit-500181/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/21/gTHqEEC09uGdkJg/charlton-athletic-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f16a85c178e3bb4ddcff-away-500181.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Claret",
+      "Red"
+    ],
+    "values": {
+      "body": "#E8E3D2",
+      "leftSleeve": "#E8E3D2",
+      "rightSleeve": "#E8E3D2",
+      "collar": "#4D1516",
+      "leftCuff": "#491D19",
+      "rightCuff": "#491D19"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0740b06a8a766bd4f32f.json",
+    "source_kit_id": "500181"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

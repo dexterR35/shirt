@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_75ce8c9686924f3e5f03",
+  "team_name": "Cetatea 1932 Suceava",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White match shirt with fine navy vertical torso pinstripes, white sleeves and dark neck edge. Match-photo perspective and folds adapted to common silhouette.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_75ce8c9686924f3e5f03-home-502849.jpg",
+      "page_url": "https://www.footballkitarchive.com/cetatea-suceava-2026-27-home-kit-502849/",
+      "sha256": "51fa67102becaedba249aec4296cfba26576d4eeacfe1ea1438a924360690876"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E7EEF2",
+      "leftSleeve": "#E8F0F4",
+      "rightSleeve": "#E8F0F4",
+      "collar": "#233F57",
+      "leftCuff": "#E7EEF2",
+      "rightCuff": "#E7EEF2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#233F57",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E7EEF2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 69,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 144,
+        "y": 0,
+        "width": 0.55,
+        "height": 200,
+        "fill": "#2F5471",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

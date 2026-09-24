@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e9c919284ba7dc0181cf",
+  "team_name": "Eintracht Braunschweig",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/eintracht-braunschweig-2026-27-home-kit-492707/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/27/pHfwsqdU6ZV5qgm/eintracht-braunschweig-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e9c919284ba7dc0181cf-home-492707.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F1C600",
+      "leftSleeve": "#F1C600",
+      "rightSleeve": "#F1C600",
+      "collar": "#0E4B7F",
+      "leftCuff": "#E7BE10",
+      "rightCuff": "#E7BE10"
+    }
+  },
+  "observations": "Yellow with blue underarm sleeve panels, slim blue neckline edged yellow. Large faint lion/emblem field deliberately omitted under no-emblems rule.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with blue underarm sleeve panels, slim blue neckline edged yellow. Large faint lion/emblem field deliberately omitted under no-emblems rule.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_e9c919284ba7dc0181cf-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1C600",
+      "leftSleeve": "#F1C600",
+      "rightSleeve": "#F1C600",
+      "collar": "#0E4B7F",
+      "leftCuff": "#E7BE10",
+      "rightCuff": "#E7BE10"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0E4B7F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.185 2.778L77 2Q100 7 123 2L124.815 2.778C128.296 26.074 71.704 26.074 75.185 2.778Z",
+          "fill": "#D9B82B",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1C600",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            8,
+            71
+          ],
+          [
+            28,
+            72
+          ],
+          [
+            49,
+            62
+          ],
+          [
+            49,
+            78
+          ],
+          [
+            29,
+            84
+          ],
+          [
+            11,
+            78
+          ]
+        ],
+        "fill": "#05578B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            192,
+            71
+          ],
+          [
+            172,
+            72
+          ],
+          [
+            151,
+            62
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            171,
+            84
+          ],
+          [
+            189,
+            78
+          ]
+        ],
+        "fill": "#05578B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#E7BE10",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#E7BE10",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

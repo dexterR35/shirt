@@ -335,8 +335,8 @@ test('new Tier 1 detailed layouts apply locally while unfinished revisions show 
   // An unfinished draft is never painted; the plain base and a missing message are shown.
   await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
   await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
-  await page.getByRole('button',{name:'Away',exact:true}).click();
-  await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
+  // Tier 2 promoted Away; the Home shoulder yoke still needs correction.
+  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
   await expect(card).toContainText('Choose a team');
   expect(external).toEqual([]);
@@ -442,8 +442,8 @@ test('Milan and Venezia Away load reviewed local layouts while a non-mandatory d
   }
   await page.getByLabel('Team',{exact:true}).fill('Chindia Târgoviște');
   await page.getByRole('button',{name:/Chindia Târgoviște Romania/}).click();
-  await page.getByRole('button',{name:'Away',exact:true}).click();
-  await expect(page.locator('.canvas-caption p')).toHaveText('Away kit not available yet');
+  // Tier 2 promoted Away; Home remains a draft.
+  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
   await expect(canvas).toHaveAttribute('aria-label','Original PNG shirt');
   await expect(card).toContainText('Choose a team');
   expect(external).toEqual([]);

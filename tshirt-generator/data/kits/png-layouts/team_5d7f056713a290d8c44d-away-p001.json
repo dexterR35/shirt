@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5d7f056713a290d8c44d",
+  "team_name": "VfL Wolfsburg",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Pale grey-green body and sleeves with dark green neckline and small dark green underarm side inserts.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5d7f056713a290d8c44d-away-448262.jpg",
+      "page_url": "https://www.footballkitarchive.com/vfl-wolfsburg-2026-27-away-kit-448262/",
+      "sha256": "b55122078cedbcd6ac506d0590334f9eb897be48f45e6b7961d98edf11ee5e2e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BDC8C9",
+      "leftSleeve": "#BDC8C9",
+      "rightSleeve": "#BDC8C9",
+      "collar": "#183F35",
+      "leftCuff": "#BDC8C9",
+      "rightCuff": "#BDC8C9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#183F35",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BDC8C9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            91
+          ],
+          [
+            54,
+            120
+          ],
+          [
+            51,
+            154
+          ],
+          [
+            49,
+            161
+          ]
+        ],
+        "fill": "#204A40",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            91
+          ],
+          [
+            146,
+            120
+          ],
+          [
+            149,
+            154
+          ],
+          [
+            151,
+            161
+          ]
+        ],
+        "fill": "#204A40",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

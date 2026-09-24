@@ -4,8 +4,8 @@
   "team_name": "Lincoln City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_98fac2d0056268d040a4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/lincoln-city-2026-27-home-kit-492441/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/FJ9bF0dO9WLL8yT/lincoln-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_98fac2d0056268d040a4-home-492441.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#CB1337",
+      "leftSleeve": "#CB1337",
+      "rightSleeve": "#CB1337",
+      "collar": "#19191F",
+      "leftCuff": "#16171C",
+      "rightCuff": "#16171C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red torso with two broad white vertical stripes and fine tonal lines in the central red panel, solid red sleeves, black collar and layered black/white/red cuffs.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_98fac2d0056268d040a4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ad3a3c809d0d117af222.json",
+    "source_kit_id": "492441"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

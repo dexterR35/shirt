@@ -4,8 +4,8 @@
   "team_name": "Southampton",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Pink/blue marble ribbons need their finer continuous contours and reference color balance."
+  ],
+  "kit_revision_path": "data/kits/team_f4a13356d9b8b9f9e9d1-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/southampton-fc-2026-27-away-kit-497065/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/19/cKYBcT1tDCXILCW/southampton-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f4a13356d9b8b9f9e9d1-away-497065.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Pink",
+      "Silver"
+    ],
+    "values": {
+      "body": "#2382C4",
+      "leftSleeve": "#2382C4",
+      "rightSleeve": "#2382C4",
+      "collar": "#0962A7",
+      "leftCuff": "#0D61A7",
+      "rightCuff": "#0D61A7"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_104fbc018ce11b54a637.json",
+    "source_kit_id": "497065"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

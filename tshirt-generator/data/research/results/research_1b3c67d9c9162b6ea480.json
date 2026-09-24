@@ -4,8 +4,8 @@
   "team_name": "Hannover 96",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_71a61b575b315bc52c0a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hannover-96-2026-27-away-kit-491494/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/30/SZ3AHCMqfLvtzM8/hannover-96-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_71a61b575b315bc52c0a-away-491494.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Green"
+    ],
+    "values": {
+      "body": "#11191B",
+      "leftSleeve": "#11191B",
+      "rightSleeve": "#11191B",
+      "collar": "#102A25",
+      "leftCuff": "#11191B",
+      "rightCuff": "#11191B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black upper shirt fading into four dark-green vertical front bands, black sleeves and dark-green neckline. Fine speckling in the transition simplified to a smooth color fade.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_71a61b575b315bc52c0a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1b3c67d9c9162b6ea480.json",
+    "source_kit_id": "491494"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

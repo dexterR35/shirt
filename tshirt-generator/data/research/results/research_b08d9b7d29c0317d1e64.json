@@ -4,8 +4,8 @@
   "team_name": "FC St. Pauli",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Brown diagonal strokes are too broad; reproduce the fine jagged branches and exact distribution."
+  ],
+  "kit_revision_path": "data/kits/team_a8d4565d5cc52227731c-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-st-pauli-2026-27-away-kit-488458/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/12/9Rk9WsZDvLfuAeA/fc-st-pauli-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a8d4565d5cc52227731c-away-488458.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Brown"
+    ],
+    "values": {
+      "body": "#ECEBE6",
+      "leftSleeve": "#ECEBE6",
+      "rightSleeve": "#ECEBE6",
+      "collar": "#ECEBE6",
+      "leftCuff": "#ECEBE6",
+      "rightCuff": "#ECEBE6"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b08d9b7d29c0317d1e64.json",
+    "source_kit_id": "488458"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eb20dca77371769cbb2b",
+  "team_name": "West Bromwich Albion",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Red with darker twin central bars splitting into diagonal lower-front branches. Black cuffs and neck with pale narrow edges; fine woven lines simplified.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eb20dca77371769cbb2b-away-494052.jpg",
+      "page_url": "https://www.footballkitarchive.com/west-bromwich-albion-2026-27-away-kit-494052/",
+      "sha256": "a27cbdd43a0c52ff8ce08ad3761d5a35ac6863caa0d181adf1acf0087799e10d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#C62336",
+      "leftSleeve": "#C62336",
+      "rightSleeve": "#C62336",
+      "collar": "#202428",
+      "leftCuff": "#202426",
+      "rightCuff": "#202426"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#202428",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#ECE9E2",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#C62336",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#B51F31",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#B51F31",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            94,
+            90
+          ],
+          [
+            100,
+            98
+          ],
+          [
+            53,
+            169
+          ],
+          [
+            50,
+            148
+          ]
+        ],
+        "fill": "#B01E30",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            105,
+            89
+          ],
+          [
+            111,
+            90
+          ],
+          [
+            150,
+            148
+          ],
+          [
+            147,
+            169
+          ]
+        ],
+        "fill": "#B01E30",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#202426",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#ECE9E1",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#202426",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#ECE9E1",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

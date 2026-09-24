@@ -4,8 +4,8 @@
   "team_name": "Mantova",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fb63a732260311bfba54-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mantova-1911-2026-27-home-kit-496334/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/X7d67Abxy9OrR0m/mantova-1911-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fb63a732260311bfba54-home-496334.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1F0EE",
+      "leftSleeve": "#F1F0EE",
+      "rightSleeve": "#F1F0EE",
+      "collar": "#CA2735",
+      "leftCuff": "#D02736",
+      "rightCuff": "#D02736"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body with red shoulder stripes, red neck and red sleeve bands. Three shoulder stripes inspected independently; source polo flap/placket not added.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_fb63a732260311bfba54-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_14a6a3f76d899f170f35.json",
+    "source_kit_id": "496334"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

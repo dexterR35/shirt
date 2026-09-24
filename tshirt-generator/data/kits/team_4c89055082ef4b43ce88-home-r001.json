@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4c89055082ef4b43ce88",
+  "team_name": "Steaua București",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-romania-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csa-steaua-bucuresti-2026-27-home-kit-502738/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/MfUYjYAhKs2LSJd/csa-steaua-bucuresti-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4c89055082ef4b43ce88-home-502738.jpg",
+      "checked_at": "2026-09-23",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#D62F36",
+      "leftSleeve": "#D62F36",
+      "rightSleeve": "#D62F36",
+      "collar": "#283D49",
+      "leftCuff": "#D62F36",
+      "rightCuff": "#D62F36"
+    }
+  },
+  "observations": "Red with a narrow central blue broken ladder/rectangular stripe and dark neck edge. Tattoos, emblems and lettering excluded; original round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with a narrow central blue broken ladder/rectangular stripe and dark neck edge. Tattoos, emblems and lettering excluded; original round collar retained.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_4c89055082ef4b43ce88-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D62F36",
+      "leftSleeve": "#D62F36",
+      "rightSleeve": "#D62F36",
+      "collar": "#283D49",
+      "leftCuff": "#D62F36",
+      "rightCuff": "#D62F36"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#283D49",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D62F36",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 15,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 15,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 15,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 33,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 33,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 33,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 51,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 51,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 51,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 69,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 69,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 69,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 87,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 87,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 87,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 105,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 105,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 105,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 123,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 123,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 123,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 141,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 141,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 141,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 159,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 159,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 159,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 177,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 177,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 177,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 195,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 195,
+        "width": 2.6,
+        "height": 18,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 195,
+        "width": 3,
+        "height": 9,
+        "fill": "#245A7B",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

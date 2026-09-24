@@ -4,8 +4,8 @@
   "team_name": "Middlesbrough",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ada30dbcff149d590881-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/middlesbrough-fc-2026-27-away-kit-493363/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/xXnVNSFwZZ4XmlQ/middlesbrough-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ada30dbcff149d590881-away-493363.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#E5E7E9",
+      "leftSleeve": "#E5E7E9",
+      "rightSleeve": "#E5E7E9",
+      "collar": "#222A45",
+      "leftCuff": "#29314C",
+      "rightCuff": "#29314C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale grey body with navy neckline, triangular shoulder inserts and fine pale dotted texture on navy cuffs.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_ada30dbcff149d590881-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cd798ce17d8d65c0168b.json",
+    "source_kit_id": "493363"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

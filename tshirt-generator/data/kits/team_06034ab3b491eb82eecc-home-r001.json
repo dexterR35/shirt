@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_06034ab3b491eb82eecc",
+  "team_name": "Blackburn Rovers",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/blackburn-rovers-2026-27-home-kit-494735/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/11/5pRW0IlBIIOf9Oe/blackburn-rovers-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_06034ab3b491eb82eecc-home-494735.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F0F0",
+      "leftSleeve": "#287BB0",
+      "rightSleeve": "#EEEEED",
+      "collar": "#EEEEED",
+      "leftCuff": "#EEEEED",
+      "rightCuff": "#EEEEED"
+    }
+  },
+  "observations": "White viewer-left and blue viewer-right torso halves; opposite sleeve colors. Pale cuffs with fine red edges and pale/red neckline.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White viewer-left and blue viewer-right torso halves; opposite sleeve colors. Pale cuffs with fine red edges and pale/red neckline.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_06034ab3b491eb82eecc-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F0F0",
+      "leftSleeve": "#287BB0",
+      "rightSleeve": "#EEEEED",
+      "collar": "#EEEEED",
+      "leftCuff": "#EEEEED",
+      "rightCuff": "#EEEEED"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EEEEED",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.292 2.303L77 2Q100 7 123 2L123.708 2.303C127.506 24.809 72.494 24.809 76.292 2.303Z",
+          "fill": "#C73036",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F0F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 100,
+        "height": 200,
+        "fill": "#267AAD",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#EEEEED",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#BD2C36",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#EEEEED",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#BD2C36",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

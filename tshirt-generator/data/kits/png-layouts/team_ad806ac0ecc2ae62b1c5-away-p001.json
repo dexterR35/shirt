@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad806ac0ecc2ae62b1c5",
+  "team_name": "Hertha BSC",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy upper shirt with a broad sweeping pale/sky-blue lower gradient and overlapping curved diagonal light ribbons. Solid navy sleeves and fine pale neck edge.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad806ac0ecc2ae62b1c5-away-495350.jpg",
+      "page_url": "https://www.footballkitarchive.com/hertha-bsc-2026-27-away-kit-495350/",
+      "sha256": "606759d29b6268644c1ae756abb3b94ef7ad313d898eca6dc4844a1c7a30a703"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#152039",
+      "leftSleeve": "#152039",
+      "rightSleeve": "#152039",
+      "collar": "#172238",
+      "leftCuff": "#152039",
+      "rightCuff": "#152039"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#172238",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76 2.429L77 2Q100 7 123 2L124 2.429C127.714 25.143 72.286 25.143 76 2.429Z",
+          "fill": "#D8E0E2",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#152039",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 102,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#152039"
+            },
+            {
+              "offset": 0.38,
+              "color": "#152039"
+            },
+            {
+              "offset": 0.63,
+              "color": "#194475"
+            },
+            {
+              "offset": 0.82,
+              "color": "#71ABE0"
+            },
+            {
+              "offset": 1,
+              "color": "#C7E0F0"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 150Q95 112 151 96L151 107Q96 130 49 162Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 85,
+          "x2": 0,
+          "y2": 165,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#1C3C64"
+            },
+            {
+              "offset": 1,
+              "color": "#AFD0EE"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M61 77Q88 144 151 164L151 172Q77 149 53 82Z",
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 77,
+          "x2": 0,
+          "y2": 172,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#17304E"
+            },
+            {
+              "offset": 0.5,
+              "color": "#729CCC"
+            },
+            {
+              "offset": 1,
+              "color": "#E1EDF5"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M99 137Q108 174 151 193L151 200H142Q105 173 99 137Z",
+        "fill": "#234771",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

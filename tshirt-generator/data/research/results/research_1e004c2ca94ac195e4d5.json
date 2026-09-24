@@ -4,8 +4,8 @@
   "team_name": "FC St. Pauli",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a8d4565d5cc52227731c-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-st-pauli-2026-27-home-kit-484428/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/12/yiy2ENbZqJoqtns/fc-st-pauli-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a8d4565d5cc52227731c-home-484428.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Brown",
+      "White"
+    ],
+    "values": {
+      "body": "#342923",
+      "leftSleeve": "#342923",
+      "rightSleeve": "#342923",
+      "collar": "#342923",
+      "leftCuff": "#DDDCD4",
+      "rightCuff": "#DDDCD4"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Brown shirt with narrow repeated vertical chevron columns across body/sleeves; dark collar edged pale and pale/dark sleeve edging.",
+    "render_path": "artifacts/footballkitarchive/tier2-germany-2026-09-24/team_a8d4565d5cc52227731c-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1e004c2ca94ac195e4d5.json",
+    "source_kit_id": "484428"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

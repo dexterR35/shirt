@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_027f77c1d602c64f746d",
+  "team_name": "Norwich City",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black/charcoal with fine widely spaced mint-white vertical pinstripes across torso/sleeves and pale mint trim.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-away-496675.jpg",
+      "page_url": "https://www.footballkitarchive.com/norwich-city-2026-27-away-kit-496675/",
+      "sha256": "8e39c8816aee8e5233694b422bcb9f3368e571404c25330f270daa530749ccef"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1D2429",
+      "leftSleeve": "#1D2429",
+      "rightSleeve": "#1D2429",
+      "collar": "#1F272C",
+      "leftCuff": "#C7D5CE",
+      "rightCuff": "#C7D5CE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1F272C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#DAE4DE",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1D2429",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 47,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 73,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 151,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 19,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 35,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 164,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 180,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C4D4CC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#C7D5CE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#C7D5CE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Derby County",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6334f1b83e2d2e313ab1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/derby-county-2026-27-home-kit-485851/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/30/WHXkYkBuOgZt387/derby-county-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6334f1b83e2d2e313ab1-home-485851.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#EBEDEC",
+      "leftSleeve": "#EBEDEC",
+      "rightSleeve": "#EBEDEC",
+      "collar": "#1D1E22",
+      "leftCuff": "#202126",
+      "rightCuff": "#202126"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body with an offset cluster of six dark fine curved vertical stripes on viewer-left, black neckline and cuffs.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_6334f1b83e2d2e313ab1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f88ed9d3a0049d69d0c6.json",
+    "source_kit_id": "485851"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

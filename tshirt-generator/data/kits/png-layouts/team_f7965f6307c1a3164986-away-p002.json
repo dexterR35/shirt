@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f7965f6307c1a3164986",
+  "team_name": "Unirea Slobozia",
+  "variant": "away",
+  "source_revision": "r002",
+  "layout_revision": "p002",
+  "research_batch": "tier2-romania-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal-blue shirt with dark blue shoulder tapes and darker side panels. Sponsor, club crest, manufacturer symbols and upper-chest lettering removed. Three narrow dark shoulder bands and curved navy raglan inserts checked separately.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f7965f6307c1a3164986-away-503448.jpg",
+      "page_url": "https://www.footballkitarchive.com/unirea-slobozia-2026-27-away-kit-503448/",
+      "sha256": "a48e12270c6b0890194bb24efdd51e1c8781fbce039a0656a32523060e6563bc"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#244CAD",
+      "leftSleeve": "#244CAD",
+      "rightSleeve": "#244CAD",
+      "collar": "#1C4296",
+      "leftCuff": "#244CAD",
+      "rightCuff": "#244CAD"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C4296",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#244CAD",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            24
+          ],
+          [
+            76,
+            4
+          ],
+          [
+            76,
+            5.2
+          ],
+          [
+            35,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            24
+          ],
+          [
+            124,
+            4
+          ],
+          [
+            124,
+            5.2
+          ],
+          [
+            165,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            38,
+            24
+          ],
+          [
+            76,
+            7
+          ],
+          [
+            76,
+            8.2
+          ],
+          [
+            38,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            162,
+            24
+          ],
+          [
+            124,
+            7
+          ],
+          [
+            124,
+            8.2
+          ],
+          [
+            162,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            41,
+            24
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            76,
+            11.2
+          ],
+          [
+            41,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            159,
+            24
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            124,
+            11.2
+          ],
+          [
+            159,
+            25.2
+          ]
+        ],
+        "fill": "#263F81",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            74,
+            10
+          ],
+          [
+            50,
+            22
+          ],
+          [
+            43,
+            35
+          ],
+          [
+            39,
+            63
+          ],
+          [
+            41,
+            41
+          ],
+          [
+            47,
+            22
+          ]
+        ],
+        "fill": "#162C5F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            126,
+            10
+          ],
+          [
+            150,
+            22
+          ],
+          [
+            157,
+            35
+          ],
+          [
+            161,
+            63
+          ],
+          [
+            159,
+            41
+          ],
+          [
+            153,
+            22
+          ]
+        ],
+        "fill": "#162C5F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            80
+          ],
+          [
+            56,
+            100
+          ],
+          [
+            52,
+            151
+          ],
+          [
+            49,
+            174
+          ]
+        ],
+        "fill": "#243984",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            80
+          ],
+          [
+            144,
+            100
+          ],
+          [
+            148,
+            151
+          ],
+          [
+            151,
+            174
+          ]
+        ],
+        "fill": "#243984",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

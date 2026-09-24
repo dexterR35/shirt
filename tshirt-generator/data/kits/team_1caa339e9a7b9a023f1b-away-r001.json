@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1caa339e9a7b9a023f1b",
+  "team_name": "Bristol City",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bristol-city-2026-27-away-kit-491756/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/01/qOlwCZUTcY9LFow/bristol-city-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1caa339e9a7b9a023f1b-away-491756.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Black"
+    ],
+    "values": {
+      "body": "#B8B8B9",
+      "leftSleeve": "#B8B8B9",
+      "rightSleeve": "#B8B8B9",
+      "collar": "#2D2D2E",
+      "leftCuff": "#989B9C",
+      "rightCuff": "#989B9C"
+    }
+  },
+  "observations": "Pale grey with subtle vertical pinlines, dark neck band, medium grey cuffs and narrow black edges.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale grey with subtle vertical pinlines, dark neck band, medium grey cuffs and narrow black edges.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1caa339e9a7b9a023f1b-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#B8B8B9",
+      "leftSleeve": "#B8B8B9",
+      "rightSleeve": "#B8B8B9",
+      "collar": "#2D2D2E",
+      "leftCuff": "#989B9C",
+      "rightCuff": "#989B9C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2D2D2E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#B8B8B9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 77,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 107,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 117,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 147,
+        "y": 0,
+        "width": 0.22,
+        "height": 200,
+        "fill": "#9EA0A1",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#989B9C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76.05C24 80.65 36 85.95 44.5 85.05Q48 85.15 49.2 76.95L52 106H5Z",
+        "fill": "#26292B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#989B9C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76.05C176 80.65 164 85.95 155.5 85.05Q152 85.15 150.8 76.95L148 106H195Z",
+        "fill": "#26292B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

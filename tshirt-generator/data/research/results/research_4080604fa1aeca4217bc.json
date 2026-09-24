@@ -4,8 +4,8 @@
   "team_name": "Avellino",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ceaae4c0757faf5fa012-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-avellino-2026-27-away-kit-505329/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/eLfaCTL6XWFTnpU/us-avellino-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ceaae4c0757faf5fa012-away-505329.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#E7E3D9",
+      "leftSleeve": "#E7E3D9",
+      "rightSleeve": "#E7E3D9",
+      "collar": "#737264",
+      "leftCuff": "#737264",
+      "rightCuff": "#737264"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Ivory with muted olive neckline and sleeve hems, pale green side strips. Cloth weave retained from original PNG; sponsor, strip lettering and club symbols excluded.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_ceaae4c0757faf5fa012-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4080604fa1aeca4217bc.json",
+    "source_kit_id": "505329"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Padova",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e131d0e12bde28f78a66-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/calcio-padova-2026-27-home-kit-496742/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/db4gWltGBmudqBw/calcio-padova-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e131d0e12bde28f78a66-home-496742.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#EEEDEC",
+      "leftSleeve": "#EEEDEC",
+      "rightSleeve": "#EEEDEC",
+      "collar": "#BF2634",
+      "leftCuff": "#B64950",
+      "rightCuff": "#B64950"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body/sleeves with widely spaced fine horizontal red lines, red neckline edged pale and narrow red cuff edge. Source metadata says pinstripes; visible horizontal direction takes precedence.",
+    "render_path": "artifacts/footballkitarchive/tier2-italy-2026-09-24/team_e131d0e12bde28f78a66-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_152eac57d1b77d50ac6e.json",
+    "source_kit_id": "496742"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-italy-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Norwich City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Green sleeve marbling coverage is too solid; refine the sleeve print independently of the yellow torso."
+  ],
+  "kit_revision_path": "data/kits/team_027f77c1d602c64f746d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/norwich-city-2026-27-home-kit-492473/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/anmgIMRS5vfo4wC/norwich-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_027f77c1d602c64f746d-home-492473.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Green"
+    ],
+    "values": {
+      "body": "#EED00D",
+      "leftSleeve": "#EED00D",
+      "rightSleeve": "#EED00D",
+      "collar": "#28913A",
+      "leftCuff": "#278E3D",
+      "rightCuff": "#278E3D"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_810b22f0b0a1e003ee9d.json",
+    "source_kit_id": "492473"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

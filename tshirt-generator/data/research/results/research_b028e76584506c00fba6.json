@@ -4,8 +4,8 @@
   "team_name": "West Ham United",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Sky-blue print spacing and checker cuff details need further reconstruction."
+  ],
+  "kit_revision_path": "data/kits/team_7fca5e06b88f9fac0adb-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/west-ham-united-2026-27-home-kit-492141/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/OWp9tGEzkboSpFf/west-ham-united-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7fca5e06b88f9fac0adb-home-492141.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#761530",
+      "leftSleeve": "#299BD1",
+      "rightSleeve": "#299BD1",
+      "collar": "#4BAFD3",
+      "leftCuff": "#195073",
+      "rightCuff": "#195073"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b028e76584506c00fba6.json",
+    "source_kit_id": "492141"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

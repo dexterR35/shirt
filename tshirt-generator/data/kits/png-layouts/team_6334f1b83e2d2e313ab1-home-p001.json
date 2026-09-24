@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6334f1b83e2d2e313ab1",
+  "team_name": "Derby County",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-england-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White body with an offset cluster of six dark fine curved vertical stripes on viewer-left, black neckline and cuffs.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6334f1b83e2d2e313ab1-home-485851.jpg",
+      "page_url": "https://www.footballkitarchive.com/derby-county-2026-27-home-kit-485851/",
+      "sha256": "c8c7c8f75d79572479f6f7b0c5d5ca61f38de5fbcaead25a2826aaa1bad2da79"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EBEDEC",
+      "leftSleeve": "#EBEDEC",
+      "rightSleeve": "#EBEDEC",
+      "collar": "#1D1E22",
+      "leftCuff": "#202126",
+      "rightCuff": "#202126"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1D1E22",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EBEDEC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M72 0Q65 50 72 100Q75 160 77 200L77.5 200Q75.5 160 72.5 100Q65.5 50 72.5 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M75 0Q68 50 75 100Q78 160 80 200L80.9 200Q78.9 160 75.9 100Q68.9 50 75.9 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M78 0Q71 50 78 100Q81 160 83 200L84.2 200Q82.2 160 79.2 100Q72.2 50 79.2 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M81 0Q74 50 81 100Q84 160 86 200L87.1 200Q85.1 160 82.1 100Q75.1 50 82.1 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M85 0Q78 50 85 100Q88 160 90 200L90.7 200Q88.7 160 85.7 100Q78.7 50 85.7 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 0Q82 50 89 100Q92 160 94 200L94.4 200Q92.4 160 89.4 100Q82.4 50 89.4 0Z",
+        "fill": "#30313D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#202126",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#202126",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

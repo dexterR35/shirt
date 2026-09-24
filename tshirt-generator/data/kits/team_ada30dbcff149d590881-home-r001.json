@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ada30dbcff149d590881",
+  "team_name": "Middlesbrough",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier2-england-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/middlesbrough-fc-2026-27-home-kit-493362/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/fS47p4mb2rJ4SO8/middlesbrough-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ada30dbcff149d590881-home-493362.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F0202C",
+      "leftSleeve": "#F0202C",
+      "rightSleeve": "#F0202C",
+      "collar": "#B89B53",
+      "leftCuff": "#B79C55",
+      "rightCuff": "#B79C55"
+    }
+  },
+  "observations": "Scarlet plain shirt with metallic-gold colored collar and narrow gold sleeve edging; dark inner neck edge.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Scarlet plain shirt with metallic-gold colored collar and narrow gold sleeve edging; dark inner neck edge.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_ada30dbcff149d590881-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0202C",
+      "leftSleeve": "#F0202C",
+      "rightSleeve": "#F0202C",
+      "collar": "#B89B53",
+      "leftCuff": "#B79C55",
+      "rightCuff": "#B79C55"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B89B53",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.526 2.632L77 2Q100 7 123 2L124.474 2.632C128.053 25.684 71.947 25.684 75.526 2.632Z",
+          "fill": "#29201C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0202C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#B79C55",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#D4B368",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#B79C55",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#D4B368",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

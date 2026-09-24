@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_a8d4565d5cc52227731c",
+  "team_name": "FC St. Pauli",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier2-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White torso with asymmetric jagged brown diagonal strokes and lower-front angular marks, manually adapted from observed placement; plain white sleeves/collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_a8d4565d5cc52227731c-away-488458.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-st-pauli-2026-27-away-kit-488458/",
+      "sha256": "2a52e806f375405c3bbe9b0fad16d01a9f534cfa3f5567754c974736354f382f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#ECEBE6",
+      "leftSleeve": "#ECEBE6",
+      "rightSleeve": "#ECEBE6",
+      "collar": "#ECEBE6",
+      "leftCuff": "#ECEBE6",
+      "rightCuff": "#ECEBE6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#ECEBE6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#ECEBE6",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            12
+          ],
+          [
+            85,
+            22
+          ],
+          [
+            54,
+            34
+          ],
+          [
+            73,
+            32
+          ],
+          [
+            49,
+            45
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            119,
+            2
+          ],
+          [
+            135,
+            4
+          ],
+          [
+            102,
+            49
+          ],
+          [
+            123,
+            33
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            148,
+            42
+          ],
+          [
+            100,
+            79
+          ],
+          [
+            52,
+            97
+          ],
+          [
+            49,
+            80
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            139,
+            73
+          ],
+          [
+            90,
+            128
+          ],
+          [
+            71,
+            153
+          ],
+          [
+            83,
+            124
+          ],
+          [
+            99,
+            95
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            119
+          ],
+          [
+            134,
+            110
+          ],
+          [
+            120,
+            125
+          ],
+          [
+            150,
+            142
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            168
+          ],
+          [
+            147,
+            149
+          ],
+          [
+            108,
+            168
+          ],
+          [
+            64,
+            180
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            93,
+            194
+          ],
+          [
+            147,
+            168
+          ],
+          [
+            140,
+            188
+          ],
+          [
+            122,
+            196
+          ]
+        ],
+        "fill": "#45352C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            45
+          ],
+          [
+            80,
+            27
+          ],
+          [
+            54,
+            48
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            47
+          ],
+          [
+            83,
+            27
+          ],
+          [
+            54,
+            50
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            49
+          ],
+          [
+            86,
+            27
+          ],
+          [
+            54,
+            52
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            51
+          ],
+          [
+            89,
+            27
+          ],
+          [
+            54,
+            54
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            53
+          ],
+          [
+            92,
+            27
+          ],
+          [
+            54,
+            56
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            55
+          ],
+          [
+            95,
+            27
+          ],
+          [
+            54,
+            58
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            57
+          ],
+          [
+            98,
+            27
+          ],
+          [
+            54,
+            60
+          ]
+        ],
+        "fill": "#504238",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

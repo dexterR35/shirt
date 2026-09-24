@@ -4,8 +4,8 @@
   "team_name": "Swansea City",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1726f79ccf677df102f3-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/swansea-city-2026-27-away-kit-504412/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/15/xB0IxYO8fdrdIDL/swansea-city-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1726f79ccf677df102f3-away-504412.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#B8283E",
+      "leftSleeve": "#B8283E",
+      "rightSleeve": "#B8283E",
+      "collar": "#BD3043",
+      "leftCuff": "#2B4687",
+      "rightCuff": "#2B4687"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body with three broad navy/blue stripes narrowly edged white, red sleeves with pale shoulder seams and blue/white cuff edges.",
+    "render_path": "artifacts/footballkitarchive/tier2-england-2026-09-24/team_1726f79ccf677df102f3-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_74c0fb6da39c76b9dd1c.json",
+    "source_kit_id": "504412"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-england-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

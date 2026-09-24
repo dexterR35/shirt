@@ -5,7 +5,7 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": "2026/27",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,10 +68,8 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
-  "kit_revision_path": "data/kits/team_2aa08cfd59b58585577a-away-r001.json",
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2aa08cfd59b58585577a-away-r002.json",
   "references": [
     {
       "publisher": "Football Kit Archive",
@@ -92,15 +90,22 @@
       "Gold"
     ],
     "values": {
-      "body": "#161A1C",
-      "leftSleeve": "#161A1C",
-      "rightSleeve": "#161A1C",
-      "collar": "#161A1C",
-      "leftCuff": "#161A1C",
-      "rightCuff": "#161A1C"
+      "body": "#18232B",
+      "leftSleeve": "#18232B",
+      "rightSleeve": "#18232B",
+      "collar": "#BDAB78",
+      "leftCuff": "#18232B",
+      "rightCuff": "#18232B"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with a broad sand-gold upper shoulder yoke and gold neck; sleeves and lower torso stay black.",
+    "render_path": "artifacts/footballkitarchive/tier2-romania-2026-09-24/team_2aa08cfd59b58585577a-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_bd122eeb2b214b472806.json",
     "source_kit_id": "503436"
@@ -110,6 +115,11 @@
       "date": "2026-09-23",
       "batch": "romania-liga2-2026-09-23",
       "action": "Created source-specific draft for visual comparison."
+    },
+    {
+      "date": "2026-09-24",
+      "batch": "tier2-romania-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

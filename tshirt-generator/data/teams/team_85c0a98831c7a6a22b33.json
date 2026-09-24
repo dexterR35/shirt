@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Empoli FC",
+      "design": "Gradient",
+      "colors": [
+        "Blue",
+        "Black",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Computer Gross",
+      "competitions": [
+        "Serie B"
+      ],
+      "release_date": "July 22, 2026",
+      "release_date_iso": "2026-07-22",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/empoli-fc-2026-27-home-kit-498222/",
+        "kit_id": "498222",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
+        "record_path": "data/research/footballkitarchive/records/research_3eb0bd3f7aee9e5cd0ff.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Empoli FC",
+      "design": "Graphic",
+      "colors": [
+        "Off-white",
+        "Blue",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Computer Gross",
+      "competitions": [
+        "Serie B"
+      ],
+      "release_date": "August 5, 2026",
+      "release_date_iso": "2026-08-05",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/empoli-fc-2026-27-away-kit-504131/",
+        "kit_id": "504131",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/serie-b-kits-2026-27-l259/",
+        "record_path": "data/research/footballkitarchive/records/research_bb6f10acad1facc4012a.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }
