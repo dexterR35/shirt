@@ -4,8 +4,8 @@
   "team_name": "Ospitaletto Franciacorta",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6d2a0533174a52005355-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ospitaletto-2026-27-home-kit-507789/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/m7Vn68IsEWa5ZJQ/ospitaletto-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6d2a0533174a52005355-home-507789.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "Blue"
+    ],
+    "values": {
+      "body": "#E8442C",
+      "leftSleeve": "#E8442C",
+      "rightSleeve": "#E8442C",
+      "collar": "#15526A",
+      "leftCuff": "#E8442C",
+      "rightCuff": "#E8442C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange with lighter orange vertical bands containing darker ornamental curls, dark teal shoulder edging with short orange broken strokes, teal/orange ring. Neutral ornament isolated from a clear unbranded light-orange column crop and repeated as editable constant-color contours; sponsors, emblems and manufacturer removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_6d2a0533174a52005355-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ccbdbe801ee286b230df.json",
+    "source_kit_id": "507789"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

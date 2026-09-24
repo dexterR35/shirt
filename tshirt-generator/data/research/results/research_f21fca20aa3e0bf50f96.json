@@ -4,8 +4,8 @@
   "team_name": "Preußen Münster",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_39c57c818c990ce46806-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/preussen-munster-2026-27-home-kit-492583/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/Eke1icCx3VToSsk/preussen-munster-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_39c57c818c990ce46806-home-492583.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#087A42",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#F3F3F1",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Green body with subtle green vertical panel lines, black sleeves/cuffs/shoulders and white ring. Every faint repeated eagle badge in the torso and Jako shoulder symbols is removed, along with the chest branding. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_39c57c818c990ce46806-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f21fca20aa3e0bf50f96.json",
+    "source_kit_id": "492583"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

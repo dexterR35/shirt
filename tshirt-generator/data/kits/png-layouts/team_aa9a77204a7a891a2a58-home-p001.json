@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aa9a77204a7a891a2a58",
+  "team_name": "Pianese",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with five dark navy/charcoal torso columns, plain white sleeves, dark cuffs and a narrow white neckline border. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_aa9a77204a7a891a2a58-home-505096.jpg",
+      "page_url": "https://www.footballkitarchive.com/us-pianese-2026-27-home-kit-505096/",
+      "sha256": "536c35fa2d00d0ff3ae505f06be80e1d106742f1a070d770952a37ac454d70f4"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#F2F2EF",
+      "leftCuff": "#263242",
+      "rightCuff": "#263242"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.667 4.286L77 2Q100 7 123 2L128.333 4.286C130.81 30.095 69.19 30.095 71.667 4.286Z",
+          "fill": "#283341",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 58,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#263242",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#263242",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#263242",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#263242",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#263242",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.3C24 75.9 36 81.2 44.5 80.3Q48 80.4 49.2 72.2L52 106H5Z",
+        "fill": "#263242",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.3C176 75.9 164 81.2 155.5 80.3Q152 80.4 150.8 72.2L148 106H195Z",
+        "fill": "#263242",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

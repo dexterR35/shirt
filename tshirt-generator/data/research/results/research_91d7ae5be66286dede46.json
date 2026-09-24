@@ -4,8 +4,8 @@
   "team_name": "Aubagne Air Bel",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0e31ba3256174879dead-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-aubagne-air-bel-2026-27-home-kit-510180/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/31/RQajTpZTBsomt5z/sc-aubagne-air-bel-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0e31ba3256174879dead-home-510180.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#172644",
+      "leftSleeve": "#172644",
+      "rightSleeve": "#172644",
+      "collar": "#EDDB25",
+      "leftCuff": "#172644",
+      "rightCuff": "#172644"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with broad yellow diagonal sash from viewer-right shoulder toward lower left, yellow ring and lower-right rectangular accent, tonal blue shoulder tapes. Sash continues through removed chest sponsorship. Worn photo limits exact hidden side construction. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_0e31ba3256174879dead-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_91d7ae5be66286dede46.json",
+    "source_kit_id": "510180"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

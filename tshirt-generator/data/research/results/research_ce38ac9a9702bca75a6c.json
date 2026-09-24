@@ -4,8 +4,8 @@
   "team_name": "Notts County",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fdcc55141dadebf3f633-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/notts-county-2026-27-away-kit-513645/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/27/bjVUmty93ClRlM8/notts-county-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fdcc55141dadebf3f633-away-513645.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Black"
+    ],
+    "values": {
+      "body": "#F5B5D4",
+      "leftSleeve": "#F5B5D4",
+      "rightSleeve": "#F5B5D4",
+      "collar": "#F5B5D4",
+      "leftCuff": "#262631",
+      "rightCuff": "#262631"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain pale pink body/sleeves with black cuff edge and a thin black neckline edge adapted from the dark rear-neck portion. Archive sponsor metadata says David James while the pictured front shows University of Nottingham; this discrepancy is retained as a source limitation and neither sponsor is painted. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_fdcc55141dadebf3f633-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ce38ac9a9702bca75a6c.json",
+    "source_kit_id": "513645"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

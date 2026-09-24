@@ -4,8 +4,8 @@
   "team_name": "Mérida",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f7973cf635062f584226-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ad-merida-2026-27-home-kit-500999/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/dZbSb1RAkn9o6Pr/ad-merida-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f7973cf635062f584226-home-500999.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green",
+      "Black"
+    ],
+    "values": {
+      "body": "#F0F2EF",
+      "leftSleeve": "#167A62",
+      "rightSleeve": "#167A62",
+      "collar": "#F3F2EC",
+      "leftCuff": "#142E2A",
+      "rightCuff": "#142E2A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a very pale repeated architectural arcade motif, green raglan sleeves with black seam edging, black/white/green ring/cuffs. Subtle building outlines redrawn from independent Home front; fine sleeve graphic reduced. Sponsor and badge removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_f7973cf635062f584226-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d9aff7a05f12c786916c.json",
+    "source_kit_id": "500999"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

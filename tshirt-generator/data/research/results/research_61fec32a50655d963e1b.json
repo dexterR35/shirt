@@ -4,8 +4,8 @@
   "team_name": "SV Wehen Wiesbaden",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_722feead18d6ee8824b7-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wehen-wiesbaden-2026-27-home-kit-496600/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/9lTNF8OqH0sOBOT/wehen-wiesbaden-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_722feead18d6ee8824b7-home-496600.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#D72D32",
+      "leftSleeve": "#D72D32",
+      "rightSleeve": "#D72D32",
+      "collar": "#D72D32",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red field with black cuffs and black side inserts. The apparent pale torso pinstripes in the worn source are columns of tiny lettering; those are removed under the lettering-free requirement. The black rear-neck insert is adapted as a thin inner ring edge. All sponsor and chest/sleeve marks omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_722feead18d6ee8824b7-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_61fec32a50655d963e1b.json",
+    "source_kit_id": "496600"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

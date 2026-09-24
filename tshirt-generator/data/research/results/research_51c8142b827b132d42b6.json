@@ -4,8 +4,8 @@
   "team_name": "Alcorcón",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d4e2dcb2a8ceb703ab6a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ad-alcorcon-2026-27-away-kit-508037/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/14/T8Ydc2LdJUU841j/ad-alcorcon-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d4e2dcb2a8ceb703ab6a-away-508037.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Red"
+    ],
+    "values": {
+      "body": "#006345",
+      "leftSleeve": "#006345",
+      "rightSleeve": "#006345",
+      "collar": "#006345",
+      "leftCuff": "#006345",
+      "rightCuff": "#006345"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark green plain torso and sleeves, red shoulder-top inserts and a fine red inner neckline edge. Red printed sponsor/crest/manufacturer removed. Worn source, hidden rear construction not inferred. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_d4e2dcb2a8ceb703ab6a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_51c8142b827b132d42b6.json",
+    "source_kit_id": "508037"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Coria",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6d37681ed09856238eeb-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-coria-2026-27-home-kit-507995/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/zI4MJw82TdzonZf/cd-coria-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6d37681ed09856238eeb-home-507995.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#298DBF",
+      "leftSleeve": "#298DBF",
+      "rightSleeve": "#298DBF",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue body with white outer shoulder/sleeve stripes, white side inserts, white ring/cuffs. Outdoor hanger view is shaded; flat blue estimated from visible fabric. All black sponsors and repeated Macron shoulder logos removed; no polo/placket drawn. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_6d37681ed09856238eeb-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c1204788cee1e064d87f.json",
+    "source_kit_id": "507995"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

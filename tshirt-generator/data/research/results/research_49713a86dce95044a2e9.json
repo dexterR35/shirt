@@ -4,8 +4,8 @@
   "team_name": "Bastia",
   "country_name": "France",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_294095ea93a3d04df41c-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-bastia-2026-27-away-kit-497154/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/dmXBUdSkv9SXbYh/sc-bastia-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_294095ea93a3d04df41c-away-497154.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#F4F3EF",
+      "leftSleeve": "#F4F3EF",
+      "rightSleeve": "#F4F3EF",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F4F3EF",
+      "rightCuff": "#F4F3EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a broad black-edged chest band containing two blue bars separated by a black line, three blue shoulder tapes and white neckline/cuffs. Independent Away reference; branding removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_294095ea93a3d04df41c-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_49713a86dce95044a2e9.json",
+    "source_kit_id": "497154"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

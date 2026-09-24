@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9db96a4a4ab5cb112f27",
+  "team_name": "Casertana",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/casertana-fc-2026-27-home-kit-497261/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/19/1tPn4kgH2ELj1fn/casertana-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9db96a4a4ab5cb112f27-home-497261.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#1B2E4F",
+      "leftSleeve": "#1B2E4F",
+      "rightSleeve": "#1B2E4F",
+      "collar": "#1B2E4F",
+      "leftCuff": "#E6B733",
+      "rightCuff": "#E6B733"
+    }
+  },
+  "observations": "Navy with four irregular red vertical slashed columns, plain navy raglan sleeves and gold cuff edging. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with four irregular red vertical slashed columns, plain navy raglan sleeves and gold cuff edging. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_9db96a4a4ab5cb112f27-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1B2E4F",
+      "leftSleeve": "#1B2E4F",
+      "rightSleeve": "#1B2E4F",
+      "collar": "#1B2E4F",
+      "leftCuff": "#E6B733",
+      "rightCuff": "#E6B733"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1B2E4F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76 2.429L77 2Q100 7 123 2L124 2.429C127.714 25.143 72.286 25.143 76 2.429Z",
+          "fill": "#D4AA33",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1B2E4F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            56,
+            0
+          ],
+          [
+            65,
+            0
+          ],
+          [
+            64,
+            31
+          ],
+          [
+            68,
+            31
+          ],
+          [
+            66,
+            68
+          ],
+          [
+            62,
+            68
+          ],
+          [
+            64,
+            102
+          ],
+          [
+            69,
+            107
+          ],
+          [
+            67,
+            151
+          ],
+          [
+            63,
+            155
+          ],
+          [
+            65,
+            200
+          ],
+          [
+            55,
+            200
+          ],
+          [
+            56,
+            163
+          ],
+          [
+            53,
+            153
+          ],
+          [
+            56,
+            95
+          ],
+          [
+            54,
+            66
+          ],
+          [
+            57,
+            28
+          ]
+        ],
+        "fill": "#D04E4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            82,
+            0
+          ],
+          [
+            91,
+            0
+          ],
+          [
+            90,
+            31
+          ],
+          [
+            94,
+            31
+          ],
+          [
+            92,
+            68
+          ],
+          [
+            88,
+            68
+          ],
+          [
+            90,
+            102
+          ],
+          [
+            95,
+            107
+          ],
+          [
+            93,
+            151
+          ],
+          [
+            89,
+            155
+          ],
+          [
+            91,
+            200
+          ],
+          [
+            81,
+            200
+          ],
+          [
+            82,
+            163
+          ],
+          [
+            79,
+            153
+          ],
+          [
+            82,
+            95
+          ],
+          [
+            80,
+            66
+          ],
+          [
+            83,
+            28
+          ]
+        ],
+        "fill": "#D04E4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            109,
+            0
+          ],
+          [
+            118,
+            0
+          ],
+          [
+            117,
+            31
+          ],
+          [
+            121,
+            31
+          ],
+          [
+            119,
+            68
+          ],
+          [
+            115,
+            68
+          ],
+          [
+            117,
+            102
+          ],
+          [
+            122,
+            107
+          ],
+          [
+            120,
+            151
+          ],
+          [
+            116,
+            155
+          ],
+          [
+            118,
+            200
+          ],
+          [
+            108,
+            200
+          ],
+          [
+            109,
+            163
+          ],
+          [
+            106,
+            153
+          ],
+          [
+            109,
+            95
+          ],
+          [
+            107,
+            66
+          ],
+          [
+            110,
+            28
+          ]
+        ],
+        "fill": "#D04E4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            136,
+            0
+          ],
+          [
+            145,
+            0
+          ],
+          [
+            144,
+            31
+          ],
+          [
+            148,
+            31
+          ],
+          [
+            146,
+            68
+          ],
+          [
+            142,
+            68
+          ],
+          [
+            144,
+            102
+          ],
+          [
+            149,
+            107
+          ],
+          [
+            147,
+            151
+          ],
+          [
+            143,
+            155
+          ],
+          [
+            145,
+            200
+          ],
+          [
+            135,
+            200
+          ],
+          [
+            136,
+            163
+          ],
+          [
+            133,
+            153
+          ],
+          [
+            136,
+            95
+          ],
+          [
+            134,
+            66
+          ],
+          [
+            137,
+            28
+          ]
+        ],
+        "fill": "#D04E4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#1B2E4F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#1B2E4F",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.19999999999999C24 76.8 36 82.1 44.5 81.19999999999999Q48 81.3 49.2 73.1L52 106H5Z",
+        "fill": "#E6B733",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.19999999999999C176 76.8 164 82.1 155.5 81.19999999999999Q152 81.3 150.8 73.1L148 106H195Z",
+        "fill": "#E6B733",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

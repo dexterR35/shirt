@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_228e47de5733192e75fe",
+  "team_name": "Teruel",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-teruel-2026-27-home-kit-501675/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/9M3sZv4sqJ1S2dr/cd-teruel-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_228e47de5733192e75fe-home-501675.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#EE1836",
+      "leftSleeve": "#EE1836",
+      "rightSleeve": "#EE1836",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "observations": "Red with subtle angular shoulder-top tonal panels and white ring/cuffs. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with subtle angular shoulder-top tonal panels and white ring/cuffs. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_228e47de5733192e75fe-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EE1836",
+      "leftSleeve": "#EE1836",
+      "rightSleeve": "#EE1836",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EE1836",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            42,
+            4
+          ],
+          [
+            46,
+            4
+          ],
+          [
+            48,
+            27
+          ],
+          [
+            42,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            4
+          ],
+          [
+            54,
+            4
+          ],
+          [
+            56,
+            27
+          ],
+          [
+            50,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            58,
+            4
+          ],
+          [
+            62,
+            4
+          ],
+          [
+            64,
+            27
+          ],
+          [
+            58,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            66,
+            4
+          ],
+          [
+            70,
+            4
+          ],
+          [
+            72,
+            27
+          ],
+          [
+            66,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            78,
+            4
+          ],
+          [
+            80,
+            27
+          ],
+          [
+            74,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            82,
+            4
+          ],
+          [
+            86,
+            4
+          ],
+          [
+            88,
+            27
+          ],
+          [
+            82,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            90,
+            4
+          ],
+          [
+            94,
+            4
+          ],
+          [
+            96,
+            27
+          ],
+          [
+            90,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            4
+          ],
+          [
+            102,
+            4
+          ],
+          [
+            104,
+            27
+          ],
+          [
+            98,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            106,
+            4
+          ],
+          [
+            110,
+            4
+          ],
+          [
+            112,
+            27
+          ],
+          [
+            106,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            114,
+            4
+          ],
+          [
+            118,
+            4
+          ],
+          [
+            120,
+            27
+          ],
+          [
+            114,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            4
+          ],
+          [
+            126,
+            4
+          ],
+          [
+            128,
+            27
+          ],
+          [
+            122,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            4
+          ],
+          [
+            134,
+            4
+          ],
+          [
+            136,
+            27
+          ],
+          [
+            130,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            4
+          ],
+          [
+            142,
+            4
+          ],
+          [
+            144,
+            27
+          ],
+          [
+            138,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            4
+          ],
+          [
+            150,
+            4
+          ],
+          [
+            152,
+            27
+          ],
+          [
+            146,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            154,
+            4
+          ],
+          [
+            158,
+            4
+          ],
+          [
+            160,
+            27
+          ],
+          [
+            154,
+            20
+          ]
+        ],
+        "fill": "#F52D46",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

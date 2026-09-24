@@ -11,42 +11,70 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Pineto Calcio",
+      "design": "Plain",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Serie C"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/pineto-calcio-2026-27-home-kit-516627/",
+        "kit_id": "516627",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_0535310cd68e0549cb3c.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Pineto Calcio",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Serie C"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/pineto-calcio-2026-27-away-kit-508612/",
+        "kit_id": "508612",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_4dc004363dde12fe5b22.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

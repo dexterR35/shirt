@@ -4,8 +4,8 @@
   "team_name": "Sheffield Wednesday",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9b11ad67b655ea08265d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sheffield-wednesday-2026-27-away-kit-500824/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/29/X4RlFVWXpXpQs60/sheffield-wednesday-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9b11ad67b655ea08265d-away-500824.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#FBE029",
+      "leftSleeve": "#FBE029",
+      "rightSleeve": "#FBE029",
+      "collar": "#FBE029",
+      "leftCuff": "#FBE029",
+      "rightCuff": "#FBE029"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with four narrow black torso stripes, each split by a fine white centre line; plain yellow sleeves/cuffs/ring. Exact stripe grouping retained, logos and sponsor removed, physical collar construction left to the original PNG. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_9b11ad67b655ea08265d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5391e11e80f72378dcf4.json",
+    "source_kit_id": "500824"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

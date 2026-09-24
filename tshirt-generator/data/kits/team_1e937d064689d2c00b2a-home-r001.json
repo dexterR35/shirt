@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1e937d064689d2c00b2a",
+  "team_name": "Cannes",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-cannes-2026-27-home-kit-493433/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/KmulQTSjxMWz2WD/as-cannes-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1e937d064689d2c00b2a-home-493433.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#F32123",
+      "leftSleeve": "#F32123",
+      "rightSleeve": "#F32123",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F32123",
+      "rightCuff": "#F32123"
+    }
+  },
+  "observations": "Red with three broad white vertical bands, red sleeves and white shoulder inserts/ring. Bands measured from this variant’s source; minor stretch and diagonal perspective adapted. Sponsor and all insignia removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with three broad white vertical bands, red sleeves and white shoulder inserts/ring. Bands measured from this variant’s source; minor stretch and diagonal perspective adapted. Sponsor and all insignia removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_1e937d064689d2c00b2a-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F32123",
+      "leftSleeve": "#F32123",
+      "rightSleeve": "#F32123",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F32123",
+      "rightCuff": "#F32123"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F4F3EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.813 2.938L77 2Q100 7 123 2L125.188 2.938C128.563 26.5 71.438 26.5 74.813 2.938Z",
+          "fill": "#F32123",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F32123",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

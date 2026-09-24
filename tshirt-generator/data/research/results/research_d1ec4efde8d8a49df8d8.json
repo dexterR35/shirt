@@ -4,8 +4,8 @@
   "team_name": "Doncaster Rovers",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_c1bcbf6ab2eb4d79fcfe-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/doncaster-rovers-2026-27-away-kit-492608/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/hrF5gjhl3nUzzqq/doncaster-rovers-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c1bcbf6ab2eb4d79fcfe-away-492608.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Gold",
+      "Black"
+    ],
+    "values": {
+      "body": "#5868C4",
+      "leftSleeve": "#5868C4",
+      "rightSleeve": "#5868C4",
+      "collar": "#5868C4",
+      "leftCuff": "#181B2C",
+      "rightCuff": "#181B2C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain periwinkle/royal-blue field with blue existing ring and fine pale-gold inner edge; black cuffs with two fine gold bands. No invented torso print. Metallic source trim is approximated by a flat estimated gold, with original PNG highlights retained. Crest, manufacturer, labels and sponsor omitted.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_c1bcbf6ab2eb4d79fcfe-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d1ec4efde8d8a49df8d8.json",
+    "source_kit_id": "492608"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

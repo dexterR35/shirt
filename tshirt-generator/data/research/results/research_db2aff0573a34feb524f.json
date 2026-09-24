@@ -4,8 +4,8 @@
   "team_name": "Huesca",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_56189f08c3b9a3f28d9a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sd-huesca-2026-27-home-kit-498447/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/5hwYEVVoWslLaMp/sd-huesca-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_56189f08c3b9a3f28d9a-home-498447.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Navy"
+    ],
+    "values": {
+      "body": "#913047",
+      "leftSleeve": "#173D52",
+      "rightSleeve": "#173D52",
+      "collar": "#173D52",
+      "leftCuff": "#913047",
+      "rightCuff": "#913047"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with one broad navy centre column, navy shoulder/sleeve/side panels and claret inset on each sleeve. The fine diagonal rows are repeated lettering, removed with all sponsorship and badges. Navy ring and self-colored cuffs. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_56189f08c3b9a3f28d9a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_db2aff0573a34feb524f.json",
+    "source_kit_id": "498447"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

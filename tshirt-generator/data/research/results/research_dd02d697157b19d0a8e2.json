@@ -4,8 +4,8 @@
   "team_name": "Viktoria Köln",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d32840c2b7d744315015-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/viktoria-koln-2026-27-away-kit-490706/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/39e8cMkWKgkredD/viktoria-koln-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d32840c2b7d744315015-away-490706.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#BB102C",
+      "leftSleeve": "#BB102C",
+      "rightSleeve": "#BB102C",
+      "collar": "#BB102C",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain deep red with twin fine white ring lines and white cuff edge. Source white outer cuff patches are adapted to the common cuffs. All sponsor/manufacturer/club marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_d32840c2b7d744315015-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_dd02d697157b19d0a8e2.json",
+    "source_kit_id": "490706"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Dolomiti Bellunesi",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d76fc8209876159c21da-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/dolomiti-bellunesi-2026-27-home-kit-498557/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/25/CThGxVYBlstQWLA/dolomiti-bellunesi-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d76fc8209876159c21da-home-498557.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Pink"
+    ],
+    "values": {
+      "body": "#F3F0E8",
+      "leftSleeve": "#F3F0E8",
+      "rightSleeve": "#F3F0E8",
+      "collar": "#BB1A4C",
+      "leftCuff": "#BB1A4C",
+      "rightCuff": "#BB1A4C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Off-white with magenta ring, two shoulder tapes and sleeve-edge piping, central fine magenta topographic/flowing fingerprint-like lines. Fine contour ink isolated with local contrast, repaired sponsor region and crest exclusion; no photograph pixels embedded. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_d76fc8209876159c21da-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c60abd8691a6259e40bb.json",
+    "source_kit_id": "498557"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

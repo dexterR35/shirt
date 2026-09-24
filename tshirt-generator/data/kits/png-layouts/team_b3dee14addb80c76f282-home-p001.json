@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b3dee14addb80c76f282",
+  "team_name": "Vis Pesaro",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with broad red vertical stripes on torso/sleeves and thin red neckline border. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b3dee14addb80c76f282-home-509493.jpg",
+      "page_url": "https://www.footballkitarchive.com/vis-pesaro-2026-27-home-kit-509493/",
+      "sha256": "8099386464ba822eb18a430c44e3e994d51c336e241041944a8148021786579f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#CD182A",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CD182A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#F2F2EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 21,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 117,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 181,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#CD182A",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

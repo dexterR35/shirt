@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eb713b0eb0b20d3bf768",
+  "team_name": "Extremadura",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Claret and blue alternating broad torso columns, claret sleeves/shoulders, blue cuffs/ring with fine gold piping. Faint botanical hairlines visible only in scattered source folds are reduced at common preview scale. Independent front checked; all sponsors/manufacturer/crest removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eb713b0eb0b20d3bf768-home-497672.jpg",
+      "page_url": "https://www.footballkitarchive.com/cd-extremadura-1924-2026-27-home-kit-497672/",
+      "sha256": "64016a0bc0876bb67dc75422677ce1a14914805086f47e444aed783bfacc2cfe"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#AE233B",
+      "leftSleeve": "#AE233B",
+      "rightSleeve": "#AE233B",
+      "collar": "#D8B35F",
+      "leftCuff": "#276EB2",
+      "rightCuff": "#276EB2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D8B35F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M70.977 4.581L77 2Q100 7 123 2L129.023 4.581C131.302 30.884 68.698 30.884 70.977 4.581Z",
+          "fill": "#276EB2",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.86 2.488L77 2Q100 7 123 2L124.14 2.488C127.814 25.302 72.186 25.302 75.86 2.488Z",
+          "fill": "#AE233B",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#AE233B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#256DB3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#256DB3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#256DB3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#256DB3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#AE233B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#AE233B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.902 10.743L53.842 18.775L44.727 31.968L47.726 71.021L48.274 70.979L45.273 32.032L54.158 19.225L75.098 11.257Z",
+        "fill": "#D8B35F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.902 11.257L145.842 19.225L154.727 32.032L151.726 70.979L152.274 71.021L155.273 31.968L146.158 18.775L125.098 10.743Z",
+        "fill": "#D8B35F",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#276EB2",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#D8B35F",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#276EB2",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#D8B35F",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Real Madrid Castilla",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_33dae7fd8340aaa5ae50-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-madrid-castilla-2026-27-away-kit-485974/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/29/AlnrxuEuVpDBSj2/real-madrid-castilla-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_33dae7fd8340aaa5ae50-away-485974.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#163543",
+      "leftSleeve": "#163543",
+      "rightSleeve": "#163543",
+      "collar": "#E5E8E0",
+      "leftCuff": "#183442",
+      "rightCuff": "#183442"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_8de8bdc8ff2954d5f251-away-r002.json; reserve evidence/identity stays separate. Deep teal shirt with dense tiny turquoise open-diamond knit across front and sleeves, pale shoulder tapes and pale-edged dark neckline. Corrected sleeve ends are dark teal, not the pale cuff bands of the earlier draft. The reserve source is a darker navy recreation; the print geometry is independently verified, with colors estimated from that source. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_33dae7fd8340aaa5ae50-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cda2c669c4dba587ab42.json",
+    "source_kit_id": "485974"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

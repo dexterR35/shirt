@@ -4,8 +4,8 @@
   "team_name": "Concarneau",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_280fe3556b5fd1befb03-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-concarneau-2026-27-home-kit-504650/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/09/8kFxHIc9mIBA7dq/us-concarneau-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_280fe3556b5fd1befb03-home-504650.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Gold"
+    ],
+    "values": {
+      "body": "#096FB6",
+      "leftSleeve": "#096FB6",
+      "rightSleeve": "#096FB6",
+      "collar": "#E3C14D",
+      "leftCuff": "#7F1F37",
+      "rightCuff": "#7F1F37"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with a low tonal sailing-boat harbour illustration, gold cuff bands separated by a fine claret line and fine gold/blue ring. Lower-front source ink captured without hem patch; photo folds excluded as far as possible. Sailing print continues only across the observed lower body. Shoulder chevrons, crest and sponsor omitted. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_280fe3556b5fd1befb03-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_840c78935127b8f773b7.json",
+    "source_kit_id": "504650"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

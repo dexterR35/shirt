@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d16df9840282d13851a0",
+  "team_name": "Zamora",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with red narrow torso and sleeve stripes, white ring with fine red inner edge. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d16df9840282d13851a0-home-509039.jpg",
+      "page_url": "https://www.footballkitarchive.com/zamora-cf-2026-27-home-kit-509039/",
+      "sha256": "c8e2b54120b747ae96f95a66eaccf964e5d8f7cf0bd75b2f729fd199926104ce"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.6 2.6L77 2Q100 7 123 2L124.4 2.6C128 25.6 72 25.6 75.6 2.6Z",
+          "fill": "#CF253D",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 46,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 109,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 151,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#D82B43",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Le Puy",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6fa8ff37ee9490d09d4a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/le-puy-en-velay-fc-2026-27-home-kit-500665/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/LmZg7HOLNbReQE6/le-puy-en-velay-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6fa8ff37ee9490d09d4a-home-500665.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#7BC3E0",
+      "leftSleeve": "#7BC3E0",
+      "rightSleeve": "#7BC3E0",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F4F3EF",
+      "rightCuff": "#F4F3EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue with subtle angular herringbone/fragmented diagonals, white/gold cuff and neckline colors. White polo is adapted to the original ring only. Clean source crop [363,1010,498,392] segmented into constant-color ink contours (280px sample), repeated at 91 by 71.6 internal units. Hidden repeat placement is adapted; no source photo pixels embedded. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_6fa8ff37ee9490d09d4a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3b97ba13a122a7a1a792.json",
+    "source_kit_id": "500665"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

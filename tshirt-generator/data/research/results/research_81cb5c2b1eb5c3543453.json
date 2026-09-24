@@ -4,8 +4,8 @@
   "team_name": "Bari",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_daed48d59d0989099d6e-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ssc-bari-2026-27-away-kit-507455/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/bmr1sBhuJhD64ey/ssc-bari-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_daed48d59d0989099d6e-away-507455.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#CC322D",
+      "leftSleeve": "#CC322D",
+      "rightSleeve": "#CC322D",
+      "collar": "#467A8F",
+      "leftCuff": "#467A8F",
+      "rightCuff": "#467A8F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with a subtle repeated architectural arcade print, blue-grey ring and cuffs. Building arches retained as neutral background illustration; tiny statues in bays reduced, sponsor/crest/manufacturer removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_daed48d59d0989099d6e-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_81cb5c2b1eb5c3543453.json",
+    "source_kit_id": "507455"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

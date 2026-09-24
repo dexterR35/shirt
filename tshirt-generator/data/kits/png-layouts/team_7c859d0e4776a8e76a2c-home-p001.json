@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7c859d0e4776a8e76a2c",
+  "team_name": "Real Avilés Industrial",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with three blue vertical stripe bands, fine blue/white edges and tonal angular triangles within blue, claret ring/cuff edge; white sleeves. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7c859d0e4776a8e76a2c-home-511220.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-aviles-cf-2026-27-home-kit-511220/",
+      "sha256": "afa592aeb5fda49fd2b842238e3d9de84ab2afb2505c42c3e4e2f9a7985ace7f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#69233A",
+      "leftCuff": "#69233A",
+      "rightCuff": "#69233A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#69233A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 58.6,
+        "y": 0,
+        "width": 20.8,
+        "height": 200,
+        "fill": "#1976AD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 59.6,
+        "y": 0,
+        "width": 18.8,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 60.7,
+        "y": 0,
+        "width": 16.6,
+        "height": 200,
+        "fill": "#146CA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            0
+          ],
+          [
+            77.3,
+            -9
+          ],
+          [
+            77.3,
+            9
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            29
+          ],
+          [
+            77.3,
+            20
+          ],
+          [
+            77.3,
+            38
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            58
+          ],
+          [
+            77.3,
+            49
+          ],
+          [
+            77.3,
+            67
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            87
+          ],
+          [
+            77.3,
+            78
+          ],
+          [
+            77.3,
+            96
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            116
+          ],
+          [
+            77.3,
+            107
+          ],
+          [
+            77.3,
+            125
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            145
+          ],
+          [
+            77.3,
+            136
+          ],
+          [
+            77.3,
+            154
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            60.7,
+            174
+          ],
+          [
+            77.3,
+            165
+          ],
+          [
+            77.3,
+            183
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89.6,
+        "y": 0,
+        "width": 20.8,
+        "height": 200,
+        "fill": "#1976AD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 90.6,
+        "y": 0,
+        "width": 18.8,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91.7,
+        "y": 0,
+        "width": 16.6,
+        "height": 200,
+        "fill": "#146CA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            0
+          ],
+          [
+            108.3,
+            -9
+          ],
+          [
+            108.3,
+            9
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            29
+          ],
+          [
+            108.3,
+            20
+          ],
+          [
+            108.3,
+            38
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            58
+          ],
+          [
+            108.3,
+            49
+          ],
+          [
+            108.3,
+            67
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            87
+          ],
+          [
+            108.3,
+            78
+          ],
+          [
+            108.3,
+            96
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            116
+          ],
+          [
+            108.3,
+            107
+          ],
+          [
+            108.3,
+            125
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            145
+          ],
+          [
+            108.3,
+            136
+          ],
+          [
+            108.3,
+            154
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            91.7,
+            174
+          ],
+          [
+            108.3,
+            165
+          ],
+          [
+            108.3,
+            183
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120.6,
+        "y": 0,
+        "width": 20.8,
+        "height": 200,
+        "fill": "#1976AD",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121.6,
+        "y": 0,
+        "width": 18.8,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 122.7,
+        "y": 0,
+        "width": 16.6,
+        "height": 200,
+        "fill": "#146CA9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            0
+          ],
+          [
+            139.3,
+            -9
+          ],
+          [
+            139.3,
+            9
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            29
+          ],
+          [
+            139.3,
+            20
+          ],
+          [
+            139.3,
+            38
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            58
+          ],
+          [
+            139.3,
+            49
+          ],
+          [
+            139.3,
+            67
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            87
+          ],
+          [
+            139.3,
+            78
+          ],
+          [
+            139.3,
+            96
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            116
+          ],
+          [
+            139.3,
+            107
+          ],
+          [
+            139.3,
+            125
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            145
+          ],
+          [
+            139.3,
+            136
+          ],
+          [
+            139.3,
+            154
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122.7,
+            174
+          ],
+          [
+            139.3,
+            165
+          ],
+          [
+            139.3,
+            183
+          ]
+        ],
+        "fill": "#267FB2",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.19999999999999C24 79.8 36 85.1 44.5 84.19999999999999Q48 84.3 49.2 76.1L52 106H5Z",
+        "fill": "#69233A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.19999999999999C176 79.8 164 85.1 155.5 84.19999999999999Q152 84.3 150.8 76.1L148 106H195Z",
+        "fill": "#69233A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

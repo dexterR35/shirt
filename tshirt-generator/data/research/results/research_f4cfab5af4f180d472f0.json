@@ -4,8 +4,8 @@
   "team_name": "Huddersfield Town",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4274371f8a4149aa7a31-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/huddersfield-town-2026-27-home-kit-488149/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/10/UBBiHM8vG7KwuYq/huddersfield-town-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4274371f8a4149aa7a31-home-488149.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#047ECD",
+      "leftSleeve": "#047ECD",
+      "rightSleeve": "#047ECD",
+      "collar": "#171A20",
+      "leftCuff": "#047ECD",
+      "rightCuff": "#047ECD"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with four white torso stripes finely edged red, tonal blue abstract curved print in the blue bands, solid blue shoulder caps/sleeves, black ring with thin red edge. Discrete constant-color contours from branding-free crop [607,838,91,420], 91px sampling, 14.5 × 65 unit reflected repetition; hidden print placement is adapted, and source fabric pixels are not embedded. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_4274371f8a4149aa7a31-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f4cfab5af4f180d472f0.json",
+    "source_kit_id": "488149"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

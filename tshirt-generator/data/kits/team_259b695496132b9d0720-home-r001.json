@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_259b695496132b9d0720",
+  "team_name": "Foggia",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/calcio-foggia-1920-2026-27-home-kit-518704/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/14/Zuvep5fBj6KRwIr/calcio-foggia-1920-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_259b695496132b9d0720-home-518704.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#303333",
+      "leftSleeve": "#303333",
+      "rightSleeve": "#303333",
+      "collar": "#2E3032",
+      "leftCuff": "#303333",
+      "rightCuff": "#303333"
+    }
+  },
+  "observations": "Black/charcoal with three broad red torso stripes, black sleeves/ring, no collar flaps; sponsors and all badges removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black/charcoal with three broad red torso stripes, black sleeves/ring, no collar flaps; sponsors and all badges removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_259b695496132b9d0720-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#303333",
+      "leftSleeve": "#303333",
+      "rightSleeve": "#303333",
+      "collar": "#2E3032",
+      "leftCuff": "#303333",
+      "rightCuff": "#303333"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2E3032",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#303333",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#DE1234",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#DE1234",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#DE1234",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

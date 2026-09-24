@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_639b53f65919024df075",
+  "team_name": "Barakaldo",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/barakaldo-cf-2026-27-home-kit-488298/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/11/Bvr7K4qcUZqOOcj/barakaldo-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_639b53f65919024df075-home-488298.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#EAD44C",
+      "leftSleeve": "#27242C",
+      "rightSleeve": "#27242C",
+      "collar": "#EAD44C",
+      "leftCuff": "#EAD44C",
+      "rightCuff": "#EAD44C"
+    }
+  },
+  "observations": "Yellow with five narrow black torso columns, black shoulders/sleeves and black neckline with fine yellow edge; thin yellow cuff piping. Logos/chevrons/sponsor removed, polo construction reduced to ring color. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with five narrow black torso columns, black shoulders/sleeves and black neckline with fine yellow edge; thin yellow cuff piping. Logos/chevrons/sponsor removed, polo construction reduced to ring color. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_639b53f65919024df075-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EAD44C",
+      "leftSleeve": "#27242C",
+      "rightSleeve": "#27242C",
+      "collar": "#EAD44C",
+      "leftCuff": "#EAD44C",
+      "rightCuff": "#EAD44C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EAD44C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.167 4.5L77 2Q100 7 123 2L128.833 4.5C131.167 30.667 68.833 30.667 71.167 4.5Z",
+          "fill": "#27242C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EAD44C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#27242C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 78,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#27242C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 102,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#27242C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#27242C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#27242C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#27242C",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#27242C",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.75C24 80.35000000000001 36 85.65 44.5 84.75Q48 84.85000000000001 49.2 76.65L52 106H5Z",
+        "fill": "#EAD44C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.75C176 80.35000000000001 164 85.65 155.5 84.75Q152 84.85000000000001 150.8 76.65L148 106H195Z",
+        "fill": "#EAD44C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

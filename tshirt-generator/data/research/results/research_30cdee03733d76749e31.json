@@ -4,8 +4,8 @@
   "team_name": "Juventus Next Gen",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_04b42c6d0fdb1fa0c626-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/juventus-next-gen-2026-27-away-kit-497284/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/19/l6rFxpcHZbxouHw/juventus-next-gen-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_04b42c6d0fdb1fa0c626-away-497284.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#F0B4C5",
+      "leftSleeve": "#F0B4C5",
+      "rightSleeve": "#F0B4C5",
+      "collar": "#222724",
+      "leftCuff": "#272B29",
+      "rightCuff": "#272B29"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front visually compared with the same current design. Shared reviewed geometry from team_31cc64e36fbdf87509fc-away-r001.json, with reserve evidence and identity retained separately. Pink shirt, black shoulder stripes and black/cream collar and cuff bands. Tonal Juventus lettering and zebra identity marks are omitted. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_04b42c6d0fdb1fa0c626-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_30cdee03733d76749e31.json",
+    "source_kit_id": "497284"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

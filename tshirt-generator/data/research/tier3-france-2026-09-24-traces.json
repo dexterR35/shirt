@@ -1,0 +1,103 @@
+{
+  "batch": "tier3-france-2026-09-24",
+  "traces": [
+    {
+      "key": "Concarneau:home",
+      "reference": "data/research/references/footballkitarchive/team_280fe3556b5fd1befb03-home-504650.jpg",
+      "source_sha256": "42d419ed8986d5a363e291fa4227632a100064654f6ceb30b16dd17f008027a8",
+      "spec": {
+        "box": [
+          227,
+          616,
+          425,
+          325
+        ],
+        "width": 330,
+        "mode": "dark",
+        "threshold": 2,
+        "blur": 11,
+        "max": 180
+      },
+      "placement": {
+        "x": 50,
+        "y": 123,
+        "width": 101,
+        "height": 72,
+        "color": "#116194",
+        "clip": "body"
+      },
+      "ink_pixels": 18803,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Thionville Lusitanos:home",
+      "reference": "data/research/references/footballkitarchive/team_d2f788ed3c848cdc513a-home-505174.jpg",
+      "source_sha256": "f36be757b517cd73d1ffa41de9b84c87f7f1aed19973e0c4c97c3363f82ef3ea",
+      "spec": {
+        "box": [
+          133,
+          650,
+          325,
+          200
+        ],
+        "width": 300,
+        "mode": "dark",
+        "threshold": 5,
+        "blur": 9,
+        "max": 145,
+        "exclude": [
+          [
+            202,
+            792,
+            110,
+            80
+          ],
+          [
+            110,
+            822,
+            355,
+            30
+          ]
+        ]
+      },
+      "placement": {
+        "x": 53,
+        "y": 146,
+        "width": 92,
+        "height": 53,
+        "color": "#456B8C",
+        "clip": "body"
+      },
+      "ink_pixels": 18264,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Thionville Lusitanos:away",
+      "reference": "data/research/references/footballkitarchive/team_d2f788ed3c848cdc513a-away-505173.jpg",
+      "source_sha256": "9e625b04ab58588288633ee36e26e0016fd4501d0e32bcf7836bbfb2416b4811",
+      "spec": {
+        "box": [
+          277,
+          774,
+          235,
+          159
+        ],
+        "width": 230,
+        "mode": "dark",
+        "threshold": 5,
+        "blur": 9,
+        "max": 145
+      },
+      "placement": {
+        "x": 65,
+        "y": 162,
+        "width": 75,
+        "height": 41,
+        "color": "#515563",
+        "clip": "body"
+      },
+      "ink_pixels": 11602,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "team_name": "Inter U23",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9c07a5a14cd2a9468a02-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/inter-milan-u23-2026-27-away-kit-497280/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/19/dQzWGzo6PuTYwzX/inter-milan-u23-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9c07a5a14cd2a9468a02-away-497280.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F0F1F2",
+      "leftSleeve": "#F0F1F2",
+      "rightSleeve": "#F0F1F2",
+      "collar": "#142B53",
+      "leftCuff": "#142B53",
+      "rightCuff": "#142B53"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front visually compared with the same current design. Shared reviewed geometry from team_dc33dee4866312fa7aa4-away-r001.json, with reserve evidence and identity retained separately. White front and sleeves with fine regularly spaced blue vertical pinstripes; navy collar and sleeve ends. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_9c07a5a14cd2a9468a02-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_00f76c4909e2defb39b2.json",
+    "source_kit_id": "497280"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3ae98caed9487140c8ec",
+  "team_name": "Ponferradina",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with two blue vertical body bands and one red centre band, blue neckline/three shoulder tapes, red lower-side and hem inserts. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3ae98caed9487140c8ec-home-496779.jpg",
+      "page_url": "https://www.footballkitarchive.com/sd-ponferradina-2026-27-home-kit-496779/",
+      "sha256": "bc528e42e9564b725cc6f5ad4b795b3684ee5efda28b58f25443dc42378e7861"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#24549B",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#24549B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9.4
+          ],
+          [
+            75,
+            10.9
+          ],
+          [
+            35,
+            33.4
+          ],
+          [
+            35,
+            31.9
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            9.4
+          ],
+          [
+            125,
+            10.9
+          ],
+          [
+            165,
+            33.4
+          ],
+          [
+            165,
+            31.9
+          ]
+        ],
+        "fill": "#24549B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#215798",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#215798",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#D72D3A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            126
+          ],
+          [
+            55,
+            154
+          ],
+          [
+            60,
+            184
+          ],
+          [
+            61,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#D72D3A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            126
+          ],
+          [
+            145,
+            154
+          ],
+          [
+            140,
+            184
+          ],
+          [
+            139,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#D72D3A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 197,
+        "width": 200,
+        "height": 3,
+        "fill": "#D72D3A",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

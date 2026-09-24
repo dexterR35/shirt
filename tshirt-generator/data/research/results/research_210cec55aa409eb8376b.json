@@ -4,8 +4,8 @@
   "team_name": "Barnsley",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_585307b4e3c531f991c0-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/barnsley-fc-2026-27-home-kit-494727/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/11/hF5iT0zIKSYDvjG/barnsley-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_585307b4e3c531f991c0-home-494727.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D30B2D",
+      "leftSleeve": "#D30B2D",
+      "rightSleeve": "#D30B2D",
+      "collar": "#D30B2D",
+      "leftCuff": "#D30B2D",
+      "rightCuff": "#D30B2D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with a faint small-scale tonal jacquard-like vertical zigzag field, red cuffs and a narrow white cuff/neck edge. Discrete constant-color contours from the clean lower-front crop [350,970,250,280], sampled at 250 px and reflected at 43 × 48 internal units; broad illumination is removed. Fine print is reduced and extended across sponsor-hidden areas, not claimed to match hidden placement. Original PNG supplies all fabric/shading; no second V-neck.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_585307b4e3c531f991c0-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_210cec55aa409eb8376b.json",
+    "source_kit_id": "494727"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

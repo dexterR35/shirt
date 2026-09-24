@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_beec93bd59aefafd54c1",
+  "team_name": "Xanthi",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-home-kit-443689/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/is8NzX4oBgS8j2M/ao-xanthi-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_beec93bd59aefafd54c1-home-443689.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#CF272B",
+      "rightCuff": "#CF272B"
+    }
+  },
+  "observations": "White with three broad red vertical torso stripes, white sleeves, red cuffs and red/white neckline. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#CF272B",
+      "rightCuff": "#CF272B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#CF252A",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#D21B27",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#D21B27",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#D21B27",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 67.6C24 72.2 36 77.5 44.5 76.6Q48 76.7 49.2 68.5L52 106H5Z",
+        "fill": "#CF272B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 67.6C176 72.2 164 77.5 155.5 76.6Q152 76.7 150.8 68.5L148 106H195Z",
+        "fill": "#CF272B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

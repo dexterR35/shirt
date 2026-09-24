@@ -57,7 +57,7 @@ async function basePixels(base, size) {
   return pixels;
 }
 
-async function render({ size, base, paint, lighting = 100 }) {
+async function render({ size, base, paint, lighting = 0 }) {
   const source = await basePixels(base, size);
   if (!paint) return new ImageData(compositePixels(source.data, null, lighting), size, size);
   const ctx = new OffscreenCanvas(size, size).getContext("2d", { willReadFrequently: true });

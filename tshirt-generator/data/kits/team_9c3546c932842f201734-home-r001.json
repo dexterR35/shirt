@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9c3546c932842f201734",
+  "team_name": "UD Ibiza",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ud-ibiza-2026-27-home-kit-504020/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/utHpUXi1pRal3Ut/ud-ibiza-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9c3546c932842f201734-home-504020.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#70C2E9",
+      "leftSleeve": "#70C2E9",
+      "rightSleeve": "#70C2E9",
+      "collar": "#B99537",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "observations": "Sky blue with pale side/sleeve tint, navy/gold microcheck trim reduced to the existing round ring and thin cuff bands. Source polo shape is not redrawn; fine jacquard represented by the original PNG fabric only. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue with pale side/sleeve tint, navy/gold microcheck trim reduced to the existing round ring and thin cuff bands. Source polo shape is not redrawn; fine jacquard represented by the original PNG fabric only. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_9c3546c932842f201734-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#70C2E9",
+      "leftSleeve": "#70C2E9",
+      "rightSleeve": "#70C2E9",
+      "collar": "#B99537",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B99537",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71 4.571L77 2Q100 7 123 2L129 4.571C131.286 30.857 68.714 30.857 71 4.571Z",
+          "fill": "#284857",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73 3.714L77 2Q100 7 123 2L127 3.714C129.857 28.571 70.143 28.571 73 3.714Z",
+          "fill": "#B99537",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74 3.286L77 2Q100 7 123 2L126 3.286C129.143 27.429 70.857 27.429 74 3.286Z",
+          "fill": "#284857",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M76 2.429L77 2Q100 7 123 2L124 2.429C127.714 25.143 72.286 25.143 76 2.429Z",
+          "fill": "#B99537",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#70C2E9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 200,
+          "y2": 0,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#B5D9E9"
+            },
+            {
+              "offset": 0.24,
+              "color": "#9AD1EB"
+            },
+            {
+              "offset": 0.5,
+              "color": "#5FBAE7"
+            },
+            {
+              "offset": 0.76,
+              "color": "#9AD1EB"
+            },
+            {
+              "offset": 1,
+              "color": "#B5D9E9"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 72.39999999999999C24 77 36 82.3 44.5 81.39999999999999Q48 81.5 49.2 73.3L52 106H5Z",
+        "fill": "#264B5A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.39999999999999C24 80 36 85.3 44.5 84.39999999999999Q48 84.5 49.2 76.3L52 106H5Z",
+        "fill": "#BB9E4B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76.1C24 80.7 36 86 44.5 85.1Q48 85.2 49.2 77L52 106H5Z",
+        "fill": "#264B5A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.39999999999999C176 77 164 82.3 155.5 81.39999999999999Q152 81.5 150.8 73.3L148 106H195Z",
+        "fill": "#264B5A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.39999999999999C176 80 164 85.3 155.5 84.39999999999999Q152 84.5 150.8 76.3L148 106H195Z",
+        "fill": "#BB9E4B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76.1C176 80.7 164 86 155.5 85.1Q152 85.2 150.8 77L148 106H195Z",
+        "fill": "#264B5A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "1. FC Saarbrücken",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_09d1e82308228217be08-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/1-fc-saarbrucken-2026-27-home-kit-492580/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/16/DzrgJUewlKX5gQd/1-fc-saarbrucken-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_09d1e82308228217be08-home-492580.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#0984C1",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#13232D",
+      "leftCuff": "#F6D43F",
+      "rightCuff": "#F6D43F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue torso with fine black pinstripes, solid black shoulder caps/sleeves, yellow cuff edges and dark-blue/yellow ring colors. Source pinlines are straightened; all marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_09d1e82308228217be08-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f4fb9d00db0aeadb5cb2.json",
+    "source_kit_id": "492580"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

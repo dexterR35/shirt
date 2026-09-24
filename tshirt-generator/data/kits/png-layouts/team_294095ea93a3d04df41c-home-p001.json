@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_294095ea93a3d04df41c",
+  "team_name": "Bastia",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal blue torso with subtle alternating blue columns and thin navy pinlines, two separate white chest bars and navy collar/three shoulder tapes. White bars continue through removed shield; sponsor and all crests removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_294095ea93a3d04df41c-home-497156.jpg",
+      "page_url": "https://www.footballkitarchive.com/sc-bastia-2026-27-home-kit-497156/",
+      "sha256": "ff2e4ba39c069a2b674cd0476a55f0d6abc43a0e9f0bd78e7a2dbb78be68e8c3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0654BC",
+      "leftSleeve": "#0654BC",
+      "rightSleeve": "#0654BC",
+      "collar": "#103573",
+      "leftCuff": "#0654BC",
+      "rightCuff": "#0654BC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#103573",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0654BC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 61.3,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 72.6,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83.9,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 95.2,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 106.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 117.80000000000001,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129.10000000000002,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140.4,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 151.7,
+        "y": 0,
+        "width": 0.5,
+        "height": 200,
+        "fill": "#152F64",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#105BBC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#105BBC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 106,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#105BBC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#105BBC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9.4
+          ],
+          [
+            75,
+            10.9
+          ],
+          [
+            35,
+            33.4
+          ],
+          [
+            35,
+            31.9
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            9.4
+          ],
+          [
+            125,
+            10.9
+          ],
+          [
+            165,
+            33.4
+          ],
+          [
+            165,
+            31.9
+          ]
+        ],
+        "fill": "#142D58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 62,
+        "width": 200,
+        "height": 6,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 76,
+        "width": 200,
+        "height": 6,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

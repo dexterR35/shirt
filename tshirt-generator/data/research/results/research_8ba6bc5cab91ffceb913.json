@@ -4,8 +4,8 @@
   "team_name": "Fortuna Düsseldorf",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d0aed38f36cb1def6e3a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fortuna-dusseldorf-2026-27-home-kit-482640/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/ss9gaBfkg2NCW4S/fortuna-dusseldorf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d0aed38f36cb1def6e3a-home-482640.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#F3F3F1",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with four broad red speckled hoops, fading toward the left, plain white ring/cuffs and one broad black shoulder line on each side. Red binary ink extracted from clean bottom hoop crop [239,898,441,167] at 360px, reused at matched hoop scale and adapted over sleeve band; sponsor and crest regions never enter the trace. Fine speckle is reduced for vector paint. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_d0aed38f36cb1def6e3a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8ba6bc5cab91ffceb913.json",
+    "source_kit_id": "482640"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

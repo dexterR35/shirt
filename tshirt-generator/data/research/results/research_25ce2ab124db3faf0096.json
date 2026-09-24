@@ -4,8 +4,8 @@
   "team_name": "Novara",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_71f0d0ad24837a90d609-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/novara-fc-2026-27-away-kit-511703/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/19/f7Bf7ZhLlNyqzV1/novara-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_71f0d0ad24837a90d609-away-511703.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F2BD17",
+      "leftSleeve": "#F2BD17",
+      "rightSleeve": "#F2BD17",
+      "collar": "#C8A314",
+      "leftCuff": "#1B73A6",
+      "rightCuff": "#1B73A6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Golden yellow with one broad blue upper-chest band and blue sleeve bands above yellow ends, yellow ring. Low-resolution independent retail-window front limits tiny trim details; sponsors/logos removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_71f0d0ad24837a90d609-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_25ce2ab124db3faf0096.json",
+    "source_kit_id": "511703"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Pineto",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_18322926958343819758-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pineto-calcio-2026-27-home-kit-516627/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/PdaWjvWBUZfAIXM/pineto-calcio-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_18322926958343819758-home-516627.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#078FDF",
+      "leftSleeve": "#078FDF",
+      "rightSleeve": "#078FDF",
+      "collar": "#F2F2EF",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright cyan blue with white collar and two white sleeve-end bands separated by blue. Physical notch is adapted to the existing round ring. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_18322926958343819758-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0535310cd68e0549cb3c.json",
+    "source_kit_id": "516627"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

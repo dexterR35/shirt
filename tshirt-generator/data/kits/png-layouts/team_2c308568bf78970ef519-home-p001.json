@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2c308568bf78970ef519",
+  "team_name": "Arzignano Valchiampo",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Half sky blue on viewer-left torso and yellow on right, reversed sleeve colors, yellow ring with self-colored cuff ends. Jako dots and every sponsor removed; worn photo limits tiny construction details. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2c308568bf78970ef519-home-510003.jpg",
+      "page_url": "https://www.footballkitarchive.com/arzignano-valchiampo-2026-27-home-kit-510003/",
+      "sha256": "4d643219b8637b2cf6b393db38502716cda25f4c810a782bb520264a4430869b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F5D84E",
+      "leftSleeve": "#F5D84E",
+      "rightSleeve": "#69B8DE",
+      "collar": "#F5D84E",
+      "leftCuff": "#F5D84E",
+      "rightCuff": "#69B8DE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F5D84E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F5D84E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 51,
+        "height": 200,
+        "fill": "#69B8DE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

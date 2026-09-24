@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5c07d710c43607c76a67",
+  "team_name": "Athletic Club B",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bilbao-athletic-2026-27-home-kit-484448/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/20/1mUAC0Uvog3olZt/bilbao-athletic-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5c07d710c43607c76a67-home-484448.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F1F0EC",
+      "leftSleeve": "#F1F0EC",
+      "rightSleeve": "#F1F0EC",
+      "collar": "#181B1C",
+      "leftCuff": "#171B1C",
+      "rightCuff": "#171B1C"
+    }
+  },
+  "observations": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_f88ed23c7ec2ef60668d-home-r001.json; reserve evidence/identity stays separate. Five narrow red torso stripes on white with striped sleeves, red shoulder yokes and black diagonal accents; black neck/cuff bands with fine pale edging. Logos removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_f88ed23c7ec2ef60668d-home-r001.json; reserve evidence/identity stays separate. Five narrow red torso stripes on white with striped sleeves, red shoulder yokes and black diagonal accents; black neck/cuff bands with fine pale edging. Logos removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_5c07d710c43607c76a67-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F0EC",
+      "leftSleeve": "#F1F0EC",
+      "rightSleeve": "#F1F0EC",
+      "collar": "#181B1C",
+      "leftCuff": "#171B1C",
+      "rightCuff": "#171B1C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B1C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.367 2.7L77 2Q100 7 123 2L124.633 2.7C128.167 25.867 71.833 25.867 75.367 2.7Z",
+          "fill": "#D11D2D",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F0EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#CB162B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 74,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#CB162B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#CB162B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#CB162B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 0,
+        "width": 10,
+        "height": 200,
+        "fill": "#CB162B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 21,
+        "y": 0,
+        "width": 8,
+        "height": 95,
+        "fill": "#CB162B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 171,
+        "y": 0,
+        "width": 8,
+        "height": 95,
+        "fill": "#CB162B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 38,
+        "y": 0,
+        "width": 8,
+        "height": 95,
+        "fill": "#CB162B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 154,
+        "y": 0,
+        "width": 8,
+        "height": 95,
+        "fill": "#CB162B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            35,
+            22
+          ],
+          [
+            76,
+            2
+          ],
+          [
+            76,
+            14
+          ],
+          [
+            47,
+            31
+          ]
+        ],
+        "fill": "#CD182C",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            26
+          ],
+          [
+            74,
+            7
+          ],
+          [
+            75,
+            9
+          ],
+          [
+            50,
+            29
+          ]
+        ],
+        "fill": "#1B2022",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            165,
+            22
+          ],
+          [
+            124,
+            2
+          ],
+          [
+            124,
+            14
+          ],
+          [
+            153,
+            31
+          ]
+        ],
+        "fill": "#CD182C",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            26
+          ],
+          [
+            126,
+            7
+          ],
+          [
+            125,
+            9
+          ],
+          [
+            150,
+            29
+          ]
+        ],
+        "fill": "#1B2022",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#171B1C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#F2F1EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#171B1C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#F2F1EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

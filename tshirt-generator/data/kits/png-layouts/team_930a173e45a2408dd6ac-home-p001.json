@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_930a173e45a2408dd6ac",
+  "team_name": "Hércules",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White and royal-blue broad vertical stripes, blue sleeves with white shoulder ribbon and wide white cuffs, white ring. Repeated Kappa figures removed from the white sleeve ribbon. No polo flaps or sponsorship drawn. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_930a173e45a2408dd6ac-home-504027.jpg",
+      "page_url": "https://www.footballkitarchive.com/hercules-cf-2026-27-home-kit-504027/",
+      "sha256": "f0868dbcaf4d3d8a649793b94a57a60d7c9a2e798da8501a3d33c5491056b32d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#1454A3",
+      "rightSleeve": "#1454A3",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 0,
+        "width": 24,
+        "height": 200,
+        "fill": "#1454A3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 24,
+        "height": 200,
+        "fill": "#1454A3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 24,
+        "height": 200,
+        "fill": "#1454A3",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            66,
+            10
+          ],
+          [
+            32,
+            27
+          ],
+          [
+            27,
+            23
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            134,
+            10
+          ],
+          [
+            168,
+            27
+          ],
+          [
+            173,
+            23
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.1C24 75.7 36 81 44.5 80.1Q48 80.2 49.2 72L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.1C176 75.7 164 81 155.5 80.1Q152 80.2 150.8 72L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

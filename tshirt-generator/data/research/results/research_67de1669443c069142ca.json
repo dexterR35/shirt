@@ -4,8 +4,8 @@
   "team_name": "Stockport County",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_30d142b5ba5aa667cd73-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/stockport-county-2026-27-away-kit-499719/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/i1hLJEDJwdAEo9p/stockport-county-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_30d142b5ba5aa667cd73-away-499719.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray"
+    ],
+    "values": {
+      "body": "#1C1F20",
+      "leftSleeve": "#1C1F20",
+      "rightSleeve": "#1C1F20",
+      "collar": "#484B50",
+      "leftCuff": "#484B50",
+      "rightCuff": "#484B50"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain black body/sleeves with charcoal upper shoulder inserts, ring and cuff edges. Source flat illustration adapted to the PNG; all white crest, sponsor and manufacturer graphics removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_30d142b5ba5aa667cd73-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_67de1669443c069142ca.json",
+    "source_kit_id": "499719"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "SV Meppen",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6c7ae0bef8e9cce03ca9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sv-meppen-2026-27-home-kit-499673/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/25/SkgHLvFIfaW0wQ9/sv-meppen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6c7ae0bef8e9cce03ca9-home-499673.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#074CAB",
+      "rightSleeve": "#074CAB",
+      "collar": "#074CAB",
+      "leftCuff": "#074CAB",
+      "rightCuff": "#074CAB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with royal-blue shoulder/sleeve panels and ring/cuffs; a white diagonal middle-sleeve band cuts through each blue sleeve. Fine blue side inserts; all Jako and sponsor/crest graphics removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_6c7ae0bef8e9cce03ca9-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7820a0c58e9a592fc3e0.json",
+    "source_kit_id": "499673"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

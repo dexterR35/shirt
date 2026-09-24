@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Spezia Calcio",
+      "design": "Pinstripes",
+      "colors": [
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Segnoverde",
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 4, 2026",
+      "release_date_iso": "2026-08-04",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/spezia-calcio-2026-27-home-kit-497835/",
+        "kit_id": "497835",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_27baa648bc0548750bc3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Spezia Calcio",
+      "design": "Pinstripes",
+      "colors": [
+        "Black",
+        "Gold",
+        "Gray"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Kappa",
+      "sponsor": "Segnoverde",
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 13, 2026",
+      "release_date_iso": "2026-08-13",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/spezia-calcio-2026-27-away-kit-498561/",
+        "kit_id": "498561",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_9f3c2a97970412d46efb.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

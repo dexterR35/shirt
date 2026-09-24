@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7364e7d1903b6f3a49bb",
+  "team_name": "Wigan Athletic",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wigan-athletic-2026-27-home-kit-492442/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/hJ6f20P5prao06c/wigan-athletic-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7364e7d1903b6f3a49bb-home-492442.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#075BB3",
+      "leftSleeve": "#075BB3",
+      "rightSleeve": "#075BB3",
+      "collar": "#F3F2F1",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    }
+  },
+  "observations": "Blue with three darker broad vertical torso stripes and solid blue sleeves; white/blue/white ring bands and double white cuff edges. All sponsor, crest and manufacturer marks removed; blue tones are visually estimated. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with three darker broad vertical torso stripes and solid blue sleeves; white/blue/white ring bands and double white cuff edges. All sponsor, crest and manufacturer marks removed; blue tones are visually estimated. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_7364e7d1903b6f3a49bb-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#075BB3",
+      "leftSleeve": "#075BB3",
+      "rightSleeve": "#075BB3",
+      "collar": "#F3F2F1",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2F1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.909 4.182L77 2Q100 7 123 2L128.091 4.182C130.636 29.818 69.364 29.818 71.909 4.182Z",
+          "fill": "#075BB3",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.091 2.818L77 2Q100 7 123 2L124.909 2.818C128.364 26.182 71.636 26.182 75.091 2.818Z",
+          "fill": "#F3F2F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#075BB3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 53,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0850A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0850A1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 119,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0850A1",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.19999999999999C24 76.8 36 82.1 44.5 81.19999999999999Q48 81.3 49.2 73.1L52 106H5Z",
+        "fill": "#F3F2F1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.5C24 78.10000000000001 36 83.4 44.5 82.5Q48 82.60000000000001 49.2 74.4L52 106H5Z",
+        "fill": "#075BB3",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#F3F2F1",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.19999999999999C176 76.8 164 82.1 155.5 81.19999999999999Q152 81.3 150.8 73.1L148 106H195Z",
+        "fill": "#F3F2F1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.5C176 78.10000000000001 164 83.4 155.5 82.5Q152 82.60000000000001 150.8 74.4L148 106H195Z",
+        "fill": "#075BB3",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#F3F2F1",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

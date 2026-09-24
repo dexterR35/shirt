@@ -4,8 +4,8 @@
   "team_name": "Stevenage",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_dea6e32ac37f82a6c826-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/stevenage-fc-2026-27-home-kit-491777/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/01/w44G2QTo6DF6I8T/stevenage-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dea6e32ac37f82a6c826-home-491777.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Gray"
+    ],
+    "values": {
+      "body": "#F4F4F3",
+      "leftSleeve": "#F4F4F3",
+      "rightSleeve": "#F4F4F3",
+      "collar": "#E64348",
+      "leftCuff": "#E64348",
+      "rightCuff": "#E64348"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with red shoulder inserts, collar ring, cuffs and underarm edges. The large pale repeated heraldic deer motifs are deliberately removed with the team emblems. This leaves the unbranded white field rather than copying emblem-derived decoration. Sponsor, Puma marks and anniversary text removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_dea6e32ac37f82a6c826-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0822524a9e4f477b0e54.json",
+    "source_kit_id": "491777"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

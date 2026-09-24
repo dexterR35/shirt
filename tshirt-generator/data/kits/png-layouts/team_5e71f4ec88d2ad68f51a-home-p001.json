@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5e71f4ec88d2ad68f51a",
+  "team_name": "Jahn Regensburg",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with one broad red central stripe, red/claret raglan sleeves and claret ring, off-white cuff band with red edge. Close inspection shows the stripe print includes letters and heraldic emblems: those are all removed with manufacturer shoulder marks and sponsor, preserving the red stripe itself. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5e71f4ec88d2ad68f51a-home-492319.jpg",
+      "page_url": "https://www.footballkitarchive.com/jahn-regensburg-2026-27-home-kit-492319/",
+      "sha256": "1d132be9b1054435e6884fbc959970a4dad651366abdf044c9f27f44f5f63130"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#9F1028",
+      "rightSleeve": "#9F1028",
+      "collar": "#771123",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#771123",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 32,
+        "height": 200,
+        "fill": "#CB1936",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            3
+          ],
+          [
+            72,
+            12
+          ],
+          [
+            43,
+            26
+          ],
+          [
+            31,
+            60
+          ],
+          [
+            26,
+            79
+          ],
+          [
+            17,
+            76
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            44,
+            13
+          ]
+        ],
+        "fill": "#BF1832",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            3
+          ],
+          [
+            128,
+            12
+          ],
+          [
+            157,
+            26
+          ],
+          [
+            169,
+            60
+          ],
+          [
+            174,
+            79
+          ],
+          [
+            183,
+            76
+          ],
+          [
+            173,
+            28
+          ],
+          [
+            156,
+            13
+          ]
+        ],
+        "fill": "#BF1832",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F3F3F1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#9F1028",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F3F3F1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#9F1028",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

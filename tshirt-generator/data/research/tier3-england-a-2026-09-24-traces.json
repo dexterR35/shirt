@@ -1,0 +1,76 @@
+{
+  "batch": "tier3-england-a-2026-09-24",
+  "traces": [
+    {
+      "key": "Barnsley:away",
+      "reference": "data/research/references/footballkitarchive/team_585307b4e3c531f991c0-away-501581.jpg",
+      "source_sha256": "a6b17eaa1265d9eb655a42cd576d369a00a43d2de44349212850491d6f6707e2",
+      "spec": {
+        "box": [
+          255,
+          270,
+          605,
+          1200
+        ],
+        "width": 430,
+        "mode": "blue",
+        "threshold": 62,
+        "min": 35,
+        "max": 117,
+        "repairs": [
+          {
+            "target": [
+              390,
+              302,
+              168,
+              132
+            ],
+            "source": [
+              604,
+              965,
+              168,
+              132
+            ]
+          },
+          {
+            "target": [
+              384,
+              467,
+              158,
+              184
+            ],
+            "source": [
+              651,
+              927,
+              158,
+              184
+            ]
+          },
+          {
+            "target": [
+              264,
+              680,
+              430,
+              216
+            ],
+            "source": [
+              333,
+              1010,
+              430,
+              216
+            ]
+          }
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 8,
+        "width": 102,
+        "height": 192,
+        "color": "#225992"
+      },
+      "ink_pixels": 85189,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

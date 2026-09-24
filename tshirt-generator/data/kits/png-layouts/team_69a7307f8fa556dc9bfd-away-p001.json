@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_69a7307f8fa556dc9bfd",
+  "team_name": "Unionistas de Salamanca",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Pink upper torso/sleeves fading into navy lower torso and sleeve ends, navy neck/shoulder edging and side inserts, white cuffs. All-over printed town names and cuff wording removed as lettering, together with sponsors and crests. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_69a7307f8fa556dc9bfd-away-472315.jpg",
+      "page_url": "https://www.footballkitarchive.com/unionistas-de-salamanca-2026-27-away-kit-472315/",
+      "sha256": "eea3af5c77c65edc79b99ae703d5b56db4f5695dad07eeca52f6df207b718353"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E95798",
+      "leftSleeve": "#E95798",
+      "rightSleeve": "#E95798",
+      "collar": "#2F405D",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2F405D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E95798",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EA63A0"
+            },
+            {
+              "offset": 0.35,
+              "color": "#D94788"
+            },
+            {
+              "offset": 0.72,
+              "color": "#59446D"
+            },
+            {
+              "offset": 1,
+              "color": "#32435F"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 85,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 12,
+          "x2": 0,
+          "y2": 79,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EE6BA6"
+            },
+            {
+              "offset": 1,
+              "color": "#37405E"
+            }
+          ]
+        },
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 85,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 12,
+          "x2": 0,
+          "y2": 79,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#EE6BA6"
+            },
+            {
+              "offset": 1,
+              "color": "#37405E"
+            }
+          ]
+        },
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            2
+          ],
+          [
+            74,
+            9
+          ],
+          [
+            47,
+            19
+          ],
+          [
+            44,
+            15
+          ]
+        ],
+        "fill": "#33445D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            2
+          ],
+          [
+            126,
+            9
+          ],
+          [
+            153,
+            19
+          ],
+          [
+            156,
+            15
+          ]
+        ],
+        "fill": "#33445D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H56Q60 133 56 77Z",
+        "fill": "#30465E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H144Q140 133 144 77Z",
+        "fill": "#30465E",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

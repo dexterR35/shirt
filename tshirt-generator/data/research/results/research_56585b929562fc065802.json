@@ -4,8 +4,8 @@
   "team_name": "UD Ourense",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a0acaa90c89cdd1332d0-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ud-ourense-2026-27-home-kit-513387/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/27/o3iJ22iLSCcxOMi/ud-ourense-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a0acaa90c89cdd1332d0-home-513387.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#DA253C",
+      "leftSleeve": "#DA253C",
+      "rightSleeve": "#DA253C",
+      "collar": "#DA253C",
+      "leftCuff": "#DA253C",
+      "rightCuff": "#DA253C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with three white shoulder tapes and curved white underarm/shoulder inserts, self-colored ring/cuffs. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_a0acaa90c89cdd1332d0-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_56585b929562fc065802.json",
+    "source_kit_id": "513387"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

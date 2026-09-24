@@ -4,8 +4,8 @@
   "team_name": "Racing Ferrol",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_10cc7cda6f6a5fe8beda-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/racing-club-de-ferrol-2026-27-home-kit-501461/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/G3JLYj0meMNmMFQ/racing-club-de-ferrol-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_10cc7cda6f6a5fe8beda-home-501461.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "White"
+    ],
+    "values": {
+      "body": "#255549",
+      "leftSleeve": "#255549",
+      "rightSleeve": "#255549",
+      "collar": "#234D42",
+      "leftCuff": "#255549",
+      "rightCuff": "#255549"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Forest green with three white shoulder tapes, self-colored ring/cuffs; plain torso. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_10cc7cda6f6a5fe8beda-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fb86cd07ac4f555f77ab.json",
+    "source_kit_id": "501461"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

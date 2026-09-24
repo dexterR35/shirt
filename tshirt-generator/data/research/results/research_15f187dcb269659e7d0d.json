@@ -4,8 +4,8 @@
   "team_name": "Vado",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1f5ce39d7dfc4f6a4542-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vado-fc-1913-2026-27-home-kit-520820/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/05/ngwg73KqbnfGe7H/vado-fc-1913-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1f5ce39d7dfc4f6a4542-home-520820.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gold",
+      "Navy"
+    ],
+    "values": {
+      "body": "#D6B16C",
+      "leftSleeve": "#D6B16C",
+      "rightSleeve": "#D6B16C",
+      "collar": "#CEAB6E",
+      "leftCuff": "#D6B16C",
+      "rightCuff": "#D6B16C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm gold/tan with matching round neckline and plain sleeves/cuffs. Outdoor worn-photo colors estimated; Nike mark/club crest removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_1f5ce39d7dfc4f6a4542-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_15f187dcb269659e7d0d.json",
+    "source_kit_id": "520820"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

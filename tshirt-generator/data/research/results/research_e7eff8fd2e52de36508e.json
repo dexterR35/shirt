@@ -4,8 +4,8 @@
   "team_name": "Barnsley",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_585307b4e3c531f991c0-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/barnsley-fc-2026-27-away-kit-501581/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/RK5nTn1XjO49tmi/barnsley-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_585307b4e3c531f991c0-away-501581.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1C2E4B",
+      "leftSleeve": "#1C2E4B",
+      "rightSleeve": "#1C2E4B",
+      "collar": "#18253E",
+      "leftCuff": "#18253E",
+      "rightCuff": "#18253E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with irregular blue fields of short angled dashes, independently traced from the Away front. Three explicitly measured unbranded lower-front patches repair manufacturer, crest and sponsor regions before discrete blue-ink segmentation. Sleeve dashes use the clean upper-right sleeve crop [922,290,95,185], tiled at 16 × 31.2 units to match the small torso dash scale; hidden opposite-sleeve placement is adapted. Navy cuffs/ring with thin white inner edges; no source photo pixels, cyan branding or duplicate V-neck.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_585307b4e3c531f991c0-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e7eff8fd2e52de36508e.json",
+    "source_kit_id": "501581"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

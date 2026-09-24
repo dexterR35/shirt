@@ -5,8 +5,8 @@
   "country_name": "Finland",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,19 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-finland-source-gaps-2026-09-25",
+      "action": "Checked current Ykkönen listing, previous-year listing for independent club links, and the team history. Full-name archive search used for SalPa, VJS and TPV; reserve identities checked independently.",
+      "source_url": "https://www.footballkitarchive.com/fc-jazz-kits-t18316/",
+      "observed_entries": [
+        "2025 Home",
+        "2025 Away"
+      ],
+      "outcome": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    }
   ]
 }

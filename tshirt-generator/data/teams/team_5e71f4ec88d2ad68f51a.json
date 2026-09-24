@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Jahn Regensburg",
+      "design": "Single stripe",
+      "colors": [
+        "White",
+        "Red",
+        "Claret"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Hummel",
+      "sponsor": "Netto",
+      "competitions": [
+        "3. Liga"
+      ],
+      "release_date": "July 2, 2026",
+      "release_date_iso": "2026-07-02",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/jahn-regensburg-2026-27-home-kit-492319/",
+        "kit_id": "492319",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/3-liga-kits-2026-27-l5/",
+        "record_path": "data/research/footballkitarchive/records/research_8d0562c218eb2325d6e1.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/3-liga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Jahn Regensburg",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "Claret"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Hummel",
+      "sponsor": "Netto",
+      "competitions": [
+        "3. Liga"
+      ],
+      "release_date": "July 2, 2026",
+      "release_date_iso": "2026-07-02",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/jahn-regensburg-2026-27-away-kit-492320/",
+        "kit_id": "492320",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/3-liga-kits-2026-27-l5/",
+        "record_path": "data/research/footballkitarchive/records/research_199116e6038677139fc8.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/3-liga-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

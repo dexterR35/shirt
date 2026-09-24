@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Casertana FC",
+      "design": "Stripes",
+      "colors": [
+        "Navy",
+        "Red",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Decathlon",
+      "sponsor": "Pulsee",
+      "competitions": [
+        "Serie C"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/casertana-fc-2026-27-home-kit-497261/",
+        "kit_id": "497261",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_82cb92ed9e9b3169ac86.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Casertana FC",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Navy",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Decathlon",
+      "sponsor": "Pulsee",
+      "competitions": [
+        "Serie C"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/casertana-fc-2026-27-away-kit-497260/",
+        "kit_id": "497260",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_946ce136bd886cfbf834.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

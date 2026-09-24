@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_052f8d449c13d54c9deb",
+  "team_name": "Villefranche-Beaujolais",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-villefranche-beaujolais-2026-27-away-kit-505361/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/14/Qb1YI7WB3znARB9/fc-villefranche-beaujolais-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_052f8d449c13d54c9deb-away-505361.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "White"
+    ],
+    "values": {
+      "body": "#F88929",
+      "leftSleeve": "#F88929",
+      "rightSleeve": "#F88929",
+      "collar": "#F88929",
+      "leftCuff": "#F4F3EF",
+      "rightCuff": "#F4F3EF"
+    }
+  },
+  "observations": "Orange with twin narrow white shoulder tapes and two broad white lower-sleeve/cuff bars separated by orange. Orange ring, plain torso after removing sponsor and badges. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange with twin narrow white shoulder tapes and two broad white lower-sleeve/cuff bars separated by orange. Orange ring, plain torso after removing sponsor and badges. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_052f8d449c13d54c9deb-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F88929",
+      "leftSleeve": "#F88929",
+      "rightSleeve": "#F88929",
+      "collar": "#F88929",
+      "leftCuff": "#F4F3EF",
+      "rightCuff": "#F4F3EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F88929",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F88929",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#F4F3EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#F4F3EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#F4F3EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#F4F3EF",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 66.6C24 71.2 36 76.5 44.5 75.6Q48 75.7 49.2 67.5L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 69.8C24 74.4 36 79.7 44.5 78.8Q48 78.9 49.2 70.7L52 106H5Z",
+        "fill": "#F88929",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 72.3C24 76.9 36 82.2 44.5 81.3Q48 81.4 49.2 73.2L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 66.6C176 71.2 164 76.5 155.5 75.6Q152 75.7 150.8 67.5L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.8C176 74.4 164 79.7 155.5 78.8Q152 78.9 150.8 70.7L148 106H195Z",
+        "fill": "#F88929",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.3C176 76.9 164 82.2 155.5 81.3Q152 81.4 150.8 73.2L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

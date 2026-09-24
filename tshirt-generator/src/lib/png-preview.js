@@ -69,7 +69,7 @@ function lane(name) {
 }
 
 /** One render job: the page rasterizes the SVG paint (fast, native); the worker does the rest. */
-async function renderJob(name, config, size, encode, lighting = 100) {
+async function renderJob(name, config, size, encode, lighting = 0) {
   validateLighting(lighting);
   const base = baseSource(size);
   const [blob, paint] = await Promise.all([baseFile(base.path), config ? paintBitmap(config, size) : null]);
@@ -90,7 +90,7 @@ const checkSize = (size) => {
 };
 
 /** Compose from the original PNG on demand, in a worker. Display size never alters the source. */
-export async function renderPngPreview(config, size = 1024, {cache = true, lighting = 100} = {}) {
+export async function renderPngPreview(config, size = 1024, {cache = true, lighting = 0} = {}) {
   checkSize(size);
   validateLighting(lighting);
   const key = size + ':' + lighting + ':' + JSON.stringify(config);
@@ -113,7 +113,7 @@ export async function renderPngPreview(config, size = 1024, {cache = true, light
  * @param {{type:string, label:string, width:number, height:number}} encode
  * @returns {Promise<Blob>}
  */
-export async function renderEncoded(config, size, encode, lighting = 100) {
+export async function renderEncoded(config, size, encode, lighting = 0) {
   checkSize(size);
   return renderJob('download', config, size, encode, lighting);
 }

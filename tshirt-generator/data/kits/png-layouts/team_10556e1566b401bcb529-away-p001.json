@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_10556e1566b401bcb529",
+  "team_name": "Amiens",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Near-black plain body with off-white/brown cuff and ring bands. Outdoor worn source has warm shoulder lighting, not a contrasting shoulder panel. Henley fastener omitted; the original round collar is recolored only. All insignia removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_10556e1566b401bcb529-away-497824.jpg",
+      "page_url": "https://www.footballkitarchive.com/amiens-sc-2026-27-away-kit-497824/",
+      "sha256": "e4344feab2cc78f765ce2018749e2228a5539c9745c63a04c5e85b0c14162992"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#192426",
+      "leftSleeve": "#192426",
+      "rightSleeve": "#192426",
+      "collar": "#F4F3EF",
+      "leftCuff": "#B7A18E",
+      "rightCuff": "#B7A18E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F4F3EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.684 3.421L77 2Q100 7 123 2L126.316 3.421C129.368 27.789 70.632 27.789 73.684 3.421Z",
+          "fill": "#B7A18E",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.526 2.632L77 2Q100 7 123 2L124.474 2.632C128.053 25.684 71.947 25.684 75.526 2.632Z",
+          "fill": "#F4F3EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#192426",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#B7A18E",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.3C24 77.9 36 83.2 44.5 82.3Q48 82.4 49.2 74.2L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#B7A18E",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.3C24 79.9 36 85.2 44.5 84.3Q48 84.4 49.2 76.2L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#B7A18E",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.3C176 77.9 164 83.2 155.5 82.3Q152 82.4 150.8 74.2L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#B7A18E",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.3C176 79.9 164 85.2 155.5 84.3Q152 84.4 150.8 76.2L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

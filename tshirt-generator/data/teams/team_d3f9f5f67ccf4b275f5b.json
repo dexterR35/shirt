@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Calcio Lecco 1912",
+      "design": "Stripes",
+      "colors": [
+        "Sky blue",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Acerbis",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 21, 2026",
+      "release_date_iso": "2026-08-21",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/calcio-lecco-1912-2026-27-home-kit-499532/",
+        "kit_id": "499532",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_e8f760802c502eec23e0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Calcio Lecco 1912",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Sky blue",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Acerbis",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 16, 2026",
+      "release_date_iso": "2026-08-16",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/calcio-lecco-1912-2026-27-away-kit-499531/",
+        "kit_id": "499531",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_356e08dbb68c77d8d286.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

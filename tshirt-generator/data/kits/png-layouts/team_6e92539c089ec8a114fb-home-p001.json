@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6e92539c089ec8a114fb",
+  "team_name": "Desenzano",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal blue with thin sky-blue neckline/cuff piping. Faint blue tonal waves reduced because source front is dark and heavily sponsored; shoulder Jako circles removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6e92539c089ec8a114fb-home-509005.jpg",
+      "page_url": "https://www.footballkitarchive.com/desenzano-calvina-2026-27-home-kit-509005/",
+      "sha256": "f610addfa4272f6f672a901822019e392276dff1a0f5c644189ddd3080961c20"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#175DB1",
+      "leftSleeve": "#175DB1",
+      "rightSleeve": "#175DB1",
+      "collar": "#7CC6E3",
+      "leftCuff": "#80C9E0",
+      "rightCuff": "#80C9E0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#7CC6E3",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#175DB1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#175DB1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#80C9E0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#80C9E0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

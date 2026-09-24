@@ -4,8 +4,8 @@
   "team_name": "Huddersfield Town",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4274371f8a4149aa7a31-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/huddersfield-town-2026-27-away-kit-491767/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/01/TnJsPUwaPef0Zxi/huddersfield-town-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4274371f8a4149aa7a31-away-491767.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#171A20",
+      "leftSleeve": "#E9161D",
+      "rightSleeve": "#E9161D",
+      "collar": "#171A20",
+      "leftCuff": "#E9161D",
+      "rightCuff": "#E9161D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red sleeves and broad alternating red/black torso stripes with central black. Faint angular lines traced from clean black lower-front crop [580,1020,190,420], reduced to a single dark ink and confined behind red panels. Stripe edges normalized from the flat front. Black/red existing neckline; all branding omitted. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_4274371f8a4149aa7a31-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b1d8df25d7e4de6e613e.json",
+    "source_kit_id": "491767"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

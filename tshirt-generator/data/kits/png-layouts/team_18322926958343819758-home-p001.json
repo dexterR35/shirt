@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_18322926958343819758",
+  "team_name": "Pineto",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Bright cyan blue with white collar and two white sleeve-end bands separated by blue. Physical notch is adapted to the existing round ring. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_18322926958343819758-home-516627.jpg",
+      "page_url": "https://www.footballkitarchive.com/pineto-calcio-2026-27-home-kit-516627/",
+      "sha256": "5b9084449df762d2d5993b06f1778dd7ed81092c09e7032b2c26dc010cb6594c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#078FDF",
+      "leftSleeve": "#078FDF",
+      "rightSleeve": "#078FDF",
+      "collar": "#F2F2EF",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#078FDF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.89999999999999C24 76.5 36 81.8 44.5 80.89999999999999Q48 81 49.2 72.8L52 106H5Z",
+        "fill": "#F2F2EF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#068FE0",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75C24 79.60000000000001 36 84.9 44.5 84Q48 84.10000000000001 49.2 75.9L52 106H5Z",
+        "fill": "#F2F2EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.89999999999999C176 76.5 164 81.8 155.5 80.89999999999999Q152 81 150.8 72.8L148 106H195Z",
+        "fill": "#F2F2EF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#068FE0",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75C176 79.60000000000001 164 84.9 155.5 84Q152 84.10000000000001 150.8 75.9L148 106H195Z",
+        "fill": "#F2F2EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

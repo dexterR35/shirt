@@ -4,8 +4,8 @@
   "team_name": "Pro Vercelli",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_01574f84fc27a53ae442-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pro-vercelli-2026-27-home-kit-511540/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/22/EtAotdSKH5KEG0A/pro-vercelli-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_01574f84fc27a53ae442-home-511540.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#B01F33",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a red round-ring recolor and black shoulder tops. Fine cloth ribbing belongs to fabric rather than printed artwork. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_01574f84fc27a53ae442-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b7b4269368daec816444.json",
+    "source_kit_id": "511540"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

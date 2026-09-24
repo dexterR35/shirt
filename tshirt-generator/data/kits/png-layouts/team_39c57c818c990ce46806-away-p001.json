@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_39c57c818c990ce46806",
+  "team_name": "Preußen Münster",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with four fine pale-green rectangular outlines above and below a plain white chest field. The grey all-over forms inside these rectangles are enlarged eagle-wing fragments from the club emblem; all are removed. Plain white sleeves/cuffs/ring; no polo flaps or sponsor paint. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_39c57c818c990ce46806-away-494408.jpg",
+      "page_url": "https://www.footballkitarchive.com/preussen-munster-2026-27-away-kit-494408/",
+      "sha256": "ea5b3ad8b99c03039cda20060a2b17507e0eaae21f190cf60bb1404d551f7793"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#F3F3F1",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 22,
+        "height": 59,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49.6,
+        "y": 0.6,
+        "width": 20.8,
+        "height": 57.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 98,
+        "width": 22,
+        "height": 102,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49.6,
+        "y": 98.6,
+        "width": 20.8,
+        "height": 100.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 0,
+        "width": 22,
+        "height": 59,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76.6,
+        "y": 0.6,
+        "width": 20.8,
+        "height": 57.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 98,
+        "width": 22,
+        "height": 102,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76.6,
+        "y": 98.6,
+        "width": 20.8,
+        "height": 100.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 0,
+        "width": 22,
+        "height": 59,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103.6,
+        "y": 0.6,
+        "width": 20.8,
+        "height": 57.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 98,
+        "width": 22,
+        "height": 102,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103.6,
+        "y": 98.6,
+        "width": 20.8,
+        "height": 100.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 22,
+        "height": 59,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130.6,
+        "y": 0.6,
+        "width": 20.8,
+        "height": 57.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 98,
+        "width": 22,
+        "height": 102,
+        "fill": "#B4D8C4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130.6,
+        "y": 98.6,
+        "width": 20.8,
+        "height": 100.8,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

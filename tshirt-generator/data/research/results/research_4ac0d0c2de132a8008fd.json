@@ -4,8 +4,8 @@
   "team_name": "Crotone",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8b9250c0ef50c5b2250f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-crotone-2026-27-away-kit-514050/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/31/fb93aapDbPyHxjH/fc-crotone-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8b9250c0ef50c5b2250f-away-514050.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#F3F2EC",
+      "leftCuff": "#B6293F",
+      "rightCuff": "#B6293F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with four narrow navy jagged claw-like diagonal lines entering from each side, fine red left/navy right side piping and red cuffs with repeated lettering removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_8b9250c0ef50c5b2250f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4ac0d0c2de132a8008fd.json",
+    "source_kit_id": "514050"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7ef47a98b13c66777139",
+  "team_name": "Picerno",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Warm off-white, with a fine pale neckline and self-colored sleeves/cuffs. Action photo is partly occluded; all repeated shoulder manufacturer symbols removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7ef47a98b13c66777139-away-523626.jpg",
+      "page_url": "https://www.footballkitarchive.com/az-picerno-2026-27-away-kit-523626/",
+      "sha256": "c45675f946abb889cce3ffac27b449bb97e7b152306fd3a8a40a34506c559227"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0EFE5",
+      "leftSleeve": "#F0EFE5",
+      "rightSleeve": "#F0EFE5",
+      "collar": "#D2D0C4",
+      "leftCuff": "#F0EFE5",
+      "rightCuff": "#F0EFE5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D2D0C4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.324 4.432L77 2Q100 7 123 2L128.676 4.432C131.054 30.486 68.946 30.486 71.324 4.432Z",
+          "fill": "#F0EFE5",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0EFE5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

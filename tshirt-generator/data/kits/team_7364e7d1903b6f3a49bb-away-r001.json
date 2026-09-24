@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7364e7d1903b6f3a49bb",
+  "team_name": "Wigan Athletic",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wigan-athletic-2026-27-away-kit-496191/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/X7DRnT7FHi5snWx/wigan-athletic-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7364e7d1903b6f3a49bb-away-496191.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Black"
+    ],
+    "values": {
+      "body": "#36353D",
+      "leftSleeve": "#36353D",
+      "rightSleeve": "#36353D",
+      "collar": "#171A20",
+      "leftCuff": "#171A20",
+      "rightCuff": "#171A20"
+    }
+  },
+  "observations": "Charcoal with sparse irregular branching dark and grey curved lines, manually measured from the clean front and reconnected through removed sponsor regions. Line placement adapts to the straight common torso; no source fabric shadows are traced. Black cuffs/ring; branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with sparse irregular branching dark and grey curved lines, manually measured from the clean front and reconnected through removed sponsor regions. Line placement adapts to the straight common torso; no source fabric shadows are traced. Black cuffs/ring; branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_7364e7d1903b6f3a49bb-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#36353D",
+      "leftSleeve": "#36353D",
+      "rightSleeve": "#36353D",
+      "collar": "#171A20",
+      "leftCuff": "#171A20",
+      "rightCuff": "#171A20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#171A20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#36353D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M51.686 7.084L58.681 33.06L61.682 60.065L68.675 82.014L63.677 107.965L62.68 138.054L74.687 173.086L79.68 200.059L80.32 199.941L75.313 172.914L63.32 137.946L64.323 108.035L69.325 81.986L62.318 59.935L59.319 32.94L52.314 6.916Z",
+        "fill": "#454853",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M81.651 2.974L79.65 30.007L82.65 52.009L80.671 67.881L69.651 87.977L77.686 113.154L90.757 131.252L103.834 138.308L104.166 137.692L91.243 130.748L78.314 112.846L70.349 88.023L81.329 68.119L83.35 51.991L80.35 29.993L82.349 3.026Z",
+        "fill": "#464A56",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.807 120.322L69.867 129.35L96.983 136.375L115.119 131.356L130 125.375L150.897 131.361L151.103 130.639L130 124.625L114.881 130.644L97.017 135.625L70.133 128.65L55.193 119.678Z",
+        "fill": "#262A32",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M67.77 127.23L83.717 143.159L90.682 168.066L93.675 191.01L91.683 199.929L92.317 200.071L94.325 190.99L91.318 167.934L84.283 142.841L68.23 126.77Z",
+        "fill": "#232932",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M117.631 22.932L112.625 49.985L115.625 73L112.627 91.036L119.63 114.063L118.637 126.094L127.632 145.074L127.627 171.037L131.729 185.259L148.84 193.339L149.16 192.661L132.271 184.741L128.373 170.963L128.368 144.926L119.363 125.906L120.37 113.937L113.373 90.964L116.375 73L113.375 50.015L118.369 23.068Z",
+        "fill": "#292C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M58.903 162.362L84.954 169.372L108.015 168.375L134.034 167.373L152.062 164.37L151.938 163.63L133.966 166.627L107.985 167.625L85.046 168.628L59.097 161.638Z",
+        "fill": "#272B33",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M138.706 6.861L129.677 25.963L133.696 51.114L144.796 66.253L154.936 68.319L155.064 67.681L145.204 65.747L134.304 50.886L130.323 26.037L139.294 7.139Z",
+        "fill": "#454B56",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M104.675 136.014L105.679 160.05L111.699 181.124L119.695 194.111L119.675 203L120.325 203L120.305 193.889L112.301 180.876L106.321 159.95L105.325 135.986Z",
+        "fill": "#292C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M9.652 14.035L12.654 44.054L17.65 65.016L14.653 88.957L15.347 89.043L18.35 64.984L13.346 43.946L10.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23.652 14.035L26.654 44.054L31.65 65.016L28.653 88.957L29.347 89.043L32.35 64.984L27.346 43.946L24.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M38.652 14.035L41.654 44.054L46.65 65.016L43.653 88.957L44.347 89.043L47.35 64.984L42.346 43.946L39.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M158.652 14.035L161.654 44.054L166.65 65.016L163.653 88.957L164.347 89.043L167.35 64.984L162.346 43.946L159.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173.652 14.035L176.654 44.054L181.65 65.016L178.653 88.957L179.347 89.043L182.35 64.984L177.346 43.946L174.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M189.652 14.035L192.654 44.054L197.65 65.016L194.653 88.957L195.347 89.043L198.35 64.984L193.346 43.946L190.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M9.652 14.035L12.654 44.054L17.65 65.016L14.653 88.957L15.347 89.043L18.35 64.984L13.346 43.946L10.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23.652 14.035L26.654 44.054L31.65 65.016L28.653 88.957L29.347 89.043L32.35 64.984L27.346 43.946L24.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M38.652 14.035L41.654 44.054L46.65 65.016L43.653 88.957L44.347 89.043L47.35 64.984L42.346 43.946L39.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M158.652 14.035L161.654 44.054L166.65 65.016L163.653 88.957L164.347 89.043L167.35 64.984L162.346 43.946L159.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173.652 14.035L176.654 44.054L181.65 65.016L178.653 88.957L179.347 89.043L182.35 64.984L177.346 43.946L174.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M189.652 14.035L192.654 44.054L197.65 65.016L194.653 88.957L195.347 89.043L198.35 64.984L193.346 43.946L190.348 13.965Z",
+        "fill": "#2B2E37",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#171A20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#171A20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

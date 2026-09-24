@@ -4,8 +4,8 @@
   "team_name": "UD Ibiza",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9c3546c932842f201734-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ud-ibiza-2026-27-away-kit-524782/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/23/oWQ3VveSi75O6bU/ud-ibiza-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9c3546c932842f201734-away-524782.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#272B35",
+      "leftSleeve": "#272B35",
+      "rightSleeve": "#272B35",
+      "collar": "#21252D",
+      "leftCuff": "#222630",
+      "rightCuff": "#222630"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with irregular moss/lime tie-dye islands across torso and sleeves, dark ring and dark cuffs edged white. Constant-color ink contours from unobscured crop [216,688,298,272], 190px sample, adapted repeat 98 by 89.45. Source fabric/photo pixels are not embedded.Constant-color ink contours from unobscured crop [216,688,298,272], 240px sample, adapted repeat 98 by 89.45. Source fabric/photo pixels are not embedded. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_9c3546c932842f201734-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e30120aca06e9d7b2fad.json",
+    "source_kit_id": "524782"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

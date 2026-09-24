@@ -20,6 +20,7 @@ export default function Icon({ name, size = 20, ...props }) {
     layers: "m12 3 10 6-10 6L2 9l10-6Zm-10 11 10 6 10-6",
     link: "m10 13 4-4m-6 7-2 2a4 4 0 0 1-6-6l4-4m12-1 2-2a4 4 0 0 1 6 6l-4 4",
     info: "M12 11v6m0-10v1M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
+    reset: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8M3 3v5h5",
   };
   return (
     <svg

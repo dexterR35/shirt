@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_01574f84fc27a53ae442",
+  "team_name": "Pro Vercelli",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with a red round-ring recolor and black shoulder tops. Fine cloth ribbing belongs to fabric rather than printed artwork. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_01574f84fc27a53ae442-home-511540.jpg",
+      "page_url": "https://www.footballkitarchive.com/pro-vercelli-2026-27-home-kit-511540/",
+      "sha256": "effc7d7300f0478e3672f273ba0f0e49954716bad1a0c0a3e25f6adb4b107c43"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#B01F33",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B01F33",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            9
+          ],
+          [
+            43,
+            26
+          ],
+          [
+            40,
+            23
+          ]
+        ],
+        "fill": "#192028",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            9
+          ],
+          [
+            157,
+            26
+          ],
+          [
+            160,
+            23
+          ]
+        ],
+        "fill": "#192028",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

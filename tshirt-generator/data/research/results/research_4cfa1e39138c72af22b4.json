@@ -4,8 +4,8 @@
   "team_name": "Torres",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_074e01bee298279e795b-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sef-torres-2026-27-home-kit-509304/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/nuiAyxL5WDWU5cx/sef-torres-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_074e01bee298279e795b-home-509304.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#BC2333",
+      "leftSleeve": "#122D46",
+      "rightSleeve": "#BE2535",
+      "collar": "#F2F2EF",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/navy halves with opposite sleeve colors, tonal pixel-diamond folk-geometric motifs and dark diamond side borders, white/blue collar/cuffs. Woven geometric motifs manually redrawn as pixel diamonds and crosses with reduced fine detail. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_074e01bee298279e795b-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4cfa1e39138c72af22b4.json",
+    "source_kit_id": "509304"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Gimnàstic de Tarragona",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ca2672429cbf6ff94fc0-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/gimnastic-de-tarragona-2026-27-home-kit-490671/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/v5beQLTmqvcffq0/gimnastic-de-tarragona-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ca2672429cbf6ff94fc0-home-490671.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#B90928",
+      "leftSleeve": "#B90928",
+      "rightSleeve": "#B90928",
+      "collar": "#F3F2EC",
+      "leftCuff": "#B90928",
+      "rightCuff": "#B90928"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain deep red with white ring, two narrow dark shoulder tapes and small white lower-side hem inserts. White chest/sleeve branding removed; no inferred tonal print. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_ca2672429cbf6ff94fc0-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_75950396ace753d47b40.json",
+    "source_kit_id": "490671"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

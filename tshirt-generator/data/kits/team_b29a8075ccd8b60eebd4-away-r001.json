@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b29a8075ccd8b60eebd4",
+  "team_name": "Antequera",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/antequera-cf-2026-27-antequera-away-kit-505407/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/zRyBKX0jTaVjZNM/antequera-cf-2026-27-antequera-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b29a8075ccd8b60eebd4-away-505407.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "White",
+      "Brown"
+    ],
+    "values": {
+      "body": "#E9E4E2",
+      "leftSleeve": "#E9E4E2",
+      "rightSleeve": "#E9E4E2",
+      "collar": "#403535",
+      "leftCuff": "#403535",
+      "rightCuff": "#403535"
+    }
+  },
+  "observations": "Pale off-white with dark brown ring and brown/white cuff stripes, plain front after removing dense sponsorship. The source is a compressed worn photo: fine shoulder sheen is not certified as print. Literal archive Type Antequera Away retained separately. No inferred first-team/older-season substitution. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale off-white with dark brown ring and brown/white cuff stripes, plain front after removing dense sponsorship. The source is a compressed worn photo: fine shoulder sheen is not certified as print. Literal archive Type Antequera Away retained separately. No inferred first-team/older-season substitution. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b29a8075ccd8b60eebd4-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E9E4E2",
+      "leftSleeve": "#E9E4E2",
+      "rightSleeve": "#E9E4E2",
+      "collar": "#403535",
+      "leftCuff": "#403535",
+      "rightCuff": "#403535"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#403535",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E9E4E2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#403535",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.19999999999999C24 79.8 36 85.1 44.5 84.19999999999999Q48 84.3 49.2 76.1L52 106H5Z",
+        "fill": "#403535",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#403535",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.19999999999999C176 79.8 164 85.1 155.5 84.19999999999999Q152 84.3 150.8 76.1L148 106H195Z",
+        "fill": "#403535",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

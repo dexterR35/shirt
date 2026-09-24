@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d0aed38f36cb1def6e3a",
+  "team_name": "Fortuna Düsseldorf",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fortuna-dusseldorf-2026-27-away-kit-495625/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/WcQNQXhwt3hI0ct/fortuna-dusseldorf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d0aed38f36cb1def6e3a-away-495625.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Red"
+    ],
+    "values": {
+      "body": "#EEEFE9",
+      "leftSleeve": "#EEEFE9",
+      "rightSleeve": "#EEEFE9",
+      "collar": "#BC2C36",
+      "leftCuff": "#BC2C36",
+      "rightCuff": "#BC2C36"
+    }
+  },
+  "observations": "Off-white field with three fine red shoulder strips, red cuff edge and white/red ring colors. The source white polo flap is not painted over the original round collar. All red crest/manufacturer/sponsor elements omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Off-white field with three fine red shoulder strips, red cuff edge and white/red ring colors. The source white polo flap is not painted over the original round collar. All red crest/manufacturer/sponsor elements omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_d0aed38f36cb1def6e3a-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEEFE9",
+      "leftSleeve": "#EEEFE9",
+      "rightSleeve": "#EEEFE9",
+      "collar": "#BC2C36",
+      "leftCuff": "#BC2C36",
+      "rightCuff": "#BC2C36"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BC2C36",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEEFE9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            5
+          ],
+          [
+            75,
+            6.5
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            35,
+            25.5
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            5
+          ],
+          [
+            125,
+            6.5
+          ],
+          [
+            165,
+            27
+          ],
+          [
+            165,
+            25.5
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            7.8
+          ],
+          [
+            75,
+            9.3
+          ],
+          [
+            35,
+            29.8
+          ],
+          [
+            35,
+            28.3
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            7.8
+          ],
+          [
+            125,
+            9.3
+          ],
+          [
+            165,
+            29.8
+          ],
+          [
+            165,
+            28.3
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            10.6
+          ],
+          [
+            75,
+            12.1
+          ],
+          [
+            35,
+            32.6
+          ],
+          [
+            35,
+            31.1
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            10.6
+          ],
+          [
+            125,
+            12.1
+          ],
+          [
+            165,
+            32.6
+          ],
+          [
+            165,
+            31.1
+          ]
+        ],
+        "fill": "#BC2C36",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#BC2C36",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#BC2C36",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

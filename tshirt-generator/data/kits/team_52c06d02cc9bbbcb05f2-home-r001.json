@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_52c06d02cc9bbbcb05f2",
+  "team_name": "Cultural Leonesa",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cultural-leonesa-2026-27-home-kit-498258/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/BNKx7WsMb28wWvX/cultural-leonesa-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_52c06d02cc9bbbcb05f2-home-498258.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Green"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#B7292B",
+      "leftCuff": "#B7292B",
+      "rightCuff": "#B7292B"
+    }
+  },
+  "observations": "White with narrow red/green neckline and red/green/gold cuff bands, fine gold raglan piping. Independent Home worn source; sponsors/manufacturer/club marks removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with narrow red/green neckline and red/green/gold cuff bands, fine gold raglan piping. Independent Home worn source; sponsors/manufacturer/club marks removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_52c06d02cc9bbbcb05f2-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#B7292B",
+      "leftCuff": "#B7292B",
+      "rightCuff": "#B7292B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B7292B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.75 4.25L77 2Q100 7 123 2L128.25 4.25C130.75 30 69.25 30 71.75 4.25Z",
+          "fill": "#155547",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.5 3.5L77 2Q100 7 123 2L126.5 3.5C129.5 28 70.5 28 73.5 3.5Z",
+          "fill": "#DBB54F",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74.375 3.125L77 2Q100 7 123 2L125.625 3.125C128.875 27 71.125 27 74.375 3.125Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.938 10.836L53.9 18.857L44.826 31.98L47.826 71.013L48.174 70.987L45.174 32.02L54.1 19.143L75.062 11.164Z",
+        "fill": "#DBB54F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.938 11.164L145.9 19.143L154.826 32.02L151.826 70.987L152.174 71.013L155.174 31.98L146.1 18.857L125.062 10.836Z",
+        "fill": "#DBB54F",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.39999999999999C24 77 36 82.3 44.5 81.39999999999999Q48 81.5 49.2 73.3L52 106H5Z",
+        "fill": "#B7292B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.69999999999999C24 78.3 36 83.6 44.5 82.69999999999999Q48 82.8 49.2 74.6L52 106H5Z",
+        "fill": "#125547",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#B7292B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#DBB54F",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.39999999999999C176 77 164 82.3 155.5 81.39999999999999Q152 81.5 150.8 73.3L148 106H195Z",
+        "fill": "#B7292B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.69999999999999C176 78.3 164 83.6 155.5 82.69999999999999Q152 82.8 150.8 74.6L148 106H195Z",
+        "fill": "#125547",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#B7292B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#DBB54F",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

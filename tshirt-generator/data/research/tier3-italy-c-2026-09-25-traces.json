@@ -1,0 +1,73 @@
+{
+  "batch": "tier3-italy-c-2026-09-25",
+  "traces": [
+    {
+      "key": "Reggiana:away",
+      "reference": "data/research/references/footballkitarchive/team_d4a5b1313ea58f706150-away-516340.jpg",
+      "source_sha256": "6470769d2e3978d03bff0a07947ef151c2697c953f75e20b03403382add50503",
+      "spec": {
+        "box": [
+          161,
+          232,
+          77,
+          500
+        ],
+        "width": 130,
+        "channelMask": {
+          "red": [
+            -80,
+            -8
+          ],
+          "lum": [
+            40,
+            240
+          ]
+        }
+      },
+      "placement": {
+        "x": 49,
+        "y": 48,
+        "width": 14,
+        "height": 149,
+        "color": "#357D65",
+        "clip": "body"
+      },
+      "ink_pixels": 13579,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Reggiana:away",
+      "reference": "data/research/references/footballkitarchive/team_d4a5b1313ea58f706150-away-516340.jpg",
+      "source_sha256": "6470769d2e3978d03bff0a07947ef151c2697c953f75e20b03403382add50503",
+      "spec": {
+        "box": [
+          476,
+          231,
+          75,
+          504
+        ],
+        "width": 130,
+        "channelMask": {
+          "red": [
+            30,
+            150
+          ],
+          "lum": [
+            30,
+            235
+          ]
+        }
+      },
+      "placement": {
+        "x": 137,
+        "y": 48,
+        "width": 14,
+        "height": 149,
+        "color": "#AA2940",
+        "clip": "body"
+      },
+      "ink_pixels": 35424,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

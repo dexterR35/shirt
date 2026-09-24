@@ -4,8 +4,8 @@
   "team_name": "Mansfield Town",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_265004b3f4567e62b9ad-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mansfield-town-2026-27-away-kit-492307/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/MhwmOeXYNZP4yyV/mansfield-town-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_265004b3f4567e62b9ad-away-492307.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#1A2237",
+      "leftCuff": "#1A2237",
+      "rightCuff": "#1A2237"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body/sleeves with navy shoulder inserts, cuffs, side trim and recolored round ring. Close inspection established that the repeated pale cyan shapes are stag-head outlines from the team emblem; they are all deliberately omitted, not treated as geographic decoration. Fabric mesh remains supplied by the original PNG. All other branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_265004b3f4567e62b9ad-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_81b2c38aab7304350cba.json",
+    "source_kit_id": "492307"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

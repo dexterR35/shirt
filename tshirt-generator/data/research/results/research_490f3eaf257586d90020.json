@@ -4,8 +4,8 @@
   "team_name": "Sonnenhof Großaspach",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_85257362784c365ec845-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sg-sonnenhof-grossaspach-2026-27-away-kit-499645/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/GGyfhCvWbybaQks/sg-sonnenhof-grossaspach-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_85257362784c365ec845-away-499645.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#F2CF17",
+      "leftSleeve": "#F2CF17",
+      "rightSleeve": "#F2CF17",
+      "collar": "#F2CF17",
+      "leftCuff": "#F2CF17",
+      "rightCuff": "#F2CF17"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow torso with fine tonal angular linework on the sleeves, yellow ring/cuffs. Visible sleeve line density retained as flat ink; black crest, sponsor and manufacturer removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_85257362784c365ec845-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_490f3eaf257586d90020.json",
+    "source_kit_id": "499645"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

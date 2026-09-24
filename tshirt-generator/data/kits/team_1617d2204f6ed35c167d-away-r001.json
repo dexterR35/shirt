@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1617d2204f6ed35c167d",
+  "team_name": "Orléans",
+  "country_name": "France",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-orleans-2026-27-away-kit-503528/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/P54W35bpJaIvGR8/us-orleans-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1617d2204f6ed35c167d-away-503528.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#BB142B",
+      "leftSleeve": "#BB142B",
+      "rightSleeve": "#BB142B",
+      "collar": "#D9C45F",
+      "leftCuff": "#D9C45F",
+      "rightCuff": "#D9C45F"
+    }
+  },
+  "observations": "Red body with pale-gold ring and twin fine gold cuff lines. Independently checked source, plain torso/sleeves after removing shoulder chevrons, sponsor and badges. Polo flaps replaced only by ring color. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body with pale-gold ring and twin fine gold cuff lines. Independently checked source, plain torso/sleeves after removing shoulder chevrons, sponsor and badges. Polo flaps replaced only by ring color. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_1617d2204f6ed35c167d-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BB142B",
+      "leftSleeve": "#BB142B",
+      "rightSleeve": "#BB142B",
+      "collar": "#D9C45F",
+      "leftCuff": "#D9C45F",
+      "rightCuff": "#D9C45F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D9C45F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BB142B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.3C24 76.9 36 82.2 44.5 81.3Q48 81.4 49.2 73.2L52 106H5Z",
+        "fill": "#D9C45F",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#BB142B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.19999999999999C24 78.8 36 84.1 44.5 83.19999999999999Q48 83.3 49.2 75.1L52 106H5Z",
+        "fill": "#D9C45F",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#BB142B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.3C176 76.9 164 82.2 155.5 81.3Q152 81.4 150.8 73.2L148 106H195Z",
+        "fill": "#D9C45F",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#BB142B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.19999999999999C176 78.8 164 84.1 155.5 83.19999999999999Q152 83.3 150.8 75.1L148 106H195Z",
+        "fill": "#D9C45F",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#BB142B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

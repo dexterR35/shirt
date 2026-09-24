@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d10e3cd9be022bd001b2",
+  "team_name": "Lamia",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pas-lamia-2026-27-away-kit-524149/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/22/8WqT0Nwblb4aeek/pas-lamia-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d10e3cd9be022bd001b2-away-524149.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#CBD4D4",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "observations": "Current 2026/27 Away: white with fine grey shoulder seam stripes and pale neckline; team photo partly occludes front, visible areas plain. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#CBD4D4",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CBD4D4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.2 4.486L77 2Q100 7 123 2L128.8 4.486C131.143 30.629 68.857 30.629 71.2 4.486Z",
+          "fill": "#F1F2EE",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            9
+          ],
+          [
+            43,
+            21
+          ],
+          [
+            40,
+            24
+          ],
+          [
+            39,
+            20
+          ]
+        ],
+        "fill": "#667681",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            9
+          ],
+          [
+            157,
+            21
+          ],
+          [
+            160,
+            24
+          ],
+          [
+            161,
+            20
+          ]
+        ],
+        "fill": "#667681",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

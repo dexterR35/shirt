@@ -4,8 +4,8 @@
   "team_name": "Algeciras",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_4f85c287e929e2dab3e9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/algeciras-cf-2026-27-home-kit-501654/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/vTiF1KYsQs8Hlhx/algeciras-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f85c287e929e2dab3e9-home-501654.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#ED2456",
+      "rightSleeve": "#ED2456",
+      "collar": "#1577A6",
+      "leftCuff": "#197DB0",
+      "rightCuff": "#197DB0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with three red/pink broad torso stripes, red sleeves and blue ring/cuff edging. White curved raglan separations retained; repeated rectangular Capelli shoulder branding and all other marks removed. Source folded collar recolors only the existing ring. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_4f85c287e929e2dab3e9-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_062ac0184f6368e1c952.json",
+    "source_kit_id": "501654"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

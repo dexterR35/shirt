@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b29a8075ccd8b60eebd4",
+  "team_name": "Antequera",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/antequera-cf-2026-27-antequera-cf-home-kit-505408/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/8rMmHlIYDziVpUh/antequera-cf-2026-27-antequera-cf-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b29a8075ccd8b60eebd4-home-505408.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Green",
+      "White"
+    ],
+    "values": {
+      "body": "#087254",
+      "leftSleeve": "#087254",
+      "rightSleeve": "#087254",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "observations": "Green with three broad white vertical body stripes, faint diagonal bands within the green torso, green sleeves and white ring/cuffs. Low-resolution independent Home photograph supports this broad design; microprint not invented. Archive literal Type is Antequera CF Home, preserved separately. Hummel chevrons and sponsor/club lettering removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Green with three broad white vertical body stripes, faint diagonal bands within the green torso, green sleeves and white ring/cuffs. Low-resolution independent Home photograph supports this broad design; microprint not invented. Archive literal Type is Antequera CF Home, preserved separately. Hummel chevrons and sponsor/club lettering removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b29a8075ccd8b60eebd4-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#087254",
+      "leftSleeve": "#087254",
+      "rightSleeve": "#087254",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#18463E",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#087254",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M-40.85 0.425L59.15 200.425L60.85 199.575L-39.15 -0.425ZM-33.85 0.425L66.15 200.425L67.85 199.575L-32.15 -0.425ZM-26.85 0.425L73.15 200.425L74.85 199.575L-25.15 -0.425ZM-19.85 0.425L80.15 200.425L81.85 199.575L-18.15 -0.425ZM-12.85 0.425L87.15 200.425L88.85 199.575L-11.15 -0.425ZM-5.85 0.425L94.15 200.425L95.85 199.575L-4.15 -0.425ZM1.15 0.425L101.15 200.425L102.85 199.575L2.85 -0.425ZM8.15 0.425L108.15 200.425L109.85 199.575L9.85 -0.425ZM15.15 0.425L115.15 200.425L116.85 199.575L16.85 -0.425ZM22.15 0.425L122.15 200.425L123.85 199.575L23.85 -0.425ZM29.15 0.425L129.15 200.425L130.85 199.575L30.85 -0.425ZM36.15 0.425L136.15 200.425L137.85 199.575L37.85 -0.425ZM43.15 0.425L143.15 200.425L144.85 199.575L44.85 -0.425ZM50.15 0.425L150.15 200.425L151.85 199.575L51.85 -0.425ZM57.15 0.425L157.15 200.425L158.85 199.575L58.85 -0.425ZM64.15 0.425L164.15 200.425L165.85 199.575L65.85 -0.425ZM71.15 0.425L171.15 200.425L172.85 199.575L72.85 -0.425ZM78.15 0.425L178.15 200.425L179.85 199.575L79.85 -0.425ZM85.15 0.425L185.15 200.425L186.85 199.575L86.85 -0.425ZM92.15 0.425L192.15 200.425L193.85 199.575L93.85 -0.425ZM99.15 0.425L199.15 200.425L200.85 199.575L100.85 -0.425ZM106.15 0.425L206.15 200.425L207.85 199.575L107.85 -0.425ZM113.15 0.425L213.15 200.425L214.85 199.575L114.85 -0.425ZM120.15 0.425L220.15 200.425L221.85 199.575L121.85 -0.425ZM127.15 0.425L227.15 200.425L228.85 199.575L128.85 -0.425ZM134.15 0.425L234.15 200.425L235.85 199.575L135.85 -0.425ZM141.15 0.425L241.15 200.425L242.85 199.575L142.85 -0.425ZM148.15 0.425L248.15 200.425L249.85 199.575L149.85 -0.425ZM155.15 0.425L255.15 200.425L256.85 199.575L156.85 -0.425ZM162.15 0.425L262.15 200.425L263.85 199.575L163.85 -0.425ZM169.15 0.425L269.15 200.425L270.85 199.575L170.85 -0.425ZM176.15 0.425L276.15 200.425L277.85 199.575L177.85 -0.425ZM183.15 0.425L283.15 200.425L284.85 199.575L184.85 -0.425ZM190.15 0.425L290.15 200.425L291.85 199.575L191.85 -0.425ZM197.15 0.425L297.15 200.425L298.85 199.575L198.85 -0.425Z",
+        "fill": "#168963",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 90,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 18,
+        "height": 200,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

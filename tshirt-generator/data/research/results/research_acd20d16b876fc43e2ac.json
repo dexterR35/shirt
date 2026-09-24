@@ -4,8 +4,8 @@
   "team_name": "Blackpool",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3bdb3e7c100c404f4941-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/blackpool-fc-2026-27-home-kit-488074/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/kN1PgkvmPQaO2aF/blackpool-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3bdb3e7c100c404f4941-home-488074.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "White"
+    ],
+    "values": {
+      "body": "#FF781F",
+      "leftSleeve": "#F77649",
+      "rightSleeve": "#F77649",
+      "collar": "#F3F2EF",
+      "leftCuff": "#F3F2EF",
+      "rightCuff": "#F3F2EF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Tangerine plain torso, white recolored round collar, and coral/orange sleeves with thirteen narrow, stepped white bands. The breaks and slight diagonal orientation are adapted to the common sleeves; the upper shoulder cap remains tangerine. Fine white cuff edge retained. All sponsors and Puma marks omitted; no V-neck paint on the chest.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_3bdb3e7c100c404f4941-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_acd20d16b876fc43e2ac.json",
+    "source_kit_id": "488074"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

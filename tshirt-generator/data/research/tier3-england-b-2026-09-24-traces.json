@@ -1,0 +1,77 @@
+{
+  "batch": "tier3-england-b-2026-09-24",
+  "traces": [
+    {
+      "key": "MK Dons:away",
+      "reference": "data/research/references/footballkitarchive/team_8d74ae2a21bbd63263e3-away-505198.jpg",
+      "source_sha256": "38f2d082056ba1c2814f72a1b32c81df8d334777042aafcc6d807d3316e56990",
+      "spec": {
+        "box": [
+          215,
+          150,
+          430,
+          790
+        ],
+        "width": 570,
+        "mode": "light",
+        "threshold": 3.8,
+        "blur": 8,
+        "min": 20,
+        "max": 110,
+        "repairs": [
+          {
+            "target": [
+              258,
+              238,
+              100,
+              70
+            ],
+            "source": [
+              324,
+              620,
+              100,
+              70
+            ]
+          },
+          {
+            "target": [
+              520,
+              216,
+              100,
+              102
+            ],
+            "source": [
+              320,
+              710,
+              100,
+              102
+            ]
+          }
+        ],
+        "exclude": [
+          [
+            215,
+            862,
+            64,
+            76
+          ],
+          [
+            550,
+            865,
+            95,
+            70
+          ]
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 12,
+        "width": 102,
+        "height": 183,
+        "color": "#602633"
+      },
+      "ink_pixels": 111673,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

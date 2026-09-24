@@ -4,8 +4,8 @@
   "team_name": "Waldhof Mannheim",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2ecb89ccfe65b94c7c78-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/waldhof-mannheim-2026-27-home-kit-500615/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/28/RlFfMFlSTrZk1Vx/waldhof-mannheim-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2ecb89ccfe65b94c7c78-home-500615.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#2C64AA",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#181B20",
+      "leftCuff": "#2C64AA",
+      "rightCuff": "#2C64AA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with one broad central black stripe, black sleeves and blue cuff bands; black/blue ring recoloring. Source is a low-resolution worn photo, so hidden rear and side detail is not claimed. Sponsor, crest and sleeve marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_2ecb89ccfe65b94c7c78-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_70f8ef68e210c1c96d98.json",
+    "source_kit_id": "500615"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

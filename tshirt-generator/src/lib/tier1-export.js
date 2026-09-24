@@ -39,7 +39,7 @@ export function tier1Items(teams) {
  * @returns {Promise<Blob>}
  */
 export async function renderTier1Zip(items, {
-  size, ratio = "1:1", lighting = 100, signal, onProgress = () => {}, load = loadKit, render = renderImage,
+  size, ratio = "1:1", lighting = 0, signal, onProgress = () => {}, load = loadKit, render = renderImage,
 }) {
   if (!items.length) throw Error("No Tier 1 kits to download.");
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");

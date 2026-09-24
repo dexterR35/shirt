@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "MPAM FC",
+      "design": "Graphic",
+      "colors": [
+        "Orange",
+        "Yellow",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "adidas",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Gamma Ethniki"
+      ],
+      "release_date": "September 1, 2026",
+      "release_date_iso": "2026-09-01",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mpam-fc-2026-27-home-kit-516821/",
+        "kit_id": "516821",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2026-27-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_74a3e872026e1124a603.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "MPAM FC",
+      "design": "Graphic",
+      "colors": [
+        "Navy",
+        "Pink",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "adidas",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Gamma Ethniki"
+      ],
+      "release_date": "September 1, 2026",
+      "release_date_iso": "2026-09-01",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mpam-fc-2026-27-away-kit-516101/",
+        "kit_id": "516101",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/gamma-ethniki-kits-2026-27-l11659/",
+        "record_path": "data/research/footballkitarchive/records/research_a9343dc97c99fa182bed.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/gamma-ethniki-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

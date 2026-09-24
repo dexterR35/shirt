@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1c9d550ef7ec01c8dde5",
+  "team_name": "Giugliano",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with a thin dark neckline, self-colored sleeves and cuffs. Lower diagonal club lettering, brand and chest sponsor removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1c9d550ef7ec01c8dde5-home-523624.jpg",
+      "page_url": "https://www.footballkitarchive.com/giugliano-calcio-2026-27-home-kit-523624/",
+      "sha256": "e4aab21b2663601007382feb62f803c1c2a7fe29480bd2acfdc537c89744e319"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E8CE18",
+      "leftSleeve": "#E8CE18",
+      "rightSleeve": "#E8CE18",
+      "collar": "#202A1F",
+      "leftCuff": "#E8CE18",
+      "rightCuff": "#E8CE18"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#202A1F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#E8CE18",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E8CE18",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

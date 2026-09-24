@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d4e2dcb2a8ceb703ab6a",
+  "team_name": "Alcorcón",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Dark green plain torso and sleeves, red shoulder-top inserts and a fine red inner neckline edge. Red printed sponsor/crest/manufacturer removed. Worn source, hidden rear construction not inferred. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d4e2dcb2a8ceb703ab6a-away-508037.jpg",
+      "page_url": "https://www.footballkitarchive.com/ad-alcorcon-2026-27-away-kit-508037/",
+      "sha256": "0cce7894a3622ab722db79d36fc52f1a75a87e1bbb61f8db662c5ad773ea2397"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#006345",
+      "leftSleeve": "#006345",
+      "rightSleeve": "#006345",
+      "collar": "#006345",
+      "leftCuff": "#006345",
+      "rightCuff": "#006345"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#006345",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.512 2.209L77 2Q100 7 123 2L123.488 2.209C127.349 24.558 72.651 24.558 76.512 2.209Z",
+          "fill": "#DE4A4B",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#006345",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            2
+          ],
+          [
+            75,
+            8
+          ],
+          [
+            48,
+            17
+          ],
+          [
+            45,
+            12
+          ]
+        ],
+        "fill": "#DE4A4B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            2
+          ],
+          [
+            125,
+            8
+          ],
+          [
+            152,
+            17
+          ],
+          [
+            155,
+            12
+          ]
+        ],
+        "fill": "#DE4A4B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

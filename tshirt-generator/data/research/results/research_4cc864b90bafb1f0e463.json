@@ -4,8 +4,8 @@
   "team_name": "Versailles",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e7fdfe8f84814b948593-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-versailles-2026-27-home-kit-524286/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/24/eyvi10ePozFJbJ7/fc-versailles-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e7fdfe8f84814b948593-home-524286.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Gold"
+    ],
+    "values": {
+      "body": "#20364B",
+      "leftSleeve": "#20364B",
+      "rightSleeve": "#20364B",
+      "collar": "#C5A047",
+      "leftCuff": "#142B3A",
+      "rightCuff": "#142B3A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with an all-over fine lighter-blue ornamental scroll print and navy/gold ring/cuff trim. Source long sleeves adapted to the common short-sleeve base. Clean source crop [478,717,617,405] segmented into constant-color ink contours (320px sample), repeated at 101 by 66.3 internal units. Hidden repeat placement is adapted; no source photo pixels embedded. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_e7fdfe8f84814b948593-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4cc864b90bafb1f0e463.json",
+    "source_kit_id": "524286"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

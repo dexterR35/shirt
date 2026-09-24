@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eed62410fe8a917d5bce",
+  "team_name": "Scafatese",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Golden yellow with navy sleeves and narrow navy ring; fine launch-photo details partly obscured by hair. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_eed62410fe8a917d5bce-home-507807.jpg",
+      "page_url": "https://www.footballkitarchive.com/scafatese-calcio-2026-27-home-kit-507807/",
+      "sha256": "0e43e12c3286657868f61a3ba90bb1bd31618a35915863e34383c73ef7ca2629"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D7B14B",
+      "leftSleeve": "#143B6A",
+      "rightSleeve": "#143B6A",
+      "collar": "#173E6B",
+      "leftCuff": "#143B6A",
+      "rightCuff": "#143B6A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#173E6B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D7B14B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

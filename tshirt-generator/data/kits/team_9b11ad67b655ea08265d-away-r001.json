@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9b11ad67b655ea08265d",
+  "team_name": "Sheffield Wednesday",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sheffield-wednesday-2026-27-away-kit-500824/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/29/X4RlFVWXpXpQs60/sheffield-wednesday-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9b11ad67b655ea08265d-away-500824.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#FBE029",
+      "leftSleeve": "#FBE029",
+      "rightSleeve": "#FBE029",
+      "collar": "#FBE029",
+      "leftCuff": "#FBE029",
+      "rightCuff": "#FBE029"
+    }
+  },
+  "observations": "Yellow with four narrow black torso stripes, each split by a fine white centre line; plain yellow sleeves/cuffs/ring. Exact stripe grouping retained, logos and sponsor removed, physical collar construction left to the original PNG. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with four narrow black torso stripes, each split by a fine white centre line; plain yellow sleeves/cuffs/ring. Exact stripe grouping retained, logos and sponsor removed, physical collar construction left to the original PNG. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_9b11ad67b655ea08265d-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#FBE029",
+      "leftSleeve": "#FBE029",
+      "rightSleeve": "#FBE029",
+      "collar": "#FBE029",
+      "leftCuff": "#FBE029",
+      "rightCuff": "#FBE029"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#FBE029",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#FBE029",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 52,
+        "y": 0,
+        "width": 3.8,
+        "height": 200,
+        "fill": "#202828",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 53.55,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 3.8,
+        "height": 200,
+        "fill": "#202828",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83.55,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 3.8,
+        "height": 200,
+        "fill": "#202828",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113.55,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 142,
+        "y": 0,
+        "width": 3.8,
+        "height": 200,
+        "fill": "#202828",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143.55,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

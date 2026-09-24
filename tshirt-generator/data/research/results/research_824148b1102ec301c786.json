@@ -4,8 +4,8 @@
   "team_name": "Luton Town",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_cde2572a04baa60e525e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/luton-town-2026-27-home-kit-498313/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/FRoPEpJ2JRbZqmj/luton-town-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_cde2572a04baa60e525e-home-498313.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "Navy",
+      "White"
+    ],
+    "values": {
+      "body": "#F03D18",
+      "leftSleeve": "#222329",
+      "rightSleeve": "#222329",
+      "collar": "#F3F2F1",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange front with closely spaced dark red diagonal sinusoidal lines, black sleeves/shoulder cap and layered white/black/orange trim. The archive explicitly labels this 26-27 (Carry-over), which is preserved. Source is a flat illustration; wave amplitude/spacing adapted to the common silhouette. Branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_cde2572a04baa60e525e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_824148b1102ec301c786.json",
+    "source_kit_id": "498313"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

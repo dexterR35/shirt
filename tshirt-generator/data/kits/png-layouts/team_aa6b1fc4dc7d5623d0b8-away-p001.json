@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_aa6b1fc4dc7d5623d0b8",
+  "team_name": "Renate",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with fine pale-gold raglan seam piping. Gold repeated shoulder figures are manufacturer branding and are removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_aa6b1fc4dc7d5623d0b8-away-522096.jpg",
+      "page_url": "https://www.footballkitarchive.com/ac-renate-2026-27-away-kit-522096/",
+      "sha256": "39d739e5758a391027162cd242a152cf1ea144f82d8e404ce854bd156612310c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#F2F2EF",
+      "leftCuff": "#F2F2EF",
+      "rightCuff": "#F2F2EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.929 10.813L53.885 18.836L44.801 31.977L47.801 71.015L48.199 70.985L45.199 32.023L54.115 19.164L75.071 11.187Z",
+        "fill": "#C7BCA5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.929 11.187L145.885 19.164L154.801 32.023L151.801 70.985L152.199 71.015L155.199 31.977L146.115 18.836L125.071 10.813Z",
+        "fill": "#C7BCA5",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

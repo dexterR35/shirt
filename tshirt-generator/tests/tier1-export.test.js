@@ -26,10 +26,10 @@ test("Tier 1 exports both variants of every mandatory team with unique portable 
 test("Tier 1 ZIP retains all entries and PNG bytes, using the selected size and shape", async () => {
   let completed = 0;
   const blob = await renderTier1Zip(items, {
-    size: 256, ratio: "9:16", lighting: 150,
+    size: 256, ratio: "9:16", lighting: 10,
     load: async (item) => ({ config: { name: tier1Filename(item) } }),
     render: async (config, size, format, ratio, lighting) => {
-      assert.deepEqual([size, format, ratio, lighting], [256, "png", "9:16", 150]);
+      assert.deepEqual([size, format, ratio, lighting], [256, "png", "9:16", 10]);
       completed++;
       return new Blob([config.name]);
     },

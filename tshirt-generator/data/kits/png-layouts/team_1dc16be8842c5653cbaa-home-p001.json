@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1dc16be8842c5653cbaa",
+  "team_name": "Pergolettese",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with blue ring/cuffs and fine blue raglan piping. The oversized foreground club badge on the source photo is not shirt artwork and is omitted. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1dc16be8842c5653cbaa-home-508051.jpg",
+      "page_url": "https://www.footballkitarchive.com/us-pergolettese-2026-27-home-kit-508051/",
+      "sha256": "765283edfcf2437af9ba6929104703fd38fc9e51c8baf7d0130756f9bf3420b5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EBCD23",
+      "leftSleeve": "#EBCD23",
+      "rightSleeve": "#EBCD23",
+      "collar": "#30789E",
+      "leftCuff": "#337DA3",
+      "rightCuff": "#337DA3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#30789E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EBCD23",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.893 10.72L53.828 18.754L44.702 31.966L47.701 71.023L48.299 70.977L45.298 32.034L54.172 19.246L75.107 11.28Z",
+        "fill": "#36748E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.893 11.28L145.828 19.246L154.702 32.034L151.701 70.977L152.299 71.023L155.298 31.966L146.172 18.754L125.107 10.72Z",
+        "fill": "#36748E",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#337DA3",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#337DA3",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

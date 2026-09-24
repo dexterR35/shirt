@@ -4,8 +4,8 @@
   "team_name": "Unionistas de Salamanca",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_69a7307f8fa556dc9bfd-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/unionistas-de-salamanca-2026-27-away-kit-472315/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/02/a3RgN98O7ohCUTW/unionistas-de-salamanca-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_69a7307f8fa556dc9bfd-away-472315.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Purple",
+      "White"
+    ],
+    "values": {
+      "body": "#E95798",
+      "leftSleeve": "#E95798",
+      "rightSleeve": "#E95798",
+      "collar": "#2F405D",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pink upper torso/sleeves fading into navy lower torso and sleeve ends, navy neck/shoulder edging and side inserts, white cuffs. All-over printed town names and cuff wording removed as lettering, together with sponsors and crests. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_69a7307f8fa556dc9bfd-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_35643c851ce574e3835f.json",
+    "source_kit_id": "472315"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

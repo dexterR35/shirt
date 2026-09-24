@@ -4,8 +4,8 @@
   "team_name": "Real Madrid Castilla",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_33dae7fd8340aaa5ae50-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-madrid-castilla-2026-27-home-kit-485975/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/29/YyzO10W1OGx7xIJ/real-madrid-castilla-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_33dae7fd8340aaa5ae50-home-485975.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F0ED",
+      "leftSleeve": "#F0F0ED",
+      "rightSleeve": "#F0F0ED",
+      "collar": "#205B58",
+      "leftCuff": "#225B58",
+      "rightCuff": "#225B58"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_8de8bdc8ff2954d5f251-home-r001.json; reserve evidence/identity stays separate. White shirt, muted dark green collar/cuff bands, fine pink shoulder tape and pink neck edging. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_33dae7fd8340aaa5ae50-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a2795332a1312fafcdbf.json",
+    "source_kit_id": "485975"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

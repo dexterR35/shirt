@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_265004b3f4567e62b9ad",
+  "team_name": "Mansfield Town",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mansfield-town-2026-27-away-kit-492307/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/MhwmOeXYNZP4yyV/mansfield-town-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_265004b3f4567e62b9ad-away-492307.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#1A2237",
+      "leftCuff": "#1A2237",
+      "rightCuff": "#1A2237"
+    }
+  },
+  "observations": "White body/sleeves with navy shoulder inserts, cuffs, side trim and recolored round ring. Close inspection established that the repeated pale cyan shapes are stag-head outlines from the team emblem; they are all deliberately omitted, not treated as geographic decoration. Fabric mesh remains supplied by the original PNG. All other branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body/sleeves with navy shoulder inserts, cuffs, side trim and recolored round ring. Close inspection established that the repeated pale cyan shapes are stag-head outlines from the team emblem; they are all deliberately omitted, not treated as geographic decoration. Fabric mesh remains supplied by the original PNG. All other branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_265004b3f4567e62b9ad-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#1A2237",
+      "leftCuff": "#1A2237",
+      "rightCuff": "#1A2237"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1A2237",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            1
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            49,
+            25
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            47,
+            12
+          ]
+        ],
+        "fill": "#1A2237",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            1
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            151,
+            25
+          ],
+          [
+            163,
+            27
+          ],
+          [
+            170,
+            20
+          ],
+          [
+            153,
+            12
+          ]
+        ],
+        "fill": "#1A2237",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H51.6Q55.6 133 51.6 77Z",
+        "fill": "#1A2237",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H148.4Q144.4 133 148.4 77Z",
+        "fill": "#1A2237",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#1A2237",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#1A2237",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

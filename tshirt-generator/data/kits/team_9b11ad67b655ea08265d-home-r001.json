@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9b11ad67b655ea08265d",
+  "team_name": "Sheffield Wednesday",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sheffield-wednesday-2026-27-home-kit-494391/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/EggAtQA3Ot9p3j6/sheffield-wednesday-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9b11ad67b655ea08265d-home-494391.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#0864BC",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    }
+  },
+  "observations": "White with three broad royal-blue torso stripes including the centre, and broad blue sleeve panels. Source blue polo collar becomes only blue recoloring of the PNG round ring. Yellow crest/manufacturer marks and sponsor removed. Stripe spacing normalized from the independent front. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with three broad royal-blue torso stripes including the centre, and broad blue sleeve panels. Source blue polo collar becomes only blue recoloring of the PNG round ring. Yellow crest/manufacturer marks and sponsor removed. Stripe spacing normalized from the independent front. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_9b11ad67b655ea08265d-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#0864BC",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0864BC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#0864BC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#0864BC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#0864BC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 13,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0864BC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 165,
+        "y": 0,
+        "width": 16,
+        "height": 200,
+        "fill": "#0864BC",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.19999999999999C24 78.8 36 84.1 44.5 83.19999999999999Q48 83.3 49.2 75.1L52 106H5Z",
+        "fill": "#F3F2F1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.19999999999999C176 78.8 164 84.1 155.5 83.19999999999999Q152 83.3 150.8 75.1L148 106H195Z",
+        "fill": "#F3F2F1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

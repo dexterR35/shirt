@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Bradford City",
+      "design": "Stripes",
+      "colors": [
+        "Claret",
+        "Yellow",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "JCT600",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "May 22, 2026",
+      "release_date_iso": "2026-05-22",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/bradford-city-2026-27-home-kit-483523/",
+        "kit_id": "483523",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_0c53fbbf4ac88fdfde57.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-a-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Bradford City",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Claret",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "JCT600",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 7, 2026",
+      "release_date_iso": "2026-07-07",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/bradford-city-2026-27-away-kit-493876/",
+        "kit_id": "493876",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_dd0eb4fc11b08979b83e.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-a-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

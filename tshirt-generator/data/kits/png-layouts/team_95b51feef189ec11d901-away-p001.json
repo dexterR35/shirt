@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_95b51feef189ec11d901",
+  "team_name": "Savoia",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black with an off-center bright-blue stripe on viewer-right, thin red borders, black ring/sleeves. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_95b51feef189ec11d901-away-490427.jpg",
+      "page_url": "https://www.footballkitarchive.com/ssd-savoia-2026-27-away-kit-490427/",
+      "sha256": "c482c832131a007c7d55077d46b39ef6842ffe4f626d24d3588c0688367e0523"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#181D22",
+      "leftSleeve": "#181D22",
+      "rightSleeve": "#181D22",
+      "collar": "#22262C",
+      "leftCuff": "#181D22",
+      "rightCuff": "#181D22"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#22262C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#181D22",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 23,
+        "height": 200,
+        "fill": "#1A80C5",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111.7,
+        "y": 0,
+        "width": 1.3,
+        "height": 200,
+        "fill": "#D63B4D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 136,
+        "y": 0,
+        "width": 1.3,
+        "height": 200,
+        "fill": "#D63B4D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

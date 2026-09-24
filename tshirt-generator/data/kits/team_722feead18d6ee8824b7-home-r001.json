@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_722feead18d6ee8824b7",
+  "team_name": "SV Wehen Wiesbaden",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wehen-wiesbaden-2026-27-home-kit-496600/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/03/9lTNF8OqH0sOBOT/wehen-wiesbaden-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_722feead18d6ee8824b7-home-496600.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#D72D32",
+      "leftSleeve": "#D72D32",
+      "rightSleeve": "#D72D32",
+      "collar": "#D72D32",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    }
+  },
+  "observations": "Red field with black cuffs and black side inserts. The apparent pale torso pinstripes in the worn source are columns of tiny lettering; those are removed under the lettering-free requirement. The black rear-neck insert is adapted as a thin inner ring edge. All sponsor and chest/sleeve marks omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red field with black cuffs and black side inserts. The apparent pale torso pinstripes in the worn source are columns of tiny lettering; those are removed under the lettering-free requirement. The black rear-neck insert is adapted as a thin inner ring edge. All sponsor and chest/sleeve marks omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_722feead18d6ee8824b7-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D72D32",
+      "leftSleeve": "#D72D32",
+      "rightSleeve": "#D72D32",
+      "collar": "#D72D32",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D72D32",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.292 2.303L77 2Q100 7 123 2L123.708 2.303C127.506 24.809 72.494 24.809 76.292 2.303Z",
+          "fill": "#181B20",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D72D32",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H54Q58 133 54 77Z",
+        "fill": "#181B20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H146Q142 133 146 77Z",
+        "fill": "#181B20",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#181B20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#181B20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

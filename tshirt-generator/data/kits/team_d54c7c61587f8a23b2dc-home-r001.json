@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d54c7c61587f8a23b2dc",
+  "team_name": "UE Sant Andreu",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ue-sant-andreu-2026-27-home-kit-495718/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/BXofmWGQROznAkU/ue-sant-andreu-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d54c7c61587f8a23b2dc-home-495718.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Red"
+    ],
+    "values": {
+      "body": "#F2D45F",
+      "leftSleeve": "#F2D45F",
+      "rightSleeve": "#F2D45F",
+      "collar": "#D70E36",
+      "leftCuff": "#D7183D",
+      "rightCuff": "#D7183D"
+    }
+  },
+  "observations": "Yellow with four narrow red central stripes, plain yellow sleeves, red ring and broad red cuffs. Repeated Munich shoulder emblems removed. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with four narrow red central stripes, plain yellow sleeves, red ring and broad red cuffs. Repeated Munich shoulder emblems removed. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_d54c7c61587f8a23b2dc-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2D45F",
+      "leftSleeve": "#F2D45F",
+      "rightSleeve": "#F2D45F",
+      "collar": "#D70E36",
+      "leftCuff": "#D7183D",
+      "rightCuff": "#D7183D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D70E36",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2D45F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 4.5,
+        "height": 200,
+        "fill": "#DC133B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92,
+        "y": 0,
+        "width": 4.5,
+        "height": 200,
+        "fill": "#DC133B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 0,
+        "width": 4.5,
+        "height": 200,
+        "fill": "#DC133B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 110,
+        "y": 0,
+        "width": 4.5,
+        "height": 200,
+        "fill": "#DC133B",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#D7183D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#D7183D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

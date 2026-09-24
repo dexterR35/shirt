@@ -4,8 +4,8 @@
   "team_name": "Bourg-en-Bresse Péronnas",
   "country_name": "France",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_870576d5ed0d115f2cf7-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-bourg-peronnas-2026-27-away-kit-520635/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/19/TAqIMPvhLEKKJvQ/fc-bourg-peronnas-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_870576d5ed0d115f2cf7-away-520635.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Pink",
+      "Orange"
+    ],
+    "values": {
+      "body": "#F0F0E5",
+      "leftSleeve": "#F0F0E5",
+      "rightSleeve": "#F0F0E5",
+      "collar": "#F0F0E5",
+      "leftCuff": "#E74A43",
+      "rightCuff": "#E74A43"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Off-white with white ring and coral/orange thin cuff stripe; fine pink and peach paired contour-like winding lines redrawn from the respective full source. Smooth editable curve ribbons are approximations on the common front; folded fabric is not traced. Remove chevrons, all sponsors, charity illustration and club/manufacturer marks. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_870576d5ed0d115f2cf7-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_f3591378dc25d1c38792.json",
+    "source_kit_id": "520635"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

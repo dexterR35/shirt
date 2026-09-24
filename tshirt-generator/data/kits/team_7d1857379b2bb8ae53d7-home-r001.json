@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7d1857379b2bb8ae53d7",
+  "team_name": "Alcione Milano",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/alcione-milano-2026-27-home-kit-500703/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/28/opMNJahCyBHdVYP/alcione-milano-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7d1857379b2bb8ae53d7-home-500703.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "White"
+    ],
+    "values": {
+      "body": "#F66926",
+      "leftSleeve": "#F66926",
+      "rightSleeve": "#F66926",
+      "collar": "#F66926",
+      "leftCuff": "#F66926",
+      "rightCuff": "#F66926"
+    }
+  },
+  "observations": "Orange with three white shoulder tapes and small white lower-side hem tabs; orange ring/cuffs. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Orange with three white shoulder tapes and small white lower-side hem tabs; orange ring/cuffs. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_7d1857379b2bb8ae53d7-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F66926",
+      "leftSleeve": "#F66926",
+      "rightSleeve": "#F66926",
+      "collar": "#F66926",
+      "leftCuff": "#F66926",
+      "rightCuff": "#F66926"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F66926",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F66926",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9.4
+          ],
+          [
+            75,
+            10.9
+          ],
+          [
+            35,
+            33.4
+          ],
+          [
+            35,
+            31.9
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            9.4
+          ],
+          [
+            125,
+            10.9
+          ],
+          [
+            165,
+            33.4
+          ],
+          [
+            165,
+            31.9
+          ]
+        ],
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 191,
+        "width": 12,
+        "height": 3,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 191,
+        "width": 12,
+        "height": 3,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

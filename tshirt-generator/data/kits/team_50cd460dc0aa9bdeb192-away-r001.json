@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_50cd460dc0aa9bdeb192",
+  "team_name": "Fortuna Köln",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fortuna-koln-2026-27-away-kit-500370/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/27/b5KsHR2EUSjtHtZ/fortuna-koln-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_50cd460dc0aa9bdeb192-away-500370.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#181B20",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "observations": "White with a wide red chest band edged white/black above and below, plain white sleeves/cuffs, black/white/red ring trim. Collar flaps omitted and sponsor break is not invented; white HIT lettering removed from the red band. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a wide red chest band edged white/black above and below, plain white sleeves/cuffs, black/white/red ring trim. Collar flaps omitted and sponsor break is not invented; white HIT lettering removed from the red band. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_50cd460dc0aa9bdeb192-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#181B20",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.892 4.189L77 2Q100 7 123 2L128.108 4.189C130.649 29.838 69.351 29.838 71.892 4.189Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.027 3.703L77 2Q100 7 123 2L126.973 3.703C129.838 28.541 70.162 28.541 73.027 3.703Z",
+          "fill": "#E6252F",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74.919 2.892L77 2Q100 7 123 2L125.081 2.892C128.486 26.378 71.514 26.378 74.919 2.892Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M76.054 2.405L77 2Q100 7 123 2L123.946 2.405C127.676 25.081 72.324 25.081 76.054 2.405Z",
+          "fill": "#181B20",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 53,
+        "width": 200,
+        "height": 43,
+        "fill": "#181B20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 55,
+        "width": 200,
+        "height": 39,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 57,
+        "width": 200,
+        "height": 35,
+        "fill": "#E6252F",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

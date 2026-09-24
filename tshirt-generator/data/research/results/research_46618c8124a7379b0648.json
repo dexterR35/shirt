@@ -4,8 +4,8 @@
   "team_name": "Latina",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3855da5193f831e28fc1-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/latina-calcio-2026-27-home-kit-500257/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/27/hMdgPHkSC1AKeZn/latina-calcio-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3855da5193f831e28fc1-home-500257.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#107AC9",
+      "leftSleeve": "#107AC9",
+      "rightSleeve": "#107AC9",
+      "collar": "#F2F2EE",
+      "leftCuff": "#F2F2EE",
+      "rightCuff": "#F2F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright blue with narrow black vertical stripes and fine black lines, dense blue architectural plan-like linework, white ring/cuffs. Brand-free architectural print crop from the independently checked matching Away plan supplied constant-color line contours, recolored blue. Sponsors, logos and labels removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_3855da5193f831e28fc1-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_46618c8124a7379b0648.json",
+    "source_kit_id": "500257"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

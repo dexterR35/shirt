@@ -11,42 +11,70 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "AFC Wimbledon",
+      "design": "Plain",
+      "colors": [
+        "Navy",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Lotto",
+      "sponsor": "Football Manager",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 3, 2026",
+      "release_date_iso": "2026-07-03",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/afc-wimbledon-2026-27-home-kit-492592/",
+        "kit_id": "492592",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_0d382118295d109bb851.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-a-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "AFC Wimbledon",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Lotto",
+      "sponsor": "World Within",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 2, 2026",
+      "release_date_iso": "2026-07-02",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/afc-wimbledon-2026-27-away-kit-492754/",
+        "kit_id": "492754",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_78e73919f31df9ebd332.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-a-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

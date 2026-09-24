@@ -4,8 +4,8 @@
   "team_name": "Reading",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_5f679250a08cba530618-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/reading-fc-2026-27-home-kit-500667/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/vekhU48XSxaIFU1/reading-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5f679250a08cba530618-home-500667.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F1EF",
+      "leftSleeve": "#F0F1EF",
+      "rightSleeve": "#F0F1EF",
+      "collar": "#315C8F",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with five blue horizontal hoops, finely edged red and continued across sleeves; blue/white/red ring colors and white cuffs with red edge. Archive front is a flat illustration. Its fine mesh is not repainted; the original PNG supplies fabric. All markings omitted. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_5f679250a08cba530618-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_87324562a5fe66ec309a.json",
+    "source_kit_id": "500667"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "MPAM FC",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -41,10 +41,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_c67f8dc5f41d6402ab84-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mpam-fc-2026-27-home-kit-516821/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/08/O8vYC2sy7uuyErO/mpam-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c67f8dc5f41d6402ab84-home-516821.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "Yellow",
+      "White"
+    ],
+    "values": {
+      "body": "#E34A0B",
+      "leftSleeve": "#E34A0B",
+      "rightSleeve": "#E34A0B",
+      "collar": "#F1F2EE",
+      "leftCuff": "#E34A0B",
+      "rightCuff": "#E34A0B"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_74a3e872026e1124a603.json",
+    "source_kit_id": "516821"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

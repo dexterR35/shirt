@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "MK Dons",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Reebok",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 23, 2026",
+      "release_date_iso": "2026-07-23",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mk-dons-2026-27-home-kit-498268/",
+        "kit_id": "498268",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_8209ff1a18d9cd23470f.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "MK Dons",
+      "design": "Graphic",
+      "colors": [
+        "Black",
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Reebok",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "August 6, 2026",
+      "release_date_iso": "2026-08-06",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mk-dons-2026-27-away-kit-505198/",
+        "kit_id": "505198",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_d7819f6260eec92f825b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

@@ -4,8 +4,8 @@
   "team_name": "Ostiamare",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_86a2cffbb127319fef26-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-ostiamare-2026-27-away-kit-508001/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/ikVYXPaOkhlkvAP/as-ostiamare-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_86a2cffbb127319fef26-away-508001.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Purple",
+      "Orange"
+    ],
+    "values": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#F2F2EE",
+      "rightSleeve": "#F2F2EE",
+      "collar": "#DF4C2C",
+      "leftCuff": "#543485",
+      "rightCuff": "#543485"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with purple/lilac tapering curved plumes on shoulders and upper sides, orange ring and orange/purple cuff bands. Rounded tapering feather forms redrawn from the independently checked side/shoulder print with lavender gradients describing the printed graphic. Fine contour variation reduced; center remains white. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_86a2cffbb127319fef26-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6e9758abc37d9843c81a.json",
+    "source_kit_id": "508001"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

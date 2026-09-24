@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Reading FC",
+      "design": "Hoops",
+      "colors": [
+        "White",
+        "Blue",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Mr Vegas",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 28, 2026",
+      "release_date_iso": "2026-07-28",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/reading-fc-2026-27-home-kit-500667/",
+        "kit_id": "500667",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_87324562a5fe66ec309a.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Reading FC",
+      "design": "Plain",
+      "colors": [
+        "Navy",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Mr Vegas",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "August 7, 2026",
+      "release_date_iso": "2026-08-07",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/reading-fc-2026-27-away-kit-505177/",
+        "kit_id": "505177",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_3cc4d6dd3c055cb69421.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

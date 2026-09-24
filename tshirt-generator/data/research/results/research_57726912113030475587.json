@@ -4,9 +4,9 @@
   "team_name": "Doxa Drama",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2025/26",
+  "status": "draft",
+  "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,60 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-source-gaps-2026-09-25",
+      "action": "Read live independent team history, discovered from previous-season league listing. Current league listing independently inspected.",
+      "source_url": "https://www.footballkitarchive.com/doxa-drama-kits-t12947/",
+      "latest_season": "2025-26",
+      "observed_latest_variants": [
+        "home",
+        "away"
+      ],
+      "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_0f6d8980fcfbb67713ae-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/doxa-drama-2025-26-home-kit-438391/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/cQKbdtqCXl3bBXK/doxa-drama-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0f6d8980fcfbb67713ae-home-438391.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#181B1D",
+      "leftSleeve": "#181B1D",
+      "rightSleeve": "#181B1D",
+      "collar": "#181B1D",
+      "leftCuff": "#181B1D",
+      "rightCuff": "#181B1D"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_57726912113030475587.json",
+    "source_kit_id": "438391"
+  }
 }

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ca2672429cbf6ff94fc0",
+  "team_name": "Gimnàstic de Tarragona",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/gimnastic-de-tarragona-2026-27-home-kit-490671/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/v5beQLTmqvcffq0/gimnastic-de-tarragona-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ca2672429cbf6ff94fc0-home-490671.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#B90928",
+      "leftSleeve": "#B90928",
+      "rightSleeve": "#B90928",
+      "collar": "#F3F2EC",
+      "leftCuff": "#B90928",
+      "rightCuff": "#B90928"
+    }
+  },
+  "observations": "Plain deep red with white ring, two narrow dark shoulder tapes and small white lower-side hem inserts. White chest/sleeve branding removed; no inferred tonal print. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain deep red with white ring, two narrow dark shoulder tapes and small white lower-side hem inserts. White chest/sleeve branding removed; no inferred tonal print. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_ca2672429cbf6ff94fc0-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#B90928",
+      "leftSleeve": "#B90928",
+      "rightSleeve": "#B90928",
+      "collar": "#F3F2EC",
+      "leftCuff": "#B90928",
+      "rightCuff": "#B90928"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.667 3L77 2Q100 7 123 2L125.333 3C128.667 26.667 71.333 26.667 74.667 3Z",
+          "fill": "#B90928",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#B90928",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#23252B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#23252B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#23252B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#23252B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 195,
+        "width": 9,
+        "height": 5,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 142,
+        "y": 195,
+        "width": 9,
+        "height": 5,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

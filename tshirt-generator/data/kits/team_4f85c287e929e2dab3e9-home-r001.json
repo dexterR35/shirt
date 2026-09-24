@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4f85c287e929e2dab3e9",
+  "team_name": "Algeciras",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/algeciras-cf-2026-27-home-kit-501654/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/01/vTiF1KYsQs8Hlhx/algeciras-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f85c287e929e2dab3e9-home-501654.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#ED2456",
+      "rightSleeve": "#ED2456",
+      "collar": "#1577A6",
+      "leftCuff": "#197DB0",
+      "rightCuff": "#197DB0"
+    }
+  },
+  "observations": "White with three red/pink broad torso stripes, red sleeves and blue ring/cuff edging. White curved raglan separations retained; repeated rectangular Capelli shoulder branding and all other marks removed. Source folded collar recolors only the existing ring. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with three red/pink broad torso stripes, red sleeves and blue ring/cuff edging. White curved raglan separations retained; repeated rectangular Capelli shoulder branding and all other marks removed. Source folded collar recolors only the existing ring. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_4f85c287e929e2dab3e9-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#ED2456",
+      "rightSleeve": "#ED2456",
+      "collar": "#1577A6",
+      "leftCuff": "#197DB0",
+      "rightCuff": "#197DB0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1577A6",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#ED2456",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#ED2456",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 15,
+        "height": 200,
+        "fill": "#ED2456",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#ED2456",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#ED2456",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#197DB0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#197DB0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

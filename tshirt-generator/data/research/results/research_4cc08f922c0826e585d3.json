@@ -4,8 +4,8 @@
   "team_name": "Reggiana",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d4a5b1313ea58f706150-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ac-reggiana-1919-2026-27-home-kit-516341/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/mpUqusv5VaGAEcW/ac-reggiana-1919-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d4a5b1313ea58f706150-home-516341.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#602A37",
+      "leftSleeve": "#602A37",
+      "rightSleeve": "#602A37",
+      "collar": "#B99452",
+      "leftCuff": "#602A37",
+      "rightCuff": "#602A37"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with narrow gold sleeve-end and neck edging. Dark launch composite strongly affects exposure; base claret is estimated without copying its pink lighting. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_d4a5b1313ea58f706150-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4cc08f922c0826e585d3.json",
+    "source_kit_id": "516341"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

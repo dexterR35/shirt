@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_57f22757e77c6335ad27",
+  "team_name": "Giana Erminio",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with four pale sky-blue columns continuing onto sleeves, white ring and self-colored cuffs. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_57f22757e77c6335ad27-home-511547.jpg",
+      "page_url": "https://www.footballkitarchive.com/as-giana-erminio-2026-27-home-kit-511547/",
+      "sha256": "62a0d7f379ceab7bb0d8eff87cacc672c87df95271d9cfb452d4d41f8222b8a0"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#F2F2EE",
+      "rightSleeve": "#F2F2EE",
+      "collar": "#F2F2EE",
+      "leftCuff": "#F2F2EE",
+      "rightCuff": "#F2F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 15,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 45,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 165,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#8ECADB",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

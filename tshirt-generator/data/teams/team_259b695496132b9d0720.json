@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Calcio Foggia 1920",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Nike",
+      "sponsor": "VisionOttica",
+      "competitions": [
+        "Serie C"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/calcio-foggia-1920-2026-27-home-kit-518704/",
+        "kit_id": "518704",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_a3c55c50396ca012a233.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Calcio Foggia 1920",
+      "design": "Single stripe",
+      "colors": [
+        "White",
+        "Red",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "VisionOttica",
+      "competitions": [
+        "Serie C"
+      ],
+      "release_date": "August 21, 2026",
+      "release_date_iso": "2026-08-21",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/calcio-foggia-1920-2026-27-away-kit-511478/",
+        "kit_id": "511478",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/serie-c-kits-2026-27-l260/",
+        "record_path": "data/research/footballkitarchive/records/research_120ea9158a27020c1d79.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/serie-c-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

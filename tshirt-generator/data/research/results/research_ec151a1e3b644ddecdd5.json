@@ -4,8 +4,8 @@
   "team_name": "Ospitaletto Franciacorta",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6d2a0533174a52005355-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ospitaletto-2026-27-away-kit-511900/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/18/7s1bMztlM9DKvsv/ospitaletto-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6d2a0533174a52005355-away-511900.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#292C38",
+      "leftSleeve": "#C3B395",
+      "rightSleeve": "#C3B395",
+      "collar": "#C8B99B",
+      "leftCuff": "#292C38",
+      "rightCuff": "#292C38"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal/navy with beige shoulder caps/sleeves, dark angular brush-like forms near sleeve ends, beige shoulder tapes/ring edging and dark cuffs. Independent worn source limits fine brush contours. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_6d2a0533174a52005355-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ec151a1e3b644ddecdd5.json",
+    "source_kit_id": "511900"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

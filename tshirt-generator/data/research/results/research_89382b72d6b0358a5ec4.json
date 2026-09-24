@@ -4,8 +4,8 @@
   "team_name": "Rayo Majadahonda",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_bda7dedcf999882408ff-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rayo-majadahonda-2026-27-away-kit-490449/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/25/fuiKrSsTUmXJPJt/rayo-majadahonda-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_bda7dedcf999882408ff-away-490449.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#3D434C",
+      "leftSleeve": "#3D434C",
+      "rightSleeve": "#3D434C",
+      "collar": "#242B35",
+      "leftCuff": "#CF474C",
+      "rightCuff": "#CF474C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with fine vertical tonal pinstripes, dark ring, red cuffs and red jagged side inserts. White Hummel branding excluded. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_bda7dedcf999882408ff-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_89382b72d6b0358a5ec4.json",
+    "source_kit_id": "490449"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

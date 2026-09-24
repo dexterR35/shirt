@@ -1,0 +1,70 @@
+{
+  "batch": "tier3-italy-a-2026-09-25",
+  "traces": [
+    {
+      "key": "Dolomiti Bellunesi:home",
+      "reference": "data/research/references/footballkitarchive/team_d76fc8209876159c21da-home-498557.jpg",
+      "source_sha256": "81617cb61f960e0ecffef5512576e982c02c61b1c5d739ae47c42e58cd4a6258",
+      "spec": {
+        "box": [
+          185,
+          285,
+          310,
+          457
+        ],
+        "width": 310,
+        "mode": "dark",
+        "threshold": 5,
+        "blur": 3,
+        "min": 140,
+        "max": 255,
+        "repairs": [
+          {
+            "target": [
+              214,
+              347,
+              264,
+              76
+            ],
+            "source": [
+              219,
+              450,
+              264,
+              76
+            ]
+          }
+        ],
+        "exclude": [
+          [
+            383,
+            240,
+            120,
+            77
+          ],
+          [
+            480,
+            450,
+            15,
+            310
+          ],
+          [
+            185,
+            285,
+            125,
+            25
+          ]
+        ]
+      },
+      "placement": {
+        "x": 65,
+        "y": 51,
+        "width": 70,
+        "height": 126,
+        "color": "#B65072",
+        "clip": "body"
+      },
+      "ink_pixels": 30506,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

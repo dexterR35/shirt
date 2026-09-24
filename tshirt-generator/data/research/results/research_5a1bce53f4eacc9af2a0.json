@@ -4,8 +4,8 @@
   "team_name": "Juventus Next Gen",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_04b42c6d0fdb1fa0c626-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/juventus-next-gen-2026-27-home-kit-482599/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/12/7XeZv1YNAFN7ko3/juventus-next-gen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_04b42c6d0fdb1fa0c626-home-482599.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F0F0E9",
+      "leftSleeve": "#F0F0E9",
+      "rightSleeve": "#F0F0E9",
+      "collar": "#F0F0E9",
+      "leftCuff": "#F0F0E9",
+      "rightCuff": "#F0F0E9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front visually compared with the same current design. Shared reviewed geometry from team_31cc64e36fbdf87509fc-home-r001.json, with reserve evidence and identity retained separately. White body with narrow black vertical stripes, white sleeves and existing collar, paired thin black shoulder stripes. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_04b42c6d0fdb1fa0c626-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5a1bce53f4eacc9af2a0.json",
+    "source_kit_id": "482599"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

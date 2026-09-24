@@ -4,8 +4,8 @@
   "team_name": "Novara",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_71f0d0ad24837a90d609-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/novara-fc-2026-27-home-kit-508185/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/15/W4EZbIomK4KDsd9/novara-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_71f0d0ad24837a90d609-home-508185.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#108CDD",
+      "leftSleeve": "#108CDD",
+      "rightSleeve": "#108CDD",
+      "collar": "#F2F2EE",
+      "leftCuff": "#F2F2EE",
+      "rightCuff": "#F2F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright azure blue with white ring/cuffs; fine tonal cloth texture remains original base fabric. Sponsors and shoulder logos removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_71f0d0ad24837a90d609-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_774f3e11d3f9cc5d5ae9.json",
+    "source_kit_id": "508185"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

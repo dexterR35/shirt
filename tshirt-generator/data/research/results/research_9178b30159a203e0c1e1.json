@@ -4,8 +4,8 @@
   "team_name": "Pannaxiakos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_4d91acd63f4206362f9a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-pannaxiakos-2026-27-home-kit-492807/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/12/76oPvdtzJTRHGf0/ao-pannaxiakos-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4d91acd63f4206362f9a-home-492807.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1459BE",
+      "leftSleeve": "#1459BE",
+      "rightSleeve": "#1459BE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9178b30159a203e0c1e1.json",
+    "source_kit_id": "492807"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

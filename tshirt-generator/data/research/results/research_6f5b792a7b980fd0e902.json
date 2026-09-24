@@ -4,9 +4,9 @@
   "team_name": "Nea Ionia",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2025/26",
+  "status": "draft",
+  "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,59 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-source-gaps-2026-09-25",
+      "action": "Read live independent team history, discovered from previous-season league listing. Current league listing independently inspected.",
+      "source_url": "https://www.footballkitarchive.com/ao-neo-ionia-kits-t79547/",
+      "latest_season": "2025-26",
+      "observed_latest_variants": [
+        "home",
+        "away"
+      ],
+      "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_128786ea821816eb944c-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-neo-ionia-2025-26-away-kit-444377/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/qb0Um0OkJRDuTFC/ao-neo-ionia-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_128786ea821816eb944c-away-444377.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#084C8E",
+      "leftSleeve": "#084C8E",
+      "rightSleeve": "#084C8E",
+      "collar": "#E5CD28",
+      "leftCuff": "#084C8E",
+      "rightCuff": "#084C8E"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6f5b792a7b980fd0e902.json",
+    "source_kit_id": "444377"
+  }
 }

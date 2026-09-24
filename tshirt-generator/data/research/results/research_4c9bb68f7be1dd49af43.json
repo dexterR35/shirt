@@ -6,7 +6,7 @@
   "variant": "away",
   "kit_season": null,
   "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,20 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-source-gaps-2026-09-25",
+      "action": "Read live independent team history, discovered from previous-season league listing. Current league listing independently inspected.",
+      "source_url": "https://www.footballkitarchive.com/ethnikos-neou-keramidiou-kits-t20874/",
+      "latest_season": "2025-26",
+      "observed_latest_variants": [
+        "home",
+        "away"
+      ],
+      "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    }
   ]
 }

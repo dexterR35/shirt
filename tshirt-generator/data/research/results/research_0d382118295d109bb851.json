@@ -4,8 +4,8 @@
   "team_name": "AFC Wimbledon",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fcd6026c2cf265b6eb31-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/afc-wimbledon-2026-27-home-kit-492592/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/05/3C072r0P9HTxKyH/afc-wimbledon-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fcd6026c2cf265b6eb31-home-492592.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#084592",
+      "leftSleeve": "#084592",
+      "rightSleeve": "#084592",
+      "collar": "#F0CD3C",
+      "leftCuff": "#F0CD3C",
+      "rightCuff": "#F0CD3C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep royal/navy blue plain field with yellow round-ring recoloring, broad yellow cuffs and fine yellow raglan/side piping. Repeated Lotto emblems in the collar and cuff tape are deliberately omitted, as are all chest/sleeve marks. The gold seam braid is reduced to a fine color line; source V-neck is not drawn over the existing PNG ring.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_fcd6026c2cf265b6eb31-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0d382118295d109bb851.json",
+    "source_kit_id": "492592"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

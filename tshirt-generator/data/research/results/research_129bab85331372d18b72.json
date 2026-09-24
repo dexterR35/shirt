@@ -4,8 +4,8 @@
   "team_name": "Burton Albion",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_63b2e8fefe34d8297a4a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/burton-albion-2026-27-away-kit-500669/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/ScZmAjc6GcBw7wi/burton-albion-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_63b2e8fefe34d8297a4a-away-500669.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Off-white"
+    ],
+    "values": {
+      "body": "#2D466D",
+      "leftSleeve": "#2D466D",
+      "rightSleeve": "#2D466D",
+      "collar": "#F0F0E7",
+      "leftCuff": "#F0F0E7",
+      "rightCuff": "#F0F0E7"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain navy with off-white upper shoulder/raglan panels and thin curved armhole piping; navy/off-white double trim on cuffs and original round ring. Independently saved Away illustration is credited to fmslovakia.com, with exact physical garment construction unverified. No source V-neck, sponsor, manufacturer or crest paint.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_63b2e8fefe34d8297a4a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_129bab85331372d18b72.json",
+    "source_kit_id": "500669"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

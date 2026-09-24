@@ -4,8 +4,8 @@
   "team_name": "Pianese",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_aa9a77204a7a891a2a58-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-pianese-2026-27-away-kit-505095/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/07/SC46Ufq7ADB1pYz/us-pianese-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aa9a77204a7a891a2a58-away-505095.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#0879D7",
+      "leftSleeve": "#0879D7",
+      "rightSleeve": "#0879D7",
+      "collar": "#D8E0EA",
+      "leftCuff": "#0879D7",
+      "rightCuff": "#0879D7"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright blue with pale grey shoulder-to-sleeve panels, side inserts and pale round ring. Plain blue sleeve ends. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_aa9a77204a7a891a2a58-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9f1c0fd0f91611ce9b34.json",
+    "source_kit_id": "505095"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

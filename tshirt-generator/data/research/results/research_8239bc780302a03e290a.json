@@ -4,8 +4,8 @@
   "team_name": "Deportivo Fabril",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_dcc3111523db01372e15-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-club-deportivo-fabril-2026-27-away-kit-503768/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/D92SfSD4iVDlPVj/real-club-deportivo-fabril-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dcc3111523db01372e15-away-503768.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Blue"
+    ],
+    "values": {
+      "body": "#191C1D",
+      "leftSleeve": "#191C1D",
+      "rightSleeve": "#191C1D",
+      "collar": "#0679B5",
+      "leftCuff": "#087DBA",
+      "rightCuff": "#087DBA"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_fa26cd0ea60cc3287dd1-away-r001.json; reserve evidence/identity stays separate. Black plain body and sleeves with bright blue neckline and sleeve-end bands. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_dcc3111523db01372e15-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8239bc780302a03e290a.json",
+    "source_kit_id": "503768"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

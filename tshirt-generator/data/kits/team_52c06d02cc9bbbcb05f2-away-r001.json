@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_52c06d02cc9bbbcb05f2",
+  "team_name": "Cultural Leonesa",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cultural-leonesa-2026-27-away-kit-498282/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/QfWamyVUjqZVJgY/cultural-leonesa-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_52c06d02cc9bbbcb05f2-away-498282.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Green",
+      "Gold"
+    ],
+    "values": {
+      "body": "#B52633",
+      "leftSleeve": "#B52633",
+      "rightSleeve": "#B52633",
+      "collar": "#285449",
+      "leftCuff": "#285449",
+      "rightCuff": "#285449"
+    }
+  },
+  "observations": "Claret/red torso with four broad green vertical bands, claret sleeves, fine gold raglan piping and green/red cuff/ring bands. Gold logos and all sponsors removed; color estimate allows for strong sunshine in the worn source. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret/red torso with four broad green vertical bands, claret sleeves, fine gold raglan piping and green/red cuff/ring bands. Gold logos and all sponsors removed; color estimate allows for strong sunshine in the worn source. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_52c06d02cc9bbbcb05f2-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#B52633",
+      "leftSleeve": "#B52633",
+      "rightSleeve": "#B52633",
+      "collar": "#285449",
+      "leftCuff": "#285449",
+      "rightCuff": "#285449"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#285449",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74 3.286L77 2Q100 7 123 2L126 3.286C129.143 27.429 70.857 27.429 74 3.286Z",
+          "fill": "#BD9636",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75 2.857L77 2Q100 7 123 2L125 2.857C128.429 26.286 71.571 26.286 75 2.857Z",
+          "fill": "#B52633",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#B52633",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#285449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#285449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 118,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#285449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#285449",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.911 10.766L53.857 18.795L44.752 31.971L47.751 71.019L48.249 70.981L45.248 32.029L54.143 19.205L75.089 11.234Z",
+        "fill": "#BD9636",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.911 11.234L145.857 19.205L154.752 32.029L151.751 70.981L152.249 71.019L155.248 31.971L146.143 18.795L125.089 10.766Z",
+        "fill": "#BD9636",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#285449",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.8C24 79.4 36 84.7 44.5 83.8Q48 83.9 49.2 75.7L52 106H5Z",
+        "fill": "#B52633",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.94999999999999C24 80.55 36 85.85 44.5 84.94999999999999Q48 85.05 49.2 76.85L52 106H5Z",
+        "fill": "#BD9636",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#285449",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.8C176 79.4 164 84.7 155.5 83.8Q152 83.9 150.8 75.7L148 106H195Z",
+        "fill": "#B52633",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.94999999999999C176 80.55 164 85.85 155.5 84.94999999999999Q152 85.05 150.8 76.85L148 106H195Z",
+        "fill": "#BD9636",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

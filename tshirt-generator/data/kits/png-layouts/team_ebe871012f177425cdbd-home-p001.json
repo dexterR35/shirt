@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ebe871012f177425cdbd",
+  "team_name": "Livorno",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Claret body/sleeves with black sleeve ends and dark claret/black ring. Marketing words over the archive image omitted. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ebe871012f177425cdbd-home-503745.jpg",
+      "page_url": "https://www.footballkitarchive.com/us-livorno-1915-2026-27-home-kit-503745/",
+      "sha256": "37b533cd7d600876d816456d20dd87b8d2bdf9cb79f8e4a5c45276be9e76e176"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#702F3F",
+      "leftSleeve": "#702F3F",
+      "rightSleeve": "#702F3F",
+      "collar": "#202024",
+      "leftCuff": "#1D1E20",
+      "rightCuff": "#1D1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#202024",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73 3.714L77 2Q100 7 123 2L127 3.714C129.857 28.571 70.143 28.571 73 3.714Z",
+          "fill": "#6A2936",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#702F3F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#1D1E20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#1D1E20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

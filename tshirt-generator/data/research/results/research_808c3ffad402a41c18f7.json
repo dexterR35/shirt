@@ -4,8 +4,8 @@
   "team_name": "Deportivo Fabril",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_dcc3111523db01372e15-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-club-deportivo-fabril-2026-27-home-kit-492354/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/02/kWv40oBHvgCDANK/real-club-deportivo-fabril-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dcc3111523db01372e15-home-492354.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Gray"
+    ],
+    "values": {
+      "body": "#EDEFEF",
+      "leftSleeve": "#0877A9",
+      "rightSleeve": "#0877A9",
+      "collar": "#D0DEE4",
+      "leftCuff": "#B9CBD5",
+      "rightCuff": "#B9CBD5"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_fa26cd0ea60cc3287dd1-home-r001.json; reserve evidence/identity stays separate. Alternating broad royal/azure blue and white front stripes, solid blue sleeves, pale blue-gray neck and cuff bands. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_dcc3111523db01372e15-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_808c3ffad402a41c18f7.json",
+    "source_kit_id": "492354"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

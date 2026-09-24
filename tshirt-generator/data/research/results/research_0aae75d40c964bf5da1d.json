@@ -4,8 +4,8 @@
   "team_name": "Ostiamare",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_86a2cffbb127319fef26-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-ostiamare-2026-27-home-kit-507791/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/1CWkTYWe0RMGvYK/as-ostiamare-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_86a2cffbb127319fef26-home-507791.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Purple",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#62319D",
+      "leftSleeve": "#171E25",
+      "rightSleeve": "#171E25",
+      "collar": "#171E25",
+      "leftCuff": "#171E25",
+      "rightCuff": "#171E25"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Purple with subtle fine vertical upper lines and branching lower botanical/root forms, black raglan sleeves, purple shoulder edges and black/white ring/cuffs. Fine root drawing reduced, all emblems removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_86a2cffbb127319fef26-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0aae75d40c964bf5da1d.json",
+    "source_kit_id": "507791"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

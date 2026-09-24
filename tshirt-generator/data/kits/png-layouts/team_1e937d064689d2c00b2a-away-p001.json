@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1e937d064689d2c00b2a",
+  "team_name": "Cannes",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Blue with three broad black vertical stripes and black sleeves/shoulder inserts, blue ring. Bands measured from this variant’s source; minor stretch and diagonal perspective adapted. Sponsor and all insignia removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1e937d064689d2c00b2a-away-504936.jpg",
+      "page_url": "https://www.footballkitarchive.com/as-cannes-2026-27-away-kit-504936/",
+      "sha256": "01422ffbd27965ae3b7c980fa0983f1b67972e4a3bf929ebc552339cacc8d0f6"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#237394",
+      "leftSleeve": "#121B20",
+      "rightSleeve": "#121B20",
+      "collar": "#237394",
+      "leftCuff": "#121B20",
+      "rightCuff": "#121B20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#237394",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#237394",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#121B20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#121B20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#121B20",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

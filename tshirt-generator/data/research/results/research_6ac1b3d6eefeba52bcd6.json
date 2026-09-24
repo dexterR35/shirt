@@ -4,8 +4,8 @@
   "team_name": "Real Avilés Industrial",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7c859d0e4776a8e76a2c-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-aviles-cf-2026-27-away-kit-516339/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/7EXvCtOGUPwg8RT/real-aviles-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7c859d0e4776a8e76a2c-away-516339.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#621D31",
+      "leftSleeve": "#621D31",
+      "rightSleeve": "#621D31",
+      "collar": "#69233A",
+      "leftCuff": "#621D31",
+      "rightCuff": "#621D31"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain claret body/sleeves and self-colored ring/cuffs after removing sponsors and all repeated shoulder branding. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_7c859d0e4776a8e76a2c-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_6ac1b3d6eefeba52bcd6.json",
+    "source_kit_id": "516339"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

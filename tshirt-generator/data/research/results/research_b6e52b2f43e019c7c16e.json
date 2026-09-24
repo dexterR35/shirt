@@ -4,8 +4,8 @@
   "team_name": "Hansa Rostock",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f6af1b4180c87be66317-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/hansa-rostock-2026-27-away-kit-496996/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/HpoGS0hX4af0h6z/hansa-rostock-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f6af1b4180c87be66317-away-496996.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#0B6DAB",
+      "leftCuff": "#0B6DAB",
+      "rightCuff": "#0B6DAB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain white with fine blue cuff/collar edge. Source white polo collar is adapted only to ring colors; blue shoulder areas are repeated Reebok logos and are removed with sponsor/badge. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_f6af1b4180c87be66317-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b6e52b2f43e019c7c16e.json",
+    "source_kit_id": "496996"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

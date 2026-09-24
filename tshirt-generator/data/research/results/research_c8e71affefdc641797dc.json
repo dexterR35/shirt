@@ -4,8 +4,8 @@
   "team_name": "Cambridge United",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6b5cdb77dc2cf718a74b-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cambridge-united-2026-27-away-kit-490270/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/26/NJuZ4pdDrUxxVnE/cambridge-united-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6b5cdb77dc2cf718a74b-away-490270.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Navy",
+      "Gold"
+    ],
+    "values": {
+      "body": "#B5D9EB",
+      "leftSleeve": "#B5D9EB",
+      "rightSleeve": "#B5D9EB",
+      "collar": "#171D48",
+      "leftCuff": "#E9AB31",
+      "rightCuff": "#E9AB31"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale sky-blue with fine alternating lighter vertical stripes on torso and sleeves, solid sky shoulder yokes, and navy/gold curved raglan lines. Navy ring with gold inner edge, navy cuffs with gold top edge and pale side inserts. Source says Plain but visible stripes are independently drawn. Mesh is not traced; hidden side detail adapted to common silhouette.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_6b5cdb77dc2cf718a74b-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c8e71affefdc641797dc.json",
+    "source_kit_id": "490270"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

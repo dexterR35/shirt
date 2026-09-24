@@ -4,8 +4,8 @@
   "team_name": "Trento",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f3001abd0d1e79aaf466-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ac-trento-2026-27-away-kit-507056/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/BzkwopxBLpEqhDA/ac-trento-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f3001abd0d1e79aaf466-away-507056.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Blue"
+    ],
+    "values": {
+      "body": "#299AC9",
+      "leftSleeve": "#299AC9",
+      "rightSleeve": "#299AC9",
+      "collar": "#349AC5",
+      "leftCuff": "#299AC9",
+      "rightCuff": "#299AC9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue with a darker blue diagonal fine-line field over large pale interlocking angular blocks, plain sky sleeves and ring. All lettering/emblems removed; micro-line rhythm reduced. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_f3001abd0d1e79aaf466-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_29bfe1b3e9c97cb0f23d.json",
+    "source_kit_id": "507056"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

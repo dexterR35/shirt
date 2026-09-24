@@ -4,8 +4,8 @@
   "team_name": "Bromley",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2dc90023188ec81295e8-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bromley-fc-2026-27-home-kit-480007/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/ImH2mmo6SWxlijm/bromley-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2dc90023188ec81295e8-home-480007.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F0F3",
+      "leftSleeve": "#F1F0F3",
+      "rightSleeve": "#F1F0F3",
+      "collar": "#17191D",
+      "leftCuff": "#F1F0F3",
+      "rightCuff": "#F1F0F3"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with seven fine black torso pinlines, plain white sleeves/cuffs and black neckline recoloring. Lines are straightened from the worn front photo and continued through branding; their fine width and spacing remain source-specific. Gold areas are emblems/manufacturer marks and are omitted. Hidden side geometry and source polo construction are not inferred.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_2dc90023188ec81295e8-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4857c312474897680e7b.json",
+    "source_kit_id": "480007"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

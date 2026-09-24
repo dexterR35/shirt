@@ -4,8 +4,8 @@
   "team_name": "Monopoli",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e3ea3b51c34dca1217b5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ss-monopoli-2026-27-away-kit-511273/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/5w1HXSPooM0bj3h/ss-monopoli-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e3ea3b51c34dca1217b5-away-511273.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#F2F2EE",
+      "rightSleeve": "#F2F2EE",
+      "collar": "#148648",
+      "leftCuff": "#168A4D",
+      "rightCuff": "#168A4D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with green side inserts and two green sleeve-end bands divided by white; green round ring edged white. Polo flaps reduced to the existing collar ring only. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_e3ea3b51c34dca1217b5-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9e05542597febc35fe16.json",
+    "source_kit_id": "511273"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_81dc46fc15f7b4001481",
+  "team_name": "Saronikos Anavyssos",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/aps-saronikos-anavyssou-2025-26-away-kit-444401/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/ESWgyxG0BEusLlp/aps-saronikos-anavyssou-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_81dc46fc15f7b4001481-away-444401.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Orange",
+      "Black"
+    ],
+    "values": {
+      "body": "#DF6019",
+      "leftSleeve": "#DF6019",
+      "rightSleeve": "#DF6019",
+      "collar": "#DF6019",
+      "leftCuff": "#DF6019",
+      "rightCuff": "#DF6019"
+    }
+  },
+  "observations": "Orange with a fine dark side seam stripe, plain orange shoulders, sleeves and ring. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DF6019",
+      "leftSleeve": "#DF6019",
+      "rightSleeve": "#DF6019",
+      "collar": "#DF6019",
+      "leftCuff": "#DF6019",
+      "rightCuff": "#DF6019"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DF6019",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DF6019",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.65Q53.65 133 49.65 77Z",
+        "fill": "#181B1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.35Q146.35 133 150.35 77Z",
+        "fill": "#181B1D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

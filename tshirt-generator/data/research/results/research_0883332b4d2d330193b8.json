@@ -4,8 +4,8 @@
   "team_name": "Sorrento",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9d486ac4fc7d63ff1dd3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sorrento-calcio-1945-2026-27-home-kit-512335/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/gQe3i63xh4l75KI/sorrento-calcio-1945-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9d486ac4fc7d63ff1dd3-home-512335.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#C92B38",
+      "leftSleeve": "#C92B38",
+      "rightSleeve": "#C92B38",
+      "collar": "#192028",
+      "leftCuff": "#192028",
+      "rightCuff": "#192028"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red and black broad vertical stripes on torso/sleeves, black neckline and cuffs with narrow red edges. Pole collar construction adapted to round base. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_9d486ac4fc7d63ff1dd3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0883332b4d2d330193b8.json",
+    "source_kit_id": "512335"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

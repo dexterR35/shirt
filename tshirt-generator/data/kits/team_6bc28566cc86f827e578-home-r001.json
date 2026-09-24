@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6bc28566cc86f827e578",
+  "team_name": "Wycombe Wanderers",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wycombe-wanderers-2026-27-home-kit-479071/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/7A6IpxRwOaflb1u/wycombe-wanderers-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6bc28566cc86f827e578-home-479071.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#8CC4E2",
+      "leftSleeve": "#1F2F4A",
+      "rightSleeve": "#1F2F4A",
+      "collar": "#1F2F4A",
+      "leftCuff": "#1F2F4A",
+      "rightCuff": "#1F2F4A"
+    }
+  },
+  "observations": "Sky-blue/navy quartered torso, with jagged pale-blue angular shards confined to top-left and bottom-right navy quarters. Navy sleeves/ring/cuffs. Source illustration adapted by measured closed polygons; repeated Hummel shoulder chevrons and all branding omitted. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue/navy quartered torso, with jagged pale-blue angular shards confined to top-left and bottom-right navy quarters. Navy sleeves/ring/cuffs. Source illustration adapted by measured closed polygons; repeated Hummel shoulder chevrons and all branding omitted. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_6bc28566cc86f827e578-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#8CC4E2",
+      "leftSleeve": "#1F2F4A",
+      "rightSleeve": "#1F2F4A",
+      "collar": "#1F2F4A",
+      "leftCuff": "#1F2F4A",
+      "rightCuff": "#1F2F4A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1F2F4A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#8CC4E2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 100,
+        "fill": "#1F2F4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 100,
+        "width": 100,
+        "height": 100,
+        "fill": "#1F2F4A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            9
+          ],
+          [
+            94,
+            21
+          ],
+          [
+            73,
+            22
+          ],
+          [
+            49,
+            16
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            52,
+            24
+          ],
+          [
+            96,
+            38
+          ],
+          [
+            77,
+            39
+          ],
+          [
+            87,
+            34
+          ],
+          [
+            49,
+            30
+          ]
+        ],
+        "fill": "#9DD9EA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            44
+          ],
+          [
+            99,
+            57
+          ],
+          [
+            68,
+            53
+          ],
+          [
+            80,
+            49
+          ],
+          [
+            49,
+            49
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            59,
+            60
+          ],
+          [
+            96,
+            73
+          ],
+          [
+            78,
+            73
+          ],
+          [
+            86,
+            68
+          ],
+          [
+            50,
+            65
+          ]
+        ],
+        "fill": "#9DD9EA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            79
+          ],
+          [
+            98,
+            91
+          ],
+          [
+            64,
+            89
+          ],
+          [
+            74,
+            84
+          ],
+          [
+            49,
+            85
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            105
+          ],
+          [
+            145,
+            117
+          ],
+          [
+            124,
+            118
+          ],
+          [
+            100,
+            112
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            103,
+            120
+          ],
+          [
+            147,
+            134
+          ],
+          [
+            128,
+            135
+          ],
+          [
+            138,
+            130
+          ],
+          [
+            100,
+            126
+          ]
+        ],
+        "fill": "#9DD9EA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            140
+          ],
+          [
+            150,
+            153
+          ],
+          [
+            119,
+            149
+          ],
+          [
+            131,
+            145
+          ],
+          [
+            100,
+            145
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            156
+          ],
+          [
+            147,
+            169
+          ],
+          [
+            129,
+            169
+          ],
+          [
+            137,
+            164
+          ],
+          [
+            101,
+            161
+          ]
+        ],
+        "fill": "#9DD9EA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            100,
+            175
+          ],
+          [
+            149,
+            187
+          ],
+          [
+            115,
+            185
+          ],
+          [
+            125,
+            180
+          ],
+          [
+            100,
+            181
+          ]
+        ],
+        "fill": "#8CC4E2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            1
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            49,
+            25
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            47,
+            12
+          ]
+        ],
+        "fill": "#1F2F4A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            1
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            151,
+            25
+          ],
+          [
+            163,
+            27
+          ],
+          [
+            170,
+            20
+          ],
+          [
+            153,
+            12
+          ]
+        ],
+        "fill": "#1F2F4A",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#1F2F4A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#1F2F4A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_561df28f3f938c40e401",
+  "team_name": "Bradford City",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Amber central and side panels with two broad claret torso bands; claret sleeves with one amber outer shoulder-to-cuff strip per side. Black ring and black/claret cuff bands with a narrow amber line, measured from the front. Very fine woven texture stays with the original PNG; no crest, sponsor, manufacturer marks or extra V-neck.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_561df28f3f938c40e401-home-483523.jpg",
+      "page_url": "https://www.footballkitarchive.com/bradford-city-2026-27-home-kit-483523/",
+      "sha256": "16fd6fc5d6073b609e57411d9d39cac0af51467d91af20b44a0f44b043268a98"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#FCB73B",
+      "leftSleeve": "#672D31",
+      "rightSleeve": "#672D31",
+      "collar": "#17191D",
+      "leftCuff": "#17191D",
+      "rightCuff": "#17191D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#17191D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#FCB73B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 29,
+        "height": 200,
+        "fill": "#672D31",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 29,
+        "height": 200,
+        "fill": "#672D31",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            2
+          ],
+          [
+            75,
+            5
+          ],
+          [
+            38,
+            22
+          ],
+          [
+            29,
+            38
+          ],
+          [
+            22,
+            75
+          ],
+          [
+            17,
+            73
+          ],
+          [
+            23,
+            35
+          ],
+          [
+            33,
+            18
+          ]
+        ],
+        "fill": "#FCB73B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            2
+          ],
+          [
+            125,
+            5
+          ],
+          [
+            162,
+            22
+          ],
+          [
+            171,
+            38
+          ],
+          [
+            178,
+            75
+          ],
+          [
+            183,
+            73
+          ],
+          [
+            177,
+            35
+          ],
+          [
+            167,
+            18
+          ]
+        ],
+        "fill": "#FCB73B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#17191D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.5C24 78.10000000000001 36 83.4 44.5 82.5Q48 82.60000000000001 49.2 74.4L52 106H5Z",
+        "fill": "#FCB73B",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.3C24 78.9 36 84.2 44.5 83.3Q48 83.4 49.2 75.2L52 106H5Z",
+        "fill": "#672D31",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#17191D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#17191D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.5C176 78.10000000000001 164 83.4 155.5 82.5Q152 82.60000000000001 150.8 74.4L148 106H195Z",
+        "fill": "#FCB73B",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.3C176 78.9 164 84.2 155.5 83.3Q152 83.4 150.8 75.2L148 106H195Z",
+        "fill": "#672D31",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#17191D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

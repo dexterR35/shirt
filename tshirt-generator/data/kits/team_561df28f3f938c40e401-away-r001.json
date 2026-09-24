@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_561df28f3f938c40e401",
+  "team_name": "Bradford City",
+  "country_name": "England",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bradford-city-2026-27-away-kit-493876/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/hVnK5iWJVR92ndQ/bradford-city-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_561df28f3f938c40e401-away-493876.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#F4F3F4",
+      "leftSleeve": "#F4F3F4",
+      "rightSleeve": "#F4F3F4",
+      "collar": "#732633",
+      "leftCuff": "#732633",
+      "rightCuff": "#732633"
+    }
+  },
+  "observations": "White field and sleeves with claret trim containing four fine amber cuff lines. The source polo collar has amber striping; its claret/amber colors are adapted to seven bands confined to the PNG ring. No polo flaps or placket drawn. Weave, emblems, sponsor and sleeve lettering omitted.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White field and sleeves with claret trim containing four fine amber cuff lines. The source polo collar has amber striping; its claret/amber colors are adapted to seven bands confined to the PNG ring. No polo flaps or placket drawn. Weave, emblems, sponsor and sleeve lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_561df28f3f938c40e401-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F4F3F4",
+      "leftSleeve": "#F4F3F4",
+      "rightSleeve": "#F4F3F4",
+      "collar": "#732633",
+      "leftCuff": "#732633",
+      "rightCuff": "#732633"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#732633",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.818 4.221L77 2Q100 7 123 2L128.182 4.221C130.701 29.922 69.299 29.922 71.818 4.221Z",
+          "fill": "#EAAF48",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.455 3.948L77 2Q100 7 123 2L127.545 3.948C130.247 29.195 69.753 29.195 72.455 3.948Z",
+          "fill": "#732633",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M73.182 3.636L77 2Q100 7 123 2L126.818 3.636C129.727 28.364 70.273 28.364 73.182 3.636Z",
+          "fill": "#EAAF48",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M73.818 3.364L77 2Q100 7 123 2L126.182 3.364C129.273 27.636 70.727 27.636 73.818 3.364Z",
+          "fill": "#732633",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-5",
+          "type": "path",
+          "d": "M74.545 3.052L77 2Q100 7 123 2L125.455 3.052C128.753 26.805 71.247 26.805 74.545 3.052Z",
+          "fill": "#EAAF48",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-6",
+          "type": "path",
+          "d": "M75.182 2.779L77 2Q100 7 123 2L124.818 2.779C128.299 26.078 71.701 26.078 75.182 2.779Z",
+          "fill": "#732633",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F4F3F4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.1C24 75.7 36 81 44.5 80.1Q48 80.2 49.2 72L52 106H5Z",
+        "fill": "#732633",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 71.69999999999999C24 76.3 36 81.6 44.5 80.69999999999999Q48 80.8 49.2 72.6L52 106H5Z",
+        "fill": "#EAAF48",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 72.3C24 76.9 36 82.2 44.5 81.3Q48 81.4 49.2 73.2L52 106H5Z",
+        "fill": "#732633",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 72.89999999999999C24 77.5 36 82.8 44.5 81.89999999999999Q48 82 49.2 73.8L52 106H5Z",
+        "fill": "#EAAF48",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 73.5C24 78.10000000000001 36 83.4 44.5 82.5Q48 82.60000000000001 49.2 74.4L52 106H5Z",
+        "fill": "#732633",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#EAAF48",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.69999999999999C24 79.3 36 84.6 44.5 83.69999999999999Q48 83.8 49.2 75.6L52 106H5Z",
+        "fill": "#732633",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.3C24 79.9 36 85.2 44.5 84.3Q48 84.4 49.2 76.2L52 106H5Z",
+        "fill": "#EAAF48",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#732633",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.1C176 75.7 164 81 155.5 80.1Q152 80.2 150.8 72L148 106H195Z",
+        "fill": "#732633",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.69999999999999C176 76.3 164 81.6 155.5 80.69999999999999Q152 80.8 150.8 72.6L148 106H195Z",
+        "fill": "#EAAF48",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.3C176 76.9 164 82.2 155.5 81.3Q152 81.4 150.8 73.2L148 106H195Z",
+        "fill": "#732633",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.89999999999999C176 77.5 164 82.8 155.5 81.89999999999999Q152 82 150.8 73.8L148 106H195Z",
+        "fill": "#EAAF48",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.5C176 78.10000000000001 164 83.4 155.5 82.5Q152 82.60000000000001 150.8 74.4L148 106H195Z",
+        "fill": "#732633",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#EAAF48",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.69999999999999C176 79.3 164 84.6 155.5 83.69999999999999Q152 83.8 150.8 75.6L148 106H195Z",
+        "fill": "#732633",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.3C176 79.9 164 85.2 155.5 84.3Q152 84.4 150.8 76.2L148 106H195Z",
+        "fill": "#EAAF48",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#732633",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

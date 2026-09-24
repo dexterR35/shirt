@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3bdb3e7c100c404f4941",
+  "team_name": "Blackpool",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy torso with four full sky-blue vertical bands and a partial side band, with a central navy stripe, solid navy sleeves, pale-blue shoulder inserts and orange neckline/cuff edges. Stripe count and spacing follow the independent Away front, with continuous lines restored through the sponsor. Fine panel joins adapted to the PNG; all orange crest/manufacturer/sponsor graphics removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3bdb3e7c100c404f4941-away-486444.jpg",
+      "page_url": "https://www.footballkitarchive.com/blackpool-fc-2026-27-away-kit-486444/",
+      "sha256": "afcaadb955f33cded13b508474954a15d37dacd2ef834ac708837250766eb8eb"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#163C61",
+      "leftSleeve": "#1C3657",
+      "rightSleeve": "#1C3657",
+      "collar": "#F88739",
+      "leftCuff": "#F88739",
+      "rightCuff": "#F88739"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F88739",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#163C61",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 42,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#79BCE0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 64,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#79BCE0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#79BCE0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 108,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#79BCE0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 11,
+        "height": 200,
+        "fill": "#79BCE0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            3
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            43,
+            27
+          ],
+          [
+            36,
+            43
+          ],
+          [
+            28,
+            35
+          ],
+          [
+            34,
+            21
+          ]
+        ],
+        "fill": "#86C5E5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            3
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            157,
+            27
+          ],
+          [
+            164,
+            43
+          ],
+          [
+            172,
+            35
+          ],
+          [
+            166,
+            21
+          ]
+        ],
+        "fill": "#86C5E5",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#F88739",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#F88739",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

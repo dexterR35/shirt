@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3ffd4718eca772aaeabe",
+  "team_name": "Asteras Vari",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-kyanous-asteras-varis-2025-26-away-kit-444382/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/oNRB25HY7Ikmgb7/ao-kyanous-asteras-varis-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3ffd4718eca772aaeabe-away-444382.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#0878A9",
+      "leftSleeve": "#0878A9",
+      "rightSleeve": "#0878A9",
+      "collar": "#107BA8",
+      "leftCuff": "#0878A9",
+      "rightCuff": "#0878A9"
+    }
+  },
+  "observations": "Cyan-blue torso with dark navy diagonal patterned sleeve bands, fine pale raglan piping and blue ring. Fine mesh within bands reduced. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#0878A9",
+      "leftSleeve": "#0878A9",
+      "rightSleeve": "#0878A9",
+      "collar": "#107BA8",
+      "leftCuff": "#0878A9",
+      "rightCuff": "#0878A9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#107BA8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#0878A9",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            200,
+            60
+          ],
+          [
+            200,
+            70
+          ],
+          [
+            0,
+            10
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            21
+          ],
+          [
+            200,
+            81
+          ],
+          [
+            200,
+            91
+          ],
+          [
+            0,
+            31
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            42
+          ],
+          [
+            200,
+            102
+          ],
+          [
+            200,
+            112
+          ],
+          [
+            0,
+            52
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            63
+          ],
+          [
+            200,
+            123
+          ],
+          [
+            200,
+            133
+          ],
+          [
+            0,
+            73
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            84
+          ],
+          [
+            200,
+            144
+          ],
+          [
+            200,
+            154
+          ],
+          [
+            0,
+            94
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            200,
+            60
+          ],
+          [
+            200,
+            70
+          ],
+          [
+            0,
+            10
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            21
+          ],
+          [
+            200,
+            81
+          ],
+          [
+            200,
+            91
+          ],
+          [
+            0,
+            31
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            42
+          ],
+          [
+            200,
+            102
+          ],
+          [
+            200,
+            112
+          ],
+          [
+            0,
+            52
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            63
+          ],
+          [
+            200,
+            123
+          ],
+          [
+            200,
+            133
+          ],
+          [
+            0,
+            73
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            84
+          ],
+          [
+            200,
+            144
+          ],
+          [
+            200,
+            154
+          ],
+          [
+            0,
+            94
+          ]
+        ],
+        "fill": "#124968",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.875 10.673L53.799 18.713L44.652 31.96L47.651 71.027L48.349 70.973L45.348 32.04L54.201 19.287L75.125 11.327Z",
+        "fill": "#7ABCD0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.875 11.327L145.799 19.287L154.652 32.04L151.651 70.973L152.349 71.027L155.348 31.96L146.201 18.713L125.125 10.673Z",
+        "fill": "#7ABCD0",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

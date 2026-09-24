@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8d74ae2a21bbd63263e3",
+  "team_name": "MK Dons",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White shirt with gold/white neck and cuff trim. Close inspection revealed that the faint all-over circular print consists entirely of MK Dons badges and lettering; all are removed. Small angular white cuff border details are represented by gold/white trim bands on the common cuff/ring; physical collar and original fabric remain unchanged. Reebok and sponsor marks removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8d74ae2a21bbd63263e3-home-498268.jpg",
+      "page_url": "https://www.footballkitarchive.com/mk-dons-2026-27-home-kit-498268/",
+      "sha256": "c580c9fb960de0c9d59d764dd523a6457dc0909352f7fd93ebaf397a3359fb69"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#BAA56F",
+      "leftCuff": "#BAA56F",
+      "rightCuff": "#BAA56F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BAA56F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.333 4L77 2Q100 7 123 2L127.667 4C130.333 29.333 69.667 29.333 72.333 4Z",
+          "fill": "#F3F2F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.667 3L77 2Q100 7 123 2L125.333 3C128.667 26.667 71.333 26.667 74.667 3Z",
+          "fill": "#BAA56F",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72C24 76.60000000000001 36 81.9 44.5 81Q48 81.10000000000001 49.2 72.9L52 106H5Z",
+        "fill": "#BAA56F",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#F3F2F1",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 73.8C24 78.4 36 83.7 44.5 82.8Q48 82.9 49.2 74.7L52 106H5Z",
+        "fill": "#BAA56F",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72C176 76.60000000000001 164 81.9 155.5 81Q152 81.10000000000001 150.8 72.9L148 106H195Z",
+        "fill": "#BAA56F",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#F3F2F1",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.8C176 78.4 164 83.7 155.5 82.8Q152 82.9 150.8 74.7L148 106H195Z",
+        "fill": "#BAA56F",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

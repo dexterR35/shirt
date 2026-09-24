@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Algeciras CF",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "White",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Capelli",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "July 31, 2026",
+      "release_date_iso": "2026-07-31",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/algeciras-cf-2026-27-home-kit-501654/",
+        "kit_id": "501654",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_062ac0184f6368e1c952.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Algeciras CF",
+      "design": "Plain",
+      "colors": [
+        "Pink",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Capelli",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "July 31, 2026",
+      "release_date_iso": "2026-07-31",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/algeciras-cf-2026-27-away-kit-501651/",
+        "kit_id": "501651",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_86bb1697863d3cc2184b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

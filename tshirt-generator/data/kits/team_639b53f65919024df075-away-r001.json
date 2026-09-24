@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_639b53f65919024df075",
+  "team_name": "Barakaldo",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/barakaldo-cf-2026-27-away-kit-508005/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/ziWSI5d6KBhrCZY/barakaldo-cf-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_639b53f65919024df075-away-508005.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#DCCB2A",
+      "leftCuff": "#202326",
+      "rightCuff": "#202326"
+    }
+  },
+  "observations": "White body and sleeves with black neckline/cuff bands edged yellow. Source fine white fabric jacquard left to the original fabric; black sponsor/manufacturer/crest and shoulder chevrons removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body and sleeves with black neckline/cuff bands edged yellow. Source fine white fabric jacquard left to the original fabric; black sponsor/manufacturer/crest and shoulder chevrons removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_639b53f65919024df075-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#DCCB2A",
+      "leftCuff": "#202326",
+      "rightCuff": "#202326"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DCCB2A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.05 4.55L77 2Q100 7 123 2L128.95 4.55C131.25 30.8 68.75 30.8 71.05 4.55Z",
+          "fill": "#202326",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M75.95 2.45L77 2Q100 7 123 2L124.05 2.45C127.75 25.2 72.25 25.2 75.95 2.45Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#202326",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#DCCB2A",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#202326",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#DCCB2A",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

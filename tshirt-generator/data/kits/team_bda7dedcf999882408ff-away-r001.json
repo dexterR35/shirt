@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_bda7dedcf999882408ff",
+  "team_name": "Rayo Majadahonda",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rayo-majadahonda-2026-27-away-kit-490449/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/25/fuiKrSsTUmXJPJt/rayo-majadahonda-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_bda7dedcf999882408ff-away-490449.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#3D434C",
+      "leftSleeve": "#3D434C",
+      "rightSleeve": "#3D434C",
+      "collar": "#242B35",
+      "leftCuff": "#CF474C",
+      "rightCuff": "#CF474C"
+    }
+  },
+  "observations": "Charcoal with fine vertical tonal pinstripes, dark ring, red cuffs and red jagged side inserts. White Hummel branding excluded. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with fine vertical tonal pinstripes, dark ring, red cuffs and red jagged side inserts. White Hummel branding excluded. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_bda7dedcf999882408ff-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#3D434C",
+      "leftSleeve": "#3D434C",
+      "rightSleeve": "#3D434C",
+      "collar": "#242B35",
+      "leftCuff": "#CF474C",
+      "rightCuff": "#CF474C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#242B35",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#3D434C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            70
+          ],
+          [
+            57,
+            87
+          ],
+          [
+            52,
+            94
+          ],
+          [
+            60,
+            117
+          ],
+          [
+            52,
+            114
+          ],
+          [
+            57,
+            153
+          ],
+          [
+            51,
+            160
+          ],
+          [
+            60,
+            192
+          ],
+          [
+            49,
+            188
+          ]
+        ],
+        "fill": "#D64A4E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            70
+          ],
+          [
+            143,
+            87
+          ],
+          [
+            148,
+            94
+          ],
+          [
+            140,
+            117
+          ],
+          [
+            148,
+            114
+          ],
+          [
+            143,
+            153
+          ],
+          [
+            149,
+            160
+          ],
+          [
+            140,
+            192
+          ],
+          [
+            151,
+            188
+          ]
+        ],
+        "fill": "#D64A4E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 54.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 58.8,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 63.2,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67.6,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 72,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 80.80000000000001,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85.2,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89.6,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 98.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 102.80000000000001,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 107.2,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 111.60000000000001,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 124.80000000000001,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129.2,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 133.60000000000002,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 142.4,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 146.8,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 151.2,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#454C55",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.89999999999999C24 76.5 36 81.8 44.5 80.89999999999999Q48 81 49.2 72.8L52 106H5Z",
+        "fill": "#CF474C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.89999999999999C176 76.5 164 81.8 155.5 80.89999999999999Q152 81 150.8 72.8L148 106H195Z",
+        "fill": "#CF474C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

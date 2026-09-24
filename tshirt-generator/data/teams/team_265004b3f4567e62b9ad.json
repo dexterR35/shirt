@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Mansfield Town",
+      "design": "Graphic",
+      "colors": [
+        "Yellow",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Erreà",
+      "sponsor": "One Call Insurance",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "June 6, 2026",
+      "release_date_iso": "2026-06-06",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mansfield-town-2026-27-home-kit-486683/",
+        "kit_id": "486683",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_2ea26aa086eb45032887.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Mansfield Town",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Navy",
+        "Sky blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Erreà",
+      "sponsor": "OCL Solicitors",
+      "competitions": [
+        "League One"
+      ],
+      "release_date": "July 2, 2026",
+      "release_date_iso": "2026-07-02",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mansfield-town-2026-27-away-kit-492307/",
+        "kit_id": "492307",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/league-one-kits-2026-27-l156/",
+        "record_path": "data/research/footballkitarchive/records/research_81b2c38aab7304350cba.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/league-one-b-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

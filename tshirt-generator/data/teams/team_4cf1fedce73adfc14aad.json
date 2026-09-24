@@ -11,42 +11,70 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Valenciennes FC",
+      "design": "Graphic",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Hummel",
+      "sponsor": "Toyota",
+      "competitions": [
+        "Ligue 3"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/valenciennes-fc-2026-27-home-kit-504560/",
+        "kit_id": "504560",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-3-kits-2026-27-l58/",
+        "record_path": "data/research/footballkitarchive/records/research_f3cac03cf53dfbd5fbb0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-3-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Valenciennes FC",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Claret"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Hummel",
+      "sponsor": "Toyota",
+      "competitions": [
+        "Ligue 3"
+      ],
+      "release_date": "August 5, 2026",
+      "release_date_iso": "2026-08-05",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/valenciennes-fc-2026-27-away-kit-504173/",
+        "kit_id": "504173",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/ligue-3-kits-2026-27-l58/",
+        "record_path": "data/research/footballkitarchive/records/research_d8e2ed228f29351f8d39.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ligue-3-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

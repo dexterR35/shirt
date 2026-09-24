@@ -4,8 +4,8 @@
   "team_name": "Pontevedra",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e02fbed458df79a97825-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pontevedra-cf-2026-27-home-kit-512333/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/3vjNsTXUKBD39En/pontevedra-cf-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e02fbed458df79a97825-home-512333.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Gold",
+      "Navy"
+    ],
+    "values": {
+      "body": "#612C41",
+      "leftSleeve": "#612C41",
+      "rightSleeve": "#612C41",
+      "collar": "#B99959",
+      "leftCuff": "#B99959",
+      "rightCuff": "#B99959"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with parallel fine golden curved lines bending across the torso, navy/gold cuffs and matching ring edge. Curves adapted from worn front; exact distortion is not copied. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_e02fbed458df79a97825-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_466b46d93144a040dca5.json",
+    "source_kit_id": "512333"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

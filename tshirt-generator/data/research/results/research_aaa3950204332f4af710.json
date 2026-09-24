@@ -4,8 +4,8 @@
   "team_name": "VfB Stuttgart II",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_52212ae282b4681d24c7-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vfb-stuttgart-ii-2026-27-away-kit-504209/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/05/gt4nqohyt1clA5x/vfb-stuttgart-ii-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_52212ae282b4681d24c7-away-504209.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gold",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#C6A35A",
+      "leftSleeve": "#C6A35A",
+      "rightSleeve": "#C6A35A",
+      "collar": "#C6A35A",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Reserve Away independently saved from its own kit page: muted gold with one broad black chest band, gold ring and fine black/gold cuff edge. Metallic appearance reduced to estimated flat gold over original fabric. Jako shoulder marks, VfB badge and LBBW sponsor removed; absent release date remains null. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_52212ae282b4681d24c7-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_aaa3950204332f4af710.json",
+    "source_kit_id": "504209"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

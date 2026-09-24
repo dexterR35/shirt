@@ -4,8 +4,8 @@
   "team_name": "Giugliano",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1c9d550ef7ec01c8dde5-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/giugliano-calcio-2026-27-home-kit-523624/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/5bgQM8BaqA4wzed/giugliano-calcio-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1c9d550ef7ec01c8dde5-home-523624.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#E8CE18",
+      "leftSleeve": "#E8CE18",
+      "rightSleeve": "#E8CE18",
+      "collar": "#202A1F",
+      "leftCuff": "#E8CE18",
+      "rightCuff": "#E8CE18"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with a thin dark neckline, self-colored sleeves and cuffs. Lower diagonal club lettering, brand and chest sponsor removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_1c9d550ef7ec01c8dde5-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cb674fe1f4a3c79e6bb3.json",
+    "source_kit_id": "523624"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

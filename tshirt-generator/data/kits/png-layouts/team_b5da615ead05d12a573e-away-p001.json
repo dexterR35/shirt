@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b5da615ead05d12a573e",
+  "team_name": "Apollon Kalythies",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy with yellow shallow upper-chest chevron/yoke and narrow yellow side seam strips; navy ring. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b5da615ead05d12a573e-away-444362.jpg",
+      "page_url": "https://www.footballkitarchive.com/apollon-kalythion-fc-2025-26-away-kit-444362/",
+      "sha256": "cb9ece412b6343cc68b92fadb327ac9e5638e089f7abe007e4275d7321045dd2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1C3556",
+      "leftSleeve": "#1C3556",
+      "rightSleeve": "#1C3556",
+      "collar": "#1C3556",
+      "leftCuff": "#1C3556",
+      "rightCuff": "#1C3556"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C3556",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1C3556",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            39,
+            16
+          ],
+          [
+            74,
+            5
+          ],
+          [
+            100,
+            28
+          ],
+          [
+            126,
+            5
+          ],
+          [
+            161,
+            16
+          ],
+          [
+            100,
+            43
+          ]
+        ],
+        "fill": "#E4CF27",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H50.8Q54.8 133 50.8 77Z",
+        "fill": "#E2CC22",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149.2Q145.2 133 149.2 77Z",
+        "fill": "#E2CC22",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

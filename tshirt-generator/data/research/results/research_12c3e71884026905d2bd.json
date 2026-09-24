@@ -4,8 +4,8 @@
   "team_name": "Rot-Weiss Essen",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_c9bf8081899d68e3924a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rot-weiss-essen-2026-27-home-kit-491557/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/05/HLuxCfxcnCZ0dKO/rot-weiss-essen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c9bf8081899d68e3924a-home-491557.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#E92435",
+      "leftSleeve": "#E92435",
+      "rightSleeve": "#E92435",
+      "collar": "#F3F3F1",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with a faint street-map line field across the body/sleeves, white collar and cuffs. Street topology adapted from unobscured lower-front ink; all labels, crests, shoulder dots and sponsor excluded. Discrete constant-color ink from clean crop [328,752,468,490], sampled 320px and repeated at 98 × 102.6 internal units; hidden print placement is adapted. No source fabric/photo pixels are embedded. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_c9bf8081899d68e3924a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_12c3e71884026905d2bd.json",
+    "source_kit_id": "491557"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

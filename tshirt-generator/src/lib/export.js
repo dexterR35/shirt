@@ -45,7 +45,7 @@ export const EXPORT_FORMATS = Object.freeze({
  * rendered square at the shorter side, so it is never cropped or stretched, and
  * centered on a transparent canvas of the chosen shape.
  */
-export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 100) {
+export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 0) {
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   const spec = EXPORT_FORMATS[format];
   if (!spec) throw Error("Choose PNG, WebP or AVIF.");

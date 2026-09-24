@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5904b3251593960da622",
+  "team_name": "Real Jaén",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/real-jaen-2026-27-home-kit-494462/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/D2tkjqS0VbFLI78/real-jaen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5904b3251593960da622-home-494462.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Purple",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#282347",
+      "rightSleeve": "#282347",
+      "collar": "#181E24",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "observations": "White with purple raglan sleeves, gold piping and white cuffs/ring edged black and gold. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with purple raglan sleeves, gold piping and white cuffs/ring edged black and gold. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_5904b3251593960da622-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#282347",
+      "rightSleeve": "#282347",
+      "collar": "#181E24",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181E24",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.436 4.385L77 2Q100 7 123 2L128.564 4.385C130.974 30.359 69.026 30.359 71.436 4.385Z",
+          "fill": "#D4AA46",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.513 3.923L77 2Q100 7 123 2L127.487 3.923C130.205 29.128 69.795 29.128 72.513 3.923Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#282347",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#282347",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.884 10.696L53.814 18.734L44.677 31.963L47.676 71.025L48.324 70.975L45.323 32.037L54.186 19.266L75.116 11.304Z",
+        "fill": "#D4AA46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.884 11.304L145.814 19.266L154.677 32.037L151.676 70.975L152.324 71.025L155.323 31.963L146.186 18.734L125.116 10.696Z",
+        "fill": "#D4AA46",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.8C24 79.4 36 84.7 44.5 83.8Q48 83.9 49.2 75.7L52 106H5Z",
+        "fill": "#181E24",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.69999999999999C24 80.3 36 85.6 44.5 84.69999999999999Q48 84.8 49.2 76.6L52 106H5Z",
+        "fill": "#D4AA46",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.8C176 79.4 164 84.7 155.5 83.8Q152 83.9 150.8 75.7L148 106H195Z",
+        "fill": "#181E24",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.69999999999999C176 80.3 164 85.6 155.5 84.69999999999999Q152 84.8 150.8 76.6L148 106H195Z",
+        "fill": "#D4AA46",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

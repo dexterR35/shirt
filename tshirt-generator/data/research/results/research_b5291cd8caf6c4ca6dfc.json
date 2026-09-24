@@ -4,8 +4,8 @@
   "team_name": "Cambridge United",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6b5cdb77dc2cf718a74b-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cambridge-united-2026-27-home-kit-489255/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/18/KxnG7JEEFXma3b1/cambridge-united-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6b5cdb77dc2cf718a74b-home-489255.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gold",
+      "Black"
+    ],
+    "values": {
+      "body": "#F6B21F",
+      "leftSleeve": "#F6B21F",
+      "rightSleeve": "#F6B21F",
+      "collar": "#161A1B",
+      "leftCuff": "#161A1B",
+      "rightCuff": "#161A1B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Amber/gold body and sleeves with solid black cuff bands and black recoloring of the PNG ring. Fine black lower-side seam accents retained. Source fold-down collar is deliberately reduced to ring color; all black sponsor/crest/manufacturer lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_6b5cdb77dc2cf718a74b-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b5291cd8caf6c4ca6dfc.json",
+    "source_kit_id": "489255"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

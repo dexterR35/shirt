@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7a58e9a852058b54ab08",
+  "team_name": "La Roche Vendée Football",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Navy field; large Vendée double-heart heraldic emblem omitted under the no-emblems rule, white/navy/red cuff and ring bands with fine white hem. Sponsors, sleeve patches, Kappa emblems and club branding removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7a58e9a852058b54ab08-away-504942.jpg",
+      "page_url": "https://www.footballkitarchive.com/vfc-la-roche-sur-yon-2026-27-away-kit-504942/",
+      "sha256": "7e854e9ad459cfc503646c93b56f064889a2147fa4827a1320cb8dae67d178c3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#071C43",
+      "leftSleeve": "#071C43",
+      "rightSleeve": "#071C43",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F4F3EF",
+      "rightCuff": "#F4F3EF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F4F3EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.972 4.155L77 2Q100 7 123 2L128.028 4.155C130.592 29.746 69.408 29.746 71.972 4.155Z",
+          "fill": "#112246",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.155 3.648L77 2Q100 7 123 2L126.845 3.648C129.746 28.394 70.254 28.394 73.155 3.648Z",
+          "fill": "#F4F3EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74.535 3.056L77 2Q100 7 123 2L125.465 3.056C128.761 26.817 71.239 26.817 74.535 3.056Z",
+          "fill": "#B81F34",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M75.62 2.592L77 2Q100 7 123 2L124.38 2.592C127.986 25.577 72.014 25.577 75.62 2.592Z",
+          "fill": "#F4F3EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#071C43",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 198,
+        "width": 200,
+        "height": 2,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72C24 76.60000000000001 36 81.9 44.5 81Q48 81.10000000000001 49.2 72.9L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.1C24 77.7 36 83 44.5 82.1Q48 82.2 49.2 74L52 106H5Z",
+        "fill": "#102246",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#F4F3EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#B81F34",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72C176 76.60000000000001 164 81.9 155.5 81Q152 81.10000000000001 150.8 72.9L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.1C176 77.7 164 83 155.5 82.1Q152 82.2 150.8 74L148 106H195Z",
+        "fill": "#102246",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#F4F3EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#B81F34",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

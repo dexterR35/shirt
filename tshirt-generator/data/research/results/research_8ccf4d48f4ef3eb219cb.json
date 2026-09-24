@@ -4,8 +4,8 @@
   "team_name": "Cacereño",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fb04bee1301484c32ba3-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cp-cacereno-2026-27-away-kit-502727/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/02/xiaYqrVjVxK9Rgq/cp-cacereno-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fb04bee1301484c32ba3-away-502727.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#EEE5D5",
+      "leftSleeve": "#EEE5D5",
+      "rightSleeve": "#EEE5D5",
+      "collar": "#181E24",
+      "leftCuff": "#181E24",
+      "rightCuff": "#181E24"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Cream with burnt-orange upper-left body panel, fine low-contrast honeycomb print, and black/cream ring/cuff stripes. The huge lower castle/lion are heraldic arms rather than neutral print; both removed with crest, Hummel and sponsor. Source fold boundaries are adapted. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_fb04bee1301484c32ba3-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8ccf4d48f4ef3eb219cb.json",
+    "source_kit_id": "502727"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

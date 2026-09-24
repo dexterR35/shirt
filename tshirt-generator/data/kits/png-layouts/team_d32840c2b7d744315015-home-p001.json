@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d32840c2b7d744315015",
+  "team_name": "Viktoria Köln",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black/navy with a large red asymmetric V-shaped sash edged by a very fine pale line, extending deep down the torso. The V is chest print, not a second physical collar. Source is a worn photo; subtle tonal hatch marks are reduced, and obscured lower/side placement is adapted. All sponsor and marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d32840c2b7d744315015-home-496173.jpg",
+      "page_url": "https://www.footballkitarchive.com/viktoria-koln-2026-27-home-kit-496173/",
+      "sha256": "8a6dfc22f3f00875dad6edef96ec00c22cfa1d27fd728ac8734e227f6950909c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#141E28",
+      "leftSleeve": "#141E28",
+      "rightSleeve": "#141E28",
+      "collar": "#141E28",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#141E28",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#141E28",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            8
+          ],
+          [
+            99,
+            164
+          ],
+          [
+            147,
+            9
+          ],
+          [
+            106,
+            86
+          ]
+        ],
+        "fill": "#D6C8D4",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            8
+          ],
+          [
+            99,
+            161
+          ],
+          [
+            146,
+            9
+          ],
+          [
+            106,
+            88
+          ]
+        ],
+        "fill": "#A61D43",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#181B20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#181B20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

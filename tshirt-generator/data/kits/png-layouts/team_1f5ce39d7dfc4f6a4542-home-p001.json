@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1f5ce39d7dfc4f6a4542",
+  "team_name": "Vado",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Warm gold/tan with matching round neckline and plain sleeves/cuffs. Outdoor worn-photo colors estimated; Nike mark/club crest removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1f5ce39d7dfc4f6a4542-home-520820.jpg",
+      "page_url": "https://www.footballkitarchive.com/vado-fc-1913-2026-27-home-kit-520820/",
+      "sha256": "905d28f52cb0c0b9efd155e4a2f9ecbdffd631ebbe501123abfb8a666edfe2b5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D6B16C",
+      "leftSleeve": "#D6B16C",
+      "rightSleeve": "#D6B16C",
+      "collar": "#CEAB6E",
+      "leftCuff": "#D6B16C",
+      "rightCuff": "#D6B16C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CEAB6E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D6B16C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

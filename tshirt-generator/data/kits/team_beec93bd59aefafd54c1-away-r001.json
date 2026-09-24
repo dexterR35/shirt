@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_beec93bd59aefafd54c1",
+  "team_name": "Xanthi",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-xanthi-2025-26-away-kit-443690/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/yIQPDAGskCoWXZZ/ao-xanthi-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_beec93bd59aefafd54c1-away-443690.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#BD2F27",
+      "leftSleeve": "#772322",
+      "rightSleeve": "#772322",
+      "collar": "#79231F",
+      "leftCuff": "#BA332E",
+      "rightCuff": "#BA332E"
+    }
+  },
+  "observations": "Red with dark claret raglan shoulders and sleeves, red cuff panels and claret neckline. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BD2F27",
+      "leftSleeve": "#772322",
+      "rightSleeve": "#772322",
+      "collar": "#79231F",
+      "leftCuff": "#BA332E",
+      "rightCuff": "#BA332E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#79231F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BD2F27",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            4
+          ],
+          [
+            71,
+            13
+          ],
+          [
+            59,
+            18
+          ],
+          [
+            52,
+            28
+          ],
+          [
+            48,
+            60
+          ],
+          [
+            47,
+            90
+          ],
+          [
+            0,
+            100
+          ]
+        ],
+        "fill": "#772322",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            125,
+            4
+          ],
+          [
+            129,
+            13
+          ],
+          [
+            141,
+            18
+          ],
+          [
+            148,
+            28
+          ],
+          [
+            152,
+            60
+          ],
+          [
+            153,
+            90
+          ],
+          [
+            200,
+            100
+          ]
+        ],
+        "fill": "#772322",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 68.6C24 73.2 36 78.5 44.5 77.6Q48 77.7 49.2 69.5L52 106H5Z",
+        "fill": "#BA332E",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 68.6C176 73.2 164 78.5 155.5 77.6Q152 77.7 150.8 69.5L148 106H195Z",
+        "fill": "#BA332E",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

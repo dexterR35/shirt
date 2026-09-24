@@ -4,8 +4,8 @@
   "team_name": "FC Ingolstadt",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_83695c8ada6c3a11d232-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-ingolstadt-2026-27-home-kit-495099/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/26/M55ykuOifrQOjqz/fc-ingolstadt-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_83695c8ada6c3a11d232-home-495099.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#B6272D",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#181B20",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red angular tonal torso field with black raglan sleeves/sides, thin white armhole/cuff piping and small white hem wedges. Five large angled tonal quadrilaterals measured from the front; their fine internal print is reduced. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_83695c8ada6c3a11d232-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ace0ab6ea0245d9e54b3.json",
+    "source_kit_id": "495099"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

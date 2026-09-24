@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c1bcbf6ab2eb4d79fcfe",
+  "team_name": "Doncaster Rovers",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Five white horizontal bands across a red torso, including the white hem; bands continue across sleeves above broad pale-gold cuffs. Red neckline with thin gold inner edge recolors the existing round ring. Band heights are measured from the independent flat front, without warping by source folds. All crests, sponsor and sleeve marks omitted.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_c1bcbf6ab2eb4d79fcfe-home-486692.jpg",
+      "page_url": "https://www.footballkitarchive.com/doncaster-rovers-2026-27-home-kit-486692/",
+      "sha256": "0268d424f25109d71b8412babf9a91ac61ad08688306db260afc6417c7a18b5b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#C9294B",
+      "leftSleeve": "#C9294B",
+      "rightSleeve": "#C9294B",
+      "collar": "#C9294B",
+      "leftCuff": "#CAB97D",
+      "rightCuff": "#CAB97D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C9294B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.957 2.447L77 2Q100 7 123 2L124.043 2.447C127.745 25.191 72.255 25.191 75.957 2.447Z",
+          "fill": "#CAB97D",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#C9294B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 21,
+        "width": 200,
+        "height": 14,
+        "fill": "#F1EEEE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 54,
+        "width": 200,
+        "height": 20,
+        "fill": "#F1EEEE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 94,
+        "width": 200,
+        "height": 20,
+        "fill": "#F1EEEE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 134,
+        "width": 200,
+        "height": 20,
+        "fill": "#F1EEEE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 174,
+        "width": 200,
+        "height": 26,
+        "fill": "#F1EEEE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#CAB97D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#CAB97D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Alemannia Aachen",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_56d12bbcdec90f02df2d-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/alemannia-aachen-2026-27-home-kit-492277/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/27/VFwI1VKsmwasZ6d/alemannia-aachen-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_56d12bbcdec90f02df2d-home-492277.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#E9B950",
+      "leftSleeve": "#E9B950",
+      "rightSleeve": "#E9B950",
+      "collar": "#181B20",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Gold with five black vertical torso stripes and narrow companion lines, a plain gold sponsor break, diagonal gold distress strokes within portions of the black, and black/gold multi-line cuffs/ring. Distress density adapted from the saved flat front; repeated Capelli shoulder marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_56d12bbcdec90f02df2d-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b54a0f81dfcabf4bb8b5.json",
+    "source_kit_id": "492277"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

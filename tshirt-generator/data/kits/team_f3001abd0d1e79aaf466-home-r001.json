@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f3001abd0d1e79aaf466",
+  "team_name": "Trento",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ac-trento-2026-27-home-kit-512499/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/MVcQCQM1AYI3W1v/ac-trento-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f3001abd0d1e79aaf466-home-512499.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#153557",
+      "leftSleeve": "#174C78",
+      "rightSleeve": "#174C78",
+      "collar": "#EDD029",
+      "leftCuff": "#E8C928",
+      "rightCuff": "#E8C928"
+    }
+  },
+  "observations": "Navy/blue quartered fields with blue sleeves, navy sleeve bands, yellow side stripes and yellow-trim ring/cuffs. Central eagle removed as club imagery. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy/blue quartered fields with blue sleeves, navy sleeve bands, yellow side stripes and yellow-trim ring/cuffs. Central eagle removed as club imagery. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_f3001abd0d1e79aaf466-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#153557",
+      "leftSleeve": "#174C78",
+      "rightSleeve": "#174C78",
+      "collar": "#EDD029",
+      "leftCuff": "#E8C928",
+      "rightCuff": "#E8C928"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EDD029",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#153557",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 51,
+        "height": 100,
+        "fill": "#167DB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 100,
+        "width": 51,
+        "height": 100,
+        "fill": "#167DB2",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 20,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 20,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 38,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 38,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 56,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 56,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 74,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 74,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 92,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 92,
+        "width": 200,
+        "height": 7,
+        "fill": "#153254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H53Q57 133 53 77Z",
+        "fill": "#E7C921",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H147Q143 133 147 77Z",
+        "fill": "#E7C921",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.1C24 75.7 36 81 44.5 80.1Q48 80.2 49.2 72L52 106H5Z",
+        "fill": "#E8C928",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73C24 77.60000000000001 36 82.9 44.5 82Q48 82.10000000000001 49.2 73.9L52 106H5Z",
+        "fill": "#163254",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#E8C928",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.1C176 75.7 164 81 155.5 80.1Q152 80.2 150.8 72L148 106H195Z",
+        "fill": "#E8C928",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73C176 77.60000000000001 164 82.9 155.5 82Q152 82.10000000000001 150.8 73.9L148 106H195Z",
+        "fill": "#163254",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#E8C928",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

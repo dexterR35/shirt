@@ -4,8 +4,8 @@
   "team_name": "Bradford City",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_561df28f3f938c40e401-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bradford-city-2026-27-away-kit-493876/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/hVnK5iWJVR92ndQ/bradford-city-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_561df28f3f938c40e401-away-493876.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#F4F3F4",
+      "leftSleeve": "#F4F3F4",
+      "rightSleeve": "#F4F3F4",
+      "collar": "#732633",
+      "leftCuff": "#732633",
+      "rightCuff": "#732633"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White field and sleeves with claret trim containing four fine amber cuff lines. The source polo collar has amber striping; its claret/amber colors are adapted to seven bands confined to the PNG ring. No polo flaps or placket drawn. Weave, emblems, sponsor and sleeve lettering omitted.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_561df28f3f938c40e401-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_dd0eb4fc11b08979b83e.json",
+    "source_kit_id": "493876"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

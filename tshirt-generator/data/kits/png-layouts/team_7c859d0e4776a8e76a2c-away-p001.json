@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7c859d0e4776a8e76a2c",
+  "team_name": "Real Avilés Industrial",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain claret body/sleeves and self-colored ring/cuffs after removing sponsors and all repeated shoulder branding. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7c859d0e4776a8e76a2c-away-516339.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-aviles-cf-2026-27-away-kit-516339/",
+      "sha256": "474c73e6cce171b3167b19060af7ea547531bef6c2f84dd5a724c7b26a9f5826"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#621D31",
+      "leftSleeve": "#621D31",
+      "rightSleeve": "#621D31",
+      "collar": "#69233A",
+      "leftCuff": "#621D31",
+      "rightCuff": "#621D31"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#69233A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#621D31",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

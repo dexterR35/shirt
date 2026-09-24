@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e300dd2a47c6d9db9455",
+  "team_name": "Real Murcia",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Claret with subtle botanical/ornamental forms all over, gold/white trim. Broad interlaced floral/leaf contours reconstructed as subdued claret forms from the unbranded shirt field; source lighting and folds excluded. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e300dd2a47c6d9db9455-home-492339.jpg",
+      "page_url": "https://www.footballkitarchive.com/real-murcia-2026-27-home-kit-492339/",
+      "sha256": "68b7a0e9ce4634cf1a16466ea6d2562ef87ed68962d4e4eac1d79167fcd105c3"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#A2243C",
+      "leftSleeve": "#A2243C",
+      "rightSleeve": "#A2243C",
+      "collar": "#D3B174",
+      "leftCuff": "#D3B174",
+      "rightCuff": "#D3B174"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D3B174",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.235 4.471L77 2Q100 7 123 2L128.765 4.471C131.118 30.588 68.882 30.588 71.235 4.471Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.882 3.765L77 2Q100 7 123 2L127.118 3.765C129.941 28.706 70.059 28.706 72.882 3.765Z",
+          "fill": "#A2243C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#A2243C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M-25 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 -30c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 -25c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 9c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 14c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 48c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 53c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 87c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 92c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 126c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 131c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 165c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 170c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-25 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M-10 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M8 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M23 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M41 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M89 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M155 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M173 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M206 204c14 -9 23 4 17 17c-5 10 -17 8 -10 21c-14 -4 -9 -15 -3 -21c9 -9 3 -15 -4 -17Z",
+        "fill": "#9A243A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M221 209c10 2 17 14 11 23c-4 -11 -15 -8 -11 -23Z",
+        "fill": "#AA293F",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#D3B174",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#A2243C",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#D3B174",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#A2243C",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

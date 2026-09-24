@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d32840c2b7d744315015",
+  "team_name": "Viktoria Köln",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain deep red with twin fine white ring lines and white cuff edge. Source white outer cuff patches are adapted to the common cuffs. All sponsor/manufacturer/club marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d32840c2b7d744315015-away-490706.jpg",
+      "page_url": "https://www.footballkitarchive.com/viktoria-koln-2026-27-away-kit-490706/",
+      "sha256": "d866fcf0b90473024f8c5e884a40db8579063f4a37ad1fd701ecd2df2a52b997"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BB102C",
+      "leftSleeve": "#BB102C",
+      "rightSleeve": "#BB102C",
+      "collar": "#BB102C",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BB102C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.75 4.25L77 2Q100 7 123 2L128.25 4.25C130.75 30 69.25 30 71.75 4.25Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.625 3.875L77 2Q100 7 123 2L127.375 3.875C130.125 29 69.875 29 72.625 3.875Z",
+          "fill": "#BB102C",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74.375 3.125L77 2Q100 7 123 2L125.625 3.125C128.875 27 71.125 27 74.375 3.125Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-4",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#BB102C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BB102C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.39999999999999C24 78 36 83.3 44.5 82.39999999999999Q48 82.5 49.2 74.3L52 106H5Z",
+        "fill": "#F3F3F1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 76C24 80.60000000000001 36 85.9 44.5 85Q48 85.10000000000001 49.2 76.9L52 106H5Z",
+        "fill": "#BB102C",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.39999999999999C176 78 164 83.3 155.5 82.39999999999999Q152 82.5 150.8 74.3L148 106H195Z",
+        "fill": "#F3F3F1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 76C176 80.60000000000001 164 85.9 155.5 85Q152 85.10000000000001 150.8 76.9L148 106H195Z",
+        "fill": "#BB102C",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

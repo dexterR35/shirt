@@ -1,6 +1,12 @@
 # Project status
 
-24 September 2026. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 has **254 ready / 300 slots** across the preserved 150 second-tier teams; all 46 remaining slots have documented current-source gaps. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
+24 September 2026. Global coverage is **551 ready / 1,470 slots**. Tier 3 has started with **16 ready / 766 slots**. Tier 1 is complete: all 138 mandatory teams have Home and Away available. Tier 2 has **254 ready / 300 slots** across the preserved 150 second-tier teams; all 46 remaining slots have documented current-source gaps. The wider catalog remains unfinished. The pulled Studio, Catalog, routing and export changes are preserved.
+
+## Tier 3 continuation — 24 September 2026
+
+Sixteen new 2026/27 Home/Away shirts are ready for AFC Wimbledon, Barnsley, Blackpool, Bradford City, Bromley, Burton Albion, Cambridge United and Doncaster Rovers. Each has independent source evidence, equipment facts, reviewed PNG paint and source/render comparisons. The Tier 3 worklist preserves all 383 workbook identities and 766 slots, with 750 still researching. See [the batch report and next teams](TIER3_CONTINUATION_2026-09-24.md).
+
+Current global totals: **551 ready, 0 drafts, 873 researching, 46 blocked**, **554 saved archive fronts** and **537 archive-reviewed adaptations**. Prior ready hashes, original PNG bytes, Tier 1 seasons and Tier 2 source-gap records remain intact.
 
 ## Tier 2 continuation — 24 September 2026
 
@@ -16,7 +22,7 @@ Latest user direction: use independently evidenced 2026 kits when 2026/27 is unc
 
 `data/teams/<team_id>.json` now stores local Home/Away equipment facts for every canonical team. Each verified source entry includes season, design, color names, brand, sponsor, competitions, release date, source URL and checked date. Unresearched/missing values are null. The app's right panel replaces the original-master promotional text with applied-kit details. Data travels with the local applied revision, so candidate changes, failed loads and custom colors cannot silently change the facts. No live archive call occurs in the app. See [mandatory coverage](MANDATORY_TEAMS_2026-27.md).
 
-Global coverage is **535 ready**, **0 drafts**, **889 researching**, **46 blocked**, **538 saved archive references** and **521 archive-reviewed adaptations**. Tier 1 remains **276/276 ready**, with its original season split unchanged. See [Tier 1 completion](TIER1_COMPLETION_2026-09-24.md) for its last 43 revisions and source limitations. Original PNG bytes, earlier reviewed revisions and local equipment facts are retained. Fine graphics and hidden source regions are documented adaptations to the common base. Earlier batch reports remain historical checkpoints.
+Global coverage at the preceding Tier 2 checkpoint was **535 ready**, **0 drafts**, **889 researching**, **46 blocked**, **538 saved archive references** and **521 archive-reviewed adaptations**. Tier 1 remains **276/276 ready**, with its original season split unchanged. See [Tier 1 completion](TIER1_COMPLETION_2026-09-24.md) for its last 43 revisions and source limitations. Original PNG bytes, earlier reviewed revisions and local equipment facts are retained. Fine graphics and hidden source regions are documented adaptations to the common base. Earlier batch reports remain historical checkpoints.
 
 ## Application
 

@@ -4,8 +4,8 @@
   "team_name": "Casertana",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9db96a4a4ab5cb112f27-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/casertana-fc-2026-27-home-kit-497261/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/19/1tPn4kgH2ELj1fn/casertana-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9db96a4a4ab5cb112f27-home-497261.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#1B2E4F",
+      "leftSleeve": "#1B2E4F",
+      "rightSleeve": "#1B2E4F",
+      "collar": "#1B2E4F",
+      "leftCuff": "#E6B733",
+      "rightCuff": "#E6B733"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with four irregular red vertical slashed columns, plain navy raglan sleeves and gold cuff edging. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_9db96a4a4ab5cb112f27-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_82cb92ed9e9b3169ac86.json",
+    "source_kit_id": "497261"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

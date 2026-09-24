@@ -4,8 +4,8 @@
   "team_name": "Picerno",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,52 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7ef47a98b13c66777139-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/az-picerno-2026-27-away-kit-523626/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/BpWoc27RH5yMJGh/az-picerno-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7ef47a98b13c66777139-away-523626.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White"
+    ],
+    "values": {
+      "body": "#F0EFE5",
+      "leftSleeve": "#F0EFE5",
+      "rightSleeve": "#F0EFE5",
+      "collar": "#D2D0C4",
+      "leftCuff": "#F0EFE5",
+      "rightCuff": "#F0EFE5"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm off-white, with a fine pale neckline and self-colored sleeves/cuffs. Action photo is partly occluded; all repeated shoulder manufacturer symbols removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_7ef47a98b13c66777139-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8cf1379989de4e1ffa2f.json",
+    "source_kit_id": "523626"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9742d0bd0f7eee249c9d",
+  "team_name": "Casarano",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with a broad red/blue chest band divided/edged by fine white lines, blue ring and narrow blue/white cuff bands. Logos and sponsor strokes crossing the band removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9742d0bd0f7eee249c9d-away-511211.jpg",
+      "page_url": "https://www.footballkitarchive.com/casarano-2026-27-away-kit-511211/",
+      "sha256": "e940dbffdc4fe67c20cbce1fba5a122f519131b3509c154b2bd3ae18cee29c13"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#155D8B",
+      "leftCuff": "#125780",
+      "rightCuff": "#125780"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#155D8B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 72,
+        "width": 200,
+        "height": 40,
+        "fill": "#154D75",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 60,
+        "width": 200,
+        "height": 20,
+        "fill": "#B52636",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 58,
+        "width": 200,
+        "height": 1.4,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 81,
+        "width": 200,
+        "height": 1.6,
+        "fill": "#F3F2EC",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 111,
+        "width": 200,
+        "height": 1.4,
+        "fill": "#B52636",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#125780",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 73.89999999999999C24 78.5 36 83.8 44.5 82.89999999999999Q48 83 49.2 74.8L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 74.89999999999999C24 79.5 36 84.8 44.5 83.89999999999999Q48 84 49.2 75.8L52 106H5Z",
+        "fill": "#125780",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#125780",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.89999999999999C176 78.5 164 83.8 155.5 82.89999999999999Q152 83 150.8 74.8L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.89999999999999C176 79.5 164 84.8 155.5 83.89999999999999Q152 84 150.8 75.8L148 106H195Z",
+        "fill": "#125780",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

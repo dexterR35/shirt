@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Cartagena",
+      "design": "Stripes",
+      "colors": [
+        "Black",
+        "White",
+        "Pink"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Tele Cartagena",
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "September 3, 2026",
+      "release_date_iso": "2026-09-03",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-cartagena-2026-27-home-kit-515684/",
+        "kit_id": "515684",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_90f1dd6a3e75d3a30d04.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "FC Cartagena",
+      "design": "Graphic",
+      "colors": [
+        "Pink",
+        "Gold",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Tele Cartagena",
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "September 14, 2026",
+      "release_date_iso": "2026-09-14",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-cartagena-2026-27-away-kit-518807/",
+        "kit_id": "518807",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_5021b1d281fc91cd1765.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

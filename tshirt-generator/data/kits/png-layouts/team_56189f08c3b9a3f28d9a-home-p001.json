@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_56189f08c3b9a3f28d9a",
+  "team_name": "Huesca",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Claret with one broad navy centre column, navy shoulder/sleeve/side panels and claret inset on each sleeve. The fine diagonal rows are repeated lettering, removed with all sponsorship and badges. Navy ring and self-colored cuffs. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_56189f08c3b9a3f28d9a-home-498447.jpg",
+      "page_url": "https://www.footballkitarchive.com/sd-huesca-2026-27-home-kit-498447/",
+      "sha256": "0ae65d0f6fbed8e6b8e40da80a35c32cbd1d8e4574f3b965335a862c947a0fcb"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#913047",
+      "leftSleeve": "#173D52",
+      "rightSleeve": "#173D52",
+      "collar": "#173D52",
+      "leftCuff": "#913047",
+      "rightCuff": "#913047"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#173D52",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#913047",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 30,
+        "height": 200,
+        "fill": "#173D52",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            55,
+            17
+          ],
+          [
+            43,
+            28
+          ],
+          [
+            43,
+            48
+          ],
+          [
+            49,
+            72
+          ],
+          [
+            42,
+            75
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            42,
+            17
+          ]
+        ],
+        "fill": "#173D52",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            145,
+            17
+          ],
+          [
+            157,
+            28
+          ],
+          [
+            157,
+            48
+          ],
+          [
+            151,
+            72
+          ],
+          [
+            158,
+            75
+          ],
+          [
+            173,
+            31
+          ],
+          [
+            158,
+            17
+          ]
+        ],
+        "fill": "#173D52",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H53Q57 133 53 77Z",
+        "fill": "#173D52",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H147Q143 133 147 77Z",
+        "fill": "#173D52",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            36,
+            36
+          ],
+          [
+            47,
+            49
+          ],
+          [
+            48,
+            72
+          ],
+          [
+            37,
+            69
+          ]
+        ],
+        "fill": "#913047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            164,
+            36
+          ],
+          [
+            153,
+            49
+          ],
+          [
+            152,
+            72
+          ],
+          [
+            163,
+            69
+          ]
+        ],
+        "fill": "#913047",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

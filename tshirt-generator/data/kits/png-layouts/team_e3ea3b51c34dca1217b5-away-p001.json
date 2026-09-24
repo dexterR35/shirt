@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e3ea3b51c34dca1217b5",
+  "team_name": "Monopoli",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with green side inserts and two green sleeve-end bands divided by white; green round ring edged white. Polo flaps reduced to the existing collar ring only. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e3ea3b51c34dca1217b5-away-511273.jpg",
+      "page_url": "https://www.footballkitarchive.com/ss-monopoli-2026-27-away-kit-511273/",
+      "sha256": "5399376155b1266c75e2f4eb369f1a559ece7157fd44c41dd2e1689bbb8b5d75"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#F2F2EE",
+      "rightSleeve": "#F2F2EE",
+      "collar": "#148648",
+      "leftCuff": "#168A4D",
+      "rightCuff": "#168A4D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#148648",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.303 2.727L77 2Q100 7 123 2L124.697 2.727C128.212 25.939 71.788 25.939 75.303 2.727Z",
+          "fill": "#F2F2EE",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H53Q57 133 53 77Z",
+        "fill": "#138447",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H147Q143 133 147 77Z",
+        "fill": "#138447",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 68.6C24 73.2 36 78.5 44.5 77.6Q48 77.7 49.2 69.5L52 106H5Z",
+        "fill": "#168A4D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 71.39999999999999C24 76 36 81.3 44.5 80.39999999999999Q48 80.5 49.2 72.3L52 106H5Z",
+        "fill": "#F2F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 73.5C24 78.10000000000001 36 83.4 44.5 82.5Q48 82.60000000000001 49.2 74.4L52 106H5Z",
+        "fill": "#168A4D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.6C24 80.2 36 85.5 44.5 84.6Q48 84.7 49.2 76.5L52 106H5Z",
+        "fill": "#F2F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 68.6C176 73.2 164 78.5 155.5 77.6Q152 77.7 150.8 69.5L148 106H195Z",
+        "fill": "#168A4D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.39999999999999C176 76 164 81.3 155.5 80.39999999999999Q152 80.5 150.8 72.3L148 106H195Z",
+        "fill": "#F2F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 73.5C176 78.10000000000001 164 83.4 155.5 82.5Q152 82.60000000000001 150.8 74.4L148 106H195Z",
+        "fill": "#168A4D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.6C176 80.2 164 85.5 155.5 84.6Q152 84.7 150.8 76.5L148 106H195Z",
+        "fill": "#F2F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

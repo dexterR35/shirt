@@ -4,8 +4,8 @@
   "team_name": "Unionistas de Salamanca",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_69a7307f8fa556dc9bfd-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/unionistas-de-salamanca-2026-27-home-kit-472318/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/02/52PdaXUJ58RU7qZ/unionistas-de-salamanca-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_69a7307f8fa556dc9bfd-home-472318.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#23272A",
+      "rightSleeve": "#23272A",
+      "collar": "#EEC079",
+      "leftCuff": "#D2B02B",
+      "rightCuff": "#D2B02B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White left and black right torso halves, fine grey pinstripes, solid black raglan sleeves with fine gold seams and gold cuffs/ring. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_69a7307f8fa556dc9bfd-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_aa2da35e12bd0b8a51b1.json",
+    "source_kit_id": "472318"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

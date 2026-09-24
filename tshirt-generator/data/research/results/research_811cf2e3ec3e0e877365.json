@@ -4,8 +4,8 @@
   "team_name": "Wigan Athletic",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_7364e7d1903b6f3a49bb-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wigan-athletic-2026-27-away-kit-496191/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/X7DRnT7FHi5snWx/wigan-athletic-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7364e7d1903b6f3a49bb-away-496191.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "Black"
+    ],
+    "values": {
+      "body": "#36353D",
+      "leftSleeve": "#36353D",
+      "rightSleeve": "#36353D",
+      "collar": "#171A20",
+      "leftCuff": "#171A20",
+      "rightCuff": "#171A20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with sparse irregular branching dark and grey curved lines, manually measured from the clean front and reconnected through removed sponsor regions. Line placement adapts to the straight common torso; no source fabric shadows are traced. Black cuffs/ring; branding removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_7364e7d1903b6f3a49bb-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_811cf2e3ec3e0e877365.json",
+    "source_kit_id": "496191"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

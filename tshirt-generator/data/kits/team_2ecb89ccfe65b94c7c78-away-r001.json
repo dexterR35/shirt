@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2ecb89ccfe65b94c7c78",
+  "team_name": "Waldhof Mannheim",
+  "country_name": "Germany",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/waldhof-mannheim-2026-27-away-kit-497739/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/AhW8gdUAX17I4zn/waldhof-mannheim-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2ecb89ccfe65b94c7c78-away-497739.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#E1EBE6",
+      "leftSleeve": "#E1EBE6",
+      "rightSleeve": "#E1EBE6",
+      "collar": "#5B9CB3",
+      "leftCuff": "#5B9CB3",
+      "rightCuff": "#5B9CB3"
+    }
+  },
+  "observations": "Pale white/mint field with many very fine pale blue horizontal pinlines, sky-blue ring/cuff trim with darker cuff edge and pale blue hem. Worn hanger image used for color layout; folds and exact hidden-side joins are not copied. All logos/sponsor lettering omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale white/mint field with many very fine pale blue horizontal pinlines, sky-blue ring/cuff trim with darker cuff edge and pale blue hem. Worn hanger image used for color layout; folds and exact hidden-side joins are not copied. All logos/sponsor lettering omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_2ecb89ccfe65b94c7c78-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E1EBE6",
+      "leftSleeve": "#E1EBE6",
+      "rightSleeve": "#E1EBE6",
+      "collar": "#5B9CB3",
+      "leftCuff": "#5B9CB3",
+      "rightCuff": "#5B9CB3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#5B9CB3",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E1EBE6",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 17,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 26.6,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 36.2,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 45.800000000000004,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 55.400000000000006,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 65,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 74.6,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 84.19999999999999,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 93.79999999999998,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 103.39999999999998,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 112.99999999999997,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 122.59999999999997,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 132.19999999999996,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 141.79999999999995,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 151.39999999999995,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 160.99999999999994,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 170.59999999999994,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 180.19999999999993,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 189.79999999999993,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 199.39999999999992,
+        "width": 200,
+        "height": 0.28,
+        "fill": "#A9C4C4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M48 194Q100 197 152 194V202H48Z",
+        "fill": "#5B9CB3",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.3C24 75.9 36 81.2 44.5 80.3Q48 80.4 49.2 72.2L52 106H5Z",
+        "fill": "#5B9CB3",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74C24 78.60000000000001 36 83.9 44.5 83Q48 83.10000000000001 49.2 74.9L52 106H5Z",
+        "fill": "#307593",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.3C176 75.9 164 81.2 155.5 80.3Q152 80.4 150.8 72.2L148 106H195Z",
+        "fill": "#5B9CB3",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74C176 78.60000000000001 164 83.9 155.5 83Q152 83.10000000000001 150.8 74.9L148 106H195Z",
+        "fill": "#307593",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

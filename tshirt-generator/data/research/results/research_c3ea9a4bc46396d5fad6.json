@@ -5,8 +5,8 @@
   "country_name": "Greece",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,20 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-source-gaps-2026-09-25",
+      "action": "Read live independent team history discovered from historical league listing; latest-season heading and kit labels checked.",
+      "source_url": "https://www.footballkitarchive.com/panargiakos-apo-kits-t20884/",
+      "latest_season": "2025-26",
+      "observed_latest_variants": [
+        "home",
+        "away"
+      ],
+      "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    }
   ]
 }

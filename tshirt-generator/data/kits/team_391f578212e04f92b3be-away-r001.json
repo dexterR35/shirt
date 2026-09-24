@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_391f578212e04f92b3be",
+  "team_name": "Sarakinos Volos",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-sarakinos-2025-26-away-kit-443989/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/3Oia9iv5tABeW65/as-sarakinos-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_391f578212e04f92b3be-away-443989.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#181B1D",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "observations": "White with very pale diagonal upper-front/sleeve jacquard, red-over-black lower-chest band, white ring with fine red/black edging. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#181B1D",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B1D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#CA2A35",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73 3.714L77 2Q100 7 123 2L127 3.714C129.857 28.571 70.143 28.571 73 3.714Z",
+          "fill": "#F1F2EE",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M-0.809 -0.588L-32.992 44.125L11.243 95.653L12.757 94.347L-31.008 43.875L0.809 0.588ZM7.191 -0.588L-24.992 44.125L19.243 95.653L20.757 94.347L-23.008 43.875L8.809 0.588ZM15.191 -0.588L-16.992 44.125L27.243 95.653L28.757 94.347L-15.008 43.875L16.809 0.588ZM23.191 -0.588L-8.992 44.125L35.243 95.653L36.757 94.347L-7.008 43.875L24.809 0.588ZM31.191 -0.588L-0.992 44.125L43.243 95.653L44.757 94.347L0.992 43.875L32.809 0.588ZM39.191 -0.588L7.008 44.125L51.243 95.653L52.757 94.347L8.992 43.875L40.809 0.588ZM47.191 -0.588L15.008 44.125L59.243 95.653L60.757 94.347L16.992 43.875L48.809 0.588ZM55.191 -0.588L23.008 44.125L67.243 95.653L68.757 94.347L24.992 43.875L56.809 0.588ZM63.191 -0.588L31.008 44.125L75.243 95.653L76.757 94.347L32.992 43.875L64.809 0.588ZM71.191 -0.588L39.008 44.125L83.243 95.653L84.757 94.347L40.992 43.875L72.809 0.588ZM79.191 -0.588L47.008 44.125L91.243 95.653L92.757 94.347L48.992 43.875L80.809 0.588ZM87.191 -0.588L55.008 44.125L99.243 95.653L100.757 94.347L56.992 43.875L88.809 0.588ZM95.191 -0.588L63.008 44.125L107.243 95.653L108.757 94.347L64.992 43.875L96.809 0.588ZM103.191 -0.588L71.008 44.125L115.243 95.653L116.757 94.347L72.992 43.875L104.809 0.588ZM111.191 -0.588L79.008 44.125L123.243 95.653L124.757 94.347L80.992 43.875L112.809 0.588ZM119.191 -0.588L87.008 44.125L131.243 95.653L132.757 94.347L88.992 43.875L120.809 0.588ZM127.191 -0.588L95.008 44.125L139.243 95.653L140.757 94.347L96.992 43.875L128.809 0.588ZM135.191 -0.588L103.008 44.125L147.243 95.653L148.757 94.347L104.992 43.875L136.809 0.588ZM143.191 -0.588L111.008 44.125L155.243 95.653L156.757 94.347L112.992 43.875L144.809 0.588ZM151.191 -0.588L119.008 44.125L163.243 95.653L164.757 94.347L120.992 43.875L152.809 0.588ZM159.191 -0.588L127.008 44.125L171.243 95.653L172.757 94.347L128.992 43.875L160.809 0.588ZM167.191 -0.588L135.008 44.125L179.243 95.653L180.757 94.347L136.992 43.875L168.809 0.588ZM175.191 -0.588L143.008 44.125L187.243 95.653L188.757 94.347L144.992 43.875L176.809 0.588ZM183.191 -0.588L151.008 44.125L195.243 95.653L196.757 94.347L152.992 43.875L184.809 0.588ZM191.191 -0.588L159.008 44.125L203.243 95.653L204.757 94.347L160.992 43.875L192.809 0.588ZM199.191 -0.588L167.008 44.125L211.243 95.653L212.757 94.347L168.992 43.875L200.809 0.588ZM207.191 -0.588L175.008 44.125L219.243 95.653L220.757 94.347L176.992 43.875L208.809 0.588Z",
+        "fill": "#E5E7E4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 97,
+        "width": 102,
+        "height": 103,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 79,
+        "width": 102,
+        "height": 10,
+        "fill": "#D52F39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 89,
+        "width": 102,
+        "height": 10,
+        "fill": "#181B1D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

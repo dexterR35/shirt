@@ -4,8 +4,8 @@
   "team_name": "Antequera",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b29a8075ccd8b60eebd4-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/antequera-cf-2026-27-antequera-away-kit-505407/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/zRyBKX0jTaVjZNM/antequera-cf-2026-27-antequera-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b29a8075ccd8b60eebd4-away-505407.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "White",
+      "Brown"
+    ],
+    "values": {
+      "body": "#E9E4E2",
+      "leftSleeve": "#E9E4E2",
+      "rightSleeve": "#E9E4E2",
+      "collar": "#403535",
+      "leftCuff": "#403535",
+      "rightCuff": "#403535"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale off-white with dark brown ring and brown/white cuff stripes, plain front after removing dense sponsorship. The source is a compressed worn photo: fine shoulder sheen is not certified as print. Literal archive Type Antequera Away retained separately. No inferred first-team/older-season substitution. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b29a8075ccd8b60eebd4-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5b50a2f3fd49d4bc460e.json",
+    "source_kit_id": "505407"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

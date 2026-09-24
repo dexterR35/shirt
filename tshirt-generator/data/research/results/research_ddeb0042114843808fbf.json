@@ -4,8 +4,8 @@
   "team_name": "Pergolettese",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1dc16be8842c5653cbaa-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-pergolettese-2026-27-away-kit-508050/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/14/xasqOpR0sWl8QPw/us-pergolettese-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1dc16be8842c5653cbaa-away-508050.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#E4E4DB",
+      "leftSleeve": "#E4E4DB",
+      "rightSleeve": "#E4E4DB",
+      "collar": "#28679A",
+      "leftCuff": "#E4E4DB",
+      "rightCuff": "#E4E4DB"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Light grey-white body with alternating blue/yellow fine radiating shoulder-to-sleeve lines and blue/yellow ring. Archive render is dim; colors estimated from visible neutral base. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_1dc16be8842c5653cbaa-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ddeb0042114843808fbf.json",
+    "source_kit_id": "508050"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

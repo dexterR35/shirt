@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6c7ae0bef8e9cce03ca9",
+  "team_name": "SV Meppen",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Independent Away front: blue torso and sleeves with white narrow shoulder strip, wide white diagonal mid-sleeve inserts, blue lower sleeve/cuffs and white ring. This differs from a simple reversal of the Home panels. All branding removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6c7ae0bef8e9cce03ca9-away-499672.jpg",
+      "page_url": "https://www.footballkitarchive.com/sv-meppen-2026-27-away-kit-499672/",
+      "sha256": "c88a454d595c3264b7980397c78cb43939b3842774e8565e7927fecb2e57e18d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#074CAB",
+      "leftSleeve": "#074CAB",
+      "rightSleeve": "#074CAB",
+      "collar": "#F3F3F1",
+      "leftCuff": "#074CAB",
+      "rightCuff": "#074CAB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#074CAB",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            75,
+            6
+          ],
+          [
+            35,
+            27
+          ],
+          [
+            32,
+            23
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            125,
+            6
+          ],
+          [
+            165,
+            27
+          ],
+          [
+            168,
+            23
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            38
+          ],
+          [
+            53,
+            50
+          ],
+          [
+            53,
+            67
+          ],
+          [
+            0,
+            55
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            147,
+            50
+          ],
+          [
+            200,
+            38
+          ],
+          [
+            200,
+            55
+          ],
+          [
+            147,
+            67
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#074CAB",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#074CAB",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

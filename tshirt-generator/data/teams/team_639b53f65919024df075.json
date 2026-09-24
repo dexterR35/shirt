@@ -11,42 +11,71 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Barakaldo CF",
+      "design": "Stripes",
+      "colors": [
+        "Yellow",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Hummel",
+      "sponsor": "SR Financial",
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "June 10, 2026",
+      "release_date_iso": "2026-06-10",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/barakaldo-cf-2026-27-home-kit-488298/",
+        "kit_id": "488298",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_6fd3fdd0b9290d74177d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Barakaldo CF",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Black",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Hummel",
+      "sponsor": "SR Financial",
+      "competitions": [
+        "Primera RFEF"
+      ],
+      "release_date": "August 13, 2026",
+      "release_date_iso": "2026-08-13",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/barakaldo-cf-2026-27-away-kit-508005/",
+        "kit_id": "508005",
+        "checked_at": "2026-09-24",
+        "evidence_url": "https://www.footballkitarchive.com/primera-federacion-kits-2026-27-l661/",
+        "record_path": "data/research/footballkitarchive/records/research_ff2d44ce4e8038a95911.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/primera-federacion-2026-27.tsv",
+        "extended_fields_checked_at": "2026-09-24"
+      }
     }
   }
 }

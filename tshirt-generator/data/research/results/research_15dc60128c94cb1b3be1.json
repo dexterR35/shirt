@@ -6,7 +6,7 @@
   "variant": "away",
   "kit_season": null,
   "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "reason": "Authorized 2025/26 reference captured; awaiting paint/review.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,19 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Authorized 2025/26 reference captured; awaiting paint/review."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-source-gaps-2026-09-24",
+      "action": "Checked current competition listing and independent live team history including latest season and variant links.",
+      "source_url": "https://www.footballkitarchive.com/juventud-torremolinos-cf-kits-t7713/",
+      "observed_entries": [
+        "2026-27 Third",
+        "2025-26 Away"
+      ],
+      "outcome": "Live team history lists 2026-27 Third, 2025-26 Away but no independent current 2026/27 away front. Older season, third kit and event kits are not substituted."
+    }
   ]
 }

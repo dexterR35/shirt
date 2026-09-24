@@ -4,8 +4,8 @@
   "team_name": "TSG Hoffenheim II",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_17d07403f64a3f11154d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tsg-hoffenheim-ii-2026-27-away-kit-510756/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/20/hkR5XFXN7aiLecI/tsg-hoffenheim-ii-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_17d07403f64a3f11154d-away-510756.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Navy"
+    ],
+    "values": {
+      "body": "#E4E0D5",
+      "leftSleeve": "#E4E0D5",
+      "rightSleeve": "#E4E0D5",
+      "collar": "#202738",
+      "leftCuff": "#202738",
+      "rightCuff": "#202738"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independently sourced reserve Away: off-white/stone with pale diagonal brush-like streaks and navy fine raglan piping plus navy/off-white cuff/ring trim. Discrete constant-color ink from clean crop [326,800,432,425], sampled 280px and repeated at 98 × 96.4 internal units; hidden print placement is adapted. No source fabric/photo pixels are embedded. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_17d07403f64a3f11154d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4aaaa3a7876bfbeafa4d.json",
+    "source_kit_id": "510756"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

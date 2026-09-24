@@ -4,8 +4,8 @@
   "team_name": "Trento",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_f3001abd0d1e79aaf466-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ac-trento-2026-27-home-kit-512499/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/24/MVcQCQM1AYI3W1v/ac-trento-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f3001abd0d1e79aaf466-home-512499.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#153557",
+      "leftSleeve": "#174C78",
+      "rightSleeve": "#174C78",
+      "collar": "#EDD029",
+      "leftCuff": "#E8C928",
+      "rightCuff": "#E8C928"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy/blue quartered fields with blue sleeves, navy sleeve bands, yellow side stripes and yellow-trim ring/cuffs. Central eagle removed as club imagery. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_f3001abd0d1e79aaf466-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7e6ccdcc79869f8f0d82.json",
+    "source_kit_id": "512499"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

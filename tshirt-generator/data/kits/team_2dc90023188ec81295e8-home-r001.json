@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2dc90023188ec81295e8",
+  "team_name": "Bromley",
+  "country_name": "England",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bromley-fc-2026-27-home-kit-480007/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/ImH2mmo6SWxlijm/bromley-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2dc90023188ec81295e8-home-480007.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F0F3",
+      "leftSleeve": "#F1F0F3",
+      "rightSleeve": "#F1F0F3",
+      "collar": "#17191D",
+      "leftCuff": "#F1F0F3",
+      "rightCuff": "#F1F0F3"
+    }
+  },
+  "observations": "White shirt with seven fine black torso pinlines, plain white sleeves/cuffs and black neckline recoloring. Lines are straightened from the worn front photo and continued through branding; their fine width and spacing remain source-specific. Gold areas are emblems/manufacturer marks and are omitted. Hidden side geometry and source polo construction are not inferred.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with seven fine black torso pinlines, plain white sleeves/cuffs and black neckline recoloring. Lines are straightened from the worn front photo and continued through branding; their fine width and spacing remain source-specific. Gold areas are emblems/manufacturer marks and are omitted. Hidden side geometry and source polo construction are not inferred.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_2dc90023188ec81295e8-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F0F3",
+      "leftSleeve": "#F1F0F3",
+      "rightSleeve": "#F1F0F3",
+      "collar": "#17191D",
+      "leftCuff": "#F1F0F3",
+      "rightCuff": "#F1F0F3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#17191D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F0F3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 99,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 131,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 147,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#27292E",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

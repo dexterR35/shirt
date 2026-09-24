@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5c9c3bdf40a1f4082df2",
+  "team_name": "Tampere United",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Green with darker green cuffs and narrow round-ring edging. Independent literal 2026 away front inspected from the current archive detail page. All sponsors, Puma marks and team crest removed. Plain cloth retained as the original PNG fabric/alpha; colors estimated from the outdoor action photograph. No event kit or older-season substitution.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5c9c3bdf40a1f4082df2-away-508604.jpg",
+      "page_url": "https://www.footballkitarchive.com/tampere-united-2026-away-kit-508604/",
+      "sha256": "32fe1ae372c10cb6864a5eb360370a4621d483052a1ecb3f683560365b28d8d7"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#049A76",
+      "leftSleeve": "#049A76",
+      "rightSleeve": "#049A76",
+      "collar": "#0A8061",
+      "leftCuff": "#08785D",
+      "rightCuff": "#08785D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0A8061",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.4 3.971L77 2Q100 7 123 2L127.6 3.971C130.286 29.257 69.714 29.257 72.4 3.971Z",
+          "fill": "#049A76",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#049A76",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#08785D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#08785D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

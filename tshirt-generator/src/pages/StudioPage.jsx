@@ -212,7 +212,6 @@ export default function StudioPage() {
               Add to collection
             </button>
           </div>
-          <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
           <div
             className={`canvas ${background} ${background === "white" || (background === "custom" && luminance(customBg) > 0.55) ? "on-light" : ""}`}
             style={background === "custom" ? { backgroundColor: customBg } : undefined}
@@ -302,6 +301,7 @@ export default function StudioPage() {
                 </span>
               )}
             </div>
+            <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
             <ShirtViews view={view} onSelect={setView} />
             <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
             {!editing && <div className="zoom-controls" aria-label="Zoom">

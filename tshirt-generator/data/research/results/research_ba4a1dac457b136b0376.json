@@ -4,8 +4,8 @@
   "team_name": "MSV Duisburg",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_baa27aaadc0067a0fcf3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/msv-duisburg-2026-27-home-kit-491914/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/07/FGtmGhieqGfgXs6/msv-duisburg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_baa27aaadc0067a0fcf3-home-491914.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#15548E",
+      "leftCuff": "#15548E",
+      "rightCuff": "#15548E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with three broad blue hoops made of closely spaced white slanting cuts, three blue shoulder stripes and narrow blue collar/cuff edges. Two worn gallery fronts establish the pattern; torso lines are straightened to common geometry and continued behind removed sponsor. Branding omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_baa27aaadc0067a0fcf3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ba4a1dac457b136b0376.json",
+    "source_kit_id": "491914"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

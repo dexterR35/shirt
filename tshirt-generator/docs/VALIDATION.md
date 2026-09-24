@@ -1,6 +1,14 @@
 # Validation - 24 September 2026
 
-## Latest: Tier 2 painted continuation
+## Latest: Tier 3 England first batch
+
+Sixteen independent 2026/27 Home/Away shirts are ready; global coverage is **551 ready**, with Tier 1 and Tier 2 unchanged. All **78 Node tests pass** (85.3 seconds), including the original PNG, historical configuration locks, source image hashes, all saved paint, the 383-team Tier 3 inventory, the exact 16 published configurations and their independent equipment fields. `npm run data:verify` passes with all 735 identities, 779 memberships, 27 competitions, 39 associations, 16 tabs and 1,470 slots preserved. `npm run build` passes, with 233 modules. `git diff --check` passes.
+
+The new Chromium browser check passes (9.4 seconds total). It selects both variants of all eight teams, checks the kit identity, ready render and individual season/brand facts, then downloads Barnsley and Blackpool Home/Away as four distinct transparent **168 × 168 PNGs**. Output dimensions, alpha and distinct image hashes were verified; no external display requests occurred. The resulting Studio screenshot was visually inspected. Four source/render comparison sheets cover all sixteen additions; the corrected sheets were inspected before ready promotion.
+
+Review scope and limitations, including Burton's illustrated sources, fine print and hidden regions, are recorded in [the batch report](TIER3_CONTINUATION_2026-09-24.md). Tier 3 remains **16/766 ready**, with **750 researching**, and is not complete.
+
+## Previous: Tier 2 painted continuation
 
 24 September checkpoint: **254 / 300 Tier 2 slots ready**, **535 ready globally**. All **76 Node tests pass** (140.8 seconds), including independent source hashes, immutable prior revisions, the original PNG bytes/alpha, all reviewed layouts, literal FC Haka 2026 season, the 46 documented blocked slots and preservation of empty final TSV fields. **Eight targeted Edge browser tests pass** (41 seconds): new Tier 2 variants load from local JSON, source equipment stays variant-specific, missing slots remain unavailable, and Catalog selection still works. Three representative shirts (Córdoba Away, Hellas Syros Home, FC Haka Home) were exported from the collection as distinct transparent 168 × 168 PNGs; dimensions, alpha and distinct image bytes were verified. The final FC Haka Studio screenshot was visually inspected.
 

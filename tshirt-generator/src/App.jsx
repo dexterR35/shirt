@@ -5,7 +5,7 @@ import {loadReviews, saveReview, reviewKey, emptyReview} from "./lib/reviews.js"
 import {editableParts, applyEdits} from "./lib/kit-edit.js";
 import {partAt, visiblePartIds} from "./lib/png-preview.js";
 import {paintArea, LIGHTING_DEFAULT, validateLighting} from "./lib/composite.js";
-import LightingControl, {LightingContext} from "./LightingControl.jsx";
+import {LightingContext} from "./LightingControl.jsx";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
 import {loadKit, loadJson} from "./lib/kit-config.js";
@@ -287,7 +287,7 @@ export default function App() {
     if (tier1) return {
       title: "Download all Tier 1 shirts?",
       message: `All ${items.length / 2} teams, Home and Away: ${items.length} PNG images at ${width} × ${height} px each, in one ZIP.`,
-      note: `Lighting: ${lighting}%. Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
+      note: `Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
     };
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
     const one = n === 1 ? `${items[0].team_name} ${variantLabel(items[0].variant)}` : null;
@@ -298,7 +298,7 @@ export default function App() {
         : one
           ? `One ${label} image, ${px}.`
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
-      note: `Lighting: ${lighting}%.${exportFormat === "avif" ? " AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : ""}`,
+      note: exportFormat === "avif" ? "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : "",
     };
   }
   function remove(index) {
@@ -505,7 +505,6 @@ export default function App() {
               ) : (
                 <p className="queue-empty">Use “Add to collection” to queue up to {COLLECTION_LIMIT} kits for download.</p>
               )}
-              <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
               <div className="queue-actions">
                 <select
                   aria-label="Download size"

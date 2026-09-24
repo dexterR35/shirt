@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_17d07403f64a3f11154d",
+  "team_name": "TSG Hoffenheim II",
+  "country_name": "Germany",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/tsg-hoffenheim-ii-2026-27-home-kit-492677/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/03/AUiiHA31lX4FmRM/tsg-hoffenheim-ii-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_17d07403f64a3f11154d-home-492677.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#2463A3",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#162E50",
+      "leftCuff": "#162E50",
+      "rightCuff": "#162E50"
+    }
+  },
+  "observations": "Reserve-team page independently identifies this Home shirt: blue torso with subtle panel pinlines, contrasting white sleeves/shoulders, navy/white ring/cuff trim. Repeated heraldic antler figures in the blue field are removed with badges, manufacturer and syNeo sponsor. No first-team evidence substitution. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Reserve-team page independently identifies this Home shirt: blue torso with subtle panel pinlines, contrasting white sleeves/shoulders, navy/white ring/cuff trim. Repeated heraldic antler figures in the blue field are removed with badges, manufacturer and syNeo sponsor. No first-team evidence substitution. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_17d07403f64a3f11154d-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2463A3",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#162E50",
+      "leftCuff": "#162E50",
+      "rightCuff": "#162E50"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#162E50",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M76.022 2.419L77 2Q100 7 123 2L123.978 2.419C127.699 25.118 72.301 25.118 76.022 2.419Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2463A3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 58,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 76,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 103,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 130,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 139,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 148,
+        "y": 0,
+        "width": 0.6,
+        "height": 200,
+        "fill": "#3776B1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            1
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            49,
+            25
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            47,
+            12
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            1
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            151,
+            25
+          ],
+          [
+            163,
+            27
+          ],
+          [
+            170,
+            20
+          ],
+          [
+            153,
+            12
+          ]
+        ],
+        "fill": "#F3F3F1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.885 9.75L50.822 20.79L41.726 37.983L47.73 70.051L48.27 69.949L42.274 38.017L51.178 21.21L75.115 10.25Z",
+        "fill": "#162E50",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.885 10.25L148.822 21.21L157.726 38.017L151.73 69.949L152.27 70.051L158.274 37.983L149.178 20.79L125.115 9.75Z",
+        "fill": "#162E50",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#162E50",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#F3F3F1",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.89999999999999C24 80.5 36 85.8 44.5 84.89999999999999Q48 85 49.2 76.8L52 106H5Z",
+        "fill": "#162E50",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#162E50",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#F3F3F1",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.89999999999999C176 80.5 164 85.8 155.5 84.89999999999999Q152 85 150.8 76.8L148 106H195Z",
+        "fill": "#162E50",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

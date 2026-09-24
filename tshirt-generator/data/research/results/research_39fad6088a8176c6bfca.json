@@ -4,8 +4,8 @@
   "team_name": "Dolomiti Bellunesi",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d76fc8209876159c21da-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/dolomiti-bellunesi-2026-27-away-kit-498579/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/25/QLpwTLuMH06KEOy/dolomiti-bellunesi-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d76fc8209876159c21da-away-498579.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Green",
+      "Pink"
+    ],
+    "values": {
+      "body": "#073A2B",
+      "leftSleeve": "#073A2B",
+      "rightSleeve": "#073A2B",
+      "collar": "#196B40",
+      "leftCuff": "#197848",
+      "rightCuff": "#197848"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep green with green ring/two shoulder tapes and cuff piping, central muted grey-green flowing contour lines. Independently checked matching print uses recolored contour geometry. Neutral topographic graphic adapted, logos and Sportful sponsor removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_d76fc8209876159c21da-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_39fad6088a8176c6bfca.json",
+    "source_kit_id": "498579"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

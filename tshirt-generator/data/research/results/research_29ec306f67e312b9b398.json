@@ -4,8 +4,8 @@
   "team_name": "Würzburger Kickers",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_dda99486bb364c1b5815-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/wurzburger-kickers-2026-27-away-kit-497113/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/26/Dss5EBcXhIk1XOF/wurzburger-kickers-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dda99486bb364c1b5815-away-497113.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray"
+    ],
+    "values": {
+      "body": "#0C151B",
+      "leftSleeve": "#0C151B",
+      "rightSleeve": "#0C151B",
+      "collar": "#414A4D",
+      "leftCuff": "#414A4D",
+      "rightCuff": "#414A4D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with a closely spaced thin grey hexagonal torso grid, continued through the removed sponsor; solid black sleeves and charcoal ring/cuffs. Hexagon scale and field extent measured from the saved Away illustration. All lettering/emblems and repeated Jako shoulder marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_dda99486bb364c1b5815-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_29ec306f67e312b9b398.json",
+    "source_kit_id": "497113"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

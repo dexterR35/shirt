@@ -4,8 +4,8 @@
   "team_name": "Spezia",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a5ae9afcfb02e21c2168-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/spezia-calcio-2026-27-away-kit-498561/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/XJYvsbieqBCOrS0/spezia-calcio-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a5ae9afcfb02e21c2168-away-498561.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold",
+      "Gray"
+    ],
+    "values": {
+      "body": "#1D1F24",
+      "leftSleeve": "#1D1F24",
+      "rightSleeve": "#1D1F24",
+      "collar": "#192028",
+      "leftCuff": "#C8AD64",
+      "rightCuff": "#C8AD64"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Near-black with very subtle dotted vertical pinstripes and gold cuff ends; dark round ring. Brand repeats removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_a5ae9afcfb02e21c2168-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9f3c2a97970412d46efb.json",
+    "source_kit_id": "498561"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

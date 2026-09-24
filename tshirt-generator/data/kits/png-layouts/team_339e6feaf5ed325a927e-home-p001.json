@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_339e6feaf5ed325a927e",
+  "team_name": "Potenza",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red and navy vertical body stripes with navy sleeves, red shoulder tapes and round ring. Large tonal lion is club emblem imagery and is omitted. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_339e6feaf5ed325a927e-home-523192.jpg",
+      "page_url": "https://www.footballkitarchive.com/potenza-calcio-2026-27-home-kit-523192/",
+      "sha256": "2b502aba3a3afedf93a7b21eafd134daeed1dca4c0b89b2adee9013086ec4715"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DB1740",
+      "leftSleeve": "#14264B",
+      "rightSleeve": "#14264B",
+      "collar": "#DF1740",
+      "leftCuff": "#14264B",
+      "rightCuff": "#14264B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DF1740",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DB1740",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#14264B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#14264B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 110,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#14264B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 138,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#14264B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            73,
+            17
+          ],
+          [
+            53,
+            28
+          ],
+          [
+            47,
+            55
+          ],
+          [
+            38,
+            50
+          ],
+          [
+            33,
+            25
+          ]
+        ],
+        "fill": "#14264B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            127,
+            17
+          ],
+          [
+            147,
+            28
+          ],
+          [
+            153,
+            55
+          ],
+          [
+            162,
+            50
+          ],
+          [
+            167,
+            25
+          ]
+        ],
+        "fill": "#14264B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            35,
+            28
+          ],
+          [
+            35,
+            26.5
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            165,
+            28
+          ],
+          [
+            165,
+            26.5
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.7
+          ],
+          [
+            75,
+            8.2
+          ],
+          [
+            35,
+            30.7
+          ],
+          [
+            35,
+            29.2
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.7
+          ],
+          [
+            125,
+            8.2
+          ],
+          [
+            165,
+            30.7
+          ],
+          [
+            165,
+            29.2
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9.4
+          ],
+          [
+            75,
+            10.9
+          ],
+          [
+            35,
+            33.4
+          ],
+          [
+            35,
+            31.9
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            9.4
+          ],
+          [
+            125,
+            10.9
+          ],
+          [
+            165,
+            33.4
+          ],
+          [
+            165,
+            31.9
+          ]
+        ],
+        "fill": "#E82047",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

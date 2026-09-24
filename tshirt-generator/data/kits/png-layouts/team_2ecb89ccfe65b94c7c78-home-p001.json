@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2ecb89ccfe65b94c7c78",
+  "team_name": "Waldhof Mannheim",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Royal blue with one broad central black stripe, black sleeves and blue cuff bands; black/blue ring recoloring. Source is a low-resolution worn photo, so hidden rear and side detail is not claimed. Sponsor, crest and sleeve marks removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2ecb89ccfe65b94c7c78-home-500615.jpg",
+      "page_url": "https://www.footballkitarchive.com/waldhof-mannheim-2026-27-home-kit-500615/",
+      "sha256": "513698efd91c84888bebe8e6fb2cc1c05ff0630085187e62b69c268cf3a42cd7"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2C64AA",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#181B20",
+      "leftCuff": "#2C64AA",
+      "rightCuff": "#2C64AA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.25 2.75L77 2Q100 7 123 2L124.75 2.75C128.25 26 71.75 26 75.25 2.75Z",
+          "fill": "#2C64AA",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2C64AA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 36,
+        "height": 200,
+        "fill": "#181B20",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#2C64AA",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#2C64AA",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

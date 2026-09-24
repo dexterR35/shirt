@@ -4,8 +4,8 @@
   "team_name": "Bastia",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_294095ea93a3d04df41c-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sc-bastia-2026-27-home-kit-497156/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/8BR6sbYskQmsOtu/sc-bastia-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_294095ea93a3d04df41c-home-497156.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#0654BC",
+      "leftSleeve": "#0654BC",
+      "rightSleeve": "#0654BC",
+      "collar": "#103573",
+      "leftCuff": "#0654BC",
+      "rightCuff": "#0654BC"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue torso with subtle alternating blue columns and thin navy pinlines, two separate white chest bars and navy collar/three shoulder tapes. White bars continue through removed shield; sponsor and all crests removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_294095ea93a3d04df41c-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d4a6420590e0ba30aa31.json",
+    "source_kit_id": "497156"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

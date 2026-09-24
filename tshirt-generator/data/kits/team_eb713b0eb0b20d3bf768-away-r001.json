@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_eb713b0eb0b20d3bf768",
+  "team_name": "Extremadura",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cd-extremadura-1924-2026-27-away-kit-497922/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/21/FhdL78vnhTIo4Rx/cd-extremadura-1924-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_eb713b0eb0b20d3bf768-away-497922.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "White"
+    ],
+    "values": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    }
+  },
+  "observations": "White with five broad green hoops carrying fine horizontal tonal rib lines, continuing on sleeves, white neckline with a narrow green line. Hands obscure portions; repeat follows the visible upper/lower bands. All branding removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with five broad green hoops carrying fine horizontal tonal rib lines, continuing on sleeves, white neckline with a narrow green line. Hands obscure portions; repeat follows the visible upper/lower bands. All branding removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_eb713b0eb0b20d3bf768-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#F3F2EC",
+      "leftCuff": "#F3F2EC",
+      "rightCuff": "#F3F2EC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.758 3.818L77 2Q100 7 123 2L127.242 3.818C130.03 28.848 69.97 28.848 72.758 3.818Z",
+          "fill": "#438340",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.242 3.182L77 2Q100 7 123 2L125.758 3.182C128.97 27.152 71.03 27.152 74.242 3.182Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 6,
+        "width": 200,
+        "height": 23,
+        "fill": "#438340",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 7,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 8.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 10.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 12.399999999999999,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 14.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 16,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 17.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 19.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 21.400000000000002,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 23.200000000000003,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 25.000000000000004,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 26.800000000000004,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 28.600000000000005,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 49,
+        "width": 200,
+        "height": 23,
+        "fill": "#438340",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 50,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 51.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 53.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 55.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 57.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 59,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 60.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 62.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 64.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 66.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 68,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 69.80000000000001,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 71.60000000000001,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 92,
+        "width": 200,
+        "height": 23,
+        "fill": "#438340",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 93,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 94.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 96.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 98.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 100.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 102,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 103.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 105.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 107.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 109.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 111,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 112.80000000000001,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 114.60000000000001,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 135,
+        "width": 200,
+        "height": 23,
+        "fill": "#438340",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 136,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 137.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 139.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 141.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 143.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 145,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 146.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 148.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 150.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 152.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 154,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 155.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 157.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 178,
+        "width": 200,
+        "height": 23,
+        "fill": "#438340",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 179,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 180.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 182.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 184.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 186.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 188,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 189.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 191.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 193.4,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 195.2,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 197,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 198.8,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 200.6,
+        "width": 200,
+        "height": 0.22,
+        "fill": "#6D9E60",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

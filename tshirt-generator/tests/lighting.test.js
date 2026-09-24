@@ -10,8 +10,8 @@ test("lighting preserves alpha, fabric contrast and paint colors without clippin
     paint.set([220, 50, 0, 255], value * 4);
   }
   const original = compositePixels(source, paint);
-  const light = compositePixels(source, paint, 200);
-  const dark = compositePixels(source, paint, 50);
+  const light = compositePixels(source, paint, 100);
+  const dark = compositePixels(source, paint, -100);
   for (let i = 0; i < source.length; i += 4) {
     assert.equal(original[i], Math.round(source[i] * 220 / 255));
     assert.equal(light[i + 3], source[i + 3]);
@@ -22,8 +22,8 @@ test("lighting preserves alpha, fabric contrast and paint colors without clippin
   }
   assert.ok(light[64 * 4] < light[128 * 4] && light[128 * 4] < light[192 * 4]);
   assert.deepEqual(compositePixels(source), source);
-  assert.ok(compositePixels(source, null, 200)[128 * 4] > source[128 * 4]);
+  assert.ok(compositePixels(source, null, 100)[128 * 4] > source[128 * 4]);
   assert.deepEqual(source.slice(128 * 4, 128 * 4 + 4), new Uint8ClampedArray([128, 128, 128, 128]));
-  for (const value of [NaN, Infinity, 0, 49, 201, "150", null])
+  for (const value of [NaN, Infinity, -101, 101, "10", null])
     assert.throws(() => validateLighting(value), /Lighting must be/);
 });

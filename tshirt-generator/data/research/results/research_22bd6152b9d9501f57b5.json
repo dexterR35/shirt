@@ -4,8 +4,8 @@
   "team_name": "Folgore Caratese",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0dc3dc83e58fca60b8f9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/folgore-caratese-2026-27-home-kit-523653/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/tKvIJKXsBagaYC4/folgore-caratese-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0dc3dc83e58fca60b8f9-home-523653.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#2C76CE",
+      "leftSleeve": "#2C76CE",
+      "rightSleeve": "#2C76CE",
+      "collar": "#F3F2EC",
+      "leftCuff": "#2C76CE",
+      "rightCuff": "#2C76CE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with broad angular tonal blue facets across torso, blue sleeves and white ring. Seated source obscures lower front; observed repeating forms adapted, no unseen wording invented. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_0dc3dc83e58fca60b8f9-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_22bd6152b9d9501f57b5.json",
+    "source_kit_id": "523653"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Renate",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_aa6b1fc4dc7d5623d0b8-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ac-renate-2026-27-home-kit-523651/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/FfglRVsP5Roztcp/ac-renate-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_aa6b1fc4dc7d5623d0b8-home-523651.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#171F26",
+      "leftSleeve": "#171F26",
+      "rightSleeve": "#171F26",
+      "collar": "#1B2832",
+      "leftCuff": "#171F26",
+      "rightCuff": "#171F26"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with three medium-blue body columns, black sleeves and neckline. Shoulder Kappa repeats removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_aa6b1fc4dc7d5623d0b8-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fefdb5b3348f405c9e7f.json",
+    "source_kit_id": "523651"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

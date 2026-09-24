@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b5d1238095a73b75086a",
+  "team_name": "Atlético Madrileño",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atletico-madrileno-2026-27-away-kit-483716/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/18/ooMEIeT66wnTqEu/atletico-madrileno-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b5d1238095a73b75086a-away-483716.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#222628",
+      "leftSleeve": "#222628",
+      "rightSleeve": "#222628",
+      "collar": "#232829",
+      "leftCuff": "#D0F72D",
+      "rightCuff": "#D0F72D"
+    }
+  },
+  "observations": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_e7bcd589b2e24bfac258-away-r001.json; reserve evidence/identity stays separate. Charcoal front and sleeves, neon yellow-green cuff bands and small tapering side inserts. Tonal club symbols are omitted along with other emblems. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_e7bcd589b2e24bfac258-away-r001.json; reserve evidence/identity stays separate. Charcoal front and sleeves, neon yellow-green cuff bands and small tapering side inserts. Tonal club symbols are omitted along with other emblems. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b5d1238095a73b75086a-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#222628",
+      "leftSleeve": "#222628",
+      "rightSleeve": "#222628",
+      "collar": "#232829",
+      "leftCuff": "#D0F72D",
+      "rightCuff": "#D0F72D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#232829",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M75.833 2.5L77 2Q100 7 123 2L124.167 2.5C127.833 25.333 72.167 25.333 75.833 2.5Z",
+          "fill": "#CDFA24",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#222628",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M49 93Q57 102 55 125L51 145L50 120Z",
+        "fill": "#D0F72D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 93Q143 102 145 125L149 145L150 120Z",
+        "fill": "#D0F72D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.8C24 77.4 36 82.7 44.5 81.8Q48 81.9 49.2 73.7L52 106H5Z",
+        "fill": "#D0F72D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.8C176 77.4 164 82.7 155.5 81.8Q152 81.9 150.8 73.7L148 106H195Z",
+        "fill": "#D0F72D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Waldhof Mannheim",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2ecb89ccfe65b94c7c78-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/waldhof-mannheim-2026-27-away-kit-497739/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/20/AhW8gdUAX17I4zn/waldhof-mannheim-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2ecb89ccfe65b94c7c78-away-497739.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#E1EBE6",
+      "leftSleeve": "#E1EBE6",
+      "rightSleeve": "#E1EBE6",
+      "collar": "#5B9CB3",
+      "leftCuff": "#5B9CB3",
+      "rightCuff": "#5B9CB3"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale white/mint field with many very fine pale blue horizontal pinlines, sky-blue ring/cuff trim with darker cuff edge and pale blue hem. Worn hanger image used for color layout; folds and exact hidden-side joins are not copied. All logos/sponsor lettering omitted. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_2ecb89ccfe65b94c7c78-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4b17a7657b088292f82a.json",
+    "source_kit_id": "497739"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

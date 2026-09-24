@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_daed48d59d0989099d6e",
+  "team_name": "Bari",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with red ring and red cuffs crossed by one fine white band. Faint white fabric jacquard represented by original PNG fabric; sponsor and badge removed. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_daed48d59d0989099d6e-home-507456.jpg",
+      "page_url": "https://www.footballkitarchive.com/ssc-bari-2026-27-home-kit-507456/",
+      "sha256": "8f1fd70d461d91f07c316051ff5ca6db47b5cc18c32f15a960578ac2940acd32"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F2EC",
+      "leftSleeve": "#F3F2EC",
+      "rightSleeve": "#F3F2EC",
+      "collar": "#C34335",
+      "leftCuff": "#C34335",
+      "rightCuff": "#C34335"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C34335",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.182 3.636L77 2Q100 7 123 2L126.818 3.636C129.727 28.364 70.273 28.364 73.182 3.636Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.242 3.182L77 2Q100 7 123 2L125.758 3.182C128.97 27.152 71.03 27.152 74.242 3.182Z",
+          "fill": "#C34335",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71C24 75.60000000000001 36 80.9 44.5 80Q48 80.10000000000001 49.2 71.9L52 106H5Z",
+        "fill": "#C34335",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74C24 78.60000000000001 36 83.9 44.5 83Q48 83.10000000000001 49.2 74.9L52 106H5Z",
+        "fill": "#F3F2EC",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75C24 79.60000000000001 36 84.9 44.5 84Q48 84.10000000000001 49.2 75.9L52 106H5Z",
+        "fill": "#C34335",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71C176 75.60000000000001 164 80.9 155.5 80Q152 80.10000000000001 150.8 71.9L148 106H195Z",
+        "fill": "#C34335",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74C176 78.60000000000001 164 83.9 155.5 83Q152 83.10000000000001 150.8 74.9L148 106H195Z",
+        "fill": "#F3F2EC",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75C176 79.60000000000001 164 84.9 155.5 84Q152 84.10000000000001 150.8 75.9L148 106H195Z",
+        "fill": "#C34335",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

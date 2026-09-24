@@ -4,8 +4,8 @@
   "team_name": "Fortuna Köln",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_50cd460dc0aa9bdeb192-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fortuna-koln-2026-27-home-kit-481586/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/02/6LufcRGdaiCixWM/fortuna-koln-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_50cd460dc0aa9bdeb192-home-481586.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Claret"
+    ],
+    "values": {
+      "body": "#762036",
+      "leftSleeve": "#762036",
+      "rightSleeve": "#762036",
+      "collar": "#762036",
+      "leftCuff": "#651A2E",
+      "rightCuff": "#651A2E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with five clusters of fine lighter claret vertical lines and solid dark-claret cuff/ring. Tonal grouping measured from the front; source reflections are left to the original fabric. All sponsors and insignia removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_50cd460dc0aa9bdeb192-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2887b64d69b846d80b08.json",
+    "source_kit_id": "481586"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

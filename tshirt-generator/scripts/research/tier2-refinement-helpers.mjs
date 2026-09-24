@@ -55,7 +55,8 @@ export async function refinementBatch(batch,countries,additionalScope=[]){
   for(const d of reviews){const p=profiles.find(p=>`${p.name}:${p.variant}`===d.key);if(!p||d.config_sha256!==crypto.createHash('sha256').update(JSON.stringify(p.make())).digest('hex')||!d.notes||!['draft','ready'].includes(d.status))throw Error('Stale review '+d.key);await fs.access(d.comparison_path);p.remaining=d.remaining;}
   await fs.writeFile(`data/research/${batch}-scope.json`,JSON.stringify(scope.map(({config,...r})=>r),null,2)+'\n');
   await fs.writeFile(`data/research/${batch}-traces.json`,JSON.stringify({batch,traces},null,2)+'\n');
-  await saveProfiles(profiles,batch,{date:'2026-09-24',reviewed:reviews.filter(r=>r.status==='ready').map(r=>r.key)});
+  const date=batch.match(/\d{4}-\d{2}-\d{2}$/)?.[0]||'2026-09-24';
+  await saveProfiles(profiles,batch,{date,reviewed:reviews.filter(r=>r.status==='ready').map(r=>r.key)});
  }
  return {scope,add,ink,save};
 }

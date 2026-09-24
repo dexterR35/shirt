@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f6af1b4180c87be66317",
+  "team_name": "Hansa Rostock",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Plain white with fine blue cuff/collar edge. Source white polo collar is adapted only to ring colors; blue shoulder areas are repeated Reebok logos and are removed with sponsor/badge. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f6af1b4180c87be66317-away-496996.jpg",
+      "page_url": "https://www.footballkitarchive.com/hansa-rostock-2026-27-away-kit-496996/",
+      "sha256": "cce86f526006561360d439b4b9d462e1ee3f2fb0de94bf0132015f9b1fbce1c4"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#0B6DAB",
+      "leftCuff": "#0B6DAB",
+      "rightCuff": "#0B6DAB"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0B6DAB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M70.913 4.609L77 2Q100 7 123 2L129.087 4.609C131.348 30.957 68.652 30.957 70.913 4.609Z",
+          "fill": "#F3F3F1",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.69999999999999C24 80.3 36 85.6 44.5 84.69999999999999Q48 84.8 49.2 76.6L52 106H5Z",
+        "fill": "#0B6DAB",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.69999999999999C176 80.3 164 85.6 155.5 84.69999999999999Q152 84.8 150.8 76.6L148 106H195Z",
+        "fill": "#0B6DAB",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

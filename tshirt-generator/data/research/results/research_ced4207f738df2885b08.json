@@ -4,8 +4,8 @@
   "team_name": "Quevilly Rouen Métropole",
   "country_name": "France",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_89d7dbd01ec4b86c8da8-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/quevilly-rouen-metropole-2026-27-home-kit-507311/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/njiXG5dS30EZE3n/quevilly-rouen-metropole-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_89d7dbd01ec4b86c8da8-home-507311.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Red"
+    ],
+    "values": {
+      "body": "#F1CD21",
+      "leftSleeve": "#F1CD21",
+      "rightSleeve": "#F1CD21",
+      "collar": "#C23120",
+      "leftCuff": "#CF7431",
+      "rightCuff": "#CF7431"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with a narrow red/orange geometric ornamental centre stripe above/below the original chest break, red ring with gold line, thin ornamental cuff/hem edge. Interior ornament simplified to measured polygon web; sponsors and repeated Hummel chevrons removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_89d7dbd01ec4b86c8da8-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ced4207f738df2885b08.json",
+    "source_kit_id": "507311"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-france-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

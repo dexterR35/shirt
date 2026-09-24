@@ -4,8 +4,8 @@
   "team_name": "Audace Cerignola",
   "country_name": "Italy",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2b4a0cc3798fdeafa34e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/audace-cerignola-2026-27-home-kit-507691/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/13/nZgYiVn77krEdph/audace-cerignola-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2b4a0cc3798fdeafa34e-home-507691.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F7D923",
+      "leftSleeve": "#F7D923",
+      "rightSleeve": "#F7D923",
+      "collar": "#F7D923",
+      "leftCuff": "#F7D923",
+      "rightCuff": "#F7D923"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow and royal-blue quarters, yellow top-left and bottom-right, yellow sleeves with blue raglan cap/three shoulder tapes, yellow ring and side edging. Independent current variant reference inspected. All sponsors, manufacturer marks, team crests and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-a-2026-09-25/team_2b4a0cc3798fdeafa34e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ad1aefc25ff4d20b2fd1.json",
+    "source_kit_id": "507691"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-a-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

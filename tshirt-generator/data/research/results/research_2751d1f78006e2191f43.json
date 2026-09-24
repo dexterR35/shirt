@@ -4,8 +4,8 @@
   "team_name": "Burton Albion",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_63b2e8fefe34d8297a4a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/burton-albion-2026-27-home-kit-494901/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/muxt1fj9XcLUE4W/burton-albion-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_63b2e8fefe34d8297a4a-home-494901.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#F2BC32",
+      "leftSleeve": "#171D1B",
+      "rightSleeve": "#171D1B",
+      "collar": "#20231F",
+      "leftCuff": "#171D1B",
+      "rightCuff": "#171D1B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Gold/yellow with four black vertical torso stripes and a central gold band, black sleeves with gold outer stripe and raglan panels. Black round neckline with thin muted pale inner edge; black cuffs with narrow gold line. Archive front is a flat kit illustration credited to fmslovakia.com, not a garment photograph; this reference limitation is retained. Logos, sponsor and crest removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_63b2e8fefe34d8297a4a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2751d1f78006e2191f43.json",
+    "source_kit_id": "494901"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

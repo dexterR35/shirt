@@ -4,8 +4,8 @@
   "team_name": "Bromley",
   "country_name": "England",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2dc90023188ec81295e8-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/bromley-fc-2026-27-away-kit-480006/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/Lai3VvZymmaevW7/bromley-fc-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2dc90023188ec81295e8-away-480006.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#181A1E",
+      "leftSleeve": "#181A1E",
+      "rightSleeve": "#181A1E",
+      "collar": "#181A1E",
+      "leftCuff": "#181A1E",
+      "rightCuff": "#181A1E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black shirt with three full red torso stripes plus red edge fragments, each red stripe followed by a narrow companion pinline. Black shoulders, sleeves, cuff and ring. The worn reference is normalized to a flat front; manufacturer shoulder chevrons and all gold/red/white branding are omitted. Exact obscured side continuation is not claimed.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_2dc90023188ec81295e8-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d5b41b9e2de77fb1ea34.json",
+    "source_kit_id": "480006"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

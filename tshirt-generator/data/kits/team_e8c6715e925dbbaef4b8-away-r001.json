@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e8c6715e925dbbaef4b8",
+  "team_name": "Akrites Sykies",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/akrites-sykeon-2025-26-away-kit-443997/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/FZfMFCrzNGEMaX3/akrites-sykeon-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e8c6715e925dbbaef4b8-away-443997.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Blue"
+    ],
+    "values": {
+      "body": "#BEDD2D",
+      "leftSleeve": "#BEDD2D",
+      "rightSleeve": "#BEDD2D",
+      "collar": "#BBD927",
+      "leftCuff": "#255983",
+      "rightCuff": "#255983"
+    }
+  },
+  "observations": "Bright lime/yellow-green with blue cuff ends and self-colored round ring. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BEDD2D",
+      "leftSleeve": "#BEDD2D",
+      "rightSleeve": "#BEDD2D",
+      "collar": "#BBD927",
+      "leftCuff": "#255983",
+      "rightCuff": "#255983"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BBD927",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BEDD2D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#255983",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#255983",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

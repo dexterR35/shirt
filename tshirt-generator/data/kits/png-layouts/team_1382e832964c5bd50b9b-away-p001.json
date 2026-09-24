@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1382e832964c5bd50b9b",
+  "team_name": "Loutraki",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain near-black with matching sleeves/ring/cuffs. All orange/white sponsor and crest removed. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1382e832964c5bd50b9b-away-444335.jpg",
+      "page_url": "https://www.footballkitarchive.com/ao-loutraki-2025-26-away-kit-444335/",
+      "sha256": "894c1ff7eb35c51bc4f23387e2f3f18098810d75364d741175e3d24fb6e2e58a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#181B1D",
+      "leftSleeve": "#181B1D",
+      "rightSleeve": "#181B1D",
+      "collar": "#181B1D",
+      "leftCuff": "#181B1D",
+      "rightCuff": "#181B1D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B1D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#181B1D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Vis Pesaro",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b3dee14addb80c76f282-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/vis-pesaro-2026-27-away-kit-509492/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/17/lURNMFUOk7SFqt8/vis-pesaro-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b3dee14addb80c76f282-away-509492.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Gray",
+      "White"
+    ],
+    "values": {
+      "body": "#344148",
+      "leftSleeve": "#344148",
+      "rightSleeve": "#344148",
+      "collar": "#26383D",
+      "leftCuff": "#344148",
+      "rightCuff": "#344148"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with a very large low white V/chevron from both underarms to lower-front point; self-colored sleeves and dark ring. Fine textile reflections are retained only from the base PNG. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_b3dee14addb80c76f282-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_0f5a5146f0e6cbdb8143.json",
+    "source_kit_id": "509492"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

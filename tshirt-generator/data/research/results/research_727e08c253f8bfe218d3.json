@@ -4,8 +4,8 @@
   "team_name": "MSV Duisburg",
   "country_name": "Germany",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_baa27aaadc0067a0fcf3-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/msv-duisburg-2026-27-away-kit-493837/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/10/7JMbMZIvV0DwI3k/msv-duisburg-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_baa27aaadc0067a0fcf3-away-493837.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#171E2B",
+      "leftSleeve": "#181B20",
+      "rightSleeve": "#181B20",
+      "collar": "#CACDD6",
+      "leftCuff": "#CACDD6",
+      "rightCuff": "#CACDD6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black/navy with a dense blue square-grid torso field, solid dark sleeves and silver/blue collar/cuff trim plus three silver shoulder strips. Two worn source fronts establish square spacing and field extent; square brightness simplified to one flat ink with minor size variation. All white logos/sponsor removed. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_baa27aaadc0067a0fcf3-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_727e08c253f8bfe218d3.json",
+    "source_kit_id": "493837"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

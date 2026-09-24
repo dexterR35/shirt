@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4f51bec445fc643c0cad",
+  "team_name": "Fleury 91",
+  "country_name": "France",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-france-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-fleury-91-2026-27-home-kit-505596/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/08/rOCfNZuo1uMfEzV/fc-fleury-91-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4f51bec445fc643c0cad-home-505596.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#F4F3EF",
+      "leftSleeve": "#F4F3EF",
+      "rightSleeve": "#F4F3EF",
+      "collar": "#171B1D",
+      "leftCuff": "#171B1D",
+      "rightCuff": "#171B1D"
+    }
+  },
+  "observations": "White with a broad black chest band containing a red inner band, narrow black neckline/cuff trim. Action-photo perspective adapted; sponsors, repeated Skita shoulder marks and badges removed. Lower body left white. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a broad black chest band containing a red inner band, narrow black neckline/cuff trim. Action-photo perspective adapted; sponsors, repeated Skita shoulder marks and badges removed. Lower body left white. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+    "render_path": "artifacts/footballkitarchive/tier3-france-2026-09-24/team_4f51bec445fc643c0cad-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F4F3EF",
+      "leftSleeve": "#F4F3EF",
+      "rightSleeve": "#F4F3EF",
+      "collar": "#171B1D",
+      "leftCuff": "#171B1D",
+      "rightCuff": "#171B1D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#171B1D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F4F3EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 52,
+        "width": 200,
+        "height": 35,
+        "fill": "#171B1D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 58,
+        "width": 200,
+        "height": 21,
+        "fill": "#B02530",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.19999999999999C24 78.8 36 84.1 44.5 83.19999999999999Q48 83.3 49.2 75.1L52 106H5Z",
+        "fill": "#171B1D",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.19999999999999C176 78.8 164 84.1 155.5 83.19999999999999Q152 83.3 150.8 75.1L148 106H195Z",
+        "fill": "#171B1D",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

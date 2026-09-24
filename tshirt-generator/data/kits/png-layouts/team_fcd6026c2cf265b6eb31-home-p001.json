@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fcd6026c2cf265b6eb31",
+  "team_name": "AFC Wimbledon",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Deep royal/navy blue plain field with yellow round-ring recoloring, broad yellow cuffs and fine yellow raglan/side piping. Repeated Lotto emblems in the collar and cuff tape are deliberately omitted, as are all chest/sleeve marks. The gold seam braid is reduced to a fine color line; source V-neck is not drawn over the existing PNG ring.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fcd6026c2cf265b6eb31-home-492592.jpg",
+      "page_url": "https://www.footballkitarchive.com/afc-wimbledon-2026-27-home-kit-492592/",
+      "sha256": "1f929cfabb3fb475e7ac6906731bc1feddf2d92e9cf8850e2123b35bdf6ab327"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#084592",
+      "leftSleeve": "#084592",
+      "rightSleeve": "#084592",
+      "collar": "#F0CD3C",
+      "leftCuff": "#F0CD3C",
+      "rightCuff": "#F0CD3C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0CD3C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#084592",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.893 11.802L50.892 24.803L34.89 33.804L35.11 34.196L51.108 25.197L75.107 12.198Z",
+        "fill": "#E2C540",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.893 12.198L148.892 25.197L164.89 34.196L165.11 33.804L149.108 24.803L125.107 11.802Z",
+        "fill": "#E2C540",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.45Q53.45 133 49.45 77Z",
+        "fill": "#D7C14A",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.55Q146.55 133 150.55 77Z",
+        "fill": "#D7C14A",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#F0CD3C",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#F0CD3C",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

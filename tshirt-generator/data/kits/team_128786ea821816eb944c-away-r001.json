@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_128786ea821816eb944c",
+  "team_name": "Nea Ionia",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-neo-ionia-2025-26-away-kit-444377/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/qb0Um0OkJRDuTFC/ao-neo-ionia-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_128786ea821816eb944c-away-444377.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#084C8E",
+      "leftSleeve": "#084C8E",
+      "rightSleeve": "#084C8E",
+      "collar": "#E5CD28",
+      "leftCuff": "#084C8E",
+      "rightCuff": "#084C8E"
+    }
+  },
+  "observations": "Royal/navy blue with thin yellow raglan piping and curved yellow lower-side inserts, narrow yellow neckline edging. Independently inspected team Home/Away reference. Retain source season: current 2026/27 where present, otherwise user-authorized 2025/26 fallback. Archive illustrations are visual references, not official HEX; colors and microprint are adapted. All sponsors, lettering, brand symbols and club imagery removed. Original PNG fabric/alpha and physical round collar retained.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#084C8E",
+      "leftSleeve": "#084C8E",
+      "rightSleeve": "#084C8E",
+      "collar": "#E5CD28",
+      "leftCuff": "#084C8E",
+      "rightCuff": "#084C8E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E5CD28",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71 4.571L77 2Q100 7 123 2L129 4.571C131.286 30.857 68.714 30.857 71 4.571Z",
+          "fill": "#084C8E",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#084C8E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.858 10.626L53.771 18.672L44.603 31.954L47.601 71.031L48.399 70.969L45.397 32.046L54.229 19.328L75.142 11.374Z",
+        "fill": "#E6CE26",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.858 11.374L145.771 19.328L154.603 32.046L151.601 70.969L152.399 71.031L155.397 31.954L146.229 18.672L125.142 10.626Z",
+        "fill": "#E6CE26",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            121
+          ],
+          [
+            54,
+            139
+          ],
+          [
+            54,
+            164
+          ],
+          [
+            51,
+            184
+          ],
+          [
+            49,
+            189
+          ],
+          [
+            52,
+            163
+          ],
+          [
+            51,
+            141
+          ]
+        ],
+        "fill": "#E6CE26",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            121
+          ],
+          [
+            146,
+            139
+          ],
+          [
+            146,
+            164
+          ],
+          [
+            149,
+            184
+          ],
+          [
+            151,
+            189
+          ],
+          [
+            148,
+            163
+          ],
+          [
+            149,
+            141
+          ]
+        ],
+        "fill": "#E6CE26",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

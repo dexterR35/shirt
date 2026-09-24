@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_23f479c85d1ad703df78",
+  "team_name": "Arenas Club",
+  "country_name": "Spain",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/arenas-club-de-getxo-2026-27-away-kit-514221/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/29/mOPWnMPSam5WYIZ/arenas-club-de-getxo-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_23f479c85d1ad703df78-away-514221.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#7BC7DF",
+      "leftSleeve": "#7BC7DF",
+      "rightSleeve": "#7BC7DF",
+      "collar": "#F3F2EC",
+      "leftCuff": "#7BC7DF",
+      "rightCuff": "#7BC7DF"
+    }
+  },
+  "observations": "Sky blue plain torso/sleeves with two fine white neckline lines and self-colored cuff. White sponsors, shoulder chevrons, sleeve patch and badge removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky blue plain torso/sleeves with two fine white neckline lines and self-colored cuff. White sponsors, shoulder chevrons, sleeve patch and badge removed. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_23f479c85d1ad703df78-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#7BC7DF",
+      "leftSleeve": "#7BC7DF",
+      "rightSleeve": "#7BC7DF",
+      "collar": "#F3F2EC",
+      "leftCuff": "#7BC7DF",
+      "rightCuff": "#7BC7DF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.423 3.962L77 2Q100 7 123 2L127.577 3.962C130.269 29.231 69.731 29.231 72.423 3.962Z",
+          "fill": "#7BC7DF",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.577 3.038L77 2Q100 7 123 2L125.423 3.038C128.731 26.769 71.269 26.769 74.577 3.038Z",
+          "fill": "#F3F2EC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#7BC7DF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.39999999999999C24 79 36 84.3 44.5 83.39999999999999Q48 83.5 49.2 75.3L52 106H5Z",
+        "fill": "#7BC7DF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.39999999999999C176 79 164 84.3 155.5 83.39999999999999Q152 83.5 150.8 75.3L148 106H195Z",
+        "fill": "#7BC7DF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

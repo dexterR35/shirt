@@ -4,9 +4,9 @@
   "team_name": "Akrites Sykies",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2025/26",
+  "status": "draft",
+  "reason": "Authorized 2025/26 fallback source captured; awaiting source-specific paint and comparison.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,59 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-source-gaps-2026-09-25",
+      "action": "Read live independent team history, discovered from previous-season league listing. Current league listing independently inspected.",
+      "source_url": "https://www.footballkitarchive.com/akrites-sykeon-kits-t79381/",
+      "latest_season": "2025-26",
+      "observed_latest_variants": [
+        "home",
+        "away"
+      ],
+      "outcome": "Independent live archive history latest season 2025-26, with home/away entries. No current 2026/27 home reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_e8c6715e925dbbaef4b8-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/akrites-sykeon-2025-26-home-kit-443998/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/mINsKSUixR9eHuy/akrites-sykeon-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e8c6715e925dbbaef4b8-home-443998.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#255983",
+      "rightCuff": "#255983"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_084546726c29da4d9cca.json",
+    "source_kit_id": "443998"
+  }
 }

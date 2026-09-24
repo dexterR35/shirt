@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9d486ac4fc7d63ff1dd3",
+  "team_name": "Sorrento",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with adjacent red/black diagonal sash from viewer-right shoulder to left hem, red/black fine neckline/cuff edges. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9d486ac4fc7d63ff1dd3-away-512823.jpg",
+      "page_url": "https://www.footballkitarchive.com/sorrento-calcio-1945-2026-27-away-kit-512823/",
+      "sha256": "3b470cbbf42bd77d40498b0c2cc508db710fc76837ab3993695642b8c0adf7c2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F2EF",
+      "leftSleeve": "#F2F2EF",
+      "rightSleeve": "#F2F2EF",
+      "collar": "#C9303E",
+      "leftCuff": "#192028",
+      "rightCuff": "#192028"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C9303E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.6 4.314L77 2Q100 7 123 2L128.4 4.314C130.857 30.171 69.143 30.171 71.6 4.314Z",
+          "fill": "#F2F2EF",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            133,
+            0
+          ],
+          [
+            149,
+            0
+          ],
+          [
+            64,
+            200
+          ],
+          [
+            48,
+            200
+          ]
+        ],
+        "fill": "#C02632",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            149,
+            0
+          ],
+          [
+            165,
+            0
+          ],
+          [
+            80,
+            200
+          ],
+          [
+            64,
+            200
+          ]
+        ],
+        "fill": "#192028",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.1C24 78.7 36 84 44.5 83.1Q48 83.2 49.2 75L52 106H5Z",
+        "fill": "#192028",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.5C24 80.10000000000001 36 85.4 44.5 84.5Q48 84.60000000000001 49.2 76.4L52 106H5Z",
+        "fill": "#C9303E",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 74.1C176 78.7 164 84 155.5 83.1Q152 83.2 150.8 75L148 106H195Z",
+        "fill": "#192028",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.5C176 80.10000000000001 164 85.4 155.5 84.5Q152 84.60000000000001 150.8 76.4L148 106H195Z",
+        "fill": "#C9303E",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

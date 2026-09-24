@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_18322926958343819758",
+  "team_name": "Pineto",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Very pale mint/white with blue neckline and narrow blue/white cuff bands; blue shoulder seam inserts. Worn action source is low resolution; all badges/sponsors removed. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_18322926958343819758-away-508612.jpg",
+      "page_url": "https://www.footballkitarchive.com/pineto-calcio-2026-27-away-kit-508612/",
+      "sha256": "fed1a0444acfb0a312340c24c5ba1c991d44b0b0509306fd4aaaeb36c54718c2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EAF0EA",
+      "leftSleeve": "#EAF0EA",
+      "rightSleeve": "#EAF0EA",
+      "collar": "#0871AB",
+      "leftCuff": "#0872B6",
+      "rightCuff": "#0872B6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#0871AB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EAF0EA",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            5
+          ],
+          [
+            56,
+            15
+          ],
+          [
+            44,
+            29
+          ],
+          [
+            44,
+            40
+          ],
+          [
+            54,
+            25
+          ],
+          [
+            73,
+            12
+          ]
+        ],
+        "fill": "#1378B4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            127,
+            5
+          ],
+          [
+            144,
+            15
+          ],
+          [
+            156,
+            29
+          ],
+          [
+            156,
+            40
+          ],
+          [
+            146,
+            25
+          ],
+          [
+            127,
+            12
+          ]
+        ],
+        "fill": "#1378B4",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.1C24 76.7 36 82 44.5 81.1Q48 81.2 49.2 73L52 106H5Z",
+        "fill": "#0872B6",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 74.3C24 78.9 36 84.2 44.5 83.3Q48 83.4 49.2 75.2L52 106H5Z",
+        "fill": "#F2F2EF",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M12 75.8C24 80.4 36 85.7 44.5 84.8Q48 84.9 49.2 76.7L52 106H5Z",
+        "fill": "#0872B6",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 72.1C176 76.7 164 82 155.5 81.1Q152 81.2 150.8 73L148 106H195Z",
+        "fill": "#0872B6",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.3C176 78.9 164 84.2 155.5 83.3Q152 83.4 150.8 75.2L148 106H195Z",
+        "fill": "#F2F2EF",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 75.8C176 80.4 164 85.7 155.5 84.8Q152 84.9 150.8 76.7L148 106H195Z",
+        "fill": "#0872B6",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

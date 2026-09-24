@@ -4,8 +4,8 @@
   "team_name": "Leicester City",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_36746d6ffeac6ffbae03-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/leicester-city-2026-27-home-kit-492483/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/JeNo53tlc6jF9rO/leicester-city-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_36746d6ffeac6ffbae03-home-492483.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#234BAA",
+      "leftSleeve": "#234BAA",
+      "rightSleeve": "#234BAA",
+      "collar": "#F3F2F1",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with darker ornamental dragon/floral vertical columns, three white shoulder strips and white cuff/ring trim. The decorative dragon print is distinct from the fox crest, which is removed. Discrete constant-color contours from branding-free crop [400,930,570,420], 360px sampling, 100 × 73.7 unit reflected repetition; hidden print placement is adapted, and source fabric pixels are not embedded. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_36746d6ffeac6ffbae03-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_404e1f48b245d33c9a3b.json",
+    "source_kit_id": "492483"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

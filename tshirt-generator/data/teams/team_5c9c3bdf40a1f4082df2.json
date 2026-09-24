@@ -11,42 +11,68 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Tampere United",
+      "design": "Plain",
+      "colors": [
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/tampere-united-2026-home-kit-508605/",
+        "kit_id": "508605",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/ykkonen-kits-2026-l85980/",
+        "record_path": "data/research/footballkitarchive/records/research_ece075444ceb79b23a8d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ykkonen-2026.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Tampere United",
+      "design": "Plain",
+      "colors": [
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Puma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/tampere-united-2026-away-kit-508604/",
+        "kit_id": "508604",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/ykkonen-kits-2026-l85980/",
+        "record_path": "data/research/footballkitarchive/records/research_1a4a9ac3914fb72f0dbd.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/ykkonen-2026.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

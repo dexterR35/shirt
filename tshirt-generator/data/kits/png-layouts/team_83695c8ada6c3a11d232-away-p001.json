@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_83695c8ada6c3a11d232",
+  "team_name": "FC Ingolstadt",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-germany-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "White with three broad charcoal/black vertical stripes interrupted by the white sponsor field, dark side inserts, red raglan hairline and red lower-side wedges; black collar/cuffs. Fine low-contrast irregular ink in the black stripes is reduced; no printed marks or source fabric shading retained. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_83695c8ada6c3a11d232-away-494227.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-ingolstadt-2026-27-away-kit-494227/",
+      "sha256": "54e540d90ca787ed416a7cf3fde1f20fec2056bfb7cbd93528891d6c13b7bd04"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#F3F3F1",
+      "rightSleeve": "#F3F3F1",
+      "collar": "#181B20",
+      "leftCuff": "#181B20",
+      "rightCuff": "#181B20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#181B20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F3F3F1",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#25262B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#25262B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 114,
+        "y": 0,
+        "width": 13,
+        "height": 200,
+        "fill": "#25262B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 55,
+        "width": 200,
+        "height": 29,
+        "fill": "#F3F3F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H54Q58 133 54 77Z",
+        "fill": "#25262B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H146Q142 133 146 77Z",
+        "fill": "#25262B",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.896 9.773L50.838 20.809L41.75 37.985L47.754 70.046L48.246 69.954L42.25 38.015L51.162 21.191L75.104 10.227Z",
+        "fill": "#BB3843",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.896 10.227L148.838 21.191L157.75 38.015L151.754 69.954L152.246 70.046L158.25 37.985L149.162 20.809L125.104 9.773Z",
+        "fill": "#BB3843",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            179
+          ],
+          [
+            56,
+            190
+          ],
+          [
+            56,
+            200
+          ],
+          [
+            49,
+            200
+          ]
+        ],
+        "fill": "#BD2832",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            179
+          ],
+          [
+            144,
+            190
+          ],
+          [
+            144,
+            200
+          ],
+          [
+            151,
+            200
+          ]
+        ],
+        "fill": "#BD2832",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.3C24 77.9 36 83.2 44.5 82.3Q48 82.4 49.2 74.2L52 106H5Z",
+        "fill": "#181B20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.3C176 77.9 164 83.2 155.5 82.3Q152 82.4 150.8 74.2L148 106H195Z",
+        "fill": "#181B20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

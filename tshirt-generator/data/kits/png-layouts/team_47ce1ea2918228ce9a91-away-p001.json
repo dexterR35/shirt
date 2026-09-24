@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_47ce1ea2918228ce9a91",
+  "team_name": "UD Logroñés",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Pale aqua/sky-blue body/sleeves, plain white ring and sleeve-edge bands; subtle cloth ribs left to original PNG. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_47ce1ea2918228ce9a91-away-500929.jpg",
+      "page_url": "https://www.footballkitarchive.com/ud-logrones-2026-27-away-kit-500929/",
+      "sha256": "3a9da4c8acc6454bc852687d1165451fa7e2f1dda7725f41be5e9774bc754b9e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#9FDCDF",
+      "leftSleeve": "#9FDCDF",
+      "rightSleeve": "#9FDCDF",
+      "collar": "#F3F2EC",
+      "leftCuff": "#9FDCDF",
+      "rightCuff": "#9FDCDF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#9FDCDF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

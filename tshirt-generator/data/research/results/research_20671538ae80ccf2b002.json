@@ -4,8 +4,8 @@
   "team_name": "Atlético Madrileño",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b5d1238095a73b75086a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atletico-madrileno-2026-27-home-kit-491316/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/29/HfGrlA1ma1LQAAq/atletico-madrileno-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b5d1238095a73b75086a-home-491316.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F2EEE6",
+      "leftSleeve": "#F2EEE6",
+      "rightSleeve": "#F2EEE6",
+      "collar": "#172F62",
+      "leftCuff": "#162D60",
+      "rightCuff": "#162D60"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_e7bcd589b2e24bfac258-home-r002.json; reserve evidence/identity stays separate. Red/ivory columns continuing on sleeves, narrow red border pinlines and fine elongated fork motifs within red stripes. Source stripe/motif spacing revised; navy collar and cuffs remain on the PNG seams. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b5d1238095a73b75086a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_20671538ae80ccf2b002.json",
+    "source_kit_id": "491316"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_16e0133b794cc03d3a5d",
+  "team_name": "Gubbio",
+  "country_name": "Italy",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-gubbio-2026-27-home-kit-516184/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/VITl6C9fZSClyps/as-gubbio-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_16e0133b794cc03d3a5d-home-516184.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Navy",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#AF2933",
+      "leftSleeve": "#152A36",
+      "rightSleeve": "#AF2933",
+      "collar": "#DFB332",
+      "leftCuff": "#E4B330",
+      "rightCuff": "#E4B330"
+    }
+  },
+  "observations": "Red viewer-left and near-navy right torso halves with narrow opposite side stripes, a dark left shoulder yoke and reversed sleeve colors, yellow ring/cuffs and fine yellow lower-side inserts. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red viewer-left and near-navy right torso halves with narrow opposite side stripes, a dark left shoulder yoke and reversed sleeve colors, yellow ring/cuffs and fine yellow lower-side inserts. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_16e0133b794cc03d3a5d-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#AF2933",
+      "leftSleeve": "#152A36",
+      "rightSleeve": "#AF2933",
+      "collar": "#DFB332",
+      "leftCuff": "#E4B330",
+      "rightCuff": "#E4B330"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DFB332",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#AF2933",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 52,
+        "height": 200,
+        "fill": "#152A36",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 5,
+        "height": 200,
+        "fill": "#152A36",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 146,
+        "y": 0,
+        "width": 6,
+        "height": 200,
+        "fill": "#AF2933",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 28,
+        "fill": "#152A36",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H51Q55 133 51 77Z",
+        "fill": "#D1A927",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149Q145 133 149 77Z",
+        "fill": "#D1A927",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#E4B330",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#E4B330",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

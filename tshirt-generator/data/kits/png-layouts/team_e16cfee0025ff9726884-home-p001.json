@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e16cfee0025ff9726884",
+  "team_name": "Grosseto",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with pale central vertical bars above/below chest sponsor space, white side stripes and white sleeve ends/ring. Tiny repeated lettering inside pale bars removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e16cfee0025ff9726884-home-508277.jpg",
+      "page_url": "https://www.footballkitarchive.com/us-grosseto-2026-27-home-kit-508277/",
+      "sha256": "e118d157c254f516a69bbc11b3b1d1d92ccecae3b8b32d9c04a9d0dc0b943815"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D82032",
+      "leftSleeve": "#D82032",
+      "rightSleeve": "#D82032",
+      "collar": "#F2F2EE",
+      "leftCuff": "#F2F2EE",
+      "rightCuff": "#F2F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74 3.286L77 2Q100 7 123 2L126 3.286C129.143 27.429 70.857 27.429 74 3.286Z",
+          "fill": "#D82032",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D82032",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 15,
+        "width": 12,
+        "height": 39,
+        "fill": "#D7E6E6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 94,
+        "y": 118,
+        "width": 12,
+        "height": 82,
+        "fill": "#D7E6E6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H53Q57 133 53 77Z",
+        "fill": "#F2F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H147Q143 133 147 77Z",
+        "fill": "#F2F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.89999999999999C24 75.5 36 80.8 44.5 79.89999999999999Q48 80 49.2 71.8L52 106H5Z",
+        "fill": "#F2F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.89999999999999C176 75.5 164 80.8 155.5 79.89999999999999Q152 80 150.8 71.8L148 106H195Z",
+        "fill": "#F2F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

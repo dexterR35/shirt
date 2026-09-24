@@ -4,8 +4,8 @@
   "team_name": "Cartagena",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_be5da2f41c97d42c72a3-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-cartagena-2026-27-away-kit-518807/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/16/7zeOOB7rjcQM84q/fc-cartagena-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_be5da2f41c97d42c72a3-away-518807.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Gold",
+      "Black"
+    ],
+    "values": {
+      "body": "#C71577",
+      "leftSleeve": "#C71577",
+      "rightSleeve": "#C71577",
+      "collar": "#DDC883",
+      "leftCuff": "#21212B",
+      "rightCuff": "#21212B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Fuchsia with subtle framed Roman-mosaic rosettes and stepped rectangular borders, black/gold ring/cuffs and fine gold hem. Ornamental geometry redrawn at measured scale; minute Greek-key dots simplified, no source wrinkles copied. All sponsor and lettering excluded. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_be5da2f41c97d42c72a3-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5021b1d281fc91cd1765.json",
+    "source_kit_id": "518807"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

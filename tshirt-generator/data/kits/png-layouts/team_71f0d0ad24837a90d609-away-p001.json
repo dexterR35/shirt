@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_71f0d0ad24837a90d609",
+  "team_name": "Novara",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-italy-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Golden yellow with one broad blue upper-chest band and blue sleeve bands above yellow ends, yellow ring. Low-resolution independent retail-window front limits tiny trim details; sponsors/logos removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_71f0d0ad24837a90d609-away-511703.jpg",
+      "page_url": "https://www.footballkitarchive.com/novara-fc-2026-27-away-kit-511703/",
+      "sha256": "b3106cd698f775fab10c1ca97644d4ebd8a075324eeefdd9c1f3b43fa4abde0d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2BD17",
+      "leftSleeve": "#F2BD17",
+      "rightSleeve": "#F2BD17",
+      "collar": "#C8A314",
+      "leftCuff": "#1B73A6",
+      "rightCuff": "#1B73A6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C8A314",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73 3.714L77 2Q100 7 123 2L127 3.714C129.857 28.571 70.143 28.571 73 3.714Z",
+          "fill": "#EDBA18",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2BD17",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 54,
+        "width": 200,
+        "height": 18,
+        "fill": "#2076A6",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 67.6C24 72.2 36 77.5 44.5 76.6Q48 76.7 49.2 68.5L52 106H5Z",
+        "fill": "#1B73A6",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 71.1C24 75.7 36 81 44.5 80.1Q48 80.2 49.2 72L52 106H5Z",
+        "fill": "#EDBA18",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 67.6C176 72.2 164 77.5 155.5 76.6Q152 76.7 150.8 68.5L148 106H195Z",
+        "fill": "#1B73A6",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.1C176 75.7 164 81 155.5 80.1Q152 80.2 150.8 72L148 106H195Z",
+        "fill": "#EDBA18",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

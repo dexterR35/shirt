@@ -4,8 +4,8 @@
   "team_name": "Sambenedettese",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_2c3daf1deb6eb6536c3b-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/us-sambenedettese-2026-27-away-kit-513521/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/26/oIaMR1ld6l9eYiV/us-sambenedettese-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2c3daf1deb6eb6536c3b-away-513521.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#E4DFCA",
+      "leftSleeve": "#E4DFCA",
+      "rightSleeve": "#E4DFCA",
+      "collar": "#E4DFCA",
+      "leftCuff": "#182D71",
+      "rightCuff": "#182D71"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm cream/beige with cream round ring and navy sleeve ends containing a thin gold stripe. Independent current Home/Away reference visually inspected. No event substitution. All sponsors, emblems, manufacturer marks and lettering removed. Colors are visual estimates; original PNG fabric/alpha and round physical collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-c-2026-09-25/team_2c3daf1deb6eb6536c3b-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7fe72096f365f9ae9970.json",
+    "source_kit_id": "513521"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

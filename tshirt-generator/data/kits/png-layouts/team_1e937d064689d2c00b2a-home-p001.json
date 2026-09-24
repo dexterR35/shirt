@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1e937d064689d2c00b2a",
+  "team_name": "Cannes",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-france-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Red with three broad white vertical bands, red sleeves and white shoulder inserts/ring. Bands measured from this variant’s source; minor stretch and diagonal perspective adapted. Sponsor and all insignia removed. Colors are visual estimates. Original PNG fabric and alpha preserved; only the existing physical round collar is recolored.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1e937d064689d2c00b2a-home-493433.jpg",
+      "page_url": "https://www.footballkitarchive.com/as-cannes-2026-27-home-kit-493433/",
+      "sha256": "968eb2686bac9b0160de2b4af7910e20d507c21750c30be9b4335bbee98fbb4d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F32123",
+      "leftSleeve": "#F32123",
+      "rightSleeve": "#F32123",
+      "collar": "#F4F3EF",
+      "leftCuff": "#F32123",
+      "rightCuff": "#F32123"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F4F3EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M74.813 2.938L77 2Q100 7 123 2L125.188 2.938C128.563 26.5 71.438 26.5 74.813 2.938Z",
+          "fill": "#F32123",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F32123",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 88,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#F4F3EF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

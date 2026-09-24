@@ -4,8 +4,8 @@
   "team_name": "Doncaster Rovers",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_c1bcbf6ab2eb4d79fcfe-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/doncaster-rovers-2026-27-home-kit-486692/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/02/sCBPMO7cmB1Vt8u/doncaster-rovers-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c1bcbf6ab2eb4d79fcfe-home-486692.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#C9294B",
+      "leftSleeve": "#C9294B",
+      "rightSleeve": "#C9294B",
+      "collar": "#C9294B",
+      "leftCuff": "#CAB97D",
+      "rightCuff": "#CAB97D"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Five white horizontal bands across a red torso, including the white hem; bands continue across sleeves above broad pale-gold cuffs. Red neckline with thin gold inner edge recolors the existing round ring. Band heights are measured from the independent flat front, without warping by source folds. All crests, sponsor and sleeve marks omitted.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-a-2026-09-24/team_c1bcbf6ab2eb4d79fcfe-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_268dfd5feb6039137f66.json",
+    "source_kit_id": "486692"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

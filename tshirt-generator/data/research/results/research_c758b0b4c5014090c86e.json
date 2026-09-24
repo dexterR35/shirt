@@ -4,8 +4,8 @@
   "team_name": "Villarreal B",
   "country_name": "Spain",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_d290beeacadaf315d6c3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/villarreal-b-2026-27-home-kit-487923/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/08/bm610f6xDzHBhmj/villarreal-b-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d290beeacadaf315d6c3-home-487923.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#ECEB00",
+      "leftSleeve": "#ECEB00",
+      "rightSleeve": "#ECEB00",
+      "collar": "#E7E500",
+      "leftCuff": "#203E46",
+      "rightCuff": "#203E46"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_37e82607d6a39774c381-home-r001.json; reserve evidence/identity stays separate. Yellow body/sleeves, thin navy shoulder chevrons and dark underarm inserts with double navy/yellow sleeve edges. Independent current variant front inspected. All sponsors, manufacturer marks, club crests and lettering removed. Colors are estimates; original PNG fabric/alpha and existing round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-b-2026-09-24/team_d290beeacadaf315d6c3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c758b0b4c5014090c86e.json",
+    "source_kit_id": "487923"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

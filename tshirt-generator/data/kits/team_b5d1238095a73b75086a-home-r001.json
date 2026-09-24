@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b5d1238095a73b75086a",
+  "team_name": "Atlético Madrileño",
+  "country_name": "Spain",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/atletico-madrileno-2026-27-home-kit-491316/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/29/HfGrlA1ma1LQAAq/atletico-madrileno-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b5d1238095a73b75086a-home-491316.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F2EEE6",
+      "leftSleeve": "#F2EEE6",
+      "rightSleeve": "#F2EEE6",
+      "collar": "#172F62",
+      "leftCuff": "#162D60",
+      "rightCuff": "#162D60"
+    }
+  },
+  "observations": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_e7bcd589b2e24bfac258-home-r002.json; reserve evidence/identity stays separate. Red/ivory columns continuing on sleeves, narrow red border pinlines and fine elongated fork motifs within red stripes. Source stripe/motif spacing revised; navy collar and cuffs remain on the PNG seams. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve archive front was visually compared with this same current design. Shared reviewed geometry from team_e7bcd589b2e24bfac258-home-r002.json; reserve evidence/identity stays separate. Red/ivory columns continuing on sleeves, narrow red border pinlines and fine elongated fork motifs within red stripes. Source stripe/motif spacing revised; navy collar and cuffs remain on the PNG seams. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_b5d1238095a73b75086a-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2EEE6",
+      "leftSleeve": "#F2EEE6",
+      "rightSleeve": "#F2EEE6",
+      "collar": "#172F62",
+      "leftCuff": "#162D60",
+      "rightCuff": "#162D60"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#172F62",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2EEE6",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 13,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 14.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 27.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 33,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M20.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM20.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM20.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM20.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 47,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 61.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 67,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM54.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM54.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM54.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 95.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M88.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM88.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM88.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM88.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM122.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM122.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM122.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 149,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 163.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 169,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M156.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM156.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM156.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM156.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 183,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 184.7,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 197.5,
+        "y": 0,
+        "width": 0.38,
+        "height": 200,
+        "fill": "#851B2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 203,
+        "y": 0,
+        "width": 0.42,
+        "height": 200,
+        "fill": "#C91930",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M190.5 -4v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V-4h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V-4ZM190.5 54v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V54h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V54ZM190.5 119v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V119h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V119ZM190.5 180v17l-1.6 1.5v3l2.6 1.6 2.6-1.6v-3l-1.6-1.5V180h-.4v17.2l1.6 1.5v2.6l-2.2 1.4-2.2-1.4v-2.6l1.6-1.5V180Z",
+        "fill": "#8F1B2B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#162D60",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#162D60",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

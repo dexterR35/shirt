@@ -4,8 +4,8 @@
   "team_name": "Huesca",
   "country_name": "Spain",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_56189f08c3b9a3f28d9a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sd-huesca-2026-27-away-kit-504590/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/09/rT72bSUuF0pE6hA/sd-huesca-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_56189f08c3b9a3f28d9a-away-504590.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Green",
+      "Red"
+    ],
+    "values": {
+      "body": "#1A664D",
+      "leftSleeve": "#1A664D",
+      "rightSleeve": "#1A664D",
+      "collar": "#A6253B",
+      "leftCuff": "#A6253B",
+      "rightCuff": "#A6253B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Green with darker/lighter pixel-stepped cross/diamond lattice across torso, solid green sleeves and fine red raglan/cuff/ring edging. Constant-color ink contours from unobscured crop [332,537,297,383], 240px sample, adapted repeat 65 by 83.8. Source fabric/photo pixels are not embedded. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-spain-a-2026-09-24/team_56189f08c3b9a3f28d9a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_aa418597a7f4ed6938a7.json",
+    "source_kit_id": "504590"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-spain-a-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

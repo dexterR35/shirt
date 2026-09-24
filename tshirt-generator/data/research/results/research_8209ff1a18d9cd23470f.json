@@ -4,8 +4,8 @@
   "team_name": "MK Dons",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_8d74ae2a21bbd63263e3-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/mk-dons-2026-27-home-kit-498268/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/23/XgVomWMin1Oh3tD/mk-dons-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_8d74ae2a21bbd63263e3-home-498268.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F3F2F1",
+      "leftSleeve": "#F3F2F1",
+      "rightSleeve": "#F3F2F1",
+      "collar": "#BAA56F",
+      "leftCuff": "#BAA56F",
+      "rightCuff": "#BAA56F"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with gold/white neck and cuff trim. Close inspection revealed that the faint all-over circular print consists entirely of MK Dons badges and lettering; all are removed. Small angular white cuff border details are represented by gold/white trim bands on the common cuff/ring; physical collar and original fabric remain unchanged. Reebok and sponsor marks removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_8d74ae2a21bbd63263e3-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8209ff1a18d9cd23470f.json",
+    "source_kit_id": "498268"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

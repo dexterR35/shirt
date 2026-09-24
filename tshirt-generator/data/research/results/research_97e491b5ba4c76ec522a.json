@@ -4,8 +4,8 @@
   "team_name": "Lumezzane",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_b3edfc870128015b1232-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-lumezzane-2026-27-away-kit-523645/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/ttP6XOv0EeysdM0/fc-lumezzane-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b3edfc870128015b1232-away-523645.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F2F2EE",
+      "leftSleeve": "#DB3728",
+      "rightSleeve": "#182739",
+      "collar": "#172E43",
+      "leftCuff": "#E03828",
+      "rightCuff": "#E03828"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with a red viewer-left sleeve and navy right sleeve, red/white/navy cuff bands and a fine red/navy ring. Sponsors and all badges removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_b3edfc870128015b1232-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_97e491b5ba4c76ec522a.json",
+    "source_kit_id": "523645"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,8 +4,8 @@
   "team_name": "Gubbio",
   "country_name": "Italy",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_16e0133b794cc03d3a5d-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/as-gubbio-2026-27-away-kit-516185/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/kiUOSnKvXkH3IT3/as-gubbio-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_16e0133b794cc03d3a5d-away-516185.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#BFB5A2",
+      "leftSleeve": "#BFB5A2",
+      "rightSleeve": "#BFB5A2",
+      "collar": "#25282A",
+      "leftCuff": "#282729",
+      "rightCuff": "#282729"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm stone/taupe with charcoal round ring and red/black sleeve-end bands. Worn front and lighting inform estimated colors; all branding removed. Independent current variant source visually inspected. All sponsorship, manufacturer marks, club emblems and lettering removed. Colors are visual estimates. Original PNG fabric/alpha and existing physical round collar preserved.",
+    "render_path": "artifacts/footballkitarchive/tier3-italy-b-2026-09-25/team_16e0133b794cc03d3a5d-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3b41e67db267dffb7dee.json",
+    "source_kit_id": "516185"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-italy-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_930a173e45a2408dd6ac",
+  "team_name": "Hércules",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-spain-a-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Muted red plain field with white ring and very fine white shoulder/raglan piping; red cuffs. Repeated Kappa and all sponsorship/crest removed. Source polo collar limited to existing neckline color. Colors are visual estimates; shared original PNG fabric/alpha and physical round collar are preserved.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_930a173e45a2408dd6ac-away-504636.jpg",
+      "page_url": "https://www.footballkitarchive.com/hercules-cf-2026-27-away-kit-504636/",
+      "sha256": "36a6cf15c8df0188b1166b1fe0e7c72e1b9615809a67227cf196e0a3c016b1b1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BA3B49",
+      "leftSleeve": "#BA3B49",
+      "rightSleeve": "#BA3B49",
+      "collar": "#F3F2EC",
+      "leftCuff": "#BA3B49",
+      "rightCuff": "#BA3B49"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2EC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BA3B49",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M74.92 10.79L53.871 18.816L44.776 31.974L47.776 71.017L48.224 70.983L45.224 32.026L54.129 19.184L75.08 11.21Z",
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124.92 11.21L145.871 19.184L154.776 32.026L151.776 70.983L152.224 71.017L155.224 31.974L146.129 18.816L125.08 10.79Z",
+        "fill": "#F3F2EC",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

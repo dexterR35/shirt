@@ -4,8 +4,8 @@
   "team_name": "Stockport County",
   "country_name": "England",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_30d142b5ba5aa667cd73-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/stockport-county-2026-27-home-kit-493087/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/21/oRAZlLnrli5qlJZ/stockport-county-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_30d142b5ba5aa667cd73-home-493087.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#285E92",
+      "leftSleeve": "#285E92",
+      "rightSleeve": "#285E92",
+      "collar": "#285E92",
+      "leftCuff": "#285E92",
+      "rightCuff": "#285E92"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with irregular fine cyan/red diagonal and vertical broken line groups, blue cuffs/ring. Source is a flat illustration; separate light-ink/red-channel masks preserve the observed multicolor print forms without sponsor pixels. Discrete constant-color contours from branding-free crop [218,420,234,310], 360px sampling, 100 × 132.5 unit reflected repetition; hidden print placement is adapted, and source fabric pixels are not embedded. Discrete constant-color contours from branding-free crop [218,420,234,310], 320px sampling, 100 × 132.5 unit reflected repetition; hidden print placement is adapted, and source fabric pixels are not embedded. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+    "render_path": "artifacts/footballkitarchive/tier3-england-b-2026-09-24/team_30d142b5ba5aa667cd73-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5c2f37e85fecee7fbf64.json",
+    "source_kit_id": "493087"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-england-b-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

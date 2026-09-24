@@ -4,8 +4,8 @@
   "team_name": "Jahn Regensburg",
   "country_name": "Germany",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_5e71f4ec88d2ad68f51a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/jahn-regensburg-2026-27-home-kit-492319/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/04/pyWpoYYz1W2DfAB/jahn-regensburg-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5e71f4ec88d2ad68f51a-home-492319.jpg",
+      "checked_at": "2026-09-24",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#F3F3F1",
+      "leftSleeve": "#9F1028",
+      "rightSleeve": "#9F1028",
+      "collar": "#771123",
+      "leftCuff": "#F3F3F1",
+      "rightCuff": "#F3F3F1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-24",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with one broad red central stripe, red/claret raglan sleeves and claret ring, off-white cuff band with red edge. Close inspection shows the stripe print includes letters and heraldic emblems: those are all removed with manufacturer shoulder marks and sponsor, preserving the red stripe itself. Colors are visual estimates. Common-silhouette adaptation preserves the original PNG fabric/alpha and physical round collar.",
+    "render_path": "artifacts/footballkitarchive/tier3-germany-2026-09-24/team_5e71f4ec88d2ad68f51a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8d0562c218eb2325d6e1.json",
+    "source_kit_id": "492319"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-24",
+      "batch": "tier3-germany-2026-09-24",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

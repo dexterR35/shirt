@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fdcc55141dadebf3f633",
+  "team_name": "Notts County",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-england-b-2026-09-24",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-24",
+  "human_approved": false,
+  "review_scope": "Black shirt with a broad central white stripe and white side bands, bounded by paired fine companion lines; solid black sleeves/shoulders, white ring and white cuffs. Stripe positions/spacing follow the saved front. All sponsor and badges removed. All palette values are visual estimates. Paint adapts the observed color layout to the unchanged original PNG; no second physical collar is drawn.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fdcc55141dadebf3f633-home-496759.jpg",
+      "page_url": "https://www.footballkitarchive.com/notts-county-2026-27-home-kit-496759/",
+      "sha256": "3df81de6b8b5cfc5b55c724582585e5391c4fb37708ecacc626c064f77c5a86f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#151B1D",
+      "leftSleeve": "#151B1D",
+      "rightSleeve": "#151B1D",
+      "collar": "#F3F2F1",
+      "leftCuff": "#F3F2F1",
+      "rightCuff": "#F3F2F1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F3F2F1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#151B1D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 45,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 28,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 143,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 59,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 80,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 83,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 119,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#F3F2F1",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            1
+          ],
+          [
+            73,
+            14
+          ],
+          [
+            49,
+            25
+          ],
+          [
+            37,
+            27
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            47,
+            12
+          ]
+        ],
+        "fill": "#151B1D",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            1
+          ],
+          [
+            127,
+            14
+          ],
+          [
+            151,
+            25
+          ],
+          [
+            163,
+            27
+          ],
+          [
+            170,
+            20
+          ],
+          [
+            153,
+            12
+          ]
+        ],
+        "fill": "#151B1D",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F3F2F1",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F3F2F1",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}
