@@ -24,16 +24,9 @@ import {EXPORT_SIZES, EXPORT_FORMATS, EXPORT_RATIOS, exportDimensions, renderIma
 import ConfirmDialog from "./ConfirmDialog.jsx";
 import {tier1Items, renderTier1Zip} from "./lib/tier1-export.js";
 import {tierItems} from "./lib/tier-export.js";
-import { validateShirtView, shirtViewLabel, viewFilenameSuffix } from './lib/shirt-view.js';
-import { facingForVariant } from './lib/perspective-shirt.js';
 
 const VIEW_KEY = "tshirt-studio:view";
 const LIGHTING_KEY = "tshirt-studio:lighting";
-const ANGLE_KEY = "tshirt-studio:shirt-angle";
-function readShirtAngle() {
-  try { return validateShirtView(sessionStorage.getItem(ANGLE_KEY) || 'front'); }
-  catch { return 'front'; }
-}
 function readLighting() {
   try { return validateLighting(Number(localStorage.getItem(LIGHTING_KEY) ?? LIGHTING_DEFAULT)); }
   catch { return LIGHTING_DEFAULT; }
@@ -71,7 +64,6 @@ export default function App() {
     [exportFormat, setExportFormat] = useState("png"),
     [exportRatio, setExportRatio] = useState("1:1"),
     [lighting, setLighting] = useState(readLighting),
-    [shirtView, setShirtView] = useState(readShirtAngle),
     // The download waiting for a yes/no answer: {items, asZip, tier1?}, or null.
     [pendingDownload, setPendingDownload] = useState(null),
     [exporting, setExporting] = useState(""),
@@ -92,9 +84,6 @@ export default function App() {
     // Tier 2 and Tier 3 downloads never run together (exporting gates both), so one ref suffices.
     tierController = useRef(null);
   const zoom = useZoom();
-  useEffect(() => {
-    try { sessionStorage.setItem(ANGLE_KEY, shirtView); } catch { /* optional */ }
-  }, [shirtView]);
   useEffect(() => {
     try { localStorage.setItem(LIGHTING_KEY, String(lighting)); } catch { /* optional */ }
   }, [lighting]);
@@ -246,12 +235,12 @@ export default function App() {
       for (const [i, item] of items.entries()) {
         setExporting(`Preparing ${i + 1} / ${items.length}…`);
         const {config, custom} = await exportConfig(item);
-        files.push({name: exportFilename(item, size, format, custom, ratio, shirtView), blob: await renderImage(config, size, format, ratio, lighting, shirtView, facingForVariant(item.variant))});
+        files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio, lighting)});
         recordDownload(item);
       }
       if (asZip) {
         setExporting("Zipping…");
-        downloadBlob(await zipFiles(files), zipFilename(files.length, size, format, ratio, shirtView));
+        downloadBlob(await zipFiles(files), zipFilename(files.length, size, format, ratio));
       } else {
         // Space the downloads out so the browser accepts each file.
         for (const f of files) {
@@ -286,11 +275,11 @@ export default function App() {
     const {width, height} = exportDimensions(size, ratio);
     try {
       const blob = await renderTier1Zip(items, {
-        size, ratio, lighting, view: shirtView, signal: abort.signal,
+        size, ratio, lighting, signal: abort.signal,
         onProgress: (done, total, item) => setExporting(`Tier 1: ${done + 1} / ${total} · ${item.team_name} ${variantLabel(item.variant)}…`),
       });
       abort.signal.throwIfAborted();
-      downloadBlob(blob, `tier-1-${items.length}-${width}x${height}${viewFilenameSuffix(shirtView)}-png.zip`);
+      downloadBlob(blob, `tier-1-${items.length}-${width}x${height}-png.zip`);
       setNotice(`${items.length} Tier 1 PNGs downloaded at ${width} × ${height} px in one ZIP.`);
     } catch (error) {
       setNotice(abort.signal.aborted ? "Tier 1 export cancelled. No files were downloaded." : error.message);
@@ -316,11 +305,11 @@ export default function App() {
     const {width, height} = exportDimensions(size, ratio);
     try {
       const blob = await renderTier1Zip(items, {
-        size, ratio, lighting, view: shirtView, signal: abort.signal,
+        size, ratio, lighting, signal: abort.signal,
         onProgress: (done, total, item) => setExporting(`${tierLabel}: ${done + 1} / ${total} · ${item.team_name} ${variantLabel(item.variant)}…`),
       });
       abort.signal.throwIfAborted();
-      downloadBlob(blob, `${tierLabel.toLowerCase().replace(" ", "-")}-${items.length}-${width}x${height}${viewFilenameSuffix(shirtView)}-png.zip`);
+      downloadBlob(blob, `${tierLabel.toLowerCase().replace(" ", "-")}-${items.length}-${width}x${height}-png.zip`);
       setNotice(`${items.length} ${tierLabel} PNGs downloaded at ${width} × ${height} px in one ZIP.`);
     } catch (error) {
       setNotice(abort.signal.aborted ? `${tierLabel} export cancelled. No files were downloaded.` : error.message);
@@ -334,14 +323,14 @@ export default function App() {
     if (tier1) return {
       title: "Download all Tier 1 shirts?",
       message: `All ${items.length / 2} teams, Home and Away: ${items.length} PNG images at ${width} × ${height} px each, in one ZIP.`,
-      note: `${shirtViewLabel(shirtView)} view. Uses saved team colors. Large sizes take longer; you can cancel while preparing.`,
+      note: `Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
     };
     if (tierLabel) {
       const teamCount = new Set(items.map((i) => i.team_id)).size;
       return {
         title: `Download ready ${tierLabel} shirts?`,
         message: `${items.length} ready PNG image${items.length > 1 ? "s" : ""} across ${teamCount} team${teamCount > 1 ? "s" : ""} at ${width} × ${height} px each, in one ZIP.`,
-        note: `${shirtViewLabel(shirtView)} view. Slots not yet ready are skipped. Large sizes take longer; you can cancel while preparing.`,
+        note: `${tierLabel} research is still in progress, so slots not yet ready are skipped — this is a partial export. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
       };
     }
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
@@ -353,7 +342,7 @@ export default function App() {
         : one
           ? `One ${label} image, ${px}.`
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
-      note: `${shirtViewLabel(shirtView)} view.${exportFormat === "avif" ? " AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : ""}`,
+      note: exportFormat === "avif" ? "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : "",
     };
   }
   function remove(index) {
@@ -404,7 +393,7 @@ export default function App() {
     // Transparent pixels are outside the shirt.
     if (el.getContext("2d").getImageData(Math.floor(px), Math.floor(py), 1, 1).data[3] === 0) return null;
     const {margin, span} = paintArea(el.width);
-    return partAt(editBase, ((px - margin) / span) * 200, ((py - margin) / span) * 200, shirtView, facingForVariant(variant));
+    return partAt(editBase, ((px - margin) / span) * 200, ((py - margin) / span) * 200);
   }
   /** In edit mode, clicking the shirt selects the part painted under the pointer. */
   async function pickPart(e) {
@@ -417,7 +406,6 @@ export default function App() {
   }
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
-    shirtView, setShirtView,
     lighting, setLighting, exporting,
     catalog, select: show, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
     country, feedback, setFeedback, saveFeedback, draft, editBase, edited, editing, equipment, filtered, hoverOver,
@@ -562,15 +550,6 @@ export default function App() {
                 <p className="queue-empty">Use “Add to collection” to queue up to {COLLECTION_LIMIT} kits for download.</p>
               )}
               <div className="queue-actions">
-                <select
-                  aria-label="Download view"
-                  value={shirtView}
-                  onChange={e => setShirtView(e.target.value)}
-                  disabled={!!exporting || editing}
-                >
-                  <option value="front">Front view</option>
-                  <option value="three-quarter">Angled · Home → / Away ←</option>
-                </select>
                 <select
                   aria-label="Download size"
                   value={exportSize}

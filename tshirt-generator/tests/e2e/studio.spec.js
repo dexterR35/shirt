@@ -832,7 +832,7 @@ test('the sidebar is fixed at the left edge, collapses to icons (remembered) and
   await expect.poll(async()=>(await rail.boundingBox()).width).toBe(220);
 });
 
-test('the view bar shows live Front and Angled thumbnails; Side remains unavailable',async({page})=>{
+test('the view bar shows a live front thumbnail and marks side and ¾ views as coming soon',async({page})=>{
   await page.goto('/studio');
   await page.getByLabel('Team',{exact:true}).fill('Arsenal');
   await page.getByRole('button',{name:/Arsenal England/}).click();
@@ -841,9 +841,9 @@ test('the view bar shows live Front and Angled thumbnails; Side remains unavaila
   await expect(views.getByRole('button')).toHaveCount(3);
   await expect(views.getByRole('button',{name:/Front/})).toHaveAttribute('aria-pressed','true');
   await expect(views.getByRole('button',{name:/Side/})).toBeDisabled();
-  await expect(views.getByRole('button',{name:/Angled/})).toBeEnabled();
+  await expect(views.getByRole('button',{name:/¾/})).toBeDisabled();
   // The front thumbnail copies the rendered shirt (red Arsenal body in its middle).
-  await expect.poll(()=>views.locator('.view-thumb[data-view=front]').evaluate(c=>{const d=c.getContext('2d').getImageData(64,70,1,1).data;return d[0]>150&&d[1]<80;})).toBe(true);
+  await expect.poll(()=>views.locator('.view-thumb').evaluate(c=>{const d=c.getContext('2d').getImageData(64,70,1,1).data;return d[0]>150&&d[1]<80;})).toBe(true);
 });
 
 test('canvas background: transparent shows a checkerboard, white is white, custom uses the picked color',async({page})=>{

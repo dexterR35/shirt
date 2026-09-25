@@ -1,8 +1,6 @@
 import { PNG_BASE, PNG_PREVIEW, renderColorArtwork } from './png-shirt.js';
 import { paintArea, validateLighting } from './composite.js';
 import { partIdConfig, matchPartId, countPartPixels, namedPartsOnly, visibleParts } from './kit-edit.js';
-import { perspectivePixels, validateFacing } from './perspective-shirt.js';
-import { validateShirtView } from './shirt-view.js';
 
 
 // Finished kits stay in memory until reload, so revisiting one does not repaint it.
@@ -71,13 +69,11 @@ function lane(name) {
 }
 
 /** One render job: the page rasterizes the SVG paint (fast, native); the worker does the rest. */
-async function renderJob(name, config, size, encode, lighting = 0, view = 'front', facing = 'right') {
+async function renderJob(name, config, size, encode, lighting = 0) {
   validateLighting(lighting);
-  validateShirtView(view);
-  validateFacing(facing);
   const base = baseSource(size);
   const [blob, paint] = await Promise.all([baseFile(base.path), config ? paintBitmap(config, size) : null]);
-  return lane(name)({size, base: {...base, blob}, paint, encode, lighting, view, facing}, paint ? [paint] : []);
+  return lane(name)({size, base: {...base, blob}, paint, encode, lighting}, paint ? [paint] : []);
 }
 /** The paint at `size` on white (unpainted areas keep the photo unchanged), as a transferable bitmap. */
 async function paintBitmap(config, size) {
@@ -94,18 +90,16 @@ const checkSize = (size) => {
 };
 
 /** Compose from the original PNG on demand, in a worker. Display size never alters the source. */
-export async function renderPngPreview(config, size = 1024, {cache = true, lighting = 0, view = 'front', facing = 'right'} = {}) {
+export async function renderPngPreview(config, size = 1024, {cache = true, lighting = 0} = {}) {
   checkSize(size);
   validateLighting(lighting);
-  validateShirtView(view);
-  validateFacing(facing);
-  const key = view + ':' + (view === 'front' ? '' : facing) + ':' + size + ':' + lighting + ':' + JSON.stringify(config);
+  const key = size + ':' + lighting + ':' + JSON.stringify(config);
   if (cache && renders.has(key)) {
     const hit = renders.get(key);
     renders.delete(key); renders.set(key, hit);
     return hit;
   }
-  const result = await renderJob('screen', config, size, undefined, lighting, view, facing);
+  const result = await renderJob('screen', config, size, undefined, lighting);
   if (cache) {
     if (renders.size >= RENDER_LIMIT) renders.delete(renders.keys().next().value);
     renders.set(key, result);
@@ -119,37 +113,32 @@ export async function renderPngPreview(config, size = 1024, {cache = true, light
  * @param {{type:string, label:string, width:number, height:number}} encode
  * @returns {Promise<Blob>}
  */
-export async function renderEncoded(config, size, encode, lighting = 0, view = 'front', facing = 'right') {
+export async function renderEncoded(config, size, encode, lighting = 0) {
   checkSize(size);
-  return renderJob('download', config, size, encode, lighting, view, facing);
+  return renderJob('download', config, size, encode, lighting);
 }
 
 const PART_MAP_SIZE = 400;
 let partMap = null;
 async function idPixels(idConfig) {
-  const size = PART_MAP_SIZE;
-  const image = await paintImage(idConfig), target = canvas(size), ctx = target.getContext('2d', {willReadFrequently: true});
-  ctx.drawImage(image, 0, 0, size, size);
-  return ctx.getImageData(0, 0, size, size).data;
+  const image = await paintImage(idConfig), target = canvas(PART_MAP_SIZE), ctx = target.getContext('2d', {willReadFrequently: true});
+  ctx.drawImage(image, 0, 0, PART_MAP_SIZE, PART_MAP_SIZE);
+  return ctx.getImageData(0, 0, PART_MAP_SIZE, PART_MAP_SIZE).data;
 }
 /** Hidden flat render where every editable part has its own ID color. */
-async function partMapFor(config, view = 'front', facing = 'right') {
-  validateShirtView(view);
-  validateFacing(facing);
-  const key = view + ':' + facing + ':' + JSON.stringify(config);
+async function partMapFor(config) {
+  const key = JSON.stringify(config);
   if (partMap?.key !== key) {
     const {config: idConfig, ids} = partIdConfig(config);
-    const frontPixels = await idPixels(idConfig);
-    const pixels = view === 'three-quarter' ? perspectivePixels(frontPixels, PART_MAP_SIZE, {nearest: true, facing}) : frontPixels;
-    const idAt = new Array(PART_MAP_SIZE * PART_MAP_SIZE);
+    const pixels = await idPixels(idConfig), idAt = new Array(PART_MAP_SIZE * PART_MAP_SIZE);
     for (let p = 0; p < idAt.length; p++) idAt[p] = matchPartId(ids, [pixels[p * 4], pixels[p * 4 + 1], pixels[p * 4 + 2]]);
     partMap = {key, ids, idConfig, pixels, idAt};
   }
   return partMap;
 }
 /** Which editable part is painted at a point in 200-unit coordinates, or null. */
-export async function partAt(config, u, v, view = 'front', facing = 'right') {
-  const map = await partMapFor(config, view, facing);
+export async function partAt(config, u, v) {
+  const map = await partMapFor(config);
   const k = PART_MAP_SIZE / 200, x = Math.floor(u * k), y = Math.floor(v * k);
   if (x < 0 || y < 0 || x >= PART_MAP_SIZE || y >= PART_MAP_SIZE) return null;
   return map.idAt[y * PART_MAP_SIZE + x];
@@ -164,8 +153,8 @@ function accentRgb() {
  * Draw the selected part (teal tint + outline) and the hovered part (light outline)
  * into `overlay`, matching `shirt`'s size and trimmed to the shirt's own transparency.
  */
-export async function drawPartHighlight(overlay, shirt, config, selectedId, hoverId, view = 'front', facing = 'right') {
-  const map = await partMapFor(config, view, facing), S = PART_MAP_SIZE;
+export async function drawPartHighlight(overlay, shirt, config, selectedId, hoverId) {
+  const map = await partMapFor(config), S = PART_MAP_SIZE;
   // The shirt's own transparency at map resolution, so outlines also follow the silhouette.
   const {margin, span} = paintArea(shirt.width);
   const alphaCanvas = canvas(S), actx = alphaCanvas.getContext('2d', {willReadFrequently: true});
