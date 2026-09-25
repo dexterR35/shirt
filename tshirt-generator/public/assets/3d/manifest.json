@@ -1,0 +1,42 @@
+{
+  "version": "tripo-shirt-3d-1",
+  "path": "/assets/3d/shirt-83d8b75ef969.glb",
+  "sha256": "83d8b75ef96979d00202b27aa00a5116ec59eb92ef58070c8b8ee9d526abd71b",
+  "bytes": 2799576,
+  "triangles": 229769,
+  "vertices": 131041,
+  "orientation": "front +Z, up +Y, meters",
+  "bounds": {
+    "min": [
+      -0.34378,
+      -0.3749,
+      -0.16902
+    ],
+    "max": [
+      0.3437,
+      0.3751,
+      0.16922
+    ]
+  },
+  "paint": {
+    "coordinateSpace": "reference-200",
+    "x0": -0.39937254960204044,
+    "y0": 0.37729612119728706,
+    "xScale": 250.30631807815206,
+    "yScale": 261.97289482718935,
+    "iou": 0.9846
+  },
+  "detail": {
+    "size": 2048,
+    "mean": 0.7729,
+    "texCoord": 1
+  },
+  "source": {
+    "path": "data/model.glb",
+    "sha256": "67864b189cf2d8095733d9bc8e4250bf344ab8d9f9708737984750ad99b7f2df",
+    "generator": "https://tripo3d.ai",
+    "triangles": 765903,
+    "pngBase": "4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042"
+  },
+  "method": "Unchanged image-to-3D source; turned to face +Z, simplified and meshopt-compressed. Kit paint is the same validated SVG, projected front-to-back through an affine fit of the mesh silhouette to base.png alpha. The source texture is kept only as fabric/stitch detail."
+}

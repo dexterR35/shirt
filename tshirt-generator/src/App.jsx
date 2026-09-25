@@ -24,6 +24,7 @@ import {EXPORT_SIZES, EXPORT_FORMATS, EXPORT_RATIOS, exportDimensions, renderIma
 import ConfirmDialog from "./ConfirmDialog.jsx";
 import {tier1Items, renderTier1Zip} from "./lib/tier1-export.js";
 import {tierItems} from "./lib/tier-export.js";
+import {DEFAULT_POSE, validatePose, describePose, threeDFilename} from "./lib/shirt-3d-pose.js";
 
 const VIEW_KEY = "tshirt-studio:view";
 const LIGHTING_KEY = "tshirt-studio:lighting";
@@ -37,6 +38,17 @@ function readView() {
 }
 function saveView(view) {
   try { sessionStorage.setItem(VIEW_KEY, JSON.stringify(view)); } catch { /* optional */ }
+}
+/** The 3D view stays on for this tab; its camera pose and lock are remembered in this browser. */
+const THREE_D_KEY = "tshirt-studio:3d", POSE_KEY = "tshirt-studio:3d-pose", POSE_LOCK_KEY = "tshirt-studio:3d-locked";
+function readView3d() {
+  try { return sessionStorage.getItem(THREE_D_KEY) === "1"; } catch { return false; }
+}
+function readPose() {
+  try { return validatePose(JSON.parse(localStorage.getItem(POSE_KEY))); } catch { return DEFAULT_POSE; }
+}
+function readPoseLocked() {
+  try { return localStorage.getItem(POSE_LOCK_KEY) === "1"; } catch { return false; }
 }
 const RAIL_KEY = "tshirt-studio:rail-collapsed";
 function readRailCollapsed() {
@@ -64,6 +76,10 @@ export default function App() {
     [exportFormat, setExportFormat] = useState("png"),
     [exportRatio, setExportRatio] = useState("1:1"),
     [lighting, setLighting] = useState(readLighting),
+    // 3D view (three.js loads only once it is switched on) and its camera pose.
+    [view3d, setView3d] = useState(readView3d),
+    [pose3d, setPose3d] = useState(readPose),
+    [poseLocked, setPoseLocked] = useState(readPoseLocked),
     // The download waiting for a yes/no answer: {items, asZip, tier1?}, or null.
     [pendingDownload, setPendingDownload] = useState(null),
     [exporting, setExporting] = useState(""),
@@ -87,6 +103,13 @@ export default function App() {
   useEffect(() => {
     try { localStorage.setItem(LIGHTING_KEY, String(lighting)); } catch { /* optional */ }
   }, [lighting]);
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(THREE_D_KEY, view3d ? "1" : "0");
+      localStorage.setItem(POSE_KEY, JSON.stringify(pose3d));
+      localStorage.setItem(POSE_LOCK_KEY, poseLocked ? "1" : "0");
+    } catch { /* optional */ }
+  }, [view3d, pose3d, poseLocked]);
   // Messages close by themselves after a few seconds.
   useEffect(() => {
     if (!notice) return;
@@ -226,21 +249,29 @@ export default function App() {
     const edits = savedEdits[kitKey(item)];
     return {config: edits ? applyEdits(saved.config, edits) : saved.config, custom: !!edits};
   }
-  /** Render kits at the chosen size and format; download them one by one or as one ZIP. */
+  /**
+   * Render kits at the chosen size and format; download them one by one or as one ZIP.
+   * With the 3D view on, every kit renders in 3D at the camera pose taken at the start,
+   * so a whole collection shares exactly the same angle.
+   */
   async function downloadKits(items, asZip) {
     if (!items.length || exporting) return;
     const files = [], size = exportSize, format = exportFormat, ratio = exportRatio, label = EXPORT_FORMATS[format].label;
-    const {width, height} = exportDimensions(size, ratio);
+    const {width, height} = exportDimensions(size, ratio), pose = view3d ? pose3d : null;
     try {
+      const render3d = pose && (await import("./lib/shirt-3d.js")).renderShirt3dImage;
       for (const [i, item] of items.entries()) {
-        setExporting(`Preparing ${i + 1} / ${items.length}…`);
-        const {config, custom} = await exportConfig(item);
-        files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio, lighting)});
+        setExporting(`Preparing ${i + 1} / ${items.length}${pose ? " in 3D" : ""}…`);
+        const {config, custom} = await exportConfig(item), name = exportFilename(item, size, format, custom, ratio);
+        files.push(pose
+          ? {name: threeDFilename(name), blob: await render3d(config, size, format, ratio, lighting, pose)}
+          : {name, blob: await renderImage(config, size, format, ratio, lighting)});
         recordDownload(item);
       }
       if (asZip) {
         setExporting("Zipping…");
-        downloadBlob(await zipFiles(files), zipFilename(files.length, size, format, ratio));
+        const zipName = zipFilename(files.length, size, format, ratio);
+        downloadBlob(await zipFiles(files), pose ? threeDFilename(zipName) : zipName);
       } else {
         // Space the downloads out so the browser accepts each file.
         for (const f of files) {
@@ -248,7 +279,7 @@ export default function App() {
           await new Promise((r) => setTimeout(r, 250));
         }
       }
-      setNotice(`${files.length} kit${files.length > 1 ? "s" : ""} downloaded as ${label} at ${width} × ${height} px${asZip ? " in one ZIP" : ""}.`);
+      setNotice(`${files.length} kit${files.length > 1 ? "s" : ""} downloaded${pose ? " in 3D" : ""} as ${label} at ${width} × ${height} px${asZip ? " in one ZIP" : ""}.`);
     } catch (e) {
       setNotice(e.message || "The download could not be prepared.");
     } finally {
@@ -258,6 +289,10 @@ export default function App() {
   /** Every download asks first; the answer runs or drops it. */
   function askDownload(items, asZip) {
     if (items.length && !exporting) setPendingDownload({items, asZip});
+  }
+  /** The kit on screen (the 3D view's download button). */
+  function downloadActive() {
+    if (active && !editing) askDownload([active], false);
   }
   function askTier1Download() {
     if (exporting || !catalog) return;
@@ -323,14 +358,14 @@ export default function App() {
     if (tier1) return {
       title: "Download all Tier 1 shirts?",
       message: `All ${items.length / 2} teams, Home and Away: ${items.length} PNG images at ${width} × ${height} px each, in one ZIP.`,
-      note: `Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
+      note: `Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.${view3d ? " Tier ZIPs always use the flat front image, not 3D." : ""}`,
     };
     if (tierLabel) {
       const teamCount = new Set(items.map((i) => i.team_id)).size;
       return {
         title: `Download ready ${tierLabel} shirts?`,
         message: `${items.length} ready PNG image${items.length > 1 ? "s" : ""} across ${teamCount} team${teamCount > 1 ? "s" : ""} at ${width} × ${height} px each, in one ZIP.`,
-        note: `${tierLabel} research is still in progress, so slots not yet ready are skipped — this is a partial export. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
+        note: `${tierLabel} research is still in progress, so slots not yet ready are skipped — this is a partial export. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.${view3d ? " Tier ZIPs always use the flat front image, not 3D." : ""}`,
       };
     }
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
@@ -342,7 +377,10 @@ export default function App() {
         : one
           ? `One ${label} image, ${px}.`
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
-      note: exportFormat === "avif" ? "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare." : "",
+      note: [
+        view3d && `3D view, same camera for every kit: ${describePose(pose3d)}${poseLocked ? " (locked)" : ""}.`,
+        exportFormat === "avif" && "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare.",
+      ].filter(Boolean).join(" "),
     };
   }
   function remove(index) {
@@ -407,6 +445,7 @@ export default function App() {
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
     lighting, setLighting, exporting,
+    view3d, setView3d, pose3d, setPose3d, poseLocked, setPoseLocked, downloadActive,
     catalog, select: show, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
     country, feedback, setFeedback, saveFeedback, draft, editBase, edited, editing, equipment, filtered, hoverOver,
     hoverPart, missing, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,

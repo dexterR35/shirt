@@ -21,6 +21,9 @@ export default function Icon({ name, size = 20, ...props }) {
     link: "m10 13 4-4m-6 7-2 2a4 4 0 0 1-6-6l4-4m12-1 2-2a4 4 0 0 1 6 6l-4 4",
     info: "M12 11v6m0-10v1M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
     reset: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8M3 3v5h5",
+    cube: "m12 2 9 5v10l-9 5-9-5V7l9-5Zm0 20V12m9-5-9 5-9-5",
+    lock: "M6 11h12v10H6V11Zm2 0V7a4 4 0 0 1 8 0v4",
+    unlock: "M6 11h12v10H6V11Zm2 0V7a4 4 0 0 1 7.7-1.5",
   };
   return (
     <svg

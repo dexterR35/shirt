@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { useOutletContext } from "react-router";
 import ShirtViews from "../ShirtViews.jsx";
+import ThreeDControls from "../ThreeDControls.jsx";
 import PngShirtPreview from "../PngShirtPreview.jsx";
 import LightingControl from "../LightingControl.jsx";
 import Icon from "../Icon.jsx";
@@ -12,6 +13,9 @@ import DownloadStats from "../DownloadStats.jsx";
 import { teamReviewSummary, reviewStatus } from "../lib/reviews.js";
 import { hasReadyKit, kitItem, variantLabel } from "../lib/catalog.js";
 import { ZOOM_MIN, ZOOM_MAX } from "../lib/use-zoom.js";
+
+// three.js, GSAP and the 3D mesh load only when the 3D view is switched on.
+const Shirt3DView = lazy(() => import("../Shirt3DView.jsx"));
 
 /** Relative luminance (0–1) of a #rrggbb color, to keep caption text readable. */
 function luminance(hex) {
@@ -83,6 +87,13 @@ export default function StudioPage() {
     updateReview,
     variant,
     zoom,
+    view3d,
+    setView3d,
+    pose3d,
+    setPose3d,
+    poseLocked,
+    setPoseLocked,
+    downloadActive,
   } = ctx;
   const [view, setView] = useState("front");
   // Paging moves between collection kits; it does nothing when the only kit is already shown.
@@ -217,15 +228,27 @@ export default function StudioPage() {
             style={background === "custom" ? { backgroundColor: customBg } : undefined}
           >
             <div className="canvas-topline">
-              <button
-                className={`edit-toggle ${editing ? "active" : ""} ${edited && !editing ? "edited" : ""}`}
-                aria-pressed={editing}
-                title={edited ? "Colors edited · not the saved team kit" : "Edit colors"}
-                onClick={editing ? cancelEdit : startEdit}
-              >
-                <Icon name="edit" size={13} />
-                Edit
-              </button>
+              <div className="canvas-tools">
+                <button
+                  className={`edit-toggle ${editing ? "active" : ""} ${edited && !editing ? "edited" : ""}`}
+                  aria-pressed={editing}
+                  title={edited ? "Colors edited · not the saved team kit" : "Edit colors"}
+                  onClick={editing ? cancelEdit : startEdit}
+                >
+                  <Icon name="edit" size={13} />
+                  Edit
+                </button>
+                <button
+                  className={`edit-toggle view3d-toggle ${view3d ? "active" : ""}`}
+                  aria-pressed={view3d}
+                  disabled={!!exporting}
+                  title={view3d ? "Back to the flat PNG view" : "3D view: orbit the shirt, lock an angle and download it"}
+                  onClick={() => setView3d(!view3d)}
+                >
+                  <Icon name="cube" size={13} />
+                  3D
+                </button>
+              </div>
               <div className="background-controls" role="group" aria-label="Preview background">
                 <button
                   className={`transparent ${background === "transparent" ? "active" : ""}`}
@@ -259,20 +282,37 @@ export default function StudioPage() {
                 </label>
               </div>
             </div>
-            <div
-              className={`shirt-stage ${editing ? "editing" : ""} ${editing && hoverPart ? "over-part" : ""}`}
-              aria-busy={busy}
-              {...(editing ? {onClick: pickPart, onPointerMove: hoverOver, onPointerLeave: () => setHoverPart(null)} : zoom.stageProps)}
-            >
-              <PngShirtPreview
-                config={previewConfig}
-                cache={!editing}
-                style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
-                label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
-              />
-              {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
-              {missing && <span className="no-preview">No preview</span>}
-            </div>
+            {view3d ? (
+              <div className="shirt-stage three-d" aria-busy={busy}>
+                <Suspense fallback={<span className="no-preview">Loading 3D…</span>}>
+                  <Shirt3DView
+                    config={previewConfig}
+                    lighting={lighting}
+                    pose={pose3d}
+                    onPose={setPose3d}
+                    locked={poseLocked}
+                    disabled={!!exporting}
+                    label={active ? `${active.team_name} ${active.variant} shirt` : "Plain shirt"}
+                  />
+                </Suspense>
+                {missing && <span className="no-preview">No preview</span>}
+              </div>
+            ) : (
+              <div
+                className={`shirt-stage ${editing ? "editing" : ""} ${editing && hoverPart ? "over-part" : ""}`}
+                aria-busy={busy}
+                {...(editing ? {onClick: pickPart, onPointerMove: hoverOver, onPointerLeave: () => setHoverPart(null)} : zoom.stageProps)}
+              >
+                <PngShirtPreview
+                  config={previewConfig}
+                  cache={!editing}
+                  style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
+                  label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
+                />
+                {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
+                {missing && <span className="no-preview">No preview</span>}
+              </div>
+            )}
             <div className="canvas-caption">
               <span className="caption-kicker">
                 {active
@@ -297,17 +337,34 @@ export default function StudioPage() {
               </p>
               {!active && !missing && (
                 <span className="neutral-note">
-                  {edited ? "Custom design · not a verified team kit" : "Original PNG · no team colors applied"}
+                  {edited ? "Custom design · not a verified team kit" : view3d ? "3D shirt · no team colors applied" : "Original PNG · no team colors applied"}
                 </span>
+              )}
+              {view3d && active && (
+                <span className="neutral-note">3D preview · back and sides continue the front design</span>
               )}
             </div>
             <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
-            <ShirtViews view={view} onSelect={setView} />
+            {view3d ? (
+              <ThreeDControls
+                pose={pose3d}
+                onPose={setPose3d}
+                locked={poseLocked}
+                onLock={setPoseLocked}
+                canDownload={!!active && !busy && !editing}
+                onDownload={downloadActive}
+                disabled={!!exporting}
+              />
+            ) : (
+              <ShirtViews view={view} onSelect={setView} />
+            )}
             <div className="canvas-bottom-row">
-              <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
+              <span className="dimension-label">
+                {view3d ? `3D · ${Math.round(pose3d.azimuth)}° · ${Math.round(pose3d.elevation)}°${poseLocked ? " · LOCKED" : ""}` : "8000 × 5000 SOURCE · PNG"}
+              </span>
               {slot?.status === "ready" && <DownloadStats item={kitItem(candidate, variant)} />}
             </div>
-            {!editing && <div className="zoom-controls" aria-label="Zoom">
+            {!editing && !view3d && <div className="zoom-controls" aria-label="Zoom">
               <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
                 <Icon name="minus" size={14} />
               </button>

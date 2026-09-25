@@ -6,6 +6,7 @@
  *
  * Message in:  {id, size, base:{path, blob, width, height, x, y, span}, paint?:ImageBitmap,
  *               lighting?:number, encode?:{type, label, width, height}}
+ *            | {id, pixels:ImageData, encode} (a finished render, e.g. the 3D view: encode only)
  * Message out: {id, pixels:ImageData} (square render) | {id, blob:Blob} (encoded) | {id, error}
  */
 import { compositePixels, paintArea } from "./composite.js";
@@ -84,7 +85,7 @@ async function encode(pixels, { type, label, width, height }) {
 
 self.onmessage = async ({ data: job }) => {
   try {
-    const pixels = await render(job);
+    const pixels = job.pixels || await render(job);
     if (!job.encode) self.postMessage({ id: job.id, pixels }, [pixels.data.buffer]);
     else self.postMessage({ id: job.id, blob: await encode(pixels, job.encode) });
   } catch (error) {
