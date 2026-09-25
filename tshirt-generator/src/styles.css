@@ -765,15 +765,10 @@ input[type="search"]::-webkit-search-cancel-button {
 .on-light .dimension-label {
   color: var(--on-light-muted);
 }
-.canvas-bottom-row {
+.dimension-label {
   position: absolute;
   bottom: 15px;
   left: 17px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.dimension-label {
   font-size: 7px;
   letter-spacing: 1px;
   color: var(--text-muted);
@@ -786,6 +781,7 @@ input[type="search"]::-webkit-search-cancel-button {
   gap: 10px;
 }
 .review-rating { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; }
+.preview-stats { display: flex; justify-content: flex-end; min-width: 0; }
 .stars { display: flex; gap: 2px; }
 .stars button { background: none; padding: 2px 3px; font-size: 20px; line-height: 1; color: var(--border); }
 .stars button.on { color: var(--gold); }

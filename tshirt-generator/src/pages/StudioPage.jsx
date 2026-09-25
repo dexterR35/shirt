@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useOutletContext } from "react-router";
 import ShirtViews from "../ShirtViews.jsx";
 import PngShirtPreview from "../PngShirtPreview.jsx";
@@ -12,6 +11,7 @@ import DownloadStats from "../DownloadStats.jsx";
 import { teamReviewSummary, reviewStatus } from "../lib/reviews.js";
 import { hasReadyKit, kitItem, variantLabel } from "../lib/catalog.js";
 import { ZOOM_MIN, ZOOM_MAX } from "../lib/use-zoom.js";
+import { facingForVariant } from '../lib/perspective-shirt.js';
 
 /** Relative luminance (0–1) of a #rrggbb color, to keep caption text readable. */
 function luminance(hex) {
@@ -83,8 +83,10 @@ export default function StudioPage() {
     updateReview,
     variant,
     zoom,
+    shirtView: view,
+    setShirtView: setView,
   } = ctx;
-  const [view, setView] = useState("front");
+  const facing = facingForVariant(variant);
   // Paging moves between collection kits; it does nothing when the only kit is already shown.
   const canPage = selection.length > 1 || (selection.length === 1 && selectedIndex < 0);
   const status = reviewStatus(review);
@@ -266,11 +268,13 @@ export default function StudioPage() {
             >
               <PngShirtPreview
                 config={previewConfig}
+                view={view}
+                facing={facing}
                 cache={!editing}
                 style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
-                label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
+                label={(active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt") + (view === 'three-quarter' ? ` · angled ${facing}` : '')}
               />
-              {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
+              {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} view={view} facing={facing} />}
               {missing && <span className="no-preview">No preview</span>}
             </div>
             <div className="canvas-caption">
@@ -302,11 +306,8 @@ export default function StudioPage() {
               )}
             </div>
             <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
-            <ShirtViews view={view} onSelect={setView} />
-            <div className="canvas-bottom-row">
-              <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
-              {slot?.status === "ready" && <DownloadStats item={kitItem(candidate, variant)} />}
-            </div>
+            <ShirtViews view={view} onSelect={v => { setView(v); zoom.center(); }} config={previewConfig} facing={facing} disabled={!!exporting || editing} />
+              <span className="dimension-label">8000 × 5000 SOURCE · PNG{view === 'three-quarter' ? ` · FACES ${facing.toUpperCase()}` : ''}</span>
             {!editing && <div className="zoom-controls" aria-label="Zoom">
               <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
                 <Icon name="minus" size={14} />
@@ -431,7 +432,9 @@ export default function StudioPage() {
                 <Icon name="right" size={17} />
               </button>
             </div>
-            <span aria-hidden="true" />
+            <div className="preview-stats">
+              {slot?.status === "ready" && <DownloadStats item={kitItem(candidate, variant)} />}
+            </div>
           </div>
           {status === "needs-changes" && (
             <div className="feedback-form">

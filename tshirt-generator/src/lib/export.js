@@ -1,6 +1,7 @@
 import { zipSync } from "fflate";
 import { renderEncoded } from "./png-preview.js";
 import { assetFilename } from "./catalog.js";
+import { viewFilenameSuffix } from './shirt-view.js';
 
 /** Download sizes: the image's longest side, in pixels. Above 2048 the 8K master is used. */
 export const EXPORT_SIZES = [128, 168, 256, 512, 1024, 2048, 4096];
@@ -45,25 +46,25 @@ export const EXPORT_FORMATS = Object.freeze({
  * rendered square at the shorter side, so it is never cropped or stretched, and
  * centered on a transparent canvas of the chosen shape.
  */
-export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 0) {
+export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 0, view = 'front', facing = 'right') {
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   const spec = EXPORT_FORMATS[format];
   if (!spec) throw Error("Choose PNG, WebP or AVIF.");
   const { width, height } = exportDimensions(size, ratio);
   // Rendering and encoding run in the download worker, so the page never freezes.
-  return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height }, lighting);
+  return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height }, lighting, view, facing);
 }
 
 /** e.g. england-arsenal-team_…-2026-27-home-r001-2048px.webp or …-1152x2048px.png (plus -custom when recolored). */
-export function exportFilename(item, size, format = "png", custom = false, ratio = "1:1") {
+export function exportFilename(item, size, format = "png", custom = false, ratio = "1:1", view = 'front') {
   return assetFilename(item, EXPORT_FORMATS[format].extension).replace(
     /\.\w+$/,
-    `-${sizeTag(size, ratio)}${custom ? "-custom" : ""}.${EXPORT_FORMATS[format].extension}`,
+    `-${sizeTag(size, ratio)}${viewFilenameSuffix(view)}${custom ? "-custom" : ""}.${EXPORT_FORMATS[format].extension}`,
   );
 }
 
 /** e.g. tshirt-kits-3-2048px-webp.zip */
-export const zipFilename = (count, size, format, ratio = "1:1") => `tshirt-kits-${count}-${sizeTag(size, ratio)}-${format}.zip`;
+export const zipFilename = (count, size, format, ratio = "1:1", view = 'front') => `tshirt-kits-${count}-${sizeTag(size, ratio)}${viewFilenameSuffix(view)}-${format}.zip`;
 
 export function downloadBlob(blob, filename) {
   const url = URL.createObjectURL(blob);

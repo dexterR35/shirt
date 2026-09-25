@@ -1,39 +1,35 @@
-import { useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import Icon from "./Icon.jsx";
+import { LightingContext } from './LightingControl.jsx';
+import { renderPngPreview } from './lib/png-preview.js';
 
 /**
- * Shirt views. Only the front has a base PNG and paint geometry today; the others
- * switch on once their own base image and silhouette mapping exist.
+ * Front and Angled share the same photograph and completed paint composite.
  */
 export const SHIRT_VIEWS = [
   { id: "front", label: "Front", available: true },
   { id: "side", label: "Side", available: false },
-  { id: "three-quarter", label: "¾", available: false },
+  { id: "three-quarter", label: "Angled", available: true },
 ];
 
-/** Live mini copy of the main preview canvas, refreshed whenever it finishes rendering. */
-function LiveThumb() {
+/** Each thumbnail shows its own angle, independent of the main preview. */
+function LiveThumb({ config, view, facing }) {
   const ref = useRef(null);
+  const lighting = useContext(LightingContext);
   useEffect(() => {
-    const thumb = ref.current, source = thumb?.closest(".canvas")?.querySelector(".shirt-image");
-    if (!source) return;
-    const copy = () => {
-      if (source.dataset.renderState !== "ready" || !source.width) return;
-      thumb.width = thumb.height = 128;
-      const ctx = thumb.getContext("2d");
-      ctx.clearRect(0, 0, 128, 128);
-      ctx.drawImage(source, 0, 0, 128, 128);
-    };
-    copy();
-    const observer = new MutationObserver(copy);
-    observer.observe(source, { attributes: true, attributeFilter: ["data-render-state", "width"] });
-    return () => observer.disconnect();
-  }, []);
-  return <canvas ref={ref} className="view-thumb" aria-hidden="true" />;
+    let alive = true;
+    const thumb = ref.current;
+    thumb.width = thumb.height = 128;
+    const timer = setTimeout(() => renderPngPreview(config, 128, {view, lighting, facing}).then(pixels => {
+      if (alive) thumb.getContext('2d').putImageData(pixels, 0, 0);
+    }).catch(() => { /* The main preview provides an actionable retry message. */ }), 125);
+    return () => { alive = false; clearTimeout(timer); };
+  }, [config, view, lighting, facing]);
+  return <canvas ref={ref} className="view-thumb" data-view={view} aria-hidden="true" />;
 }
 
 /** Vertical bar of view thumbnails on the left of the canvas. */
-export default function ShirtViews({ view, onSelect }) {
+export default function ShirtViews({ view, onSelect, config, facing = 'right', disabled = false }) {
   return (
     <div className="shirt-views" role="group" aria-label="Shirt view">
       {SHIRT_VIEWS.map((v) => (
@@ -41,11 +37,11 @@ export default function ShirtViews({ view, onSelect }) {
           key={v.id}
           className={`view-option ${view === v.id ? "active" : ""}`}
           aria-pressed={view === v.id}
-          disabled={!v.available}
-          title={v.available ? `${v.label} view` : `${v.label} view · coming soon (needs its own base image)`}
+          disabled={!v.available || disabled}
+          title={!v.available ? `${v.label} view · coming soon (needs its own base image)` : v.id === 'three-quarter' ? `Original PNG in perspective · faces ${facing}` : 'Front view'}
           onClick={() => onSelect(v.id)}
         >
-          {v.available ? <LiveThumb /> : <Icon name="shirt" size={22} />}
+          {v.available ? <LiveThumb config={config} view={v.id} facing={facing} /> : <Icon name="shirt" size={22} />}
           <span>{v.label}</span>
           {!v.available && <small>Soon</small>}
         </button>

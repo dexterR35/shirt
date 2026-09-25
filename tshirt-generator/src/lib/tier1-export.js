@@ -3,6 +3,8 @@ import { kitItem, slug } from "./catalog.js";
 import { loadKit } from "./kit-config.js";
 import { EXPORT_SIZES, exportDimensions, renderImage } from "./export.js";
 import { validateLighting } from "./composite.js";
+import { validateShirtView, viewFilenameSuffix } from './shirt-view.js';
+import { facingForVariant } from './perspective-shirt.js';
 
 /** Portable filenames, with Home and Away kept as separate PNG files. */
 export function tier1Filename(item) {
@@ -39,13 +41,14 @@ export function tier1Items(teams) {
  * @returns {Promise<Blob>}
  */
 export async function renderTier1Zip(items, {
-  size, ratio = "1:1", lighting = 0, signal, onProgress = () => {}, load = loadKit, render = renderImage,
+  size, ratio = "1:1", lighting = 0, view = 'front', signal, onProgress = () => {}, load = loadKit, render = renderImage,
 }) {
   if (!items.length) throw Error("No Tier 1 kits to download.");
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   exportDimensions(size, ratio);
   validateLighting(lighting);
-  const names = items.map(tier1Filename);
+  validateShirtView(view);
+  const names = items.map(item => tier1Filename(item).replace(/\.png$/, `${viewFilenameSuffix(view)}.png`));
   if (new Set(names).size !== names.length) throw Error("Duplicate export names. No files were downloaded.");
   const chunks = [];
   const zip = new Zip((error, chunk) => {
@@ -59,7 +62,7 @@ export async function renderTier1Zip(items, {
       try {
         const { config } = await load(item, signal);
         signal?.throwIfAborted();
-        const png = await render(config, size, "png", ratio, lighting);
+        const png = await render(config, size, "png", ratio, lighting, view, facingForVariant(item.variant));
         signal?.throwIfAborted();
         const bytes = new Uint8Array(await png.arrayBuffer());
         signal?.throwIfAborted();
