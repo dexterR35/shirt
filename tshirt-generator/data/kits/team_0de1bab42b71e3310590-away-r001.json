@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0de1bab42b71e3310590",
+  "team_name": "Ilioupoli",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-greece-e-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/gs-ilioupolis-2025-26-away-kit-421053/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/20/UF3B2Fd5YARfkPQ/gs-ilioupolis-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0de1bab42b71e3310590-away-421053.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D2191B",
+      "leftSleeve": "#D2191B",
+      "rightSleeve": "#D2191B",
+      "collar": "#CD161A",
+      "leftCuff": "#D2191B",
+      "rightCuff": "#D2191B"
+    }
+  },
+  "observations": "Red with triple white shoulder tapes, curved fine white side seams and short pale-red ladder marks near underarms. Source texture represented as reduced flat linework. Independent literal 2025/26 Home/Away fallback; colors visually estimated. Original PNG fabric/alpha and existing physical round collar retained; all sponsor text, badges and manufacturer symbols removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with triple white shoulder tapes, curved fine white side seams and short pale-red ladder marks near underarms. Source texture represented as reduced flat linework. Independent literal 2025/26 Home/Away fallback; colors visually estimated. Original PNG fabric/alpha and existing physical round collar retained; all sponsor text, badges and manufacturer symbols removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-e-2026-09-25/team_0de1bab42b71e3310590-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D2191B",
+      "leftSleeve": "#D2191B",
+      "rightSleeve": "#D2191B",
+      "collar": "#CD161A",
+      "leftCuff": "#D2191B",
+      "rightCuff": "#D2191B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CD161A",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D2191B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            75,
+            5.5
+          ],
+          [
+            36,
+            28
+          ],
+          [
+            36,
+            26.5
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            125,
+            5.5
+          ],
+          [
+            164,
+            28
+          ],
+          [
+            164,
+            26.5
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            6.5
+          ],
+          [
+            75,
+            8
+          ],
+          [
+            36,
+            30.5
+          ],
+          [
+            36,
+            29
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            6.5
+          ],
+          [
+            125,
+            8
+          ],
+          [
+            164,
+            30.5
+          ],
+          [
+            164,
+            29
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            9
+          ],
+          [
+            75,
+            10.5
+          ],
+          [
+            36,
+            33
+          ],
+          [
+            36,
+            31.5
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            9
+          ],
+          [
+            125,
+            10.5
+          ],
+          [
+            164,
+            33
+          ],
+          [
+            164,
+            31.5
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M47.603 58.051L53.601 105.021L52.601 152.979L48.602 197.965L49.398 198.035L53.399 153.021L54.399 104.979L48.397 57.949Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151.603 57.949L145.601 104.979L146.601 153.021L150.602 198.035L151.398 197.965L147.399 152.979L146.399 105.021L152.397 58.051Z",
+        "fill": "#F1F2EF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            61
+          ],
+          [
+            54,
+            61
+          ],
+          [
+            54,
+            61.7
+          ],
+          [
+            48,
+            61.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            61
+          ],
+          [
+            146,
+            61
+          ],
+          [
+            146,
+            61.7
+          ],
+          [
+            152,
+            61.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            64.5
+          ],
+          [
+            54,
+            64.5
+          ],
+          [
+            54,
+            65.2
+          ],
+          [
+            48,
+            65.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            64.5
+          ],
+          [
+            146,
+            64.5
+          ],
+          [
+            146,
+            65.2
+          ],
+          [
+            152,
+            65.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            68
+          ],
+          [
+            54,
+            68
+          ],
+          [
+            54,
+            68.7
+          ],
+          [
+            48,
+            68.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            68
+          ],
+          [
+            146,
+            68
+          ],
+          [
+            146,
+            68.7
+          ],
+          [
+            152,
+            68.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            71.5
+          ],
+          [
+            54,
+            71.5
+          ],
+          [
+            54,
+            72.2
+          ],
+          [
+            48,
+            72.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            71.5
+          ],
+          [
+            146,
+            71.5
+          ],
+          [
+            146,
+            72.2
+          ],
+          [
+            152,
+            72.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            75
+          ],
+          [
+            54,
+            75
+          ],
+          [
+            54,
+            75.7
+          ],
+          [
+            48,
+            75.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            75
+          ],
+          [
+            146,
+            75
+          ],
+          [
+            146,
+            75.7
+          ],
+          [
+            152,
+            75.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            78.5
+          ],
+          [
+            54,
+            78.5
+          ],
+          [
+            54,
+            79.2
+          ],
+          [
+            48,
+            79.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            78.5
+          ],
+          [
+            146,
+            78.5
+          ],
+          [
+            146,
+            79.2
+          ],
+          [
+            152,
+            79.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            82
+          ],
+          [
+            54,
+            82
+          ],
+          [
+            54,
+            82.7
+          ],
+          [
+            48,
+            82.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            82
+          ],
+          [
+            146,
+            82
+          ],
+          [
+            146,
+            82.7
+          ],
+          [
+            152,
+            82.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            85.5
+          ],
+          [
+            54,
+            85.5
+          ],
+          [
+            54,
+            86.2
+          ],
+          [
+            48,
+            86.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            85.5
+          ],
+          [
+            146,
+            85.5
+          ],
+          [
+            146,
+            86.2
+          ],
+          [
+            152,
+            86.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            89
+          ],
+          [
+            54,
+            89
+          ],
+          [
+            54,
+            89.7
+          ],
+          [
+            48,
+            89.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            89
+          ],
+          [
+            146,
+            89
+          ],
+          [
+            146,
+            89.7
+          ],
+          [
+            152,
+            89.7
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            92.5
+          ],
+          [
+            54,
+            92.5
+          ],
+          [
+            54,
+            93.2
+          ],
+          [
+            48,
+            93.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            92.5
+          ],
+          [
+            146,
+            92.5
+          ],
+          [
+            146,
+            93.2
+          ],
+          [
+            152,
+            93.2
+          ]
+        ],
+        "fill": "#E99591",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

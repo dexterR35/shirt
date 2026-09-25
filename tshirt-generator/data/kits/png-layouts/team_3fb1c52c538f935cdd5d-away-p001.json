@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3fb1c52c538f935cdd5d",
+  "team_name": "FC Inter Turku II",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Bright-red torso with claret sleeves and red neckline. Original polo collar is represented solely by color on the existing round ring. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3fb1c52c538f935cdd5d-away-447141.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-away-kit-447141/",
+      "sha256": "f8ad1128004ff7bcfad61bab9de2a37be26dce35482d0a95d8932d114965bb78"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EC201D",
+      "leftSleeve": "#962B29",
+      "rightSleeve": "#962B29",
+      "collar": "#C12423",
+      "leftCuff": "#962B29",
+      "rightCuff": "#962B29"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C12423",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EC201D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

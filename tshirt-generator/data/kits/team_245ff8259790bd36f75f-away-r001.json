@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_245ff8259790bd36f75f",
+  "team_name": "KuPS Akatemia",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": "2025",
+  "revision": "r001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kuopion-ps-b-2025-away-kit-447149/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/g7MkPej4jxjsKPs/kuopion-ps-b-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_245ff8259790bd36f75f-away-447149.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "observations": "Black body/sleeves with white shoulder tape, cuff ends, lower-side hem tabs and fine neckline edging. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black body/sleeves with white shoulder tape, cuff ends, lower-side hem tabs and fine neckline edging. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_245ff8259790bd36f75f-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72 4.143L77 2Q100 7 123 2L128 4.143C130.571 29.714 69.429 29.714 72 4.143Z",
+          "fill": "#202321",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#202321",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            5
+          ],
+          [
+            45,
+            18
+          ],
+          [
+            34,
+            26
+          ],
+          [
+            36,
+            31
+          ],
+          [
+            49,
+            22
+          ],
+          [
+            76,
+            9
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            5
+          ],
+          [
+            155,
+            18
+          ],
+          [
+            166,
+            26
+          ],
+          [
+            164,
+            31
+          ],
+          [
+            151,
+            22
+          ],
+          [
+            124,
+            9
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            47,
+            190
+          ],
+          [
+            60,
+            194
+          ],
+          [
+            60,
+            200
+          ],
+          [
+            47,
+            200
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            153,
+            190
+          ],
+          [
+            140,
+            194
+          ],
+          [
+            140,
+            200
+          ],
+          [
+            153,
+            200
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F2F3F0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F2F3F0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

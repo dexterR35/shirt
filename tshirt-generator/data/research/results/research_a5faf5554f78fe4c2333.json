@@ -4,8 +4,8 @@
   "team_name": "Aerostar Bacău",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -69,10 +69,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_458aaafc7469a13ae856-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-aerostar-bacau-2025-26-away-kit-408922/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/09/07/fUJCvcyxblnMzBc/cs-aerostar-bacau-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_458aaafc7469a13ae856-away-408922.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#142747",
+      "leftSleeve": "#142747",
+      "rightSleeve": "#142747",
+      "collar": "#142747",
+      "leftCuff": "#142747",
+      "rightCuff": "#142747"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a5faf5554f78fe4c2333.json",
+    "source_kit_id": "408922"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

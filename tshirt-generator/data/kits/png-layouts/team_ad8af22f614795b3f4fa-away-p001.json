@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad8af22f614795b3f4fa",
+  "team_name": "JJK",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain white body/sleeves/ring; black sleeve swooshes and chest sponsors omitted. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad8af22f614795b3f4fa-away-447145.jpg",
+      "page_url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-away-kit-447145/",
+      "sha256": "6dd1d4457e2ca3481fb67fa5af5fc7f9e2c7b078dc21fec0d9a5dbd3452fe03f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

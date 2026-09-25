@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dadd8b070cef23a71bae",
+  "team_name": "Unirea Sântana",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White torso and ring with black sleeves; small shoulder manufacturer marks omitted. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_dadd8b070cef23a71bae-away-508849.jpg",
+      "page_url": "https://www.footballkitarchive.com/unirea-santana-2026-27-away-kit-508849/",
+      "sha256": "0fe857cb66c8d80410d5e2689446327c1cf092ab6be4114272c4dc7362321b6f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#171C23",
+      "rightSleeve": "#171C23",
+      "collar": "#F1F2EF",
+      "leftCuff": "#171C23",
+      "rightCuff": "#171C23"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

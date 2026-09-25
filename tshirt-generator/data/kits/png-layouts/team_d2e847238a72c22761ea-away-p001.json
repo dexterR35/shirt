@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d2e847238a72c22761ea",
+  "team_name": "FC Pucioasa",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red/claret subtle half-and-half torso, red sleeves and ring from the action photograph. Dense folds and body occlusion limit exact hue division. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_d2e847238a72c22761ea-away-507569.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-pucioasa-2026-27-away-kit-507569/",
+      "sha256": "6977ab91b886416ee6c9a0b30aa9c65e74ac1568cdf0cde7ae851b9d51558439"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E5292F",
+      "leftSleeve": "#E5292F",
+      "rightSleeve": "#E5292F",
+      "collar": "#D9282E",
+      "leftCuff": "#E5292F",
+      "rightCuff": "#E5292F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D9282E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E5292F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 100,
+        "height": 200,
+        "fill": "#CB2930",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

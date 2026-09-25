@@ -4,8 +4,8 @@
   "team_name": "Makedonikos",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1b0bc31c3cb3feefcea6-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/makedonikos-2025-26-away-kit-421048/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/rwZApmwz77ATdhc/makedonikos-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1b0bc31c3cb3feefcea6-away-421048.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#F1F2EF",
+      "rightSleeve": "#F1F2EF",
+      "collar": "#2E8059",
+      "leftCuff": "#31855A",
+      "rightCuff": "#31855A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body with light-grey angular diagonal print, green fragmented sleeve print and green cuffs/ring. Broad angular torso facets redrawn as clean polygons from the visible diagonal rhythm; unbranded sleeve speckles isolated as flat contours with larger angled color bands. Pattern placement adapted and small speckles reduced. No additional polo/placket construction. Independent literal 2025/26 Home/Away fallback; colors visually estimated. Original PNG fabric/alpha and existing physical round collar retained; all sponsor text, badges and manufacturer symbols removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-e-2026-09-25/team_1b0bc31c3cb3feefcea6-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_67e6fa35076bf42481dd.json",
+    "source_kit_id": "421048"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-e-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

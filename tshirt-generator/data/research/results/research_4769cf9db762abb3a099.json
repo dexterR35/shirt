@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "home",
   "kit_season": "2025/26",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,9 +40,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
+  "remaining": [],
   "kit_revision_path": "data/kits/team_5436dc5a36497fc4dd20-home-r001.json",
   "references": [
     {
@@ -71,7 +69,14 @@
       "rightCuff": "#F1F2EF"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain white body/sleeves and white round ring, independently evidenced by match photograph. Brand, chest crest, sponsor and overlaid watermark removed; no extra trim inferred from folds. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-d-2026-09-25/team_5436dc5a36497fc4dd20-home.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_4769cf9db762abb3a099.json",
     "source_kit_id": "516483"
@@ -80,7 +85,7 @@
     {
       "date": "2026-09-25",
       "batch": "tier3-greece-d-2026-09-25",
-      "action": "Created source-specific draft for visual comparison."
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

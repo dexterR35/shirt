@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ce3e0e034764393e3bbb",
+  "team_name": "Progresul Pecica",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow torso and lower sleeves, sky-blue shoulder caps/upper sleeves and round ring. Captain armband removed. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ce3e0e034764393e3bbb-home-418617.jpg",
+      "page_url": "https://www.footballkitarchive.com/acs-progresul-pecica-2025-26-home-kit-418617/",
+      "sha256": "a855a920cb1ba78f032155682a85a2b8914fe3afe5baba89a5b99720b4d5b512"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E6D444",
+      "leftSleeve": "#E6D444",
+      "rightSleeve": "#E6D444",
+      "collar": "#75A5B7",
+      "leftCuff": "#E6D444",
+      "rightCuff": "#E6D444"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#75A5B7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E6D444",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            4
+          ],
+          [
+            70,
+            15
+          ],
+          [
+            55,
+            29
+          ],
+          [
+            45,
+            47
+          ],
+          [
+            0,
+            56
+          ]
+        ],
+        "fill": "#78A7B9",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            125,
+            4
+          ],
+          [
+            130,
+            15
+          ],
+          [
+            145,
+            29
+          ],
+          [
+            155,
+            47
+          ],
+          [
+            200,
+            56
+          ]
+        ],
+        "fill": "#78A7B9",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

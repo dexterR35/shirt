@@ -4,8 +4,8 @@
   "team_name": "KPV",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
+  "kit_season": "2025",
+  "status": "ready",
   "reason": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -82,6 +80,52 @@
         "2025 Away"
       ],
       "outcome": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-finland-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_66624bdffd10c12945a8-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kpv-kokkola-2025-away-kit-447147/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/Zev9bzMr5XNi7fK/kpv-kokkola-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_66624bdffd10c12945a8-away-447147.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#285A51",
+      "rightSleeve": "#285A51",
+      "collar": "#265E53",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White torso with dark-green raglan/sleeve colors, two white left-shoulder bands, white cuff ends and green neckline edge. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_66624bdffd10c12945a8-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_adafbfd5852716e0111c.json",
+    "source_kit_id": "447147"
+  }
 }

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_317623431198b61ba597",
+  "team_name": "SalPa",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with four broad royal-blue torso hoops, white sleeves and white ring. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_317623431198b61ba597-home-444294.jpg",
+      "page_url": "https://www.footballkitarchive.com/salon-palloilijat-2025-home-kit-444294/",
+      "sha256": "ab3d3bace0a1a292e97a562cecb498a327828089e29527f680ed44ee59bcdf4f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 30,
+        "width": 200,
+        "height": 21,
+        "fill": "#3D67BA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 72,
+        "width": 200,
+        "height": 21,
+        "fill": "#3D67BA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 114,
+        "width": 200,
+        "height": 21,
+        "fill": "#3D67BA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 156,
+        "width": 200,
+        "height": 21,
+        "fill": "#3D67BA",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

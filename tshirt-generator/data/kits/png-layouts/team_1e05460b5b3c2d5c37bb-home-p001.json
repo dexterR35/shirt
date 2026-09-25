@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1e05460b5b3c2d5c37bb",
+  "team_name": "Chania City",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-greece-e-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain blue body and sleeves with white upper-side inserts and black lower insert edging/sleeve diagonals. Independent literal 2025/26 Home/Away fallback; colors visually estimated. Original PNG fabric/alpha and existing physical round collar retained; all sponsor text, badges and manufacturer symbols removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1e05460b5b3c2d5c37bb-home-427955.jpg",
+      "page_url": "https://www.footballkitarchive.com/chania-fc-2025-26-home-kit-427955/",
+      "sha256": "9f7811a308c93ab64986c482d27c4e8503e2adbc3a2a2df6e2c41185b67d56b1"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#174D87",
+      "leftSleeve": "#174D87",
+      "rightSleeve": "#174D87",
+      "collar": "#174D87",
+      "leftCuff": "#174D87",
+      "rightCuff": "#174D87"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#174D87",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#174D87",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            47,
+            56
+          ],
+          [
+            59,
+            67
+          ],
+          [
+            64,
+            80
+          ],
+          [
+            63,
+            103
+          ],
+          [
+            51,
+            94
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            153,
+            56
+          ],
+          [
+            141,
+            67
+          ],
+          [
+            136,
+            80
+          ],
+          [
+            137,
+            103
+          ],
+          [
+            149,
+            94
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            94
+          ],
+          [
+            63,
+            103
+          ],
+          [
+            63,
+            107
+          ],
+          [
+            50,
+            98
+          ]
+        ],
+        "fill": "#151A1E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            149,
+            94
+          ],
+          [
+            137,
+            103
+          ],
+          [
+            137,
+            107
+          ],
+          [
+            150,
+            98
+          ]
+        ],
+        "fill": "#151A1E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            22,
+            45
+          ],
+          [
+            44,
+            31
+          ],
+          [
+            44,
+            34
+          ],
+          [
+            23,
+            48
+          ]
+        ],
+        "fill": "#151A1E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            178,
+            45
+          ],
+          [
+            156,
+            31
+          ],
+          [
+            156,
+            34
+          ],
+          [
+            177,
+            48
+          ]
+        ],
+        "fill": "#151A1E",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

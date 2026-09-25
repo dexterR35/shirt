@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_66624bdffd10c12945a8",
+  "team_name": "KPV",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": "2025",
+  "revision": "r001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kpv-kokkola-2025-away-kit-447147/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/Zev9bzMr5XNi7fK/kpv-kokkola-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_66624bdffd10c12945a8-away-447147.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#285A51",
+      "rightSleeve": "#285A51",
+      "collar": "#265E53",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "observations": "White torso with dark-green raglan/sleeve colors, two white left-shoulder bands, white cuff ends and green neckline edge. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White torso with dark-green raglan/sleeve colors, two white left-shoulder bands, white cuff ends and green neckline edge. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_66624bdffd10c12945a8-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#285A51",
+      "rightSleeve": "#285A51",
+      "collar": "#265E53",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#265E53",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M72.8 3.8L77 2Q100 7 123 2L127.2 3.8C130 28.8 70 28.8 72.8 3.8Z",
+          "fill": "#F2F3F0",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            4
+          ],
+          [
+            71,
+            13
+          ],
+          [
+            59,
+            18
+          ],
+          [
+            52,
+            28
+          ],
+          [
+            48,
+            60
+          ],
+          [
+            47,
+            90
+          ],
+          [
+            0,
+            100
+          ]
+        ],
+        "fill": "#285A51",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            125,
+            4
+          ],
+          [
+            129,
+            13
+          ],
+          [
+            141,
+            18
+          ],
+          [
+            148,
+            28
+          ],
+          [
+            152,
+            60
+          ],
+          [
+            153,
+            90
+          ],
+          [
+            200,
+            100
+          ]
+        ],
+        "fill": "#285A51",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            13
+          ],
+          [
+            56,
+            10
+          ],
+          [
+            70,
+            20
+          ],
+          [
+            66,
+            25
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            32,
+            28
+          ],
+          [
+            38,
+            24
+          ],
+          [
+            52,
+            34
+          ],
+          [
+            49,
+            40
+          ]
+        ],
+        "fill": "#F2F3F0",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F2F3F0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F2F3F0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

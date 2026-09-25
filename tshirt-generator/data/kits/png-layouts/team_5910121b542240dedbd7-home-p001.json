@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5910121b542240dedbd7",
+  "team_name": "Flacăra Moreni",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with shallow blue upper-chest chevron and blue lower-side inserts; yellow sleeves/ring. Match-photo proportions adapted. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5910121b542240dedbd7-home-507570.jpg",
+      "page_url": "https://www.footballkitarchive.com/csm-flacara-moreni-2026-27-home-kit-507570/",
+      "sha256": "1eba0fba57ea7b5ede89e76de8be1ad414398adb36959a10c1585b80ba83a84a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EBC52E",
+      "leftSleeve": "#EBC52E",
+      "rightSleeve": "#EBC52E",
+      "collar": "#EBC52E",
+      "leftCuff": "#EBC52E",
+      "rightCuff": "#EBC52E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EBC52E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EBC52E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            15
+          ],
+          [
+            70,
+            19
+          ],
+          [
+            100,
+            34
+          ],
+          [
+            130,
+            19
+          ],
+          [
+            152,
+            15
+          ],
+          [
+            149,
+            21
+          ],
+          [
+            100,
+            41
+          ],
+          [
+            51,
+            21
+          ]
+        ],
+        "fill": "#2875AE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            113
+          ],
+          [
+            54,
+            126
+          ],
+          [
+            56,
+            182
+          ],
+          [
+            49,
+            192
+          ]
+        ],
+        "fill": "#247DB5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            113
+          ],
+          [
+            146,
+            126
+          ],
+          [
+            144,
+            182
+          ],
+          [
+            151,
+            192
+          ]
+        ],
+        "fill": "#247DB5",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

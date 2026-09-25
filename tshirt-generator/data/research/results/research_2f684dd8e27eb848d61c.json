@@ -5,8 +5,8 @@
   "country_name": "Greece",
   "variant": "home",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Archive search for \"Amisos\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical home reference. This is an archive evidence gap, not a claim that the team has no kit.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,10 +69,23 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Archive search for \"Amisos\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical home reference. This is an archive evidence gap, not a claim that the team has no kit."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-finland-current-gaps-2026-09-25",
+      "action": "Reconciled live archive evidence under authorized previous-season fallback policy, skipping every supplied or ready slot.",
+      "evidence": {
+        "histories": [],
+        "search": {
+          "team_name": "PAO Pontioi Nea Amisos",
+          "query": "Amisos",
+          "outcome": "Found nothing.",
+          "matching_history": null
+        }
+      },
+      "outcome": "Archive search for \"Amisos\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical home reference. This is an archive evidence gap, not a claim that the team has no kit."
+    }
   ]
 }

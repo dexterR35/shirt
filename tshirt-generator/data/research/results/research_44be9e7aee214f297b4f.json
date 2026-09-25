@@ -6,7 +6,7 @@
   "variant": "home",
   "kit_season": null,
   "status": "blocked",
-  "reason": "Independent live team history latest entries: 1999 Home, 1993 Home. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted.",
+  "reason": "Independently checked archive history contains 1999 Home, 1993 Home. No 2026/27, calendar 2026 or previous calendar 2025 home reference was found. Literal older seasons retained as evidence only.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -69,7 +69,7 @@
     "visually_verified": false
   },
   "remaining": [
-    "Independent live team history latest entries: 1999 Home, 1993 Home. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    "Independently checked archive history contains 1999 Home, 1993 Home. No 2026/27, calendar 2026 or previous calendar 2025 home reference was found. Literal older seasons retained as evidence only."
   ],
   "research_log": [
     {
@@ -82,6 +82,25 @@
         "1993 Home"
       ],
       "outcome": "Independent live team history latest entries: 1999 Home, 1993 Home. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-finland-current-gaps-2026-09-25",
+      "action": "Reconciled live archive evidence under authorized previous-season fallback policy, skipping every supplied or ready slot.",
+      "evidence": {
+        "task_id": "research_44be9e7aee214f297b4f",
+        "team_id": "team_4ffcfbae873d959ad32e",
+        "team_name": "TPV",
+        "country_name": "Finland",
+        "variant": "home",
+        "source_url": "https://www.footballkitarchive.com/tampereen-pallo-veikot-kits-t52814/",
+        "observed_entries": [
+          "1999 Home",
+          "1993 Home"
+        ],
+        "remaining": "Independent live team history latest entries: 1999 Home, 1993 Home. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted."
+      },
+      "outcome": "Independently checked archive history contains 1999 Home, 1993 Home. No 2026/27, calendar 2026 or previous calendar 2025 home reference was found. Literal older seasons retained as evidence only."
     }
   ]
 }

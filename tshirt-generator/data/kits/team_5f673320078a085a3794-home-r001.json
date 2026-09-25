@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5f673320078a085a3794",
+  "team_name": "Urban Titu",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/urban-titu-2026-27-home-kit-507568/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/8ST3k60GunwudpZ/urban-titu-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5f673320078a085a3794-home-507568.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red"
+    ],
+    "values": {
+      "body": "#17253B",
+      "leftSleeve": "#17253B",
+      "rightSleeve": "#17253B",
+      "collar": "#B8303C",
+      "leftCuff": "#BC3040",
+      "rightCuff": "#BC3040"
+    }
+  },
+  "observations": "Navy with spaced red horizontal torso hoops and red cuff/neck accents. Match photo folds obscure sections of each hoop; visible spacing continued. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#17253B",
+      "leftSleeve": "#17253B",
+      "rightSleeve": "#17253B",
+      "collar": "#B8303C",
+      "leftCuff": "#BC3040",
+      "rightCuff": "#BC3040"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B8303C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#17253B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 23,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 70,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 119,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 171,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#BC3040",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#BC3040",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_71818154c5bb6a6a0a68",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/pas-giannina-2025-26-home-kit-418388/",
+        "reason": "Latest independent team history shows 2025/26; previous-season fallback authorized 25 September 2026."
+      },
+      "source_team_name": "PAS Giannina",
+      "design": "Plain",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "adidas",
+      "sponsor": "Hall of Brands",
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/pas-giannina-2025-26-home-kit-418388/",
+        "kit_id": "418388",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_2b02e3f2c4476a1aa039.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_71818154c5bb6a6a0a68",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/pas-giannina-2025-26-away-kit-418387/",
+        "reason": "Latest independent team history shows 2025/26; previous-season fallback authorized 25 September 2026."
+      },
+      "source_team_name": "PAS Giannina",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "adidas",
+      "sponsor": "Hall of Brands",
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/pas-giannina-2025-26-away-kit-418387/",
+        "kit_id": "418387",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_e35ba115138f3b2caeba.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

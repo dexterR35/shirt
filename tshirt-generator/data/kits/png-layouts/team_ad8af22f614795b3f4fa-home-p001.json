@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ad8af22f614795b3f4fa",
+  "team_name": "JJK",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Claret plain body/sleeves and slightly deeper claret ring. White sleeve marks are branding and omitted. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ad8af22f614795b3f4fa-home-447144.jpg",
+      "page_url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-home-kit-447144/",
+      "sha256": "2ef84caa4d51abaf051e98caba75131353cfbf73336afa52321994e90805792d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#843C42",
+      "leftSleeve": "#843C42",
+      "rightSleeve": "#843C42",
+      "collar": "#77373D",
+      "leftCuff": "#843C42",
+      "rightCuff": "#843C42"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#77373D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#843C42",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_94f0e45456aa7badcc01",
+  "team_name": "Progresul Fundulea",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/afc-progresul-fundulea-2025-26-home-kit-434680/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/C9cw5CXMzHArHp0/afc-progresul-fundulea-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_94f0e45456aa7badcc01-home-434680.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#DE151E",
+      "leftSleeve": "#DE151E",
+      "rightSleeve": "#DE151E",
+      "collar": "#D51A23",
+      "leftCuff": "#DE151E",
+      "rightCuff": "#DE151E"
+    }
+  },
+  "observations": "Red with broad tonal claret downward chest chevron, plain red sleeves and ring. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DE151E",
+      "leftSleeve": "#DE151E",
+      "rightSleeve": "#DE151E",
+      "collar": "#D51A23",
+      "leftCuff": "#DE151E",
+      "rightCuff": "#DE151E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D51A23",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DE151E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            62
+          ],
+          [
+            100,
+            110
+          ],
+          [
+            151,
+            62
+          ],
+          [
+            151,
+            96
+          ],
+          [
+            100,
+            151
+          ],
+          [
+            49,
+            96
+          ]
+        ],
+        "fill": "#C51621",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

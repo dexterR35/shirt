@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dadd8b070cef23a71bae",
+  "team_name": "Unirea Sântana",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/unirea-santana-2026-27-away-kit-508849/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/16/YweOQ2HjM4Ut0iH/unirea-santana-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dadd8b070cef23a71bae-away-508849.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#171C23",
+      "rightSleeve": "#171C23",
+      "collar": "#F1F2EF",
+      "leftCuff": "#171C23",
+      "rightCuff": "#171C23"
+    }
+  },
+  "observations": "White torso and ring with black sleeves; small shoulder manufacturer marks omitted. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#171C23",
+      "rightSleeve": "#171C23",
+      "collar": "#F1F2EF",
+      "leftCuff": "#171C23",
+      "rightCuff": "#171C23"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Flacăra Moreni",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2026/27",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -41,10 +41,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_5910121b542240dedbd7-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-flacara-moreni-2026-27-home-kit-507570/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/ZJCGrEv0HHETndc/csm-flacara-moreni-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_5910121b542240dedbd7-home-507570.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#EBC52E",
+      "leftSleeve": "#EBC52E",
+      "rightSleeve": "#EBC52E",
+      "collar": "#EBC52E",
+      "leftCuff": "#EBC52E",
+      "rightCuff": "#EBC52E"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_64869a81a800cad81f44.json",
+    "source_kit_id": "507570"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1ef40663b265424534c6",
+  "team_name": "Corona Brașov",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-corona-brasov-2026-27-home-kit-498449/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/22/TojVSipkt78J4tS/csm-corona-brasov-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1ef40663b265424534c6-home-498449.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#2450D3",
+      "leftSleeve": "#2450D3",
+      "rightSleeve": "#2450D3",
+      "collar": "#234FCB",
+      "leftCuff": "#2450D3",
+      "rightCuff": "#2450D3"
+    }
+  },
+  "observations": "Royal-blue plain body/sleeves/ring visible in presentation photo. The large lower crest, crown, watermarks and text are branding and removed; lower fabric behind the superimposed crest is continued blue. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2450D3",
+      "leftSleeve": "#2450D3",
+      "rightSleeve": "#2450D3",
+      "collar": "#234FCB",
+      "leftCuff": "#2450D3",
+      "rightCuff": "#2450D3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#234FCB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2450D3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

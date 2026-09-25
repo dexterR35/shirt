@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5b0c0fbcaaa8f412ea76",
+  "team_name": "CIL Blaj",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with broad sky-blue upper-shoulder inserts; plain yellow sleeves and round ring. Action photo is shaded and partly occluded. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5b0c0fbcaaa8f412ea76-home-435973.jpg",
+      "page_url": "https://www.footballkitarchive.com/cil-blaj-2025-26-home-kit-435973/",
+      "sha256": "89e9bfbcab9669c3f8ae409d5f2d484f7e7312af03d4d18d0c33ca268d3aa6e8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E5D82C",
+      "leftSleeve": "#E5D82C",
+      "rightSleeve": "#E5D82C",
+      "collar": "#E5D82C",
+      "leftCuff": "#E5D82C",
+      "rightCuff": "#E5D82C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E5D82C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E5D82C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            72,
+            3
+          ],
+          [
+            52,
+            10
+          ],
+          [
+            44,
+            24
+          ],
+          [
+            47,
+            27
+          ],
+          [
+            59,
+            16
+          ],
+          [
+            75,
+            7
+          ]
+        ],
+        "fill": "#4E86A5",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            128,
+            3
+          ],
+          [
+            148,
+            10
+          ],
+          [
+            156,
+            24
+          ],
+          [
+            153,
+            27
+          ],
+          [
+            141,
+            16
+          ],
+          [
+            125,
+            7
+          ]
+        ],
+        "fill": "#4E86A5",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

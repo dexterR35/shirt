@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_458aaafc7469a13ae856",
+  "team_name": "Aerostar Bacău",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-aerostar-bacau-2025-26-away-kit-408922/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/09/07/fUJCvcyxblnMzBc/cs-aerostar-bacau-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_458aaafc7469a13ae856-away-408922.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#142747",
+      "leftSleeve": "#142747",
+      "rightSleeve": "#142747",
+      "collar": "#142747",
+      "leftCuff": "#142747",
+      "rightCuff": "#142747"
+    }
+  },
+  "observations": "Navy with broad yellow shoulder/chest yoke descending to a central chevron point, plain navy sleeves and ring. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#142747",
+      "leftSleeve": "#142747",
+      "rightSleeve": "#142747",
+      "collar": "#142747",
+      "leftCuff": "#142747",
+      "rightCuff": "#142747"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#142747",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#142747",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            47,
+            0
+          ],
+          [
+            153,
+            0
+          ],
+          [
+            156,
+            15
+          ],
+          [
+            100,
+            34
+          ],
+          [
+            44,
+            15
+          ]
+        ],
+        "fill": "#E2CA34",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

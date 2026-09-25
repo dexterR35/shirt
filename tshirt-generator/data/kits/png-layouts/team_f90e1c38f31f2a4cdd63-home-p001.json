@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f90e1c38f31f2a4cdd63",
+  "team_name": "OLS",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy body and sleeves with white neckline band and cuff ends. Existing round collar replaces the source V construction. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f90e1c38f31f2a4cdd63-home-447152.jpg",
+      "page_url": "https://www.footballkitarchive.com/oulun-luistinseura-2025-home-kit-447152/",
+      "sha256": "635b623eb1a2fe1b60934c168ed1153175ec4cf65597f8e01f7170f24febebf0"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#171E32",
+      "leftSleeve": "#171E32",
+      "rightSleeve": "#171E32",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#171E32",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#F2F3F0",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#F2F3F0",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

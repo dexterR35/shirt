@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5f673320078a085a3794",
+  "team_name": "Urban Titu",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy with spaced red horizontal torso hoops and red cuff/neck accents. Match photo folds obscure sections of each hoop; visible spacing continued. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5f673320078a085a3794-home-507568.jpg",
+      "page_url": "https://www.footballkitarchive.com/urban-titu-2026-27-home-kit-507568/",
+      "sha256": "39624b04a6e3ef6584d8383f9959f1df567eadab745a39b86eab79c80a824f08"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#17253B",
+      "leftSleeve": "#17253B",
+      "rightSleeve": "#17253B",
+      "collar": "#B8303C",
+      "leftCuff": "#BC3040",
+      "rightCuff": "#BC3040"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B8303C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#17253B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 23,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 70,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 119,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 171,
+        "width": 200,
+        "height": 8,
+        "fill": "#AC2A39",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#BC3040",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#BC3040",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

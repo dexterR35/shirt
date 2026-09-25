@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_94631c49f409baadc671",
+  "team_name": "Agricola Borcea",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Orange with sparse thin broken dark pinstripes at upper-left and lower-right front, black cuffs and muted orange ring; measured neutral line placement follows the match photo. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_94631c49f409baadc671-away-434684.jpg",
+      "page_url": "https://www.footballkitarchive.com/agricola-borcea-2025-26-away-kit-434684/",
+      "sha256": "6ca1a63215420da9ef48e0ff3dcb313c7ca2efefabedb09cebde2cc9f0eb6a65"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DB5B37",
+      "leftSleeve": "#DB5B37",
+      "rightSleeve": "#DB5B37",
+      "collar": "#CA5C40",
+      "leftCuff": "#25272A",
+      "rightCuff": "#25272A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CA5C40",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DB5B37",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M54.802 0.03L57.802 20.03L58.198 19.97L55.198 -0.03Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M91.794 141.038L102.794 200.038L103.206 199.962L92.206 140.962Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M57.202 4.031L60.202 23.031L60.598 22.969L57.598 3.969Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M96.093 135.035L107.093 200.035L107.507 199.965L96.507 134.965Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M59.603 8.033L62.603 26.033L62.997 25.967L59.997 7.967Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M100.392 129.032L111.392 200.032L111.808 199.968L100.808 128.968Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M62.001 0.021L65.001 29.021L65.399 28.979L62.399 -0.021Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M104.692 123.03L115.692 200.03L116.108 199.97L105.108 122.97Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M64.403 4.037L67.403 20.037L67.797 19.963L64.797 3.963Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M108.994 141.038L119.994 200.038L120.406 199.962L109.406 140.962Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M66.804 8.039L69.804 23.039L70.196 22.961L67.196 7.961Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M113.293 135.035L124.293 200.035L124.707 199.965L113.707 134.965Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M69.201 0.023L72.201 26.023L72.599 25.977L69.599 -0.023Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M117.592 129.032L128.592 200.032L129.008 199.968L118.008 128.968Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M71.601 4.024L74.601 29.024L74.999 28.976L71.999 3.976Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M121.892 123.03L132.892 200.03L133.308 199.97L122.308 122.97Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M74.006 8.049L77.006 20.049L77.394 19.951L74.394 7.951Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126.194 141.038L137.194 200.038L137.606 199.962L126.606 140.962Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M76.402 0.026L79.402 23.026L79.798 22.974L76.798 -0.026Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M130.493 135.035L141.493 200.035L141.907 199.965L130.907 134.965Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M78.802 4.027L81.802 26.027L82.198 25.973L79.198 3.973Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M134.792 129.032L145.792 200.032L146.208 199.968L135.208 128.968Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M81.202 8.028L84.202 29.028L84.598 28.972L81.598 7.972Z",
+        "fill": "#4D3D34",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M139.092 123.03L150.092 200.03L150.508 199.97L139.508 122.97Z",
+        "fill": "#5B3C34",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#25272A",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#25272A",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

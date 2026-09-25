@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/country/greece/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with broad charcoal diagonal angular zigzag bands crossed by fine yellow, cyan and pink outlines; pattern extends onto sleeves. Neutral measured zigzag linework reproduces the repeated geometry, small exact placements adapted. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-d-2026-09-25/team_6b4abf9efe9714e66c92-away.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6b4abf9efe9714e66c92-away-421050.jpg",
-  "image_sha256": "077833417acf5aac238f3c93b1770a6764340f0311496fc4fde8446642362c04"
+  "image_sha256": "077833417acf5aac238f3c93b1770a6764340f0311496fc4fde8446642362c04",
+  "artwork_revision_path": "data/kits/team_6b4abf9efe9714e66c92-away-r001.json"
 }

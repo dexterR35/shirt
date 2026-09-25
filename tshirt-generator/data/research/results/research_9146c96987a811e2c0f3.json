@@ -6,7 +6,7 @@
   "variant": "away",
   "kit_season": null,
   "status": "blocked",
-  "reason": "Independent live archive history latest season 2023-24, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted.",
+  "reason": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,7 +41,7 @@
     "visually_verified": false
   },
   "remaining": [
-    "Independent live archive history latest season 2023-24, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
   ],
   "research_log": [
     {
@@ -55,6 +55,29 @@
         "away"
       ],
       "outcome": "Independent live archive history latest season 2023-24, with home/away entries. No current 2026/27 away reference found. Older seasons and event variants are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-finland-current-gaps-2026-09-25",
+      "action": "Reconciled live archive evidence under authorized previous-season fallback policy, skipping every supplied or ready slot.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "Thyella Katsikas",
+            "source_url": "https://www.footballkitarchive.com/thyella-katsikas-kits-t20894/",
+            "checked_at": "2026-09-25",
+            "method": "Read live independent team history discovered from historical league listing; latest-season heading and kit labels checked.",
+            "latest_season": "2023-24",
+            "observed_latest_variants": [
+              "home",
+              "away"
+            ],
+            "current_variants": []
+          }
+        ],
+        "search": null
+      },
+      "outcome": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
     }
   ]
 }

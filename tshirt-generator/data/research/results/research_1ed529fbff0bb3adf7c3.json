@@ -5,7 +5,7 @@
   "country_name": "Greece",
   "variant": "away",
   "kit_season": "2025/26",
-  "status": "draft",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Compare the source image and refine artwork before marking ready."
-  ],
+  "remaining": [],
   "kit_revision_path": "data/kits/team_6b4abf9efe9714e66c92-away-r001.json",
   "references": [
     {
@@ -101,7 +99,14 @@
       "rightCuff": "#181B1D"
     }
   },
-  "visual_review": null,
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with broad charcoal diagonal angular zigzag bands crossed by fine yellow, cyan and pink outlines; pattern extends onto sleeves. Neutral measured zigzag linework reproduces the repeated geometry, small exact placements adapted. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-d-2026-09-25/team_6b4abf9efe9714e66c92-away.png"
+  },
   "footballkitarchive": {
     "record_path": "data/research/footballkitarchive/records/research_1ed529fbff0bb3adf7c3.json",
     "source_kit_id": "421050"
@@ -110,7 +115,7 @@
     {
       "date": "2026-09-25",
       "batch": "tier3-greece-d-2026-09-25",
-      "action": "Created source-specific draft for visual comparison."
+      "action": "Compared archive reference with PNG adaptation."
     }
   ]
 }

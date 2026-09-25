@@ -4,8 +4,8 @@
   "team_name": "Ilioupoli",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0de1bab42b71e3310590-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/gs-ilioupolis-2025-26-away-kit-421053/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/20/UF3B2Fd5YARfkPQ/gs-ilioupolis-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0de1bab42b71e3310590-away-421053.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D2191B",
+      "leftSleeve": "#D2191B",
+      "rightSleeve": "#D2191B",
+      "collar": "#CD161A",
+      "leftCuff": "#D2191B",
+      "rightCuff": "#D2191B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with triple white shoulder tapes, curved fine white side seams and short pale-red ladder marks near underarms. Source texture represented as reduced flat linework. Independent literal 2025/26 Home/Away fallback; colors visually estimated. Original PNG fabric/alpha and existing physical round collar retained; all sponsor text, badges and manufacturer symbols removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-e-2026-09-25/team_0de1bab42b71e3310590-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_c586ac363a55e75c189b.json",
+    "source_kit_id": "421053"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-greece-e-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

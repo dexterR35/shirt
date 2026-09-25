@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_434bbea1325991757dc5",
+  "team_name": "Academica Balș",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain red with fine white neckline and underarm seam trim. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_434bbea1325991757dc5-away-453272.jpg",
+      "page_url": "https://www.footballkitarchive.com/acs-academica-bals-2025-26-away-kit-453272/",
+      "sha256": "8b61f383862f1f704afaadc0d4da594dbab2d5860d533766764f52853d9204b2"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#D92338",
+      "leftSleeve": "#D92338",
+      "rightSleeve": "#D92338",
+      "collar": "#F1F2EF",
+      "leftCuff": "#D92338",
+      "rightCuff": "#D92338"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EF",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.3 4.443L77 2Q100 7 123 2L128.7 4.443C131.071 30.514 68.929 30.514 71.3 4.443Z",
+          "fill": "#DB263B",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#D92338",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            47,
+            34
+          ],
+          [
+            46.5,
+            49
+          ],
+          [
+            44,
+            62
+          ],
+          [
+            40,
+            66
+          ],
+          [
+            40,
+            65
+          ],
+          [
+            43.3,
+            61.5
+          ],
+          [
+            45.8,
+            49
+          ],
+          [
+            46.3,
+            34
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            153,
+            34
+          ],
+          [
+            153.5,
+            49
+          ],
+          [
+            156,
+            62
+          ],
+          [
+            160,
+            66
+          ],
+          [
+            160,
+            65
+          ],
+          [
+            156.7,
+            61.5
+          ],
+          [
+            154.2,
+            49
+          ],
+          [
+            153.7,
+            34
+          ]
+        ],
+        "fill": "#F1F2EF",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "KuPS Akatemia",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
+  "kit_season": "2025",
+  "status": "ready",
   "reason": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -82,6 +80,52 @@
         "2025 Away"
       ],
       "outcome": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 away reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-finland-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_245ff8259790bd36f75f-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kuopion-ps-b-2025-away-kit-447149/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/g7MkPej4jxjsKPs/kuopion-ps-b-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_245ff8259790bd36f75f-away-447149.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White"
+    ],
+    "values": {
+      "body": "#202321",
+      "leftSleeve": "#202321",
+      "rightSleeve": "#202321",
+      "collar": "#F2F3F0",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black body/sleeves with white shoulder tape, cuff ends, lower-side hem tabs and fine neckline edging. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_245ff8259790bd36f75f-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_3d7c1865989f2e549c4c.json",
+    "source_kit_id": "447149"
+  }
 }

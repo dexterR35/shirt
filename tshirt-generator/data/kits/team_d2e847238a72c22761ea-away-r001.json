@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d2e847238a72c22761ea",
+  "team_name": "FC Pucioasa",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "status": "draft",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-pucioasa-2026-27-away-kit-507569/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/JRp7ZqC5uucUW5I/fc-pucioasa-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d2e847238a72c22761ea-away-507569.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#E5292F",
+      "leftSleeve": "#E5292F",
+      "rightSleeve": "#E5292F",
+      "collar": "#D9282E",
+      "leftCuff": "#E5292F",
+      "rightCuff": "#E5292F"
+    }
+  },
+  "observations": "Red/claret subtle half-and-half torso, red sleeves and ring from the action photograph. Dense folds and body occlusion limit exact hue division. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": null,
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E5292F",
+      "leftSleeve": "#E5292F",
+      "rightSleeve": "#E5292F",
+      "collar": "#D9282E",
+      "leftCuff": "#E5292F",
+      "rightCuff": "#E5292F"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D9282E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E5292F",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 100,
+        "height": 200,
+        "fill": "#CB2930",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

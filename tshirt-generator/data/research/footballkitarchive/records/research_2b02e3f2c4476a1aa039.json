@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/country/greece/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with three fine white side seam lines from underarm to hem and plain blue sleeves/ring. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-d-2026-09-25/team_71818154c5bb6a6a0a68-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": "Hall of Brands",
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_71818154c5bb6a6a0a68-home-418388.jpg",
-  "image_sha256": "af5ccff5dc71208cba71b540fe8e9aec41db382947035118969046d7b33898ce"
+  "image_sha256": "af5ccff5dc71208cba71b540fe8e9aec41db382947035118969046d7b33898ce",
+  "artwork_revision_path": "data/kits/team_71818154c5bb6a6a0a68-home-r001.json"
 }

@@ -1,0 +1,121 @@
+{
+  "batch": "tier3-greece-e-2026-09-25",
+  "traces": [
+    {
+      "key": "Makedonikos:home",
+      "reference": "data/research/references/footballkitarchive/team_1b0bc31c3cb3feefcea6-home-417494.jpg",
+      "source_sha256": "bdf74295f40c60008cfaddaefe0fe5d4b4ffd10dbfb0662386bff49823fe39d2",
+      "spec": {
+        "box": [
+          83,
+          196,
+          70,
+          154
+        ],
+        "width": 220,
+        "mode": "light",
+        "threshold": 4,
+        "blur": 7,
+        "min": 0,
+        "max": 255
+      },
+      "placement": {
+        "x": 5,
+        "y": 22,
+        "width": 51,
+        "height": 65,
+        "color": "#A7CCAD",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 19200,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Makedonikos:home",
+      "reference": "data/research/references/footballkitarchive/team_1b0bc31c3cb3feefcea6-home-417494.jpg",
+      "source_sha256": "bdf74295f40c60008cfaddaefe0fe5d4b4ffd10dbfb0662386bff49823fe39d2",
+      "spec": {
+        "box": [
+          83,
+          196,
+          70,
+          154
+        ],
+        "width": 220,
+        "mode": "light",
+        "threshold": 4,
+        "blur": 7,
+        "min": 0,
+        "max": 255
+      },
+      "placement": {
+        "x": 145,
+        "y": 22,
+        "width": 51,
+        "height": 65,
+        "color": "#A7CCAD",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 19200,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Makedonikos:away",
+      "reference": "data/research/references/footballkitarchive/team_1b0bc31c3cb3feefcea6-away-421048.jpg",
+      "source_sha256": "3a7953d2187d4e7111dc66f9751e81406aec38a0d27b537da759205b35c0694d",
+      "spec": {
+        "box": [
+          91,
+          184,
+          76,
+          147
+        ],
+        "width": 220,
+        "mode": "dark",
+        "threshold": 7,
+        "blur": 7,
+        "min": 0,
+        "max": 255
+      },
+      "placement": {
+        "x": 5,
+        "y": 22,
+        "width": 51,
+        "height": 65,
+        "color": "#5D9A75",
+        "clip": "leftSleeve"
+      },
+      "ink_pixels": 19948,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    },
+    {
+      "key": "Makedonikos:away",
+      "reference": "data/research/references/footballkitarchive/team_1b0bc31c3cb3feefcea6-away-421048.jpg",
+      "source_sha256": "3a7953d2187d4e7111dc66f9751e81406aec38a0d27b537da759205b35c0694d",
+      "spec": {
+        "box": [
+          91,
+          184,
+          76,
+          147
+        ],
+        "width": 220,
+        "mode": "dark",
+        "threshold": 7,
+        "blur": 7,
+        "min": 0,
+        "max": 255
+      },
+      "placement": {
+        "x": 145,
+        "y": 22,
+        "width": 51,
+        "height": 65,
+        "color": "#5D9A75",
+        "clip": "rightSleeve"
+      },
+      "ink_pixels": 19948,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

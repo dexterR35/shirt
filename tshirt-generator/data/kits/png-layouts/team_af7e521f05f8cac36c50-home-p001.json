@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_af7e521f05f8cac36c50",
+  "team_name": "RoPS",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal-blue plain body/sleeves with darker blue cuffs and blue round ring. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_af7e521f05f8cac36c50-home-369461.jpg",
+      "page_url": "https://www.footballkitarchive.com/rops-2025-home-kit-369461/",
+      "sha256": "a0ce8e8e761c7c9b6acdfe8d70257758a50384a2c441b0a09e8995f4674951cd"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2864B8",
+      "leftSleeve": "#2864B8",
+      "rightSleeve": "#2864B8",
+      "collar": "#245CA7",
+      "leftCuff": "#224C91",
+      "rightCuff": "#224C91"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#245CA7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2864B8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#224C91",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#224C91",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

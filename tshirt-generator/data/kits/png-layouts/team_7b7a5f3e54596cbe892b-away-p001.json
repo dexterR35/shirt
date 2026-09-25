@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7b7a5f3e54596cbe892b",
+  "team_name": "FC Jazz",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Grey torso with royal-blue sleeves and blue round ring; all commemorative lettering removed. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7b7a5f3e54596cbe892b-away-447143.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-jazz-2025-away-kit-447143/",
+      "sha256": "4c0b400953d3a71977f98c24ff42857c52413a42263fe4516033b43cf91cfb6c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#828583",
+      "leftSleeve": "#355C9E",
+      "rightSleeve": "#355C9E",
+      "collar": "#345795",
+      "leftCuff": "#355C9E",
+      "rightCuff": "#355C9E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#345795",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#828583",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

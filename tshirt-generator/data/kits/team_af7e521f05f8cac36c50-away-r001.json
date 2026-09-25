@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_af7e521f05f8cac36c50",
+  "team_name": "RoPS",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": "2025",
+  "revision": "r001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/rops-2025-away-kit-447156/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/kzbtqi4axTvLIOk/rops-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_af7e521f05f8cac36c50-away-447156.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#F2F3F0",
+      "leftCuff": "#2E62AF",
+      "rightCuff": "#2E62AF"
+    }
+  },
+  "observations": "White body/sleeves with blue cuff ends and blue tapered lower-side panels; white ring. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White body/sleeves with blue cuff ends and blue tapered lower-side panels; white ring. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_af7e521f05f8cac36c50-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F2F3F0",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#F2F3F0",
+      "leftCuff": "#2E62AF",
+      "rightCuff": "#2E62AF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F2F3F0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            113
+          ],
+          [
+            54,
+            134
+          ],
+          [
+            54,
+            195
+          ],
+          [
+            49,
+            198
+          ]
+        ],
+        "fill": "#2E62AF",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            113
+          ],
+          [
+            146,
+            134
+          ],
+          [
+            146,
+            195
+          ],
+          [
+            151,
+            198
+          ]
+        ],
+        "fill": "#2E62AF",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#2E62AF",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#2E62AF",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

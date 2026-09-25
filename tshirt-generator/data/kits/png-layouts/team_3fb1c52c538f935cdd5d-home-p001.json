@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3fb1c52c538f935cdd5d",
+  "team_name": "FC Inter Turku II",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black/royal-blue vertical striped torso, blue sleeve stripe sections and blue ring. Sleeve stripe spacing adapted to the common shape. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3fb1c52c538f935cdd5d-home-447140.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-home-kit-447140/",
+      "sha256": "7538c4b5e949f5356557d7648a7c8b0e8602a4daa529b57d38ec6780d2fa4e41"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#171B1E",
+      "leftSleeve": "#171B1E",
+      "rightSleeve": "#171B1E",
+      "collar": "#2D4F93",
+      "leftCuff": "#171B1E",
+      "rightCuff": "#171B1E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2D4F93",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#171B1E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 58,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#2C4F94",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#2C4F94",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#2C4F94",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 8,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 32,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 156,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 180,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 8,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 32,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 156,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 180,
+        "y": 0,
+        "width": 11,
+        "height": 100,
+        "fill": "#295294",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -4,8 +4,8 @@
   "team_name": "Academica Balș",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -41,10 +41,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_434bbea1325991757dc5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acs-academica-bals-2025-26-away-kit-453272/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/02/08/v3fLOY2omlP3K9V/acs-academica-bals-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_434bbea1325991757dc5-away-453272.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#D92338",
+      "leftSleeve": "#D92338",
+      "rightSleeve": "#D92338",
+      "collar": "#F1F2EF",
+      "leftCuff": "#D92338",
+      "rightCuff": "#D92338"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4f4d72b9251712f11515.json",
+    "source_kit_id": "453272"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

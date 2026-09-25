@@ -4,8 +4,8 @@
   "team_name": "Oltul Curtișoara",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -41,10 +41,48 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_b47cd8b484704f0a59c9-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acs-oltul-curtisoara-2025-26-home-kit-453193/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/02/08/gHVBgx1ulmTStkP/acs-oltul-curtisoara-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b47cd8b484704f0a59c9-home-453193.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F1F2EF",
+      "leftSleeve": "#C62D31",
+      "rightSleeve": "#C62D31",
+      "collar": "#CF2C2C",
+      "leftCuff": "#C62D31",
+      "rightCuff": "#C62D31"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4ed84a2e88f746a8bd72.json",
+    "source_kit_id": "453193"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

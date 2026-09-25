@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7b7a5f3e54596cbe892b",
+  "team_name": "FC Jazz",
+  "country_name": "Finland",
+  "variant": "home",
+  "kit_season": "2025",
+  "revision": "r001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-jazz-2025-home-kit-447142/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/vX3ssY7Sw3OuQpT/fc-jazz-2025-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7b7a5f3e54596cbe892b-home-447142.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#DC2420",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#D62420",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "observations": "Red torso with plain white sleeves, red ring and three yellow shoulder tapes. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red torso with plain white sleeves, red ring and three yellow shoulder tapes. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_7b7a5f3e54596cbe892b-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DC2420",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#D62420",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D62420",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DC2420",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            4
+          ],
+          [
+            74,
+            5.7
+          ],
+          [
+            37,
+            23
+          ],
+          [
+            37,
+            21.3
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            4
+          ],
+          [
+            126,
+            5.7
+          ],
+          [
+            163,
+            23
+          ],
+          [
+            163,
+            21.3
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            6.6
+          ],
+          [
+            74,
+            8.3
+          ],
+          [
+            37,
+            25.6
+          ],
+          [
+            37,
+            23.900000000000002
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            6.6
+          ],
+          [
+            126,
+            8.3
+          ],
+          [
+            163,
+            25.6
+          ],
+          [
+            163,
+            23.900000000000002
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            9.2
+          ],
+          [
+            74,
+            10.9
+          ],
+          [
+            37,
+            28.2
+          ],
+          [
+            37,
+            26.5
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            9.2
+          ],
+          [
+            126,
+            10.9
+          ],
+          [
+            163,
+            28.2
+          ],
+          [
+            163,
+            26.5
+          ]
+        ],
+        "fill": "#E8CC38",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

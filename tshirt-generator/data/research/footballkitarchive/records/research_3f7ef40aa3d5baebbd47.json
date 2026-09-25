@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/country/greece/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with a broad white center stripe, thin white side columns, fine dark-blue pinlines and white cuffs; double narrow white neckline bands. Independent Home/Away reference; literal 2025/26 fallback authorized when 2026/27 is unavailable. Colors visually estimated and source/hidden-region limitations retained. Original PNG fabric/alpha and existing physical round collar preserved; all sponsors, lettering, emblems and manufacturer logos removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-greece-d-2026-09-25/team_6b4abf9efe9714e66c92-home.png"
+  },
   "official_hex": false,
   "equipment_fields": {
     "sponsor": null,
@@ -34,5 +41,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6b4abf9efe9714e66c92-home-417501.jpg",
-  "image_sha256": "ca001ebe2ea42795ffc0bdde0a707aba2fd198c21d66585a10e8624bfa1486bf"
+  "image_sha256": "ca001ebe2ea42795ffc0bdde0a707aba2fd198c21d66585a10e8624bfa1486bf",
+  "artwork_revision_path": "data/kits/team_6b4abf9efe9714e66c92-home-r001.json"
 }

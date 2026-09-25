@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3fb1c52c538f935cdd5d",
+  "team_name": "FC Inter Turku II",
+  "country_name": "Finland",
+  "variant": "away",
+  "kit_season": "2025",
+  "revision": "r001",
+  "research_batch": "tier3-finland-fallback-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-away-kit-447141/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/4Gwaam5ZxOgMi6I/fc-inter-turku-b-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3fb1c52c538f935cdd5d-away-447141.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Claret"
+    ],
+    "values": {
+      "body": "#EC201D",
+      "leftSleeve": "#962B29",
+      "rightSleeve": "#962B29",
+      "collar": "#C12423",
+      "leftCuff": "#962B29",
+      "rightCuff": "#962B29"
+    }
+  },
+  "observations": "Bright-red torso with claret sleeves and red neckline. Original polo collar is represented solely by color on the existing round ring. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Bright-red torso with claret sleeves and red neckline. Original polo collar is represented solely by color on the existing round ring. Independently captured calendar-year 2025 away source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_3fb1c52c538f935cdd5d-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EC201D",
+      "leftSleeve": "#962B29",
+      "rightSleeve": "#962B29",
+      "collar": "#C12423",
+      "leftCuff": "#962B29",
+      "rightCuff": "#962B29"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C12423",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EC201D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

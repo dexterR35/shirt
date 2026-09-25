@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1ef40663b265424534c6",
+  "team_name": "Corona Brașov",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal-blue plain body/sleeves/ring visible in presentation photo. The large lower crest, crown, watermarks and text are branding and removed; lower fabric behind the superimposed crest is continued blue. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1ef40663b265424534c6-home-498449.jpg",
+      "page_url": "https://www.footballkitarchive.com/csm-corona-brasov-2026-27-home-kit-498449/",
+      "sha256": "88bb6e0b4378d2aeed99917fafe7173bce790ea4a56aec8babd44e3fb7d0e3cd"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2450D3",
+      "leftSleeve": "#2450D3",
+      "rightSleeve": "#2450D3",
+      "collar": "#234FCB",
+      "leftCuff": "#2450D3",
+      "rightCuff": "#2450D3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#234FCB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2450D3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7030889d07e1d5da9125",
+  "team_name": "ACS Mediaș",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain yellow match shirt, yellow sleeves and ring. Distant action photograph limits fine-detail certainty. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_7030889d07e1d5da9125-away-454785.jpg",
+      "page_url": "https://www.footballkitarchive.com/acs-medias-2025-26-away-kit-454785/",
+      "sha256": "b9bd1beda1f1354e495a28a354cf13cf3e91e948cd3455b4066fb40e408d626b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DFC92D",
+      "leftSleeve": "#DFC92D",
+      "rightSleeve": "#DFC92D",
+      "collar": "#DFC92D",
+      "leftCuff": "#DFC92D",
+      "rightCuff": "#DFC92D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DFC92D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DFC92D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

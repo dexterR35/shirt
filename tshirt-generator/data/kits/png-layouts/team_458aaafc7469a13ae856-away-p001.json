@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_458aaafc7469a13ae856",
+  "team_name": "Aerostar Bacău",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-a-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "draft",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy with broad yellow shoulder/chest yoke descending to a central chevron point, plain navy sleeves and ring. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_458aaafc7469a13ae856-away-408922.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-aerostar-bacau-2025-26-away-kit-408922/",
+      "sha256": "b2e454cbc286904bc492d7f08ba0edfb67883357094317324221bcc550a7746a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#142747",
+      "leftSleeve": "#142747",
+      "rightSleeve": "#142747",
+      "collar": "#142747",
+      "leftCuff": "#142747",
+      "rightCuff": "#142747"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#142747",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#142747",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            47,
+            0
+          ],
+          [
+            153,
+            0
+          ],
+          [
+            156,
+            15
+          ],
+          [
+            100,
+            34
+          ],
+          [
+            44,
+            15
+          ]
+        ],
+        "fill": "#E2CA34",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

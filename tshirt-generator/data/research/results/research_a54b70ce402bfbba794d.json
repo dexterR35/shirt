@@ -4,8 +4,8 @@
   "team_name": "FC Jazz",
   "country_name": "Finland",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
+  "kit_season": "2025",
+  "status": "ready",
   "reason": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted.",
   "seed_references": [
     {
@@ -68,9 +68,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -82,6 +80,53 @@
         "2025 Away"
       ],
       "outcome": "Independent live team history latest entries: 2025 Home, 2025 Away. No current calendar 2026 or 2026/27 home reference found. Older seasons, event shirts and parent-team kits are not substituted."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-finland-fallback-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_7b7a5f3e54596cbe892b-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-jazz-2025-home-kit-447142/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/20/vX3ssY7Sw3OuQpT/fc-jazz-2025-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7b7a5f3e54596cbe892b-home-447142.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#DC2420",
+      "leftSleeve": "#F2F3F0",
+      "rightSleeve": "#F2F3F0",
+      "collar": "#D62420",
+      "leftCuff": "#F2F3F0",
+      "rightCuff": "#F2F3F0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red torso with plain white sleeves, red ring and three yellow shoulder tapes. Independently captured calendar-year 2025 home source, using the previous domestic season under the authorized fallback direction. Canonical reserve identities retained; no parent-shirt inference. Estimated colors; original PNG fabric/alpha and physical round collar preserved. All emblems, manufacturer symbols, sponsor text and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-finland-fallback-2026-09-25/team_7b7a5f3e54596cbe892b-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_a54b70ce402bfbba794d.json",
+    "source_kit_id": "447142"
+  }
 }

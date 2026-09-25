@@ -4,8 +4,8 @@
   "team_name": "Înainte Modelu",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "draft",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -41,10 +41,47 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Compare the source image and refine artwork before marking ready."
+  ],
+  "kit_revision_path": "data/kits/team_be7eb2946b185afa8180-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acs-inainte-modelu-2025-26-home-kit-434688/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/me1Ag6pOaRGI6Bu/acs-inainte-modelu-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_be7eb2946b185afa8180-home-434688.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue"
+    ],
+    "values": {
+      "body": "#E8CF2A",
+      "leftSleeve": "#E8CF2A",
+      "rightSleeve": "#E8CF2A",
+      "collar": "#3472A1",
+      "leftCuff": "#2C81B4",
+      "rightCuff": "#2C81B4"
+    }
+  },
+  "visual_review": null,
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_203e76bbbf1d8640a40d.json",
+    "source_kit_id": "434688"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-a-2026-09-25",
+      "action": "Created source-specific draft for visual comparison."
+    }
   ]
 }

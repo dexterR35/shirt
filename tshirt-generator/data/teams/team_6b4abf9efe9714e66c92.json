@@ -11,42 +11,83 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_6b4abf9efe9714e66c92",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/egaleo-2025-26-home-kit-417501/",
+        "reason": "Latest independent team history shows 2025/26; previous-season fallback authorized 25 September 2026."
+      },
+      "source_team_name": "Egaleo",
+      "design": "Stripes",
+      "colors": [
+        "Blue",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/egaleo-2025-26-home-kit-417501/",
+        "kit_id": "417501",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_3f7ef40aa3d5baebbd47.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_6b4abf9efe9714e66c92",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/egaleo-2025-26-away-kit-421050/",
+        "reason": "Latest independent team history shows 2025/26; previous-season fallback authorized 25 September 2026."
+      },
+      "source_team_name": "Egaleo",
+      "design": "Graphic",
+      "colors": [
+        "Black",
+        "Gray",
+        "Pink"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/egaleo-2025-26-away-kit-421050/",
+        "kit_id": "421050",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_1ed529fbff0bb3adf7c3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-next-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }
