@@ -118,6 +118,17 @@ export async function renderEncoded(config, size, encode, lighting = 0) {
   return renderJob('download', config, size, encode, lighting);
 }
 
+/**
+ * Encode a finished square render (the 3D view) in the download worker, exactly like
+ * a 2D download: centered on a transparent `width` × `height` canvas.
+ * @param {ImageData} pixels Transferred to the worker.
+ * @param {{type:string, label:string, width:number, height:number}} encode
+ * @returns {Promise<Blob>}
+ */
+export function encodePixels(pixels, encode) {
+  return lane('download')({pixels, encode}, [pixels.data.buffer]);
+}
+
 const PART_MAP_SIZE = 400;
 let partMap = null;
 async function idPixels(idConfig) {

@@ -1,5 +1,7 @@
 # Project status
 
+Branch `feature/3d-view` (25 September 2026): an optional three.js **3D view** in the Studio canvas, off by default and not loaded until switched on. It renders the user's image-to-3D mesh of `base.png` (`data/model.glb`, unchanged; prepared copy 2.8 MB, paint registered to the PNG at 98.46% IoU) with the same validated kit paint, studio lighting and soft shadows. Users orbit, pick an angle, lock the pose and download PNG/WebP/AVIF at that exact pose, individually or for the whole collection. The 3D back and sides continue the front design and are not source-reviewed. Research coverage and kit revisions are unchanged. See [3D view](THREE_D_VIEW.md).
+
 25 September 2026, remaining-equipment completion: **1,337 ready / 1,470 slots**, **0 drafts**, **0 researching**, **133 documented source gaps**. Added **123 shirts for 62 teams across 31 associations**, with 107 labeled 2026/27, 15 calendar 2026 and Torreense Away 2025/26. All 123 source/render comparisons are reviewed; event/version/carry-over labels remain visible. The original PNG and all 1,218 previous configuration locks are preserved. Build, data audit, **83/83 unit tests**, and the new Chromium export test pass. See [the completed inventory and remaining gaps](REST_EQUIPMENT_2026-09-25.md). Tier 1 is 276/276, Tier 2 300/300 and Tier 3 633/766.
 
 The following checkpoints are historical.

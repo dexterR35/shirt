@@ -3,6 +3,12 @@
  */
 export const PNG_NECK_AREA = 'M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z';
 export const PNG_NECK_OPENING = 'M77 2Q100 7 123 2C127 24 73 24 77 2Z';
+/** The same ring's back half, seen from behind on the 3D mesh (same u axis as the front),
+ * down to its seam: the rib's top edge runs from v 0.6 beside the neck to v 3 at the
+ * center back, and it is about 5 units (2 cm) deep. Measured on the mesh's back
+ * projection (docs/THREE_D_VIEW.md); the 2D PNG never shows it.
+ */
+export const BACK_NECK_RING = 'M73 -2H127V6.5Q121 5 116 5.8Q100 9.6 84 5.8Q79 5 73 6.5Z';
 
 /** Map outer-to-inner color bands onto the same sewn round ring.
  * @param {object} config

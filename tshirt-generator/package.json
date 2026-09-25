@@ -15,6 +15,7 @@
     "base:prepare": "node scripts/prepare-png-base.mjs",
     "base:analyze": "node scripts/trace-new-base.mjs",
     "base:analyze:legacy": "node scripts/analyze-base.mjs",
+    "model:prepare": "node scripts/prepare-3d-model.mjs",
     "test": "node --test tests/*.test.js",
     "test:e2e": "playwright test",
     "research:links": "node scripts/check-seed-links.mjs",
@@ -27,13 +28,19 @@
     "@jsquash/avif": "2.1.1",
     "@tanstack/react-table": "9.2.4",
     "fflate": "0.8.3",
+    "gsap": "3.15.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-router": "8.4.0"
+    "react-router": "8.4.0",
+    "three": "0.186.1"
   },
   "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
     "@playwright/test": "1.63.0",
     "@vitejs/plugin-react": "6.1.1",
+    "meshoptimizer": "1.2.0",
     "sharp": "0.35.4",
     "vite": "8.3.0"
   },

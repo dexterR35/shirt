@@ -17,4 +17,6 @@ export default defineConfig({
   worker: { format: "es" },
   // The encoder finds its .wasm next to itself; pre-bundling would move it in development.
   optimizeDeps: { exclude: ["@jsquash/avif"] },
+  // three.js is one lazy chunk (about 650 kB), loaded only when the 3D view is switched on.
+  build: { chunkSizeWarningLimit: 700 },
 });

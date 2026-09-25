@@ -1,6 +1,6 @@
 import { validateConfig } from './shirt-renderer.js';
 import { NEW_BASE_GEOMETRY } from './new-base-geometry.js';
-import { PNG_NECK_AREA, baseCollarPaint } from './png-collar.js';
+import { PNG_NECK_AREA, BACK_NECK_RING, baseCollarPaint } from './png-collar.js';
 
 const SHA256 = '4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042';
 // 3779 source pixels cover y=2..198. Center x is 4000 source pixels.
@@ -38,8 +38,15 @@ export const PNG_PREVIEW = Object.freeze({
   span: 200 * SCALE * F,
 });
 
-/** SVG contains paint only. Exact garment edges and fabric come from the PNG. */
-export function renderColorArtwork(config) {
+/**
+ * SVG contains paint only. Exact garment edges and fabric come from the PNG.
+ * `side: 'back'` is the 3D mesh's back: the same paint seen from behind, with the
+ * collar's back ring instead of the front neckline (the front output is unchanged).
+ * @param {object} config
+ * @param {{side?: 'front'|'back'}} [options]
+ */
+export function renderColorArtwork(config, {side = 'front'} = {}) {
+  if (!['front', 'back'].includes(side)) throw Error('Unknown paint side');
   const c = validateConfig(config), g = NEW_BASE_GEOMETRY, defs = [];
   const shape = (p, id) => {
     let fill = p.colorRole ? c.colors[p.colorRole] : p.fill;
@@ -60,7 +67,9 @@ export function renderColorArtwork(config) {
   // Neck paint cannot extend onto the chest as a second V/polo collar.
   const collarLayers = c.templateVersion === 'png-front-1' && c.collar.shape === 'custom'
     ? c.collar.layers : baseCollarPaint(c).layers;
-  const collar = `<g clip-path="url(#base-neck)">${collarLayers.map((p,i)=>shape(p,`collar-${i}`)).join('')}</g>`;
+  const collar = side === 'back'
+    ? `<path d="${BACK_NECK_RING}" fill="${c.colors.collar}"/>`
+    : `<g clip-path="url(#base-neck)">${collarLayers.map((p,i)=>shape(p,`collar-${i}`)).join('')}</g>`;
   const bodyClip=`M0 0H200V200H0Z${g.leftSleeve}${g.rightSleeve}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><defs>${[['body',bodyClip],['leftSleeve',g.leftSleeve],['rightSleeve',g.rightSleeve],['base-neck',PNG_NECK_AREA]].map(([id,d])=>`<clipPath id="${id}"><path d="${d}" clip-rule="evenodd"/></clipPath>`).join('')}${defs.join('')}</defs><rect width="200" height="200" fill="${c.colors.body}"/><path d="${g.leftSleeve}" fill="${c.colors.leftSleeve}"/><path d="${g.rightSleeve}" fill="${c.colors.rightSleeve}"/>${artwork}<path d="${g.leftCuff}" fill="${c.colors.leftCuff}"/><path d="${g.rightCuff}" fill="${c.colors.rightCuff}"/>${details}${collar}</svg>`;
 }
