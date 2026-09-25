@@ -2,13 +2,13 @@ import Icon from "./Icon.jsx";
 import { DEFAULT_POSE, POSE_PRESETS, presetPose, samePose } from "./lib/shirt-3d-pose.js";
 
 /**
- * The 3D view's bar on the left of the canvas (where the flat view thumbnails sit):
- * camera angles, the pose lock and a download of the kit on screen at this angle.
+ * The 3D view's bar on the left of the canvas: camera angles, the pose lock and a
+ * download of the kit on screen at this angle.
  * Collection downloads also use this pose while the 3D view is on.
  */
 export default function ThreeDControls({ pose, onPose, locked, onLock, canDownload, onDownload, disabled = false }) {
   return (
-    <div className="shirt-views three-d-controls" role="toolbar" aria-label="3D camera">
+    <div className="three-d-controls" role="toolbar" aria-label="3D camera">
       {POSE_PRESETS.map((p) => (
         <button key={p.id} className="three-d-option" disabled={locked || disabled}
           aria-pressed={pose.azimuth === p.azimuth && pose.elevation === p.elevation}

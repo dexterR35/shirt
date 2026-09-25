@@ -1,6 +1,5 @@
-import { lazy, Suspense, useState } from "react";
+import { lazy, Suspense } from "react";
 import { useOutletContext } from "react-router";
-import ShirtViews from "../ShirtViews.jsx";
 import ThreeDControls from "../ThreeDControls.jsx";
 import PngShirtPreview from "../PngShirtPreview.jsx";
 import LightingControl from "../LightingControl.jsx";
@@ -95,7 +94,6 @@ export default function StudioPage() {
     setPoseLocked,
     downloadActive,
   } = ctx;
-  const [view, setView] = useState("front");
   // Paging moves between collection kits; it does nothing when the only kit is already shown.
   const canPage = selection.length > 1 || (selection.length === 1 && selectedIndex < 0);
   const status = reviewStatus(review);
@@ -345,7 +343,7 @@ export default function StudioPage() {
               )}
             </div>
             <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
-            {view3d ? (
+            {view3d && (
               <ThreeDControls
                 pose={pose3d}
                 onPose={setPose3d}
@@ -355,8 +353,6 @@ export default function StudioPage() {
                 onDownload={downloadActive}
                 disabled={!!exporting}
               />
-            ) : (
-              <ShirtViews view={view} onSelect={setView} />
             )}
             <span className="dimension-label">
               {view3d ? `3D · ${Math.round(pose3d.azimuth)}° · ${Math.round(pose3d.elevation)}°${poseLocked ? " · LOCKED" : ""}` : "8000 × 5000 SOURCE · PNG"}

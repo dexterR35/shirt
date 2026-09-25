@@ -1,12 +1,12 @@
-# 3D view — feature branch `feature/3d-view` (25 September 2026)
+# 3D view (25 September 2026)
 
-The user asked for a three.js 3D view of the base t-shirt on a separate branch: switched on with a button in the same Studio canvas, nothing rendered or downloaded until it is on, kit colors and shapes from the existing JSON, correct lighting, high quality, and a camera pose that can be locked and exported. This branch starts from `main` at `6cbcf60a`; the uncommitted angled-view work on `main` is not part of it.
+The user asked for a three.js 3D view of the base t-shirt: switched on with a button in the same Studio canvas, nothing rendered or downloaded until it is on, kit colors and shapes from the existing JSON, correct lighting, high quality, and a camera pose that can be locked and exported. It was built on branch `feature/3d-view` and merged into `main` at the user's request. The earlier Angled view (the front PNG in flat perspective) and the flat view bar (Front, plus Side and ¾ marked "soon") were removed at the same time: the 3D view covers every angle.
 
 ## What the user sees
 
 - **3D** toggle next to **Edit** in the Studio canvas. Off by default. While off, the app requests no three.js code, no GSAP and no mesh (checked by `tests/e2e/three-d.spec.js`). The 3D view stays on for the browser tab (sessionStorage), like the chosen kit.
 - The same canvas, backgrounds (transparent/white/custom), Lighting slider, Home/Away switch, team list, color editor and collection. The 3D shirt is drawn on a transparent WebGL canvas, square like downloads, so the framing on screen is the framing that exports.
-- Drag to orbit, scroll or pinch to zoom (no panning: the shirt stays centered). The camera bar on the left (where the flat view thumbnails sit) has **Front, ¾ right, Side, Back, ¾ left**, **Lock**, **Reset** and **Download 3D image**. Angle changes glide with GSAP (instant with reduced motion).
+- Drag to orbit, scroll or pinch to zoom (no panning: the shirt stays centered). The camera bar on the left of the canvas has **Front, ¾ right, Side, Back, ¾ left**, **Lock**, **Reset** and **Download 3D image**. Angle changes glide with GSAP (instant with reduced motion).
 - **Lock** freezes the camera: dragging, zooming, angle buttons and reset are disabled, and the pose is remembered in this browser (localStorage) together with the lock. The canvas label reads e.g. `3D · 35° · 8° · LOCKED`.
 - **Export at the same position**: with the 3D view on, every download — the camera bar's button, a collection kit, **Download all** and **ZIP all** — renders in 3D at the current pose, taken once at the start so a whole collection shares exactly the same angle. Sizes, image shapes (1:1, 4:5, 16:9, 9:16), PNG/WebP/AVIF, lighting and saved color edits work as for flat downloads; files end in `-3d` (e.g. `…-home-r001-2048px-3d.png`). The confirmation names the pose (`35° right · 8° up · 1.72 m (locked)`). The dev-only Tier ZIPs stay flat front images and say so.
 - For kits the caption adds *3D preview · back and sides continue the front design*, because only the front is source-reviewed.
@@ -57,7 +57,7 @@ Dependencies: `three` 0.186.1, `gsap` 3.15.0; dev-only `@gltf-transform/*` 4.5.0
 - `npm test`: the 83 existing unit tests and 9 new ones in `tests/shirt-3d.test.js` (mesh/manifest integrity and unchanged source, attributes and UV ranges, registration against the PNG garment bounds, back paint and unchanged front paint, pose validation and framing, side-panel column choice).
 - `E2E_PORT=5183 npx playwright test tests/e2e/three-d.spec.js` (2 tests; `E2E_PORT` lets a worktree run beside a dev server already on 5173): nothing 3D loads before the toggle; plain shirt renders; lock blocks dragging and angle buttons; a 512 px download is square, transparent at the corners, opaque on the shirt and named `-3d`; 3D and the locked pose survive a reload.
 - `npx vite build` passes; three.js stays out of the main chunk.
-- Six `tests/e2e/studio.spec.js` tests about "missing/unavailable" slots fail on this branch **and on the untouched `6cbcf60a`**; they predate this work (catalog data has since become ready). That suite also rewrites tracked screenshots under `artifacts/`.
+- Six `tests/e2e/studio.spec.js` tests about "missing/unavailable" slots also fail on `6cbcf60a`, before any 3D code; they predate this work (catalog data has since become ready). That suite also rewrites tracked screenshots under `artifacts/`.
 
 Review renders (front, ¾, side, back ¾, back per kit; collar close-ups; a diagnostic paint grid; the Studio with a locked pose; a real 3D download) are in `artifacts/three-d/`.
 
