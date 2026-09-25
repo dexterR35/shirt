@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_02ef17d1639f5a821920",
+  "team_name": "Heart of Midlothian",
+  "country_name": "Scotland",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-west-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/heart-of-midlothian-fc-2026-27-home-kit-485965/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/30/rluCFkixl9yDXOJ/heart-of-midlothian-fc-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_02ef17d1639f5a821920-home-485965.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#512631",
+      "leftSleeve": "#512631",
+      "rightSleeve": "#512631",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "observations": "Deep claret with broad white ring and cuff ends; shoulder chevron logos removed. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Deep claret with broad white ring and cuff ends; shoulder chevron logos removed. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-west-2026-09-25/team_02ef17d1639f5a821920-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#512631",
+      "leftSleeve": "#512631",
+      "rightSleeve": "#512631",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#512631",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#F1F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#F1F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

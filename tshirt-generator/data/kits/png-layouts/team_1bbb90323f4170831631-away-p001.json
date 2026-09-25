@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1bbb90323f4170831631",
+  "team_name": "Trabzonspor",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Pale blue with claret angled shoulder inserts and white/claret cuff trim; original PNG provides fabric texture. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1bbb90323f4170831631-away-489729.jpg",
+      "page_url": "https://www.footballkitarchive.com/trabzonspor-2026-27-away-kit-489729/",
+      "sha256": "f8f3deebf9eeb5ad415cedbf1b6df654674af24ef5fc797ba885d9375598f511"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#91ADD4",
+      "leftSleeve": "#91ADD4",
+      "rightSleeve": "#91ADD4",
+      "collar": "#61293E",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#61293E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71 4.571L77 2Q100 7 123 2L129 4.571C131.286 30.857 68.714 30.857 71 4.571Z",
+          "fill": "#99B2D5",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#91ADD4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            5
+          ],
+          [
+            49,
+            16
+          ],
+          [
+            45,
+            45
+          ],
+          [
+            42,
+            16
+          ],
+          [
+            74,
+            3
+          ]
+        ],
+        "fill": "#652C41",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            5
+          ],
+          [
+            151,
+            16
+          ],
+          [
+            155,
+            45
+          ],
+          [
+            158,
+            16
+          ],
+          [
+            126,
+            3
+          ]
+        ],
+        "fill": "#652C41",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#F1F2EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#652D45",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#F1F2EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#652D45",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

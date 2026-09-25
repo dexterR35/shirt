@@ -4,8 +4,8 @@
   "team_name": "CSU Alba Iulia",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9efef463aa3965a704fe-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-universitatea-alba-iulia-2025-26-home-kit-435976/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/11/fuAN3BZTcITI2SA/cs-universitatea-alba-iulia-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9efef463aa3965a704fe-home-435976.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#438BCE",
+      "leftSleeve": "#438BCE",
+      "rightSleeve": "#438BCE",
+      "collar": "#408ACC",
+      "leftCuff": "#438BCE",
+      "rightCuff": "#438BCE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue torso fading to near-white hem, blue sleeves and ring; fine diagonal transition print reduced. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_9efef463aa3965a704fe-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ab6a02bb8efb70fe004b.json",
+    "source_kit_id": "435976"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

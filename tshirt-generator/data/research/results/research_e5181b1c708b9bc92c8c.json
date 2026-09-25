@@ -4,9 +4,8 @@
   "team_name": "EIF",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled.",
+  "kit_season": "2025",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -87,6 +84,62 @@
         }
       ],
       "outcome": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-finland-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/ekenas-if-kits-t79513/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/ekenas-if-2025-away-kit-444282/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2025. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_48822a61df87317b0104-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ekenas-if-2025-away-kit-444282/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/Nk8cNgTW8obnXay/ekenas-if-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_48822a61df87317b0104-away-444282.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Green"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#2D6253",
+      "leftCuff": "#356D59",
+      "rightCuff": "#356D59"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with softly fading pale-green central vertical band, green ring and cuffs. Very fine halftone dot texture reduced to flat tonal gradient. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-finland-2026-09-25/team_48822a61df87317b0104-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e5181b1c708b9bc92c8c.json",
+    "source_kit_id": "444282"
+  }
 }

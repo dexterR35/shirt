@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_76ec328069193584ba7a",
+  "team_name": "Agios Nikolaos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black torso/ring with pale lime raglan sleeves. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_76ec328069193584ba7a-away-222813.jpg",
+      "page_url": "https://www.footballkitarchive.com/ao-agios-nikolaos-2023-24-away-kit-222813/",
+      "sha256": "65f05cf6890a2ab0a537fb616a601c5881ba8ee4f0c668d7bdb10b798c74267b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1C1E20",
+      "leftSleeve": "#C1DC80",
+      "rightSleeve": "#C1DC80",
+      "collar": "#1C1E20",
+      "leftCuff": "#C1DC80",
+      "rightCuff": "#C1DC80"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            77,
+            3
+          ],
+          [
+            73,
+            12
+          ],
+          [
+            61,
+            19
+          ],
+          [
+            52,
+            34
+          ],
+          [
+            49,
+            78
+          ],
+          [
+            0,
+            95
+          ]
+        ],
+        "fill": "#C1DC80",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            123,
+            3
+          ],
+          [
+            127,
+            12
+          ],
+          [
+            139,
+            19
+          ],
+          [
+            148,
+            34
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            200,
+            95
+          ]
+        ],
+        "fill": "#C1DC80",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

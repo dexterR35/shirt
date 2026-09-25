@@ -1,0 +1,1245 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0df319d9eb02a4a43fe0",
+  "team_name": "Lincoln Red Imps",
+  "country_name": "Gibraltar",
+  "variant": "home",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-west-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/lincoln-red-imps-2026-27-home-kit-493555/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/09/c097uIFV4ayd71J/lincoln-red-imps-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0df319d9eb02a4a43fe0-home-493555.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red"
+    ],
+    "values": {
+      "body": "#181F2B",
+      "leftSleeve": "#181F2B",
+      "rightSleeve": "#181F2B",
+      "collar": "#D0363D",
+      "leftCuff": "#181F2B",
+      "rightCuff": "#181F2B"
+    }
+  },
+  "observations": "Dark shirt with numerous red torso pinstripes tapering/fading toward the hem and fine red/white neckline edge. Shoulder manufacturer chevrons omitted. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark shirt with numerous red torso pinstripes tapering/fading toward the hem and fine red/white neckline edge. Shoulder manufacturer chevrons omitted. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-west-2026-09-25/team_0df319d9eb02a4a43fe0-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#181F2B",
+      "leftSleeve": "#181F2B",
+      "rightSleeve": "#181F2B",
+      "collar": "#D0363D",
+      "leftCuff": "#181F2B",
+      "rightCuff": "#181F2B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D0363D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.2 4.486L77 2Q100 7 123 2L128.8 4.486C131.143 30.629 68.857 30.629 71.2 4.486Z",
+          "fill": "#F1F2EE",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.1 4.1L77 2Q100 7 123 2L127.9 4.1C130.5 29.6 69.5 29.6 72.1 4.1Z",
+          "fill": "#1C2432",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#181F2B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            10
+          ],
+          [
+            52,
+            10
+          ],
+          [
+            51.1,
+            197
+          ],
+          [
+            50.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            54,
+            10
+          ],
+          [
+            56,
+            10
+          ],
+          [
+            55.1,
+            197
+          ],
+          [
+            54.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            58,
+            10
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            59.1,
+            197
+          ],
+          [
+            58.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            62,
+            10
+          ],
+          [
+            64,
+            10
+          ],
+          [
+            63.1,
+            197
+          ],
+          [
+            62.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            66,
+            10
+          ],
+          [
+            68,
+            10
+          ],
+          [
+            67.1,
+            197
+          ],
+          [
+            66.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            70,
+            10
+          ],
+          [
+            72,
+            10
+          ],
+          [
+            71.1,
+            197
+          ],
+          [
+            70.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            10
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            75.1,
+            197
+          ],
+          [
+            74.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            78,
+            10
+          ],
+          [
+            80,
+            10
+          ],
+          [
+            79.1,
+            197
+          ],
+          [
+            78.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            82,
+            10
+          ],
+          [
+            84,
+            10
+          ],
+          [
+            83.1,
+            197
+          ],
+          [
+            82.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            86,
+            10
+          ],
+          [
+            88,
+            10
+          ],
+          [
+            87.1,
+            197
+          ],
+          [
+            86.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            90,
+            10
+          ],
+          [
+            92,
+            10
+          ],
+          [
+            91.1,
+            197
+          ],
+          [
+            90.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            94,
+            10
+          ],
+          [
+            96,
+            10
+          ],
+          [
+            95.1,
+            197
+          ],
+          [
+            94.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            98,
+            10
+          ],
+          [
+            100,
+            10
+          ],
+          [
+            99.1,
+            197
+          ],
+          [
+            98.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            102,
+            10
+          ],
+          [
+            104,
+            10
+          ],
+          [
+            103.1,
+            197
+          ],
+          [
+            102.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            106,
+            10
+          ],
+          [
+            108,
+            10
+          ],
+          [
+            107.1,
+            197
+          ],
+          [
+            106.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            110,
+            10
+          ],
+          [
+            112,
+            10
+          ],
+          [
+            111.1,
+            197
+          ],
+          [
+            110.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            114,
+            10
+          ],
+          [
+            116,
+            10
+          ],
+          [
+            115.1,
+            197
+          ],
+          [
+            114.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            118,
+            10
+          ],
+          [
+            120,
+            10
+          ],
+          [
+            119.1,
+            197
+          ],
+          [
+            118.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            122,
+            10
+          ],
+          [
+            124,
+            10
+          ],
+          [
+            123.1,
+            197
+          ],
+          [
+            122.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            10
+          ],
+          [
+            128,
+            10
+          ],
+          [
+            127.1,
+            197
+          ],
+          [
+            126.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            10
+          ],
+          [
+            132,
+            10
+          ],
+          [
+            131.1,
+            197
+          ],
+          [
+            130.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            134,
+            10
+          ],
+          [
+            136,
+            10
+          ],
+          [
+            135.1,
+            197
+          ],
+          [
+            134.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            138,
+            10
+          ],
+          [
+            140,
+            10
+          ],
+          [
+            139.1,
+            197
+          ],
+          [
+            138.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            142,
+            10
+          ],
+          [
+            144,
+            10
+          ],
+          [
+            143.1,
+            197
+          ],
+          [
+            142.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            146,
+            10
+          ],
+          [
+            148,
+            10
+          ],
+          [
+            147.1,
+            197
+          ],
+          [
+            146.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            150,
+            10
+          ],
+          [
+            152,
+            10
+          ],
+          [
+            151.1,
+            197
+          ],
+          [
+            150.9,
+            197
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#D42F3E"
+            },
+            {
+              "offset": 0.55,
+              "color": "#9B2637"
+            },
+            {
+              "offset": 1,
+              "color": "#1B202B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

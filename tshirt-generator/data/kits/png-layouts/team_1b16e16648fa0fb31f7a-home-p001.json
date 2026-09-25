@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1b16e16648fa0fb31f7a",
+  "team_name": "Marko",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black and dark-green broad vertical front stripes edged with fine white lines, black sleeves and green-edge ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1b16e16648fa0fb31f7a-home-421054.jpg",
+      "page_url": "https://www.footballkitarchive.com/gs-marko-2025-26-home-kit-421054/",
+      "sha256": "cabdf82644a9015ac08c30dcc2cf4f23a5e90f2cb046b9a2f2fa1083e436bf5e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#121714",
+      "leftSleeve": "#121714",
+      "rightSleeve": "#121714",
+      "collar": "#1F6E3D",
+      "leftCuff": "#121714",
+      "rightCuff": "#121714"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1F6E3D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#1C1E20",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#121714",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 64,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#20693C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 20,
+        "height": 200,
+        "fill": "#20693C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 63,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 104,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 0.8,
+        "height": 200,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H49.8Q53.8 133 49.8 77Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H150.2Q146.2 133 150.2 77Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

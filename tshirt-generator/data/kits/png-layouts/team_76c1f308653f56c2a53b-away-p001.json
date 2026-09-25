@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_76c1f308653f56c2a53b",
+  "team_name": "Apollon Smyrnis",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Burgundy plain shirt with fine white shoulder piping and matching burgundy ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_76c1f308653f56c2a53b-away-222815.jpg",
+      "page_url": "https://www.footballkitarchive.com/apollon-smyrnis-2023-24-away-kit-222815/",
+      "sha256": "ef2f5c2a2e36678524581b65fcae1e1e1bbec07861f01a5adf5661b109fdc054"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#712A39",
+      "leftSleeve": "#712A39",
+      "rightSleeve": "#712A39",
+      "collar": "#6F2937",
+      "leftCuff": "#712A39",
+      "rightCuff": "#712A39"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#6F2937",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#712A39",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            8
+          ],
+          [
+            43,
+            19
+          ],
+          [
+            42,
+            20
+          ],
+          [
+            72,
+            9
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            127,
+            8
+          ],
+          [
+            157,
+            19
+          ],
+          [
+            158,
+            20
+          ],
+          [
+            128,
+            9
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

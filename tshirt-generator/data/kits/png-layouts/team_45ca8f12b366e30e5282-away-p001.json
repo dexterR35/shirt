@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_45ca8f12b366e30e5282",
+  "team_name": "SCM Zalău",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Pale grey/white plain shirt. Shoulder circle chains are Jako branding and omitted. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_45ca8f12b366e30e5282-away-302566.jpg",
+      "page_url": "https://www.footballkitarchive.com/scm-zalau-2023-24-away-kit-302566/",
+      "sha256": "1c3bf118b9d5d3c15a6be9f24cc595e937a6e92f67c07908b9714e04f793ad5f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E6E7E3",
+      "leftSleeve": "#E6E7E3",
+      "rightSleeve": "#E6E7E3",
+      "collar": "#E6E7E3",
+      "leftCuff": "#E6E7E3",
+      "rightCuff": "#E6E7E3"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E6E7E3",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E6E7E3",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

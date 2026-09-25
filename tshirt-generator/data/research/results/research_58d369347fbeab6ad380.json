@@ -4,8 +4,8 @@
   "team_name": "SCM Zalău",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_45ca8f12b366e30e5282-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/scm-zalau-2025-26-home-kit-418632/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/NyYgCdgqh9i9R9G/scm-zalau-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_45ca8f12b366e30e5282-home-418632.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#CC2840",
+      "leftSleeve": "#CC2840",
+      "rightSleeve": "#CC2840",
+      "collar": "#BB2B3E",
+      "leftCuff": "#CC2840",
+      "rightCuff": "#CC2840"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with broad yellow upper-shoulder/sleeve panels, subtle tonal fragmented sleeve print and red ring. Fine angular sleeve texture simplified into flat ink, shoulder branding omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_45ca8f12b366e30e5282-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_58d369347fbeab6ad380.json",
+    "source_kit_id": "418632"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

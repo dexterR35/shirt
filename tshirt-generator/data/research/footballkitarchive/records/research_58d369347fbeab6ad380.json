@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-c.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with broad yellow upper-shoulder/sleeve panels, subtle tonal fragmented sleeve print and red ring. Fine angular sleeve texture simplified into flat ink, shoulder branding omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_45ca8f12b366e30e5282-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_45ca8f12b366e30e5282-home-418632.jpg",
-  "image_sha256": "0db534d8f148ccbf76a87c78f6e4935cfb7797d33bf82fcdf1982543dc7c13af"
+  "image_sha256": "0db534d8f148ccbf76a87c78f6e4935cfb7797d33bf82fcdf1982543dc7c13af",
+  "artwork_revision_path": "data/kits/team_45ca8f12b366e30e5282-home-r001.json"
 }

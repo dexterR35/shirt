@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4903be4a0e716dea39d3",
+  "team_name": "Viitorul Cluj",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Lime-yellow plain body/sleeves/ring; shoulder dot chains are branding and removed. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4903be4a0e716dea39d3-away-302568.jpg",
+      "page_url": "https://www.footballkitarchive.com/af-viitorul-cluj-2023-24-away-kit-302568/",
+      "sha256": "ff2e586c9ac5a2cbeaacac0cda7b697e4552703e61c9cbc3d284e4087080d6cc"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BBDC24",
+      "leftSleeve": "#BBDC24",
+      "rightSleeve": "#BBDC24",
+      "collar": "#BBDC24",
+      "leftCuff": "#BBDC24",
+      "rightCuff": "#BBDC24"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#BBDC24",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BBDC24",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

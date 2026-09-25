@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-a.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with shallow blue upper-chest chevron and blue lower-side inserts; yellow sleeves/ring. Match-photo proportions adapted. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-a-2026-09-25/team_5910121b542240dedbd7-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_5910121b542240dedbd7-home-507570.jpg",
-  "image_sha256": "1eba0fba57ea7b5ede89e76de8be1ad414398adb36959a10c1585b80ba83a84a"
+  "image_sha256": "1eba0fba57ea7b5ede89e76de8be1ad414398adb36959a10c1585b80ba83a84a",
+  "artwork_revision_path": "data/kits/team_5910121b542240dedbd7-home-r001.json"
 }

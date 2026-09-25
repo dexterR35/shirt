@@ -1,0 +1,34 @@
+{
+  "batch": "tier3-romania-b-2026-09-25",
+  "traces": [
+    {
+      "key": "CSM Vaslui:home",
+      "reference": "data/research/references/footballkitarchive/team_1e0f2fd65e6cb58b7fec-home-398903.jpg",
+      "source_sha256": "cf47305df916bbb60604663798273263b6844b5e23353edc2c6fbfd74afd7b14",
+      "spec": {
+        "box": [
+          172,
+          343,
+          185,
+          115
+        ],
+        "width": 350,
+        "mode": "blue",
+        "threshold": 65,
+        "min": 0,
+        "max": 170,
+        "bandHeight": 4
+      },
+      "placement": {
+        "x": 51,
+        "y": 132,
+        "width": 98,
+        "height": 61,
+        "color": "#154E99",
+        "clip": "body"
+      },
+      "ink_pixels": 30537,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

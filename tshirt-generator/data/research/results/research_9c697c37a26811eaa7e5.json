@@ -4,8 +4,8 @@
   "team_name": "Metalurgistul Cugir",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ce6a5264672a379bbe0b-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-metalurgistul-cugir-2025-26-away-2-kit-435998/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/11/47RPFkqBDsGal1n/cs-metalurgistul-cugir-2025-26-away-2-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ce6a5264672a379bbe0b-away-435998.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#AE253D",
+      "leftSleeve": "#345BA9",
+      "rightSleeve": "#345BA9",
+      "collar": "#365AB1",
+      "leftCuff": "#345BA9",
+      "rightCuff": "#345BA9"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Literal Away 2 alternate: blue upper torso/sleeves fading into red lower torso and blue ring. Alternate source label retained; this is not the standard Away design inferred from Home. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_ce6a5264672a379bbe0b-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_9c697c37a26811eaa7e5.json",
+    "source_kit_id": "435998"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

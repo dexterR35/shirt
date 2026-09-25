@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f3735735714b55e32818",
+  "team_name": "Feyenoord",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-west-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red viewer-left and white viewer-right torso halves, opposite sleeve colors and dark shoulder tips. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f3735735714b55e32818-home-491481.jpg",
+      "page_url": "https://www.footballkitarchive.com/feyenoord-2026-27-home-kit-491481/",
+      "sha256": "7908bbcff1f00b487c0d10acbe75dadad2d95e2b215058bae881ed4ac7f20e5f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#DF2225",
+      "collar": "#1C1E20",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#DF2225"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 51,
+        "height": 200,
+        "fill": "#E51F23",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            16
+          ],
+          [
+            51,
+            13
+          ],
+          [
+            48,
+            23
+          ]
+        ],
+        "fill": "#1C1E20",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            16
+          ],
+          [
+            149,
+            13
+          ],
+          [
+            152,
+            23
+          ]
+        ],
+        "fill": "#1C1E20",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

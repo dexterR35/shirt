@@ -4,9 +4,8 @@
   "team_name": "Crvena Zvezda",
   "country_name": "Serbia",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,62 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fc0d9a2c19dab35d2862-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/red-star-belgrade-2026-27-away-kit-497645/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/07/Y7FAm3Nbawv1P6T/red-star-belgrade-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fc0d9a2c19dab35d2862-away-497645.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#182938",
+      "leftSleeve": "#182938",
+      "rightSleeve": "#182938",
+      "collar": "#C32A3D",
+      "leftCuff": "#CA2D3E",
+      "rightCuff": "#CA2D3E"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Dark navy with paired red/white thin pinstripes interrupted at the central band, fine shoulder piping, red round ring and cuff ends. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-east-2026-09-25/team_fc0d9a2c19dab35d2862-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_25574d6515ee9e92a68f.json",
+    "source_kit_id": "497645"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-east-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/red-star-belgrade-kits-t607/",
+      "source_url": "https://www.footballkitarchive.com/red-star-belgrade-2026-27-away-kit-497645/",
+      "outcome": "Ready Away, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

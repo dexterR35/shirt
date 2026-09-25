@@ -4,9 +4,8 @@
   "team_name": "Ergotelis",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2021-22. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2021/22",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2021-22. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -91,6 +88,63 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2021-22. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/ergotelis-kits-t8256/",
+        "https://www.footballkitarchive.com/el/ergotelis-emphaniseis-t8256/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/ergotelis-2021-22-home-kit-242670/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2021/22. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_ac01143bedd4cb6d71e2-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ergotelis-2021-22-home-kit-242670/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/04/04/LulrnMOJI5rrU66/ergotelis-2021-22-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ac01143bedd4cb6d71e2-home-242670.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2021/22"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#E9D626",
+      "leftSleeve": "#E9D626",
+      "rightSleeve": "#E9D626",
+      "collar": "#1C1E20",
+      "leftCuff": "#E9D626",
+      "rightCuff": "#E9D626"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with curved black raglan stripes and black neckline edge. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_ac01143bedd4cb6d71e2-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_08a89a98bb95a6e4c37d.json",
+    "source_kit_id": "242670"
+  }
 }

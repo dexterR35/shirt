@@ -4,9 +4,8 @@
   "team_name": "Agios Nikolaos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2023/24",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -106,6 +103,62 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/ao-agios-nikolaos-kits-t20862/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/ao-agios-nikolaos-2023-24-home-kit-222812/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2023/24. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_76ec328069193584ba7a-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-agios-nikolaos-2023-24-home-kit-222812/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/01/28/tVnk3L30oURpRuZ/ao-agios-nikolaos-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_76ec328069193584ba7a-home-222812.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#438DD0",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#4285C1",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue torso with white sleeves and blue ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_76ec328069193584ba7a-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_64832dfa8a28e348ae65.json",
+    "source_kit_id": "222812"
+  }
 }

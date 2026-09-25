@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b016eb21aa9ccb5c2d1d",
+  "team_name": "CSO Băicoi",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cso-baicoi-2025-26-home-kit-418713/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/SXIH5BXPBhce1em/cso-baicoi-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b016eb21aa9ccb5c2d1d-home-418713.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#1F66B5",
+      "leftSleeve": "#1F66B5",
+      "rightSleeve": "#1F66B5",
+      "collar": "#225FAA",
+      "leftCuff": "#1F66B5",
+      "rightCuff": "#1F66B5"
+    }
+  },
+  "observations": "Royal blue with fine broken diagonal white lines at upper-left and lower-right front, plain sleeves and blue ring; neutral print continued behind sponsors. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with fine broken diagonal white lines at upper-left and lower-right front, plain sleeves and blue ring; neutral print continued behind sponsors. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_b016eb21aa9ccb5c2d1d-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1F66B5",
+      "leftSleeve": "#1F66B5",
+      "rightSleeve": "#1F66B5",
+      "collar": "#225FAA",
+      "leftCuff": "#1F66B5",
+      "rightCuff": "#1F66B5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#225FAA",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1F66B5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M52.82 0.062L61.82 26.062L62.18 25.938L53.18 -0.062Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M93.813 129.071L120.813 200.071L121.187 199.929L94.187 128.929Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M55.125 3.075L64.125 24.075L64.475 23.925L55.475 2.925Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M97.812 125.068L124.812 200.068L125.188 199.932L98.188 124.932Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M57.434 6.093L66.434 22.093L66.766 21.907L57.766 5.907Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M101.811 121.065L128.811 200.065L129.189 199.935L102.189 120.935Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M59.753 9.12L68.753 20.12L69.047 19.88L60.047 8.88Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M105.81 117.062L132.81 200.062L133.19 199.938L106.19 116.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M62.03 0.085L71.03 18.085L71.37 17.915L62.37 -0.085Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M109.809 113.059L136.809 200.059L137.191 199.941L110.191 112.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M64.323 3.069L73.323 26.069L73.677 25.931L64.677 2.931Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M113.813 129.071L140.813 200.071L141.187 199.929L114.187 128.929Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M66.63 6.085L75.63 24.085L75.97 23.915L66.97 5.915Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M117.812 125.068L144.812 200.068L145.188 199.932L118.188 124.932Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M68.944 9.108L77.944 22.108L78.256 21.892L69.256 8.892Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M121.811 121.065L148.811 200.065L149.189 199.935L122.189 120.935Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M71.227 0.078L80.227 20.078L80.573 19.922L71.573 -0.078Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.81 117.062L152.81 200.062L153.19 199.938L126.19 116.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M73.537 3.098L82.537 18.098L82.863 17.902L73.863 2.902Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M129.809 113.059L156.809 200.059L157.191 199.941L130.191 112.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M75.827 6.078L84.827 26.078L85.173 25.922L76.173 5.922Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.813 129.071L160.813 200.071L161.187 199.929L134.187 128.929Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M78.137 9.098L87.137 24.098L87.463 23.902L78.463 8.902Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M137.812 125.068L164.812 200.068L165.188 199.932L138.188 124.932Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M80.424 0.072L89.424 22.072L89.776 21.928L80.776 -0.072Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M141.811 121.065L168.811 200.065L169.189 199.935L142.189 120.935Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M82.732 3.089L91.732 20.089L92.068 19.911L83.068 2.911Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M145.81 117.062L172.81 200.062L173.19 199.938L146.19 116.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M85.048 6.114L94.048 18.114L94.352 17.886L85.352 5.886Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M149.809 113.059L176.809 200.059L177.191 199.941L150.191 112.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M87.332 9.089L96.332 26.089L96.668 25.911L87.668 8.911Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M153.813 129.071L180.813 200.071L181.187 199.929L154.187 128.929Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-a.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with dense tonal irregular angular triangle print across torso/sleeves and triple white shoulder tapes. Visible unbranded triangles redrawn; exact repeat behind ball/sponsors is adapted. Independently verified Home/Away reference; literal current or authorized 2025/26 fallback season retained. Colors estimated from photographs. Occluded construction and fine print are disclosed adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-a-2026-09-25/team_737c442cdd170af8c313-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_737c442cdd170af8c313-home-434701.jpg",
-  "image_sha256": "a83bcd77afb4e4dd4f3698a03586da59efc575c33afa9b4852eca0d316ec5f3f"
+  "image_sha256": "a83bcd77afb4e4dd4f3698a03586da59efc575c33afa9b4852eca0d316ec5f3f",
+  "artwork_revision_path": "data/kits/team_737c442cdd170af8c313-home-r001.json"
 }

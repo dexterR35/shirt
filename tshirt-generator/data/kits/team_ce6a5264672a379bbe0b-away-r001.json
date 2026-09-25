@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ce6a5264672a379bbe0b",
+  "team_name": "Metalurgistul Cugir",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-metalurgistul-cugir-2025-26-away-2-kit-435998/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/11/47RPFkqBDsGal1n/cs-metalurgistul-cugir-2025-26-away-2-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ce6a5264672a379bbe0b-away-435998.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Red"
+    ],
+    "values": {
+      "body": "#AE253D",
+      "leftSleeve": "#345BA9",
+      "rightSleeve": "#345BA9",
+      "collar": "#365AB1",
+      "leftCuff": "#345BA9",
+      "rightCuff": "#345BA9"
+    }
+  },
+  "observations": "Literal Away 2 alternate: blue upper torso/sleeves fading into red lower torso and blue ring. Alternate source label retained; this is not the standard Away design inferred from Home. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Literal Away 2 alternate: blue upper torso/sleeves fading into red lower torso and blue ring. Alternate source label retained; this is not the standard Away design inferred from Home. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_ce6a5264672a379bbe0b-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#AE253D",
+      "leftSleeve": "#345BA9",
+      "rightSleeve": "#345BA9",
+      "collar": "#365AB1",
+      "leftCuff": "#345BA9",
+      "rightCuff": "#345BA9"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#365AB1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#AE253D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#3159B3"
+            },
+            {
+              "offset": 0.21,
+              "color": "#3556A5"
+            },
+            {
+              "offset": 0.42,
+              "color": "#A93350"
+            },
+            {
+              "offset": 0.57,
+              "color": "#B7243B"
+            },
+            {
+              "offset": 1,
+              "color": "#B7243B"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

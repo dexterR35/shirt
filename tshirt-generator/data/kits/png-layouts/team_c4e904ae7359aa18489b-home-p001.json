@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c4e904ae7359aa18489b",
+  "team_name": "Lotus Băile Felix",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain bright-red body/sleeves and red ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_c4e904ae7359aa18489b-home-408926.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-lotus-baile-felix-2025-26-home-kit-408926/",
+      "sha256": "65d53cd18428dfe0ad1cbe1932179a7b020239ea39b7768bc4ca2de1fa01c9a8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EF3438",
+      "leftSleeve": "#EF3438",
+      "rightSleeve": "#EF3438",
+      "collar": "#E52E33",
+      "leftCuff": "#EF3438",
+      "rightCuff": "#EF3438"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E52E33",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EF3438",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

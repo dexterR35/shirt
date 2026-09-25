@@ -4,8 +4,8 @@
   "team_name": "Transilvania Sport Academy",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_015cc7f1caea146132a5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/transilvania-sports-academy-2025-26-away-kit-471721/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/03/29/j6ZK0J5FiqaeqaQ/transilvania-sports-academy-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_015cc7f1caea146132a5-away-471721.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#C53448",
+      "leftCuff": "#C8384B",
+      "rightCuff": "#C8384B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White shirt with red narrow cuff ends and red ring; repeated red shoulder dots are manufacturer marks and removed. Independently verified 2025/26 Home/Away fallback; current club history checked first and literal season retained. Color and obscured detail estimated from the photograph. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-d-2026-09-25/team_015cc7f1caea146132a5-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_53b9b948ea2be66b42bd.json",
+    "source_kit_id": "471721"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-d-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

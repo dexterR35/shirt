@@ -61,6 +61,9 @@ export async function importCaptures({download=false}={}){
       if(season!==task.candidate_kit_season&&!permittedSeason(team.id,variant,season,requested)){unmatched.push({name:r.team,kit_id:r.kit_id,reason:'season_requires_review',season,expected:requested});continue;}
       const record={schemaVersion:1,task_id:task.id,team_id:team.id,team_name:team.name,country_name:team.country_name,variant,kit_season:season,source:'Football Kit Archive',source_team_name:r.team,source_season_label:r.season,source_design:r.design,source_color_names:r.colors.split(' / '),brand:r.brand,source_kit_id:r.kit_id,page_url:`https://www.footballkitarchive.com/${r.kit_slug}-kit-${r.kit_id}/`,image_url:`https://www.footballkitarchive.com/cdn/${r.image_path}`,listing_url:capture.listing_url,checked_at:capture.captured_at,capture_path:`${ROOT}/captures/${capture.capture_file}`,status:'metadata_collected',visual_review:null,official_hex:false};
       const recordPath=`${ROOT}/records/${task.id}.json`;
+      // Historical captures can provide a full-century season while retaining
+      // the archive's literal abbreviated label (for example 1983/84 vs 83-84).
+      if(r.source_season_label)record.source_season_label=r.source_season_label;
       if(r.source_variant_label)record.source_variant_label=r.source_variant_label;
       if(Object.hasOwn(r,'sponsor'))record.equipment_fields={sponsor:r.sponsor||null,competitions:r.competitions?r.competitions.split(' | '):[],release_date:r.release_date||null,capture_path:record.capture_path,checked_at:capture.captured_at};
       try{const old=await read(recordPath);if(old.page_url===record.page_url){for(const key of ['local_reference_path','image_sha256','visual_review','status','artwork_revision_path','download_error'])if(old[key]!==undefined)record[key]=old[key];}}catch(e){if(e.code!=='ENOENT')throw e;}

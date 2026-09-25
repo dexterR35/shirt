@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_43c5b2dcb43f438d5f64",
+  "team_name": "CS Blejoi",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-blejoi-2025-26-home-kit-434709/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/ajc7wBjt5Do2hKo/cs-blejoi-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_43c5b2dcb43f438d5f64-home-434709.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#182029",
+      "leftSleeve": "#0872C9",
+      "rightSleeve": "#182029",
+      "collar": "#182029",
+      "leftCuff": "#182029",
+      "rightCuff": "#182029"
+    }
+  },
+  "observations": "Black with three bright-blue body stripes and blue upper-left sleeve insert; black right sleeve and ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with three bright-blue body stripes and blue upper-left sleeve insert; black right sleeve and ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_43c5b2dcb43f438d5f64-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#182029",
+      "leftSleeve": "#0872C9",
+      "rightSleeve": "#182029",
+      "collar": "#182029",
+      "leftCuff": "#182029",
+      "rightCuff": "#182029"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#182029",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#182029",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#0872C9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 86,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#0872C9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#0872C9",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            0
+          ],
+          [
+            52,
+            30
+          ],
+          [
+            0,
+            26
+          ]
+        ],
+        "fill": "#0872C9",
+        "clip": "leftSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#182029",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#182029",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

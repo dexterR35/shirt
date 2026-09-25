@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9efef463aa3965a704fe",
+  "team_name": "CSU Alba Iulia",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Blue torso fading to near-white hem, blue sleeves and ring; fine diagonal transition print reduced. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9efef463aa3965a704fe-home-435976.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-universitatea-alba-iulia-2025-26-home-kit-435976/",
+      "sha256": "d70309e814b30cc536bafb201e434e9644c4e7a9c50ded1e09902a07bc17fe1d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#438BCE",
+      "leftSleeve": "#438BCE",
+      "rightSleeve": "#438BCE",
+      "collar": "#408ACC",
+      "leftCuff": "#438BCE",
+      "rightCuff": "#438BCE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#408ACC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#438BCE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#3C84C9"
+            },
+            {
+              "offset": 0.26,
+              "color": "#5793CC"
+            },
+            {
+              "offset": 0.72,
+              "color": "#BECDE0"
+            },
+            {
+              "offset": 1,
+              "color": "#F0F1EE"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

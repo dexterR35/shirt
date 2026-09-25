@@ -4,9 +4,8 @@
   "team_name": "Lillestrøm",
   "country_name": "Norway",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_e758360e408ca9763b4a-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/lillestrom-sk-2026-27-europa-league-away-kit-515931/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/09/06/gRiZqGU7A47kTj7/lillestrom-sk-2026-27-europa-league-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_e758360e408ca9763b4a-away-515931.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#AF2730",
+      "leftSleeve": "#AF2730",
+      "rightSleeve": "#AF2730",
+      "collar": "#B92B32",
+      "leftCuff": "#A62530",
+      "rightCuff": "#A62530"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Europa League Away: red with broad black vertical stripes, dark ring with red edge and red cuffs. Worn-photo distortions adapted. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-north-2026-09-25/team_e758360e408ca9763b4a-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_fc88999495a7f59282e2.json",
+    "source_kit_id": "515931"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-north-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/lillestrom-sk-kits-t3162/",
+      "source_url": "https://www.footballkitarchive.com/lillestrom-sk-2026-27-europa-league-away-kit-515931/",
+      "outcome": "Ready Europa League Away, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

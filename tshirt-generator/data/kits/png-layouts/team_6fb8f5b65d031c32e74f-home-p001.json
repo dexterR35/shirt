@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6fb8f5b65d031c32e74f",
+  "team_name": "CSM Târgu Jiu",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain royal blue torso/sleeves and ring; repeated white shoulder marks omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6fb8f5b65d031c32e74f-home-420507.jpg",
+      "page_url": "https://www.footballkitarchive.com/csm-targu-jiu-2025-26-home-kit-420507/",
+      "sha256": "dab22238d8d763575a623b603d66b996f94bb734134d076231fab6fda3638ece"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1754B7",
+      "leftSleeve": "#1754B7",
+      "rightSleeve": "#1754B7",
+      "collar": "#1553AB",
+      "leftCuff": "#1754B7",
+      "rightCuff": "#1754B7"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1553AB",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1754B7",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_05e317943133efc5b293",
+  "team_name": "CS Gheorgheni",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain light grey torso/sleeves and grey ring. Shoulder dots are manufacturer branding and removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_05e317943133efc5b293-away-435066.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-gheorgheni-2025-26-away-kit-435066/",
+      "sha256": "db1e609c9c2f40b86f33b772d4c0bd5cd93247b48878a379a909ceb2a7180b04"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#BBC0BC",
+      "leftSleeve": "#BBC0BC",
+      "rightSleeve": "#BBC0BC",
+      "collar": "#B8BCB7",
+      "leftCuff": "#BBC0BC",
+      "rightCuff": "#BBC0BC"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B8BCB7",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#BBC0BC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

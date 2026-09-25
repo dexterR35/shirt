@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_48822a61df87317b0104",
+        "variant": "home",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/ekenas-if-2025-home-kit-444281/",
+        "history_url": "https://www.footballkitarchive.com/ekenas-if-kits-t79513/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "Ekenäs IF",
+      "design": "Graphic",
+      "colors": [
+        "Green",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Craft",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkösliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ekenas-if-2025-home-kit-444281/",
+        "kit_id": "444281",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_249d4c7a6494ac04abe7.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-finland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_48822a61df87317b0104",
+        "variant": "away",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/ekenas-if-2025-away-kit-444282/",
+        "history_url": "https://www.footballkitarchive.com/ekenas-if-kits-t79513/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "Ekenäs IF",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Craft",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkösliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ekenas-if-2025-away-kit-444282/",
+        "kit_id": "444282",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_e5181b1c708b9bc92c8c.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-finland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

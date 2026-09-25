@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue upper torso and short sleeves fading to white lower body. White long undershirt and faint crest watermark excluded. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_05e317943133efc5b293-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_05e317943133efc5b293-home-435067.jpg",
-  "image_sha256": "04996e1eca29af0e4d0bd2169f860dcfad707a07e2fd0491329ee13b8607185f"
+  "image_sha256": "04996e1eca29af0e4d0bd2169f860dcfad707a07e2fd0491329ee13b8607185f",
+  "artwork_revision_path": "data/kits/team_05e317943133efc5b293-home-r001.json"
 }

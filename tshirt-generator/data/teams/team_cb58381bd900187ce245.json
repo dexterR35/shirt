@@ -45,22 +45,42 @@
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_cb58381bd900187ce245",
+        "variant": "away",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/fc-haka-2025-away-kit-375130/",
+        "history_url": "https://www.footballkitarchive.com/fc-haka-kits-t1301/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "FC Haka",
+      "design": "Plain",
+      "colors": [
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Puma",
+      "sponsor": "Futis Pizza",
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-haka-2025-away-kit-375130/",
+        "kit_id": "375130",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_f479d70387910e9c7a00.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-finland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

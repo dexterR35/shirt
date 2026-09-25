@@ -4,9 +4,8 @@
   "team_name": "PAS Pyrgos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled.",
+  "kit_season": "2025/26",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,9 +39,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -54,6 +51,62 @@
       ],
       "additional_sources": [],
       "outcome": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/pas-pyrgos-1968-kits-t79558/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/pas-pyrgos-1968-2025-26-home-kit-444350/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2025/26. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_de5291c44c145f0be198-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pas-pyrgos-1968-2025-26-home-kit-444350/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/fpPjSiUyasv9CqZ/pas-pyrgos-1968-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_de5291c44c145f0be198-home-444350.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#BB2827",
+      "leftSleeve": "#BB2827",
+      "rightSleeve": "#BB2827",
+      "collar": "#BB2827",
+      "leftCuff": "#BB2827",
+      "rightCuff": "#BB2827"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red with dark-red angular shards/triangles traced from an unbranded lower-front patch and redistributed across the common shirt, three white shoulder tapes. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_de5291c44c145f0be198-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_974e5ff4d11a5fed55e9.json",
+    "source_kit_id": "444350"
+  }
 }

@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_65e4ea4998bfe02eb0be",
+        "variant": "home",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/apollon-paralimniou-2023-24-home-kit-222700/",
+        "history_url": "https://www.footballkitarchive.com/apollon-paralimniou-kits-t20850/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "Apollon Paralimniou",
+      "design": "Plain",
+      "colors": [
+        "Blue",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/apollon-paralimniou-2023-24-home-kit-222700/",
+        "kit_id": "222700",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_930d8c1c141c5aa0877c.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_65e4ea4998bfe02eb0be",
+        "variant": "away",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/apollon-paralimniou-2023-24-away-kit-222701/",
+        "history_url": "https://www.footballkitarchive.com/apollon-paralimniou-kits-t20850/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "Apollon Paralimniou",
+      "design": "Graphic",
+      "colors": [
+        "Yellow",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/apollon-paralimniou-2023-24-away-kit-222701/",
+        "kit_id": "222701",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_4108757dcab7e7e74db0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

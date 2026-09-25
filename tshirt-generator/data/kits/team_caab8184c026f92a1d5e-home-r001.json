@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_caab8184c026f92a1d5e",
+  "team_name": "Platanias",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2018/19",
+  "revision": "r001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-platanias-2018-19-home-kit-61210/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2023/07/26/EWO0k4v9rqJzHuH/ao-platanias-2018-19-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_caab8184c026f92a1d5e-home-61210.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2018/19"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F02424",
+      "rightSleeve": "#F02424",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F02424",
+      "rightCuff": "#F02424"
+    }
+  },
+  "observations": "White with red vertical torso stripes interrupted by a narrow white sponsor band, plain red sleeves and white ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with red vertical torso stripes interrupted by a narrow white sponsor band, plain red sleeves and white ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_caab8184c026f92a1d5e-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F02424",
+      "rightSleeve": "#F02424",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F02424",
+      "rightCuff": "#F02424"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#F02424",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#F02424",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#F02424",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#F02424",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 49,
+        "width": 102,
+        "height": 14,
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

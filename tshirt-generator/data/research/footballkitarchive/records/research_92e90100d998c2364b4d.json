@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-c.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with broad white cuff ends, white ring and thin pale peach shoulder/sleeve piping. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_727e89b718f57538dbdf-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_727e89b718f57538dbdf-home-434696.jpg",
-  "image_sha256": "1a621882608dbb9a44bdb821467495664e43ec5621e5dc80b2335653cd9e6011"
+  "image_sha256": "1a621882608dbb9a44bdb821467495664e43ec5621e5dc80b2335653cd9e6011",
+  "artwork_revision_path": "data/kits/team_727e89b718f57538dbdf-home-r001.json"
 }

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_167868f98e0cd65d3a3a",
+  "team_name": "Beşiktaş",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with fine black torso stripes and an asymmetrical black upper-left panel crossed by white pinlines; white sleeves, black round ring/cuffs. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_167868f98e0cd65d3a3a-away-491239.jpg",
+      "page_url": "https://www.footballkitarchive.com/besiktas-2026-27-away-kit-491239/",
+      "sha256": "47e826725c5590d9c44c2c1f7f960f887e2a8355092ada65b845f303c3d1f9ea"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#1C1E20",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 65,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 85,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 95,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 115,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 125,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 135,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 4,
+        "height": 200,
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            51,
+            0
+          ],
+          [
+            111,
+            0
+          ],
+          [
+            75,
+            100
+          ],
+          [
+            51,
+            137
+          ]
+        ],
+        "fill": "#1C1E20",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            0
+          ],
+          [
+            58.3,
+            0
+          ],
+          [
+            62,
+            61
+          ],
+          [
+            60.7,
+            61
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            67,
+            0
+          ],
+          [
+            68.3,
+            0
+          ],
+          [
+            72,
+            61
+          ],
+          [
+            70.7,
+            61
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            0
+          ],
+          [
+            78.3,
+            0
+          ],
+          [
+            82,
+            61
+          ],
+          [
+            80.7,
+            61
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            87,
+            0
+          ],
+          [
+            88.3,
+            0
+          ],
+          [
+            92,
+            61
+          ],
+          [
+            90.7,
+            61
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            97,
+            0
+          ],
+          [
+            98.3,
+            0
+          ],
+          [
+            102,
+            61
+          ],
+          [
+            100.7,
+            61
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 70.6C24 75.2 36 80.5 44.5 79.6Q48 79.7 49.2 71.5L52 106H5Z",
+        "fill": "#1C1E20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 70.6C176 75.2 164 80.5 155.5 79.6Q152 79.7 150.8 71.5L148 106H195Z",
+        "fill": "#1C1E20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

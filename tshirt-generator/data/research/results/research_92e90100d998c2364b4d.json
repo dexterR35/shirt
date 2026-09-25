@@ -4,8 +4,8 @@
   "team_name": "CSO Plopeni",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_727e89b718f57538dbdf-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cso-plopeni-2025-26-home-kit-434696/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/iv0m3vv66o9KThb/cso-plopeni-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_727e89b718f57538dbdf-home-434696.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Orange",
+      "White"
+    ],
+    "values": {
+      "body": "#19202B",
+      "leftSleeve": "#19202B",
+      "rightSleeve": "#19202B",
+      "collar": "#F0F1EE",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with broad white cuff ends, white ring and thin pale peach shoulder/sleeve piping. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_727e89b718f57538dbdf-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_92e90100d998c2364b4d.json",
+    "source_kit_id": "434696"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_219c8ed2c5f08acb0651",
+  "team_name": "Muscelul ARO Câmpulung",
+  "country_name": "Romania",
+  "variant": "home",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acs-aro-muscelul-campulung-2023-24-home-kit-302301/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/WCdyXJ2AatYT2F3/acs-aro-muscelul-campulung-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_219c8ed2c5f08acb0651-home-302301.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "observations": "White and light-blue narrow vertical stripes across torso and sleeves, white ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White and light-blue narrow vertical stripes across torso and sleeves, white ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_219c8ed2c5f08acb0651-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 14,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 28,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 42,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 56,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 70,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 98,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 112,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 140,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 154,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 168,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 182,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 196,
+        "y": 0,
+        "width": 7,
+        "height": 200,
+        "fill": "#6FAED4",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

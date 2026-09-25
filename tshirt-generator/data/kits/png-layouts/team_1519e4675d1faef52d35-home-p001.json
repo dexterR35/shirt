@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1519e4675d1faef52d35",
+  "team_name": "CSM Deva",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal-blue with broad white slightly oblique torso hoops, blue sleeves and white ring; photo perspective/folds not copied. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1519e4675d1faef52d35-home-310122.jpg",
+      "page_url": "https://www.footballkitarchive.com/csm-deva-2024-25-home-kit-310122/",
+      "sha256": "919695757c20820df7e7fe1305c15b7c7488418a6ae7cd17687db0f748e9ffcc"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#215BB0",
+      "leftSleeve": "#215BB0",
+      "rightSleeve": "#215BB0",
+      "collar": "#F1F2EE",
+      "leftCuff": "#215BB0",
+      "rightCuff": "#215BB0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#215BB0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            30
+          ],
+          [
+            151,
+            22
+          ],
+          [
+            151,
+            38
+          ],
+          [
+            49,
+            46
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            65
+          ],
+          [
+            151,
+            57
+          ],
+          [
+            151,
+            73
+          ],
+          [
+            49,
+            81
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            100
+          ],
+          [
+            151,
+            92
+          ],
+          [
+            151,
+            108
+          ],
+          [
+            49,
+            116
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            135
+          ],
+          [
+            151,
+            127
+          ],
+          [
+            151,
+            143
+          ],
+          [
+            49,
+            151
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            170
+          ],
+          [
+            151,
+            162
+          ],
+          [
+            151,
+            178
+          ],
+          [
+            49,
+            186
+          ]
+        ],
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

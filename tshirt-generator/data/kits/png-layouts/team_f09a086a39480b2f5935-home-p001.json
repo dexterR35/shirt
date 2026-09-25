@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f09a086a39480b2f5935",
+  "team_name": "Galatasaray",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Golden-yellow viewer-left/red viewer-right halves with opposite sleeve colors and red round ring. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_f09a086a39480b2f5935-home-481936.jpg",
+      "page_url": "https://www.footballkitarchive.com/galatasaray-2026-27-home-kit-481936/",
+      "sha256": "ba07e8850aa557a978d374224fc8048c2eb07ef808163cc255cebdf3a993d28d"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EFAB2B",
+      "leftSleeve": "#CB1025",
+      "rightSleeve": "#ECA72C",
+      "collar": "#C51325",
+      "leftCuff": "#CB1025",
+      "rightCuff": "#ECA72C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C51325",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EFAB2B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 51,
+        "height": 200,
+        "fill": "#CB1025",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

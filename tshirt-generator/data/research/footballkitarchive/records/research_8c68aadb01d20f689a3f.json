@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with broad yellow chest band and fine yellow hem/cuff bands and ring. Shoulder dots are manufacturer symbols and omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_6ae2f40f44eec6f65d1e-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_6ae2f40f44eec6f65d1e-home-434692.jpg",
-  "image_sha256": "45597f0e740b16ef31ad5b34203eb8b19bb8093b30508abf1064a0f20b20465c"
+  "image_sha256": "45597f0e740b16ef31ad5b34203eb8b19bb8093b30508abf1064a0f20b20465c",
+  "artwork_revision_path": "data/kits/team_6ae2f40f44eec6f65d1e-home-r001.json"
 }

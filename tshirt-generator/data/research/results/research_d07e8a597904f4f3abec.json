@@ -4,9 +4,8 @@
   "team_name": "AGF Aarhus",
   "country_name": "Denmark",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9bcd31b2ebc3c11a4aa4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/agf-aarhus-2026-27-home-kit-488321/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/12/K9MMf9D1sy0dWgQ/agf-aarhus-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9bcd31b2ebc3c11a4aa4-home-488321.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Navy"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with evenly spaced fine navy pinlines over torso/sleeves and double navy/white ring/cuff bands. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-north-2026-09-25/team_9bcd31b2ebc3c11a4aa4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_d07e8a597904f4f3abec.json",
+    "source_kit_id": "488321"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-north-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/agf-aarhus-kits-t79/",
+      "source_url": "https://www.footballkitarchive.com/agf-aarhus-2026-27-home-kit-488321/",
+      "outcome": "Ready Home, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

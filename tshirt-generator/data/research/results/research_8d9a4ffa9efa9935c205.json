@@ -4,9 +4,8 @@
   "team_name": "Asteras Tripolis B",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled.",
+  "kit_season": "2025/26",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -82,6 +79,63 @@
       ],
       "additional_sources": [],
       "outcome": "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/asteras-aktor-b-kits-t44029/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/asteras-aktor-b-2025-26-home-kit-414969/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2025/26. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_c8f734cd3729d609f4b7-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/asteras-aktor-b-2025-26-home-kit-414969/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/09/27/gXxQWrlfSKyOTJn/asteras-aktor-b-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c8f734cd3729d609f4b7-home-414969.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#E9C447",
+      "leftSleeve": "#145589",
+      "rightSleeve": "#E9C447",
+      "collar": "#EBC647",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve Home: yellow/blue halves with opposing sleeve colors, tonal angular polygon network, fine central trim and striped cuff ends. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_c8f734cd3729d609f4b7-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8d9a4ffa9efa9935c205.json",
+    "source_kit_id": "414969"
+  }
 }

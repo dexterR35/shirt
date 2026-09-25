@@ -4,9 +4,8 @@
   "team_name": "CSM Deva",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2024/25",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,11 +39,85 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+  "remaining": [],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "CSM Deva",
+            "url": "https://www.footballkitarchive.com/csm-deva-kits-t42975/",
+            "latest_season": "2024-25"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "CSM Deva",
+            "query": "Deva",
+            "outcome": "AD Almudévar | ŠK Odeva Lipany | CSM Deva | Ribadedeva | Sudeva Delhi | Club Atlético Deva | Atlético Pontedeva"
+          }
+        ]
+      },
+      "outcome": "Independent club history checked: 2024-25. No 2026/27 or authorized 2025/26 home reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/csm-deva-kits-t42975/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/csm-deva-2024-25-home-kit-310122/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2024/25. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_1519e4675d1faef52d35-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-deva-2024-25-home-kit-310122/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/31/4sBoanlmG0q0P6N/csm-deva-2024-25-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1519e4675d1faef52d35-home-310122.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2024/25"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#215BB0",
+      "leftSleeve": "#215BB0",
+      "rightSleeve": "#215BB0",
+      "collar": "#F1F2EE",
+      "leftCuff": "#215BB0",
+      "rightCuff": "#215BB0"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue with broad white slightly oblique torso hoops, blue sleeves and white ring; photo perspective/folds not copied. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_1519e4675d1faef52d35-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_de7fbe82eaba8431fd41.json",
+    "source_kit_id": "310122"
+  }
 }

@@ -4,9 +4,8 @@
   "team_name": "Crvena Zvezda",
   "country_name": "Serbia",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fc0d9a2c19dab35d2862-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/red-star-belgrade-2026-27-home-kit-484748/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/05/23/075asj1Jxwimwgv/red-star-belgrade-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fc0d9a2c19dab35d2862-home-484748.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#D21F3B",
+      "rightSleeve": "#D21F3B",
+      "collar": "#DD243D",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red/white vertical stripes interrupted by a white middle band, red sleeves and ring, white cuffs. Tonal ornamental ink sampled only from clear red lower stripe; small white-on-white ornament simplified. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-east-2026-09-25/team_fc0d9a2c19dab35d2862-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_905a92fc3a9255cb213c.json",
+    "source_kit_id": "484748"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-east-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/red-star-belgrade-kits-t607/",
+      "source_url": "https://www.footballkitarchive.com/red-star-belgrade-2026-27-home-kit-484748/",
+      "outcome": "Ready Home, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

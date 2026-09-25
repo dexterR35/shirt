@@ -4,9 +4,8 @@
   "team_name": "Sturm Graz",
   "country_name": "Austria",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_12dde48f3814acf5ae23-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sturm-graz-2026-27-away-kit-493767/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/10/eOl4wbRt2xist27/sturm-graz-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_12dde48f3814acf5ae23-away-493767.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Black"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#1C1E20",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with four narrow black vertical torso stripes and black ring/cuffs. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-central-2026-09-25/team_12dde48f3814acf5ae23-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_e5ed76e5bdc7f25c4790.json",
+    "source_kit_id": "493767"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-central-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/sturm-graz-kits-t680/",
+      "source_url": "https://www.footballkitarchive.com/sturm-graz-2026-27-away-kit-493767/",
+      "outcome": "Ready Away, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

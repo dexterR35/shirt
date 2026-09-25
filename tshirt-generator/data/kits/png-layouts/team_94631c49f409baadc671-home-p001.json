@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_94631c49f409baadc671",
+  "team_name": "Agricola Borcea",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow torso, navy upper chest and sleeves, narrow blue horizontal chest band and yellow shoulder inserts/trim. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_94631c49f409baadc671-home-320866.jpg",
+      "page_url": "https://www.footballkitarchive.com/agricola-borcea-2024-25-home-kit-320866/",
+      "sha256": "754f37ef3ca70b5393538a300f33f3a2235873a68a136958b7c3bf8d1283ad99"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E4B921",
+      "leftSleeve": "#172C44",
+      "rightSleeve": "#172C44",
+      "collar": "#152C45",
+      "leftCuff": "#DCB72B",
+      "rightCuff": "#DCB72B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#152C45",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E4B921",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 0,
+        "width": 104,
+        "height": 50,
+        "fill": "#172C44",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 48,
+        "width": 104,
+        "height": 6,
+        "fill": "#295BA0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            4
+          ],
+          [
+            43,
+            17
+          ],
+          [
+            45,
+            31
+          ],
+          [
+            68,
+            21
+          ]
+        ],
+        "fill": "#E6BF28",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            4
+          ],
+          [
+            157,
+            17
+          ],
+          [
+            155,
+            31
+          ],
+          [
+            132,
+            21
+          ]
+        ],
+        "fill": "#E6BF28",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 75.1C24 79.7 36 85 44.5 84.1Q48 84.2 49.2 76L52 106H5Z",
+        "fill": "#DCB72B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.1C176 79.7 164 85 155.5 84.1Q152 84.2 150.8 76L148 106H195Z",
+        "fill": "#DCB72B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

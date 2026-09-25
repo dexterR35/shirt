@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e3b0d835ad3a60b6fcde",
+  "team_name": "CS Tunari",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-d-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with thin broken white diagonal pinstripes in upper-left/lower-right clusters, white cuffs and red ring. Independently verified 2025/26 Home/Away fallback; current club history checked first and literal season retained. Color and obscured detail estimated from the photograph. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e3b0d835ad3a60b6fcde-home-396629.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-tunari-2025-26-home-kit-396629/",
+      "sha256": "bd278f284f7eef587175282719351b54c41637a6d1d81643d7743e02aa15423e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E32930",
+      "leftSleeve": "#E32930",
+      "rightSleeve": "#E32930",
+      "collar": "#D72A2E",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#D72A2E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E32930",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M53.828 0.053L61.828 26.053L62.172 25.947L54.172 -0.053Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M93.853 132.062L101.453 150.062L101.747 149.938L94.147 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M98.054 153.066L105.254 169.066L105.546 168.934L98.346 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M101.857 172.072L108.457 185.072L108.743 184.928L102.143 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M105.053 188.064L112.453 205.064L112.747 204.936L105.347 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56.628 3.053L64.628 29.053L64.972 28.947L56.972 2.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M97.35 129.054L104.95 150.054L105.25 149.946L97.65 128.946Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M101.55 150.057L108.75 169.057L109.05 168.943L101.85 149.943Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M105.352 169.061L111.952 185.061L112.248 184.939L105.648 168.939Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M108.55 185.056L115.95 205.056L116.25 204.944L108.85 184.944Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M59.428 6.053L67.428 32.053L67.772 31.947L59.772 5.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M100.847 126.048L108.447 150.048L108.753 149.952L101.153 125.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M105.048 147.05L112.248 169.05L112.552 168.95L105.352 146.95Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M108.849 166.053L115.449 185.053L115.751 184.947L109.151 165.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M112.048 182.049L119.448 205.049L119.752 204.951L112.352 181.951Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M62.237 9.077L70.237 26.077L70.563 25.923L62.563 8.923Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M104.353 132.062L111.953 150.062L112.247 149.938L104.647 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M108.554 153.066L115.754 169.066L116.046 168.934L108.846 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M112.357 172.072L118.957 185.072L119.243 184.928L112.643 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M115.553 188.064L122.953 205.064L123.247 204.936L115.847 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M65.026 0.048L73.026 29.048L73.374 28.952L65.374 -0.048Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M107.85 129.054L115.45 150.054L115.75 149.946L108.15 128.946Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M112.05 150.057L119.25 169.057L119.55 168.943L112.35 149.943Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M115.852 169.061L122.452 185.061L122.748 184.939L116.148 168.939Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.05 185.056L126.45 205.056L126.75 204.944L119.35 184.944Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M67.826 3.048L75.826 32.048L76.174 31.952L68.174 2.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M111.347 126.048L118.947 150.048L119.253 149.952L111.653 125.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M115.548 147.05L122.748 169.05L123.052 168.95L115.852 146.95Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.349 166.053L125.949 185.053L126.251 184.947L119.651 165.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122.548 182.049L129.948 205.049L130.252 204.951L122.852 181.951Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M70.633 6.067L78.633 26.067L78.967 25.933L70.967 5.933Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M114.853 132.062L122.453 150.062L122.747 149.938L115.147 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.054 153.066L126.254 169.066L126.546 168.934L119.346 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122.857 172.072L129.457 185.072L129.743 184.928L123.143 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126.053 188.064L133.453 205.064L133.747 204.936L126.347 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M73.433 9.067L81.433 29.067L81.767 28.933L73.767 8.933Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M118.35 129.054L125.95 150.054L126.25 149.946L118.65 128.946Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M122.55 150.057L129.75 169.057L130.05 168.943L122.85 149.943Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126.352 169.061L132.952 185.061L133.248 184.939L126.648 168.939Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M129.55 185.056L136.95 205.056L137.25 204.944L129.85 184.944Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M76.225 0.044L84.225 32.044L84.575 31.956L76.575 -0.044Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M121.847 126.048L129.447 150.048L129.753 149.952L122.153 125.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M126.048 147.05L133.248 169.05L133.552 168.95L126.352 146.95Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M129.849 166.053L136.449 185.053L136.751 184.947L130.151 165.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.048 182.049L140.448 205.049L140.752 204.951L133.352 181.951Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M79.03 3.059L87.03 26.059L87.37 25.941L79.37 2.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.353 132.062L132.953 150.062L133.247 149.938L125.647 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M129.554 153.066L136.754 169.066L137.046 168.934L129.846 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.357 172.072L139.957 185.072L140.243 184.928L133.643 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M136.553 188.064L143.953 205.064L144.247 204.936L136.847 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M81.83 6.059L89.83 29.059L90.17 28.941L82.17 5.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M128.85 129.054L136.45 150.054L136.75 149.946L129.15 128.946Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.05 150.057L140.25 169.057L140.55 168.943L133.35 149.943Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M136.852 169.061L143.452 185.061L143.748 184.939L137.148 168.939Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140.05 185.056L147.45 205.056L147.75 204.944L140.35 184.944Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M84.63 9.059L92.63 32.059L92.97 31.941L84.97 8.941Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M132.347 126.048L139.947 150.048L140.253 149.952L132.653 125.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M136.548 147.05L143.748 169.05L144.052 168.95L136.852 146.95Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140.349 166.053L146.949 185.053L147.251 184.947L140.651 165.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M143.548 182.049L150.948 205.049L151.252 204.951L143.852 181.951Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M87.428 0.053L95.428 26.053L95.772 25.947L87.772 -0.053Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M135.853 132.062L143.453 150.062L143.747 149.938L136.147 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M140.054 153.066L147.254 169.066L147.546 168.934L140.346 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M143.857 172.072L150.457 185.072L150.743 184.928L144.143 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M147.053 188.064L154.453 205.064L154.747 204.936L147.347 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M90.228 3.053L98.228 29.053L98.572 28.947L90.572 2.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M139.35 129.054L146.95 150.054L147.25 149.946L139.65 128.946Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M143.55 150.057L150.75 169.057L151.05 168.943L143.85 149.943Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M147.352 169.061L153.952 185.061L154.248 184.939L147.648 168.939Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M150.55 185.056L157.95 205.056L158.25 204.944L150.85 184.944Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M93.028 6.053L101.028 32.053L101.372 31.947L93.372 5.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M142.847 126.048L150.447 150.048L150.753 149.952L143.153 125.952Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M147.048 147.05L154.248 169.05L154.552 168.95L147.352 146.95Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M150.849 166.053L157.449 185.053L157.751 184.947L151.151 165.947Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154.048 182.049L161.448 205.049L161.752 204.951L154.352 181.951Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.837 9.077L103.837 26.077L104.163 25.923L96.163 8.923Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M146.353 132.062L153.953 150.062L154.247 149.938L146.647 131.938Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M150.554 153.066L157.754 169.066L158.046 168.934L150.846 152.934Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M154.357 172.072L160.957 185.072L161.243 184.928L154.643 171.928Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M157.553 188.064L164.953 205.064L165.247 204.936L157.847 187.936Z",
+        "fill": "#F0F1EE",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#F0F1EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#F0F1EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

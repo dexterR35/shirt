@@ -4,9 +4,8 @@
   "team_name": "Proodeftiki",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2023/24",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -106,6 +103,62 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/proodeftiki-neolea-kits-t20924/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/proodeftiki-neolea-2023-24-home-kit-222837/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2023/24. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_a3e8c2b4f0096617d635-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/proodeftiki-neolea-2023-24-home-kit-222837/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/01/28/3CGUgCTQp7BlgHr/proodeftiki-neolea-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a3e8c2b4f0096617d635-home-222837.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "White"
+    ],
+    "values": {
+      "body": "#79222C",
+      "leftSleeve": "#79222C",
+      "rightSleeve": "#79222C",
+      "collar": "#79222C",
+      "leftCuff": "#79222C",
+      "rightCuff": "#79222C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with groups of thin white vertical stripes, some terminating mid-front, with white sleeve stripe groups and claret ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_a3e8c2b4f0096617d635-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b9dc564450cf98f00d79.json",
+    "source_kit_id": "222837"
+  }
 }

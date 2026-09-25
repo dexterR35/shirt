@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0675e116c428518d455b",
+  "team_name": "CSM Sighetu Marmației",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-sighet-2023-24-away-kit-302560/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/svk2AjMtJ9AWNsB/csm-sighet-2023-24-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0675e116c428518d455b-away-302560.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red"
+    ],
+    "values": {
+      "body": "#21334C",
+      "leftSleeve": "#21334C",
+      "rightSleeve": "#21334C",
+      "collar": "#21334C",
+      "leftCuff": "#21334C",
+      "rightCuff": "#21334C"
+    }
+  },
+  "observations": "Navy with red shoulder-to-underarm curved bands; navy sleeves/ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy with red shoulder-to-underarm curved bands; navy sleeves/ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_0675e116c428518d455b-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#21334C",
+      "leftSleeve": "#21334C",
+      "rightSleeve": "#21334C",
+      "collar": "#21334C",
+      "leftCuff": "#21334C",
+      "rightCuff": "#21334C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#21334C",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#21334C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            3
+          ],
+          [
+            51,
+            11
+          ],
+          [
+            48,
+            29
+          ],
+          [
+            50,
+            68
+          ],
+          [
+            55,
+            66
+          ],
+          [
+            58,
+            19
+          ],
+          [
+            78,
+            10
+          ]
+        ],
+        "fill": "#C12C33",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            3
+          ],
+          [
+            149,
+            11
+          ],
+          [
+            152,
+            29
+          ],
+          [
+            150,
+            68
+          ],
+          [
+            145,
+            66
+          ],
+          [
+            142,
+            19
+          ],
+          [
+            122,
+            10
+          ]
+        ],
+        "fill": "#C12C33",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1ef40663b265424534c6",
+  "team_name": "Corona Brașov",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2020/21",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-corona-brasov-2020-21-away-kit-310809/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/11/02/dKvyA6ikvIqvQfh/csm-corona-brasov-2020-21-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1ef40663b265424534c6-away-310809.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2020/21"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue"
+    ],
+    "values": {
+      "body": "#1766AD",
+      "leftSleeve": "#1766AD",
+      "rightSleeve": "#1766AD",
+      "collar": "#195CA0",
+      "leftCuff": "#1766AD",
+      "rightCuff": "#1766AD"
+    }
+  },
+  "observations": "Blue plain Away observed in match photo; yellow chest marks are lettering and removed. Hidden fabric/trim kept to observed blue. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue plain Away observed in match photo; yellow chest marks are lettering and removed. Hidden fabric/trim kept to observed blue. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_1ef40663b265424534c6-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1766AD",
+      "leftSleeve": "#1766AD",
+      "rightSleeve": "#1766AD",
+      "collar": "#195CA0",
+      "leftCuff": "#1766AD",
+      "rightCuff": "#1766AD"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#195CA0",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1766AD",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

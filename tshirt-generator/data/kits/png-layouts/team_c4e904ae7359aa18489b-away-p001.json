@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c4e904ae7359aa18489b",
+  "team_name": "Lotus Băile Felix",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain deep blue body/sleeves and ring; distant action photograph limits subtle fabric details. Black undershirt removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_c4e904ae7359aa18489b-away-471724.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-lotus-baile-felix-2025-26-away-kit-471724/",
+      "sha256": "30a2c4f332cbf11577a6238336e80b848fba1d0670e108cceb5c3157c814b29f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#165287",
+      "leftSleeve": "#165287",
+      "rightSleeve": "#165287",
+      "collar": "#185184",
+      "leftCuff": "#165287",
+      "rightCuff": "#165287"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#185184",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#165287",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_043be6436380ce6182e5",
+  "team_name": "Viitorul Arad",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Red with white side inserts and white ring; red sleeves. Hand/side occlusion limits exact insert width. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_043be6436380ce6182e5-home-435993.jpg",
+      "page_url": "https://www.footballkitarchive.com/viitorul-arad-2025-26-home-kit-435993/",
+      "sha256": "603306d61000b86a01a61029c07813676ec89938a083050c9f9ea6a263c9db82"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DB282E",
+      "leftSleeve": "#DB282E",
+      "rightSleeve": "#DB282E",
+      "collar": "#F0F1EE",
+      "leftCuff": "#DB282E",
+      "rightCuff": "#DB282E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DB282E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            80
+          ],
+          [
+            54,
+            82
+          ],
+          [
+            58,
+            196
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#F0F1EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            80
+          ],
+          [
+            146,
+            82
+          ],
+          [
+            142,
+            196
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#F0F1EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

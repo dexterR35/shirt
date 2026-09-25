@@ -11,42 +11,73 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Royale Union Saint-Gilloise",
+      "design": "Plain",
+      "colors": [
+        "Yellow",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "O'Neills",
+      "sponsor": "Orange",
+      "competitions": [
+        "Belgian Pro League",
+        "Europa League"
+      ],
+      "release_date": "July 1, 2026",
+      "release_date_iso": "2026-07-01",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/royale-union-saint-gilloise-2026-27-home-kit-491425/",
+        "kit_id": "491425",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_39ecbc197bbe9195b1d1.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-belgium-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Royale Union Saint-Gilloise",
+      "design": "Plain",
+      "colors": [
+        "Sky blue",
+        "Blue",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "O'Neills",
+      "sponsor": "Orange",
+      "competitions": [
+        "Belgian Pro League",
+        "Europa League"
+      ],
+      "release_date": "July 1, 2026",
+      "release_date_iso": "2026-07-01",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/royale-union-saint-gilloise-2026-27-away-kit-491913/",
+        "kit_id": "491913",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_f0ac432d0ac8d7be63ad.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-belgium-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

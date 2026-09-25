@@ -11,42 +11,87 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_809177d57636dda754e7",
+        "variant": "home",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/fc-kairat-kits-t1930/",
+        "source_url": "https://www.footballkitarchive.com/fc-kairat-2026-home-kit-458214/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "FC Kairat",
+      "design": "Stripes",
+      "colors": [
+        "Yellow",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Qazaq Wear",
+      "sponsor": "1xBet",
+      "competitions": [
+        "Kazakhstan Premier League",
+        "Conference League"
+      ],
+      "release_date": "February 22, 2026",
+      "release_date_iso": "2026-02-22",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-kairat-2026-home-kit-458214/",
+        "kit_id": "458214",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_f3bd654325da2e3458a2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-kazakhstan-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_809177d57636dda754e7",
+        "variant": "away",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/fc-kairat-kits-t1930/",
+        "source_url": "https://www.footballkitarchive.com/fc-kairat-2026-away-kit-458215/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "FC Kairat",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Yellow",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Qazaq Wear",
+      "sponsor": "1xBet",
+      "competitions": [
+        "Kazakhstan Premier League",
+        "Conference League"
+      ],
+      "release_date": "February 22, 2026",
+      "release_date_iso": "2026-02-22",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-kairat-2026-away-kit-458215/",
+        "kit_id": "458215",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_0dc0122a3299fcb68f09.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-kazakhstan-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

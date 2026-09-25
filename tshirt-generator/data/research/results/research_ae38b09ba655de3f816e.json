@@ -5,8 +5,8 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "The preceding full archive source pass found no verified club history or independently labeled home reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,36 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "The preceding full archive source pass found no verified club history or independently labeled home reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [],
+        "searches": [
+          {
+            "team_name": "Progresul Spartac",
+            "query": "Progresul Spartac",
+            "outcome": "Found nothing"
+          },
+          {
+            "team_name": "Progresul Spartac",
+            "query": "Spartac",
+            "outcome": "Spartaco Landini | Nyíregyháza Spartacus FC | Erzsébeti Spartacus MTK LE | Spartac Râmnicu Sărat (CSM Râmnicu Sărat) | Nyíregyháza Spartacus FC II | Pécsvárad Spartacus SE"
+          }
+        ]
+      },
+      "outcome": "Archive search \"Progresul Spartac\": Found nothing; \"Spartac\": Spartaco Landini | Nyíregyháza Spartacus FC | Erzsébeti Spartacus MTK LE | Spartac Râmnicu Sărat (CSM Râmnicu Sărat) | Nyíregyháza Spartacus FC II | Pécsvárad Spartacus SE. No independently verified 2026/27 or authorized 2025/26 home reference for this canonical identity was found in the checked league/cup listings. This is an archive evidence gap, not a claim that the club has no shirt."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Reassessed documented source gap under the new season policy.",
+      "history_urls": [],
+      "outcome": "The preceding full archive source pass found no verified club history or independently labeled home reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log."
+    }
   ]
 }

@@ -11,42 +11,85 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1b16e16648fa0fb31f7a",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/gs-marko-2025-26-home-kit-421054/",
+        "history_url": "https://www.footballkitarchive.com/gs-marko-kits-t20878/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "GS Marko",
+      "design": "Stripes",
+      "colors": [
+        "Black",
+        "Green",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Admiral",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/gs-marko-2025-26-home-kit-421054/",
+        "kit_id": "421054",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_7c5c00d296ba99ef8370.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1b16e16648fa0fb31f7a",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/gs-marko-2025-26-away-kit-421055/",
+        "history_url": "https://www.footballkitarchive.com/gs-marko-kits-t20878/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "GS Marko",
+      "design": "Plain",
+      "colors": [
+        "Gray",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Admiral",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/gs-marko-2025-26-away-kit-421055/",
+        "kit_id": "421055",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_0c532f4ebddedd0541d8.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

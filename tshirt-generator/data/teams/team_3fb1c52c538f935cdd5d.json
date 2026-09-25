@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_3fb1c52c538f935cdd5d",
+        "variant": "home",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-home-kit-447140/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "FC Inter Turku B",
+      "design": "Stripes",
+      "colors": [
+        "Blue",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Nike",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-home-kit-447140/",
+        "kit_id": "447140",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_4d0ffcc1066439bb2739.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_3fb1c52c538f935cdd5d",
+        "variant": "away",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-away-kit-447141/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "FC Inter Turku B",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Red",
+        "Claret"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Nike",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-inter-turku-b-2025-away-kit-447141/",
+        "kit_id": "447141",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_29211590c67a45a33d31.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

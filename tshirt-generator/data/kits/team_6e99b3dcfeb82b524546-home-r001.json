@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6e99b3dcfeb82b524546",
+  "team_name": "Episkopi",
+  "country_name": "Greece",
+  "variant": "home",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-2023-24-home-kit-222823/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/01/28/antrmFb9oj4hVj8/ao-episkopi-rethymnou-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6e99b3dcfeb82b524546-home-222823.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#76B5D6",
+      "leftSleeve": "#76B5D6",
+      "rightSleeve": "#76B5D6",
+      "collar": "#1C1E20",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    }
+  },
+  "observations": "Sky-blue with thin darker blue vertical pinstripes, black cuffs and sky/black ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue with thin darker blue vertical pinstripes, black cuffs and sky/black ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_6e99b3dcfeb82b524546-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#76B5D6",
+      "leftSleeve": "#76B5D6",
+      "rightSleeve": "#76B5D6",
+      "collar": "#1C1E20",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.6 4.314L77 2Q100 7 123 2L128.4 4.314C130.857 30.171 69.143 30.171 71.6 4.314Z",
+          "fill": "#79B9D9",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.6 3.457L77 2Q100 7 123 2L126.4 3.457C129.429 27.886 70.571 27.886 73.6 3.457Z",
+          "fill": "#1C1E20",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M74.8 2.943L77 2Q100 7 123 2L125.2 2.943C128.571 26.514 71.429 26.514 74.8 2.943Z",
+          "fill": "#79B9D9",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#76B5D6",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 65,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 73,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 97,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 113,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 137,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 153,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#5192B6",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#1C1E20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#1C1E20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

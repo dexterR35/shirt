@@ -46,22 +46,43 @@
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_b3b5e87f02cc11bd8040",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/csm-resita-2025-26-away-kit-431171/",
+        "history_url": "https://www.footballkitarchive.com/csm-resita-kits-t14258/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "CSM Reșița",
+      "design": "Plain",
+      "colors": [
+        "Yellow",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Puma",
+      "sponsor": "Primăria Reșița",
+      "competitions": [
+        "Liga 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/csm-resita-2025-26-away-kit-431171/",
+        "kit_id": "431171",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_56f01c6ad8704f6b5bf0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-romania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

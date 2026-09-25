@@ -11,42 +11,74 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27 (Carry-over)",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Ferencvárosi TC",
+      "design": "Hoops",
+      "colors": [
+        "Green",
+        "White",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Macron",
+      "sponsor": "T-Mobile",
+      "competitions": [
+        "OTP Bank Liga",
+        "Europa League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ferencvarosi-tc-2026-27-home-kit-494753/",
+        "kit_id": "494753",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_17537fae12053a17decc.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-hungary-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Ferencvárosi TC",
+      "design": "Plain",
+      "colors": [
+        "Black",
+        "Gold",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "T-Mobile",
+      "competitions": [
+        "OTP Bank Liga",
+        "Europa League"
+      ],
+      "release_date": "July 9, 2026",
+      "release_date_iso": "2026-07-09",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ferencvarosi-tc-2026-27-away-kit-494413/",
+        "kit_id": "494413",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_4cc67411947dcf5a85e5.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-hungary-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

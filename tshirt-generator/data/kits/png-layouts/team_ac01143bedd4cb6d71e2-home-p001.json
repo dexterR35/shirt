@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ac01143bedd4cb6d71e2",
+  "team_name": "Ergotelis",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with curved black raglan stripes and black neckline edge. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ac01143bedd4cb6d71e2-home-242670.jpg",
+      "page_url": "https://www.footballkitarchive.com/ergotelis-2021-22-home-kit-242670/",
+      "sha256": "189149fe009fc291722e60df4804d40baf0994cbbd48a7f9298d856500637075"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E9D626",
+      "leftSleeve": "#E9D626",
+      "rightSleeve": "#E9D626",
+      "collar": "#1C1E20",
+      "leftCuff": "#E9D626",
+      "rightCuff": "#E9D626"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.6 4.314L77 2Q100 7 123 2L128.4 4.314C130.857 30.171 69.143 30.171 71.6 4.314Z",
+          "fill": "#DECE25",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E9D626",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            59,
+            15
+          ],
+          [
+            51,
+            33
+          ],
+          [
+            49,
+            64
+          ],
+          [
+            56,
+            31
+          ],
+          [
+            78,
+            9
+          ]
+        ],
+        "fill": "#1C1E20",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            141,
+            15
+          ],
+          [
+            149,
+            33
+          ],
+          [
+            151,
+            64
+          ],
+          [
+            144,
+            31
+          ],
+          [
+            122,
+            9
+          ]
+        ],
+        "fill": "#1C1E20",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

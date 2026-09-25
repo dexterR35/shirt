@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_6e99b3dcfeb82b524546",
+        "variant": "home",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-2023-24-home-kit-222823/",
+        "history_url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-kits-t20918/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "AO Episkopi Rethymnou",
+      "design": "Pinstripes",
+      "colors": [
+        "Sky blue",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-2023-24-home-kit-222823/",
+        "kit_id": "222823",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_54a8f71bf54ece82f725.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_6e99b3dcfeb82b524546",
+        "variant": "away",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-2023-24-away-kit-230233/",
+        "history_url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-kits-t20918/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "AO Episkopi Rethymnou",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "White",
+        "Gray"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Gamma Ethniki"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-episkopi-rethymnou-2023-24-away-kit-230233/",
+        "kit_id": "230233",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_73aa7c50501c51799b90.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

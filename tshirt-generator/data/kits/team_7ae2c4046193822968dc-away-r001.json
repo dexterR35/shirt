@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7ae2c4046193822968dc",
+  "team_name": "FC Nordsjælland",
+  "country_name": "Denmark",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-north-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-nordsjaelland-2026-27-away-kit-507251/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/12/a56JxA3umpAsH9O/fc-nordsjaelland-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7ae2c4046193822968dc-away-507251.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#17191B",
+      "leftSleeve": "#17191B",
+      "rightSleeve": "#17191B",
+      "collar": "#17191B",
+      "leftCuff": "#17191B",
+      "rightCuff": "#17191B"
+    }
+  },
+  "observations": "Black with fine muted-yellow angular meandering linework, adapted from visible upper/lower-front line segments. Club lion emblem omitted; line geometry simplified. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with fine muted-yellow angular meandering linework, adapted from visible upper/lower-front line segments. Club lion emblem omitted; line geometry simplified. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-north-2026-09-25/team_7ae2c4046193822968dc-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#17191B",
+      "leftSleeve": "#17191B",
+      "rightSleeve": "#17191B",
+      "collar": "#17191B",
+      "leftCuff": "#17191B",
+      "rightCuff": "#17191B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#17191B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#17191B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M56.753 56.041L59.825 74.179L104.895 103.227L111.981 98.249L118 104.25L124.038 98.247L131.101 102.229L149.197 87.153L152.243 75.061L151.757 74.939L148.803 86.847L130.899 101.771L123.962 97.753L118 103.75L112.019 97.751L105.105 102.773L60.175 73.821L57.247 55.959Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56.753 75.041L59.825 93.179L104.895 122.227L111.981 117.249L118 123.25L124.038 117.247L131.101 121.229L149.197 106.153L152.243 94.061L151.757 93.939L148.803 105.847L130.899 120.771L123.962 116.753L118 122.75L112.019 116.751L105.105 121.773L60.175 92.821L57.247 74.959Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56.753 94.041L59.825 112.179L104.895 141.227L111.981 136.249L118 142.25L124.038 136.247L131.101 140.229L149.197 125.153L152.243 113.061L151.757 112.939L148.803 124.847L130.899 139.771L123.962 135.753L118 141.75L112.019 135.751L105.105 140.773L60.175 111.821L57.247 93.959Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56.753 113.041L59.825 131.179L104.895 160.227L111.981 155.249L118 161.25L124.038 155.247L131.101 159.229L149.197 144.153L152.243 132.061L151.757 131.939L148.803 143.847L130.899 158.771L123.962 154.753L118 160.75L112.019 154.751L105.105 159.773L60.175 130.821L57.247 112.959Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M56.753 132.041L59.825 150.179L104.895 179.227L111.981 174.249L118 180.25L124.038 174.247L131.101 178.229L149.197 163.153L152.243 151.061L151.757 150.939L148.803 162.847L130.899 177.771L123.962 173.753L118 179.75L112.019 173.751L105.105 178.773L60.175 149.821L57.247 131.959Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M64.76 13.931L56.752 41.971L60.75 48L56.75 56L60.783 63.124L61.217 62.876L57.25 56L61.25 48L57.248 42.029L65.24 14.069Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M76.76 13.931L68.752 41.971L72.75 48L68.75 56L72.783 63.124L73.217 62.876L69.25 56L73.25 48L69.248 42.029L77.24 14.069Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M88.76 13.931L80.752 41.971L84.75 48L80.75 56L84.783 63.124L85.217 62.876L81.25 56L85.25 48L81.248 42.029L89.24 14.069Z",
+        "fill": "#C4AE39",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

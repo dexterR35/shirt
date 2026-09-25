@@ -1,0 +1,52 @@
+{
+  "batch": "latest-available-finland-2026-09-25",
+  "traces": [
+    {
+      "key": "EIF:home",
+      "reference": "data/research/references/footballkitarchive/team_48822a61df87317b0104-home-444281.jpg",
+      "source_sha256": "80af2c3942243f6f7dc66801f4dd4a1da106aad020f3cf3793ff71a707558329",
+      "spec": {
+        "box": [
+          186,
+          248,
+          339,
+          532
+        ],
+        "width": 320,
+        "mode": "light",
+        "threshold": 5,
+        "blur": 8,
+        "exclude": [
+          [
+            228,
+            280,
+            250,
+            80
+          ],
+          [
+            223,
+            371,
+            260,
+            66
+          ],
+          [
+            391,
+            238,
+            111,
+            32
+          ]
+        ]
+      },
+      "placement": {
+        "x": 49,
+        "y": 43,
+        "width": 102,
+        "height": 155,
+        "color": "#54816B",
+        "clip": "body"
+      },
+      "ink_pixels": 21292,
+      "method": "Discrete source-ink contours only. Measured placement and explicit branding exclusions; source pixels and continuous fabric shading are not embedded."
+    }
+  ]
+}

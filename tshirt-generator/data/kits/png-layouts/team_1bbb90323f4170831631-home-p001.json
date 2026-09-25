@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_1bbb90323f4170831631",
+  "team_name": "Trabzonspor",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Claret with three pale-blue vertical torso stripes, claret sleeves and pale-gold fine ring/cuff trim. Heather fabric supplied by original PNG, not traced from the photo. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_1bbb90323f4170831631-home-489731.jpg",
+      "page_url": "https://www.footballkitarchive.com/trabzonspor-2026-27-home-kit-489731/",
+      "sha256": "6a1d8ed597a33d13ef04222c22856ac435a5b744f0d620f1e630d6757a683d5f"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#632A3C",
+      "leftSleeve": "#632A3C",
+      "rightSleeve": "#632A3C",
+      "collar": "#C5B382",
+      "leftCuff": "#C6B88B",
+      "rightCuff": "#C6B88B"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C5B382",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.2 4.486L77 2Q100 7 123 2L128.8 4.486C131.143 30.629 68.857 30.629 71.2 4.486Z",
+          "fill": "#7E8DAB",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M73.8 3.371L77 2Q100 7 123 2L126.2 3.371C129.286 27.657 70.714 27.657 73.8 3.371Z",
+          "fill": "#60283C",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#632A3C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 62,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#94ACD0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 91,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#94ACD0",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 120,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#94ACD0",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.8C24 79.4 36 84.7 44.5 83.8Q48 83.9 49.2 75.7L52 106H5Z",
+        "fill": "#C6B88B",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.8C176 79.4 164 84.7 155.5 83.8Q152 83.9 150.8 75.7L148 106H195Z",
+        "fill": "#C6B88B",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

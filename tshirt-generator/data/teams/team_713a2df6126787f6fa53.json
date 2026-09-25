@@ -11,42 +11,74 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Celtic FC",
+      "design": "Hoops",
+      "colors": [
+        "White",
+        "Green",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Dafabet",
+      "competitions": [
+        "Scottish Premiership",
+        "Europa League"
+      ],
+      "release_date": "May 14, 2026",
+      "release_date_iso": "2026-05-14",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/celtic-fc-2026-27-home-kit-450594/",
+        "kit_id": "450594",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_b75da94f855931ef7e4d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-scotland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Celtic FC",
+      "design": "Stripes",
+      "colors": [
+        "Green",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Dafabet",
+      "competitions": [
+        "Scottish Premiership",
+        "Europa League"
+      ],
+      "release_date": "July 14, 2026",
+      "release_date_iso": "2026-07-14",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/celtic-fc-2026-27-away-kit-450593/",
+        "kit_id": "450593",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_eb54d7180252c599bab8.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-scotland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

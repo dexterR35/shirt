@@ -4,9 +4,8 @@
   "team_name": "ACSO Filiași",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2023/24",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,91 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+  "remaining": [],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "ACSO Filiași",
+            "url": "https://www.footballkitarchive.com/acso-filiasi-kits-t35112/",
+            "latest_season": "2023-24"
+          },
+          {
+            "team_name": "ACSO Filiași",
+            "url": "https://www.footballkitarchive.com/cso-filiasi-kits-t42981/",
+            "latest_season": "2023-24"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "ACSO Filiași",
+            "query": "Filiasi",
+            "outcome": "ACSO Filiaşi | CSO Filiași"
+          }
+        ]
+      },
+      "outcome": "Independent club history checked: 2023-24, 2023-24. No 2026/27 or authorized 2025/26 home reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/acso-filiasi-kits-t35112/",
+        "https://www.footballkitarchive.com/cso-filiasi-kits-t42981/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/acso-filiasi-2023-24-home-kit-304412/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2023/24. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_f5471158653e6f69e2e7-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acso-filiasi-2023-24-home-kit-304412/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/18/PnIR2vrJlTbopA5/acso-filiasi-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f5471158653e6f69e2e7-home-304412.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#184FB1",
+      "leftSleeve": "#184FB1",
+      "rightSleeve": "#184FB1",
+      "collar": "#194CA4",
+      "leftCuff": "#184FB1",
+      "rightCuff": "#184FB1"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain royal-blue Home and medium-blue Away, with matching sleeves and neckline. Distinct independently labeled archive entries; action-photo shadows not painted. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_f5471158653e6f69e2e7-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_15960ebd7c3e7173ddb3.json",
+    "source_kit_id": "304412"
+  }
 }

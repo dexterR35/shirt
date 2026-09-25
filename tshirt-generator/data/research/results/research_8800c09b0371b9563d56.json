@@ -5,8 +5,8 @@
   "country_name": "Romania",
   "variant": "away",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "The current Academica Recea and the former Comuna Recea archive identity have unresolved continuity. Do not assign the dissolved club's historical equipment to the canonical current team.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,40 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "The current Academica Recea and the former Comuna Recea archive identity have unresolved continuity. Do not assign the dissolved club's historical equipment to the canonical current team."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "Academica Recea",
+            "url": "https://www.footballkitarchive.com/comuna-recea-kits-t20405/",
+            "latest_season": "2020-21"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "Academica Recea",
+            "query": "Recea",
+            "outcome": "Comuna Recea"
+          }
+        ],
+        "identity_note": "Search supplied an older similarly named club history; current canonical identity is not established by that old record."
+      },
+      "outcome": "Candidate historical identity (not substituted) checked: 2020-21. No 2026/27 or authorized 2025/26 away reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Reviewed full available history and canonical identity.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/comuna-recea-kits-t20405/"
+      ],
+      "outcome": "The current Academica Recea and the former Comuna Recea archive identity have unresolved continuity. Do not assign the dissolved club's historical equipment to the canonical current team."
+    }
   ]
 }

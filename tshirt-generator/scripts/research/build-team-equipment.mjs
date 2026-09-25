@@ -53,7 +53,7 @@ export async function buildTeamEquipment(){
         const observed=records.get(`${team.id}:${variant}`);
         const mismatch=observed&&p&&!permittedSeason(team.id,variant,observed.kit_season,p.requested_season);
         const r=mismatch?null:observed,e=r&&(r.equipment_fields?{...r.equipment_fields,release_date_iso:releaseDateISO(r.equipment_fields.release_date)}:extras.get(r.source_kit_id));
-        return [variant,{variant,type:variant==='home'?'Home':'Away',status:r?'source_saved':'pending_research',
+        return [variant,{variant,type:r?.source_variant_label||(variant==='home'?'Home':'Away'),status:r?'source_saved':'pending_research',
           season:r?.kit_season??null,source_season_label:r?.source_season_label??null,
           season_fallback:r?fallbackFor(team.id,variant,r.kit_season):null,
           source_team_name:r?.source_team_name??null,design:r?.source_design??null,

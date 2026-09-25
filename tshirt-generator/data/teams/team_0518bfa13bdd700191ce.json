@@ -45,22 +45,43 @@
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26 (Carry-over)",
+      "season_fallback": {
+        "team_id": "team_0518bfa13bdd700191ce",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/cs-afumati-2025-26-away-kit-398902/",
+        "history_url": "https://www.footballkitarchive.com/cs-afumati-kits-t37590/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "CS Afumati",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Blue",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Nike",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Liga 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/cs-afumati-2025-26-away-kit-398902/",
+        "kit_id": "398902",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_5f2fa7fcca4e6f3db260.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-romania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

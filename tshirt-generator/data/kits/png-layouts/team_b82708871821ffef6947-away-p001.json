@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b82708871821ffef6947",
+  "team_name": "AZ Alkmaar",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-west-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Blue front with pale grey raglan sleeves and blue ring; source dark sleeve piping retained by thin edge paint. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b82708871821ffef6947-away-480427.jpg",
+      "page_url": "https://www.footballkitarchive.com/az-alkmaar-2026-27-away-kit-480427/",
+      "sha256": "651e73b6397f9797c4dcdb277b0466de80a6a177e02fa50dd72519dbe70e1c14"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#086AAD",
+      "leftSleeve": "#DEDED1",
+      "rightSleeve": "#DEDED1",
+      "collar": "#086AAD",
+      "leftCuff": "#DEDED1",
+      "rightCuff": "#DEDED1"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#086AAD",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#086AAD",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            77,
+            3
+          ],
+          [
+            73,
+            12
+          ],
+          [
+            61,
+            19
+          ],
+          [
+            52,
+            34
+          ],
+          [
+            49,
+            78
+          ],
+          [
+            0,
+            95
+          ]
+        ],
+        "fill": "#DEDED1",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            123,
+            3
+          ],
+          [
+            127,
+            12
+          ],
+          [
+            139,
+            19
+          ],
+          [
+            148,
+            34
+          ],
+          [
+            151,
+            78
+          ],
+          [
+            200,
+            95
+          ]
+        ],
+        "fill": "#DEDED1",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

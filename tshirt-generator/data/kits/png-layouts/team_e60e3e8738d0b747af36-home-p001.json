@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_e60e3e8738d0b747af36",
+  "team_name": "Timișul Șag",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White torso with two broad turquoise vertical stripes, turquoise sleeves and white ring. Shoulder manufacturer chevrons removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_e60e3e8738d0b747af36-home-435787.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-timisul-sag-2025-26-home-kit-435787/",
+      "sha256": "f01e359cc3c8933790c3cb49b3b930f31906433419c5513d36468bf9806ab584"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#31B4D2",
+      "rightSleeve": "#31B4D2",
+      "collar": "#F0F1EE",
+      "leftCuff": "#31B4D2",
+      "rightCuff": "#31B4D2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 51,
+        "y": 0,
+        "width": 30,
+        "height": 200,
+        "fill": "#34AECF",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 30,
+        "height": 200,
+        "fill": "#34AECF",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

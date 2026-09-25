@@ -4,9 +4,8 @@
   "team_name": "CS Afumați",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2025/26",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "2026/27 season listing contains Home only; no independent Away or 2026 reference found."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -81,6 +78,63 @@
         "2026/27 Home"
       ],
       "outcome": "2026/27 season listing contains Home only; no independent Away or 2026 reference found."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/cs-afumati-kits-t37590/",
+        "https://www.footballkitarchive.com/cs-afumati-kits-2026-27-t37590/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/cs-afumati-2025-26-away-kit-398902/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2025/26. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_0518bfa13bdd700191ce-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-afumati-2025-26-away-kit-398902/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/08/07/D500SPVkZ7ZEhzb/cs-afumati-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0518bfa13bdd700191ce-away-398902.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Navy"
+    ],
+    "values": {
+      "body": "#174CE6",
+      "leftSleeve": "#202448",
+      "rightSleeve": "#202448",
+      "collar": "#1C2045",
+      "leftCuff": "#202448",
+      "rightCuff": "#202448"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Electric-blue torso, navy raglan shoulder/sleeve panels and subtle interlocking diagonal sleeve lines. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_0518bfa13bdd700191ce-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5f2fa7fcca4e6f3db260.json",
+    "source_kit_id": "398902"
+  }
 }

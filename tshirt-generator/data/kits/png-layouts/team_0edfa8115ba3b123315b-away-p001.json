@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_0edfa8115ba3b123315b",
+  "team_name": "Borac Banja Luka",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "White with faint alternating pale-grey rectangular blocks over the torso, white ring/sleeves; obscured lower regions continued from the visible repeat. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_0edfa8115ba3b123315b-away-496306.jpg",
+      "page_url": "https://www.footballkitarchive.com/borac-banja-luka-2026-27-away-kit-496306/",
+      "sha256": "93223f07da396e6f96a0256521982fe07d5b7490571e9dda5c23b2fd9e87909a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 5,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 5,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 38,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 38,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 71,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 71,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 104,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 104,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 75,
+        "y": 137,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 137,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 170,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 101,
+        "y": 170,
+        "width": 26,
+        "height": 33,
+        "fill": "#ECEEEA",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White plain torso/sleeves and matching ring with fine pale shoulder seam piping. Long black undershirt and captain band excluded. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_e49f795b9915f738c250-away.png"
+  },
   "official_hex": false,
   "source_variant_label": "Away",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_e49f795b9915f738c250-away-453743.jpg",
-  "image_sha256": "1a1dcaf7cbe1cdcad99119ccbba68c018af5d9748bb52369b6c5083f2d6589a3"
+  "image_sha256": "1a1dcaf7cbe1cdcad99119ccbba68c018af5d9748bb52369b6c5083f2d6589a3",
+  "artwork_revision_path": "data/kits/team_e49f795b9915f738c250-away-r001.json"
 }

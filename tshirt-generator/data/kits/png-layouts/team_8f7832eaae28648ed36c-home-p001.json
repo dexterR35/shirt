@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_8f7832eaae28648ed36c",
+  "team_name": "Shakhtar Donetsk",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-east-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Orange with four broad charcoal vertical torso stripes, charcoal sleeves and orange ring. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_8f7832eaae28648ed36c-home-491701.jpg",
+      "page_url": "https://www.footballkitarchive.com/shakhtar-donetsk-2026-27-home-kit-491701/",
+      "sha256": "aa9d5d17600361740a7b4a41a30e9bf537446eb0d5751e6acd28ffd118c7f02a"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F88932",
+      "leftSleeve": "#2B2D30",
+      "rightSleeve": "#2B2D30",
+      "collar": "#F18D38",
+      "leftCuff": "#2B2D30",
+      "rightCuff": "#2B2D30"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F18D38",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F88932",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 55,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#272A2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#272A2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 109,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#272A2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 136,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#272A2D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

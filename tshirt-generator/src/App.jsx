@@ -22,6 +22,7 @@ import {
 import {EXPORT_SIZES, EXPORT_FORMATS, EXPORT_RATIOS, exportDimensions, renderImage, exportFilename, zipFilename, zipFiles, downloadBlob} from "./lib/export.js";
 import ConfirmDialog from "./ConfirmDialog.jsx";
 import {tier1Items, renderTier1Zip} from "./lib/tier1-export.js";
+import {tierItems} from "./lib/tier-export.js";
 
 const VIEW_KEY = "tshirt-studio:view";
 const LIGHTING_KEY = "tshirt-studio:lighting";
@@ -78,7 +79,9 @@ export default function App() {
     section = location.pathname.startsWith("/catalog") ? "catalog" : "studio";
   const request = useRef(0),
     controller = useRef(null),
-    tier1Controller = useRef(null);
+    tier1Controller = useRef(null),
+    // Tier 2 and Tier 3 downloads never run together (exporting gates both), so one ref suffices.
+    tierController = useRef(null);
   const zoom = useZoom();
   useEffect(() => {
     try { localStorage.setItem(LIGHTING_KEY, String(lighting)); } catch { /* optional */ }
@@ -109,6 +112,7 @@ export default function App() {
       alive = false;
       controller.current?.abort();
       tier1Controller.current?.abort();
+      tierController.current?.abort();
     };
   }, []);
   const filtered = useMemo(
@@ -282,13 +286,51 @@ export default function App() {
       setExporting("");
     }
   }
-  function downloadQuestion({items, asZip, tier1}) {
+  /** tierKey/tierLabel: "tier2"/"Tier 2" or "tier3"/"Tier 3". Only the ready slots download. */
+  function askTierDownload(tierKey, tierLabel) {
+    if (exporting || !catalog) return;
+    try {
+      setPendingDownload({items: tierItems(catalog.teams, tierKey), asZip: true, tierLabel});
+    } catch (error) {
+      setNotice(error.message);
+    }
+  }
+  async function downloadTier(items, tierLabel) {
+    if (exporting || tierController.current) return;
+    const abort = new AbortController();
+    tierController.current = abort;
+    const size = exportSize, ratio = exportRatio;
+    const {width, height} = exportDimensions(size, ratio);
+    try {
+      const blob = await renderTier1Zip(items, {
+        size, ratio, lighting, signal: abort.signal,
+        onProgress: (done, total, item) => setExporting(`${tierLabel}: ${done + 1} / ${total} · ${item.team_name} ${variantLabel(item.variant)}…`),
+      });
+      abort.signal.throwIfAborted();
+      downloadBlob(blob, `${tierLabel.toLowerCase().replace(" ", "-")}-${items.length}-${width}x${height}-png.zip`);
+      setNotice(`${items.length} ${tierLabel} PNGs downloaded at ${width} × ${height} px in one ZIP.`);
+    } catch (error) {
+      setNotice(abort.signal.aborted ? `${tierLabel} export cancelled. No files were downloaded.` : error.message);
+    } finally {
+      tierController.current = null;
+      setExporting("");
+    }
+  }
+  function downloadQuestion({items, asZip, tier1, tierLabel}) {
     const {width, height} = exportDimensions(exportSize, exportRatio);
     if (tier1) return {
       title: "Download all Tier 1 shirts?",
       message: `All ${items.length / 2} teams, Home and Away: ${items.length} PNG images at ${width} × ${height} px each, in one ZIP.`,
       note: `Uses saved team colors. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
     };
+    if (tierLabel) {
+      const teamCount = new Set(items.map((i) => i.team_id)).size;
+      return {
+        title: `Download ready ${tierLabel} shirts?`,
+        message: `${items.length} ready PNG image${items.length > 1 ? "s" : ""} across ${teamCount} team${teamCount > 1 ? "s" : ""} at ${width} × ${height} px each, in one ZIP.`,
+        note: `${tierLabel} research is still in progress, so slots not yet ready are skipped — this is a partial export. Filenames: team_home.png and team_away.png. Large sizes take longer; you can cancel while preparing.`,
+      };
+    }
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
     const one = n === 1 ? `${items[0].team_name} ${variantLabel(items[0].variant)}` : null;
     return {
@@ -549,11 +591,25 @@ export default function App() {
                 <Icon name="download" size={15} />
                 Download all Tier 1 · PNG ZIP
               </button>
+              <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier2", "Tier 2")}>
+                <Icon name="download" size={15} />
+                Download ready Tier 2 · PNG ZIP
+              </button>
+              <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier3", "Tier 3")}>
+                <Icon name="download" size={15} />
+                Download ready Tier 3 · PNG ZIP
+              </button>
               {exporting && <p className="queue-progress" aria-live="polite">{exporting}</p>}
               {exporting && tier1Controller.current && (
                 <button className="secondary tier1-cancel" onClick={() => {
                   tier1Controller.current?.abort();
                   setExporting("Cancelling Tier 1 export…");
+                }}>Cancel export</button>
+              )}
+              {exporting && tierController.current && (
+                <button className="secondary tier-cancel" onClick={() => {
+                  tierController.current?.abort();
+                  setExporting("Cancelling export…");
                 }}>Cancel export</button>
               )}
             </div>
@@ -565,9 +621,10 @@ export default function App() {
             confirmLabel="Yes, download"
             onCancel={() => setPendingDownload(null)}
             onConfirm={() => {
-              const {items, asZip, tier1} = pendingDownload;
+              const {items, asZip, tier1, tierLabel} = pendingDownload;
               setPendingDownload(null);
               if (tier1) void downloadTier1(items);
+              else if (tierLabel) void downloadTier(items, tierLabel);
               else void downloadKits(items, asZip);
             }}
           />

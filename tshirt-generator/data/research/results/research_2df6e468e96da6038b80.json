@@ -4,9 +4,8 @@
   "team_name": "Asteras Vlachioti",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2022-23. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2022/23",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2022-23. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -91,6 +88,63 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2022-23. No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/asteras-vlachioti-kits-t13080/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/asteras-vlachioti-2022-23-home-kit-177168/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2022/23. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_0bec2f5397a32ce8d299-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/asteras-vlachioti-2022-23-home-kit-177168/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2023/08/02/lfsShLBGtQHTABB/asteras-vlachioti-2022-23-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0bec2f5397a32ce8d299-home-177168.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2022/23"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Navy",
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#30436B",
+      "leftSleeve": "#30436B",
+      "rightSleeve": "#30436B",
+      "collar": "#D7D5CD",
+      "leftCuff": "#8A3B39",
+      "rightCuff": "#8A3B39"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy shirt with pale-grey ring and dark red sleeve ends. Source placket omitted. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_0bec2f5397a32ce8d299-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_2df6e468e96da6038b80.json",
+    "source_kit_id": "177168"
+  }
 }

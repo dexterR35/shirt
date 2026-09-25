@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ae4adfa3143dd340e2e8",
+  "team_name": "Ghiroda și Giarmata Vii",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with broad blue body stripes, central blue stripe, fine gold pinlines in yellow fields, blue cuff ends and blue/yellow ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ae4adfa3143dd340e2e8-home-418625.jpg",
+      "page_url": "https://www.footballkitarchive.com/csc-ghiroda-2025-26-home-kit-418625/",
+      "sha256": "b4ef96918b7f920b7bc96f5a144570832e9ecef4c5765a661c05698513925773"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EDD33C",
+      "leftSleeve": "#EDD33C",
+      "rightSleeve": "#EDD33C",
+      "collar": "#2454B5",
+      "leftCuff": "#2B59B6",
+      "rightCuff": "#2B59B6"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2454B5",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M73.652 3.435L77 2Q100 7 123 2L126.348 3.435C129.391 27.826 70.609 27.826 73.652 3.435Z",
+          "fill": "#EEDB48",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M74.971 2.87L77 2Q100 7 123 2L125.029 2.87C128.449 26.319 71.551 26.319 74.971 2.87Z",
+          "fill": "#2454B5",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EDD33C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 47,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#2359B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 89,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#2359B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 131,
+        "y": 0,
+        "width": 22,
+        "height": 200,
+        "fill": "#2359B8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 79,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#DFA032",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 121,
+        "y": 0,
+        "width": 0.65,
+        "height": 200,
+        "fill": "#DFA032",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#2B59B6",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#2B59B6",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

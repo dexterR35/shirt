@@ -4,9 +4,8 @@
   "team_name": "Ararat-Armenia",
   "country_name": "Armenia",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_9003829242f519665e92-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fc-ararat-armenia-2026-27-away-kit-495952/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/14/59RpRPd9jcr2aV1/fc-ararat-armenia-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9003829242f519665e92-away-495952.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gray"
+    ],
+    "values": {
+      "body": "#20262D",
+      "leftSleeve": "#20262D",
+      "rightSleeve": "#20262D",
+      "collar": "#26303F",
+      "leftCuff": "#1F293A",
+      "rightCuff": "#1F293A"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Charcoal with dark round ring and white fine striped cuff/neck trim. Fold-obscured tonal fabric retained through the original PNG rather than invented print. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-east-2026-09-25/team_9003829242f519665e92-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b522d3d955b504152686.json",
+    "source_kit_id": "495952"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-east-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/fc-ararat-armenia-kits-t637/",
+      "source_url": "https://www.footballkitarchive.com/fc-ararat-armenia-2026-27-away-kit-495952/",
+      "outcome": "Ready Away, retaining source season 26-27 (Carry-over). Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

@@ -11,42 +11,86 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_18a809295974dbb11e6e",
+        "variant": "home",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/fc-iberia-1999-kits-t8344/",
+        "source_url": "https://www.footballkitarchive.com/fc-iberia-1999-2026-home-kit-487895/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "FC Iberia 1999",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Erovnuli Liga",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-iberia-1999-2026-home-kit-487895/",
+        "kit_id": "487895",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_4de3384f5ec16936f283.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-georgia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_18a809295974dbb11e6e",
+        "variant": "away",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/fc-iberia-1999-kits-t8344/",
+        "source_url": "https://www.footballkitarchive.com/fc-iberia-1999-2026-away-kit-487896/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "FC Iberia 1999",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Erovnuli Liga",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-iberia-1999-2026-away-kit-487896/",
+        "kit_id": "487896",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_cbb111cd3c26ac4b97ae.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-georgia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

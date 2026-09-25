@@ -11,42 +11,87 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_46c74cc76d0698b3dda7",
+        "variant": "home",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/mjallby-aif-kits-t928/",
+        "source_url": "https://www.footballkitarchive.com/mjallby-aif-2026-home-kit-467153/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "Mjällby AIF",
+      "design": "Stripes",
+      "colors": [
+        "Yellow",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Macron",
+      "sponsor": "Mellby gård",
+      "competitions": [
+        "Allsvenskan",
+        "Conference League"
+      ],
+      "release_date": "March 19, 2026",
+      "release_date_iso": "2026-03-19",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mjallby-aif-2026-home-kit-467153/",
+        "kit_id": "467153",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_5ef60e727f83d6b89971.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-sweden-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_46c74cc76d0698b3dda7",
+        "variant": "away",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/mjallby-aif-kits-t928/",
+        "source_url": "https://www.footballkitarchive.com/mjallby-aif-2026-away-kit-484561/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "Mjällby AIF",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Gray",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Macron",
+      "sponsor": "Mellby gård",
+      "competitions": [
+        "Allsvenskan",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/mjallby-aif-2026-away-kit-484561/",
+        "kit_id": "484561",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_682be60ba6aaf43743ad.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-sweden-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

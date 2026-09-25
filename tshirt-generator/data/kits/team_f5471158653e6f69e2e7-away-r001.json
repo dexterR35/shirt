@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_f5471158653e6f69e2e7",
+  "team_name": "ACSO Filiași",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cso-filiasi-2023-24-away-kit-302612/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/UYDantC8oS2gAxc/cso-filiasi-2023-24-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_f5471158653e6f69e2e7-away-302612.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#2469AF",
+      "leftSleeve": "#2469AF",
+      "rightSleeve": "#2469AF",
+      "collar": "#255E97",
+      "leftCuff": "#2469AF",
+      "rightCuff": "#2469AF"
+    }
+  },
+  "observations": "Plain royal-blue Home and medium-blue Away, with matching sleeves and neckline. Distinct independently labeled archive entries; action-photo shadows not painted. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Plain royal-blue Home and medium-blue Away, with matching sleeves and neckline. Distinct independently labeled archive entries; action-photo shadows not painted. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_f5471158653e6f69e2e7-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2469AF",
+      "leftSleeve": "#2469AF",
+      "rightSleeve": "#2469AF",
+      "collar": "#255E97",
+      "leftCuff": "#2469AF",
+      "rightCuff": "#2469AF"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#255E97",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2469AF",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

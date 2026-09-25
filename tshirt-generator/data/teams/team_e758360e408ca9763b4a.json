@@ -10,43 +10,72 @@
   "kits": {
     "home": {
       "variant": "home",
-      "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "type": "Europa League Home",
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Lillestrøm SK",
+      "design": "Chest band",
+      "colors": [
+        "Yellow",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Puma",
+      "sponsor": "Romerike Sparebank",
+      "competitions": [
+        "Europa League"
+      ],
+      "release_date": "September 3, 2026",
+      "release_date_iso": "2026-09-03",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/lillestrom-sk-2026-27-europa-league-home-kit-516374/",
+        "kit_id": "516374",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_3127c82ff2b031844deb.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-norway-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
-      "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "type": "Europa League Away",
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Lillestrøm SK",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Puma",
+      "sponsor": "Romerike Sparebank",
+      "competitions": [
+        "Europa League"
+      ],
+      "release_date": "September 3, 2026",
+      "release_date_iso": "2026-09-03",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/lillestrom-sk-2026-27-europa-league-away-kit-515931/",
+        "kit_id": "515931",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_fc88999495a7f59282e2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-norway-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

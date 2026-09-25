@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_d0ed56902da1c892d754",
+  "team_name": "Brann",
+  "country_name": "Norway",
+  "variant": "home",
+  "kit_season": "2026",
+  "revision": "r001",
+  "research_batch": "rest-north-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sk-brann-2026-home-kit-465593/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/03/13/E7cArAOi2ehLHz9/sk-brann-2026-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d0ed56902da1c892d754-home-465593.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#E82E2D",
+      "leftSleeve": "#E82E2D",
+      "rightSleeve": "#E82E2D",
+      "collar": "#E82E2D",
+      "leftCuff": "#E82E2D",
+      "rightCuff": "#E82E2D"
+    }
+  },
+  "observations": "Red body, sleeves and round ring. The all-over word/name typography is omitted as lettering; no replacement pattern invented. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Red body, sleeves and round ring. The all-over word/name typography is omitted as lettering; no replacement pattern invented. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-north-2026-09-25/team_d0ed56902da1c892d754-home.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E82E2D",
+      "leftSleeve": "#E82E2D",
+      "rightSleeve": "#E82E2D",
+      "collar": "#E82E2D",
+      "leftCuff": "#E82E2D",
+      "rightCuff": "#E82E2D"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E82E2D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E82E2D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2018/19",
+      "source_season_label": "18-19",
+      "season_fallback": {
+        "team_id": "team_caab8184c026f92a1d5e",
+        "variant": "home",
+        "season": "2018/19",
+        "source_url": "https://www.footballkitarchive.com/ao-platanias-2018-19-home-kit-61210/",
+        "history_url": "https://www.footballkitarchive.com/ao-platanias-kits-t3876/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "AO Platanias",
+      "design": "Stripes",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Luanvi",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-platanias-2018-19-home-kit-61210/",
+        "kit_id": "61210",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_cea04a1f5b2630c19795.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2019/20",
+      "source_season_label": "19-20",
+      "season_fallback": {
+        "team_id": "team_caab8184c026f92a1d5e",
+        "variant": "away",
+        "season": "2019/20",
+        "source_url": "https://www.footballkitarchive.com/ao-platanias-2019-20-away-kit-61211/",
+        "history_url": "https://www.footballkitarchive.com/ao-platanias-kits-t3876/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "AO Platanias",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Acerbis",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/ao-platanias-2019-20-away-kit-61211/",
+        "kit_id": "61211",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_25d36b35b126a32a503a.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-greece-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

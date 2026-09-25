@@ -11,42 +11,86 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026 (Carry-over)",
+      "season_fallback": {
+        "team_id": "team_2dba28145fda26a6bf41",
+        "variant": "home",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/kauno-zalgiris-kits-t8761/",
+        "source_url": "https://www.footballkitarchive.com/kauno-zalgiris-2026-home-kit-456995/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "Kauno Žalgiris",
+      "design": "Graphic",
+      "colors": [
+        "Green",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Puma",
+      "sponsor": "TOPsport",
+      "competitions": [
+        "TopLyga",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/kauno-zalgiris-2026-home-kit-456995/",
+        "kit_id": "456995",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_179ad5eb49c6300b8579.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-lithuania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026 (Carry-over)",
+      "season_fallback": {
+        "team_id": "team_2dba28145fda26a6bf41",
+        "variant": "away",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/kauno-zalgiris-kits-t8761/",
+        "source_url": "https://www.footballkitarchive.com/kauno-zalgiris-2026-away-kit-456993/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "Kauno Žalgiris",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Gray"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Puma",
+      "sponsor": "TOPsport",
+      "competitions": [
+        "TopLyga",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/kauno-zalgiris-2026-away-kit-456993/",
+        "kit_id": "456993",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_54f2ba5fa9c5a1c62ed7.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-lithuania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6d417877073be90a8148",
+  "team_name": "Minaur Baia Mare",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain yellow body/sleeves with navy ring. Shoulder chevrons are repeated manufacturer marks and omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_6d417877073be90a8148-home-408921.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-minaur-baia-mare-2025-26-home-kit-408921/",
+      "sha256": "afd56f8f8a4139d7b841b4751be37b0aa440e804d174a7366b97c7612544243b"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#E4D536",
+      "leftSleeve": "#E4D536",
+      "rightSleeve": "#E4D536",
+      "collar": "#264488",
+      "leftCuff": "#E4D536",
+      "rightCuff": "#E4D536"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#264488",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#E4D536",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

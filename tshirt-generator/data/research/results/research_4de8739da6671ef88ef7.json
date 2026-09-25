@@ -4,9 +4,8 @@
   "team_name": "FCSB II",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2022/23",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,86 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+  "remaining": [],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "FCSB II",
+            "url": "https://www.footballkitarchive.com/fcsb-ii-kits-t10811/",
+            "latest_season": "2022-23"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "FCSB II",
+            "query": "FCSB",
+            "outcome": "FCSB | FCSB Feminine | FCSB II"
+          }
+        ]
+      },
+      "outcome": "Independent club history checked: 2022-23. No 2026/27 or authorized 2025/26 away reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/fcsb-ii-kits-t10811/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/fcsb-ii-2022-23-away-kit-141511/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2022/23. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_9d71ba5953cd1199ce01-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fcsb-ii-2022-23-away-kit-141511/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2023/04/04/sVieBl8Z1pSDNCl/fcsb-ii-2022-23-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9d71ba5953cd1199ce01-away-141511.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2022/23"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#191A1C",
+      "leftSleeve": "#1D1E20",
+      "rightSleeve": "#1D1E20",
+      "collar": "#191A1C",
+      "leftCuff": "#1D1E20",
+      "rightCuff": "#1D1E20"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Independent reserve black shirt with fine angular concentric/chevron tonal line groups across upper body/sleeves. Fine maze print reduced to editable line groups; no branding. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_9d71ba5953cd1199ce01-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4de8739da6671ef88ef7.json",
+    "source_kit_id": "141511"
+  }
 }

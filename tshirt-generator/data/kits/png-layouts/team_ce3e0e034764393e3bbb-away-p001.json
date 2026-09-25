@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ce3e0e034764393e3bbb",
+  "team_name": "Progresul Pecica",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow body/sleeves with blue curved shoulder-to-underarm bands and yellow ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ce3e0e034764393e3bbb-away-302594.jpg",
+      "page_url": "https://www.footballkitarchive.com/acs-progresul-pecica-2023-24-away-kit-302594/",
+      "sha256": "fb94f87896eb1bd78e573df2dec97e4c478fabecd038236576a79bc57fd18ad5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DCCA24",
+      "leftSleeve": "#DCCA24",
+      "rightSleeve": "#DCCA24",
+      "collar": "#DCCA24",
+      "leftCuff": "#DCCA24",
+      "rightCuff": "#DCCA24"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#DCCA24",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DCCA24",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            76,
+            3
+          ],
+          [
+            51,
+            10
+          ],
+          [
+            48,
+            28
+          ],
+          [
+            50,
+            69
+          ],
+          [
+            55,
+            68
+          ],
+          [
+            58,
+            18
+          ],
+          [
+            78,
+            10
+          ]
+        ],
+        "fill": "#286CB0",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            124,
+            3
+          ],
+          [
+            149,
+            10
+          ],
+          [
+            152,
+            28
+          ],
+          [
+            150,
+            69
+          ],
+          [
+            145,
+            68
+          ],
+          [
+            142,
+            18
+          ],
+          [
+            122,
+            10
+          ]
+        ],
+        "fill": "#286CB0",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

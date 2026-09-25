@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_219c8ed2c5f08acb0651",
+  "team_name": "Muscelul ARO Câmpulung",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/acs-aro-muscelul-campulung-2023-24-away-kit-302300/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/eJNOoYSaHOeHHhn/acs-aro-muscelul-campulung-2023-24-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_219c8ed2c5f08acb0651-away-302300.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Green"
+    ],
+    "values": {
+      "body": "#DDC826",
+      "leftSleeve": "#DDC826",
+      "rightSleeve": "#DDC826",
+      "collar": "#166344",
+      "leftCuff": "#DDC826",
+      "rightCuff": "#DDC826"
+    }
+  },
+  "observations": "Yellow with dark-green shoulder yoke, ring and side panels. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with dark-green shoulder yoke, ring and side panels. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_219c8ed2c5f08acb0651-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DDC826",
+      "leftSleeve": "#DDC826",
+      "rightSleeve": "#DDC826",
+      "collar": "#166344",
+      "leftCuff": "#DDC826",
+      "rightCuff": "#DDC826"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#166344",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DDC826",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            76,
+            3
+          ],
+          [
+            77,
+            10
+          ],
+          [
+            61,
+            21
+          ],
+          [
+            45,
+            17
+          ],
+          [
+            0,
+            29
+          ]
+        ],
+        "fill": "#1B6A46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            124,
+            3
+          ],
+          [
+            123,
+            10
+          ],
+          [
+            139,
+            21
+          ],
+          [
+            155,
+            17
+          ],
+          [
+            200,
+            29
+          ]
+        ],
+        "fill": "#1B6A46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            77
+          ],
+          [
+            57,
+            114
+          ],
+          [
+            54,
+            197
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#1B6A46",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            77
+          ],
+          [
+            143,
+            114
+          ],
+          [
+            146,
+            197
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#1B6A46",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

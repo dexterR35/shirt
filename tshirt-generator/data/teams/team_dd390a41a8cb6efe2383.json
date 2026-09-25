@@ -11,42 +11,74 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Red Bull Salzburg",
+      "design": "Graphic",
+      "colors": [
+        "White",
+        "Gray",
+        "Red"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
+      "brand": "Puma",
+      "sponsor": "Red Bull",
+      "competitions": [
+        "Austrian Bundesliga",
+        "Europa League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/red-bull-salzburg-2026-27-home-kit-448553/",
+        "kit_id": "448553",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_67b072b26bc03464f2b2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-austria-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Red Bull Salzburg",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "Silver",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Puma",
+      "sponsor": "Red Bull",
+      "competitions": [
+        "Austrian Bundesliga",
+        "Europa League"
+      ],
+      "release_date": "June 25, 2026",
+      "release_date_iso": "2026-06-25",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/red-bull-salzburg-2026-27-away-kit-490389/",
+        "kit_id": "490389",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_7bc224e1c0dda7ffbc3b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-austria-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

@@ -4,9 +4,8 @@
   "team_name": "AO Levante",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2015-16 (home). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2015/16",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,9 +39,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2015-16 (home). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -65,6 +62,62 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2015-16 (home). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/ao-levante-kits-t9859/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/ao-levante-2015-16-away-kit-128267/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2015/16. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_b6f460a595086af061f4-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-levante-2015-16-away-kit-128267/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2023/03/15/cSgS4pYjb5QGncw/ao-levante-2015-16-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_b6f460a595086af061f4-away-128267.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2015/16"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Navy"
+    ],
+    "values": {
+      "body": "#B8A633",
+      "leftSleeve": "#B8A633",
+      "rightSleeve": "#B8A633",
+      "collar": "#29354B",
+      "leftCuff": "#B8A633",
+      "rightCuff": "#B8A633"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Mustard yellow with navy vertical torso stripes and navy shoulder/sleeve-top panels; navy ring. Polo construction not added. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_b6f460a595086af061f4-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_350370c6542baebea0da.json",
+    "source_kit_id": "128267"
+  }
 }

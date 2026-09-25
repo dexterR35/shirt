@@ -4,9 +4,8 @@
   "team_name": "CSM Pașcani",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2021/22",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,11 +39,84 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+  "remaining": [],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "CSM Pașcani",
+            "url": "https://www.footballkitarchive.com/pascani-kits-t26839/",
+            "latest_season": "2021-22"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "CSM Pașcani",
+            "query": "Pascani",
+            "outcome": "Pascani"
+          }
+        ]
+      },
+      "outcome": "Independent club history checked: 2021-22. No 2026/27 or authorized 2025/26 away reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/pascani-kits-t26839/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/pascani-2021-22-away-kit-242991/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2021/22. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_9c36ffed8d5d8406b845-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pascani-2021-22-away-kit-242991/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/04/02/rYmzFlPomXkEsdH/pascani-2021-22-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_9c36ffed8d5d8406b845-away-242991.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2021/22"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue"
+    ],
+    "values": {
+      "body": "#2256B7",
+      "leftSleeve": "#275DBF",
+      "rightSleeve": "#275DBF",
+      "collar": "#2056B6",
+      "leftCuff": "#275DBF",
+      "rightCuff": "#275DBF"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue torso with darker angular blue bands on raglan sleeves and blue ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_9c36ffed8d5d8406b845-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_139e01d4b54fc38e1fdc.json",
+    "source_kit_id": "242991"
+  }
 }

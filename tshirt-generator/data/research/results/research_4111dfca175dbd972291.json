@@ -4,8 +4,8 @@
   "team_name": "ACS USV Iași",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_3ded427093e4f9a93cd7-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/usv-iasi-2025-26-away-kit-435074/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/b4wEnX8MJuCagEz/usv-iasi-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_3ded427093e4f9a93cd7-away-435074.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Pink",
+      "Black"
+    ],
+    "values": {
+      "body": "#C32D84",
+      "leftSleeve": "#C32D84",
+      "rightSleeve": "#C32D84",
+      "collar": "#28313B",
+      "leftCuff": "#293248",
+      "rightCuff": "#293248"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Magenta with broad navy angular sweeping bands across upper and lower front, navy cuff ends and ring. Sponsor-free angular continuation behind occluded chest. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_3ded427093e4f9a93cd7-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_4111dfca175dbd972291.json",
+    "source_kit_id": "435074"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-c-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

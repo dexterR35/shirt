@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-c.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with subtle red curved grid, red cuff ends and narrow red sides, pale lower-front equestrian illustration. This Away illustration is independently traced from its own source; lettering above/below crop excluded, fine print reduced. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_1e0f2fd65e6cb58b7fec-away.png"
+  },
   "official_hex": false,
   "source_variant_label": "Away",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_1e0f2fd65e6cb58b7fec-away-435079.jpg",
-  "image_sha256": "351aa1a11ff34924bff6c9ae9896fe691f878b2dbce9188748e8feec1f5eb628"
+  "image_sha256": "351aa1a11ff34924bff6c9ae9896fe691f878b2dbce9188748e8feec1f5eb628",
+  "artwork_revision_path": "data/kits/team_1e0f2fd65e6cb58b7fec-away-r001.json"
 }

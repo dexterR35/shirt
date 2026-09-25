@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_066a2aab5c01d5a5e78c",
+        "variant": "home",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-2023-24-home-kit-302623/",
+        "history_url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-kits-t43020/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "ACS Recolta Gheorghe Doja",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Liga 3 Romania"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-2023-24-home-kit-302623/",
+        "kit_id": "302623",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_45c0d9c67a6e78eaf2f4.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-romania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2023/24",
+      "source_season_label": "23-24",
+      "season_fallback": {
+        "team_id": "team_066a2aab5c01d5a5e78c",
+        "variant": "away",
+        "season": "2023/24",
+        "source_url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-2023-24-away-kit-302622/",
+        "history_url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-kits-t43020/",
+        "reason": "Latest independently labeled away source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "ACS Recolta Gheorghe Doja",
+      "design": "Pinstripes",
+      "colors": [
+        "Yellow",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Liga 3 Romania"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/acs-recolta-gheorghe-doja-2023-24-away-kit-302622/",
+        "kit_id": "302622",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_c3c17a60dede641737c0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-romania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

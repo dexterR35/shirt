@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4959328facf4df044570",
+  "team_name": "Thyella Katsikas",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Blue with central red stripe between pale-blue bands fading into blue toward mid/lower body; blue ring/sleeves. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4959328facf4df044570-away-222766.jpg",
+      "page_url": "https://www.footballkitarchive.com/thyella-katsikas-2023-24-away-kit-222766/",
+      "sha256": "3ef95737f297c85bf88a50093c37dc626abe21e98a781a72fc14344963349f1e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#365D96",
+      "leftSleeve": "#365D96",
+      "rightSleeve": "#365D96",
+      "collar": "#2A4D7B",
+      "leftCuff": "#365D96",
+      "rightCuff": "#365D96"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2A4D7B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#365D96",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 87,
+        "y": 0,
+        "width": 26,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#DCE4E6"
+            },
+            {
+              "offset": 0.4,
+              "color": "#5C7B9F"
+            },
+            {
+              "offset": 0.7,
+              "color": "#365D96"
+            },
+            {
+              "offset": 1,
+              "color": "#365D96"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 96,
+        "y": 0,
+        "width": 8,
+        "height": 200,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#C83C47"
+            },
+            {
+              "offset": 0.43,
+              "color": "#6C4C68"
+            },
+            {
+              "offset": 0.7,
+              "color": "#365D96"
+            },
+            {
+              "offset": 1,
+              "color": "#365D96"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

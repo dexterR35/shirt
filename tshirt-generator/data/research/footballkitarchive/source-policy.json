@@ -17,5 +17,11 @@
     "requested_at": "2026-09-24",
     "scope_path": "data/research/tier2-worklist.json",
     "instruction": "Continue the same independent Home/Away research and artwork workflow for the 150 preserved Domestic tier-2 teams. Prefer verified 2026/27, using independently evidenced 2026 when unconfirmed. Preserve literal labels and record any fallback per slot; no automatic older-season substitution. A saved source or draft is not a ready kit."
+  },
+  "latest_available_equipment": {
+    "requested_at": "2026-09-25",
+    "scope_path": "data/research/latest-available-worklist.json",
+    "season_policy_path": "data/research/season-policy.json",
+    "instruction": "When no independently evidenced 2025, 2026 or 2027 shirt is available, use the latest older equipment for that canonical Home/Away slot. Preserve its actual season and independent identity. This supersedes earlier age restrictions; Third/GK, first-team-for-reserve and namesake substitutions remain excluded."
   }
 }

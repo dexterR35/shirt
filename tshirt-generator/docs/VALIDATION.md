@@ -1,4 +1,16 @@
-# Validation - 24 September 2026
+# Validation — 25 September 2026
+
+Remaining-equipment completion: **1,337 ready**, **0 drafts/researching**, **133 documented source gaps**. `npm run build` passes (234 modules); `npm run data:verify` preserves all 735 teams, 779 memberships, 27 competitions, 39 associations, 16 tabs and 1,470 slots. **83/83 Node tests pass** (179.6 seconds), including all saved artwork, original PNG alpha/bytes, 1,218 prior configuration hashes, newest independently observed references, per-slot fallbacks, event/version labels and extended equipment facts for all 123 additions.
+
+The new **Chromium browser test passes** (8.2 seconds total): Bodø/Glimt Home/Away, Lillestrøm Away, Levski Sofia Away V2, Torreense Away and Kauno Žalgiris Home load from local data with exact season/type labels. Six distinct transparent **168 × 168 PNGs** export with verified dimensions/alpha and no external display requests. All 123 final source/render comparisons and the resulting Studio screenshot were visually inspected. `git diff --check` passes. See [the full report](REST_EQUIPMENT_2026-09-25.md) and [unit test log](../artifacts/footballkitarchive/rest-2026-09-25/unit-tests.log).
+
+The following checkpoints are historical.
+
+Latest-equipment continuation (25 September 2026): **1,214 ready shirts**, Tier 2 **300/300** and Tier 3 **633/766**. Production build and canonical data audit pass. **81/81 unit tests pass** (166.0 seconds), including all saved geometry/alpha, source hashes, exact review digests, newest observed independent variants, the 1983/84 century case and remaining identity gaps. **4/4 Chromium browser tests pass** (16.4 seconds), including historical dates, transparent 168 × 168 downloads and unavailable TPV Away. All **1,087 prior locked configuration entries** match the before-work baseline; the original PNG remains byte-identical. All 131 new comparisons and the historical Studio screenshot were visually inspected. `git diff --check` passes. See [the latest report](LATEST_AVAILABLE_EQUIPMENT_2026-09-25.md).
+
+The following checkpoints are historical.
+
+Current Tier 3 checkpoint (25 September 2026): production build and canonical data audit pass with 1,083 ready shirts. Full unit suite: 79/79 pass. Tier 3 Chromium browser suite: 3/3 pass, including literal Greek/Romanian mixed seasons, Finnish calendar 2025, independent variants, transparent 168 × 168 exports and unavailable-source behavior. See [the current report](TIER3_SOURCE_PASS_2026-09-25.md). Older results below are historical checkpoints.
 
 ## Latest: Tier 3 England first batch
 

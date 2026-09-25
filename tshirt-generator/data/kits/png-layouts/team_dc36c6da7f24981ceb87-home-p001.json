@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dc36c6da7f24981ceb87",
+  "team_name": "Axiopolis Cernavodă",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow body/sleeves, blue shoulder bars and tapered side inserts with thin diagonal blue piping. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_dc36c6da7f24981ceb87-home-302619.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-axiopolis-cernavoda-2023-24-home-kit-302619/",
+      "sha256": "5774618467bbe68bdff72dae50725b119765f123c629128ecd60ad86cf37e62c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#DCCA23",
+      "leftSleeve": "#DCCA23",
+      "rightSleeve": "#DCCA23",
+      "collar": "#CBBB23",
+      "leftCuff": "#DCCA23",
+      "rightCuff": "#DCCA23"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#CBBB23",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#DCCA23",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            4
+          ],
+          [
+            45,
+            16
+          ],
+          [
+            25,
+            30
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            49,
+            23
+          ],
+          [
+            77,
+            9
+          ]
+        ],
+        "fill": "#2773B7",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            4
+          ],
+          [
+            155,
+            16
+          ],
+          [
+            175,
+            30
+          ],
+          [
+            169,
+            35
+          ],
+          [
+            151,
+            23
+          ],
+          [
+            123,
+            9
+          ]
+        ],
+        "fill": "#2773B7",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            77
+          ],
+          [
+            60,
+            99
+          ],
+          [
+            58,
+            112
+          ],
+          [
+            49,
+            94
+          ]
+        ],
+        "fill": "#2675B8",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            77
+          ],
+          [
+            140,
+            99
+          ],
+          [
+            142,
+            112
+          ],
+          [
+            151,
+            94
+          ]
+        ],
+        "fill": "#2675B8",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            67,
+            12
+          ],
+          [
+            68,
+            12
+          ],
+          [
+            52,
+            96
+          ],
+          [
+            51,
+            94
+          ]
+        ],
+        "fill": "#297BBB",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            133,
+            12
+          ],
+          [
+            132,
+            12
+          ],
+          [
+            148,
+            96
+          ],
+          [
+            149,
+            94
+          ]
+        ],
+        "fill": "#297BBB",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

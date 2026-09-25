@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_7ba4f1d3db75c6a24b0c",
+  "team_name": "Club Brugge",
+  "country_name": "Belgium",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-west-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/club-brugge-2026-27-away-kit-498482/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/24/JAQnaRAQHtIIvNE/club-brugge-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_7ba4f1d3db75c6a24b0c-away-498482.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Off-white",
+      "Navy"
+    ],
+    "values": {
+      "body": "#EEE9DC",
+      "leftSleeve": "#EEE9DC",
+      "rightSleeve": "#EEE9DC",
+      "collar": "#182236",
+      "leftCuff": "#182037",
+      "rightCuff": "#182037"
+    }
+  },
+  "observations": "Warm ivory with navy ring, cuffs and narrow pointed shoulder inserts; no polo placket drawn. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with navy ring, cuffs and narrow pointed shoulder inserts; no polo placket drawn. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-west-2026-09-25/team_7ba4f1d3db75c6a24b0c-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EEE9DC",
+      "leftSleeve": "#EEE9DC",
+      "rightSleeve": "#EEE9DC",
+      "collar": "#182236",
+      "leftCuff": "#182037",
+      "rightCuff": "#182037"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#182236",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EEE9DC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            74,
+            5
+          ],
+          [
+            47,
+            15
+          ],
+          [
+            39,
+            26
+          ],
+          [
+            44,
+            26
+          ],
+          [
+            54,
+            17
+          ],
+          [
+            76,
+            9
+          ]
+        ],
+        "fill": "#19233A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            126,
+            5
+          ],
+          [
+            153,
+            15
+          ],
+          [
+            161,
+            26
+          ],
+          [
+            156,
+            26
+          ],
+          [
+            146,
+            17
+          ],
+          [
+            124,
+            9
+          ]
+        ],
+        "fill": "#19233A",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 72.6C24 77.2 36 82.5 44.5 81.6Q48 81.7 49.2 73.5L52 106H5Z",
+        "fill": "#182037",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 72.6C176 77.2 164 82.5 155.5 81.6Q152 81.7 150.8 73.5L148 106H195Z",
+        "fill": "#182037",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

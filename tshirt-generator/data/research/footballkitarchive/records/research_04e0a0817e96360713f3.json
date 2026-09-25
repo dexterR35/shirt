@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Sky-blue with white branching marble fissures, matching plain sleeves and two-tone ring. Independent unbranded crop from this variant traced as flat ink; cropped repeat continued through sponsor-covered front. Pattern phase is adapted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_3430bfadf30c6a49f568-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_3430bfadf30c6a49f568-home-435073.jpg",
-  "image_sha256": "0aca6ee8c803df49a7d0cb11382c34150d85ed0b0e3264cc97186e727e59a979"
+  "image_sha256": "0aca6ee8c803df49a7d0cb11382c34150d85ed0b0e3264cc97186e727e59a979",
+  "artwork_revision_path": "data/kits/team_3430bfadf30c6a49f568-home-r001.json"
 }

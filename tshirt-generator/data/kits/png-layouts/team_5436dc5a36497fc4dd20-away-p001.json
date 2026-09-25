@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_5436dc5a36497fc4dd20",
+  "team_name": "Panagriniakos",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Navy plain shirt from action photo; sponsor graphics and colored captain armband omitted. Polo opening adapted to navy ring. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_5436dc5a36497fc4dd20-away-508335.jpg",
+      "page_url": "https://www.footballkitarchive.com/panagriniakos-fc-2022-23-away-kit-508335/",
+      "sha256": "95287f4bfd9dcb68cfd369eff92bd851c35476b73f950a4d2cac9c2e1ac8a6f8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#17283A",
+      "leftSleeve": "#17283A",
+      "rightSleeve": "#17283A",
+      "collar": "#142536",
+      "leftCuff": "#17283A",
+      "rightCuff": "#17283A"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#142536",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#17283A",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

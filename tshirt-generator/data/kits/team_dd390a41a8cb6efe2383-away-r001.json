@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dd390a41a8cb6efe2383",
+  "team_name": "Red Bull Salzburg",
+  "country_name": "Austria",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-central-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/red-bull-salzburg-2026-27-away-kit-490389/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/06/25/4GqdwpXQhOPEvZu/red-bull-salzburg-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dd390a41a8cb6efe2383-away-490389.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "Silver",
+      "White"
+    ],
+    "values": {
+      "body": "#851E35",
+      "leftSleeve": "#851E35",
+      "rightSleeve": "#851E35",
+      "collar": "#F1F2EE",
+      "leftCuff": "#851E35",
+      "rightCuff": "#851E35"
+    }
+  },
+  "observations": "Burgundy with white/burgundy striped ring adapted from the source collar, plain burgundy sleeves. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Burgundy with white/burgundy striped ring adapted from the source collar, plain burgundy sleeves. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-central-2026-09-25/team_dd390a41a8cb6efe2383-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#851E35",
+      "leftSleeve": "#851E35",
+      "rightSleeve": "#851E35",
+      "collar": "#F1F2EE",
+      "leftCuff": "#851E35",
+      "rightCuff": "#851E35"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.2 4.486L77 2Q100 7 123 2L128.8 4.486C131.143 30.629 68.857 30.629 71.2 4.486Z",
+          "fill": "#771D31",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-2",
+          "type": "path",
+          "d": "M72.6 3.886L77 2Q100 7 123 2L127.4 3.886C130.143 29.029 69.857 29.029 72.6 3.886Z",
+          "fill": "#F1F2EE",
+          "clip": "all"
+        },
+        {
+          "id": "base-collar-color-3",
+          "type": "path",
+          "d": "M73.9 3.329L77 2Q100 7 123 2L126.1 3.329C129.214 27.543 70.786 27.543 73.9 3.329Z",
+          "fill": "#771D31",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#851E35",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

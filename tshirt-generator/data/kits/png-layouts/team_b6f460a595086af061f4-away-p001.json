@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_b6f460a595086af061f4",
+  "team_name": "AO Levante",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Mustard yellow with navy vertical torso stripes and navy shoulder/sleeve-top panels; navy ring. Polo construction not added. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_b6f460a595086af061f4-away-128267.jpg",
+      "page_url": "https://www.footballkitarchive.com/ao-levante-2015-16-away-kit-128267/",
+      "sha256": "3d7c45e934b8cca48b63e7ca6132c33abc63d89b45b58b093f5f0ca83ea0e280"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#B8A633",
+      "leftSleeve": "#B8A633",
+      "rightSleeve": "#B8A633",
+      "collar": "#29354B",
+      "leftCuff": "#B8A633",
+      "rightCuff": "#B8A633"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#29354B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#B8A633",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 52,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 77,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 102,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 127,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            47,
+            13
+          ],
+          [
+            35,
+            29
+          ],
+          [
+            22,
+            77
+          ],
+          [
+            31,
+            81
+          ],
+          [
+            45,
+            35
+          ],
+          [
+            53,
+            21
+          ],
+          [
+            76,
+            11
+          ]
+        ],
+        "fill": "#29364F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            153,
+            13
+          ],
+          [
+            165,
+            29
+          ],
+          [
+            178,
+            77
+          ],
+          [
+            169,
+            81
+          ],
+          [
+            155,
+            35
+          ],
+          [
+            147,
+            21
+          ],
+          [
+            124,
+            11
+          ]
+        ],
+        "fill": "#29364F",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M49 77Q53 133 49 197H51Q55 133 51 77Z",
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M151 77Q147 133 151 197H149Q145 133 149 77Z",
+        "fill": "#29364F",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with broad blue body stripes, central blue stripe, fine gold pinlines in yellow fields, blue cuff ends and blue/yellow ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_ae4adfa3143dd340e2e8-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_ae4adfa3143dd340e2e8-home-418625.jpg",
-  "image_sha256": "b4ef96918b7f920b7bc96f5a144570832e9ecef4c5765a661c05698513925773"
+  "image_sha256": "b4ef96918b7f920b7bc96f5a144570832e9ecef4c5765a661c05698513925773",
+  "artwork_revision_path": "data/kits/team_ae4adfa3143dd340e2e8-home-r001.json"
 }

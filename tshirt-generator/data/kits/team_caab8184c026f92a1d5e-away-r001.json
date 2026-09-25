@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_caab8184c026f92a1d5e",
+  "team_name": "Platanias",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2019/20",
+  "revision": "r001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-platanias-2019-20-away-kit-61211/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2022/04/07/1d2tSVmydy2xXzq/ao-platanias-2019-20-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_caab8184c026f92a1d5e-away-61211.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2019/20"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White"
+    ],
+    "values": {
+      "body": "#A02743",
+      "leftSleeve": "#A02743",
+      "rightSleeve": "#A02743",
+      "collar": "#C1DFF1",
+      "leftCuff": "#C4E0EA",
+      "rightCuff": "#C4E0EA"
+    }
+  },
+  "observations": "Claret body/sleeves with pale-blue ring/cuff ends. Physical placket omitted. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret body/sleeves with pale-blue ring/cuff ends. Physical placket omitted. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_caab8184c026f92a1d5e-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#A02743",
+      "leftSleeve": "#A02743",
+      "rightSleeve": "#A02743",
+      "collar": "#C1DFF1",
+      "leftCuff": "#C4E0EA",
+      "rightCuff": "#C4E0EA"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C1DFF1",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#A02743",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 69.6C24 74.2 36 79.5 44.5 78.6Q48 78.7 49.2 70.5L52 106H5Z",
+        "fill": "#C4E0EA",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 69.6C176 74.2 164 79.5 155.5 78.6Q152 78.7 150.8 70.5L148 106H195Z",
+        "fill": "#C4E0EA",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

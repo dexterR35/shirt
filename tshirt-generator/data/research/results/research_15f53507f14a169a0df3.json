@@ -4,8 +4,8 @@
   "team_name": "CSM Săcele",
   "country_name": "Romania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_fad1830bf4606e8029bc-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-sacele-2025-26-away-kit-418614/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/6bx4lPzrkzqtkIw/csm-sacele-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fad1830bf4606e8029bc-away-418614.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#C62A37",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with grey upper-side wedges and paired narrow red curved flank stripes tapering down torso; red round ring. Far-side panel mirrored from visible construction. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_fad1830bf4606e8029bc-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_15f53507f14a169a0df3.json",
+    "source_kit_id": "418614"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

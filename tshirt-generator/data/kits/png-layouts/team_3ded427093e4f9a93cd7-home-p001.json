@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_3ded427093e4f9a93cd7",
+  "team_name": "ACS USV Iași",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Green with asymmetric white upper-right panel/right sleeve, dark-green lower diagonal and lime side polygons, green cuff trim and dark-green ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_3ded427093e4f9a93cd7-home-435075.jpg",
+      "page_url": "https://www.footballkitarchive.com/usv-iasi-2025-26-home-kit-435075/",
+      "sha256": "e9eb159de4c948303b97b57423d8f840d543ef5ee6907f7863f7bed0e2ba57d8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#258046",
+      "leftSleeve": "#258046",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#173C2F",
+      "leftCuff": "#1B5A35",
+      "rightCuff": "#1B5A35"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#173C2F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#258046",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            69,
+            0
+          ],
+          [
+            200,
+            0
+          ],
+          [
+            200,
+            58
+          ],
+          [
+            141,
+            80
+          ],
+          [
+            67,
+            25
+          ]
+        ],
+        "fill": "#F0F1EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            80
+          ],
+          [
+            88,
+            117
+          ],
+          [
+            145,
+            171
+          ],
+          [
+            152,
+            200
+          ],
+          [
+            111,
+            197
+          ],
+          [
+            49,
+            127
+          ]
+        ],
+        "fill": "#17482C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            92
+          ],
+          [
+            126,
+            125
+          ],
+          [
+            151,
+            146
+          ]
+        ],
+        "fill": "#71A343",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            50,
+            156
+          ],
+          [
+            97,
+            196
+          ],
+          [
+            59,
+            200
+          ],
+          [
+            49,
+            184
+          ]
+        ],
+        "fill": "#77A64D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 73.6C24 78.2 36 83.5 44.5 82.6Q48 82.7 49.2 74.5L52 106H5Z",
+        "fill": "#1B5A35",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 73.6C176 78.2 164 83.5 155.5 82.6Q152 82.7 150.8 74.5L148 106H195Z",
+        "fill": "#1B5A35",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

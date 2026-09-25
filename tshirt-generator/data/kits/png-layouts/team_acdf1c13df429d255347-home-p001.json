@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_acdf1c13df429d255347",
+  "team_name": "KSE Târgu Secuiesc",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Bright blue with dark navy shoulder/upper-chest yoke, blue sleeves and ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_acdf1c13df429d255347-home-434721.jpg",
+      "page_url": "https://www.footballkitarchive.com/kse-targu-secuiesc-2025-26-home-kit-434721/",
+      "sha256": "516f486035732aa03163cf2ae210ad972c42bf27072d71831acb6ecc0c11a841"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#177FC0",
+      "leftSleeve": "#177FC0",
+      "rightSleeve": "#177FC0",
+      "collar": "#1779B8",
+      "leftCuff": "#177FC0",
+      "rightCuff": "#177FC0"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1779B8",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#177FC0",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 23,
+        "fill": "#24394D",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

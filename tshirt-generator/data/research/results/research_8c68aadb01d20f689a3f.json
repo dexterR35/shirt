@@ -4,8 +4,8 @@
   "team_name": "CSM Râmnicu Sărat",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_6ae2f40f44eec6f65d1e-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-ramnicu-sarat-2025-26-home-kit-434692/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/GXWUPkChNiOfJnR/csm-ramnicu-sarat-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6ae2f40f44eec6f65d1e-home-434692.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow"
+    ],
+    "values": {
+      "body": "#183AA1",
+      "leftSleeve": "#183AA1",
+      "rightSleeve": "#183AA1",
+      "collar": "#E5C932",
+      "leftCuff": "#E5CD35",
+      "rightCuff": "#E5CD35"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with broad yellow chest band and fine yellow hem/cuff bands and ring. Shoulder dots are manufacturer symbols and omitted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_6ae2f40f44eec6f65d1e-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_8c68aadb01d20f689a3f.json",
+    "source_kit_id": "434692"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

@@ -4,9 +4,8 @@
   "team_name": "PAO Rouf",
   "country_name": "Greece",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2022-23 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2022/23",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2022-23 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -99,6 +96,62 @@
         }
       },
       "outcome": "Independent club history checks: 2022-23 (home/away). No 2026/27 or authorized 2025/26 away reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/pao-rouf-kits-t26838/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/pao-rouf-2022-23-away-kit-242714/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2022/23. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_fb0f8cdafc82562e0ad5-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/pao-rouf-2022-23-away-kit-242714/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/04/03/w4fT8wwn3IxeL2G/pao-rouf-2022-23-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fb0f8cdafc82562e0ad5-away-242714.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2022/23"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#2345AE",
+      "leftSleeve": "#2345AE",
+      "rightSleeve": "#2345AE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#2345AE",
+      "rightCuff": "#2345AE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Blue with dark angular stripe groups: diagonals at upper/lower front, leaning vertical bars in center, white ring; shoulder manufacturer marks removed. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_fb0f8cdafc82562e0ad5-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5ef470888efba425d75a.json",
+    "source_kit_id": "242714"
+  }
 }

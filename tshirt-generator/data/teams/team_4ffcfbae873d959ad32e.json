@@ -11,22 +11,43 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "1999",
+      "source_season_label": "1999",
+      "season_fallback": {
+        "team_id": "team_4ffcfbae873d959ad32e",
+        "variant": "home",
+        "season": "1999",
+        "source_url": "https://www.footballkitarchive.com/tampereen-pallo-veikot-1999-home-kit-337866/",
+        "history_url": "https://www.footballkitarchive.com/tampereen-pallo-veikot-kits-t52814/",
+        "reason": "Latest independently labeled home source found in the live team history; no newer independently labeled equipment found for this slot. User authorized latest available equipment on 25 September 2026. Actual source season retained."
+      },
+      "source_team_name": "Tampereen Pallo-Veikot",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Umbro",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Veikkausliiga"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/tampereen-pallo-veikot-1999-home-kit-337866/",
+        "kit_id": "337866",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_44be9e7aee214f297b4f.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/latest-available-finland-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",

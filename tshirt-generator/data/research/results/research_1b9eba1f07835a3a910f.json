@@ -4,9 +4,8 @@
   "team_name": "Egnatia",
   "country_name": "Albania",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_0a1b0b8b7f24086d4aaa-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/kf-egnatia-2026-27-away-kit-504007/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/08/04/i4C6fWBhb0OMOx5/kf-egnatia-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_0a1b0b8b7f24086d4aaa-away-504007.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Gold"
+    ],
+    "values": {
+      "body": "#1C1D1B",
+      "leftSleeve": "#1C1D1B",
+      "rightSleeve": "#1C1D1B",
+      "collar": "#24231E",
+      "leftCuff": "#1C1D1B",
+      "rightCuff": "#1C1D1B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black with very subtle tonal print sampled from an unbranded upper-side patch and interrupted gold central torso stripe, gold/black round ring. Fold/arm-obscured print simplified. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-east-2026-09-25/team_0a1b0b8b7f24086d4aaa-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_1b9eba1f07835a3a910f.json",
+    "source_kit_id": "504007"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-east-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/kf-egnatia-kits-t9270/",
+      "source_url": "https://www.footballkitarchive.com/kf-egnatia-2026-27-away-kit-504007/",
+      "outcome": "Ready Away, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

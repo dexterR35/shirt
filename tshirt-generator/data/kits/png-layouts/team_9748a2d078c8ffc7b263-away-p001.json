@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_9748a2d078c8ffc7b263",
+  "team_name": "Jiul Petroșani",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Green/white broad vertical body stripes, green sleeves with white shoulder stripes, green round ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_9748a2d078c8ffc7b263-away-420512.jpg",
+      "page_url": "https://www.footballkitarchive.com/jiul-petrosani-2025-26-away-kit-420512/",
+      "sha256": "a207a3e874f7ed2e7d8e7495fb76e7e3d532ac5dfa28054abc54d7e6dce6a0ac"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#237D5C",
+      "rightSleeve": "#237D5C",
+      "collar": "#1D795D",
+      "leftCuff": "#237D5C",
+      "rightCuff": "#237D5C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#1D795D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 48,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#237D5C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 82,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#237D5C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 116,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#237D5C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150,
+        "y": 0,
+        "width": 17,
+        "height": 200,
+        "fill": "#237D5C",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            3
+          ],
+          [
+            63,
+            10
+          ],
+          [
+            35,
+            54
+          ],
+          [
+            40,
+            56
+          ],
+          [
+            66,
+            14
+          ],
+          [
+            78,
+            7
+          ]
+        ],
+        "fill": "#F0F1EE",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            127,
+            3
+          ],
+          [
+            137,
+            10
+          ],
+          [
+            165,
+            54
+          ],
+          [
+            160,
+            56
+          ],
+          [
+            134,
+            14
+          ],
+          [
+            122,
+            7
+          ]
+        ],
+        "fill": "#F0F1EE",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

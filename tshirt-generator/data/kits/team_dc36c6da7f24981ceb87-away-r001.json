@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dc36c6da7f24981ceb87",
+  "team_name": "Axiopolis Cernavodă",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2023/24",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-axiopolis-cernavoda-2023-24-away-kit-302618/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/Kd91sBGwKxYojb6/cs-axiopolis-cernavoda-2023-24-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_dc36c6da7f24981ceb87-away-302618.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#2E70B8",
+      "leftSleeve": "#2E70B8",
+      "rightSleeve": "#2E70B8",
+      "collar": "#F1F2EE",
+      "leftCuff": "#2E70B8",
+      "rightCuff": "#2E70B8"
+    }
+  },
+  "observations": "Royal-blue with scattered white diagonal long/short dash print, white neckline. Dashes redrawn from source spacing; logo zones filled with unbranded fabric. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal-blue with scattered white diagonal long/short dash print, white neckline. Dashes redrawn from source spacing; logo zones filled with unbranded fabric. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_dc36c6da7f24981ceb87-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2E70B8",
+      "leftSleeve": "#2E70B8",
+      "rightSleeve": "#2E70B8",
+      "collar": "#F1F2EE",
+      "leftCuff": "#2E70B8",
+      "rightCuff": "#2E70B8"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2E70B8",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M60.707 20.707L78.707 2.707L77.293 1.293L59.293 19.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M95.293 43.707L105.293 53.707L106.707 52.293L96.707 42.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M125.707 58.707L148.707 35.707L147.293 34.293L124.293 57.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M71.707 99.707L89.707 81.707L88.293 80.293L70.293 98.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M103.293 126.707L132.293 155.707L133.707 154.293L104.707 125.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M72.354 171.354L92.354 151.354L91.646 150.646L71.646 170.646Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M133.646 176.354L150.646 193.354L151.354 192.646L134.354 175.646Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M57.293 137.707L70.293 150.707L71.707 149.293L58.707 136.293Z",
+        "fill": "#F1F2EE",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 18.163L66.81 32.163L67.19 31.837L55.19 17.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 18.163L95.81 32.163L96.19 31.837L84.19 17.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 18.163L131.81 32.163L132.19 31.837L120.19 17.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 50.163L66.81 64.163L67.19 63.837L55.19 49.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 50.163L95.81 64.163L96.19 63.837L84.19 49.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 50.163L131.81 64.163L132.19 63.837L120.19 49.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 82.163L66.81 96.163L67.19 95.837L55.19 81.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 82.163L95.81 96.163L96.19 95.837L84.19 81.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 82.163L131.81 96.163L132.19 95.837L120.19 81.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 114.163L66.81 128.163L67.19 127.837L55.19 113.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 114.163L95.81 128.163L96.19 127.837L84.19 113.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 114.163L131.81 128.163L132.19 127.837L120.19 113.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 146.163L66.81 160.163L67.19 159.837L55.19 145.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 146.163L95.81 160.163L96.19 159.837L84.19 145.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 146.163L131.81 160.163L132.19 159.837L120.19 145.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M54.81 178.163L66.81 192.163L67.19 191.837L55.19 177.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M83.81 178.163L95.81 192.163L96.19 191.837L84.19 177.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M119.81 178.163L131.81 192.163L132.19 191.837L120.19 177.837Z",
+        "fill": "#7FACC8",
+        "clip": "body",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_727e89b718f57538dbdf",
+  "team_name": "CSO Plopeni",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black with broad white cuff ends, white ring and thin pale peach shoulder/sleeve piping. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_727e89b718f57538dbdf-home-434696.jpg",
+      "page_url": "https://www.footballkitarchive.com/cso-plopeni-2025-26-home-kit-434696/",
+      "sha256": "1a621882608dbb9a44bdb821467495664e43ec5621e5dc80b2335653cd9e6011"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#19202B",
+      "leftSleeve": "#19202B",
+      "rightSleeve": "#19202B",
+      "collar": "#F0F1EE",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#19202B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            73,
+            4
+          ],
+          [
+            53,
+            14
+          ],
+          [
+            39,
+            26
+          ],
+          [
+            28,
+            49
+          ],
+          [
+            26.8,
+            48.6
+          ],
+          [
+            38,
+            25
+          ],
+          [
+            52,
+            13
+          ],
+          [
+            72.7,
+            3
+          ]
+        ],
+        "fill": "#DDB9A4",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            127,
+            4
+          ],
+          [
+            147,
+            14
+          ],
+          [
+            161,
+            26
+          ],
+          [
+            172,
+            49
+          ],
+          [
+            173.2,
+            48.6
+          ],
+          [
+            162,
+            25
+          ],
+          [
+            148,
+            13
+          ],
+          [
+            127.3,
+            3
+          ]
+        ],
+        "fill": "#DDB9A4",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 68.6C24 73.2 36 78.5 44.5 77.6Q48 77.7 49.2 69.5L52 106H5Z",
+        "fill": "#F0F1EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 68.6C176 73.2 164 78.5 155.5 77.6Q152 77.7 150.8 69.5L148 106H195Z",
+        "fill": "#F0F1EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

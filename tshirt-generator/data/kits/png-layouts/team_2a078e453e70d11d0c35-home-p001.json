@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2a078e453e70d11d0c35",
+  "team_name": "Zakynthos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Yellow with royal-blue shoulder inserts and narrow blue side strips, yellow ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2a078e453e70d11d0c35-home-444354.jpg",
+      "page_url": "https://www.footballkitarchive.com/aps-zakynthos-2025-26-home-kit-444354/",
+      "sha256": "a0c5f4358e68eefc98485aee5de65549c3980f9748cf7c023b4ef21a54e3d4c5"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#EAD52E",
+      "leftSleeve": "#EAD52E",
+      "rightSleeve": "#EAD52E",
+      "collar": "#EAD52E",
+      "leftCuff": "#EAD52E",
+      "rightCuff": "#EAD52E"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#EAD52E",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#EAD52E",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            43,
+            16
+          ],
+          [
+            55,
+            11
+          ],
+          [
+            53,
+            26
+          ],
+          [
+            36,
+            32
+          ]
+        ],
+        "fill": "#30599B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            157,
+            16
+          ],
+          [
+            145,
+            11
+          ],
+          [
+            147,
+            26
+          ],
+          [
+            164,
+            32
+          ]
+        ],
+        "fill": "#30599B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            77
+          ],
+          [
+            57,
+            114
+          ],
+          [
+            54,
+            197
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#30599B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            77
+          ],
+          [
+            143,
+            114
+          ],
+          [
+            146,
+            197
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#30599B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

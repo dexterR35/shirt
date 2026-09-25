@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-c.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Green with asymmetric white upper-right panel/right sleeve, dark-green lower diagonal and lime side polygons, green cuff trim and dark-green ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_3ded427093e4f9a93cd7-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_3ded427093e4f9a93cd7-home-435075.jpg",
-  "image_sha256": "e9eb159de4c948303b97b57423d8f840d543ef5ee6907f7863f7bed0e2ba57d8"
+  "image_sha256": "e9eb159de4c948303b97b57423d8f840d543ef5ee6907f7863f7bed0e2ba57d8",
+  "artwork_revision_path": "data/kits/team_3ded427093e4f9a93cd7-home-r001.json"
 }

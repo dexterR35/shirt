@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fba49b32a36e1080e7e8",
+  "team_name": "Viitorul Onești",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Plain white torso/sleeves/ring. Captain armband removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_fba49b32a36e1080e7e8-away-435101.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-viitorul-onesti-2025-26-away-kit-435101/",
+      "sha256": "b830b76f9fe04338e360248c39289cdd94d09eb1594624ae645a12e9325d29ca"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#F0F1EE",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

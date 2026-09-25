@@ -11,42 +11,83 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_7b7a5f3e54596cbe892b",
+        "variant": "home",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/fc-jazz-2025-home-kit-447142/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "FC Jazz",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Red",
+        "White",
+        "Yellow"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "adidas",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-jazz-2025-home-kit-447142/",
+        "kit_id": "447142",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_a54b70ce402bfbba794d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_7b7a5f3e54596cbe892b",
+        "variant": "away",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/fc-jazz-2025-away-kit-447143/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "FC Jazz",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "Gray",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "adidas",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/fc-jazz-2025-away-kit-447143/",
+        "kit_id": "447143",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_355a63ad95aa44c6fd2a.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

@@ -21,8 +21,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with dark branching marble fissures, matching plain sleeves and two-tone ring. Independent unbranded crop from this variant traced as flat ink; cropped repeat continued through sponsor-covered front. Pattern phase is adapted. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_3430bfadf30c6a49f568-away.png"
+  },
   "official_hex": false,
   "source_variant_label": "Away",
   "equipment_fields": {
@@ -35,5 +42,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_3430bfadf30c6a49f568-away-435072.jpg",
-  "image_sha256": "6f42c6fb1b5b0b1304bbf93090277b0d4a2c5bbf841b2457e0d6bf895884025f"
+  "image_sha256": "6f42c6fb1b5b0b1304bbf93090277b0d4a2c5bbf841b2457e0d6bf895884025f",
+  "artwork_revision_path": "data/kits/team_3430bfadf30c6a49f568-away-r001.json"
 }

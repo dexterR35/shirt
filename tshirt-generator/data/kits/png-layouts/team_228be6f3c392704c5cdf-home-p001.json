@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_228be6f3c392704c5cdf",
+  "team_name": "PK-35",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-finland-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black with red broad vertical stripes on front/sleeves, red shoulder edge and ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_228be6f3c392704c5cdf-home-444292.jpg",
+      "page_url": "https://www.footballkitarchive.com/pk-35-vantaa-2025-home-kit-444292/",
+      "sha256": "5fd755e287c69f4f00229c4d25e530340c1f55a67b9acae3720b4effc1fdf9f9"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#212222",
+      "leftSleeve": "#212222",
+      "rightSleeve": "#212222",
+      "collar": "#C42B2B",
+      "leftCuff": "#212222",
+      "rightCuff": "#212222"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C42B2B",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#212222",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 61,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 92,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 123,
+        "y": 0,
+        "width": 14,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 15,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 170,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 15,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 40,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 145,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 170,
+        "y": 0,
+        "width": 12,
+        "height": 200,
+        "fill": "#CF2D2D",
+        "clip": "rightSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            4
+          ],
+          [
+            45,
+            16
+          ],
+          [
+            25,
+            30
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            49,
+            23
+          ],
+          [
+            77,
+            9
+          ]
+        ],
+        "fill": "#C62A2B",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            4
+          ],
+          [
+            155,
+            16
+          ],
+          [
+            175,
+            30
+          ],
+          [
+            169,
+            35
+          ],
+          [
+            151,
+            23
+          ],
+          [
+            123,
+            9
+          ]
+        ],
+        "fill": "#C62A2B",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

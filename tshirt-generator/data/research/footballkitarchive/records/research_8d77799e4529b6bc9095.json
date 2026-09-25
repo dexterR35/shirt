@@ -22,8 +22,15 @@
   "listing_url": "https://www.footballkitarchive.com/liga-3-romania-kits-l1628/",
   "checked_at": "2026-09-25",
   "capture_path": "data/research/footballkitarchive/captures/tier3-romania-b.tsv",
-  "status": "reference_saved",
-  "visual_review": null,
+  "status": "artwork_reviewed",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with red sleeves/ring, rising red curved front ribbons and blue equestrian illustration over a faint blue line grid. Only the lower unlettered illustration is segmented into flat ink; source pixels, sponsors, crest and hem text omitted. Drawing proportions adapted from angled action photo. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_1e0f2fd65e6cb58b7fec-home.png"
+  },
   "official_hex": false,
   "source_variant_label": "Home",
   "equipment_fields": {
@@ -36,5 +43,6 @@
     "checked_at": "2026-09-25"
   },
   "local_reference_path": "data/research/references/footballkitarchive/team_1e0f2fd65e6cb58b7fec-home-398903.jpg",
-  "image_sha256": "cf47305df916bbb60604663798273263b6844b5e23353edc2c6fbfd74afd7b14"
+  "image_sha256": "cf47305df916bbb60604663798273263b6844b5e23353edc2c6fbfd74afd7b14",
+  "artwork_revision_path": "data/kits/team_1e0f2fd65e6cb58b7fec-home-r001.json"
 }

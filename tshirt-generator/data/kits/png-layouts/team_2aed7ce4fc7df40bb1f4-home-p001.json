@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_2aed7ce4fc7df40bb1f4",
+  "team_name": "Rethymniakos",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Royal blue with dark navy curved shoulder/armhole bands, side inserts and ring. Historical mannequin front; no source V construction added. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_2aed7ce4fc7df40bb1f4-home-459536.jpg",
+      "page_url": "https://www.footballkitarchive.com/ao-rethymniakos-2012-13-home-kit-459536/",
+      "sha256": "76e56ba1840f0b81b8f8d5206fd2550e8c66c8dd45f60e82004b77caf404c2b8"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#215D9C",
+      "leftSleeve": "#215D9C",
+      "rightSleeve": "#215D9C",
+      "collar": "#19272F",
+      "leftCuff": "#215D9C",
+      "rightCuff": "#215D9C"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#19272F",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#215D9C",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "path",
+        "d": "M76 4C49 13 42 14 39 31L32 64L35 64L43 32C47 18 54 15 77 8Z",
+        "fill": "#1A2C39",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M124 4C151 13 158 14 161 31L168 64L165 64L157 32C153 18 146 15 123 8Z",
+        "fill": "#1A2C39",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            77
+          ],
+          [
+            57,
+            114
+          ],
+          [
+            54,
+            197
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": "#192D3A",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            77
+          ],
+          [
+            143,
+            114
+          ],
+          [
+            146,
+            197
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": "#192D3A",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

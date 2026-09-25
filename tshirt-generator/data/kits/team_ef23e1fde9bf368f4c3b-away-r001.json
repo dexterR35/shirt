@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ef23e1fde9bf368f4c3b",
+  "team_name": "Sănătatea Cluj",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sanatatea-cluj-2025-26-away-kit-434276/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/08/jT8Y88rBfK9eDyi/sanatatea-cluj-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ef23e1fde9bf368f4c3b-away-434276.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue"
+    ],
+    "values": {
+      "body": "#91DFDC",
+      "leftSleeve": "#91DFDC",
+      "rightSleeve": "#91DFDC",
+      "collar": "#F0F1EE",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    }
+  },
+  "observations": "Pale mint-blue shirt with narrow white sleeve edge and fine white neckline; literal carry-over metadata retained. Shoulder wording removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Pale mint-blue shirt with narrow white sleeve edge and fine white neckline; literal carry-over metadata retained. Shoulder wording removed. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-c-2026-09-25/team_ef23e1fde9bf368f4c3b-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#91DFDC",
+      "leftSleeve": "#91DFDC",
+      "rightSleeve": "#91DFDC",
+      "collar": "#F0F1EE",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#91DFDC",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#91DFDC",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#F0F1EE",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#F0F1EE",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

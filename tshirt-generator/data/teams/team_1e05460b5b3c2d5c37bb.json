@@ -11,42 +11,84 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1e05460b5b3c2d5c37bb",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/chania-fc-2025-26-home-kit-427955/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026."
+      },
+      "source_team_name": "Chania FC",
+      "design": "Plain",
+      "colors": [
+        "Blue",
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/chania-fc-2025-26-home-kit-427955/",
+        "kit_id": "427955",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_05f85125dc96c09c315b.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-tail-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1e05460b5b3c2d5c37bb",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/chania-fc-2025-26-away-kit-427956/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026."
+      },
+      "source_team_name": "Chania FC",
+      "design": "Plain",
+      "colors": [
+        "Red",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Erreà",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/chania-fc-2025-26-away-kit-427956/",
+        "kit_id": "427956",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_eb493cf357b49007f988.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-tail-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

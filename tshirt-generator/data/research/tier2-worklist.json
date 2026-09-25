@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "requested_at": "2026-09-24",
   "scope_basis": "Preserved workbook Domestic memberships with tier === 2; canonical identities and reserve teams retained.",
-  "season_policy": "Prefer independently evidenced 2026/27; accept 2026 when unconfirmed, with literal seasons and per-slot evidence. No automatic older-season or first-team substitution.",
+  "season_policy": "Verify Home/Away and canonical club identity independently. Prefer evidenced 2026/27, calendar 2026 and 2025/26 (Finnish 2025); where unavailable, use the latest older equipment explicitly authorized on 25 September 2026. Record the exact source and history in season-policy.json, retaining literal seasons. Never substitute another club, first-team, Third or GK kits.",
   "team_count": 150,
   "slot_count": 300,
   "countries": [
@@ -34,26 +34,26 @@
     {
       "country": "Romania",
       "teams": 22,
-      "ready": 37
+      "ready": 44
     },
     {
       "country": "Greece",
       "teams": 16,
-      "ready": 12
+      "ready": 32
     },
     {
       "country": "Finland",
       "teams": 10,
-      "ready": 1
+      "ready": 20
     }
   ],
   "counts": {
-    "ready": 254,
+    "ready": 300,
     "draft": 0,
     "researching": 0,
-    "blocked": 46
+    "blocked": 0
   },
-  "references_saved": 254,
+  "references_saved": 300,
   "tasks": [
     {
       "task_id": "research_67f25ba9abee261c0671",
@@ -12587,13 +12587,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "2026/27 season listing contains Home only; no independent Away or 2026 reference found."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_0518bfa13bdd700191ce-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_0518bfa13bdd700191ce-away-398902.jpg",
+      "source_url": "https://www.footballkitarchive.com/cs-afumati-2025-26-away-kit-398902/",
+      "remaining": []
     },
     {
       "task_id": "research_5350e180661f23fb2fc6",
@@ -12884,13 +12882,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_716bb21fd88ea351d875-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_716bb21fd88ea351d875-home-396623.jpg",
+      "source_url": "https://www.footballkitarchive.com/csc-dumbravita-2025-26-home-kit-396623/",
+      "remaining": []
     },
     {
       "task_id": "research_6c3a9073b3dfedb71ac4",
@@ -12945,13 +12941,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_716bb21fd88ea351d875-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_716bb21fd88ea351d875-away-396621.jpg",
+      "source_url": "https://www.footballkitarchive.com/csc-dumbravita-2025-26-away-kit-396621/",
+      "remaining": []
     },
     {
       "task_id": "research_2dcaf3aab22294417560",
@@ -13139,13 +13133,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "2026/27 season listing contains Home and GK only; GK cannot substitute for Away."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_b3b5e87f02cc11bd8040-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_b3b5e87f02cc11bd8040-away-431171.jpg",
+      "source_url": "https://www.footballkitarchive.com/csm-resita-2025-26-away-kit-431171/",
+      "remaining": []
     },
     {
       "task_id": "research_9f7a61e95ac63d4159f5",
@@ -13584,13 +13576,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_8cb9431433945e610f4e-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_8cb9431433945e610f4e-home-388677.jpg",
+      "source_url": "https://www.footballkitarchive.com/fc-hermannstadt-2025-26-home-kit-388677/",
+      "remaining": []
     },
     {
       "task_id": "research_48c3190fe9531befeb40",
@@ -13645,13 +13635,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history stops at 2025/26. No independently confirmed 2026/27 or calendar-year 2026 variant found."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_8cb9431433945e610f4e-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_8cb9431433945e610f4e-away-388674.jpg",
+      "source_url": "https://www.footballkitarchive.com/fc-hermannstadt-2025-26-away-kit-388674/",
+      "remaining": []
     },
     {
       "task_id": "research_7027cbf613cf5a87a1fc",
@@ -13913,13 +13901,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "2026/27 season listing contains Home and GK only; GK cannot substitute for Away."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_6e38187c99726423e04a-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_6e38187c99726423e04a-away-398894.jpg",
+      "source_url": "https://www.footballkitarchive.com/politehnica-timisoara-2025-26-away-kit-398894/",
+      "remaining": []
     },
     {
       "task_id": "research_ba371e5fa9ea2e1b7753",
@@ -14520,13 +14506,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_88ff58b3a537d63153b3-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_88ff58b3a537d63153b3-home-464477.jpg",
+      "source_url": "https://www.footballkitarchive.com/anagenisi-karditsa-2025-26-home-kit-464477/",
+      "remaining": []
     },
     {
       "task_id": "research_e42052ecf708b40c1727",
@@ -14581,13 +14565,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_88ff58b3a537d63153b3-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_88ff58b3a537d63153b3-away-464478.jpg",
+      "source_url": "https://www.footballkitarchive.com/anagenisi-karditsa-2025-26-away-kit-464478/",
+      "remaining": []
     },
     {
       "task_id": "research_1cf17d92ea507ca39ce1",
@@ -14642,13 +14624,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_598d995f94bcd1597c48-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_598d995f94bcd1597c48-home-443717.jpg",
+      "source_url": "https://www.footballkitarchive.com/apollon-kalamaria-2025-26-home-kit-443717/",
+      "remaining": []
     },
     {
       "task_id": "research_b942c122379876dd5978",
@@ -14703,13 +14683,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_598d995f94bcd1597c48-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_598d995f94bcd1597c48-away-443718.jpg",
+      "source_url": "https://www.footballkitarchive.com/apollon-kalamaria-2025-26-away-kit-443718/",
+      "remaining": []
     },
     {
       "task_id": "research_8d9a4ffa9efa9935c205",
@@ -14764,13 +14742,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_c8f734cd3729d609f4b7-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_c8f734cd3729d609f4b7-home-414969.jpg",
+      "source_url": "https://www.footballkitarchive.com/asteras-aktor-b-2025-26-home-kit-414969/",
+      "remaining": []
     },
     {
       "task_id": "research_58f7f20e5e04383931ca",
@@ -14825,13 +14801,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_c8f734cd3729d609f4b7-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_c8f734cd3729d609f4b7-away-414968.jpg",
+      "source_url": "https://www.footballkitarchive.com/asteras-aktor-b-2025-26-away-kit-414968/",
+      "remaining": []
     },
     {
       "task_id": "research_fc9410c47f1eb570491c",
@@ -15063,13 +15037,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history includes 2026-27 Home but no independent eligible away reference. Goalkeeper/other variant cannot substitute."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_255c48f34a2938829cb3-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_255c48f34a2938829cb3-away-421052.jpg",
+      "source_url": "https://www.footballkitarchive.com/ellas-syrou-2025-26-away-kit-421052/",
+      "remaining": []
     },
     {
       "task_id": "research_7c5c00d296ba99ef8370",
@@ -15124,13 +15096,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_1b16e16648fa0fb31f7a-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_1b16e16648fa0fb31f7a-home-421054.jpg",
+      "source_url": "https://www.footballkitarchive.com/gs-marko-2025-26-home-kit-421054/",
+      "remaining": []
     },
     {
       "task_id": "research_0c532f4ebddedd0541d8",
@@ -15185,13 +15155,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_1b16e16648fa0fb31f7a-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_1b16e16648fa0fb31f7a-away-421055.jpg",
+      "source_url": "https://www.footballkitarchive.com/gs-marko-2025-26-away-kit-421055/",
+      "remaining": []
     },
     {
       "task_id": "research_16248cb6093e2f5b0723",
@@ -15246,13 +15214,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_44d27fdeaf28c100657f-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_44d27fdeaf28c100657f-home-464480.jpg",
+      "source_url": "https://www.footballkitarchive.com/nestos-chrysoupoli-fc-2025-26-home-kit-464480/",
+      "remaining": []
     },
     {
       "task_id": "research_9f270d21458faa013a91",
@@ -15307,13 +15273,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_44d27fdeaf28c100657f-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_44d27fdeaf28c100657f-away-464481.jpg",
+      "source_url": "https://www.footballkitarchive.com/nestos-chrysoupoli-fc-2025-26-away-kit-464481/",
+      "remaining": []
     },
     {
       "task_id": "research_d0edf0b3a279b53cdf90",
@@ -15368,13 +15332,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history includes 2026-27 Away but no independent eligible home reference. Goalkeeper/other variant cannot substitute."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_6c9a275c851f71423303-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_6c9a275c851f71423303-home-402137.jpg",
+      "source_url": "https://www.footballkitarchive.com/niki-volos-fc-2025-26-home-kit-402137/",
+      "remaining": []
     },
     {
       "task_id": "research_5258006bedd72f0c4252",
@@ -15724,13 +15686,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_63a823e4daaab6deecf0-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_63a823e4daaab6deecf0-home-402196.jpg",
+      "source_url": "https://www.footballkitarchive.com/panserraikos-fc-2025-26-home-kit-402196/",
+      "remaining": []
     },
     {
       "task_id": "research_c1d62f750be1f0f117b7",
@@ -15785,13 +15745,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_63a823e4daaab6deecf0-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_63a823e4daaab6deecf0-away-402197.jpg",
+      "source_url": "https://www.footballkitarchive.com/panserraikos-fc-2025-26-away-kit-402197/",
+      "remaining": []
     },
     {
       "task_id": "research_c430a86f99287a03e077",
@@ -15846,13 +15804,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_8350822c938253762606-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_8350822c938253762606-home-418309.jpg",
+      "source_url": "https://www.footballkitarchive.com/panthrakikos-komotini-2025-26-home-kit-418309/",
+      "remaining": []
     },
     {
       "task_id": "research_43706fd59b3d669ac64e",
@@ -15907,13 +15863,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_8350822c938253762606-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_8350822c938253762606-away-443709.jpg",
+      "source_url": "https://www.footballkitarchive.com/panthrakikos-komotini-2025-26-away-kit-443709/",
+      "remaining": []
     },
     {
       "task_id": "research_77819dc79e8ed2b7d4f3",
@@ -16064,13 +16018,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_de5291c44c145f0be198-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_de5291c44c145f0be198-home-444350.jpg",
+      "source_url": "https://www.footballkitarchive.com/pas-pyrgos-1968-2025-26-home-kit-444350/",
+      "remaining": []
     },
     {
       "task_id": "research_95aa8eebac93d197a90a",
@@ -16103,13 +16055,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_de5291c44c145f0be198-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_de5291c44c145f0be198-away-444351.jpg",
+      "source_url": "https://www.footballkitarchive.com/pas-pyrgos-1968-2025-26-away-kit-444351/",
+      "remaining": []
     },
     {
       "task_id": "research_0a6f13d9071b0e7e9978",
@@ -16164,13 +16114,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_2a078e453e70d11d0c35-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_2a078e453e70d11d0c35-home-444354.jpg",
+      "source_url": "https://www.footballkitarchive.com/aps-zakynthos-2025-26-home-kit-444354/",
+      "remaining": []
     },
     {
       "task_id": "research_0a2564047c5a9e64b376",
@@ -16225,13 +16173,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025-26; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_2a078e453e70d11d0c35-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_2a078e453e70d11d0c35-away-444355.jpg",
+      "source_url": "https://www.footballkitarchive.com/aps-zakynthos-2025-26-away-kit-444355/",
+      "remaining": []
     },
     {
       "task_id": "research_249d4c7a6494ac04abe7",
@@ -16286,13 +16232,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_48822a61df87317b0104-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_48822a61df87317b0104-home-444281.jpg",
+      "source_url": "https://www.footballkitarchive.com/ekenas-if-2025-home-kit-444281/",
+      "remaining": []
     },
     {
       "task_id": "research_e5181b1c708b9bc92c8c",
@@ -16347,13 +16291,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_48822a61df87317b0104-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_48822a61df87317b0104-away-444282.jpg",
+      "source_url": "https://www.footballkitarchive.com/ekenas-if-2025-away-kit-444282/",
+      "remaining": []
     },
     {
       "task_id": "research_df8a198d96bfb37c9798",
@@ -16467,13 +16409,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Archive history includes 2026 Home but no independent eligible away reference. Goalkeeper/other variant cannot substitute."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_cb58381bd900187ce245-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_cb58381bd900187ce245-away-375130.jpg",
+      "source_url": "https://www.footballkitarchive.com/fc-haka-2025-away-kit-375130/",
+      "remaining": []
     },
     {
       "task_id": "research_2b515d5e0ab58c27ebd1",
@@ -16528,13 +16468,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_d81bf3f6a13ff1e8d7bb-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_d81bf3f6a13ff1e8d7bb-home-363006.jpg",
+      "source_url": "https://www.footballkitarchive.com/klubi-04-2025-home-kit-363006/",
+      "remaining": []
     },
     {
       "task_id": "research_766eaf68fc405ddd1284",
@@ -16589,13 +16527,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_d81bf3f6a13ff1e8d7bb-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_d81bf3f6a13ff1e8d7bb-away-444289.jpg",
+      "source_url": "https://www.footballkitarchive.com/klubi-04-2025-away-kit-444289/",
+      "remaining": []
     },
     {
       "task_id": "research_3da5daa0247009545fa1",
@@ -16650,13 +16586,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_e10e8f6416db36809820-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_e10e8f6416db36809820-home-444285.jpg",
+      "source_url": "https://www.footballkitarchive.com/jippo-2025-home-kit-444285/",
+      "remaining": []
     },
     {
       "task_id": "research_c68f368df04cc8ae31a4",
@@ -16711,13 +16645,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_e10e8f6416db36809820-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_e10e8f6416db36809820-away-444286.jpg",
+      "source_url": "https://www.footballkitarchive.com/jippo-2025-away-kit-444286/",
+      "remaining": []
     },
     {
       "task_id": "research_8752d016e1c6942bc8a7",
@@ -16772,13 +16704,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_ac9a18cb584241eb6c1b-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_ac9a18cb584241eb6c1b-home-444283.jpg",
+      "source_url": "https://www.footballkitarchive.com/japs-2025-home-kit-444283/",
+      "remaining": []
     },
     {
       "task_id": "research_7e0480180db0263b26e7",
@@ -16833,13 +16763,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_ac9a18cb584241eb6c1b-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_ac9a18cb584241eb6c1b-away-444284.jpg",
+      "source_url": "https://www.footballkitarchive.com/japs-2025-away-kit-444284/",
+      "remaining": []
     },
     {
       "task_id": "research_9bde35c28f4ea821d1d4",
@@ -16894,13 +16822,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_d7e19653a15b01fc421b-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_d7e19653a15b01fc421b-home-361822.jpg",
+      "source_url": "https://www.footballkitarchive.com/kotkan-tyovaen-palloilijat-2025-home-kit-361822/",
+      "remaining": []
     },
     {
       "task_id": "research_17e325cc661f2259dca6",
@@ -16955,13 +16881,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_d7e19653a15b01fc421b-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_d7e19653a15b01fc421b-away-375134.jpg",
+      "source_url": "https://www.footballkitarchive.com/kotkan-tyovaen-palloilijat-2025-away-kit-375134/",
+      "remaining": []
     },
     {
       "task_id": "research_8df17803c3b5e7eac485",
@@ -17016,13 +16940,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_b2fd903ee051b84e7345-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_b2fd903ee051b84e7345-home-444287.jpg",
+      "source_url": "https://www.footballkitarchive.com/kapa-2025-home-kit-444287/",
+      "remaining": []
     },
     {
       "task_id": "research_5b356b0e3dd388204115",
@@ -17077,13 +16999,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_b2fd903ee051b84e7345-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_b2fd903ee051b84e7345-away-444288.jpg",
+      "source_url": "https://www.footballkitarchive.com/kapa-2025-away-kit-444288/",
+      "remaining": []
     },
     {
       "task_id": "research_9ff964599034ca3b6c1c",
@@ -17138,13 +17058,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_722764c508be1759b291-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_722764c508be1759b291-home-447150.jpg",
+      "source_url": "https://www.footballkitarchive.com/mikkelin-palloilijat-2025-home-kit-447150/",
+      "remaining": []
     },
     {
       "task_id": "research_43b925ec3a32cb581e46",
@@ -17199,13 +17117,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_722764c508be1759b291-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_722764c508be1759b291-away-447151.jpg",
+      "source_url": "https://www.footballkitarchive.com/mikkelin-palloilijat-2025-away-kit-447151/",
+      "remaining": []
     },
     {
       "task_id": "research_2bd8e35e5213d9aea74c",
@@ -17260,13 +17176,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_228be6f3c392704c5cdf-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_228be6f3c392704c5cdf-home-444292.jpg",
+      "source_url": "https://www.footballkitarchive.com/pk-35-vantaa-2025-home-kit-444292/",
+      "remaining": []
     },
     {
       "task_id": "research_26a7e3a07058295ee2ab",
@@ -17321,13 +17235,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_228be6f3c392704c5cdf-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_228be6f3c392704c5cdf-away-444293.jpg",
+      "source_url": "https://www.footballkitarchive.com/pk-35-vantaa-2025-away-kit-444293/",
+      "remaining": []
     },
     {
       "task_id": "research_c88233bb956f5183d616",
@@ -17382,13 +17294,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 home reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_2cf45485dee69ac5148e-home-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_2cf45485dee69ac5148e-home-444296.jpg",
+      "source_url": "https://www.footballkitarchive.com/sjk-seinajoki-ii-2025-home-kit-444296/",
+      "remaining": []
     },
     {
       "task_id": "research_ce9bfa2f1f07502e9a74",
@@ -17443,13 +17353,11 @@
           ]
         }
       ],
-      "status": "blocked",
-      "kit_revision_path": null,
-      "reference_path": null,
-      "source_url": null,
-      "remaining": [
-        "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-      ]
+      "status": "ready",
+      "kit_revision_path": "data/kits/team_2cf45485dee69ac5148e-away-r001.json",
+      "reference_path": "data/research/references/footballkitarchive/team_2cf45485dee69ac5148e-away-444297.jpg",
+      "source_url": "https://www.footballkitarchive.com/sjk-seinajoki-ii-2025-away-kit-444297/",
+      "remaining": []
     }
   ]
 }

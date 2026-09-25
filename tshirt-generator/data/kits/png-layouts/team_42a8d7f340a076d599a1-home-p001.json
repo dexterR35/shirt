@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_42a8d7f340a076d599a1",
+  "team_name": "Dunărea Călărași",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-c-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Blue with yellow shoulder inserts and fine curved raglan/side seam piping; matching sleeves and round ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Fine or occluded features are documented adaptations. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_42a8d7f340a076d599a1-home-418623.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-dunarea-calarasi-2025-26-home-kit-418623/",
+      "sha256": "bd91a6b40ff48e571f953ab6e4467bae660e9495c41b790127a20bc16f942b3c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#388AD4",
+      "leftSleeve": "#388AD4",
+      "rightSleeve": "#388AD4",
+      "collar": "#388AD4",
+      "leftCuff": "#388AD4",
+      "rightCuff": "#388AD4"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#388AD4",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#388AD4",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            4
+          ],
+          [
+            52,
+            11
+          ],
+          [
+            47,
+            19
+          ],
+          [
+            57,
+            21
+          ],
+          [
+            63,
+            12
+          ],
+          [
+            77,
+            7
+          ]
+        ],
+        "fill": "#E7DA37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            4
+          ],
+          [
+            148,
+            11
+          ],
+          [
+            153,
+            19
+          ],
+          [
+            143,
+            21
+          ],
+          [
+            137,
+            12
+          ],
+          [
+            123,
+            7
+          ]
+        ],
+        "fill": "#E7DA37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M61.732 11.866L54.716 25.903L48.701 49.979L50.7 83.012L51.7 124L50.7 155.991L51.3 156.009L52.3 124L51.3 82.988L49.299 50.021L55.284 26.097L62.268 12.134Z",
+        "fill": "#E7DA37",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M137.732 12.134L144.716 26.097L150.701 50.021L148.7 82.988L147.7 124L148.7 156.009L149.3 155.991L148.3 124L149.3 83.012L151.299 49.979L145.284 25.903L138.268 11.866Z",
+        "fill": "#E7DA37",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

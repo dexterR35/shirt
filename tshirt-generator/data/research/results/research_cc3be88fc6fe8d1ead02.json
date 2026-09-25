@@ -4,9 +4,8 @@
   "team_name": "FC Voluntari II",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2023/24",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,85 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
-  ]
+  "remaining": [],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "FC Voluntari II",
+            "url": "https://www.footballkitarchive.com/voluntari-ii-kits-t43039/",
+            "latest_season": "2023-24"
+          }
+        ],
+        "searches": [
+          {
+            "team_name": "FC Voluntari II",
+            "query": "Voluntari",
+            "outcome": "FC Voluntari | FC Voluntari Feminin | Voluntari II"
+          }
+        ]
+      },
+      "outcome": "Independent club history checked: 2023-24. No 2026/27 or authorized 2025/26 home reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-romania-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/voluntari-ii-kits-t43039/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/voluntari-ii-2023-24-home-kit-302633/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2023/24. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
+    }
+  ],
+  "kit_revision_path": "data/kits/team_d6db1a0ad6d6f9b4df40-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/voluntari-ii-2023-24-home-kit-302633/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/10/12/zpQuVwfSiuoetDe/voluntari-ii-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_d6db1a0ad6d6f9b4df40-home-302633.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Sky blue",
+      "White"
+    ],
+    "values": {
+      "body": "#70AED5",
+      "leftSleeve": "#70AED5",
+      "rightSleeve": "#70AED5",
+      "collar": "#70AED5",
+      "leftCuff": "#70AED5",
+      "rightCuff": "#70AED5"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Reserve Home: plain sky-blue with matching ring and sleeves. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_d6db1a0ad6d6f9b4df40-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_cc3be88fc6fe8d1ead02.json",
+    "source_kit_id": "302633"
+  }
 }

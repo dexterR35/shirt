@@ -11,6 +11,8 @@ const read = async (f) => JSON.parse(await fs.readFile(f, "utf8"));
 const teams = await read("data/normalized/teams.json"),
   countries = await read("data/normalized/countries.json"),
   queue = await read("data/research/kit-research-queue.json");
+const tier2Ids = new Set((await read("data/research/tier2-worklist.json")).tasks.map((t) => t.team_id)),
+  tier3Ids = new Set((await read("data/research/tier3-worklist.json")).tasks.map((t) => t.team_id));
 await fs.mkdir("public/catalog", { recursive: true });
 await fs.mkdir("public/catalog/kits", { recursive: true });
 await fs.mkdir("public/catalog/teams", { recursive: true });
@@ -100,6 +102,8 @@ const manifestTeams = teams.map((t) => ({
   country_name: t.country_name,
   mandatory: equipmentTeams.get(t.id).mandatory,
   priority_order: equipmentTeams.get(t.id).priority_order,
+  tier2: tier2Ids.has(t.id),
+  tier3: tier3Ids.has(t.id),
   equipment_path: `/catalog/teams/${t.id}.json`,
   reserve: t.source_team_types.includes("Reserve team"),
   kits: Object.fromEntries(

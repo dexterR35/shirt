@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_c7a6647f94aa6a8f9c07",
+  "team_name": "Slavia Prague",
+  "country_name": "Czechia",
+  "variant": "away",
+  "kit_season": "2026/27",
+  "revision": "r001",
+  "research_batch": "rest-central-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/slavia-praha-2026-27-away-kit-496449/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/17/UgXJ7zednJX6Rwa/slavia-praha-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_c7a6647f94aa6a8f9c07-away-496449.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Black",
+      "Red",
+      "Gold"
+    ],
+    "values": {
+      "body": "#1C1E20",
+      "leftSleeve": "#1C1E20",
+      "rightSleeve": "#1C1E20",
+      "collar": "#E32F27",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    }
+  },
+  "observations": "Black fading to red at the lower torso and sleeve ends, red round ring; the gold star and all branding omitted. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Black fading to red at the lower torso and sleeve ends, red round ring; the gold star and all branding omitted. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-central-2026-09-25/team_c7a6647f94aa6a8f9c07-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#1C1E20",
+      "leftSleeve": "#1C1E20",
+      "rightSleeve": "#1C1E20",
+      "collar": "#E32F27",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#E32F27",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#1C1E20",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 125,
+        "width": 102,
+        "height": 75,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 125,
+          "x2": 0,
+          "y2": 200,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 0.3,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 1,
+              "color": "#EE251D"
+            }
+          ]
+        },
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 50,
+        "width": 200,
+        "height": 44,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 50,
+          "x2": 0,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 0.3,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 1,
+              "color": "#F32B21"
+            }
+          ]
+        },
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 50,
+        "width": 200,
+        "height": 44,
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 50,
+          "x2": 0,
+          "y2": 87,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 0.3,
+              "color": "#1C1E20"
+            },
+            {
+              "offset": 1,
+              "color": "#F32B21"
+            }
+          ]
+        },
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -87,15 +87,20 @@ test('Tier 2 equipment fields use their own per-page capture, including explicit
  }
 });
 
-test('Tier 2 source gaps remain unavailable without substituting older seasons or other variants',async()=>{
+test('Tier 2 historical gaps are filled only by explicitly authorized independent sources',async()=>{
  const catalog=await read('public/catalog/manifest.json'),work=await read('data/research/tier2-worklist.json');
+ const policy=await read('data/research/season-policy.json');
  const gaps=[...(await read('data/research/tier2-romania-source-gaps-2026-09-24.json')).slots,...(await read('data/research/tier2-greece-finland-source-gaps-2026-09-24.json')).slots];
  assert.equal(gaps.length,46);assert.equal(new Set(gaps.map(g=>g.task_id)).size,46);
  for(const gap of gaps){
   const result=await read(`data/research/results/${gap.task_id}.json`),task=work.tasks.find(t=>t.task_id===gap.task_id);
-  assert.equal(result.status,'blocked');assert.equal(result.kit_season,null);assert.equal(task.status,'blocked');assert.ok(!task.reference_path);
+  assert.equal(result.status,'ready');assert.equal(task.status,'ready');assert.ok(task.reference_path);
+  const source=await read(`data/research/footballkitarchive/records/${gap.task_id}.json`);
+  const fallback=policy.fallbacks.find(f=>f.team_id===task.team_id&&f.variant===gap.variant&&f.season===result.kit_season);
+  assert.ok(fallback?.history_url);assert.equal(fallback.source_url,source.page_url);
+  assert.equal(source.variant,gap.variant);assert.equal(source.team_id,task.team_id);
   assert.ok(result.research_log.some(l=>l.source_url===gap.source_url&&l.outcome===gap.remaining));
   const slot=catalog.teams.find(t=>t.id===task.team_id).kits[gap.variant];
-  assert.equal(slot.status,'blocked');assert.ok(!slot.png_layout_revision);
+  assert.equal(slot.status,'ready');assert.ok(slot.png_layout_revision);
  }
 });

@@ -6,7 +6,7 @@
   "variant": "away",
   "kit_season": null,
   "status": "blocked",
-  "reason": "Archive search for \"Mascholouri\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical away reference. This is an archive evidence gap, not a claim that the team has no kit.",
+  "reason": "The preceding full archive source pass found no verified club history or independently labeled away reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,7 +41,7 @@
     "visually_verified": false
   },
   "remaining": [
-    "Archive search for \"Mascholouri\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical away reference. This is an archive evidence gap, not a claim that the team has no kit."
+    "The preceding full archive source pass found no verified club history or independently labeled away reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log."
   ],
   "research_log": [
     {
@@ -58,6 +58,13 @@
         }
       },
       "outcome": "Archive search for \"Mascholouri\": Found nothing. Current/previous-season league and country listings plus cup/regional listings did not supply a verified canonical away reference. This is an archive evidence gap, not a claim that the team has no kit."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Reassessed documented source gap under the new season policy.",
+      "history_urls": [],
+      "outcome": "The preceding full archive source pass found no verified club history or independently labeled away reference for this canonical identity. Removing the season cutoff does not resolve that source gap; the earlier search evidence is retained in the research log."
     }
   ]
 }

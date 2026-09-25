@@ -4,9 +4,8 @@
   "team_name": "Trabzonspor",
   "country_name": "Türkiye",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,62 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_1bbb90323f4170831631-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/trabzonspor-2026-27-home-kit-489731/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/31/krcquzXtycrES0G/trabzonspor-2026-27-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_1bbb90323f4170831631-home-489731.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Claret",
+      "Sky blue",
+      "Gold"
+    ],
+    "values": {
+      "body": "#632A3C",
+      "leftSleeve": "#632A3C",
+      "rightSleeve": "#632A3C",
+      "collar": "#C5B382",
+      "leftCuff": "#C6B88B",
+      "rightCuff": "#C6B88B"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Claret with three pale-blue vertical torso stripes, claret sleeves and pale-gold fine ring/cuff trim. Heather fabric supplied by original PNG, not traced from the photo. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-east-2026-09-25/team_1bbb90323f4170831631-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ecd33e35270ac46a684d.json",
+    "source_kit_id": "489731"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-east-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/trabzonspor-kits-t574/",
+      "source_url": "https://www.footballkitarchive.com/trabzonspor-2026-27-home-kit-489731/",
+      "outcome": "Ready Home, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }

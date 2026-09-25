@@ -4,9 +4,8 @@
   "team_name": "Rethymniakos",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2012-13 (home). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2012/13",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,9 +39,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2012-13 (home). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -70,6 +67,62 @@
         }
       },
       "outcome": "Independent club history checks: 2012-13 (home). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/ao-rethymniakos-kits-t44801/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/ao-rethymniakos-2012-13-home-kit-459536/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2012/13. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_2aed7ce4fc7df40bb1f4-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ao-rethymniakos-2012-13-home-kit-459536/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/02/25/jQqnErWI4v3McOh/ao-rethymniakos-2012-13-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2aed7ce4fc7df40bb1f4-home-459536.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2012/13"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Black"
+    ],
+    "values": {
+      "body": "#215D9C",
+      "leftSleeve": "#215D9C",
+      "rightSleeve": "#215D9C",
+      "collar": "#19272F",
+      "leftCuff": "#215D9C",
+      "rightCuff": "#215D9C"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Royal blue with dark navy curved shoulder/armhole bands, side inserts and ring. Historical mannequin front; no source V construction added. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_2aed7ce4fc7df40bb1f4-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5695b60ccad0484119db.json",
+    "source_kit_id": "459536"
+  }
 }

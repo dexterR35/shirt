@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_a491831ea38ba4746e71",
+  "team_name": "CS Păulești",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Sky-blue with dark grey angular inserts at lower flanks, plain sleeves and ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_a491831ea38ba4746e71-home-434717.jpg",
+      "page_url": "https://www.footballkitarchive.com/cs-paulesti-2025-26-home-kit-434717/",
+      "sha256": "7fc941d36cd8a8430b08f4712bcecb6feb2b8dd3e30635b4d8650cb4b3b4e29c"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#70CBE5",
+      "leftSleeve": "#70CBE5",
+      "rightSleeve": "#70CBE5",
+      "collar": "#65C0DC",
+      "leftCuff": "#70CBE5",
+      "rightCuff": "#70CBE5"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#65C0DC",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#70CBE5",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            113
+          ],
+          [
+            57,
+            125
+          ],
+          [
+            61,
+            146
+          ],
+          [
+            52,
+            137
+          ]
+        ],
+        "fill": "#4B6171",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            113
+          ],
+          [
+            143,
+            125
+          ],
+          [
+            139,
+            146
+          ],
+          [
+            148,
+            137
+          ]
+        ],
+        "fill": "#4B6171",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_11304406f92dcae223ee",
+  "team_name": "Fokikos",
+  "country_name": "Greece",
+  "variant": "away",
+  "kit_season": "2013/14",
+  "revision": "r001",
+  "research_batch": "latest-available-greece-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/fokikos-2013-14-away-kit-316279/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/11/23/viOWfpwduaEI9HI/fokikos-2013-14-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_11304406f92dcae223ee-away-316279.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2013/14"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Red",
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#B59664",
+      "leftCuff": "#B99A66",
+      "rightCuff": "#B99A66"
+    }
+  },
+  "observations": "Historical Away: broad asymmetric red/white vertical panels, white sleeves with red shoulder bands and gold edge trim. Original polo collar represented by red/gold ring only. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Historical Away: broad asymmetric red/white vertical panels, white sleeves with red shoulder bands and gold edge trim. Original polo collar represented by red/gold ring only. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_11304406f92dcae223ee-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#B59664",
+      "leftCuff": "#B99A66",
+      "rightCuff": "#B99A66"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#B59664",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.4 4.4L77 2Q100 7 123 2L128.6 4.4C131 30.4 69 30.4 71.4 4.4Z",
+          "fill": "#C42D30",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 0,
+        "width": 27,
+        "height": 200,
+        "fill": "#CD3334",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 49,
+        "y": 0,
+        "width": 25,
+        "height": 200,
+        "fill": "#CD3334",
+        "clip": "body",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            77,
+            4
+          ],
+          [
+            45,
+            16
+          ],
+          [
+            25,
+            30
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            49,
+            23
+          ],
+          [
+            77,
+            9
+          ]
+        ],
+        "fill": "#C63232",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            123,
+            4
+          ],
+          [
+            155,
+            16
+          ],
+          [
+            175,
+            30
+          ],
+          [
+            169,
+            35
+          ],
+          [
+            151,
+            23
+          ],
+          [
+            123,
+            9
+          ]
+        ],
+        "fill": "#C63232",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 74.6C24 79.2 36 84.5 44.5 83.6Q48 83.7 49.2 75.5L52 106H5Z",
+        "fill": "#B99A66",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 74.6C176 79.2 164 84.5 155.5 83.6Q152 83.7 150.8 75.5L148 106H195Z",
+        "fill": "#B99A66",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

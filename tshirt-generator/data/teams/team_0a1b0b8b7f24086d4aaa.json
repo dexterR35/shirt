@@ -11,42 +11,72 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "KF Egnatia",
+      "design": "Graphic",
+      "colors": [
+        "Green",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Joma",
       "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "competitions": [
+        "Albanian Kategoria Superiore",
+        "Conference League"
+      ],
+      "release_date": "June 10, 2026",
+      "release_date_iso": "2026-06-10",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/kf-egnatia-2026-27-home-kit-488276/",
+        "kit_id": "488276",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_7c2425a6708f881fdac7.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-albania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "KF Egnatia",
+      "design": "Single stripe",
+      "colors": [
+        "Black",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Joma",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Albanian Kategoria Superiore",
+        "Conference League"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/kf-egnatia-2026-27-away-kit-504007/",
+        "kit_id": "504007",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_1b9eba1f07835a3a910f.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-albania-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

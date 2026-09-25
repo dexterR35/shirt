@@ -5,8 +5,8 @@
   "country_name": "Romania",
   "variant": "home",
   "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "status": "blocked",
+  "reason": "Full available club history checked under the latest-equipment policy. No independently labeled home reference found for the canonical team, including older seasons. Other variants and first-team equipment are not substituted.",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -41,10 +41,33 @@
     "visually_verified": false
   },
   "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+    "Full available club history checked under the latest-equipment policy. No independently labeled home reference found for the canonical team, including older seasons. Other variants and first-team equipment are not substituted."
+  ],
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-current-gaps-2026-09-25",
+      "action": "Checked canonical club identity, current season and authorized previous-season fallback, including cup evidence. Supplied references excluded.",
+      "evidence": {
+        "histories": [
+          {
+            "team_name": "Bihorul Beiuș",
+            "url": "https://www.footballkitarchive.com/cs-bihorul-beius-kits-t84808/",
+            "latest_season": "2025-26"
+          }
+        ],
+        "searches": []
+      },
+      "outcome": "Independent club history checked: 2025-26. No 2026/27 or authorized 2025/26 home reference found for the canonical team. Current/previous-season league listings and the cup listing were also checked."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Reviewed full available history and canonical identity.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/cs-bihorul-beius-kits-t84808/"
+      ],
+      "outcome": "Full available club history checked under the latest-equipment policy. No independently labeled home reference found for the canonical team, including older seasons. Other variants and first-team equipment are not substituted."
+    }
   ]
 }

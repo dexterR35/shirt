@@ -11,42 +11,73 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Club Brugge",
+      "design": "Stripes",
+      "colors": [
+        "Blue",
+        "Black",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "Betsson",
+      "competitions": [
+        "Belgian Pro League",
+        "Champions League"
+      ],
+      "release_date": "May 24, 2026",
+      "release_date_iso": "2026-05-24",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/club-brugge-2026-27-home-kit-485117/",
+        "kit_id": "485117",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_82b711545846ef50edba.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-belgium-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Club Brugge",
+      "design": "Plain",
+      "colors": [
+        "Off-white",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "BetFirst",
+      "competitions": [
+        "Belgian Pro League",
+        "Champions League"
+      ],
+      "release_date": "July 23, 2026",
+      "release_date_iso": "2026-07-23",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/club-brugge-2026-27-away-kit-498482/",
+        "kit_id": "498482",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_0a22fe31dad61339bec3.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-belgium-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

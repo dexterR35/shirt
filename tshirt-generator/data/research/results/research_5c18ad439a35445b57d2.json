@@ -4,9 +4,8 @@
   "team_name": "Thyella Katsikas",
   "country_name": "Greece",
   "variant": "home",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference.",
+  "kit_season": "2023/24",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -40,9 +39,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-25",
@@ -78,6 +75,63 @@
         "search": null
       },
       "outcome": "Independent club history checks: 2023-24 (home/away). No 2026/27 or authorized 2025/26 home reference found. Cup/regional listings checked without an eligible additional reference."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-greece-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/thyella-katsikas-kits-t20894/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/thyella-katsikas-2023-24-home-kit-222765/",
+      "outcome": "Latest independently labeled home kit selected from the checked history, retaining 2023/24. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_4959328facf4df044570-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/thyella-katsikas-2023-24-home-kit-222765/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/01/28/IgHns58aeqxOL8N/thyella-katsikas-2023-24-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_4959328facf4df044570-home-222765.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2023/24"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Red",
+      "Black"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#1C1E20",
+      "leftCuff": "#E92122",
+      "rightCuff": "#E92122"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with wide red diagonal sash rising toward viewer right, black ring and red cuffs; brush ends simplified. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-greece-2026-09-25/team_4959328facf4df044570-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_5c18ad439a35445b57d2.json",
+    "source_kit_id": "222765"
+  }
 }

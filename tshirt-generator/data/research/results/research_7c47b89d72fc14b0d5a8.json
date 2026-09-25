@@ -4,8 +4,8 @@
   "team_name": "Ghiroda și Giarmata Vii",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -40,11 +40,54 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_ae4adfa3143dd340e2e8-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csc-ghiroda-2025-26-home-kit-418625/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/jUKZm6ReBx16GIJ/csc-ghiroda-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_ae4adfa3143dd340e2e8-home-418625.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "Yellow",
+      "Orange"
+    ],
+    "values": {
+      "body": "#EDD33C",
+      "leftSleeve": "#EDD33C",
+      "rightSleeve": "#EDD33C",
+      "collar": "#2454B5",
+      "leftCuff": "#2B59B6",
+      "rightCuff": "#2B59B6"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow with broad blue body stripes, central blue stripe, fine gold pinlines in yellow fields, blue cuff ends and blue/yellow ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_ae4adfa3143dd340e2e8-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_7c47b89d72fc14b0d5a8.json",
+    "source_kit_id": "418625"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-b-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

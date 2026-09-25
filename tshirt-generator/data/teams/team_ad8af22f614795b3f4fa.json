@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_ad8af22f614795b3f4fa",
+        "variant": "home",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-home-kit-447144/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "JJK Jyväskylä",
+      "design": "Plain",
+      "colors": [
+        "Claret",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Nike",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-home-kit-447144/",
+        "kit_id": "447144",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_2a73d10c337d5ccc5c0a.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025",
+      "source_season_label": "2025",
+      "season_fallback": {
+        "team_id": "team_ad8af22f614795b3f4fa",
+        "variant": "away",
+        "season": "2025",
+        "source_url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-away-kit-447145/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026. Finnish calendar-year 2025 is the prior domestic season; preserve literal 2025 and Carry-over where present. Independent reserve-team history used where applicable."
+      },
+      "source_team_name": "JJK Jyväskylä",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Black"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Nike",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Ykkönen"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/jjk-jyvaskyla-2025-away-kit-447145/",
+        "kit_id": "447145",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/finland/",
+        "record_path": "data/research/footballkitarchive/records/research_b75a8094fe860f5f8d34.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-finland-fallback-2025.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

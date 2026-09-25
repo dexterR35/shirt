@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_6d417877073be90a8148",
+  "team_name": "Minaur Baia Mare",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2024/25",
+  "revision": "r001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-minaur-baia-mare-2024-25-away-kit-322929/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2024/12/15/4eWxzQBAWSVKq2l/cs-minaur-baia-mare-2024-25-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_6d417877073be90a8148-away-322929.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2024/25"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Blue",
+      "White"
+    ],
+    "values": {
+      "body": "#203D93",
+      "leftSleeve": "#203D93",
+      "rightSleeve": "#203D93",
+      "collar": "#F1F2EE",
+      "leftCuff": "#203D93",
+      "rightCuff": "#203D93"
+    }
+  },
+  "observations": "Navy/royal-blue body/sleeves and white ring observed in action photo. White shoulder chevrons are manufacturer symbols and removed. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Navy/royal-blue body/sleeves and white ring observed in action photo. White shoulder chevrons are manufacturer symbols and removed. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-romania-2026-09-25/team_6d417877073be90a8148-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#203D93",
+      "leftSleeve": "#203D93",
+      "rightSleeve": "#203D93",
+      "collar": "#F1F2EE",
+      "leftCuff": "#203D93",
+      "rightCuff": "#203D93"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F1F2EE",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#203D93",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [],
+    "detailLayers": []
+  }
+}

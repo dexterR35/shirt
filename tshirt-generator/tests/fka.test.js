@@ -64,7 +64,7 @@ test('every country capture resolves unique workbook slots with independent inta
       assert.ok(season===task.candidate_kit_season||permittedSeason(team.id,row.variant.toLowerCase(),season),'A differing season needs explicit fallback evidence');
       assert.ok(!seen.has(task.id),`Duplicate source task ${task.id}`);seen.add(task.id);
       const record=JSON.parse(await fs.readFile(`${root}/records/${task.id}.json`,'utf8'));
-      assert.equal(record.source_season_label,row.season);
+      assert.equal(record.source_season_label,row.source_season_label||row.season);
       assert.equal(record.source_kit_id,row.kit_id);
       assert.equal(record.team_id,team.id);
       const hash=crypto.createHash('sha256').update(await fs.readFile(record.local_reference_path)).digest('hex');

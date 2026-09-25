@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_dccc7de9c2a0fafd097d",
+  "team_name": "FC Midtjylland",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "rest-north-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Black with grouped fine red vertical pinlines, black round ring/cuffs and fine red edges. Independently evidenced home reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_dccc7de9c2a0fafd097d-home-497906.jpg",
+      "page_url": "https://www.footballkitarchive.com/fc-midtjylland-2026-27-home-kit-497906/",
+      "sha256": "f5c844181a74a4c809dd0002a1c0fd032867998b48445200fe1a4244e6c8d403"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#151A1D",
+      "leftSleeve": "#151A1D",
+      "rightSleeve": "#151A1D",
+      "collar": "#C52D40",
+      "leftCuff": "#1C1E20",
+      "rightCuff": "#1C1E20"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C52D40",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-collar-color-1",
+          "type": "path",
+          "d": "M71.3 4.443L77 2Q100 7 123 2L128.7 4.443C131.071 30.514 68.929 30.514 71.3 4.443Z",
+          "fill": "#1C1E20",
+          "clip": "all"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#151A1D",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "rect",
+        "x": 6,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 9,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 12,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 30,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 33,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 36,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 54,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 57,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 60,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 78,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 81,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 84,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 102,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 105,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 108,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 126,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 129,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 132,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 150,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 153,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 156,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 174,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 177,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 180,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 198,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 201,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "rect",
+        "x": 204,
+        "y": 0,
+        "width": 0.35,
+        "height": 200,
+        "fill": "#A0343E",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 71.6C24 76.2 36 81.5 44.5 80.6Q48 80.7 49.2 72.5L52 106H5Z",
+        "fill": "#1C1E20",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M12 75.39999999999999C24 80 36 85.3 44.5 84.39999999999999Q48 84.5 49.2 76.3L52 106H5Z",
+        "fill": "#C5293F",
+        "clip": "leftSleeve",
+        "opacity": 1
+      },
+      {
+        "type": "path",
+        "d": "M188 71.6C176 76.2 164 81.5 155.5 80.6Q152 80.7 150.8 72.5L148 106H195Z",
+        "fill": "#1C1E20",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 75.39999999999999C176 80 164 85.3 155.5 84.39999999999999Q152 84.5 150.8 76.3L148 106H195Z",
+        "fill": "#C5293F",
+        "clip": "rightSleeve",
+        "opacity": 1
+      }
+    ]
+  }
+}

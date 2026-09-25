@@ -4,9 +4,8 @@
   "team_name": "SJK Akatemia",
   "country_name": "Finland",
   "variant": "away",
-  "kit_season": null,
-  "status": "blocked",
-  "reason": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled.",
+  "kit_season": "2025",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,9 +67,7 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
-  ],
+  "remaining": [],
   "research_log": [
     {
       "date": "2026-09-24",
@@ -82,6 +79,62 @@
       ],
       "additional_sources": [],
       "outcome": "Latest observed archive season is 2025; no independently confirmed 2026/27 or calendar-year 2026 away reference found. Older season not relabeled."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-finland-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "latest-available-2026-09-25",
+      "action": "Selected latest source and completed source/render comparison.",
+      "history_urls": [
+        "https://www.footballkitarchive.com/sjk-seinajoki-ii-kits-t31908/"
+      ],
+      "source_url": "https://www.footballkitarchive.com/sjk-seinajoki-ii-2025-away-kit-444297/",
+      "outcome": "Latest independently labeled away kit selected from the checked history, retaining 2025. Individually compared reference and original-PNG adaptation; estimated colors and construction limitations documented."
     }
-  ]
+  ],
+  "kit_revision_path": "data/kits/team_2cf45485dee69ac5148e-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/sjk-seinajoki-ii-2025-away-kit-444297/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/01/12/woZTv6w7Tuarpu2/sjk-seinajoki-ii-2025-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_2cf45485dee69ac5148e-away-444297.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gold"
+    ],
+    "values": {
+      "body": "#F1F2EE",
+      "leftSleeve": "#F1F2EE",
+      "rightSleeve": "#F1F2EE",
+      "collar": "#F1F2EE",
+      "leftCuff": "#F1F2EE",
+      "rightCuff": "#F1F2EE"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White reserve shirt with thin gold vertical pinstripes and three gold shoulder tapes. Latest independently evidenced away kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+    "render_path": "artifacts/footballkitarchive/latest-available-finland-2026-09-25/team_2cf45485dee69ac5148e-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_ce9bfa2f1f07502e9a74.json",
+    "source_kit_id": "444297"
+  }
 }

@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_43c5b2dcb43f438d5f64",
+  "team_name": "CS Blejoi",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/cs-blejoi-2025-26-away-kit-434711/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/12/13/h1gH8hGFBJxNqq0/cs-blejoi-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_43c5b2dcb43f438d5f64-away-434711.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Blue"
+    ],
+    "values": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#287DCD",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    }
+  },
+  "observations": "White with blue fading shoulder-side inserts and lower side panels, white sleeves and blue ring; small halftone dots reduced to flat ink gradient. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with blue fading shoulder-side inserts and lower side panels, white sleeves and blue ring; small halftone dots reduced to flat ink gradient. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_43c5b2dcb43f438d5f64-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#287DCD",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#287DCD",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            132
+          ],
+          [
+            57,
+            147
+          ],
+          [
+            57,
+            199
+          ],
+          [
+            49,
+            199
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 132,
+          "x2": 0,
+          "y2": 198,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#DCE5EB"
+            },
+            {
+              "offset": 0.45,
+              "color": "#4289C5"
+            },
+            {
+              "offset": 1,
+              "color": "#0870C3"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            132
+          ],
+          [
+            143,
+            147
+          ],
+          [
+            143,
+            199
+          ],
+          [
+            151,
+            199
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 132,
+          "x2": 0,
+          "y2": 198,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#DCE5EB"
+            },
+            {
+              "offset": 0.45,
+              "color": "#4289C5"
+            },
+            {
+              "offset": 1,
+              "color": "#0870C3"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            75,
+            3
+          ],
+          [
+            82,
+            13
+          ],
+          [
+            77,
+            34
+          ],
+          [
+            68,
+            17
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 3,
+          "x2": 0,
+          "y2": 34,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#0870C3"
+            },
+            {
+              "offset": 1,
+              "color": "#F0F1EE"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            125,
+            3
+          ],
+          [
+            118,
+            13
+          ],
+          [
+            123,
+            34
+          ],
+          [
+            132,
+            17
+          ]
+        ],
+        "fill": {
+          "type": "linearGradient",
+          "x1": 0,
+          "y1": 3,
+          "x2": 0,
+          "y2": 34,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#0870C3"
+            },
+            {
+              "offset": 1,
+              "color": "#F0F1EE"
+            }
+          ]
+        },
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

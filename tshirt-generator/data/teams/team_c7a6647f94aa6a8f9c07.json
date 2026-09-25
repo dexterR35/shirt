@@ -11,42 +11,74 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Slavia Praha",
+      "design": "Half-and-half",
+      "colors": [
+        "Red",
+        "White",
+        "Navy"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "eToro",
+      "competitions": [
+        "Czech First League",
+        "Champions League"
+      ],
+      "release_date": "July 16, 2026",
+      "release_date_iso": "2026-07-16",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/slavia-praha-2026-27-home-kit-496448/",
+        "kit_id": "496448",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_3e5870a62d4e5c060c37.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-czechia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "Slavia Praha",
+      "design": "Gradient",
+      "colors": [
+        "Black",
+        "Red",
+        "Gold"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Castore",
+      "sponsor": "eToro",
+      "competitions": [
+        "Czech First League",
+        "Champions League"
+      ],
+      "release_date": "July 16, 2026",
+      "release_date_iso": "2026-07-16",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/slavia-praha-2026-27-away-kit-496449/",
+        "kit_id": "496449",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_7a87e66e6aad387cdd06.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-czechia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

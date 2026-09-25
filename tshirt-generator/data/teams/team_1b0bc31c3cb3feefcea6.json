@@ -11,42 +11,82 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1b0bc31c3cb3feefcea6",
+        "variant": "home",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/makedonikos-2025-26-home-kit-417494/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026."
+      },
+      "source_team_name": "Makedonikos",
+      "design": "Graphic",
+      "colors": [
+        "Green",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/makedonikos-2025-26-home-kit-417494/",
+        "kit_id": "417494",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_7cdb0d4c03838141eff1.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-tail-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2025/26",
+      "source_season_label": "25-26",
+      "season_fallback": {
+        "team_id": "team_1b0bc31c3cb3feefcea6",
+        "variant": "away",
+        "season": "2025/26",
+        "source_url": "https://www.footballkitarchive.com/makedonikos-2025-26-away-kit-421048/",
+        "reason": "Independent club history has no 2026/27 Home/Away entry. User authorized previous-season fallback on 25 September 2026."
+      },
+      "source_team_name": "Makedonikos",
+      "design": "Contrasting sleeves",
+      "colors": [
+        "White",
+        "Green"
+      ],
       "color_values_official": false,
-      "brand": null,
+      "brand": "Macron",
       "sponsor": null,
-      "competitions": [],
+      "competitions": [
+        "Super League Greece 2"
+      ],
       "release_date": null,
       "release_date_iso": null,
-      "extended_fields_checked": false,
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/makedonikos-2025-26-away-kit-421048/",
+        "kit_id": "421048",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/country/greece/",
+        "record_path": "data/research/footballkitarchive/records/research_67e6fa35076bf42481dd.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/tier3-greece-tail-2025-26.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

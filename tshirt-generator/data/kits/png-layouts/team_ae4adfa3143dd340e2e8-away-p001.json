@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_ae4adfa3143dd340e2e8",
+  "team_name": "Ghiroda și Giarmata Vii",
+  "variant": "away",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Orange body with charcoal shoulder caps and broad lower-sleeve blocks, orange sleeve mid-band and ring. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_ae4adfa3143dd340e2e8-away-436001.jpg",
+      "page_url": "https://www.footballkitarchive.com/csc-ghiroda-2025-26-away-kit-436001/",
+      "sha256": "4a04767adea2742611d767a5e661f09648efcf5192b50816ae41c4ac7b958d03"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#FA774B",
+      "leftSleeve": "#FA774B",
+      "rightSleeve": "#FA774B",
+      "collar": "#F4764D",
+      "leftCuff": "#414B58",
+      "rightCuff": "#414B58"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#F4764D",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#FA774B",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            75,
+            4
+          ],
+          [
+            72,
+            14
+          ],
+          [
+            50,
+            19
+          ],
+          [
+            33,
+            36
+          ],
+          [
+            0,
+            31
+          ]
+        ],
+        "fill": "#414B58",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            200,
+            0
+          ],
+          [
+            125,
+            4
+          ],
+          [
+            128,
+            14
+          ],
+          [
+            150,
+            19
+          ],
+          [
+            167,
+            36
+          ],
+          [
+            200,
+            31
+          ]
+        ],
+        "fill": "#414B58",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": [
+      {
+        "type": "path",
+        "d": "M12 51.599999999999994C24 56.2 36 61.5 44.5 60.599999999999994Q48 60.7 49.2 52.5L52 106H5Z",
+        "fill": "#414B58",
+        "clip": "leftSleeve",
+        "opacity": 1,
+        "colorRole": "leftCuff"
+      },
+      {
+        "type": "path",
+        "d": "M188 51.599999999999994C176 56.2 164 61.5 155.5 60.599999999999994Q152 60.7 150.8 52.5L148 106H195Z",
+        "fill": "#414B58",
+        "clip": "rightSleeve",
+        "opacity": 1,
+        "colorRole": "rightCuff"
+      }
+    ]
+  }
+}

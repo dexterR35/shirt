@@ -11,42 +11,87 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_d0ed56902da1c892d754",
+        "variant": "home",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/sk-brann-kits-t1111/",
+        "source_url": "https://www.footballkitarchive.com/sk-brann-2026-home-kit-465593/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "SK Brann",
+      "design": "Graphic",
+      "colors": [
+        "Red",
+        "White"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Sparebanken Vest",
+      "competitions": [
+        "Eliteserien",
+        "Conference League"
+      ],
+      "release_date": "March 13, 2026",
+      "release_date_iso": "2026-03-13",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/sk-brann-2026-home-kit-465593/",
+        "kit_id": "465593",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_11d3ca668f71ef70db98.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-norway-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
-      "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "status": "source_saved",
+      "season": "2026",
+      "source_season_label": "2026",
+      "season_fallback": {
+        "team_id": "team_d0ed56902da1c892d754",
+        "variant": "away",
+        "season": "2026",
+        "history_url": "https://www.footballkitarchive.com/sk-brann-kits-t1111/",
+        "source_url": "https://www.footballkitarchive.com/sk-brann-2026-away-kit-478373/",
+        "reason": "Latest independently labeled variant selected from the live full club history, retaining its calendar or previous-season label under the authorized latest-equipment policy."
+      },
+      "source_team_name": "SK Brann",
+      "design": "Stripes",
+      "colors": [
+        "Black",
+        "Gray",
+        "Purple"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "Nike",
+      "sponsor": "Sparebanken Vest",
+      "competitions": [
+        "Eliteserien",
+        "Conference League"
+      ],
+      "release_date": "April 27, 2026",
+      "release_date_iso": "2026-04-27",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/sk-brann-2026-away-kit-478373/",
+        "kit_id": "478373",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_232e9df13ea6a8199f2d.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-norway-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

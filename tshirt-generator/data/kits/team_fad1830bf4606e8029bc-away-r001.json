@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_fad1830bf4606e8029bc",
+  "team_name": "CSM Săcele",
+  "country_name": "Romania",
+  "variant": "away",
+  "kit_season": "2025/26",
+  "revision": "r001",
+  "research_batch": "tier3-romania-b-2026-09-25",
+  "status": "ready",
+  "surface_version": "replacement-base-vector-3",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/csm-sacele-2025-26-away-kit-418614/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/10/13/6bx4lPzrkzqtkIw/csm-sacele-2025-26-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_fad1830bf4606e8029bc-away-418614.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Gray",
+      "Red"
+    ],
+    "values": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#C62A37",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    }
+  },
+  "observations": "White with grey upper-side wedges and paired narrow red curved flank stripes tapering down torso; red round ring. Far-side panel mirrored from visible construction. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+  "omitted": "Emblems, logos, sponsors and lettering. Original PNG collar construction retained.",
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "White with grey upper-side wedges and paired narrow red curved flank stripes tapering down torso; red round ring. Far-side panel mirrored from visible construction. Independently verified 2025/26 fallback reference; literal season retained. Colors estimated from photographs. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-b-2026-09-25/team_fad1830bf4606e8029bc-away.png"
+  },
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#F0F1EE",
+      "leftSleeve": "#F0F1EE",
+      "rightSleeve": "#F0F1EE",
+      "collar": "#C62A37",
+      "leftCuff": "#F0F1EE",
+      "rightCuff": "#F0F1EE"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#C62A37",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#F0F1EE",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            70,
+            4
+          ],
+          [
+            62,
+            11
+          ],
+          [
+            62,
+            30
+          ],
+          [
+            52,
+            18
+          ]
+        ],
+        "fill": "#888984",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            130,
+            4
+          ],
+          [
+            138,
+            11
+          ],
+          [
+            138,
+            30
+          ],
+          [
+            148,
+            18
+          ]
+        ],
+        "fill": "#888984",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            55,
+            11
+          ],
+          [
+            60,
+            23
+          ],
+          [
+            66,
+            47
+          ],
+          [
+            63,
+            76
+          ],
+          [
+            55,
+            42
+          ],
+          [
+            43,
+            35
+          ],
+          [
+            35,
+            25
+          ]
+        ],
+        "fill": "#646668",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            11
+          ],
+          [
+            140,
+            23
+          ],
+          [
+            134,
+            47
+          ],
+          [
+            137,
+            76
+          ],
+          [
+            145,
+            42
+          ],
+          [
+            157,
+            35
+          ],
+          [
+            165,
+            25
+          ]
+        ],
+        "fill": "#646668",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            55,
+            13
+          ],
+          [
+            60,
+            23
+          ],
+          [
+            68,
+            54
+          ],
+          [
+            66,
+            103
+          ],
+          [
+            59,
+            153
+          ],
+          [
+            63,
+            83
+          ],
+          [
+            62,
+            56
+          ],
+          [
+            56,
+            30
+          ]
+        ],
+        "fill": "#C33742",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            145,
+            13
+          ],
+          [
+            140,
+            23
+          ],
+          [
+            132,
+            54
+          ],
+          [
+            134,
+            103
+          ],
+          [
+            141,
+            153
+          ],
+          [
+            137,
+            83
+          ],
+          [
+            138,
+            56
+          ],
+          [
+            144,
+            30
+          ]
+        ],
+        "fill": "#C33742",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            48,
+            16
+          ],
+          [
+            54,
+            26
+          ],
+          [
+            60,
+            57
+          ],
+          [
+            58,
+            88
+          ],
+          [
+            54,
+            62
+          ],
+          [
+            48,
+            34
+          ],
+          [
+            40,
+            25
+          ]
+        ],
+        "fill": "#BB303C",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            152,
+            16
+          ],
+          [
+            146,
+            26
+          ],
+          [
+            140,
+            57
+          ],
+          [
+            142,
+            88
+          ],
+          [
+            146,
+            62
+          ],
+          [
+            152,
+            34
+          ],
+          [
+            160,
+            25
+          ]
+        ],
+        "fill": "#BB303C",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

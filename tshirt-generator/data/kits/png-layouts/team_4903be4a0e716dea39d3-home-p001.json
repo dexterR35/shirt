@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "team_id": "team_4903be4a0e716dea39d3",
+  "team_name": "Viitorul Cluj",
+  "variant": "home",
+  "source_revision": "r001",
+  "layout_revision": "p001",
+  "research_batch": "latest-available-romania-2026-09-25",
+  "surface_version": "original-png-composite-1",
+  "status": "reviewed",
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-09-25",
+  "human_approved": false,
+  "review_scope": "Medium blue with lime small shoulder ticks and tapered side inserts; blue ring. Latest independently evidenced home kit selected after checking the team history under the 25 September latest-equipment instruction. Actual source season retained. Colors estimated; fine print and obscured construction adapted to the common silhouette. Original PNG fabric, alpha and physical round collar preserved. Crests, sponsors, manufacturer symbols and lettering removed.",
+  "limitations": "Colors and placement are visual adaptations; original PNG round collar, fabric and folds retained.",
+  "references": [
+    {
+      "local_path": "data/research/references/footballkitarchive/team_4903be4a0e716dea39d3-home-302569.jpg",
+      "page_url": "https://www.footballkitarchive.com/af-viitorul-cluj-2023-24-home-kit-302569/",
+      "sha256": "ce0443c0fd47412928ae8b04f0f5f2176cab99c98be0b36308d42907e6a87d5e"
+    }
+  ],
+  "config": {
+    "schemaVersion": 2,
+    "templateVersion": "png-front-1",
+    "coordinateSpace": "reference-200",
+    "colors": {
+      "body": "#2789C2",
+      "leftSleeve": "#2789C2",
+      "rightSleeve": "#2789C2",
+      "collar": "#2789C2",
+      "leftCuff": "#2789C2",
+      "rightCuff": "#2789C2"
+    },
+    "collar": {
+      "shape": "custom",
+      "layers": [
+        {
+          "id": "base-collar-color-0",
+          "type": "path",
+          "d": "M70 5L77 2Q100 7 123 2L130 5C132 32 68 32 70 5Z",
+          "fill": "#2789C2",
+          "clip": "all",
+          "colorRole": "collar"
+        },
+        {
+          "id": "base-neck-facing",
+          "type": "path",
+          "d": "M77 2Q100 7 123 2C127 24 73 24 77 2Z",
+          "fill": "#2789C2",
+          "clip": "all",
+          "colorRole": "body"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "type": "polygon",
+        "points": [
+          [
+            49,
+            82
+          ],
+          [
+            57,
+            108
+          ],
+          [
+            55,
+            120
+          ],
+          [
+            49,
+            96
+          ]
+        ],
+        "fill": "#C1DA31",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            151,
+            82
+          ],
+          [
+            143,
+            108
+          ],
+          [
+            145,
+            120
+          ],
+          [
+            151,
+            96
+          ]
+        ],
+        "fill": "#C1DA31",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            57,
+            10
+          ],
+          [
+            65,
+            7
+          ],
+          [
+            68,
+            10
+          ],
+          [
+            60,
+            14
+          ]
+        ],
+        "fill": "#C1DA31",
+        "clip": "all",
+        "opacity": 1
+      },
+      {
+        "type": "polygon",
+        "points": [
+          [
+            143,
+            10
+          ],
+          [
+            135,
+            7
+          ],
+          [
+            132,
+            10
+          ],
+          [
+            140,
+            14
+          ]
+        ],
+        "fill": "#C1DA31",
+        "clip": "all",
+        "opacity": 1
+      }
+    ],
+    "detailLayers": []
+  }
+}

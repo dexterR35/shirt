@@ -4,8 +4,8 @@
   "team_name": "Ceahlăul Piatra Neamț",
   "country_name": "Romania",
   "variant": "home",
-  "kit_season": null,
-  "status": "researching",
+  "kit_season": "2025/26",
+  "status": "ready",
   "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
   "seed_references": [
     {
@@ -68,11 +68,53 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_a9e54c5a181287210b19-home-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/ceahlaul-piatra-neamt-2025-26-home-kit-394894/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2025/07/28/9kTcyWOHPJ0FFlu/ceahlaul-piatra-neamt-2025-26-home-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_a9e54c5a181287210b19-home-394894.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "home",
+      "kit_season": "2025/26"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "Yellow",
+      "Black"
+    ],
+    "values": {
+      "body": "#E9CF21",
+      "leftSleeve": "#E9CF21",
+      "rightSleeve": "#E9CF21",
+      "collar": "#E9CF21",
+      "leftCuff": "#484627",
+      "rightCuff": "#484627"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Yellow torso and ring with densely striped contrasting dark olive raglan sleeves. Source scarf/pose conceals parts of front. Oversized lower deer/emblem and faceted badge treated as discrete identity marks and omitted along with crest and sponsor; unobscured fabric continued. Independently verified 2025/26 Home/Away fallback; current club history checked first and literal season retained. Color and obscured detail estimated from the photograph. Original PNG fabric, transparency and existing round collar preserved; logos, lettering, crests, manufacturer symbols and sponsors removed.",
+    "render_path": "artifacts/footballkitarchive/tier3-romania-d-2026-09-25/team_a9e54c5a181287210b19-home.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_b6504d5c30b8f87f81dc.json",
+    "source_kit_id": "394894"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "tier3-romania-d-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    }
   ]
 }

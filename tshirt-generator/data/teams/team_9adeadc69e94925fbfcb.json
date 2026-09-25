@@ -11,42 +11,74 @@
     "home": {
       "variant": "home",
       "type": "Home",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "HNK Hajduk Split",
+      "design": "Plain",
+      "colors": [
+        "White",
+        "Red",
+        "Blue"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Tommy",
+      "competitions": [
+        "HNL",
+        "Conference League"
+      ],
+      "release_date": "July 22, 2026",
+      "release_date_iso": "2026-07-22",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hnk-hajduk-split-2026-27-home-kit-499458/",
+        "kit_id": "499458",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_3360338bb4f2aef75dd0.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-croatia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     },
     "away": {
       "variant": "away",
       "type": "Away",
-      "status": "pending_research",
-      "season": null,
-      "source_season_label": null,
+      "status": "source_saved",
+      "season": "2026/27",
+      "source_season_label": "26-27",
       "season_fallback": null,
-      "source_team_name": null,
-      "design": null,
-      "colors": [],
+      "source_team_name": "HNK Hajduk Split",
+      "design": "Hoops",
+      "colors": [
+        "Red",
+        "Navy",
+        "Off-white"
+      ],
       "color_values_official": false,
-      "brand": null,
-      "sponsor": null,
-      "competitions": [],
-      "release_date": null,
-      "release_date_iso": null,
-      "extended_fields_checked": false,
+      "brand": "adidas",
+      "sponsor": "Tommy",
+      "competitions": [
+        "HNL",
+        "Conference League"
+      ],
+      "release_date": "August 6, 2026",
+      "release_date_iso": "2026-08-06",
+      "extended_fields_checked": true,
       "source_issue": null,
-      "source": null
+      "source": {
+        "publisher": "Football Kit Archive",
+        "url": "https://www.footballkitarchive.com/hnk-hajduk-split-2026-27-away-kit-504535/",
+        "kit_id": "504535",
+        "checked_at": "2026-09-25",
+        "evidence_url": "https://www.footballkitarchive.com/",
+        "record_path": "data/research/footballkitarchive/records/research_f7c2b6151d0fa722fdd2.json",
+        "extended_fields_capture": "data/research/footballkitarchive/captures/rest-croatia-2026-09-25.tsv",
+        "extended_fields_checked_at": "2026-09-25"
+      }
     }
   }
 }

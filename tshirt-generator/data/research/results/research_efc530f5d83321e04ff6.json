@@ -4,9 +4,8 @@
   "team_name": "Jagiellonia Białystok",
   "country_name": "Poland",
   "variant": "away",
-  "kit_season": null,
-  "status": "researching",
-  "reason": "Discovery query completed. Official front-view image, exact season/variant, colors, geometry and visual comparison remain to be completed.",
+  "kit_season": "2026/27",
+  "status": "ready",
   "seed_references": [
     {
       "purpose": "competition_membership",
@@ -68,11 +67,61 @@
     "search_succeeded": true,
     "visually_verified": false
   },
-  "remaining": [
-    "Inspect official club/federation/manufacturer source",
-    "Save the correct season and variant front photograph",
-    "Estimate and document garment colors",
-    "Map observed shapes onto the original master",
-    "Render and visually review"
+  "remaining": [],
+  "kit_revision_path": "data/kits/team_94b4ed3ff8e9cf5585b2-away-r001.json",
+  "references": [
+    {
+      "publisher": "Football Kit Archive",
+      "page_url": "https://www.footballkitarchive.com/jagiellonia-bialystok-2026-27-away-kit-501333/",
+      "image_url": "https://www.footballkitarchive.com/cdn/2026/07/30/R1yORCbmU8jNpUG/jagiellonia-bialystok-2026-27-away-kit.jpg",
+      "local_path": "data/research/references/footballkitarchive/team_94b4ed3ff8e9cf5585b2-away-501333.jpg",
+      "checked_at": "2026-09-25",
+      "source_type": "user-designated source of truth",
+      "variant": "away",
+      "kit_season": "2026/27"
+    }
+  ],
+  "color_evidence": {
+    "basis": "Estimated from the independently saved archive front image; not official HEX.",
+    "official_hex": false,
+    "source_color_names": [
+      "White",
+      "Claret"
+    ],
+    "values": {
+      "body": "#F4F2DB",
+      "leftSleeve": "#F4F2DB",
+      "rightSleeve": "#F4F2DB",
+      "collar": "#913B42",
+      "leftCuff": "#A14950",
+      "rightCuff": "#A14950"
+    }
+  },
+  "visual_review": {
+    "reviewed_by": "Codex",
+    "reviewed_at": "2026-09-25",
+    "human_approved": false,
+    "outcome": "source-reviewed PNG adaptation",
+    "notes": "Warm ivory with very pale green fine vertical columns and woven cross ornaments; fine burgundy cuff/neckline edging. Independently evidenced away reference selected from the full club history. Actual source season and event/version labels retained. Colors estimated from the source, with fine print and obscured regions adapted to the common silhouette. Original PNG alpha, fabric and physical round collar preserved; emblems, sponsors, manufacturer symbols and lettering excluded.",
+    "render_path": "artifacts/footballkitarchive/rest-central-2026-09-25/team_94b4ed3ff8e9cf5585b2-away.png"
+  },
+  "footballkitarchive": {
+    "record_path": "data/research/footballkitarchive/records/research_efc530f5d83321e04ff6.json",
+    "source_kit_id": "501333"
+  },
+  "research_log": [
+    {
+      "date": "2026-09-25",
+      "batch": "rest-central-2026-09-25",
+      "action": "Compared archive reference with PNG adaptation."
+    },
+    {
+      "date": "2026-09-25",
+      "batch": "rest-2026-09-25",
+      "action": "Full club history and exact independent variant checked; source/render comparison completed.",
+      "history_url": "https://www.footballkitarchive.com/jagiellonia-bialystok-kits-t724/",
+      "source_url": "https://www.footballkitarchive.com/jagiellonia-bialystok-2026-27-away-kit-501333/",
+      "outcome": "Ready Away, retaining source season 26-27. Estimated colors and print/construction adaptations recorded in the kit review."
+    }
   ]
 }
