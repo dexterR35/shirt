@@ -8,8 +8,9 @@ import Modal from "../Modal.jsx";
 import PartHighlight from "../PartHighlight.jsx";
 import EquipmentCard from "../EquipmentCard.jsx";
 import PageHeader from "../PageHeader.jsx";
+import DownloadStats from "../DownloadStats.jsx";
 import { teamReviewSummary, reviewStatus } from "../lib/reviews.js";
-import { hasReadyKit, variantLabel } from "../lib/catalog.js";
+import { hasReadyKit, kitItem, variantLabel } from "../lib/catalog.js";
 import { ZOOM_MIN, ZOOM_MAX } from "../lib/use-zoom.js";
 
 /** Relative luminance (0–1) of a #rrggbb color, to keep caption text readable. */
@@ -150,7 +151,6 @@ export default function StudioPage() {
                   className={`team-monogram ${t.avatar ? "kit-colors" : ""}`}
                   style={t.avatar && {
                     background: t.avatar.body,
-                    borderColor: t.avatar.ring,
                     color: luminance(t.avatar.body) > 0.55 ? "var(--on-light)" : "var(--text)",
                   }}
                   title={t.avatar && `${variantLabel(t.avatar.variant)} kit colors`}
@@ -303,7 +303,10 @@ export default function StudioPage() {
             </div>
             <LightingControl value={lighting} onChange={setLighting} disabled={!!exporting} />
             <ShirtViews view={view} onSelect={setView} />
-            <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
+            <div className="canvas-bottom-row">
+              <span className="dimension-label">8000 × 5000 SOURCE · PNG</span>
+              {slot?.status === "ready" && <DownloadStats item={kitItem(candidate, variant)} />}
+            </div>
             {!editing && <div className="zoom-controls" aria-label="Zoom">
               <button aria-label="Zoom out" onClick={zoom.zoomOut} disabled={zoom.view.scale <= ZOOM_MIN}>
                 <Icon name="minus" size={14} />

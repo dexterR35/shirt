@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import DataTable, { selectColumn } from "./DataTable.jsx";
 import KitThumb from "./KitThumb.jsx";
+import DownloadStats from "./DownloadStats.jsx";
 import Icon from "./Icon.jsx";
 import { COLLECTION_LIMIT, kitItem, revisionKey, variantLabel } from "./lib/catalog.js";
 
@@ -36,6 +37,13 @@ const columns = [
     accessorKey: "status",
     header: "Status",
     cell: ({ row }) => <span className={`cell-status ${row.original.ready ? "ready" : ""}`}>{row.original.status}</span>,
+  },
+  {
+    id: "popularity",
+    header: "Downloads",
+    enableSorting: false,
+    enableGlobalFilter: false,
+    cell: ({ row }) => <DownloadStats item={row.original.item} compact />,
   },
 ];
 

@@ -9,6 +9,7 @@ import {LightingContext} from "./LightingControl.jsx";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
 import {loadKit, loadJson} from "./lib/kit-config.js";
+import {recordDownload} from "./lib/download-stats.js";
 import {
   filterTeams,
   addToSelection,
@@ -235,6 +236,7 @@ export default function App() {
         setExporting(`Preparing ${i + 1} / ${items.length}…`);
         const {config, custom} = await exportConfig(item);
         files.push({name: exportFilename(item, size, format, custom, ratio), blob: await renderImage(config, size, format, ratio, lighting)});
+        recordDownload(item);
       }
       if (asZip) {
         setExporting("Zipping…");
@@ -587,18 +589,22 @@ export default function App() {
                   ZIP all
                 </button>
               </div>
-              <button className="secondary tier1-download" disabled={!catalog || !!exporting} onClick={askTier1Download}>
-                <Icon name="download" size={15} />
-                Download all Tier 1 · PNG ZIP
-              </button>
-              <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier2", "Tier 2")}>
-                <Icon name="download" size={15} />
-                Download ready Tier 2 · PNG ZIP
-              </button>
-              <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier3", "Tier 3")}>
-                <Icon name="download" size={15} />
-                Download ready Tier 3 · PNG ZIP
-              </button>
+              {import.meta.env.DEV && (
+                <>
+                  <button className="secondary tier1-download" disabled={!catalog || !!exporting} onClick={askTier1Download}>
+                    <Icon name="download" size={15} />
+                    Download all Tier 1 · PNG ZIP
+                  </button>
+                  <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier2", "Tier 2")}>
+                    <Icon name="download" size={15} />
+                    Download ready Tier 2 · PNG ZIP
+                  </button>
+                  <button className="secondary tier-download" disabled={!catalog || !!exporting} onClick={() => askTierDownload("tier3", "Tier 3")}>
+                    <Icon name="download" size={15} />
+                    Download ready Tier 3 · PNG ZIP
+                  </button>
+                </>
+              )}
               {exporting && <p className="queue-progress" aria-live="polite">{exporting}</p>}
               {exporting && tier1Controller.current && (
                 <button className="secondary tier1-cancel" onClick={() => {
