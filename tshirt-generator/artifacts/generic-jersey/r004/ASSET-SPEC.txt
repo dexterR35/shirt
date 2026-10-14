@@ -1,0 +1,51 @@
+NETBET SPORT — GREEN N JERSEY r004
+13 October 2026 | UX Lead approval pending
+
+DESIGN
+User-requested rounded, tilted N motif redrawn as editable vector paint on
+the original 8000 x 5000 base.png. Dark-green body, green N chest motif,
+green sleeves/shoulders and original round collar; dark-green cuffs.
+Only two green paint colours per variant. Fabric supplies the shading.
+No navy, purple, white or mint paint. The N is explicitly requested brand
+artwork; no club emblem, country flag, sponsor or additional text is added.
+Source: references/netbet-n-motif-2026-10-13.png. This is a visual redraw,
+not a certified master logo or a claim to official NetBet colour tokens.
+
+PALETTE
+on-dark: green #13AE8E, dark green #096254.
+on-light: green #07977B, dark green #064B40.
+Paint multiplies original source RGB; final pixels retain fabric shading.
+Choose by the immediate component background. Do not tint with CSS filters.
+
+FILES
+52 square transparent PNG/lossless WebP assets in 24,32,40,48,64,80,96,128,
+160,168,256,336,512 px. The full bundle also includes two 8000 x 5000 PNG
+masters retaining the original canvas, alpha and source placement.
+assets/jersey-generic-netbet-{on-dark|on-light}-r004-{size}.{png|webp}
+Use square exports in frontend slots; the 8K masters have wide source margins.
+Use 2x source size for CSS slots: 24->48, 32->64, 48->96, 64->128, 80->160.
+Proposed minimum: 24 CSS px. Keep aspect ratio, full opacity, object-fit:
+contain and fixed square dimensions. Do not crop the garment.
+
+EDITABLE SOURCES AND VERIFICATION
+editable-paint contains JSON configurations and paint-only SVGs. These SVGs
+are not standalone finished jersey assets: final composites are PNG/WebP.
+Rebuild: node scripts/build-netbet-n-jersey.mjs
+Paint: src/lib/generic-jersey-netbet-n.js
+Source hash, native alpha, 8K master alpha and visible PNG/WebP equality
+are checked on export. manifest.json lists dimensions, file sizes and hashes.
+review-board.png shows large previews and 24–80 px specimens.
+component-previews.png shows illustrative navy/charcoal/white UI surfaces;
+these backgrounds are review surfaces, not colours painted on the garment.
+
+USAGE
+Use for an unmapped club jersey. Keep existing mapped jerseys and national
+flags. Fallback logic and mapping remain separate Development work.
+Use alt="" when adjacent text names the team; otherwise supply the team name
+accessibly. Do not imply this represents a researched team kit or season.
+
+REVIEW
+UX Lead approval, confirmation of the brand-motif redraw, actual component
+validation and PNG/WebP format agreement remain pending. No approval is
+claimed. Reviewer: pending. Date: pending. Approved revision: pending.
+No Figma. Revisions r001–r003 remain unchanged.

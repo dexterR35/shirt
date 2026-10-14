@@ -17,8 +17,8 @@ test("download sizes are the longest side; every shape keeps the shirt square in
     }
 });
 
-test("PNG, WebP and AVIF are offered, each with its own file type", () => {
-  assert.deepEqual(Object.keys(EXPORT_FORMATS), ["png", "webp", "avif"]);
+test("PNG, WebP, SVG and AVIF are offered, each with its own file type", () => {
+  assert.deepEqual(Object.keys(EXPORT_FORMATS), ["png", "webp", "svg", "avif"]);
   assert.equal(EXPORT_FORMATS.avif.type, "image/avif");
   const item = { country_name: "England", team_name: "Arsenal", team_id: "team_1", kit_season: "2026/27", variant: "home", revision: "r001" };
   assert.match(exportFilename(item, 1024, "avif", false, "4:5"), /-home-r001-819x1024px\.avif$/);

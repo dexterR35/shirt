@@ -333,7 +333,7 @@ export async function renderShirt3dPixels(config, size, lighting, pose) {
 export async function renderShirt3dImage(config, size, format = 'png', ratio = '1:1', lighting = 0, pose) {
   if (!EXPORT_SIZES.includes(size)) throw Error('Choose one of the offered download sizes.');
   const spec = EXPORT_FORMATS[format];
-  if (!spec) throw Error('Choose PNG, WebP or AVIF.');
+  if (!spec) throw Error('Choose PNG, WebP, SVG or AVIF.');
   const { width, height } = exportDimensions(size, ratio);
   const pixels = await renderShirt3dPixels(config, Math.min(width, height), lighting, pose);
   return encodePixels(pixels, { type: spec.type, label: spec.label, width, height });

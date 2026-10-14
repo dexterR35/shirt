@@ -1,0 +1,28 @@
+{
+  "source": "model.glb",
+  "reference": "base.png",
+  "blend": "tshirt-base-stitched-r002.blend",
+  "outputs": [
+    {
+      "file": "tshirt-base-stitched-front.png",
+      "width": 2400,
+      "height": 2800,
+      "alphaMin": 255,
+      "alphaMax": 255
+    },
+    {
+      "file": "tshirt-base-stitched-angle.png",
+      "width": 2400,
+      "height": 2800,
+      "alphaMin": 255,
+      "alphaMax": 255
+    },
+    {
+      "file": "tshirt-base-stitched-transparent.png",
+      "width": 2400,
+      "height": 2800,
+      "alphaMin": 0,
+      "alphaMax": 255
+    }
+  ]
+}

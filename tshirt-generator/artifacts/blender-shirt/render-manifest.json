@@ -1,0 +1,26 @@
+{
+  "source": "model.glb",
+  "blend": "tshirt-smooth-studio.blend",
+  "engine": "Cycles",
+  "samples": 160,
+  "outputs": [
+    {
+      "file": "tshirt-studio-front.png",
+      "width": 1800,
+      "height": 2000,
+      "transparent": false
+    },
+    {
+      "file": "tshirt-studio-angle.png",
+      "width": 1800,
+      "height": 2000,
+      "transparent": false
+    },
+    {
+      "file": "tshirt-transparent.png",
+      "width": 1800,
+      "height": 2000,
+      "transparent": true
+    }
+  ]
+}

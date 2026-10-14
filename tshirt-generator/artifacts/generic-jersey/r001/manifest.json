@@ -1,0 +1,404 @@
+{
+  "revision": "r001",
+  "status": "proposal-awaiting-UX-review",
+  "issue": "GIMODEAR-15531",
+  "source": {
+    "file": "base.png",
+    "sha256": "4670b8b8dd8d66d22a4b5313aac9e5406d9c0913244a72bdcebe41e347637042",
+    "renderer": "original-png-composite-1",
+    "crop": {
+      "left": 2071,
+      "top": 572,
+      "side": 3858
+    }
+  },
+  "formatDecision": "PNG/WebP preserve the authorized fabric source; no traced SVG or raster disguised as SVG.",
+  "variants": {
+    "on-dark": {
+      "label": "For dark backgrounds",
+      "body": "#C4C4C4",
+      "collar": "#909090",
+      "cuff": "#ACACAC"
+    },
+    "on-light": {
+      "label": "For light backgrounds",
+      "body": "#949494",
+      "collar": "#6B6B6B",
+      "cuff": "#828282"
+    }
+  },
+  "assets": [
+    {
+      "file": "assets/jersey-generic-on-dark-r001-24.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 1184,
+      "sha256": "4821d515ad06dd2331e96c67c7b457ef42d52c134c842c638b733c37d4e953d9"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-24.webp",
+      "width": 24,
+      "height": 24,
+      "bytes": 780,
+      "sha256": "af349bf1d6129faa9a3a13e994cd6d3a8aae6ddfc5be23d2be762a7c88c035bb"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1775,
+      "sha256": "4046fa33297a748dd9e4158e9338e58e02062fa8ff2e2f6d909c316a453612f1"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-32.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1190,
+      "sha256": "eaded4b1bffe466645b2532d23082eb81cc5b0fe120bf2211653bcb17d2d7eac"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-40.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 2437,
+      "sha256": "d64a4e72f04e113bfc5f1b6de1a6b2012e69a0b2f4a04c9457e96d2d19152e33"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-40.webp",
+      "width": 40,
+      "height": 40,
+      "bytes": 1646,
+      "sha256": "2580c97b4ddff2c1755a97165961b93b9c733b7117fcdc664242c32176677528"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-48.png",
+      "width": 48,
+      "height": 48,
+      "bytes": 3201,
+      "sha256": "c2527e9bdedeb187857dcbca88453112d4bccb7330dc127228e5361056370f0e"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-48.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 2176,
+      "sha256": "204869b8af7e3e8c2c273becff56f8e4618bb384a5f6ea7eb50b89322cec6266"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-64.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 5023,
+      "sha256": "fee51810876c9f7e87186a30a6bf946322515016a00e3c1306cd5fedee2477c9"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-64.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3460,
+      "sha256": "954cac5d78de2c4c8409c3ec2d01c401f702d73f3c57583ffada0f4982cabe4f"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-80.png",
+      "width": 80,
+      "height": 80,
+      "bytes": 6982,
+      "sha256": "26603ecf3a8491364a42611674e8c406359bd10d4477cefe15b91f7a49996b49"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-80.webp",
+      "width": 80,
+      "height": 80,
+      "bytes": 4850,
+      "sha256": "2ba1d64f191bdcb956822c38b7ea216c620dd393daec4260abef5a8ac2fbe00d"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-96.png",
+      "width": 96,
+      "height": 96,
+      "bytes": 9318,
+      "sha256": "07aafcb9217e80bf857ff0d1ed3d05c719d4bbc96864c3f4cd3ec5cfc61ff342"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-96.webp",
+      "width": 96,
+      "height": 96,
+      "bytes": 6552,
+      "sha256": "ad9728c00dba41b582cc91ff8732c0cb7a6fb0259e637fab556e3d61b2a7282e"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-128.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 14996,
+      "sha256": "14583fb9aa3ea683ee6c0815c1b546f9fc2e227bd83266a56a945b6e6f768345"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-128.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 10634,
+      "sha256": "c3c59c02e6d5e5daeaf3346f37869df27a3fc25bb401c5a6ee9d4cf2d194a0b2"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-160.png",
+      "width": 160,
+      "height": 160,
+      "bytes": 21998,
+      "sha256": "28fbc3ad073750c3af2718297689613edeffa29c90123aaf47d63dd4fb4b654e"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-160.webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 13074,
+      "sha256": "4205760359284f06c40475558a9b040178b0c31aa589e070ef3890114fbb2d7a"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-168.png",
+      "width": 168,
+      "height": 168,
+      "bytes": 23697,
+      "sha256": "1c463c19b5dbb1b9811fad38260055db052063e23e5a5d227c565cfc04400f92"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-168.webp",
+      "width": 168,
+      "height": 168,
+      "bytes": 14248,
+      "sha256": "a5f3ba68432cc523e007c8a66843ffcb00bfee2a203e94db9728ffaf3dd34505"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-256.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 50978,
+      "sha256": "91ef7e1e8182fc14961373c49c63bcf66366d0e6b14bf49a8bd89d2e601bb6d7"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-256.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 29184,
+      "sha256": "d965585b2471dc7dbbfda090f88314244c970213ee20cce8630369b3a82d7c25"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-336.png",
+      "width": 336,
+      "height": 336,
+      "bytes": 83916,
+      "sha256": "44d6121aeedc3a4aeb3703d3f88725e5025bfd64a81e8839d85c5702fa7b2fee"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-336.webp",
+      "width": 336,
+      "height": 336,
+      "bytes": 47248,
+      "sha256": "b42210c659ac03749e14cabff7705a4f41eef18459ebba733fdc92783bfa2d66"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-512.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 185644,
+      "sha256": "9356d6a056ef2c72c6cd021f2579cf240107186d64bc5cdbbd80f14097034f89"
+    },
+    {
+      "file": "assets/jersey-generic-on-dark-r001-512.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 103388,
+      "sha256": "b3c2dfef5ade87fd5f6c790c58797a363eba89a8798dcbc4c7a2948921b9976e"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-24.png",
+      "width": 24,
+      "height": 24,
+      "bytes": 1113,
+      "sha256": "be78f3a48fe4a9fcb257f108d2d8e831533959f26112551aba5b872fef4ab0f7"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-24.webp",
+      "width": 24,
+      "height": 24,
+      "bytes": 754,
+      "sha256": "4378f926f93d2ab5b727b90fbfbcb3ded8960a6a12470f0976d0a68ff3b7dd37"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1656,
+      "sha256": "d6b9acfd61c37db84f37d7e4caf217bdae1ff3b2031c9b0a9915fd236d173c4e"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-32.webp",
+      "width": 32,
+      "height": 32,
+      "bytes": 1120,
+      "sha256": "42849953bccd48dcf1b409be7fe7842cfc32e60d1bc2270aee41ca81c014c3fd"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-40.png",
+      "width": 40,
+      "height": 40,
+      "bytes": 2281,
+      "sha256": "59e694c40c8b6adf5849ce871f85e8d09ff3844b900e3933079dd5b5cf0b7915"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-40.webp",
+      "width": 40,
+      "height": 40,
+      "bytes": 1558,
+      "sha256": "dc1dc5412450b6852e7d4c4ad6473a9383348c9663ac456f4927d6e7f70c61ec"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-48.png",
+      "width": 48,
+      "height": 48,
+      "bytes": 2957,
+      "sha256": "57b73e095d62a821b27b65cf612bd006c47cd53f6ec5cbc87489e4c31919be69"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-48.webp",
+      "width": 48,
+      "height": 48,
+      "bytes": 2032,
+      "sha256": "fe51e5aeefc3f2525d8616770b5d56c599e286c983f503c0c8164717b793d112"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-64.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 4595,
+      "sha256": "4c5d23f5682c23506cb6d0d25bc74b9ae625634b47f70cb9290caa8970724600"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-64.webp",
+      "width": 64,
+      "height": 64,
+      "bytes": 3186,
+      "sha256": "776a47ce226c96f974c14e7690936886a50210c034698df10d052660155c7fe0"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-80.png",
+      "width": 80,
+      "height": 80,
+      "bytes": 6308,
+      "sha256": "5d7ff9e28eb707f2bbd374216f7c45cf53bf7a920f6821ec2a859d38b3c1dce7"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-80.webp",
+      "width": 80,
+      "height": 80,
+      "bytes": 4422,
+      "sha256": "6cff8ce1be24d71dec749e345f421c9bc1f1e0403cd35710d40c92d08b8846bd"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-96.png",
+      "width": 96,
+      "height": 96,
+      "bytes": 8424,
+      "sha256": "a8da8c2cffb5516409d8d90abcc6e380bb0da5ae69676aaf50caa6894c2f0da9"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-96.webp",
+      "width": 96,
+      "height": 96,
+      "bytes": 6050,
+      "sha256": "879d93526fc299071efef19562078e4c31b37931de8958df8956f6a0238edb58"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-128.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 13431,
+      "sha256": "5352bb2653d3ae5dbe21036462f77fc0067d437b24f710c48989d93702c395df"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-128.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 9652,
+      "sha256": "154edee4f8b51726801f3b7a7daf2bd5f50ea217c486950f8308391ee1c59e67"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-160.png",
+      "width": 160,
+      "height": 160,
+      "bytes": 19360,
+      "sha256": "46584d25d3667aba59ef962ac9819c6a1dfa35849290ff1eeecac89e5134a9a7"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-160.webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 13974,
+      "sha256": "c3b6940a408942a338437903d3fd48c6387a9a01f60bd6b4ba55abe82cf14dcb"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-168.png",
+      "width": 168,
+      "height": 168,
+      "bytes": 20999,
+      "sha256": "7466e43016e8bc200867b26f304eb22ebb83e60358f0b40c8998be35fcd0b429"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-168.webp",
+      "width": 168,
+      "height": 168,
+      "bytes": 15180,
+      "sha256": "a73c375827d1cb52f048ce4f85db3eca792b296d1c121412c78a64dbabb15f7b"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-256.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 44254,
+      "sha256": "ca1317123b0733c01633bf3e6d2fc0558fb4ea340302dd775c7efa2bbd382588"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-256.webp",
+      "width": 256,
+      "height": 256,
+      "bytes": 26074,
+      "sha256": "23c4e0c9c156810ad892ded8bcab59dfbc8f7f1d0fb1accee5e870938ab1653d"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-336.png",
+      "width": 336,
+      "height": 336,
+      "bytes": 72458,
+      "sha256": "d2cd917854457136b6514713ea998f31f77e5f41c283658881011df0eb19d50a"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-336.webp",
+      "width": 336,
+      "height": 336,
+      "bytes": 41698,
+      "sha256": "6f4a276f49bc5c91243869015c002c6dd8cd3882f82f8bebc6ff1f566a372f53"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-512.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 159359,
+      "sha256": "614dbcbf4134e94420a769f1e540aae1e0e85ea5f2269ebfd7ed4d5f257582b5"
+    },
+    {
+      "file": "assets/jersey-generic-on-light-r001-512.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 90608,
+      "sha256": "467a4577d4e4d8c2a38a5d9baed04457fec8f156d475511a77653ecdb37a7538"
+    }
+  ],
+  "checks": {
+    "sourceHash": "pass",
+    "nativeAlphaIdentical": "pass",
+    "exportVisibleRGBAndAlphaIdentical": "pass",
+    "assetCount": 52,
+    "uxApproval": "pending",
+    "designContext": "user-confirmed-project-shirt-styling-2026-10-13"
+  }
+}

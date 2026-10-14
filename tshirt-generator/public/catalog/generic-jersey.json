@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "generic-netbet",
+  "name": "NetBet default generic jersey",
+  "revision": "r005",
+  "defaultSurface": "on-dark",
+  "renderer": "original-png-composite-1",
+  "selection": {
+    "status": "user-selected-default",
+    "date": "2026-10-13"
+  },
+  "surfaces": {
+    "on-dark": {
+      "label": "For dark backgrounds",
+      "config": {
+        "schemaVersion": 2,
+        "templateVersion": "replacement-front-3",
+        "coordinateSpace": "reference-200",
+        "colors": {
+          "body": "#096254",
+          "leftSleeve": "#13AE8E",
+          "rightSleeve": "#13AE8E",
+          "collar": "#13AE8E",
+          "leftCuff": "#096254",
+          "rightCuff": "#096254"
+        },
+        "collar": {
+          "shape": "original"
+        },
+        "layers": [
+          {
+            "id": "rounded-n-motif",
+            "type": "path",
+            "clip": "body",
+            "d": "M127.16 5.94Q133.74 3.12 139.38 11.58L206.12 107.46Q214.58 119.68 204.24 130.02L175.1 148.82Q168.52 153.52 161 148.82L98.02 107.46Q94.26 104.64 92.85 107.93Q91.44 109.34 93.79 113.1L130.92 168.56Q135.62 175.14 129.51 180.78L102.25 197.7Q94.26 202.4 89.56 194.88L22.82 97.12Q17.18 85.84 23.29 78.79L61.36 51.06Q66.06 47.3 71.7 50.12L122.46 83.96Q128.1 87.72 128.57 83.96Q129.04 82.08 126.69 78.79L97.08 35.08Q92.38 27.56 98.96 22.86Z",
+            "fill": "#13AE8E"
+          },
+          {
+            "id": "left-shoulder",
+            "type": "path",
+            "clip": "all",
+            "d": "M0 0H76L65 10L38 24L28 37L0 30Z",
+            "fill": "#13AE8E",
+            "colorRole": "leftSleeve"
+          },
+          {
+            "id": "right-shoulder",
+            "type": "path",
+            "clip": "all",
+            "d": "M200 0H124L135 10L162 24L172 37L200 30Z",
+            "fill": "#13AE8E",
+            "colorRole": "rightSleeve"
+          }
+        ]
+      }
+    },
+    "on-light": {
+      "label": "For light backgrounds",
+      "config": {
+        "schemaVersion": 2,
+        "templateVersion": "replacement-front-3",
+        "coordinateSpace": "reference-200",
+        "colors": {
+          "body": "#064B40",
+          "leftSleeve": "#07977B",
+          "rightSleeve": "#07977B",
+          "collar": "#07977B",
+          "leftCuff": "#064B40",
+          "rightCuff": "#064B40"
+        },
+        "collar": {
+          "shape": "original"
+        },
+        "layers": [
+          {
+            "id": "rounded-n-motif",
+            "type": "path",
+            "clip": "body",
+            "d": "M127.16 5.94Q133.74 3.12 139.38 11.58L206.12 107.46Q214.58 119.68 204.24 130.02L175.1 148.82Q168.52 153.52 161 148.82L98.02 107.46Q94.26 104.64 92.85 107.93Q91.44 109.34 93.79 113.1L130.92 168.56Q135.62 175.14 129.51 180.78L102.25 197.7Q94.26 202.4 89.56 194.88L22.82 97.12Q17.18 85.84 23.29 78.79L61.36 51.06Q66.06 47.3 71.7 50.12L122.46 83.96Q128.1 87.72 128.57 83.96Q129.04 82.08 126.69 78.79L97.08 35.08Q92.38 27.56 98.96 22.86Z",
+            "fill": "#07977B"
+          },
+          {
+            "id": "left-shoulder",
+            "type": "path",
+            "clip": "all",
+            "d": "M0 0H76L65 10L38 24L28 37L0 30Z",
+            "fill": "#07977B",
+            "colorRole": "leftSleeve"
+          },
+          {
+            "id": "right-shoulder",
+            "type": "path",
+            "clip": "all",
+            "d": "M200 0H124L135 10L162 24L172 37L200 30Z",
+            "fill": "#07977B",
+            "colorRole": "rightSleeve"
+          }
+        ]
+      }
+    }
+  }
+}

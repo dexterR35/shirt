@@ -37,6 +37,7 @@ function TeamBadge({ summary }) {
 export default function StudioPage() {
   const ctx = useOutletContext();
   const {
+    genericSurface, showGeneric,
     lighting,
     setLighting,
     exporting,
@@ -92,7 +93,6 @@ export default function StudioPage() {
     setPose3d,
     poseLocked,
     setPoseLocked,
-    downloadActive,
   } = ctx;
   // Paging moves between collection kits; it does nothing when the only kit is already shown.
   const canPage = selection.length > 1 || (selection.length === 1 && selectedIndex < 0);
@@ -144,6 +144,12 @@ export default function StudioPage() {
             />
           </div>
           <div className="team-list" aria-label="Teams">
+            <button className={`team-row ${genericSurface ? "selected" : ""}`} onClick={() => showGeneric()} aria-pressed={!!genericSurface}>
+              <span className="ready-dot" aria-hidden="true" />
+              <span className="team-monogram"><Icon name="shirt" size={18} /></span>
+              <span className="team-info"><strong>Default shirt</strong><small>Your design</small></span>
+              <Icon name={genericSurface ? "check" : "right"} size={16} />
+            </button>
             {filtered.map((t) => (
               <button
                 key={t.id}
@@ -197,8 +203,10 @@ export default function StudioPage() {
           <div className="preview-toolbar">
             <div className="candidate-heading">
               <small className="eyebrow">SELECTED TEAM</small>
-              <h3>{candidate?.name || "Choose a team"}</h3>
+              <h3>{candidate?.name || "Default shirt"}</h3>
             </div>
+            <div className="preview-selection-actions">
+            {candidate && <button className="secondary" onClick={() => showGeneric()} aria-label="Clear team" title="Return to the default shirt"><Icon name="close" size={14} /></button>}
             <div className="variant-switch" aria-label="Kit variant">
               {["home", "away"].map((v) => (
                 <button
@@ -215,11 +223,12 @@ export default function StudioPage() {
             <button
               className="secondary add-button"
               onClick={add}
-              disabled={slot?.status !== "ready"}
+              disabled={busy || editing || (!genericSurface && slot?.status !== "ready")}
             >
               <Icon name="plus" size={14} />
               Add to collection
             </button>
+            </div>
           </div>
           <div
             className={`canvas ${background} ${background === "white" || (background === "custom" && luminance(customBg) > 0.55) ? "on-light" : ""}`}
@@ -246,6 +255,7 @@ export default function StudioPage() {
                   <Icon name="cube" size={13} />
                   3D
                 </button>
+
               </div>
               <div className="background-controls" role="group" aria-label="Preview background">
                 <button
@@ -290,7 +300,7 @@ export default function StudioPage() {
                     onPose={setPose3d}
                     locked={poseLocked}
                     disabled={!!exporting}
-                    label={active ? `${active.team_name} ${active.variant} shirt` : "Plain shirt"}
+                    label={genericSurface ? `Generic jersey ${genericSurface}` : active ? `${active.team_name} ${active.variant} shirt` : "Plain shirt"}
                   />
                 </Suspense>
                 {missing && <span className="no-preview">No preview</span>}
@@ -305,7 +315,7 @@ export default function StudioPage() {
                   config={previewConfig}
                   cache={!editing}
                   style={{transform: `translate(${zoom.view.x}px, ${zoom.view.y}px) scale(${zoom.view.scale})`}}
-                  label={active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
+                  label={genericSurface ? `Generic jersey ${genericSurface}` : active ? `${active.team_name} ${active.variant} shirt` : "Original PNG shirt"}
                 />
                 {editing && <PartHighlight config={editBase} selected={selectedPart} hover={hoverPart} />}
                 {missing && <span className="no-preview">No preview</span>}
@@ -317,25 +327,25 @@ export default function StudioPage() {
                   ? `${active.country_name} / ${active.kit_season}`
                   : missing
                     ? candidate.country_name
-                    : "THE ORIGINAL SILHOUETTE"}
+                    : genericSurface ? "GENERIC / NEUTRAL" : "THE ORIGINAL SILHOUETTE"}
               </span>
               <h2>
                 {active
                   ? active.team_name
                   : missing
                     ? candidate.name
-                    : "A familiar shape. A fresh canvas."}
+                    : genericSurface ? "Ready for every team." : "A familiar shape. A fresh canvas."}
               </h2>
               <p>
                 {active
                   ? variantLabel(active.variant)
                   : missing
                     ? `${variantLabel(variant)} kit not available yet`
-                    : "Original highlights, fabric folds, and transparent edges."}
+                    : genericSurface ? "Shoulder-to-hem N, green and dark green, original fabric detail." : "Original highlights, fabric folds, and transparent edges."}
               </p>
               {!active && !missing && (
                 <span className="neutral-note">
-                  {edited ? "Custom design · not a verified team kit" : view3d ? "3D shirt · no team colors applied" : "Original PNG · no team colors applied"}
+                  {edited ? "Custom design · not a verified team kit" : genericSurface ? "Generic fallback design · no team affiliation" : view3d ? "3D shirt · no team colors applied" : "Original PNG · no team colors applied"}
                 </span>
               )}
               {view3d && active && (
@@ -349,8 +359,6 @@ export default function StudioPage() {
                 onPose={setPose3d}
                 locked={poseLocked}
                 onLock={setPoseLocked}
-                canDownload={!!active && !busy && !editing}
-                onDownload={downloadActive}
                 disabled={!!exporting}
               />
             )}
@@ -507,7 +515,14 @@ export default function StudioPage() {
           )}
         </section>
         <aside className="details-panel">
-          <EquipmentCard active={active} equipment={equipment} custom={edited}/>
+          {genericSurface ? <section className="source-card equipment-card" aria-label="Generic jersey details">
+            <small className="eyebrow">GENERIC DESIGN</small>
+            <h3>NetBet default jersey</h3>
+            <p>An oversized N from shoulder to hem in green and dark green, made for teams without a mapped shirt.</p>
+            <p>Use Edit to change the body, N, sleeves, collar and cuffs. Download design JSON to save your configuration.</p>
+            <p>No club emblem, sponsor or national flag.</p>
+            <p>Downloads have transparent backgrounds.</p>
+          </section> : <EquipmentCard active={active} equipment={equipment} custom={edited}/>}
         </aside>
       </div>
     </>

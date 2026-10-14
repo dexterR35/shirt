@@ -1,0 +1,67 @@
+NETBET SPORT — DEFAULT JERSEY r003
+13 October 2026 | Design proposal; UX Lead approval pending
+
+DESIGN AND REFERENCE
+Based on the user's NetBet Sport promotional-banner reference: navy surfaces,
+teal slanted panels with rounded corners, and mint highlights. Flat screenshot
+pixels sampled at #0A1225 (navy), #49D3AA (mint), #1E1E1E (surround).
+Teal varies across a gradient. Shirt paint values are adapted for the original
+fabric multiplication and small-size visibility, not claimed official tokens.
+No athlete imagery, promotional text, brand lettering, club badge, sponsor,
+flag or national symbol appears on the garment. Colours refer to NetBet's
+visual identity rather than a researched team. Similarity to every existing
+team kit cannot be excluded; this design is an original generic fallback.
+
+SOURCE AND EDITABILITY
+Original base.png: 8000 x 5000. Its fabric detail, silhouette and physical
+round collar are retained. Five validated vector shapes form overlapping
+rounded teal panels, mint panel trim and sleeve/shoulder paint. The existing
+collar ring is recoloured; no extra collar is drawn. Native alpha is unchanged.
+editable-paint/*.config.json and *.svg contain editable paint layers.
+The SVGs are paint sources, not standalone finished jersey assets. Final
+fabric-preserving assets are transparent PNG and lossless WebP.
+Rebuild: node scripts/build-netbet-generic-jersey.mjs
+Paint source: src/lib/generic-jersey-netbet.js
+
+FILES AND SIZES
+assets/jersey-generic-netbet-{on-dark|on-light}-r003-{size}.{png|webp}
+52 square exports: 24,32,40,48,64,80,96,128,160,168,256,336,512 px.
+Two PNG masters use the original 8000 x 5000 canvas and source placement.
+Use square exports in UI; 8K masters retain wide transparent source margins.
+manifest.json lists file sizes, dimensions, SHA-256 hashes and render checks.
+
+SURFACES
+on-dark uses brighter teal sleeves and lighter navy for dark navy/charcoal
+components. on-light uses deeper navy and teal for white/light components.
+Choose by the immediate component background, not just the global theme.
+Do not apply a colour filter, reduce opacity, crop or stretch the image.
+Keep object-fit: contain and a fixed square slot to avoid layout shifts.
+Use a 2x source for the CSS size: 24->48, 32->64, 40->80, 48->96,
+64->128, 80->160, 168->336. A 24 CSS px minimum is proposed.
+Use 3x sources where available, e.g. 24->80, 32->96, 48->160, 80->256.
+Smaller slots and photographic backgrounds require separate review.
+
+USAGE CONTRACT — DEVELOPMENT IMPLEMENTS SEPARATELY
+Mapped club jersey: retain it. Unmapped club: use this generic jersey.
+Mapped national flag: retain it. Missing national flags are outside this scope.
+If adjacent text already names the team, use alt="". Otherwise expose the
+team name accessibly. Never use the fallback as an indication of selection,
+live status, an actual team kit or a verified kit season.
+No fallback logic or team mappings are included in this delivery.
+
+REVIEW AND ACCEPTANCE
+1. Default jersey: provided, r003.
+2. Neutral identity: original abstract paint, without club/country symbols.
+3. NetBet visual identity: based on the supplied navy/teal/mint reference;
+   final visual alignment is for the UX Lead to confirm.
+4. Small-size clarity: review-board.png shows 24–80 px specimens. Actual
+   target component dimensions were not supplied; validate in the Sports UI.
+5. Backgrounds: navy, charcoal and white proofs supplied. Additional supported
+   surfaces should be checked in the target UI before release.
+6. Optimised assets: lossless WebP/PNG, transparent, hashed and sized. Raster
+   format agreement is pending because the original fabric is raster-based.
+7. UX Lead review: PENDING. No human approval is claimed or recorded.
+8. Assets and usage guidance: available here for review; approved release
+   follows sign-off. Reviewer: pending. Date: pending. Approved revision: pending.
+
+No Figma, per user request. Prior r001 and r002 deliveries remain unchanged.

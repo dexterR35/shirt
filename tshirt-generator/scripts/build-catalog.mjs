@@ -6,6 +6,7 @@ import { buildTeamEquipment } from "./research/build-team-equipment.mjs";
 import { equipmentForKit } from "../src/lib/equipment.js";
 import { loadDisplayNames } from "./team-display-names.mjs";
 import { permittedSeason } from "./research/season-policy.mjs";
+import { genericJerseyDocument } from "../src/lib/generic-jersey.js";
 const {teams: equipmentTeams, priority} = await buildTeamEquipment();
 const read = async (f) => JSON.parse(await fs.readFile(f, "utf8"));
 const teams = await read("data/normalized/teams.json"),
@@ -14,6 +15,7 @@ const teams = await read("data/normalized/teams.json"),
 const tier2Ids = new Set((await read("data/research/tier2-worklist.json")).tasks.map((t) => t.team_id)),
   tier3Ids = new Set((await read("data/research/tier3-worklist.json")).tasks.map((t) => t.team_id));
 await fs.mkdir("public/catalog", { recursive: true });
+await fs.writeFile('public/catalog/generic-jersey.json', JSON.stringify(genericJerseyDocument(), null, 2) + '\n');
 await fs.mkdir("public/catalog/kits", { recursive: true });
 await fs.mkdir("public/catalog/teams", { recursive: true });
 for (const [id, data] of equipmentTeams) {

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "templateVersion": "replacement-front-3",
+  "coordinateSpace": "reference-200",
+  "colors": {
+    "body": "#E0E0E0",
+    "leftSleeve": "#959595",
+    "rightSleeve": "#959595",
+    "collar": "#656565",
+    "leftCuff": "#626262",
+    "rightCuff": "#626262"
+  },
+  "collar": {
+    "shape": "original"
+  },
+  "layers": [
+    {
+      "id": "shoulder-yoke",
+      "type": "polygon",
+      "clip": "all",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          200,
+          0
+        ],
+        [
+          200,
+          30
+        ],
+        [
+          154,
+          30
+        ],
+        [
+          138,
+          38
+        ],
+        [
+          62,
+          38
+        ],
+        [
+          46,
+          30
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "fill": "#626262",
+      "opacity": 1
+    },
+    {
+      "id": "left-shoulder-edge",
+      "type": "polygon",
+      "clip": "all",
+      "points": [
+        [
+          0,
+          29
+        ],
+        [
+          46,
+          29
+        ],
+        [
+          62,
+          37
+        ],
+        [
+          62,
+          39
+        ],
+        [
+          46,
+          31
+        ],
+        [
+          0,
+          31
+        ]
+      ],
+      "fill": "#F0F0F0",
+      "opacity": 1
+    },
+    {
+      "id": "right-shoulder-edge",
+      "type": "polygon",
+      "clip": "all",
+      "points": [
+        [
+          200,
+          29
+        ],
+        [
+          154,
+          29
+        ],
+        [
+          138,
+          37
+        ],
+        [
+          138,
+          39
+        ],
+        [
+          154,
+          31
+        ],
+        [
+          200,
+          31
+        ]
+      ],
+      "fill": "#F0F0F0",
+      "opacity": 1
+    },
+    {
+      "id": "chest-facet",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          45,
+          42
+        ],
+        [
+          155,
+          42
+        ],
+        [
+          155,
+          108
+        ],
+        [
+          45,
+          68
+        ]
+      ],
+      "fill": "#B5B5B5",
+      "opacity": 0.62
+    },
+    {
+      "id": "lower-facet",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          45,
+          72
+        ],
+        [
+          155,
+          112
+        ],
+        [
+          155,
+          147
+        ],
+        [
+          45,
+          107
+        ]
+      ],
+      "fill": "#B5B5B5",
+      "opacity": 0.3
+    },
+    {
+      "id": "left-side-panel",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          42,
+          65
+        ],
+        [
+          53,
+          76
+        ],
+        [
+          68,
+          117
+        ],
+        [
+          61,
+          200
+        ],
+        [
+          40,
+          200
+        ]
+      ],
+      "fill": "#797979",
+      "opacity": 1
+    },
+    {
+      "id": "right-side-panel",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          158,
+          65
+        ],
+        [
+          147,
+          76
+        ],
+        [
+          132,
+          117
+        ],
+        [
+          139,
+          200
+        ],
+        [
+          160,
+          200
+        ]
+      ],
+      "fill": "#797979",
+      "opacity": 1
+    },
+    {
+      "id": "left-side-edge",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          53,
+          76
+        ],
+        [
+          56,
+          82
+        ],
+        [
+          71,
+          117
+        ],
+        [
+          64,
+          200
+        ],
+        [
+          61,
+          200
+        ],
+        [
+          68,
+          117
+        ]
+      ],
+      "fill": "#F0F0F0",
+      "opacity": 0.8
+    },
+    {
+      "id": "right-side-edge",
+      "type": "polygon",
+      "clip": "body",
+      "points": [
+        [
+          147,
+          76
+        ],
+        [
+          144,
+          82
+        ],
+        [
+          129,
+          117
+        ],
+        [
+          136,
+          200
+        ],
+        [
+          139,
+          200
+        ],
+        [
+          132,
+          117
+        ]
+      ],
+      "fill": "#F0F0F0",
+      "opacity": 0.8
+    }
+  ]
+}

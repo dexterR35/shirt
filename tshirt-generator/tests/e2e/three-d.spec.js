@@ -8,7 +8,7 @@ test.use({ launchOptions: { args: ["--use-gl=angle", "--use-angle=swiftshader", 
 // three.js, GSAP, the viewer and the mesh (the small pose module is part of the Studio).
 const THREE_D = /\/assets\/3d\/|Shirt3DView|\/src\/lib\/shirt-3d\.js|\/assets\/shirt-3d-\w+\.js$|three|gsap/;
 
-test("the 3D view loads nothing until it is switched on, then shows the plain shirt", async ({ page }) => {
+test("the 3D view loads nothing until it is switched on, then shows the default shirt", async ({ page }) => {
   const requests = [];
   page.on("request", (r) => requests.push(r.url()));
   await page.goto("/studio");
@@ -20,7 +20,8 @@ test("the 3D view loads nothing until it is switched on, then shows the plain sh
   const shirt = page.locator("canvas.shirt-3d-canvas");
   await expect(shirt).toHaveAttribute("data-render-state", "ready", { timeout: 60_000 });
   expect(requests.some((url) => /\/assets\/3d\/shirt-[\da-f]{12}\.glb$/.test(url))).toBe(true);
-  await expect(page.getByText("3D shirt · no team colors applied")).toBeVisible();
+  await expect(shirt).toHaveAttribute("aria-label", /^Generic jersey on-dark · 3D,/);
+  await expect(page.getByText("Generic fallback design · no team affiliation")).toBeVisible();
   // The flat view's zoom and thumbnails give way to the 3D camera bar.
   await expect(page.getByRole("group", { name: "Zoom" })).toHaveCount(0);
   await expect(page.getByRole("toolbar", { name: "3D camera" })).toBeVisible();
@@ -63,10 +64,10 @@ test("a locked pose freezes the camera and every 3D download uses it", async ({ 
   await expect(page.getByText("3D · 35° · 8° · LOCKED")).toBeVisible();
 
   // Download at a small size: square, transparent around an opaque shirt, named -3d.
-  await page.getByRole("button", { name: /Collection/ }).click();
+  await page.getByRole("button", { name: "Add to collection", exact: true }).click();
   const tray = page.getByRole("region", { name: "Collection" });
   await tray.getByLabel("Download size").selectOption("512");
-  await camera.getByRole("button", { name: "Download 3D image" }).click();
+  await tray.getByRole("button", { name: "Download all", exact: true }).click();
   await expect(page.getByText(/3D view, same camera for every kit: 35° right · 8° up · 1\.72 m \(locked\)/)).toBeVisible();
   const pending = page.waitForEvent("download", { timeout: 120_000 });
   await page.getByRole("button", { name: "Yes, download" }).click();

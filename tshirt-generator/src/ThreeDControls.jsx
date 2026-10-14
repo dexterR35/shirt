@@ -2,11 +2,10 @@ import Icon from "./Icon.jsx";
 import { DEFAULT_POSE, POSE_PRESETS, presetPose, samePose } from "./lib/shirt-3d-pose.js";
 
 /**
- * The 3D view's bar on the left of the canvas: camera angles, the pose lock and a
- * download of the kit on screen at this angle.
+ * The 3D view's bar on the left of the canvas: camera angles, pose lock and reset.
  * Collection downloads also use this pose while the 3D view is on.
  */
-export default function ThreeDControls({ pose, onPose, locked, onLock, canDownload, onDownload, disabled = false }) {
+export default function ThreeDControls({ pose, onPose, locked, onLock, disabled = false }) {
   return (
     <div className="three-d-controls" role="toolbar" aria-label="3D camera">
       {POSE_PRESETS.map((p) => (
@@ -26,10 +25,7 @@ export default function ThreeDControls({ pose, onPose, locked, onLock, canDownlo
         disabled={locked || disabled || samePose(pose, DEFAULT_POSE)} onClick={() => onPose(DEFAULT_POSE)}>
         <Icon name="reset" size={14} />
       </button>
-      <button className="three-d-option" aria-label="Download 3D image" title="Download this kit in 3D at this angle"
-        disabled={!canDownload || disabled} onClick={onDownload}>
-        <Icon name="download" size={14} />
-      </button>
+
     </div>
   );
 }

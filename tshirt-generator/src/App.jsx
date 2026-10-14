@@ -8,6 +8,7 @@ import {paintArea, LIGHTING_DEFAULT, validateLighting} from "./lib/composite.js"
 import {LightingContext} from "./LightingControl.jsx";
 import {useZoom} from "./lib/use-zoom.js";
 import {neutralConfig} from "./lib/shirt-renderer.js";
+import {genericJerseyConfig, genericJerseyExport, GENERIC_REVISION, GENERIC_DEFAULT_SURFACE} from "./lib/generic-jersey.js";
 import {loadKit, loadJson} from "./lib/kit-config.js";
 import {recordDownload} from "./lib/download-stats.js";
 import {
@@ -26,6 +27,10 @@ import {tier1Items, renderTier1Zip} from "./lib/tier1-export.js";
 import {tierItems} from "./lib/tier-export.js";
 import {DEFAULT_POSE, validatePose, describePose, threeDFilename} from "./lib/shirt-3d-pose.js";
 
+const defaultShirtItem = (surface = GENERIC_DEFAULT_SURFACE) => ({
+  kind: "generic", surface, team_id: "generic-netbet", team_name: "Default shirt",
+  variant: surface, revision: GENERIC_REVISION, status: "ready",
+});
 const VIEW_KEY = "tshirt-studio:view";
 const LIGHTING_KEY = "tshirt-studio:lighting";
 function readLighting() {
@@ -62,6 +67,7 @@ export default function App() {
     [candidateId, setCandidateId] = useState(""),
     [variant, setVariant] = useState("home"),
     [active, setActive] = useState(null),
+    [genericSurface, setGenericSurface] = useState(null),
     [appliedConfig, setAppliedConfig] = useState(null),
     [equipment, setEquipment] = useState(null),
     [editing, setEditing] = useState(false),
@@ -129,6 +135,7 @@ export default function App() {
           const view = readView(),
             team = data.teams.find((t) => t.id === view?.team_id);
           if (team && ["home", "away"].includes(view.variant)) show(team, view.variant);
+          else showGeneric();
         }
       })
       .catch((e) => alive && setLoadError(e.message));
@@ -151,9 +158,10 @@ export default function App() {
   );
   const candidate = catalog?.teams.find((t) => t.id === candidateId),
     slot = candidate?.kits[variant];
-  const editKey = active ? kitKey(active) : "base",
+  const editKey = active ? kitKey(active) : genericSurface ? `generic-${GENERIC_REVISION}-${genericSurface}` : "base",
     editBase = useMemo(() => appliedConfig || neutralConfig(), [appliedConfig]),
-    allParts = useMemo(() => editableParts(editBase), [editBase]),
+    allParts = useMemo(() => editableParts(editBase).map((part) => genericSurface && part.id.startsWith('fill:')
+      ? {...part, label: 'N motif'} : part), [editBase, genericSurface]),
     // Hide parts that are fully covered by other paint, e.g. sleeves under a sleeve panel.
     parts = visibleIds ? allParts.filter((p) => visibleIds.has(p.id) || p.id === selectedPart) : allParts,
     edits = editing ? draft : savedEdits[editKey] || {},
@@ -182,7 +190,7 @@ export default function App() {
   const missing = !active && candidate && slot?.status !== "ready";
   const selectedIndex = active
     ? selection.findIndex((s) => revisionKey(s) === revisionKey(active))
-    : -1;
+    : genericSurface ? selection.findIndex((s) => s.kind === "generic" && s.surface === genericSurface) : -1;
   /** Selecting a team or variant shows it at once; a missing kit shows the plain base. */
   function show(team, v) {
     setCandidateId(team.id);
@@ -193,6 +201,11 @@ export default function App() {
     else showBase();
   }
   async function activate(item, {syncUrl = true} = {}) {
+    if (item.kind === "generic") {
+      showGeneric(item.surface);
+      if (syncUrl && !window.location.pathname.startsWith("/studio")) navigate("/studio");
+      return;
+    }
     const sequence = ++request.current;
     setCandidateId(item.team_id);
     setVariant(item.variant);
@@ -206,6 +219,7 @@ export default function App() {
     try {
       const saved = await loadKit(item, controller.current.signal);
       if (request.current === sequence) {
+        setGenericSurface(null);
         setActive(item);
         setAppliedConfig(saved.config);
         setEquipment(saved.equipment);
@@ -219,12 +233,13 @@ export default function App() {
     }
   }
   function add() {
-    if (!candidate || slot?.status !== "ready") return;
-    const item = kitItem(candidate, variant);
+    if (busy || editing || (!genericSurface && (!candidate || slot?.status !== "ready"))) return;
+    const item = genericSurface ? defaultShirtItem(genericSurface) : kitItem(candidate, variant);
     try {
-      setSelection(addToSelection(selection, item));
+      const next = addToSelection(selection, item);
+      setSelection(item.kind === "generic" ? [item, ...selection] : next);
       setQueueOpen(true);
-      setNotice(`${candidate.name} ${variantLabel(variant)} added to your collection.`);
+      setNotice(`${item.team_name}${item.kind === "generic" ? "" : ` ${variantLabel(variant)}`} added to your collection.`);
     } catch (e) {
       setNotice(e.message);
     }
@@ -245,6 +260,11 @@ export default function App() {
   }
   /** The config a queued kit downloads with: its saved layout plus any saved color edits. */
   async function exportConfig(item) {
+    if (item.kind === "generic") {
+      const config = genericJerseyConfig(item.surface);
+      const edits = savedEdits[`generic-${item.revision}-${item.surface}`];
+      return {config: edits ? applyEdits(config, edits) : config, custom: !!edits};
+    }
     const saved = await loadKit(item);
     const edits = savedEdits[kitKey(item)];
     return {config: edits ? applyEdits(saved.config, edits) : saved.config, custom: !!edits};
@@ -262,11 +282,13 @@ export default function App() {
       const render3d = pose && (await import("./lib/shirt-3d.js")).renderShirt3dImage;
       for (const [i, item] of items.entries()) {
         setExporting(`Preparing ${i + 1} / ${items.length}${pose ? " in 3D" : ""}…`);
-        const {config, custom} = await exportConfig(item), name = exportFilename(item, size, format, custom, ratio);
+        const {config, custom} = await exportConfig(item), name = item.kind === "generic"
+          ? `jersey-generic-${item.surface}-${item.revision}-${width}x${height}${custom ? "-custom" : ""}.${format}`
+          : exportFilename(item, size, format, custom, ratio);
         files.push(pose
           ? {name: threeDFilename(name), blob: await render3d(config, size, format, ratio, lighting, pose)}
           : {name, blob: await renderImage(config, size, format, ratio, lighting)});
-        recordDownload(item);
+        if (item.kind !== "generic") recordDownload(item);
       }
       if (asZip) {
         setExporting("Zipping…");
@@ -289,10 +311,6 @@ export default function App() {
   /** Every download asks first; the answer runs or drops it. */
   function askDownload(items, asZip) {
     if (items.length && !exporting) setPendingDownload({items, asZip});
-  }
-  /** The kit on screen (the 3D view's download button). */
-  function downloadActive() {
-    if (active && !editing) askDownload([active], false);
   }
   function askTier1Download() {
     if (exporting || !catalog) return;
@@ -369,7 +387,7 @@ export default function App() {
       };
     }
     const label = EXPORT_FORMATS[exportFormat].label, px = `${width} × ${height} px`, n = items.length;
-    const one = n === 1 ? `${items[0].team_name} ${variantLabel(items[0].variant)}` : null;
+    const one = n === 1 ? `${items[0].team_name}${items[0].kind === "generic" ? "" : ` ${variantLabel(items[0].variant)}`}` : null;
     return {
       title: asZip ? `Download ${n} kit${n > 1 ? "s" : ""} as one ZIP?` : one ? `Download ${one}?` : `Download ${n} kits?`,
       message: asZip
@@ -379,6 +397,7 @@ export default function App() {
           : `${n} separate ${label} images, ${px} each. Your browser may ask to allow multiple downloads.`,
       note: [
         view3d && `3D view, same camera for every kit: ${describePose(pose3d)}${poseLocked ? " (locked)" : ""}.`,
+        exportFormat === "svg" && "SVG contains the rendered PNG to preserve fabric detail; it is not a fully vector drawing.",
         exportFormat === "avif" && "AVIF files are about a tenth of the PNG size and take a few seconds each to prepare.",
       ].filter(Boolean).join(" "),
     };
@@ -400,10 +419,29 @@ export default function App() {
     request.current++;
     controller.current?.abort();
     setActive(null);
+    setGenericSurface(null);
     setAppliedConfig(null);
     setEquipment(null);
     setEditing(false);
     setBusy(false);
+  }
+  /** Select the neutral design without adding a fictional team to the catalog. */
+  function showGeneric(surface = GENERIC_DEFAULT_SURFACE) {
+    const config = genericJerseyConfig(surface);
+    showBase();
+    setCandidateId('');
+    setGenericSurface(surface);
+    setAppliedConfig(config);
+    setBackground(surface === 'on-light' ? 'white' : 'transparent');
+    setNotice('');
+    zoom.center();
+    saveView({genericSurface: surface});
+  }
+  function downloadGenericJson() {
+    if (!genericSurface || editing || exporting || busy) return;
+    const document = genericJerseyExport(genericSurface, previewConfig, edited);
+    downloadBlob(new Blob([JSON.stringify(document, null, 2) + '\n'], {type: 'application/json'}),
+      `jersey-generic-${genericSurface}-${GENERIC_REVISION}${edited ? '-custom' : ''}.json`);
   }
   function startEdit() {
     if (busy) return;
@@ -444,8 +482,9 @@ export default function App() {
   }
   // Everything the child pages read or call; the layout owns the shared state.
   const ctx = {
+    genericSurface, showGeneric, downloadGenericJson, exportSize, setExportSize, exportFormat, setExportFormat, exportRatio, setExportRatio,
     lighting, setLighting, exporting,
-    view3d, setView3d, pose3d, setPose3d, poseLocked, setPoseLocked, downloadActive,
+    view3d, setView3d, pose3d, setPose3d, poseLocked, setPoseLocked,
     catalog, select: show, addMany, activate, active, add, background, customBg, setCustomBg, busy, cancelEdit, candidate, candidateId,
     country, feedback, setFeedback, saveFeedback, draft, editBase, edited, editing, equipment, filtered, hoverOver,
     hoverPart, missing, part, parts, pickPart, previewConfig, query, review, reviews, saveEdit,
@@ -561,7 +600,7 @@ export default function App() {
                         <span>
                           <strong>{item.team_name}</strong>
                           <small>
-                            {variantLabel(item.variant)} · {item.kit_season}
+                            {item.kind === "generic" ? "Default design" : `${variantLabel(item.variant)} · ${item.kit_season}`}
                           </small>
                         </span>
                       </button>
@@ -620,6 +659,7 @@ export default function App() {
                     <option key={id} value={id}>{f.label}</option>
                   ))}
                 </select>
+                {genericSurface && <button className="secondary" onClick={downloadGenericJson} disabled={!!exporting || editing || busy}>Download design JSON</button>}
                 <button className="secondary" disabled={!selection.length || !!exporting} onClick={() => askDownload(selection, false)}>
                   <Icon name="download" size={15} />
                   Download all

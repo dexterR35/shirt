@@ -1,0 +1,34 @@
+NETBET SPORT — PAINTED GENERIC JERSEY r002
+13 October 2026 | UX Lead approval pending
+
+Original base.png (8000 x 5000) is the fabric and silhouette source.
+Nine validated vector layers add graphite shoulders, angular silver chest
+facets, tapered side panels and fine tonal edge paint. Physical collar and
+source alpha are preserved; fabric is neither traced nor replaced.
+No team identity, sponsor, number or lettering.
+
+FILES
+52 square transparent PNG/lossless WebP exports: 24, 32, 40, 48, 64, 80, 96, 128, 160, 168, 256, 336, 512 px.
+Two 8000 x 5000 PNG masters preserve the original full canvas and alpha.
+The square exports use the established tight crop for small UI slots.
+Use on-dark on dark components; on-light on light components.
+Use 2x source size for the CSS slot (24 -> 48, 48 -> 96, 64 -> 128).
+24 CSS px is the proposed minimum. Keep aspect ratio and full opacity.
+
+EDITABLE PAINT
+editable-paint contains JSON configs and paint-only SVGs in 200-unit space.
+These SVGs are source layers, not standalone jersey icons; final fabric
+composites are PNG/WebP. Rebuild: node scripts/build-painted-generic-jersey.mjs
+Implementation: src/lib/generic-jersey-painted.js and src/lib/png-shirt.js.
+
+USAGE
+Use only for an unmapped club jersey. Retain mapped team jerseys and national
+flags. Fallback logic is a separate Development task. Use empty alt text
+when adjacent text already names the team; otherwise supply the team name.
+
+REVIEW
+review-board.png shows both variants and 24–80 px specimens.
+User identified the existing project styling as NetBet Sport context.
+Validate in actual component slots and obtain UX Lead approval before release.
+PNG/WebP is proposed to retain original fabric; format agreement is pending.
+No Figma. r001 remains unchanged.

@@ -1,0 +1,78 @@
+NETBET SPORT — GENERIC JERSEY
+GIMODEAR-15531 | Proposal r001 | 13 October 2026
+Status: ready for UX review; not approved for production release.
+
+DESIGN
+Neutral silver/graphite shirt with tonal round collar and cuffs. No team badge,
+country symbol, manufacturer logo, sponsor, number, lettering or team pattern.
+Uses the project's original 8000 × 5000 base.png fabric and alpha, with validated
+paint geometry. The source is unchanged. No replacement collar is drawn.
+
+VARIANTS
+on-dark: body #C4C4C4; collar #909090; cuffs #ACACAC.
+on-light: body #949494; collar #6B6B6B; cuffs #828282.
+These are paint multipliers, not flat output pixels: original fabric shading
+remains. Select by the component's actual background, not only the page theme.
+No coloured accent is included, to avoid implying a club or national identity.
+
+FILES
+assets/jersey-generic-{on-dark|on-light}-r001-{size}.{png|webp}
+Square transparent canvas; preserve aspect ratio. PNG and lossless WebP.
+Sizes in pixels: 24, 32, 40, 48, 64, 80, 96, 128, 160, 168, 256, 336, 512.
+52 assets total. manifest.json lists dimensions, bytes and SHA-256 hashes.
+The WebP encoding preserves all visible RGB and alpha. Fully transparent
+pixels may have different invisible RGB values after lossless encoding.
+
+PROPOSED DISPLAY SIZES — CONFIRM WITH ACTUAL NETBET COMPONENTS
+Competition/event rows: 24–32 CSS px; 48–64 px source at 2×.
+Homepage/event cards: 40–48 CSS px; 80–96 px source at 2×.
+Event detail: 64–80 CSS px; 128–160 px source at 2×.
+Existing 168 px slot: 168 px at 1× or 336 px at 2×.
+Use 24 CSS px as a provisional minimum. Smaller slots need separate review.
+Use object-fit: contain, fixed width/height and full opacity. Do not stretch,
+crop, tint with CSS filters or flatten onto a background. Keep existing slot
+alignment and spacing; the square asset already includes transparent margins.
+Use the matching size or a higher-resolution source for the target density.
+
+BEHAVIOUR CONTRACT — IMPLEMENTATION IS SEPARATE
+1. A mapped national country flag stays a flag.
+2. A mapped club jersey stays the existing team jersey.
+3. An unmapped club uses the generic asset for its component surface.
+4. Missing national flags are outside this ticket; do not introduce a rule.
+5. Development should confirm failed-image handling and prevent retry loops.
+If the adjacent text already names the team, use alt="" to avoid duplicate
+screen-reader content. Otherwise provide an accessible team name. This image
+communicates a generic visual fallback and must not imply a verified team kit.
+
+FORMAT DECISION
+PNG/WebP is proposed because the repository explicitly requires retaining the
+original PNG fabric detail. A simplified traced SVG would contradict that
+direction; a raster embedded inside SVG would not provide vector scalability.
+The ticket's alternative-format agreement remains pending with UX. There is
+no production SVG in this delivery. Editable paint lives in the two config
+JSON files; reproduction uses scripts/build-generic-jersey.mjs.
+
+REVIEW EVIDENCE AND LIMITS
+review-board.png: large previews and 24/32/40/48/64/80 px specimens on navy/white.
+component-previews.png: local proof covers fixture card, competition row and
+event header on each surface. Layout source: scripts/build-generic-jersey.mjs.
+Open review.html for a local review page and direct asset downloads.
+The proofs were visually inspected. Native composite alpha matches the source;
+both export formats preserve resized visible RGB and alpha. The source-data
+audit passes (735 teams, 779 memberships, 1470 research slots preserved).
+This handoff does not implement Sports frontend fallback logic or change
+researched kit revisions. Existing Studio preview work is separate.
+The user confirmed this project's T-shirt styling as the NetBet Sport context
+on 13 October 2026 and requested focus on the shirt. Backgrounds come from the
+local project; proof labels use Arial. Component layouts remain illustrative.
+
+LOCAL REVIEW DELIVERY
+The user explicitly excluded Figma on 13 October 2026. The local review page,
+review-board.png and component-previews.png replace the Figma reference.
+No Figma publication or transfer approval is required for this delivery.
+
+RELEASE CHECKLIST — OPEN
+- Validate the proposed sizes in real desktop/mobile components at 1× and 2×.
+- Agree PNG/WebP as the deliverable format for this source-based design.
+- Obtain UX Lead approval and record reviewer, date and approved revision.
+After approval, freeze r001; subsequent visual changes must use a new revision.

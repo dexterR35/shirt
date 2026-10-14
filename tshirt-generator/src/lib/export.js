@@ -37,6 +37,7 @@ const sizeTag = (size, ratio) => {
 export const EXPORT_FORMATS = Object.freeze({
   png: Object.freeze({ label: "PNG", type: "image/png", extension: "png" }),
   webp: Object.freeze({ label: "WebP", type: "image/webp", extension: "webp" }),
+  svg: Object.freeze({ label: "SVG", type: "image/svg+xml", extension: "svg" }),
   avif: Object.freeze({ label: "AVIF", type: "image/avif", extension: "avif" }),
 });
 
@@ -48,7 +49,7 @@ export const EXPORT_FORMATS = Object.freeze({
 export async function renderImage(config, size, format = "png", ratio = "1:1", lighting = 0) {
   if (!EXPORT_SIZES.includes(size)) throw Error("Choose one of the offered download sizes.");
   const spec = EXPORT_FORMATS[format];
-  if (!spec) throw Error("Choose PNG, WebP or AVIF.");
+  if (!spec) throw Error("Choose PNG, WebP, SVG or AVIF.");
   const { width, height } = exportDimensions(size, ratio);
   // Rendering and encoding run in the download worker, so the page never freezes.
   return renderEncoded(config, Math.min(width, height), { type: spec.type, label: spec.label, width, height }, lighting);

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "templateVersion": "replacement-front-3",
+  "coordinateSpace": "reference-200",
+  "colors": {
+    "body": "#3B526B",
+    "leftSleeve": "#23ACA2",
+    "rightSleeve": "#23ACA2",
+    "collar": "#60E4C3",
+    "leftCuff": "#24465A",
+    "rightCuff": "#24465A"
+  },
+  "collar": {
+    "shape": "original"
+  },
+  "layers": [
+    {
+      "id": "rear-rounded-panel",
+      "type": "path",
+      "clip": "body",
+      "d": "M104 52L149 39Q156 37 158 45L195 185L123 209L89 69Q87 57 104 52Z",
+      "fill": "#087F81"
+    },
+    {
+      "id": "front-rounded-panel",
+      "type": "path",
+      "clip": "body",
+      "d": "M47 74L112 55Q121 52 124 62L167 209L78 233L39 88Q37 78 47 74Z",
+      "fill": "#13A59B"
+    },
+    {
+      "id": "mint-panel-edge",
+      "type": "path",
+      "clip": "body",
+      "d": "M47 74L112 55Q121 52 124 62L125 66Q122 57 113 60L48 79Q40 82 42 90L39 88Q37 78 47 74Z",
+      "fill": "#60E4C3"
+    },
+    {
+      "id": "left-shoulder-paint",
+      "type": "path",
+      "clip": "all",
+      "d": "M0 0H76L65 10L38 24L28 37L0 30Z",
+      "fill": "#23ACA2"
+    },
+    {
+      "id": "right-shoulder-paint",
+      "type": "path",
+      "clip": "all",
+      "d": "M200 0H124L135 10L162 24L172 37L200 30Z",
+      "fill": "#23ACA2"
+    }
+  ]
+}

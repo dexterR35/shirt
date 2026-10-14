@@ -71,6 +71,16 @@ async function render({ size, base, paint, lighting = 0 }) {
 async function encode(pixels, { type, label, width, height }) {
   const canvas = new OffscreenCanvas(width, height), ctx = canvas.getContext("2d");
   ctx.putImageData(pixels, Math.floor((width - pixels.width) / 2), Math.floor((height - pixels.height) / 2));
+  if (type === "image/svg+xml") {
+    // Preserve the exact fabric composite and alpha inside a self-contained SVG.
+    const png = await canvas.convertToBlob({ type: "image/png" });
+    const bytes = new Uint8Array(await png.arrayBuffer());
+    const chunks = [];
+    for (let i = 0; i < bytes.length; i += 32768)
+      chunks.push(String.fromCharCode(...bytes.subarray(i, i + 32768)));
+    const data = btoa(chunks.join(""));
+    return new Blob([`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}"><desc>Shirt render with original fabric detail, embedded as a PNG image.</desc><image width="${width}" height="${height}" href="data:image/png;base64,${data}"/></svg>`], { type });
+  }
   if (type === "image/avif") {
     // The AVIF encoder (WebAssembly) loads only when AVIF is first chosen.
     const { default: encodeAvif } = await import("@jsquash/avif/encode.js");

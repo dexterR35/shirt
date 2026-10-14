@@ -49,16 +49,16 @@ test("all 735 real teams, accent search and responsive layout", async ({
   page,
 }) => {
   await page.goto("/");
-  await expect(page.locator(".team-row")).toHaveCount(735);
+  await expect(page.locator(".team-row").filter({hasNotText: "Default shirt"})).toHaveCount(735);
   await page
     .getByLabel("Country / association")
     .selectOption({ label: "Romania (134)" });
-  await expect(page.locator(".team-row")).toHaveCount(134);
+  await expect(page.locator(".team-row").filter({hasNotText: "Default shirt"})).toHaveCount(134);
   await page.getByLabel("Team", { exact: true }).fill("zzzz-no-result");
   await expect(page.getByText("No teams found")).toBeVisible();
   await page.getByLabel("Team", { exact: true }).fill("");
   await page.getByLabel("Country / association").selectOption({ label: "All countries" });
-  await expect(page.locator(".team-row")).toHaveCount(735);
+  await expect(page.locator(".team-row").filter({hasNotText: "Default shirt"})).toHaveCount(735);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(
     await page.evaluate(
@@ -70,12 +70,12 @@ test("all 735 real teams, accent search and responsive layout", async ({
     fullPage: true,
   });
 });
-test("the studio opens on the plain base; choosing a team or variant paints it at once and survives reload", async ({
+test("the studio opens on the generic default; choosing a team or variant paints it at once and survives reload", async ({
   page,
 }) => {
   await setup(page);
   const shirt = page.locator(".shirt-image");
-  await expect(shirt).toHaveAttribute("aria-label", "Original PNG shirt");
+  await expect(shirt).toHaveAttribute("aria-label", "Generic jersey on-dark");
   await page.getByRole("button", { name: /Știința Test Romania/ }).click();
   await expect(shirt).toHaveAttribute("aria-label", "Știința Test home shirt");
   await expect(shirt).toHaveAttribute("data-render-state","ready");
@@ -94,13 +94,18 @@ test("the studio opens on the plain base; choosing a team or variant paints it a
   await page.reload();
   await expect(shirt).toHaveAttribute("aria-label", "Test Team 2 home shirt");
   await expect(shirt).toHaveAttribute("data-render-state","ready");
+  await page.getByRole("button", { name: /Test Team 6 Romania/ }).click();
+  await expect(shirt).toHaveAttribute("aria-label", "Original PNG shirt");
+  await expect(page.locator('.canvas-caption p')).toHaveText('Home kit not available yet');
+  await page.getByRole("button", { name: "Clear team", exact: true }).click();
+  await expect(shirt).toHaveAttribute("aria-label", "Generic jersey on-dark");
 });
 test("ten selections, no truncation, independent Home/Away and synchronized navigation", async ({
   page,
 }) => {
   await setup(page);
   for (let i = 0; i < 5; i++) {
-    await page.locator(".team-row").nth(i).click();
+    await page.locator(".team-row").filter({hasNotText: "Default shirt"}).nth(i).click();
     for (const variant of ["Home", "Away"]) {
       await page.getByRole("button", { name: variant, exact: true }).click();
       await page
@@ -109,7 +114,7 @@ test("ten selections, no truncation, independent Home/Away and synchronized navi
     }
   }
   await expect(page.locator(".collection-item")).toHaveCount(10);
-  await page.locator(".team-row").nth(5).click();
+  await page.locator(".team-row").filter({hasNotText: "Default shirt"}).nth(5).click();
   await page
     .getByRole("button", { name: "Add to collection", exact: true })
     .click();
@@ -134,7 +139,7 @@ test("missing saved asset is recoverable and leaves the previous preview intact"
   page,
 }) => {
   await setup(page);
-  await page.locator(".team-row").nth(0).click();
+  await page.locator(".team-row").filter({hasNotText: "Default shirt"}).nth(0).click();
   await expect(page.locator(".shirt-image")).toHaveAttribute(
     "aria-label",
     "Știința Test home shirt",
@@ -142,13 +147,13 @@ test("missing saved asset is recoverable and leaves the previous preview intact"
   await page.route("**/fixture/1-home.json", (r) =>
     r.fulfill({ status: 404, body: "missing" }),
   );
-  await page.locator(".team-row").nth(1).click();
+  await page.locator(".team-row").filter({hasNotText: "Default shirt"}).nth(1).click();
   await expect(page.getByRole("status")).toContainText(/could not/i);
   await expect(page.locator(".shirt-image")).toHaveAttribute(
     "aria-label",
     "Știința Test home shirt",
   );
-  await page.locator(".team-row").nth(2).click();
+  await page.locator(".team-row").filter({hasNotText: "Default shirt"}).nth(2).click();
   await expect(page.locator(".shirt-image")).toHaveAttribute(
     "aria-label",
     "Test Team 2 home shirt",
